@@ -1,0 +1,131 @@
+Thu Jun 15 07:22:34 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name lo, ipaddress 127.0.0.1, ipaddress scope local  
+Thu Jun 15 07:22:34 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name eth0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+eth0:0
+Thu Jun 15 07:22:34 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name lo, ipaddress ::1, ipaddress scope local  
+Thu Jun 15 07:22:34 UTC 2023Got event for new  ip - ipv4 eth0:0 192.168.28.10, react
+eth0:0
+Ignore irrelvant event 
+file count for ls /tmp/XDIAL_* : 0 \n 
+ gdial server has not started yet on any interface 
+Thu Jun 15 07:22:35 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name wlan0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:22:36 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name eth0, ipaddress fe80::aa4a:63ff:fe1e:5ade, ipaddress scope local  
+Thu Jun 15 07:22:36 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name eth0:0, ipaddress 192.168.28.10, ipaddress scope global  
+Thu Jun 15 07:22:36 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name eth0:0, ipaddress 10.0.0.19, ipaddress scope global  
+Thu Jun 15 07:22:36 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name eth0:0, ipaddress 10.0.0.19, ipaddress scope global  
+Thu Jun 15 07:22:37 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name eth0:0, ipaddress 10.0.0.19, ipaddress scope global  
+Thu Jun 15 07:22:37 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name eth0:0, ipaddress 10.0.0.19, ipaddress scope global  
+Thu Jun 15 07:22:37 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name eth0:0, ipaddress 10.0.0.19, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+eth0:0
+Ignore irrelvant event 
+eth0:0
+eth0:0
+Ignore irrelvant event 
+eth0:0
+eth0:0
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:22:39 UTC 2023Got event for new  ip - ipv4 eth0:0 10.0.0.19, react
+Thu Jun 15 07:22:39 UTC 2023Got event for new  ip - ipv4 eth0:0 10.0.0.19, react
+Thu Jun 15 07:22:39 UTC 2023Got event for new  ip - ipv4 eth0:0 10.0.0.19, react
+file count for ls /tmp/XDIAL_* : 0 \n 
+ gdial server has not started yet on any interface 
+file count for ls /tmp/XDIAL_* : 0 \n 
+ gdial server has not started yet on any interface 
+file count for ls /tmp/XDIAL_* : 0 \n 
+ gdial server has not started yet on any interface 
+Thu Jun 15 07:22:40 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name eth0, ipaddress 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:22:41 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name wlan0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:22:54 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name eth0, ipaddress 169.254.56.71, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:31 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby0, ipaddress 100.64.11.1, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:31 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby0:0, ipaddress 192.168.28.10, ipaddress scope global  
+Thu Jun 15 07:23:32 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name veth0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:32 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby_tap0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:33 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name dobby0, ipaddress 2080:d0bb:1e::6440:b01, ipaddress scope global  
+Thu Jun 15 07:23:33 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name veth0, ipaddress fe80::60f2:3fff:fe1a:47f2, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:33 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name dobby0, ipaddress fe80::ecb8:83ff:fe81:ae9c, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:35 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name veth1:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:23:37 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name veth1, ipaddress fe80::74a5:10ff:fe4a:2dfb, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:50 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv6, interface name veth1, ipaddress fe80::74a5:10ff:fe4a:2dfb, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:50 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name veth1:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:51 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv6, interface name veth0, ipaddress fe80::60f2:3fff:fe1a:47f2, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:51 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name dobby_tap0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:52 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv6, interface name dobby0, ipaddress 2080:d0bb:1e::6440:b01, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:52 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv6, interface name dobby0, ipaddress fe80::ecb8:83ff:fe81:ae9c, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:52 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name dobby0, ipaddress 100.64.11.1, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:31:52 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name dobby0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:32:59 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby0, ipaddress 100.64.11.1, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:32:59 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:32:59 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name veth1:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:32:59 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name dobby_tap0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:33:00 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name veth1, ipaddress fe80::f824:30ff:fee9:a85d, ipaddress scope local  
+Thu Jun 15 07:33:00 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name dobby0, ipaddress 2080:d0bb:1e::6440:b01, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:33:01 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name dobby0, ipaddress fe80::c40c:caff:fe67:9b7, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:33:04 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv4, interface name veth2:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:33:05 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event add, ipaddress type ipv6, interface name veth2, ipaddress fe80::40b2:d9ff:fe7e:a255, ipaddress scope local  
+eth0:0
+Ignore irrelvant event 
+Thu Jun 15 07:33:45 UTC 2023 /usr/share/xdial/restartXdial_onAddressChange.sh: Input Parameters : event delete, ipaddress type ipv4, interface name veth0:0, ipaddress 192.168.28.10, ipaddress scope global  
+eth0:0
+Ignore irrelvant event 

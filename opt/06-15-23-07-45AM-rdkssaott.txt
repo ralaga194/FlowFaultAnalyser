@@ -1,0 +1,5 @@
+230615-07:23:13.859688 SSA fkpskdf rfc enabled
+230615-07:23:13.956304 SSA Daemon is running
+230615-07:23:13.973002 Enabling FKPS based credentials
+230615-07:23:14.502880 xpki init ret 0
+230615-07:23:14.518587 ssa attempt 1 : /opt/certs/ottdevcert_1.pk12 cert creation success

@@ -1,0 +1,1211 @@
+2023 Jun 15 07:22:29.460018 systemd[1]:  Started Sky mount disk service.
+2023 Jun 15 07:22:29.464378 systemd[1]:  Starting ecfs init service...
+2023 Jun 15 07:22:29.466932 systemd[1]:  Starting Previous Log Backup Service...
+2023 Jun 15 07:22:29.469648 systemd[1]:  Starting Starts lxy database extraction in RDK-V...
+2023 Jun 15 07:22:29.473904 systemd[1]:  Starting Remount Root and Kernel File Systems...
+2023 Jun 15 07:22:29.474411 systemd[1]:  var-lib.mount: Directory /var/lib to mount over is not empty, mounting anyway.
+2023 Jun 15 07:22:29.476213 systemd[1]:  Mounting Bind mount volatile /var/lib...
+2023 Jun 15 07:22:29.521092 systemd[1]:  Mounted Bind mount volatile /var/lib.
+2023 Jun 15 07:22:29.529633 systemd[1]:  Started Remount Root and Kernel File Systems.
+2023 Jun 15 07:22:29.535235 systemd[1]:  Starting Flush Journal to Persistent Storage...
+2023 Jun 15 07:22:29.540332 systemd[1]:  Starting Create Static Device Nodes in /dev...
+2023 Jun 15 07:22:29.547175 systemd[1]:  Starting udev Coldplug all Devices...
+2023 Jun 15 07:22:29.567066 systemd[1]:  Started Flush Journal to Persistent Storage.
+2023 Jun 15 07:22:29.580493 systemd[1]:  Started Create Static Device Nodes in /dev.
+2023 Jun 15 07:22:29.582357 systemd[1]:  Starting udev Kernel Device Manager...
+2023 Jun 15 07:22:29.583038 systemd[1]:  Reached target Local File Systems (Pre).
+2023 Jun 15 07:22:29.592488 systemd[1]:  Mounting /var/volatile...
+2023 Jun 15 07:22:29.622349 systemd[1]:  Mounted /var/volatile.
+2023 Jun 15 07:22:29.646142 systemd[1]:  Starting Bind mount volatile /var/spool/cron...
+2023 Jun 15 07:22:29.659484 systemd[1]:  Starting Bind mount volatile /etc/hosts...
+2023 Jun 15 07:22:29.660106 systemd[1]:  Starting Bind mount volatile /etc/hostname...
+2023 Jun 15 07:22:29.667332 systemd[1]:  Starting Bind mount volatile /etc/asound.conf...
+2023 Jun 15 07:22:29.674678 systemd[1]:  Starting Bind mount volatile /etc/resolv.conf...
+2023 Jun 15 07:22:29.683520 systemd[1]:  Starting Bind mount volatile /www...
+2023 Jun 15 07:22:29.710890 systemd[1]:  Starting Bind mount volatile /etc/resolv.dnsmasq...
+2023 Jun 15 07:22:29.714478 systemd[1]:  Started udev Kernel Device Manager.
+2023 Jun 15 07:22:29.898261 systemd[1]:  Started Starts lxy database extraction in RDK-V.
+2023 Jun 15 07:22:29.921273 systemd[1]:  Started Bind mount volatile /var/spool/cron.
+2023 Jun 15 07:22:29.927641 systemd[1]:  Started Bind mount volatile /etc/hosts.
+2023 Jun 15 07:22:29.929242 systemd[1]:  Started Bind mount volatile /etc/hostname.
+2023 Jun 15 07:22:29.932729 systemd[1]:  Started Bind mount volatile /etc/asound.conf.
+2023 Jun 15 07:22:29.934139 systemd[1]:  Started Bind mount volatile /etc/resolv.conf.
+2023 Jun 15 07:22:29.935575 systemd[1]:  Started Bind mount volatile /www.
+2023 Jun 15 07:22:29.937282 systemd[1]:  Started Bind mount volatile /etc/resolv.dnsmasq.
+2023 Jun 15 07:22:30.250665 systemd[1]:  Started Load Kernel Modules.
+2023 Jun 15 07:22:30.253780 systemd[1]:  Starting Apply Kernel Variables...
+2023 Jun 15 07:22:30.256583 systemd[1]:  Mounting Configuration File System...
+2023 Jun 15 07:22:30.262419 systemd[1]:  Mounting FUSE Control File System...
+2023 Jun 15 07:22:30.300439 systemd[1]:  Mounted Configuration File System.
+2023 Jun 15 07:22:30.301003 systemd[1]:  Mounted FUSE Control File System.
+2023 Jun 15 07:22:30.307452 systemd[1]:  Started Apply Kernel Variables.
+2023 Jun 15 07:22:30.512332 systemd[1]:  Starting Starts lxy database extraction in RDK-V...
+2023 Jun 15 07:22:30.532581 systemd[1]:  Started udev Coldplug all Devices.
+2023 Jun 15 07:22:30.605653 systemd[1]:  Found device /dev/ttyS0.
+2023 Jun 15 07:22:30.629677 systemd[1]:  Found device /eth0.
+2023 Jun 15 07:22:30.852293 systemd[1]:  Started Starts lxy database extraction in RDK-V.
+2023 Jun 15 07:22:31.018299 systemd[1]:  Started ecfs init service.
+2023 Jun 15 07:22:31.110020 systemd[1]:  Starting Secure mount service...
+2023 Jun 15 07:22:31.169716 systemd[1]:  Started Secure mount service.
+2023 Jun 15 07:22:31.173366 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.174123 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.175484 systemd[1]:  Starting Start/Stop the workload manager...
+2023 Jun 15 07:22:31.408726 systemd[1]:  Started Start/Stop the workload manager.
+2023 Jun 15 07:22:31.447987 systemd[1]:  Found device /dev/mmcblk0p16.
+2023 Jun 15 07:22:31.673545 systemd[1]:  Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2023 Jun 15 07:22:31.675946 systemd[1]:  Mounting /media/apps...
+2023 Jun 15 07:22:31.678957 systemd[1]:  Starting Start/Stop the CGroups Rules Engine Daemon...
+2023 Jun 15 07:22:31.710249 systemd[1]:  Mounted /media/apps.
+2023 Jun 15 07:22:31.711014 systemd[1]:  Reached target Local File Systems.
+2023 Jun 15 07:22:31.713777 systemd[1]:  Starting Create Volatile Files and Directories...
+2023 Jun 15 07:22:31.716645 systemd[1]:  Started hdcp Startup.
+2023 Jun 15 07:22:31.742165 systemd[1]:  Started Create Volatile Files and Directories.
+2023 Jun 15 07:22:31.745107 systemd[1]:  Starting Update UTMP about System Boot/Shutdown...
+2023 Jun 15 07:22:31.750035 systemd[1]:  Starting Network Time Synchronization...
+2023 Jun 15 07:22:31.751982 systemd[1]:  Starting Prepare certs for mutual authentification...
+2023 Jun 15 07:22:31.756785 systemd[1]:  Started Start/Stop the CGroups Rules Engine Daemon.
+2023 Jun 15 07:22:31.760909 systemd[1]:  Starting Start/Stop the workload manager...
+2023 Jun 15 07:22:31.763525 systemd[1]:  Starting Start/Stop the workload manager...
+2023 Jun 15 07:22:31.784301 systemd[1]:  Started Start/Stop the workload manager.
+2023 Jun 15 07:22:31.785507 systemd[1]:  Started Start/Stop the workload manager.
+2023 Jun 15 07:22:31.789462 systemd[1]:  Started Update UTMP about System Boot/Shutdown.
+2023 Jun 15 07:22:31.820974 systemd[1]:  Started Previous Log Backup Service.
+2023 Jun 15 07:22:31.823753 systemd[1]:  Starting System Logger Daemon...
+2023 Jun 15 07:22:31.826361 systemd[1]:  Starting Log RDK Started Service...
+2023 Jun 15 07:22:31.834173 systemd[1]:  Started Prepare certs for mutual authentification.
+2023 Jun 15 07:22:31.845062 systemd[1]:  Started System Logger Daemon.
+2023 Jun 15 07:22:31.849625 systemd[1]:  Starting Emmc Checkup Service...
+2023 Jun 15 07:22:31.857388 systemd[1]:  Started Emmc Checkup Service.
+2023 Jun 15 07:22:31.860363 systemd[1]:  Starting Load/Save RF Kill Switch Status...
+2023 Jun 15 07:22:31.863859 systemd[1]:  Started Log RDK Started Service.
+2023 Jun 15 07:22:31.873556 systemd[1]:  Started Network Time Synchronization.
+2023 Jun 15 07:22:31.874190 systemd[1]:  Reached target System Initialization.
+2023 Jun 15 07:22:31.874679 systemd[1]:  Started Disk Space Monitor Timer.
+2023 Jun 15 07:22:31.875268 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.875866 systemd[1]:  Started Timer to log start & end date of static and dynamic operational certificates.
+2023 Jun 15 07:22:31.876360 systemd[1]:  Started Start Telemetry2_0.
+2023 Jun 15 07:22:31.876967 systemd[1]:  Started Log Rotation Timer.
+2023 Jun 15 07:22:31.877606 systemd[1]:  Started rdkssa shipd daemon.
+2023 Jun 15 07:22:31.878808 systemd[1]:  Starting rdkssa shipd daemon...
+2023 Jun 15 07:22:31.879270 systemd[1]:  Started Lxc reboot path.
+2023 Jun 15 07:22:31.879676 systemd[1]:  Started CPU Proc Analyzer Deamon.
+2023 Jun 15 07:22:31.880062 systemd[1]:  Started [upnp]Merges all the dns entries to a single file..
+2023 Jun 15 07:22:31.880464 systemd[1]:  Started Network connection status and wifi recovery timer.
+2023 Jun 15 07:22:31.881075 systemd[1]:  Started Disk Health Logger Timer.
+2023 Jun 15 07:22:31.881558 systemd[1]:  Started timer to trigger PCI bank mirrioring.
+2023 Jun 15 07:22:31.881980 systemd[1]:  Started Ping Telemetry Timer.
+2023 Jun 15 07:22:31.882380 systemd[1]:  Started NTP Server Time Sync Event.
+2023 Jun 15 07:22:31.882775 systemd[1]:  Started Reboot Counter Reset.
+2023 Jun 15 07:22:31.883162 systemd[1]:  Started Timesyncd restart path.
+2023 Jun 15 07:22:31.883567 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.883958 systemd[1]:  Started Parodus restart path.
+2023 Jun 15 07:22:31.884343 systemd[1]:  Started Update Previous reboot info path.
+2023 Jun 15 07:22:31.884794 systemd[1]:  Started [udhcpc]Merges all the dns entries to a single file..
+2023 Jun 15 07:22:31.885224 systemd[1]:  Listening on D-Bus System Message Bus Socket.
+2023 Jun 15 07:22:31.885633 systemd[1]:  Reached target Sockets.
+2023 Jun 15 07:22:31.887627 systemd[1]:  Started MoCA Status Logger Timer.
+2023 Jun 15 07:22:31.888151 systemd[1]:  Started Cec Daemon Path.
+2023 Jun 15 07:22:31.889051 systemd[1]:  Started Vital process information Timer.
+2023 Jun 15 07:22:31.889890 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.890663 systemd[1]:  Started Ntpd configuration file changes.
+2023 Jun 15 07:22:31.892416 systemd[1]:  Started Apps Download Path.
+2023 Jun 15 07:22:31.893841 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.894420 systemd[1]:  Started Path Exists.
+2023 Jun 15 07:22:31.894922 systemd[1]:  Reached target Paths.
+2023 Jun 15 07:22:31.895444 systemd[1]:  Reached target Basic System.
+2023 Jun 15 07:22:31.895955 systemd[1]:  Starting Launch confiuration and logging script during boot up...
+2023 Jun 15 07:22:31.896393 systemd[1]:  Starting Zero-configuration networking...
+2023 Jun 15 07:22:31.896921 systemd[1]:  Started binder servicemanager.
+2023 Jun 15 07:22:31.899110 systemd[1]:  Starting Reboot Reason Log to message.txt from reset_reason variable...
+2023 Jun 15 07:22:31.902047 systemd[1]:  Starting DNS forwarder and DHCP server...
+2023 Jun 15 07:22:31.905668 systemd[1]:  Starting network@eth0.service...
+2023 Jun 15 07:22:31.917551 systemd[1]:  Starting An IPC framework...
+2023 Jun 15 07:22:31.921606 systemd[1]:  Starting PQ Server Startup...
+2023 Jun 15 07:22:31.925442 systemd[1]:  Started Serial Getty on ttyUSB.
+2023 Jun 15 07:22:31.941090 systemd[1]:  Started Service to ensure pre condition for rdm apps download.
+2023 Jun 15 07:22:31.942734 systemd[1]:  Starting Co-pilot RDM Cleanup...
+2023 Jun 15 07:22:31.945337 systemd[1]:  Starting Ethernet Bridge Filtering Tables...
+2023 Jun 15 07:22:31.947759 systemd[1]:  Starting DOCSIS IP Connectivity...
+2023 Jun 15 07:22:31.953270 systemd[1]:  Starting Default Time Setter...
+2023 Jun 15 07:22:31.962750 systemd[1]:  Starting Power Mgr (pwrmgrSwitch)....
+2023 Jun 15 07:22:31.968117 systemd[1]:  Started Lightning Fast Webserver With Light System Requirements.
+2023 Jun 15 07:22:31.969309 systemd[1]:  Starting Schedule Maintenance by AutoReboot...
+2023 Jun 15 07:22:31.972386 systemd[1]:  Started Getty on tty1.
+2023 Jun 15 07:22:31.973022 systemd[1]:  Reached target Login Prompts.
+2023 Jun 15 07:22:31.996465 systemd[1]:  Started Vdec statistics for telemtry.
+2023 Jun 15 07:22:32.005575 systemd[1]:  Started Essos Resource Mgr.
+2023 Jun 15 07:22:32.006333 systemd[1]:  Starting Configure container permissions...
+2023 Jun 15 07:22:32.013831 systemd[1]:  Starting TV Server Startup...
+2023 Jun 15 07:22:32.037565 systemd[1]:  Starting Audio Server Startup...
+2023 Jun 15 07:22:32.038494 systemd[1]:  Starting Create avsync nodes at bootup...
+2023 Jun 15 07:22:32.039073 systemd[1]:  Started Daily Cleanup of Temporary Directories.
+2023 Jun 15 07:22:32.039733 systemd[1]:  Reached target Timers.
+2023 Jun 15 07:22:32.042073 systemd[1]:  Starting Reserve codec_mm_cma service...
+2023 Jun 15 07:22:32.042622 systemd[1]:  Reached target Sound Card.
+2023 Jun 15 07:22:32.045088 systemd[1]:  Started D-Bus System Message Bus.
+2023 Jun 15 07:22:32.138837 systemd[1]:  Starting IARM Bus Daemon...
+2023 Jun 15 07:22:32.141718 systemd[1]:  Starting IP Setup Monitor Service...
+2023 Jun 15 07:22:32.142274 systemd[1]:  Reached target System Time Synchronized.
+2023 Jun 15 07:22:32.158644 systemd[1]:  Started Launch confiuration and logging script during boot up.
+2023 Jun 15 07:22:32.163984 systemd[1]:  Started Reboot Reason Log to message.txt from reset_reason variable.
+2023 Jun 15 07:22:32.178740 systemd[1]:  Started An IPC framework.
+2023 Jun 15 07:22:32.181941 systemd[1]:  Started Co-pilot RDM Cleanup.
+2023 Jun 15 07:22:32.192529 systemd[1]:  Started Ethernet Bridge Filtering Tables.
+2023 Jun 15 07:22:32.194706 systemd[1]:  Started DOCSIS IP Connectivity.
+2023 Jun 15 07:22:32.197347 systemd[1]:  Started Default Time Setter.
+2023 Jun 15 07:22:32.198987 systemd[1]:  Started Power Mgr (pwrmgrSwitch)..
+2023 Jun 15 07:22:32.224130 systemd[1]:  Started Reserve codec_mm_cma service.
+2023 Jun 15 07:22:32.226648 systemd[1]:  Started IP Setup Monitor Service.
+2023 Jun 15 07:22:32.239546 systemd[1]:  mdns.service: PID file /var/run/mdnsd.pid not readable (yet?) after start: No such file or directory
+2023 Jun 15 07:22:32.246872 systemd[1]:  Started Schedule Maintenance by AutoReboot.
+2023 Jun 15 07:22:32.251734 systemd[1]:  Started IARM Bus Daemon.
+2023 Jun 15 07:22:32.260572 systemd[1]:  Started Create avsync nodes at bootup.
+2023 Jun 15 07:22:32.263541 systemd[1]:  Started TV Server Startup.
+2023 Jun 15 07:22:32.268303 systemd[1]:  Started network@eth0.service.
+2023 Jun 15 07:22:32.291247 systemd[1]:  Started Zero-configuration networking.
+2023 Jun 15 07:22:32.328933 systemd[1]:  Reached target Network is Online.
+2023 Jun 15 07:22:32.333329 systemd[1]:  Starting Cleans up Gstreamer Registry...
+2023 Jun 15 07:22:32.336233 systemd[1]:  Started Static multicast routing daemon.
+2023 Jun 15 07:22:32.356944 systemd[1]:  Starting Update device details cache file...
+2023 Jun 15 07:22:32.370695 systemd[1]:  Starting RDK Dobby (Container) daemon...
+2023 Jun 15 07:22:32.374339 systemd[1]:  Starting IARM Mgr Daemon SYS MGR...
+2023 Jun 15 07:22:32.386389 systemd[1]:  Started Session manager for rbus.
+2023 Jun 15 07:22:32.390631 systemd[1]:  Starting Reboot Reason Log Service...
+2023 Jun 15 07:22:32.398537 systemd[1]:  Started Update device details cache file.
+2023 Jun 15 07:22:32.474359 systemd[1]:  Started DNS forwarder and DHCP server.
+2023 Jun 15 07:22:32.511940 systemd[1]:  Started rdkssa shipd daemon.
+2023 Jun 15 07:22:32.512515 systemd[1]:  Started IARM Mgr Daemon SYS MGR.
+2023 Jun 15 07:22:32.570544 systemd[1]:  Started Audio Server Startup.
+2023 Jun 15 07:22:32.577730 systemd[1]:  Started RDK Dobby (Container) daemon.
+2023 Jun 15 07:22:32.591516 systemd[1]:  Starting IARM Mgr Daemon DS MGR...
+2023 Jun 15 07:22:32.633072 systemd[1]:  Started Cleans up Gstreamer Registry.
+2023 Jun 15 07:22:32.865275 systemd[1]:  Started PQ Server Startup.
+2023 Jun 15 07:22:33.116464 systemd[1]:  Started Reboot Reason Log Service.
+2023 Jun 15 07:22:33.149893 systemd[1]:  Started IARM Mgr Daemon DS MGR.
+2023 Jun 15 07:22:33.150467 systemd[1]:  Starting IARM Mgr Daemon Power MGR (pwrmgr)...
+2023 Jun 15 07:22:33.151026 systemd[1]:  Reached target Primary target for showing UI.
+2023 Jun 15 07:22:33.157227 systemd[1]:  Started An application to extract and deliver currently playing audio to registered consumers.
+2023 Jun 15 07:22:33.160314 systemd[1]:  Starting NTP Time Checker...
+2023 Jun 15 07:22:33.166640 systemd[1]:  Starting SoC Provisioning Daemon...
+2023 Jun 15 07:22:33.172136 systemd[1]:  Starting IARM Mgr Daemon MFR MGR...
+2023 Jun 15 07:22:33.190394 systemd[1]:  Starting Set up IP tables...
+2023 Jun 15 07:22:33.193351 systemd[1]:  Starting Update Mount Failure Count...
+2023 Jun 15 07:22:33.196405 systemd[1]:  Starting initialise qualcomm bluetooth device...
+2023 Jun 15 07:22:33.216499 systemd[1]:  Starting RDNSS starter for IPv6...
+2023 Jun 15 07:22:33.234315 systemd[1]:  Starting OOPS Dump service...
+2023 Jun 15 07:22:33.247716 systemd[1]:  Starting Preferred Network Interface Settings Loader...
+2023 Jun 15 07:22:33.270908 systemd[1]:  Started nuanceeve.
+2023 Jun 15 07:22:33.279845 systemd[1]:  Starting Card Provision Check service...
+2023 Jun 15 07:22:33.296316 systemd[1]:  Starting SSH Per-Connection Server...
+2023 Jun 15 07:22:33.319410 systemd[1]:  Starting Network Monitor Service....
+2023 Jun 15 07:22:33.321274 systemd[1]:  Starting TR69 Host Interface Daemon...
+2023 Jun 15 07:22:33.379271 systemd[1]:  Starting Scheduled Rebooting Service...
+2023 Jun 15 07:22:33.394992 systemd[1]:  Starting An instance of dropbear for free SSH access...
+2023 Jun 15 07:22:33.397931 systemd[1]:  Starting A service for manipulating hosts...
+2023 Jun 15 07:22:33.437159 systemd[1]:  Starting Enable OCSP support based on RFC...
+2023 Jun 15 07:22:33.451438 systemd[1]:  Starting IP Interface Monitor Service...
+2023 Jun 15 07:22:33.484853 systemd[1]:  Started NTP Time Checker.
+2023 Jun 15 07:22:33.486285 systemd[1]:  Started SoC Provisioning Daemon.
+2023 Jun 15 07:22:33.508767 systemd[1]:  Started Update Mount Failure Count.
+2023 Jun 15 07:22:33.517294 systemd[1]:  Started initialise qualcomm bluetooth device.
+2023 Jun 15 07:22:33.518314 systemd[1]:  Started RDNSS starter for IPv6.
+2023 Jun 15 07:22:33.523187 systemd[1]:  Started OOPS Dump service.
+2023 Jun 15 07:22:33.562170 systemd[1]:  Started Card Provision Check service.
+2023 Jun 15 07:22:33.566648 systemd[1]:  nlmon.service: PID file /run/nlmon.pid not readable (yet?) after start: No such file or directory
+2023 Jun 15 07:22:33.579090 systemd[1]:  Started Scheduled Rebooting Service.
+2023 Jun 15 07:22:33.594548 systemd[1]:  Started A service for manipulating hosts.
+2023 Jun 15 07:22:33.600156 systemd[1]:  Started IP Interface Monitor Service.
+2023 Jun 15 07:22:33.668910 systemd[1]:  Started Preferred Network Interface Settings Loader.
+2023 Jun 15 07:22:33.691575 systemd[1]:  Started Network Monitor Service..
+2023 Jun 15 07:22:33.716768 systemd[1]:  Starting Bluetooth service...
+2023 Jun 15 07:22:33.844775 systemd[1]:  Started Enable OCSP support based on RFC.
+2023 Jun 15 07:22:34.327373 systemd[1]:  Started Bluetooth service.
+2023 Jun 15 07:22:34.572525 systemd[1]:  Started IARM Mgr Daemon Power MGR (pwrmgr).
+2023 Jun 15 07:22:34.631400 systemd[1]:  Starting Mediarite service...
+2023 Jun 15 07:22:34.667161 systemd[1]:  Started An application to control the front-panel LEDs of CPE.
+2023 Jun 15 07:22:34.670400 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:22:34.671793 systemd[1]:  Started Panel data daemon.
+2023 Jun 15 07:22:34.713428 systemd[1]:  Starting Storagemanager main application...
+2023 Jun 15 07:22:34.714988 systemd[1]:  Starting Bluetooth Manager Daemon over IARM IPC...
+2023 Jun 15 07:22:34.831871 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:22:34.895255 systemd[1]:  Starting network@wlan0.service...
+2023 Jun 15 07:22:35.069364 systemd[1]:  Started network@wlan0.service.
+2023 Jun 15 07:22:35.147677 systemd[1]:  Starting WPA supplicant...
+2023 Jun 15 07:22:35.534852 systemd[1]:  Reached target Bluetooth.
+2023 Jun 15 07:22:35.783058 systemd[1]:  Started Storagemanager main application.
+2023 Jun 15 07:22:35.794108 systemd[1]:  Started Load/Save RF Kill Switch Status.
+2023 Jun 15 07:22:36.148148 systemd[1]:  Started WPA supplicant.
+2023 Jun 15 07:22:36.375677 systemd[1]:  Started Set up IP tables.
+2023 Jun 15 07:22:36.377321 systemd[1]:  Started IARM Mgr Daemon MFR MGR.
+2023 Jun 15 07:22:36.381690 systemd[1]:  Starting System Time Mgr dameon provides quality of time....
+2023 Jun 15 07:22:36.394132 systemd[1]:  Starting Network Manager Services (wifi, moca and bluetooth) Daemon...
+2023 Jun 15 07:22:36.461599 systemd[1]:  Started System Time Mgr dameon provides quality of time..
+2023 Jun 15 07:22:36.486792 systemd[1]:  Started rdkssa ott init.
+2023 Jun 15 07:22:36.583041 systemd[1]:  Started Network Manager Services (wifi, moca and bluetooth) Daemon.
+2023 Jun 15 07:22:36.619666 systemd[1]:  Created slice system-dnsmerge.slice.
+2023 Jun 15 07:22:36.622977 systemd[1]:  Starting udhcpc Merges all the dns entries....
+2023 Jun 15 07:22:37.589821 systemd[1]:  Started Timesyncd restart for ENV NTP URL.
+2023 Jun 15 07:22:37.594791 systemd[1]:  Starting Webpa parodus Daemon...
+2023 Jun 15 07:22:37.749701 systemd[1]:  Stopping DNS forwarder and DHCP server...
+2023 Jun 15 07:22:37.753098 systemd[1]:  Stopped DNS forwarder and DHCP server.
+2023 Jun 15 07:22:37.774522 systemd[1]:  Starting DNS forwarder and DHCP server...
+2023 Jun 15 07:22:37.903056 systemd[1]:  Stopped SSH Per-Connection Server.
+2023 Jun 15 07:22:37.981141 systemd[1]:  Starting SSH Per-Connection Server...
+2023 Jun 15 07:22:38.837508 systemd[1]:  Started TR69 Host Interface Daemon.
+2023 Jun 15 07:22:38.840712 systemd[1]:  Starting Collectd...
+2023 Jun 15 07:22:38.853283 systemd[1]:  Starting Dump Backup Service...
+2023 Jun 15 07:22:38.855574 systemd[1]:  Starting IARM Mgr Daemon IR MGR...
+2023 Jun 15 07:22:38.856552 systemd[1]:  Starting zram initialization service...
+2023 Jun 15 07:22:38.904211 systemd[1]:  Starting Cec Daemon Precheck...
+2023 Jun 15 07:22:38.909639 systemd[1]:  Started Service to start/stop xdialserver.
+2023 Jun 15 07:22:38.927782 systemd[1]:  Starting Control Manager Main Service...
+2023 Jun 15 07:22:38.942142 systemd[1]:  Started TR69 Agent.
+2023 Jun 15 07:22:38.943017 systemd[1]:  Starting RDK Remote Debugger...
+2023 Jun 15 07:22:38.986788 systemd[1]:  Started webconfig service.
+2023 Jun 15 07:22:39.009066 systemd[1]:  Starting Starts ca bundle update in RDK-V...
+2023 Jun 15 07:22:39.182636 systemd[1]:  Started Bluetooth Manager Daemon over IARM IPC.
+2023 Jun 15 07:22:39.197375 systemd[1]:  Started DNS forwarder and DHCP server.
+2023 Jun 15 07:22:39.219059 systemd[1]:  Started Configure container permissions.
+2023 Jun 15 07:22:39.229974 systemd[1]:  Started udhcpc Merges all the dns entries..
+2023 Jun 15 07:22:39.266405 systemd[1]:  Started zram initialization service.
+2023 Jun 15 07:22:39.346522 systemd[1]:  Started Cec Daemon Precheck.
+2023 Jun 15 07:22:39.348026 systemd[1]:  Started Starts ca bundle update in RDK-V.
+2023 Jun 15 07:22:39.450918 systemd[1]:  Started Dump Backup Service.
+2023 Jun 15 07:22:39.545063 systemd[1]:  Started RDK Remote Debugger.
+2023 Jun 15 07:22:39.748860 systemd[1]:  Started IARM Mgr Daemon IR MGR.
+2023 Jun 15 07:22:39.847124 systemd[1]:  Started Collectd.
+2023 Jun 15 07:22:39.900255 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:22:40.075145 systemd[1]:  Stopping Collectd...
+2023 Jun 15 07:22:40.076307 systemd[1]:  Stopping TR69 Agent...
+2023 Jun 15 07:22:40.078434 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:22:40.082797 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:22:40.085638 systemd[1]:  Starting IARM Mgr Daemon DeepSleep MGR...
+2023 Jun 15 07:22:40.089117 systemd[1]:  Started Preferred Network Interface Controller.
+2023 Jun 15 07:22:40.095288 systemd[1]:  Started Cec Daemon Main.
+2023 Jun 15 07:22:40.101328 systemd[1]:  Starting wpeframework...
+2023 Jun 15 07:22:40.105935 systemd[1]:  Started FactoryComms service start on condition.
+2023 Jun 15 07:22:40.109709 systemd[1]:  Starting Sky Bluetooth RCU Daemon...
+2023 Jun 15 07:22:40.205951 systemd[1]:  Started An instance of dropbear for free SSH access.
+2023 Jun 15 07:22:40.236414 systemd[1]:  Stopped TR69 Agent.
+2023 Jun 15 07:22:40.275650 systemd[1]:  Stopped Collectd.
+2023 Jun 15 07:22:40.317951 systemd[1]:  Started IARM Mgr Daemon DeepSleep MGR.
+2023 Jun 15 07:22:40.404509 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:22:40.692286 systemd[1]:  Started wpeframework.
+2023 Jun 15 07:22:40.830038 systemd[1]:  Started Sky Bluetooth RCU Daemon.
+2023 Jun 15 07:22:41.425488 systemd[1]:  Stopped SSH Per-Connection Server.
+2023 Jun 15 07:22:41.486863 systemd[1]:  Started TR69 Agent.
+2023 Jun 15 07:22:41.497114 systemd[1]:  Starting SSH Per-Connection Server...
+2023 Jun 15 07:22:41.499203 systemd[1]:  Stopping NTP Time Checker...
+2023 Jun 15 07:22:41.503869 systemd[1]:  Stopping network@wlan0.service...
+2023 Jun 15 07:22:41.508055 systemd[1]:  Starting Airplay Deamon running on RDK...
+2023 Jun 15 07:22:41.588329 systemd[1]:  Started Resident app service for RDK platform.
+2023 Jun 15 07:22:41.599584 systemd[1]:  Starting Adding ssmparser and criparser data to opt/logs...
+2023 Jun 15 07:22:41.613346 systemd[1]:  Starting Subtec subttxrend-app service...
+2023 Jun 15 07:22:41.694657 systemd[1]:  Stopped NTP Time Checker.
+2023 Jun 15 07:22:41.747540 systemd[1]:  Started Airplay Deamon running on RDK.
+2023 Jun 15 07:22:41.819061 systemd[1]:  Stopped network@wlan0.service.
+2023 Jun 15 07:22:41.857080 systemd[1]:  Started Control Manager Main Service.
+2023 Jun 15 07:22:42.031081 systemd[1]:  Stopping DNS forwarder and DHCP server...
+2023 Jun 15 07:22:42.033949 systemd[1]:  Stopping TR69 Agent...
+2023 Jun 15 07:22:42.034533 systemd[1]:  Stopping Network Time Synchronization...
+2023 Jun 15 07:22:42.053319 systemd[1]:  Stopped DNS forwarder and DHCP server.
+2023 Jun 15 07:22:42.055226 systemd[1]:  Stopped TR69 Agent.
+2023 Jun 15 07:22:42.068326 systemd[1]:  Stopped Network Time Synchronization.
+2023 Jun 15 07:22:42.119207 systemd[1]:  Started Mediarite service.
+2023 Jun 15 07:22:42.293400 systemd[1]:  Starting Network Time Synchronization...
+2023 Jun 15 07:22:42.296530 systemd[1]:  Starting Update rf4ce device details cache file...
+2023 Jun 15 07:22:42.303222 systemd[1]:  Starting DNS forwarder and DHCP server...
+2023 Jun 15 07:22:42.333448 systemd[1]:  Started Update rf4ce device details cache file.
+2023 Jun 15 07:22:42.443077 systemd[1]:  Started Network Time Synchronization.
+2023 Jun 15 07:22:42.564172 systemd[1]:  Started DNS forwarder and DHCP server.
+2023 Jun 15 07:22:42.599871 systemd[1]:  Starting NTP Time Checker...
+2023 Jun 15 07:22:42.632814 systemd[1]:  Started NTP Time Checker.
+2023 Jun 15 07:22:42.717718 systemd[1]:  Stopped SSH Per-Connection Server.
+2023 Jun 15 07:22:42.777475 systemd[1]:  Starting SSH Per-Connection Server...
+2023 Jun 15 07:22:45.362338 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:22:45.364071 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:22:45.369934 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:22:45.415521 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:22:45.894827 systemd[1]:  Started Subtec subttxrend-app service.
+2023 Jun 15 07:22:48.552572 systemd[1]:  Started SSH Per-Connection Server.
+2023 Jun 15 07:22:50.425456 systemd[1]:  Started Webpa parodus Daemon.
+2023 Jun 15 07:22:50.459865 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:22:50.460583 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:22:50.463281 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:22:50.511644 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:22:54.499449 systemd[1]:  Stopped DOCSIS IP Connectivity.
+2023 Jun 15 07:22:54.500013 systemd[1]:  Stopping DOCSIS IP Connectivity...
+2023 Jun 15 07:22:54.517224 systemd[1]:  Starting DOCSIS IP Connectivity...
+2023 Jun 15 07:22:54.720472 systemd[1]:  Started DOCSIS IP Connectivity.
+2023 Jun 15 07:22:55.652670 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:22:55.654494 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:22:55.658414 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:22:55.676167 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:22:58.715455 systemd[1]:  Starting To start telemetry2_0...
+2023 Jun 15 07:22:58.757430 systemd[1]:  Started To start telemetry2_0.
+2023 Jun 15 07:23:00.718199 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:00.719310 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:00.720109 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:00.740125 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:05.750940 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:05.752020 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:05.753055 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:05.780313 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:10.961854 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:10.962514 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:10.963078 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:10.985113 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:11.732066 systemd[1]:  Started Adding ssmparser and criparser data to opt/logs.
+2023 Jun 15 07:23:11.732926 systemd[1]:  Reached target Multi-User System.
+2023 Jun 15 07:23:11.733494 systemd[1]:  Starting Update UTMP about System Runlevel Changes...
+2023 Jun 15 07:23:11.750018 systemd[1]:  Started Update UTMP about System Runlevel Changes.
+2023 Jun 15 07:23:11.750569 systemd[1]:  Startup finished in 2.389s (kernel) + 43.059s (userspace) = 45.449s.
+2023 Jun 15 07:23:13.254202 systemd[1]:  Time has been changed
+2023 Jun 15 07:23:13.258917 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:23:13.262421 systemd[1]:  Started xpki certificate aquisition.
+2023 Jun 15 07:23:13.278262 systemd[1]:  Starting Storing the ott symmetric keys in file system...
+2023 Jun 15 07:23:13.296589 systemd[1]:  Starting Update Previous reboot info...
+2023 Jun 15 07:23:13.980405 systemd[1]:  Started NTP event.
+2023 Jun 15 07:23:14.186987 systemd[1]:  Started Update Previous reboot info.
+2023 Jun 15 07:23:14.534185 systemd[1]:  Started Storing the ott symmetric keys in file system.
+2023 Jun 15 07:23:16.575188 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:16.578893 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:16.586268 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:16.622150 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:21.698170 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:21.698804 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:21.705469 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:21.745373 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:26.951631 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:26.952191 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:26.952656 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:26.969421 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:31.672949 systemd[1]:  Starting network@dobby0.service...
+2023 Jun 15 07:23:31.688954 systemd[1]:  Starting network@veth0.service...
+2023 Jun 15 07:23:31.727992 systemd[1]:  Starting network@dobby_tap0.service...
+2023 Jun 15 07:23:31.795856 systemd[1]:  Started network@dobby0.service.
+2023 Jun 15 07:23:31.797464 systemd[1]:  Started network@veth0.service.
+2023 Jun 15 07:23:31.834064 systemd[1]:  Started network@dobby_tap0.service.
+2023 Jun 15 07:23:31.978934 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:31.981126 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:31.984292 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:32.049953 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:35.515606 systemd[1]:  Starting network@veth1.service...
+2023 Jun 15 07:23:35.572544 systemd[1]:  Started network@veth1.service.
+2023 Jun 15 07:23:37.197226 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:37.198957 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:37.201787 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:37.247806 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:42.447418 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:42.448885 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:42.451766 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:42.467061 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:45.481819 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:23:46.042498 systemd[1]:  Started NTP event.
+2023 Jun 15 07:23:47.703128 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:47.703894 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:47.704635 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:47.725991 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:49.202788 systemd[1]:  Started Disk Health Logger Service.
+2023 Jun 15 07:23:49.205940 systemd[1]:  Started Disk Space Monitor Service.
+2023 Jun 15 07:23:49.209258 systemd[1]:  Started Moca Status Logger Service.
+2023 Jun 15 07:23:52.947257 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:52.949802 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:52.953809 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:52.970323 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:23:58.035266 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:23:58.036326 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:23:58.039106 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:23:58.054692 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:03.198117 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:03.199309 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:03.202555 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:03.217820 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:08.447252 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:08.448642 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:08.451542 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:08.468195 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:13.697255 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:13.698395 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:13.701451 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:13.718642 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:18.947191 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:18.948519 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:18.951779 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:18.968445 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:24.197205 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:24.198238 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:24.201235 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:24.219299 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:26.805816 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:24:29.201041 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:24:29.420611 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:29.422831 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:29.426087 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:29.443229 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:34.447237 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:34.449529 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:34.451938 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:34.468006 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:39.697234 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:39.698230 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:39.701328 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:39.716820 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:43.192507 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:24:43.744582 systemd[1]:  Started NTP event.
+2023 Jun 15 07:24:44.947219 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:44.949320 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:44.951981 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:44.967544 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:49.729541 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:24:50.197294 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:50.199558 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:50.202698 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:50.220407 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:50.283383 systemd[1]:  Started NTP event.
+2023 Jun 15 07:24:55.447238 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:24:55.449404 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:24:55.452582 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:24:55.468491 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:24:59.201274 systemd[1]:  Started Vital Process information Timer Service (R).
+2023 Jun 15 07:25:00.511882 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:00.515814 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:00.519209 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:00.554608 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:05.697083 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:05.698132 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:05.701419 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:05.716671 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:10.947367 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:10.948489 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:10.952283 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:10.967436 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:16.197225 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:16.198209 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:16.201409 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:16.216613 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:21.447182 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:21.448270 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:21.451159 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:21.467246 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:26.697237 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:26.698438 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:26.701626 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:26.719858 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:26.820266 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:25:29.474023 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:25:30.312364 systemd[1]:  Started Apps Download Service.
+2023 Jun 15 07:25:31.952273 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:31.952833 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:31.953292 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:31.968263 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:37.202219 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:37.202845 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:37.203687 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:37.220936 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:42.447211 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:42.448336 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:42.451155 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:42.468678 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:47.697549 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:47.698688 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:47.701980 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:47.717965 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:52.947247 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:52.948320 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:52.951272 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:52.967416 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:25:58.197249 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:25:58.198206 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:25:58.201242 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:25:58.217071 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:03.447213 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:03.448406 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:03.451484 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:03.468241 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:08.697229 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:08.698232 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:08.701282 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:08.717350 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:13.947236 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:13.948363 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:13.951216 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:13.967335 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:19.197201 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:19.198278 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:19.201301 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:19.217290 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:24.447203 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:24.448480 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:24.451517 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:24.467583 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:26.835253 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:26:26.839280 systemd[1]:  Starting Ping Telemetry Service...
+2023 Jun 15 07:26:26.940642 systemd[1]:  Started Ping Telemetry Service.
+2023 Jun 15 07:26:29.528934 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:29.530731 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:29.533609 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:29.536883 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:26:29.553712 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:34.697196 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:34.698212 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:34.701238 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:34.717364 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:39.947222 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:39.948368 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:39.951154 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:39.967204 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:45.197331 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:45.198328 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:45.201446 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:45.217416 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:50.447230 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:50.448287 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:50.451381 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:50.468244 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:55.525702 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:26:55.526791 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:26:55.529744 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:26:55.555396 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:26:57.977693 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:26:58.531018 systemd[1]:  Started NTP event.
+2023 Jun 15 07:27:00.697268 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:00.699986 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:00.702360 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:00.718138 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:05.947369 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:05.948796 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:05.952914 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:05.969589 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:11.197257 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:11.198237 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:11.201635 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:11.218961 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:16.447197 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:16.448297 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:16.451150 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:16.467927 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:21.697230 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:21.698229 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:21.701347 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:21.717535 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:26.845212 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:26.850461 systemd[1]:  Starting Service to mirror PCI & Firmware banks...
+2023 Jun 15 07:27:26.853840 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:27:26.854465 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:26.857230 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:26.889553 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:27.429099 systemd[1]:  Started Service to mirror PCI & Firmware banks.
+2023 Jun 15 07:27:29.586306 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:27:31.947239 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:31.949143 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:31.952020 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:31.968723 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:37.197195 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:37.198177 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:37.201187 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:37.217623 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:42.447230 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:42.448272 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:42.451180 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:42.467613 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:47.697212 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:47.698354 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:47.701551 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:47.717944 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:52.947219 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:52.948299 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:52.951262 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:52.967220 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:58.197216 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:27:58.198234 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:27:58.201271 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:27:58.217873 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:27:59.665841 systemd[1]:  Started Vital Process information Timer Service (R).
+2023 Jun 15 07:28:03.447216 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:03.449121 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:03.451932 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:03.468184 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:08.697212 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:08.698194 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:08.701210 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:08.717748 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:13.947232 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:13.948246 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:13.951181 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:13.968101 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:19.197221 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:19.198167 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:19.201094 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:19.217416 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:24.447237 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:24.448369 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:24.451521 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:24.468544 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:26.867512 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:28:29.518496 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:29.520407 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:29.521306 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:29.538598 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:29.645826 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:28:34.697264 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:34.699045 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:34.701868 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:34.718007 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:39.947226 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:39.948326 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:39.951196 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:39.969015 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:45.197172 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:45.198254 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:45.201267 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:45.217513 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:50.447340 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:50.448593 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:50.451666 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:50.470166 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:28:55.528100 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:28:55.528581 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:28:55.530572 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:28:55.550956 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:00.697224 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:00.698344 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:00.701547 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:00.719397 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:05.947226 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:05.948313 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:05.951302 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:05.968237 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:11.197230 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:11.198240 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:11.201299 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:11.217642 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:16.447228 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:16.448256 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:16.451179 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:16.469182 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:21.698360 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:21.698852 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:21.701561 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:21.717931 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:26.877576 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:26.882385 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:29:26.882925 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:26.886050 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:26.902957 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:29.694490 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:29:31.947292 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:31.949292 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:31.952480 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:31.970004 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:37.057894 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:37.058907 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:37.062065 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:37.083936 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:42.201619 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:42.202232 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:42.203383 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:42.217959 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:47.447237 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:47.448273 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:47.451285 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:47.469417 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:52.697208 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:52.698239 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:52.701202 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:52.717594 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:29:57.947219 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:29:57.948251 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:29:57.951338 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:29:57.967312 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:03.026768 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:03.027831 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:03.031083 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:03.047180 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:08.197227 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:08.198217 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:08.201244 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:08.217624 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:13.447202 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:13.448232 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:13.451337 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:13.467933 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:18.697436 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:18.698610 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:18.702051 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:18.724133 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:23.951379 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:23.951955 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:23.952488 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:23.967831 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:26.896391 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:30:29.197222 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:29.199001 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:29.201853 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:29.217977 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:29.816670 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:30:34.447202 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:34.449068 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:34.451861 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:34.470608 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:39.697272 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:39.698277 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:39.701334 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:39.717687 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:44.947215 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:44.948283 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:44.951151 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:44.967524 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:50.197223 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:50.198383 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:50.201468 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:50.217678 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:55.447210 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:30:55.448477 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:30:55.451412 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:30:55.467965 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:30:59.701152 systemd[1]:  Started Vital Process information Timer Service (R).
+2023 Jun 15 07:31:00.697899 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:00.703675 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:00.704322 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:00.722973 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:05.951739 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:05.952260 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:05.952812 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:05.968287 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:11.197258 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:11.198354 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:11.201780 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:11.220291 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:14.228653 systemd[1]:  Starting NTP event...
+2023 Jun 15 07:31:14.781311 systemd[1]:  Started NTP event.
+2023 Jun 15 07:31:16.447273 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:16.449482 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:16.452814 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:16.468920 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:21.697211 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:21.698317 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:21.701389 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:21.717451 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:26.906441 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:26.911568 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:31:26.912124 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:26.915328 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:26.932449 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:29.863759 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:31:31.947233 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:31.949108 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:31.951856 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:31.968696 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:37.197229 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:37.198337 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:37.201581 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:37.217663 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:42.447026 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:42.448462 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:42.451387 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:42.467296 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:47.697317 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:47.698408 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:47.701487 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:47.719757 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:50.079326 systemd[1]:  Stopping network@veth1.service...
+2023 Jun 15 07:31:50.210198 systemd[1]:  Stopped network@veth1.service.
+2023 Jun 15 07:31:51.597273 systemd[1]:  Stopping network@dobby_tap0.service...
+2023 Jun 15 07:31:51.640203 systemd[1]:  Stopping network@dobby0.service...
+2023 Jun 15 07:31:51.785297 systemd[1]:  Stopped network@dobby_tap0.service.
+2023 Jun 15 07:31:51.806060 systemd[1]:  Stopped network@dobby0.service.
+2023 Jun 15 07:31:52.825621 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:52.828371 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:52.832924 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:52.866314 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:31:56.922199 systemd[1]:  Started MINIDUMP UPLOAD.
+2023 Jun 15 07:31:57.947203 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:31:57.949167 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:31:57.952178 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:31:57.968099 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:00.147477 systemd[1]:  wpeframework.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:00.150391 systemd[1]:  Stopping Resident app service for RDK platform...
+2023 Jun 15 07:32:00.152817 systemd[1]:  Stopping Airplay Deamon running on RDK...
+2023 Jun 15 07:32:00.155073 systemd[1]:  Stopping Subtec subttxrend-app service...
+2023 Jun 15 07:32:00.163869 systemd[1]:  subttxrend-app.service: Main process exited, code=killed, status=9/KILL
+2023 Jun 15 07:32:00.165202 systemd[1]:  Stopped Subtec subttxrend-app service.
+2023 Jun 15 07:32:00.165830 systemd[1]:  subttxrend-app.service: Unit entered failed state.
+2023 Jun 15 07:32:00.166444 systemd[1]:  subttxrend-app.service: Failed with result 'signal'.
+2023 Jun 15 07:32:00.167856 systemd[1]:  Stopped Resident app service for RDK platform.
+2023 Jun 15 07:32:00.228943 systemd[1]:  Stopped Airplay Deamon running on RDK.
+2023 Jun 15 07:32:00.230574 systemd[1]:  Stopped wpeframework.
+2023 Jun 15 07:32:00.233466 systemd[1]:  Starting wpeframework...
+2023 Jun 15 07:32:00.771863 systemd[1]:  Started wpeframework.
+2023 Jun 15 07:32:00.776217 systemd[1]:  Starting Airplay Deamon running on RDK...
+2023 Jun 15 07:32:00.779368 systemd[1]:  Started Resident app service for RDK platform.
+2023 Jun 15 07:32:00.782820 systemd[1]:  Starting Subtec subttxrend-app service...
+2023 Jun 15 07:32:00.786858 systemd[1]:  Started Airplay Deamon running on RDK.
+2023 Jun 15 07:32:03.028622 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:03.030893 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:03.040039 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:03.082961 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:04.364225 systemd[1]:  Started Subtec subttxrend-app service.
+2023 Jun 15 07:32:08.197300 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:08.198150 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:08.201297 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:08.217013 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:13.451415 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:13.452088 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:13.452536 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:13.471736 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:18.701524 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:18.702046 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:18.702504 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:18.721983 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:23.952345 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:23.952963 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:23.953514 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:23.972271 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:26.926263 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:32:26.930132 systemd[1]:  Starting Log start & end date of static and dynamic operational certificates...
+2023 Jun 15 07:32:28.340952 systemd[1]:  Started Log start & end date of static and dynamic operational certificates.
+2023 Jun 15 07:32:29.197236 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:29.199079 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:29.201918 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:29.218179 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:32.208988 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:32:34.447212 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:34.449429 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:34.452364 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:34.468456 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:37.697247 systemd[1]:  airplay-daemon.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:37.699216 systemd[1]:  Stopped Airplay Deamon running on RDK.
+2023 Jun 15 07:32:37.702070 systemd[1]:  Starting Airplay Deamon running on RDK...
+2023 Jun 15 07:32:37.712941 systemd[1]:  Started Airplay Deamon running on RDK.
+2023 Jun 15 07:32:39.697256 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:39.699065 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:39.701891 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:39.717763 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:44.947224 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:44.948419 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:44.951624 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:44.970664 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:50.197259 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:50.204980 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:50.205596 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:50.228803 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:55.447300 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:32:55.448630 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:32:55.452443 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:32:55.509384 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:32:59.336498 systemd[1]:  Starting network@dobby0.service...
+2023 Jun 15 07:32:59.421948 systemd[1]:  Starting network@veth1.service...
+2023 Jun 15 07:32:59.427296 systemd[1]:  Starting network@dobby_tap0.service...
+2023 Jun 15 07:32:59.441078 systemd[1]:  Started network@dobby0.service.
+2023 Jun 15 07:32:59.533209 systemd[1]:  Started network@veth1.service.
+2023 Jun 15 07:32:59.589043 systemd[1]:  Started network@dobby_tap0.service.
+2023 Jun 15 07:33:00.703406 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:00.704702 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:00.705286 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:00.764480 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:04.072170 systemd[1]:  Starting network@veth2.service...
+2023 Jun 15 07:33:04.162319 systemd[1]:  Started network@veth2.service.
+2023 Jun 15 07:33:05.948090 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:05.949346 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:05.952146 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:05.970348 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:11.176860 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:11.178817 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:11.179413 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:11.195173 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:16.410442 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:16.411628 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:16.412807 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:16.435117 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:21.450967 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:21.451694 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:21.452224 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:21.467924 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:26.697301 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:26.698293 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:26.701591 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:26.718645 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:26.940350 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:33:31.947424 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:31.949128 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:31.952112 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:31.968518 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:33.033269 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:33:37.197249 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:37.199249 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:37.202364 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:37.219755 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:42.447236 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:42.448359 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:42.451237 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:42.468470 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:45.800071 systemd[1]:  Stopping network@veth0.service...
+2023 Jun 15 07:33:45.885870 systemd[1]:  Stopped network@veth0.service.
+2023 Jun 15 07:33:47.697249 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:47.699022 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:47.702147 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:47.717113 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:52.764076 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:52.764690 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:52.765264 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:52.782751 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:33:57.947218 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:33:57.948455 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:33:57.951340 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:33:57.967406 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:02.407153 systemd[1]:  Started Vital Process information Timer Service (R).
+2023 Jun 15 07:34:03.029146 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:03.031055 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:03.034186 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:03.050794 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:08.197216 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:08.198322 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:08.201401 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:08.217135 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:13.447243 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:13.448830 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:13.451963 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:13.467811 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:18.697258 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:18.698936 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:18.701995 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:18.718148 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:23.947254 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:23.948309 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:23.951314 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:23.968136 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:26.951273 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:34:29.197294 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:29.199844 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:29.202676 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:29.221074 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:34.202729 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:34:34.447273 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:34.449702 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:34.453341 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:34.470185 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:35.142525 systemd[1]:  Started Apps Download Service.
+2023 Jun 15 07:34:39.697256 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:39.699278 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:39.702582 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:39.718609 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:44.857505 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:44.858688 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:44.861788 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:44.877950 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:49.947213 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:49.948297 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:49.951373 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:49.967515 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:34:55.197198 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:34:55.198204 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:34:55.201858 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:34:55.217916 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:00.447228 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:00.448307 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:00.451980 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:00.467856 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:05.697205 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:05.698324 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:05.702007 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:05.718014 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:10.947205 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:10.948493 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:10.952370 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:10.968337 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:16.197224 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:16.198431 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:16.201782 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:16.217610 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:21.447225 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:21.448324 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:21.451539 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:21.468016 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:26.697188 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:26.698243 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:26.702001 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:26.718195 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:26.965536 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:35:31.947242 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:31.949145 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:31.952835 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:31.968911 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:37.198358 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:37.199186 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:37.202742 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:37.206161 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:35:37.219801 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:42.447262 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:42.448374 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:42.452048 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:42.468348 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:47.697221 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:47.698298 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:47.701690 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:47.717882 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:52.947139 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:52.952040 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:52.952562 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:52.968106 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:35:58.197260 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:35:58.198365 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:35:58.201973 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:35:58.218079 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:03.447281 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:03.448283 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:03.451881 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:03.467042 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:08.697212 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:08.698234 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:08.701723 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:08.716217 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:13.947191 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:13.948247 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:13.951140 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:13.968077 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:19.197209 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:19.198318 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:19.201927 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:19.216483 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:24.447229 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:24.448305 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:24.451124 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:24.466337 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:26.979659 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:36:29.697207 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:29.699024 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:29.702256 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:29.717779 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:34.947254 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:34.948371 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:34.951317 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:34.967550 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:39.201135 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:36:40.197216 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:40.199122 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:40.202151 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:40.218351 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:45.447221 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:45.448258 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:45.451385 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:45.467626 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:50.697244 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:50.698314 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:50.701474 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:50.717583 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:36:55.947225 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:36:55.948302 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:36:55.951286 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:36:55.967259 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:01.197248 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:01.198306 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:01.201353 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:01.217419 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:03.034183 systemd[1]:  Started Vital Process information Timer Service (R).
+2023 Jun 15 07:37:06.447239 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:06.449121 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:06.452343 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:06.468204 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:11.697229 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:11.698351 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:11.701335 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:11.719284 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:16.947226 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:16.948353 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:16.951185 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:16.966477 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:22.052215 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:22.053167 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:22.056705 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:22.076504 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:26.950288 systemd[1]:  Starting Cleanup of Temporary Directories...
+2023 Jun 15 07:37:26.965302 systemd[1]:  Started Cleanup of Temporary Directories.
+2023 Jun 15 07:37:26.993747 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:37:27.197215 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:27.199011 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:27.201943 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:27.218174 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:32.447200 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:32.448261 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:32.451204 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:32.468067 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:37.697244 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:37.698164 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:37.701240 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:37.717681 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:40.534099 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:37:42.947192 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:42.949113 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:42.951864 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:42.968376 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:48.030166 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:48.031193 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:48.034044 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:48.051372 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:53.197271 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:53.198271 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:53.201372 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:53.216602 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:37:58.447247 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:37:58.448348 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:37:58.451321 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:37:58.467595 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:03.697645 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:03.699428 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:03.702766 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:03.725103 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:08.947286 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:08.948480 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:08.951940 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:08.970377 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:14.197185 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:14.198179 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:14.201222 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:14.217241 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:19.447214 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:19.448309 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:19.451239 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:19.468171 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:24.697199 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:24.698283 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:24.701289 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:24.717204 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:27.007772 systemd[1]:  Started Network connection status and wifi recovery service.
+2023 Jun 15 07:38:29.950925 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:29.951680 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:29.953058 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:29.971072 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:35.197181 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:35.198339 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:35.201301 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:35.218414 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:40.447188 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:40.448265 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:40.451177 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:40.467681 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:44.891947 systemd[1]:  Started Log Rotation Timer Service (R).
+2023 Jun 15 07:38:45.539016 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:45.540995 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:45.543866 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:45.559928 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:50.697200 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:50.698218 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:50.701201 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:50.718081 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:38:55.952269 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:38:55.953001 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:38:55.953719 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:38:55.972137 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:39:01.200242 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:39:01.200881 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:39:01.205045 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:39:01.240819 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:39:06.447327 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:39:06.448577 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:39:06.452320 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:39:06.468384 systemd[1]:  Started HDCP firmware load.
+2023 Jun 15 07:39:11.701688 systemd[1]:  load_hdcp2.2_firmware.service: Service hold-off time over, scheduling restart.
+2023 Jun 15 07:39:11.702259 systemd[1]:  Stopped HDCP firmware load.
+2023 Jun 15 07:39:11.702763 systemd[1]:  Starting HDCP firmware load...
+2023 Jun 15 07:39:11.718039 systemd[1]:  Started HDCP firmware load.

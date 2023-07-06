@@ -1,0 +1,320 @@
+2023 Jun 15 07:24:59.220912 sh[15581]:  Clock Frequency Info:
+2023 Jun 15 07:24:59.225266 sh[15581]:  Logging for Yocto platforms...
+2023 Jun 15 07:24:59.238468 sh[15581]:  15.06.2023_07:24:59
+2023 Jun 15 07:24:59.241509 sh[15581]:   07:24:59 up 2 min,  1 user,  load average: 2.89, 1.86, 0.76
+2023 Jun 15 07:24:59.488426 sh[15581]:  top - 07:24:59 up 2 min,  1 user,  load average: 2.89, 1.86, 0.76
+2023 Jun 15 07:24:59.488542 sh[15581]:  Tasks: 275 total,   2 running, 273 sleeping,   0 stopped,   0 zombie
+2023 Jun 15 07:24:59.488615 sh[15581]:  %Cpu(s): 20.4 us, 19.2 sy,  1.0 ni, 58.9 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
+2023 Jun 15 07:24:59.488695 sh[15581]:  KiB Mem :  2052884 total,   182628 free,  1389032 used,   481224 buff/cache
+2023 Jun 15 07:24:59.488755 sh[15581]:  KiB Swap:  1026432 total,  1026432 free,        0 used.   550616 avail Mem
+2023 Jun 15 07:24:59.488815 sh[15581]:    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+2023 Jun 15 07:24:59.488874 sh[15581]:  15592 root      20   0    2504   1468   1076 R  21.1  0.1   0:00.08 top
+2023 Jun 15 07:24:59.488932 sh[15581]:   8880 root      20   0  260120  33836  25224 S  15.8  1.6   0:01.89 WPENetwork+
+2023 Jun 15 07:24:59.488992 sh[15581]:   8897 root      20   0  553060 151920  64696 S  10.5  7.4   0:18.54 WPEWebProc+
+2023 Jun 15 07:24:59.489051 sh[15581]:   7946 root      20   0  718388 117848  73176 S   5.3  5.7   0:24.24 WPEFramewo+
+2023 Jun 15 07:24:59.489133 sh[15581]:   8511 root      20   0    3480   1400   1180 S   5.3  0.1   0:00.11 dnsmasq
+2023 Jun 15 07:24:59.489196 sh[15581]:   8652 root      20   0  199916  29536  24792 S   5.3  1.4   0:01.54 ResidentApp
+2023 Jun 15 07:24:59.489263 sh[15581]:  13449 netflix   20   0  701280  98760  36064 S   5.3  4.8   0:06.86 Netflix-0
+2023 Jun 15 07:24:59.489324 sh[15581]:      1 root      20   0    5548   4604   2192 S   0.0  0.2   0:10.22 systemd
+2023 Jun 15 07:24:59.489385 sh[15581]:      2 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kthreadd
+2023 Jun 15 07:24:59.489445 sh[15581]:      3 root     -50   0       0      0      0 S   0.0  0.0   0:00.13 ksoftirqd/0
+2023 Jun 15 07:24:59.490250 sh[15581]:  ********** Disk Space Usage **********
+2023 Jun 15 07:24:59.495029 sh[15581]:  Filesystem                Size      Used Available Use% Mounted on
+2023 Jun 15 07:24:59.495146 sh[15581]:  none                   1000.8M      4.0K   1000.8M   0% /dev
+2023 Jun 15 07:24:59.495210 sh[15581]:  /dev/dm-0               358.3M    358.3M         0 100% /
+2023 Jun 15 07:24:59.495270 sh[15581]:  tmpfs                  1002.4M     40.0K   1002.3M   0% /dev/shm
+2023 Jun 15 07:24:59.495330 sh[15581]:  tmpfs                  1002.4M     17.0M    985.4M   2% /run
+2023 Jun 15 07:24:59.495394 sh[15581]:  tmpfs                  1002.4M         0   1002.4M   0% /sys/fs/cgroup
+2023 Jun 15 07:24:59.495845 sh[15581]:  tmpfs                  1002.4M     17.0M    985.4M   2% /etc/machine-id
+2023 Jun 15 07:24:59.495919 sh[15581]:  tmpfs                  1002.4M      3.9M    998.5M   0% /var/dolby
+2023 Jun 15 07:24:59.495980 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /tmp
+2023 Jun 15 07:24:59.496040 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /var/cache/bind
+2023 Jun 15 07:24:59.496120 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /etc/collectd.conf
+2023 Jun 15 07:24:59.496184 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /etc/systemd/timesyncd.conf
+2023 Jun 15 07:24:59.496281 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /etc/bind/named.conf.options
+2023 Jun 15 07:24:59.496357 sh[15581]:  tmpfs                  1002.4M      1.2M   1001.1M   0% /etc/dibbler
+2023 Jun 15 07:24:59.496431 sh[15581]:  /dev/mmcblk0p17           2.5G     36.3M      2.4G   1% /opt
+2023 Jun 15 07:24:59.496509 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /mnt/critical
+2023 Jun 15 07:24:59.496583 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/persistent
+2023 Jun 15 07:24:59.496643 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/panel
+2023 Jun 15 07:24:59.496704 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/www
+2023 Jun 15 07:24:59.496788 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/drm
+2023 Jun 15 07:24:59.496851 sh[15581]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/gp
+2023 Jun 15 07:24:59.496912 sh[15581]:  tmpfs                     5.0M         0      5.0M   0% /opt/oem
+2023 Jun 15 07:24:59.496982 sh[15581]:  tmpfs                   128.0M         0    128.0M   0% /mnt/memory
+2023 Jun 15 07:24:59.497046 sh[15581]:  /dev/mmcblk0p17           2.5G     36.3M      2.4G   1% /nvram
+2023 Jun 15 07:24:59.497113 sh[15581]:  /dev/mmcblk0p17           2.5G     36.3M      2.4G   1% /var/lib
+2023 Jun 15 07:24:59.497183 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/volatile
+2023 Jun 15 07:24:59.497244 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/spool/cron
+2023 Jun 15 07:24:59.497305 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/asound.conf
+2023 Jun 15 07:24:59.497372 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hosts
+2023 Jun 15 07:24:59.497436 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hostname
+2023 Jun 15 07:24:59.497553 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.conf
+2023 Jun 15 07:24:59.497626 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /www
+2023 Jun 15 07:24:59.497696 sh[15581]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.dnsmasq
+2023 Jun 15 07:24:59.497770 sh[15581]:  /opt/secure               2.5G     36.3M      2.4G   1% /opt/secure
+2023 Jun 15 07:24:59.497831 sh[15581]:  /opt/secure               2.5G     36.3M      2.4G   1% /nvram/secure
+2023 Jun 15 07:24:59.497893 sh[15581]:  /opt/secure               2.5G     36.3M      2.4G   1% /var/lib/secure
+2023 Jun 15 07:24:59.497953 sh[15581]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /data
+2023 Jun 15 07:24:59.498014 sh[15581]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /media/apps
+2023 Jun 15 07:25:00.512555 sh[15581]:  INSTANTANEOUS CPU INFORMATIONS
+2023 Jun 15 07:25:00.547007 sh[15581]:  cpuInfoHeader: %user,%nice,%system,%iowait,%steal,%idle
+2023 Jun 15 07:25:00.547130 sh[15581]:  cpuInfoValues: 13.95,0.00,8.27,0.00,0.00,77.78
+2023 Jun 15 07:25:00.565834 sh[15581]:  USED_MEM:1389848
+2023 Jun 15 07:25:00.565954 sh[15581]:  FREE_MEM:181788
+2023 Jun 15 07:27:59.685079 sh[19229]:  Clock Frequency Info:
+2023 Jun 15 07:27:59.690320 sh[19229]:  Logging for Yocto platforms...
+2023 Jun 15 07:27:59.705137 sh[19229]:  15.06.2023_07:27:59
+2023 Jun 15 07:27:59.708830 sh[19229]:   07:27:59 up 5 min,  1 user,  load average: 2.08, 2.01, 1.02
+2023 Jun 15 07:27:59.946277 sh[19229]:  top - 07:27:59 up 5 min,  1 user,  load average: 2.08, 2.01, 1.02
+2023 Jun 15 07:27:59.946384 sh[19229]:  Tasks: 269 total,   2 running, 267 sleeping,   0 stopped,   0 zombie
+2023 Jun 15 07:27:59.946455 sh[19229]:  %Cpu(s): 12.1 us, 13.1 sy,  0.5 ni, 74.0 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+2023 Jun 15 07:27:59.946535 sh[19229]:  KiB Mem :  2052884 total,    91804 free,  1390172 used,   570908 buff/cache
+2023 Jun 15 07:27:59.946594 sh[19229]:  KiB Swap:  1026432 total,  1025708 free,      724 used.   550168 avail Mem
+2023 Jun 15 07:27:59.946652 sh[19229]:    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+2023 Jun 15 07:27:59.946709 sh[19229]:  19240 root      20   0    2504   1468   1088 R  21.1  0.1   0:00.07 top
+2023 Jun 15 07:27:59.946766 sh[19229]:      7 root      20   0       0      0      0 S   5.3  0.0   0:00.99 rcu_preempt
+2023 Jun 15 07:27:59.946823 sh[19229]:     51 root      20   0       0      0      0 D   5.3  0.0   0:02.24 kworker/u8+
+2023 Jun 15 07:27:59.946880 sh[19229]:   4595 root      20   0   60808   8204   6580 S   5.3  0.4   0:06.65 syslog-ng
+2023 Jun 15 07:27:59.946960 sh[19229]:   5755 root      20   0  129404  34448  24752 S   5.3  1.7   0:05.43 MediaRite
+2023 Jun 15 07:27:59.947019 sh[19229]:   7946 root      20   0  718388 118260  73432 S   5.3  5.8   0:43.19 WPEFramewo+
+2023 Jun 15 07:27:59.947077 sh[19229]:   8897 root      20   0  565276 153080  64696 S   5.3  7.5   0:26.55 WPEWebProc+
+2023 Jun 15 07:27:59.947136 sh[19229]:      1 root      20   0    5548   4604   2192 S   0.0  0.2   0:10.87 systemd
+2023 Jun 15 07:27:59.947196 sh[19229]:      2 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kthreadd
+2023 Jun 15 07:27:59.947253 sh[19229]:      3 root     -50   0       0      0      0 S   0.0  0.0   0:00.14 ksoftirqd/0
+2023 Jun 15 07:27:59.948111 sh[19229]:  ********** Disk Space Usage **********
+2023 Jun 15 07:27:59.953201 sh[19229]:  Filesystem                Size      Used Available Use% Mounted on
+2023 Jun 15 07:27:59.953297 sh[19229]:  none                   1000.8M      4.0K   1000.8M   0% /dev
+2023 Jun 15 07:27:59.953357 sh[19229]:  /dev/dm-0               358.3M    358.3M         0 100% /
+2023 Jun 15 07:27:59.953417 sh[19229]:  tmpfs                  1002.4M     40.0K   1002.3M   0% /dev/shm
+2023 Jun 15 07:27:59.953476 sh[19229]:  tmpfs                  1002.4M     17.0M    985.4M   2% /run
+2023 Jun 15 07:27:59.953534 sh[19229]:  tmpfs                  1002.4M         0   1002.4M   0% /sys/fs/cgroup
+2023 Jun 15 07:27:59.953592 sh[19229]:  tmpfs                  1002.4M     17.0M    985.4M   2% /etc/machine-id
+2023 Jun 15 07:27:59.953649 sh[19229]:  tmpfs                  1002.4M      3.9M    998.5M   0% /var/dolby
+2023 Jun 15 07:27:59.953733 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /tmp
+2023 Jun 15 07:27:59.953792 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /var/cache/bind
+2023 Jun 15 07:27:59.953851 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/collectd.conf
+2023 Jun 15 07:27:59.953922 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/systemd/timesyncd.conf
+2023 Jun 15 07:27:59.953997 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/bind/named.conf.options
+2023 Jun 15 07:27:59.954064 sh[19229]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/dibbler
+2023 Jun 15 07:27:59.954137 sh[19229]:  /dev/mmcblk0p17           2.5G     37.3M      2.4G   2% /opt
+2023 Jun 15 07:27:59.954217 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /mnt/critical
+2023 Jun 15 07:27:59.954305 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/persistent
+2023 Jun 15 07:27:59.954364 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/panel
+2023 Jun 15 07:27:59.954422 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/www
+2023 Jun 15 07:27:59.954506 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/drm
+2023 Jun 15 07:27:59.954566 sh[19229]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/gp
+2023 Jun 15 07:27:59.954625 sh[19229]:  tmpfs                     5.0M         0      5.0M   0% /opt/oem
+2023 Jun 15 07:27:59.954684 sh[19229]:  tmpfs                   128.0M         0    128.0M   0% /mnt/memory
+2023 Jun 15 07:27:59.954743 sh[19229]:  /dev/mmcblk0p17           2.5G     37.3M      2.4G   2% /nvram
+2023 Jun 15 07:27:59.954809 sh[19229]:  /dev/mmcblk0p17           2.5G     37.3M      2.4G   2% /var/lib
+2023 Jun 15 07:27:59.954884 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /var/volatile
+2023 Jun 15 07:27:59.954953 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /var/spool/cron
+2023 Jun 15 07:27:59.955021 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /etc/asound.conf
+2023 Jun 15 07:27:59.955080 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /etc/hosts
+2023 Jun 15 07:27:59.955140 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /etc/hostname
+2023 Jun 15 07:27:59.955271 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /etc/resolv.conf
+2023 Jun 15 07:27:59.955338 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /www
+2023 Jun 15 07:27:59.955401 sh[19229]:  tmpfs                  1002.4M    212.0K   1002.2M   0% /etc/resolv.dnsmasq
+2023 Jun 15 07:27:59.955558 sh[19229]:  /opt/secure               2.5G     37.3M      2.4G   2% /opt/secure
+2023 Jun 15 07:27:59.955627 sh[19229]:  /opt/secure               2.5G     37.3M      2.4G   2% /nvram/secure
+2023 Jun 15 07:27:59.955697 sh[19229]:  /opt/secure               2.5G     37.3M      2.4G   2% /var/lib/secure
+2023 Jun 15 07:27:59.955764 sh[19229]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /data
+2023 Jun 15 07:27:59.955824 sh[19229]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /media/apps
+2023 Jun 15 07:28:00.968918 sh[19229]:  INSTANTANEOUS CPU INFORMATIONS
+2023 Jun 15 07:28:00.982696 sh[19229]:  cpuInfoHeader: %user,%nice,%system,%iowait,%steal,%idle
+2023 Jun 15 07:28:00.982814 sh[19229]:  cpuInfoValues: 4.56,0.00,6.08,0.00,0.00,89.37
+2023 Jun 15 07:28:00.987419 sh[19229]:  USED_MEM:1390388
+2023 Jun 15 07:28:00.987592 sh[19229]:  FREE_MEM:91568
+2023 Jun 15 07:30:59.732021 sh[23360]:  Clock Frequency Info:
+2023 Jun 15 07:30:59.741094 sh[23360]:  Logging for Yocto platforms...
+2023 Jun 15 07:30:59.760405 sh[23360]:  15.06.2023_07:30:59
+2023 Jun 15 07:30:59.771192 sh[23360]:   07:30:59 up 8 min,  1 user,  load average: 2.24, 2.20, 1.28
+2023 Jun 15 07:31:00.079430 sh[23360]:  top - 07:31:00 up 8 min,  1 user,  load average: 2.24, 2.20, 1.28
+2023 Jun 15 07:31:00.081988 sh[23360]:  Tasks: 263 total,   5 running, 258 sleeping,   0 stopped,   0 zombie
+2023 Jun 15 07:31:00.082136 sh[23360]:  %Cpu(s): 10.1 us, 12.1 sy,  1.0 ni, 76.6 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+2023 Jun 15 07:31:00.082205 sh[23360]:  KiB Mem :  2052884 total,   100956 free,  1413472 used,   538456 buff/cache
+2023 Jun 15 07:31:00.082279 sh[23360]:  KiB Swap:  1026432 total,  1023588 free,     2844 used.   528924 avail Mem
+2023 Jun 15 07:31:00.082343 sh[23360]:    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+2023 Jun 15 07:31:00.082439 sh[23360]:   2447 root      20   0   35008  14940  14436 R  95.2  0.7   0:13.76 systemd-jo+
+2023 Jun 15 07:31:00.082499 sh[23360]:   9907 root      20   0  617268 356076 185896 R  95.2 17.3   0:50.80 WPEWebProc+
+2023 Jun 15 07:31:00.082565 sh[23360]:  23146 root      20   0   18444   8096   7900 R  33.3  0.4   0:00.29 journalctl
+2023 Jun 15 07:31:00.082634 sh[23360]:   4595 root      20   0   60808   9872   8132 S  28.6  0.5   0:10.74 syslog-ng
+2023 Jun 15 07:31:00.082715 sh[23360]:  23371 root      20   0    2532   1448   1076 R  23.8  0.1   0:00.08 top
+2023 Jun 15 07:31:00.082789 sh[23360]:   8897 root      20   0  602140 156592  64724 S  19.0  7.6   0:35.43 WPEWebProc+
+2023 Jun 15 07:31:00.082856 sh[23360]:  17951 root      20   0    9780   1868   1224 S  19.0  0.1   0:00.38 ssh
+2023 Jun 15 07:31:00.082933 sh[23360]:  23136 root      20   0   26936   3296   2552 R  19.0  0.2   0:00.14 dropbear
+2023 Jun 15 07:31:00.082994 sh[23360]:   7946 root      20   0  718576 118840  73532 S  14.3  5.8   1:03.29 WPEFramewo+
+2023 Jun 15 07:31:00.083054 sh[23360]:   8880 root      20   0  260252  34284  25224 S   9.5  1.7   0:02.78 WPENetwork+
+2023 Jun 15 07:31:00.084231 sh[23360]:  ********** Disk Space Usage **********
+2023 Jun 15 07:31:00.098308 sh[23360]:  Filesystem                Size      Used Available Use% Mounted on
+2023 Jun 15 07:31:00.098389 sh[23360]:  none                   1000.8M      4.0K   1000.8M   0% /dev
+2023 Jun 15 07:31:00.098488 sh[23360]:  /dev/dm-0               358.3M    358.3M         0 100% /
+2023 Jun 15 07:31:00.098551 sh[23360]:  tmpfs                  1002.4M     40.0K   1002.3M   0% /dev/shm
+2023 Jun 15 07:31:00.098774 sh[23360]:  tmpfs                  1002.4M     17.0M    985.4M   2% /run
+2023 Jun 15 07:31:00.098843 sh[23360]:  tmpfs                  1002.4M         0   1002.4M   0% /sys/fs/cgroup
+2023 Jun 15 07:31:00.099007 sh[23360]:  tmpfs                  1002.4M     17.0M    985.4M   2% /etc/machine-id
+2023 Jun 15 07:31:00.100041 sh[23360]:  tmpfs                  1002.4M      3.9M    998.5M   0% /var/dolby
+2023 Jun 15 07:31:00.100428 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /tmp
+2023 Jun 15 07:31:00.100788 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /var/cache/bind
+2023 Jun 15 07:31:00.100887 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/collectd.conf
+2023 Jun 15 07:31:00.100968 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/systemd/timesyncd.conf
+2023 Jun 15 07:31:00.101390 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/bind/named.conf.options
+2023 Jun 15 07:31:00.101470 sh[23360]:  tmpfs                  1002.4M      1.3M   1001.1M   0% /etc/dibbler
+2023 Jun 15 07:31:00.101857 sh[23360]:  /dev/mmcblk0p17           2.5G     23.7M      2.4G   1% /opt
+2023 Jun 15 07:31:00.101926 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /mnt/critical
+2023 Jun 15 07:31:00.102451 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/persistent
+2023 Jun 15 07:31:00.102521 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/panel
+2023 Jun 15 07:31:00.102581 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/www
+2023 Jun 15 07:31:00.102678 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/drm
+2023 Jun 15 07:31:00.102757 sh[23360]:  /dev/mmcblk0p15         503.9M     23.6M    444.5M   5% /opt/gp
+2023 Jun 15 07:31:00.102818 sh[23360]:  tmpfs                     5.0M         0      5.0M   0% /opt/oem
+2023 Jun 15 07:31:00.102878 sh[23360]:  tmpfs                   128.0M         0    128.0M   0% /mnt/memory
+2023 Jun 15 07:31:00.102950 sh[23360]:  /dev/mmcblk0p17           2.5G     23.7M      2.4G   1% /nvram
+2023 Jun 15 07:31:00.103011 sh[23360]:  /dev/mmcblk0p17           2.5G     23.7M      2.4G   1% /var/lib
+2023 Jun 15 07:31:00.103072 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/volatile
+2023 Jun 15 07:31:00.103135 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/spool/cron
+2023 Jun 15 07:31:00.103208 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/asound.conf
+2023 Jun 15 07:31:00.103282 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hosts
+2023 Jun 15 07:31:00.103355 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hostname
+2023 Jun 15 07:31:00.103569 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.conf
+2023 Jun 15 07:31:00.103659 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /www
+2023 Jun 15 07:31:00.103726 sh[23360]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.dnsmasq
+2023 Jun 15 07:31:00.103803 sh[23360]:  /opt/secure               2.5G     23.7M      2.4G   1% /opt/secure
+2023 Jun 15 07:31:00.103863 sh[23360]:  /opt/secure               2.5G     23.7M      2.4G   1% /nvram/secure
+2023 Jun 15 07:31:00.103924 sh[23360]:  /opt/secure               2.5G     23.7M      2.4G   1% /var/lib/secure
+2023 Jun 15 07:31:00.103985 sh[23360]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /data
+2023 Jun 15 07:31:00.104045 sh[23360]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /media/apps
+2023 Jun 15 07:31:01.129181 sh[23360]:  INSTANTANEOUS CPU INFORMATIONS
+2023 Jun 15 07:31:01.147867 sh[23360]:  cpuInfoHeader: %user,%nice,%system,%iowait,%steal,%idle
+2023 Jun 15 07:31:01.147990 sh[23360]:  cpuInfoValues: 37.02,0.00,10.80,0.00,0.00,52.19
+2023 Jun 15 07:31:01.152845 sh[23360]:  USED_MEM:1422148
+2023 Jun 15 07:31:01.152969 sh[23360]:  FREE_MEM:91916
+2023 Jun 15 07:34:02.425815 sh[31846]:  Clock Frequency Info:
+2023 Jun 15 07:34:02.431002 sh[31846]:  Logging for Yocto platforms...
+2023 Jun 15 07:34:02.445280 sh[31846]:  15.06.2023_07:34:02
+2023 Jun 15 07:34:02.448739 sh[31846]:   07:34:02 up 11 min,  1 user,  load average: 3.39, 3.11, 1.82
+2023 Jun 15 07:34:02.685539 sh[31846]:  top - 07:34:02 up 11 min,  1 user,  load average: 3.39, 3.11, 1.82
+2023 Jun 15 07:34:02.685655 sh[31846]:  Tasks: 268 total,   3 running, 264 sleeping,   0 stopped,   1 zombie
+2023 Jun 15 07:34:02.685751 sh[31846]:  %Cpu(s): 12.3 us, 12.6 sy,  1.1 ni, 73.7 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+2023 Jun 15 07:34:02.685814 sh[31846]:  KiB Mem :  2052884 total,   114112 free,  1409688 used,   529084 buff/cache
+2023 Jun 15 07:34:02.685872 sh[31846]:  KiB Swap:  1026432 total,  1021336 free,     5096 used.   533800 avail Mem
+2023 Jun 15 07:34:02.685934 sh[31846]:    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+2023 Jun 15 07:34:02.685992 sh[31846]:  31857 root      20   0    2504   1464   1076 R  21.1  0.1   0:00.07 top
+2023 Jun 15 07:34:02.686050 sh[31846]:  25355 root      20   0  747052 102012  57832 S  10.5  5.0   0:22.48 WPEFramewo+
+2023 Jun 15 07:34:02.686108 sh[31846]:  28497 root      20   0  569396 152492  65244 S  10.5  7.4   0:14.40 WPEWebProc+
+2023 Jun 15 07:34:02.686181 sh[31846]:   4962 root       0 -20       0      0      0 R   5.3  0.0   0:02.13 kworker/u9+
+2023 Jun 15 07:34:02.686254 sh[31846]:   7651 root      20   0  169516  15596  11600 S   5.3  0.8   0:00.84 controlMgr
+2023 Jun 15 07:34:02.686313 sh[31846]:      1 root      20   0    5548   4552   2192 S   0.0  0.2   0:12.94 systemd
+2023 Jun 15 07:34:02.686372 sh[31846]:      2 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kthreadd
+2023 Jun 15 07:34:02.686430 sh[31846]:      3 root     -50   0       0      0      0 S   0.0  0.0   0:00.25 ksoftirqd/0
+2023 Jun 15 07:34:02.686489 sh[31846]:      4 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+2023 Jun 15 07:34:02.686561 sh[31846]:      5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+2023 Jun 15 07:34:02.687418 sh[31846]:  ********** Disk Space Usage **********
+2023 Jun 15 07:34:02.692498 sh[31846]:  Filesystem                Size      Used Available Use% Mounted on
+2023 Jun 15 07:34:02.692611 sh[31846]:  none                   1000.8M      4.0K   1000.8M   0% /dev
+2023 Jun 15 07:34:02.692673 sh[31846]:  /dev/dm-0               358.3M    358.3M         0 100% /
+2023 Jun 15 07:34:02.692733 sh[31846]:  tmpfs                  1002.4M     40.0K   1002.3M   0% /dev/shm
+2023 Jun 15 07:34:02.692793 sh[31846]:  tmpfs                  1002.4M     17.0M    985.4M   2% /run
+2023 Jun 15 07:34:02.692879 sh[31846]:  tmpfs                  1002.4M         0   1002.4M   0% /sys/fs/cgroup
+2023 Jun 15 07:34:02.692944 sh[31846]:  tmpfs                  1002.4M     17.0M    985.4M   2% /etc/machine-id
+2023 Jun 15 07:34:02.693033 sh[31846]:  tmpfs                  1002.4M      3.9M    998.5M   0% /var/dolby
+2023 Jun 15 07:34:02.693093 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /tmp
+2023 Jun 15 07:34:02.693167 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /var/cache/bind
+2023 Jun 15 07:34:02.693244 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/collectd.conf
+2023 Jun 15 07:34:02.693311 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/systemd/timesyncd.conf
+2023 Jun 15 07:34:02.693381 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/bind/named.conf.options
+2023 Jun 15 07:34:02.693459 sh[31846]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/dibbler
+2023 Jun 15 07:34:02.693540 sh[31846]:  /dev/mmcblk0p17           2.5G     28.7M      2.4G   1% /opt
+2023 Jun 15 07:34:02.693617 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /mnt/critical
+2023 Jun 15 07:34:02.693677 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/persistent
+2023 Jun 15 07:34:02.693746 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/panel
+2023 Jun 15 07:34:02.693805 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/www
+2023 Jun 15 07:34:02.693889 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/drm
+2023 Jun 15 07:34:02.693951 sh[31846]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/gp
+2023 Jun 15 07:34:02.694011 sh[31846]:  tmpfs                     5.0M         0      5.0M   0% /opt/oem
+2023 Jun 15 07:34:02.694075 sh[31846]:  tmpfs                   128.0M      1.1M    126.9M   1% /mnt/memory
+2023 Jun 15 07:34:02.694147 sh[31846]:  /dev/mmcblk0p17           2.5G     28.7M      2.4G   1% /nvram
+2023 Jun 15 07:34:02.694219 sh[31846]:  /dev/mmcblk0p17           2.5G     28.7M      2.4G   1% /var/lib
+2023 Jun 15 07:34:02.694284 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/volatile
+2023 Jun 15 07:34:02.694344 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /var/spool/cron
+2023 Jun 15 07:34:02.694404 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/asound.conf
+2023 Jun 15 07:34:02.694469 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hosts
+2023 Jun 15 07:34:02.694532 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/hostname
+2023 Jun 15 07:34:02.694647 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.conf
+2023 Jun 15 07:34:02.694711 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /www
+2023 Jun 15 07:34:02.694809 sh[31846]:  tmpfs                  1002.4M    188.0K   1002.2M   0% /etc/resolv.dnsmasq
+2023 Jun 15 07:34:02.694885 sh[31846]:  /opt/secure               2.5G     28.7M      2.4G   1% /opt/secure
+2023 Jun 15 07:34:02.694946 sh[31846]:  /opt/secure               2.5G     28.7M      2.4G   1% /nvram/secure
+2023 Jun 15 07:34:02.695005 sh[31846]:  /opt/secure               2.5G     28.7M      2.4G   1% /var/lib/secure
+2023 Jun 15 07:34:02.695065 sh[31846]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /data
+2023 Jun 15 07:34:02.695154 sh[31846]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /media/apps
+2023 Jun 15 07:34:03.708141 sh[31846]:  INSTANTANEOUS CPU INFORMATIONS
+2023 Jun 15 07:34:03.724086 sh[31846]:  cpuInfoHeader: %user,%nice,%system,%iowait,%steal,%idle
+2023 Jun 15 07:34:03.724206 sh[31846]:  cpuInfoValues: 5.54,19.65,5.04,0.00,0.00,69.77
+2023 Jun 15 07:34:03.728957 sh[31846]:  USED_MEM:1414028
+2023 Jun 15 07:34:03.729080 sh[31846]:  FREE_MEM:109768
+2023 Jun 15 07:37:03.052177 sh[2566]:  Clock Frequency Info:
+2023 Jun 15 07:37:03.057374 sh[2566]:  Logging for Yocto platforms...
+2023 Jun 15 07:37:03.071630 sh[2566]:  15.06.2023_07:37:03
+2023 Jun 15 07:37:03.074937 sh[2566]:   07:37:03 up 14 min,  1 user,  load average: 2.16, 2.64, 1.87
+2023 Jun 15 07:37:03.309434 sh[2566]:  top - 07:37:03 up 14 min,  1 user,  load average: 2.16, 2.64, 1.87
+2023 Jun 15 07:37:03.309577 sh[2566]:  Tasks: 258 total,   2 running, 255 sleeping,   0 stopped,   1 zombie
+2023 Jun 15 07:37:03.309644 sh[2566]:  %Cpu(s): 10.7 us, 11.3 sy,  0.9 ni, 76.9 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+2023 Jun 15 07:37:03.309707 sh[2566]:  KiB Mem :  2052884 total,    65584 free,  1397200 used,   590100 buff/cache
+2023 Jun 15 07:37:03.309767 sh[2566]:  KiB Swap:  1026432 total,  1016680 free,     9752 used.   546532 avail Mem
+2023 Jun 15 07:37:03.309829 sh[2566]:    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+2023 Jun 15 07:37:03.309888 sh[2566]:   2577 root      20   0    2528   1456   1076 R  15.8  0.1   0:00.05 top
+2023 Jun 15 07:37:03.309949 sh[2566]:  25355 root      20   0  748088 102188  57832 S   5.3  5.0   0:41.18 WPEFramewo+
+2023 Jun 15 07:37:03.310009 sh[2566]:  28497 root      20   0  569396 152084  65188 S   5.3  7.4   0:21.90 WPEWebProc+
+2023 Jun 15 07:37:03.310084 sh[2566]:  28758 root      20   0  598160 333300 171908 S   5.3 16.2   0:37.27 WPEWebProc+
+2023 Jun 15 07:37:03.310149 sh[2566]:      1 root      20   0    5548   4464   2192 S   0.0  0.2   0:13.53 systemd
+2023 Jun 15 07:37:03.310210 sh[2566]:      2 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kthreadd
+2023 Jun 15 07:37:03.310270 sh[2566]:      3 root     -50   0       0      0      0 S   0.0  0.0   0:00.26 ksoftirqd/0
+2023 Jun 15 07:37:03.310331 sh[2566]:      5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+2023 Jun 15 07:37:03.310402 sh[2566]:      7 root      20   0       0      0      0 S   0.0  0.0   0:02.55 rcu_preempt
+2023 Jun 15 07:37:03.310465 sh[2566]:      8 root      20   0       0      0      0 S   0.0  0.0   0:00.04 rcu_sched
+2023 Jun 15 07:37:03.311275 sh[2566]:  ********** Disk Space Usage **********
+2023 Jun 15 07:37:03.316355 sh[2566]:  Filesystem                Size      Used Available Use% Mounted on
+2023 Jun 15 07:37:03.316463 sh[2566]:  none                   1000.8M      4.0K   1000.8M   0% /dev
+2023 Jun 15 07:37:03.316525 sh[2566]:  /dev/dm-0               358.3M    358.3M         0 100% /
+2023 Jun 15 07:37:03.316586 sh[2566]:  tmpfs                  1002.4M     40.0K   1002.3M   0% /dev/shm
+2023 Jun 15 07:37:03.316646 sh[2566]:  tmpfs                  1002.4M     17.0M    985.4M   2% /run
+2023 Jun 15 07:37:03.316707 sh[2566]:  tmpfs                  1002.4M         0   1002.4M   0% /sys/fs/cgroup
+2023 Jun 15 07:37:03.316767 sh[2566]:  tmpfs                  1002.4M     17.0M    985.4M   2% /etc/machine-id
+2023 Jun 15 07:37:03.316827 sh[2566]:  tmpfs                  1002.4M      3.9M    998.5M   0% /var/dolby
+2023 Jun 15 07:37:03.316887 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /tmp
+2023 Jun 15 07:37:03.316960 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /var/cache/bind
+2023 Jun 15 07:37:03.317069 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/collectd.conf
+2023 Jun 15 07:37:03.317142 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/systemd/timesyncd.conf
+2023 Jun 15 07:37:03.317222 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/bind/named.conf.options
+2023 Jun 15 07:37:03.317292 sh[2566]:  tmpfs                  1002.4M      1.3M   1001.0M   0% /etc/dibbler
+2023 Jun 15 07:37:03.317352 sh[2566]:  /dev/mmcblk0p17           2.5G     28.9M      2.4G   1% /opt
+2023 Jun 15 07:37:03.317414 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /mnt/critical
+2023 Jun 15 07:37:03.317496 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/persistent
+2023 Jun 15 07:37:03.317556 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/panel
+2023 Jun 15 07:37:03.317616 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/www
+2023 Jun 15 07:37:03.317681 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/drm
+2023 Jun 15 07:37:03.317761 sh[2566]:  /dev/mmcblk0p15         503.9M     23.6M    444.6M   5% /opt/gp
+2023 Jun 15 07:37:03.317827 sh[2566]:  tmpfs                     5.0M         0      5.0M   0% /opt/oem
+2023 Jun 15 07:37:03.317895 sh[2566]:  tmpfs                   128.0M      1.1M    126.9M   1% /mnt/memory
+2023 Jun 15 07:37:03.317957 sh[2566]:  /dev/mmcblk0p17           2.5G     28.9M      2.4G   1% /nvram
+2023 Jun 15 07:37:03.318020 sh[2566]:  /dev/mmcblk0p17           2.5G     28.9M      2.4G   1% /var/lib
+2023 Jun 15 07:37:03.318082 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /var/volatile
+2023 Jun 15 07:37:03.318150 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /var/spool/cron
+2023 Jun 15 07:37:03.318214 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /etc/asound.conf
+2023 Jun 15 07:37:03.318289 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /etc/hosts
+2023 Jun 15 07:37:03.318350 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /etc/hostname
+2023 Jun 15 07:37:03.318471 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /etc/resolv.conf
+2023 Jun 15 07:37:03.318536 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /www
+2023 Jun 15 07:37:03.318597 sh[2566]:  tmpfs                  1002.4M    184.0K   1002.2M   0% /etc/resolv.dnsmasq
+2023 Jun 15 07:37:03.318691 sh[2566]:  /opt/secure               2.5G     28.9M      2.4G   1% /opt/secure
+2023 Jun 15 07:37:03.318755 sh[2566]:  /opt/secure               2.5G     28.9M      2.4G   1% /nvram/secure
+2023 Jun 15 07:37:03.318826 sh[2566]:  /opt/secure               2.5G     28.9M      2.4G   1% /var/lib/secure
+2023 Jun 15 07:37:03.318902 sh[2566]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /data
+2023 Jun 15 07:37:03.318992 sh[2566]:  /dev/mmcblk0p16           3.0G    697.2M      2.1G  24% /media/apps
+2023 Jun 15 07:37:04.331077 sh[2566]:  INSTANTANEOUS CPU INFORMATIONS
+2023 Jun 15 07:37:04.344060 sh[2566]:  cpuInfoHeader: %user,%nice,%system,%iowait,%steal,%idle
+2023 Jun 15 07:37:04.344201 sh[2566]:  cpuInfoValues: 2.77,0.00,5.79,0.00,0.00,91.44
+2023 Jun 15 07:37:04.348635 sh[2566]:  USED_MEM:1397464
+2023 Jun 15 07:37:04.348767 sh[2566]:  FREE_MEM:65308

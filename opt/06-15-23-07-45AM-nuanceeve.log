@@ -1,0 +1,16 @@
+Thread-b317d850 2023-06-15 07:22:33.UTC: WBS-Info: int main() Nuanceeve-Fastcgi app begin...
+
+Thread-b317d850 2023-06-15 07:22:33.UTC: WBS-Info: int main() Main waiting for request
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() Default configuration values used in the app...
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() Default Text : Invalid Arguments
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() Default Rate : 100
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() Default Voice : ava
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() PCM Buffer size used in App :512 bytes
+
+Thread-b317a3e0 2023-06-15 07:22:33.UTC: WBS-Info: Configuration::Configuration() Language pack location :/etc/nuance/languages bytes
+

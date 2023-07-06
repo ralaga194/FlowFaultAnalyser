@@ -1,0 +1,100 @@
+2023 Jun 15 07:22:39.527758 sh[7411]:  7411: 230615-07:22:39: remote_debugger.sh: RDK Remote Debugger Status is Enabled: true
+2023 Jun 15 07:22:39.527874 sh[7411]:  7411: 230615-07:22:39: remote_debugger.sh: Enable RDK Remote Debugger...
+2023 Jun 15 07:22:39.697140 sh[7411]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:39.697240 sh[7411]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:39.697290 sh[7411]:  230615-07:22:39.695517 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRDStoreDeviceInfo:615]: Reading File /etc/device.properties
+2023 Jun 15 07:22:39.697343 sh[7411]:  230615-07:22:39.695742 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRDStoreDeviceInfo:630]: Readed Device property PLATCO
+2023 Jun 15 07:22:39.697402 sh[7411]:  230615-07:22:39.695773 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRDStoreDeviceInfo:648]: Stored Device property for PLATCO
+2023 Jun 15 07:22:39.697480 sh[7411]:  230615-07:22:39.695816 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [main:92]:Starting RDK Remote Debugger Daemon
+2023 Jun 15 07:22:39.697532 sh[7411]:  230615-07:22:39.695857 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [main:98]:SUCCESS: Message Queue ID Creation Done, msqid=0...
+2023 Jun 15 07:22:39.697583 sh[7411]:  230615-07:22:39.695880 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:40]: ...Entering...
+2023 Jun 15 07:22:39.734684 sh[7411]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = REMOTE_DEBUGGER
+2023 Jun 15 07:22:39.734788 sh[7411]:  setting init done
+2023 Jun 15 07:22:39.734839 sh[7411]:  230615-07:22:39.734561 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:48]: SUCCESS: IARM_Bus_Init done!
+2023 Jun 15 07:22:39.735582 sh[7411]:  Registering REMOTE_DEBUGGER
+2023 Jun 15 07:22:39.735692 sh[7411]:  230615-07:22:39.735462 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:56]: SUCCESS: IARM_Bus_Connect done!
+2023 Jun 15 07:22:39.735773 sh[7411]:  230615-07:22:39.735561 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:71]: SUCCESS: IARM_Bus_RegisterEventHandler for RRD done!
+2023 Jun 15 07:22:39.773509 sh[7411]:  Inside FUNC register_sub_docs LINE 230
+2023 Jun 15 07:22:39.773722 sh[7411]:  Inside FUNC initMessageQueue LINE 1099
+2023 Jun 15 07:22:39.773881 sh[7411]:  230615-07:22:39.773351 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:91]: SUCCESS: IARM_Bus_RegisterEventHandler for RDMMGR done!
+2023 Jun 15 07:22:39.773933 sh[7411]:  230615-07:22:39.773426 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [RRD_subscribe:93]: ...Exiting..
+2023 Jun 15 07:22:39.773985 sh[7411]:  230615-07:22:39.773450 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7567] [main:101]:Started RDK Remote Debugger Daemon
+2023 Jun 15 07:22:39.783788 sh[7411]:  230615-07:22:39.781681 [mod=RBUSCORE, lvl=INFO] [tid=7640] RBus Enabled
+2023 Jun 15 07:22:39.783984 sh[7411]:  Entering rbusInit
+2023 Jun 15 07:22:39.784039 sh[7411]:  230615-07:22:39.781817 [mod=RBUS, lvl=INFO] [tid=7640] rbus_open(remotedebugger_wbcfg)
+2023 Jun 15 07:22:39.784116 sh[7411]:  230615-07:22:39.781959 [mod=RBUSCORE, lvl=INFO] [tid=7640] RBus Enabled
+2023 Jun 15 07:22:39.784169 sh[7411]:  230615-07:22:39.782020 [mod=RBUSCORE, lvl=INFO] [tid=7640] Broker address: unix:///tmp/rtrouted
+2023 Jun 15 07:22:39.784221 sh[7411]:  Inside FUNC display_subDocs LINE 87
+2023 Jun 15 07:22:39.784273 sh[7411]:  230615-07:22:39.783085 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7641] [RRDEventThreadFunc:42]:Waiting for for TR69 Events...
+2023 Jun 15 07:22:39.786331 sh[7411]:  Inside FUNC messageQueueProcessing LINE 889
+2023 Jun 15 07:22:39.786443 sh[7411]:  230615-07:22:39.786091 [mod=RBUS, lvl=INFO] [tid=7640] rbus_open(remotedebugger_wbcfg) success
+2023 Jun 15 07:22:49.800508 sh[7411]:  isWebCfgRbusEnabled: rbus enabled is 1
+2023 Jun 15 07:22:49.800844 sh[7411]:  subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset'
+2023 Jun 15 07:22:49.800912 sh[7411]:  webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+2023 Jun 15 07:22:49.800984 sh[7411]:  webcfg_rbus_discover_component: (1-1)ret[TRUE]
+2023 Jun 15 07:22:49.801036 sh[7411]:  subscribeSubdocForceReset: [Device.X_RDK_WebConfig.webcfgSubdocForceReset] Component found
+2023 Jun 15 07:22:49.801086 sh[7411]:  subscribeSubdocForceReset: subscribing to event Device.X_RDK_WebConfig.webcfgSubdocForceReset
+2023 Jun 15 07:22:49.801155 sh[7411]:  230615-07:22:49.800228 [mod=RBUSCORE, lvl=INFO] [tid=7640] Subscription for Device.X_RDK_WebConfig.webcfgSubdocForceReset::Device.X_RDK_WebConfig.webcfgSubdocForceReset is now active.
+2023 Jun 15 07:22:49.801254 sh[7411]:  230615-07:22:49.800315 [mod=RBUS, lvl=INFO] [tid=7640] rbusEvent_SubscribeWithRetries: Device.X_RDK_WebConfig.webcfgSubdocForceReset subscribe retries succeeded
+2023 Jun 15 07:22:52.553440 sh[7411]:  subscribeSubdocForceReset: subscribed to event Device.X_RDK_WebConfig.webcfgSubdocForceReset
+2023 Jun 15 07:22:52.553510 sh[7411]:  subscribeSubdocForceReset: job done
+2023 Jun 15 07:22:52.553561 sh[7411]:  230615-07:22:52.550444 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_pwrManagerEventHandler:188]: ...Entering..
+2023 Jun 15 07:22:52.553612 sh[7411]:  230615-07:22:52.550481 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_pwrManagerEventHandler:192]: Received event for IARM_BUS_PWRMGR_NAME PWRMgr
+2023 Jun 15 07:22:52.553685 sh[7411]:  230615-07:22:52.550504 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_pwrManagerEventHandler:250]: Event Triggred for DeepSleep 0
+2023 Jun 15 07:22:52.553737 sh[7411]:  230615-07:22:52.550526 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_pwrManagerEventHandler:257]: ...Exit..
+2023 Jun 15 07:25:31.252644 sh[7411]:  230615-07:25:31.251270 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:25:31.252766 sh[7411]:  230615-07:25:31.251341 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:25:31.252829 sh[7411]:  230615-07:25:31.251366 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:25:31.252881 sh[7411]:  230615-07:25:31.251396 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding systemd-analyze PkgData in Cache..
+2023 Jun 15 07:25:31.252933 sh[7411]:  230615-07:25:31.251427 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:25:31.254936 sh[7411]:  230615-07:25:31.254633 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... systemd-analyze
+2023 Jun 15 07:25:31.255085 sh[7411]:  230615-07:25:31.254704 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:25:34.102430 sh[7411]:  230615-07:25:34.101925 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:25:34.102542 sh[7411]:  230615-07:25:34.101990 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:25:34.102597 sh[7411]:  230615-07:25:34.102014 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:25:34.102669 sh[7411]:  230615-07:25:34.102035 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding netflix PkgData in Cache..
+2023 Jun 15 07:25:34.102722 sh[7411]:  230615-07:25:34.102056 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:25:34.102774 sh[7411]:  230615-07:25:34.102077 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... netflix
+2023 Jun 15 07:25:34.102825 sh[7411]:  230615-07:25:34.102097 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:25:35.358661 sh[7411]:  230615-07:25:35.358116 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:25:35.358766 sh[7411]:  230615-07:25:35.358182 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:25:35.358819 sh[7411]:  230615-07:25:35.358210 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:25:35.358873 sh[7411]:  230615-07:25:35.358232 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding bind-dl PkgData in Cache..
+2023 Jun 15 07:25:35.358925 sh[7411]:  230615-07:25:35.358254 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:25:35.358977 sh[7411]:  230615-07:25:35.358275 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... bind-dl
+2023 Jun 15 07:25:35.359057 sh[7411]:  230615-07:25:35.358295 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:25:36.757495 sh[7411]:  230615-07:25:36.756883 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:25:36.757603 sh[7411]:  230615-07:25:36.756948 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:25:36.757657 sh[7411]:  230615-07:25:36.756973 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:25:36.757711 sh[7411]:  230615-07:25:36.756994 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding Airplay-Plugin PkgData in Cache..
+2023 Jun 15 07:25:36.757762 sh[7411]:  230615-07:25:36.757016 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:25:36.757815 sh[7411]:  230615-07:25:36.757038 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... Airplay-Plugin
+2023 Jun 15 07:25:36.757867 sh[7411]:  230615-07:25:36.757059 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:34:35.908202 sh[7411]:  230615-07:34:35.907385 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:34:35.908319 sh[7411]:  230615-07:34:35.907761 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:34:35.908378 sh[7411]:  230615-07:34:35.907799 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:34:35.908429 sh[7411]:  230615-07:34:35.907831 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding systemd-analyze PkgData in Cache..
+2023 Jun 15 07:34:35.908479 sh[7411]:  230615-07:34:35.907855 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:34:35.908529 sh[7411]:  230615-07:34:35.907879 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... systemd-analyze
+2023 Jun 15 07:34:35.908611 sh[7411]:  230615-07:34:35.907902 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:34:38.377782 sh[7411]:  230615-07:34:38.376933 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:34:38.377888 sh[7411]:  230615-07:34:38.376999 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:34:38.377943 sh[7411]:  230615-07:34:38.377022 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:34:38.377994 sh[7411]:  230615-07:34:38.377044 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding netflix PkgData in Cache..
+2023 Jun 15 07:34:38.378045 sh[7411]:  230615-07:34:38.377065 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:34:38.378095 sh[7411]:  230615-07:34:38.377087 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... netflix
+2023 Jun 15 07:34:38.378170 sh[7411]:  230615-07:34:38.377108 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:34:39.654072 sh[7411]:  230615-07:34:39.652934 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:34:39.654174 sh[7411]:  230615-07:34:39.652999 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:34:39.654227 sh[7411]:  230615-07:34:39.653026 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:34:39.654287 sh[7411]:  230615-07:34:39.653048 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding bind-dl PkgData in Cache..
+2023 Jun 15 07:34:39.654363 sh[7411]:  230615-07:34:39.653070 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:34:39.654415 sh[7411]:  230615-07:34:39.653091 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... bind-dl
+2023 Jun 15 07:34:39.654466 sh[7411]:  230615-07:34:39.653111 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...
+2023 Jun 15 07:34:41.076439 sh[7411]:  230615-07:34:41.075670 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:275]: ...Entering..
+2023 Jun 15 07:34:41.076543 sh[7411]:  230615-07:34:41.075736 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [_rdmManagerEventHandler:279]: Received event for IARM_BUS_RDMMGR_NAME RDMMgr
+2023 Jun 15 07:34:41.076596 sh[7411]:  230615-07:34:41.075762 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:282]: Event ID found for IARM_BUS_RDMMGR_EVENT_APP_INSTALLATION_STATUS 1
+2023 Jun 15 07:34:41.076682 sh[7411]:  230615-07:34:41.075785 [mod=REMOTEDEBUGGER, lvl=INFO] [tid=7628] [findPresentInCache:131]: finding Airplay-Plugin PkgData in Cache..
+2023 Jun 15 07:34:41.076735 sh[7411]:  230615-07:34:41.075806 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [findPresentInCache:137]: RRD Mutex Lock...0
+2023 Jun 15 07:34:41.076786 sh[7411]:  230615-07:34:41.075827 [mod=REMOTEDEBUGGER, lvl=ERROR] [tid=7628] [_rdmManagerEventHandler:348]: Package not requested... Airplay-Plugin
+2023 Jun 15 07:34:41.076838 sh[7411]:  230615-07:34:41.075849 [mod=REMOTEDEBUGGER, lvl=DEBUG] [tid=7628] [_rdmManagerEventHandler:360]: ...Exiting...

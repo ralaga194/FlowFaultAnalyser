@@ -1,0 +1,36 @@
+2023 Jun 15 07:22:36.523899 sysTimeMgr[6437]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:36.524030 sysTimeMgr[6437]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:36.524104 sysTimeMgr[6437]:  230615-07:22:36.523101 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [initialize:85]:Initializing Src and Syncs. Category = timesrc, Type = ntp, Args = /ntp.
+2023 Jun 15 07:22:36.524176 sysTimeMgr[6437]:  230615-07:22:36.523324 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [initialize:85]:Initializing Src and Syncs. Category = timesync, Type = rdkdefault, Args = /clock_time.
+2023 Jun 15 07:22:36.535663 sysTimeMgr[6437]:  IARM_Bus_IsConnected invalid state
+2023 Jun 15 07:22:36.535794 sysTimeMgr[6437]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = SystemTimeMgr
+2023 Jun 15 07:22:36.535872 sysTimeMgr[6437]:  setting init done
+2023 Jun 15 07:22:36.535931 sysTimeMgr[6437]:  Registering SystemTimeMgr
+2023 Jun 15 07:22:36.535990 sysTimeMgr[6437]:  230615-07:22:36.535541 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [subscribe:21]:IARMBUS Registering function for Event = TIMER_STATUS
+2023 Jun 15 07:22:36.536082 sysTimeMgr[6437]:  230615-07:22:36.535686 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [subscribe:21]:IARMBUS Registering function for Event = POWER_CHANGE
+2023 Jun 15 07:22:36.536448 sysTimeMgr[6437]:  230615-07:22:36.536364 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [getTime:80]:Returning Last Known Good Time, time = Thursday Thu Jun 15 07:17:54 2023
+2023 Jun 15 07:22:36.536552 sysTimeMgr[6437]:  230615-07:22:36.536462 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [setInitialTime:408]: Clock_gettime Call succeeded with REAL time.
+2023 Jun 15 07:22:36.536687 sysTimeMgr[6437]:  230615-07:22:36.536486 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [setInitialTime:411]: Clock Time is greater that time provided by Timesync, leaving it alone.
+2023 Jun 15 07:22:36.536746 sysTimeMgr[6437]:  230615-07:22:36.536517 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [publishStatus:444]: clock_gettime Call succeeded with REAL time.
+2023 Jun 15 07:22:36.536848 sysTimeMgr[6437]:  230615-07:22:36.536582 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [publishStatus:452]:TIME Published = 1686813756, Converted Real Time(included in published time): Thursday Thu Jun 15 07:22:36 2023, Converted Monotonic Time = Thursday Thu Jun 15 07:22:36 2023
+2023 Jun 15 07:22:36.536909 sysTimeMgr[6437]:  230615-07:22:36.536666 [mod=SYSTIMEMGR, lvl=INFO] [tid=6437] [publish:16]:IARM Broadcast Info: MsgType = 0, Quality = 0, Message = Poor
+2023 Jun 15 07:22:52.555010 sysTimeMgr[6437]:  230615-07:22:52.550217 [mod=SYSTIMEMGR, lvl=INFO] [tid=6454] [powereventHandler:37]:Power Change Event Received
+2023 Jun 15 07:22:52.555150 sysTimeMgr[6437]:  230615-07:22:52.550256 [mod=SYSTIMEMGR, lvl=INFO] [tid=6454] [powereventHandler:43]:Power Change Event Received. New State = 2
+2023 Jun 15 07:23:13.248822 sysTimeMgr[6437]:  230615-07:23:13.242769 [mod=SYSTIMEMGR, lvl=INFO] [tid=6457] [runPathMonitor:276]:File created/modified = ntp
+2023 Jun 15 07:23:13.248938 sysTimeMgr[6437]:  230615-07:23:13.243139 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:101]:Updating Time. Converted Time: Thursday Thu Jan  1 00:00:00 1970 , Actual value passed:0,
+2023 Jun 15 07:23:13.249026 sysTimeMgr[6437]:  230615-07:23:13.243197 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:110]: Clock_gettime Call succeeded with REAL time.
+2023 Jun 15 07:23:13.249085 sysTimeMgr[6437]:  230615-07:23:13.243239 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:128]:Updating Time in file. Converted Time: Thursday Thu Jun 15 07:23:13 2023 , Actual value passed:1686813793,
+2023 Jun 15 07:23:13.249164 sysTimeMgr[6437]:  230615-07:23:13.244308 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [publishStatus:444]: clock_gettime Call succeeded with REAL time.
+2023 Jun 15 07:23:13.249227 sysTimeMgr[6437]:  230615-07:23:13.244413 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [publishStatus:452]:TIME Published = 1686813793, Converted Real Time(included in published time): Thursday Thu Jun 15 07:23:13 2023, Converted Monotonic Time = Thursday Thu Jun 15 07:23:13 2023
+2023 Jun 15 07:23:13.249286 sysTimeMgr[6437]:  230615-07:23:13.244444 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [publish:16]:IARM Broadcast Info: MsgType = 2, Quality = 1, Message = Good
+2023 Jun 15 07:23:45.480092 sysTimeMgr[6437]:  230615-07:23:45.470231 [mod=SYSTIMEMGR, lvl=INFO] [tid=6457] [runPathMonitor:276]:File created/modified = ntp
+2023 Jun 15 07:23:45.480230 sysTimeMgr[6437]:  230615-07:23:45.470524 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [runStateMachine:151]:There is no Event Processing available in this state. State = 3, Event = 5
+2023 Jun 15 07:24:49.722850 sysTimeMgr[6437]:  230615-07:24:49.721453 [mod=SYSTIMEMGR, lvl=INFO] [tid=6457] [runPathMonitor:276]:File created/modified = ntp
+2023 Jun 15 07:24:49.722954 sysTimeMgr[6437]:  230615-07:24:49.721572 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [runStateMachine:151]:There is no Event Processing available in this state. State = 3, Event = 5
+2023 Jun 15 07:26:57.970803 sysTimeMgr[6437]:  230615-07:26:57.969812 [mod=SYSTIMEMGR, lvl=INFO] [tid=6457] [runPathMonitor:276]:File created/modified = ntp
+2023 Jun 15 07:26:57.971074 sysTimeMgr[6437]:  230615-07:26:57.970967 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [runStateMachine:151]:There is no Event Processing available in this state. State = 3, Event = 5
+2023 Jun 15 07:31:14.221904 sysTimeMgr[6437]:  230615-07:31:14.220992 [mod=SYSTIMEMGR, lvl=INFO] [tid=6457] [runPathMonitor:276]:File created/modified = ntp
+2023 Jun 15 07:31:14.222045 sysTimeMgr[6437]:  230615-07:31:14.221214 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [runStateMachine:151]:There is no Event Processing available in this state. State = 3, Event = 5
+2023 Jun 15 07:32:37.040848 sysTimeMgr[6437]:  230615-07:32:37.038755 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:101]:Updating Time. Converted Time: Thursday Thu Jan  1 00:00:00 1970 , Actual value passed:0,
+2023 Jun 15 07:32:37.040992 sysTimeMgr[6437]:  230615-07:32:37.038815 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:110]: Clock_gettime Call succeeded with REAL time.
+2023 Jun 15 07:32:37.041067 sysTimeMgr[6437]:  230615-07:32:37.038857 [mod=SYSTIMEMGR, lvl=INFO] [tid=6455] [updateTime:128]:Updating Time in file. Converted Time: Thursday Thu Jun 15 07:32:37 2023 , Actual value passed:1686814357,

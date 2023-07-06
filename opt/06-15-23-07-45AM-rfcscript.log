@@ -1,0 +1,214 @@
+15.06.2023_07:22:32 [RFC] Requesting /opt/secure/RFC/.RFC_SLAACSUPPORT.ini
+15.06.2023_07:22:35 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - eth0 add
+15.06.2023_07:22:35 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:22:35 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:22:35 [RFC]:WEB_INSPECTOR : eth0 is a valid interface !!
+15.06.2023_07:22:35 [RFC]:WEB_INSPECTOR : [/lib/rdk/enableWebInspector.sh]:Interface = eth0 Status = up
+15.06.2023_07:22:35 [RFC]:WEB_INSPECTOR : ip_event : add
+[BP] Returning through getBootstrapProperty call for ntpHost, result=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+ </body>
+</html>
+[BP] Returning through getBootstrapProperty call for ntpHost2, result=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+ </body>
+</html>
+[BP] Returning through getBootstrapProperty call for ntpHost3, result=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+ </body>
+</html>
+[BP] Returning through getBootstrapProperty call for ntpHost4, result=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+ </body>
+</html>
+[BP] Returning through getBootstrapProperty call for ntpHost5, result=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 Not Found</title>
+ </head>
+ <body>
+  <h1>404 Not Found</h1>
+ </body>
+</html>
+15.06.2023_07:22:41 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:22:41 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:22:41 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:22:54 [RFC] Requesting /opt/secure/RFC/.RFC_SLAACSUPPORT.ini
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth0 add
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby0 add
+15.06.2023_07:23:32 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:23:32 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:23:32 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:23:32 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:23:32 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:23:35 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth1 add
+15.06.2023_07:23:35 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:23:35 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:23:35 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:23:35 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:23:35 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+RFCbase: calling getMtlsCreds
+15.06.2023_07:23:39 [RFC]:: RFC: Starting service, creating lock 
+15.06.2023_07:23:39 [RFC]:: RFC: Waiting for IP Acquistion...
+15.06.2023_07:23:39 [RFC]:: Acquired Box estb ip : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade , Count = 0
+15.06.2023_07:23:39 [RFC]:: Starting execution of RFCbase.sh
+15.06.2023_07:23:40 [RFC]:: Starting Pre Processing
+[RFC]:: PREPROCESSING IS RUN NOW !!!
+15.06.2023_07:23:45 [RFC]:: /tmp/route_available is now present. Count = 0. Ready to send curl request.
+15.06.2023_07:23:45 [RFC]:: CALLING Direct override from local rfc.properties, state LOCAL
+15.06.2023_07:23:45 [RFC]:: Calling request to NEW XConf...
+15.06.2023_07:23:45 [RFC]::     URL: https://rdkautotool.ccp.xcal.tv/featureControl/getSettings
+15.06.2023_07:23:46 [RFC]:: CallXconf: Box IP is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade
+15.06.2023_07:23:46 [RFC]:: CallXconf: Codebig is disabled UseCodebig=0
+15.06.2023_07:23:46 [RFC]:: CallXconf: sendHttpRequestToServer Attempting Direct connection
+15.06.2023_07:23:46 [RFC]:: RFC: bkAccountId=3120539011156101601
+15.06.2023_07:23:46 [RFC]:: RFC: rfcAccountID=3120539011156101601
+15.06.2023_07:23:46 [RFC]:: RFC: bkPartnerId=xglobal
+15.06.2023_07:23:47 [RFC]:: RFC: rfcPartnerId=xglobal
+15.06.2023_07:23:47 [RFC]:: Setting URL to https://rdkautotool.ccp.xcal.tv/featureControl/getSettings from local override
+15.06.2023_07:23:47 [RFC]:: RFC_TM_Track : CURL_CMD: curl  --cert-type P12 --cert /opt/certs/devicecert_1.pk12<hidden key> -w '%{http_code} %{remote_ip} %{remote_port}\n' -D /tmp/curl_header  --connect-timeout 10 -m 10 --tlsv1.2  -H configsethash: -H configsettime: -o  "/tmp/rfc-parsed.txt" 'https://rdkautotool.ccp.xcal.tv/featureControl/getSettings?estbMacAddress=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&env=vbn&model=ELTE11MWR&controllerId=2504&channelMapId=2345&vodId=15660&partnerId=xglobal&accountId=3120539011156101601&experience=FlexV2&version=2'
+15.06.2023_07:23:48 [RFC]:: MTLS enabled
+15.06.2023_07:23:50 [RFC]:: RFC_TM_Track : Curl Connected to rdkautotool.ccp.xcal.tv (2001:558:fc0a:6:f816:3eff:feb6:d843) port 443
+15.06.2023_07:23:50 [RFC]:: RFC_TM_Track : Curl return code TLSRet = 0 http_code: 304
+15.06.2023_07:23:50 [RFC]:: RFC_TM_Track : uptime =  03:23:50 up 1 min,  1 user,  load average: 5.17, 1.83, 0.66
+15.06.2023_07:23:50 [RFC]:: HTTP request success. Response unchanged (304). No processing
+15.06.2023_07:23:51 [RFC]:: [Features Enabled]-[ACTIVE]:  ADT:E=true, AccountId=true, DOS_Limit_RFC:E=true, DolbyVision:E=true, HDMICEC:E=true, OTT_Token:E_Netflix=true, PXSCENE_PRELOAD:E=true, Platco_AR:E=true, SSHWhiteList:E_DEV=true, SWDLSpLimit:E=true, TNE:E_N=true, WPEWidevine:E=true, ZRAM:E=true, eMMC_Version_New:E=true,
+15.06.2023_07:23:51 [RFC]:: resp = 0
+15.06.2023_07:23:51 [RFC]:: RFC: configsethash=1978jiEUGM6eWSKnwTR8pFR2smGtcgdxfB at configsettime=1686813831
+15.06.2023_07:23:51 [RFC]:: Starting Post Processing
+[RFC]:: POSTPROCESSING IS RUN NOW !!!
+[RFC]:: POSTPROCESSING IS COMPLETE !!!
+15.06.2023_07:23:51 [RFC]:: CallXconf: sendHttpRequestToServer Direct connection success
+15.06.2023_07:23:51 [RFC]:: CallXconf: Exiting script.
+15.06.2023_07:23:51 [RFC]:: Finish the IP Firewall Configuration
+15.06.2023_07:23:51 [RFC]:: RFC: Completed service, deleting lock 
+15.06.2023_07:31:50 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth1 delete
+15.06.2023_07:31:50 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:50 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:50 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:50 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:50 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:51 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth0 delete
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby0 delete
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby0 add
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby_tap0 add
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby_tap0 delete
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby0 delete
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:31:52 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:31:52 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+RFCbase: calling getMtlsCreds
+15.06.2023_07:32:42 [RFC]:: RFC: Starting service, creating lock 
+15.06.2023_07:32:42 [RFC]:: RFC: Waiting for IP Acquistion...
+15.06.2023_07:32:42 [RFC]:: Acquired Box estb ip : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade , Count = 0
+15.06.2023_07:32:42 [RFC]:: Starting execution of RFCbase.sh
+15.06.2023_07:32:42 [RFC]:: Starting Pre Processing
+[RFC]:: PREPROCESSING IS RUN NOW !!!
+15.06.2023_07:32:47 [RFC]:: /tmp/route_available is now present. Count = 0. Ready to send curl request.
+15.06.2023_07:32:47 [RFC]:: CALLING Direct override from local rfc.properties, state LOCAL
+15.06.2023_07:32:47 [RFC]:: Calling request to NEW XConf...
+15.06.2023_07:32:48 [RFC]::     URL: https://rdkautotool.ccp.xcal.tv/featureControl/getSettings
+15.06.2023_07:32:49 [RFC]:: CallXconf: Box IP is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade
+15.06.2023_07:32:49 [RFC]:: CallXconf: Codebig is disabled UseCodebig=0
+15.06.2023_07:32:49 [RFC]:: CallXconf: sendHttpRequestToServer Attempting Direct connection
+15.06.2023_07:32:49 [RFC]:: RFC: bkAccountId=3120539011156101601
+15.06.2023_07:32:49 [RFC]:: RFC: rfcAccountID=3120539011156101601
+15.06.2023_07:32:49 [RFC]:: RFC: bkPartnerId=xglobal
+15.06.2023_07:32:50 [RFC]:: RFC: rfcPartnerId=xglobal
+15.06.2023_07:32:50 [RFC]:: Setting URL to https://rdkautotool.ccp.xcal.tv/featureControl/getSettings from local override
+15.06.2023_07:32:50 [RFC]:: RFC_TM_Track : CURL_CMD: curl  --cert-type P12 --cert /opt/certs/devicecert_1.pk12<hidden key> -w '%{http_code} %{remote_ip} %{remote_port}\n' -D /tmp/curl_header  --connect-timeout 10 -m 10 --tlsv1.2  -H configsethash: -H configsettime: -o  "/tmp/rfc-parsed.txt" 'https://rdkautotool.ccp.xcal.tv/featureControl/getSettings?estbMacAddress=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&env=vbn&model=ELTE11MWR&controllerId=2504&channelMapId=2345&vodId=15660&partnerId=xglobal&accountId=3120539011156101601&experience=FlexV2&version=2'
+15.06.2023_07:32:51 [RFC]:: MTLS enabled
+15.06.2023_07:32:53 [RFC]:: RFC_TM_Track : Curl Connected to rdkautotool.ccp.xcal.tv (2001:558:fc0a:6:f816:3eff:feb6:d843) port 443
+15.06.2023_07:32:53 [RFC]:: RFC_TM_Track : Curl return code TLSRet = 0 http_code: 304
+15.06.2023_07:32:53 [RFC]:: RFC_TM_Track : uptime =  03:32:53 up 10 min,  1 user,  load average: 4.92, 3.12, 1.72
+15.06.2023_07:32:53 [RFC]:: HTTP request success. Response unchanged (304). No processing
+15.06.2023_07:32:53 [RFC]:: [Features Enabled]-[ACTIVE]:  ADT:E=true, AccountId=true, DOS_Limit_RFC:E=true, DolbyVision:E=true, HDMICEC:E=true, OTT_Token:E_Netflix=true, PXSCENE_PRELOAD:E=true, Platco_AR:E=true, SSHWhiteList:E_DEV=true, SWDLSpLimit:E=true, TNE:E_N=true, WPEWidevine:E=true, ZRAM:E=true, eMMC_Version_New:E=true,
+15.06.2023_07:32:53 [RFC]:: resp = 0
+15.06.2023_07:32:54 [RFC]:: RFC: configsethash=1978jiEUGM6eWSKnwTR8pFR2smGtcgdxfB at configsettime=1686814374
+15.06.2023_07:32:54 [RFC]:: Starting Post Processing
+[RFC]:: POSTPROCESSING IS RUN NOW !!!
+[RFC]:: POSTPROCESSING IS COMPLETE !!!
+15.06.2023_07:32:54 [RFC]:: CallXconf: sendHttpRequestToServer Direct connection success
+15.06.2023_07:32:54 [RFC]:: CallXconf: Exiting script.
+15.06.2023_07:32:55 [RFC]:: Finish the IP Firewall Configuration
+15.06.2023_07:32:55 [RFC]:: RFC: Completed service, deleting lock 
+15.06.2023_07:32:59 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth1 add
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - dobby0 add
+15.06.2023_07:33:00 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:33:00 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:33:00 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:33:00 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:33:00 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 
+15.06.2023_07:33:04 [RFC]:WEB_INSPECTOR : Executing enableWebInspector.sh with arguments - veth2 add
+15.06.2023_07:33:04 [RFC] Requesting /opt/secure/RFC/.RFC_WEBKIT_INSPECTOR.ini
+15.06.2023_07:33:04 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBKIT_INSPECTOR is  and BUILD_TYPE is vbn
+15.06.2023_07:33:04 [RFC]:WEB_INSPECTOR : Executing enableWebAutomation.sh !!
+15.06.2023_07:33:04 [RFC] Requesting /opt/secure/RFC/.RFC_WEBAUTOMATION.ini
+15.06.2023_07:33:04 [RFC]:WEB_INSPECTOR : RFC_ENABLE_WEBAUTOMATION is 

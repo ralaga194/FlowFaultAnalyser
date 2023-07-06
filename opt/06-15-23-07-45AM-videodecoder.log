@@ -1,0 +1,30 @@
+2023 Jun 15 07:22:32.464329 [vdec-statistics.sh#4640]: Created/Updated CRONJOB to run the script on every 15 mins
+2023 Jun 15 07:22:32.476988 [vdec-statistics.sh#4640]: Retrieving Video Decoder performance information for telemetry support
+2023 Jun 15 07:22:32.484054 [vdec-statistics.sh#4640]: cat /sys/class/vdec/vdec_status
+No vdec.
+2023 Jun 15 07:22:32.496864 [vdec-statistics.sh#4640]: cat /sys/class/vdec/core
+connected vdec list empty
+2023 Jun 15 07:22:32.521496 [vdec-statistics.sh#4640]: cat /sys/class/codec_mm/codec_mm_dump
+codec mem info:
+	total codec mem size:380 MB
+	alloced size= 0 MB
+	max alloced: 24 MB
+	CMA:380,RES:0,TVP:0,SYS:0,COHER:0,VMAPED:0 MB
+	[4]CMA size:380 MB:alloced: 380 MB,free:0 MB
+	[6]CMA_RES size:380 MB,alloced:0 MB free:380 MB
+	[2].0:CMA_RES.0,addr=67c00000,size=398458880,from=4,cnt=1,flags=134218241,used:428 ms
+2023 Jun 15 03:30:00.948087 [vdec-statistics.sh#21600]: Created/Updated CRONJOB to run the script on every 15 mins
+2023 Jun 15 03:30:00.968445 [vdec-statistics.sh#21600]: Retrieving Video Decoder performance information for telemetry support
+2023 Jun 15 03:30:00.988241 [vdec-statistics.sh#21600]: cat /sys/class/vdec/vdec_status
+No vdec.
+2023 Jun 15 03:30:01.027711 [vdec-statistics.sh#21600]: cat /sys/class/vdec/core
+connected vdec list empty
+2023 Jun 15 03:30:01.068201 [vdec-statistics.sh#21600]: cat /sys/class/codec_mm/codec_mm_dump
+codec mem info:
+	total codec mem size:380 MB
+	alloced size= 0 MB
+	max alloced: 113 MB
+	CMA:380,RES:0,TVP:0,SYS:0,COHER:0,VMAPED:0 MB
+	[4]CMA size:380 MB:alloced: 380 MB,free:0 MB
+	[6]CMA_RES size:380 MB,alloced:0 MB free:380 MB
+	[2].0:CMA_RES.0,addr=67c00000,size=398458880,from=4,cnt=1,flags=134218241,used:448496 ms

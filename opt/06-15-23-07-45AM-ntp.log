@@ -1,0 +1,6 @@
+2023 Jun 15 07:23:13.248010 systemd-timesyncd[8421]:  Time response event, set the event flag
+2023 Jun 15 07:23:13.250207 systemd-timesyncd[8421]:  Synchronized to time server [2001:4860:4806:8::]:123 (time3.google.com).
+2023 Jun 15 07:23:45.480906 systemd-timesyncd[8421]:  Time response event, set the event flag
+2023 Jun 15 07:24:49.722134 systemd-timesyncd[8421]:  Time response event, set the event flag
+2023 Jun 15 07:26:57.970132 systemd-timesyncd[8421]:  Time response event, set the event flag
+2023 Jun 15 07:31:14.221188 systemd-timesyncd[8421]:  Time response event, set the event flag

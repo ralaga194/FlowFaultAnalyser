@@ -1,0 +1,54 @@
+2023 Jun 15 07:22:40.172368 sh[7744]:  Inside the bash script
+2023 Jun 15 07:22:40.469826 sh[7744]:  FactoryComms Daemon is not running, going to start daemon
+2023 Jun 15 07:22:40.779490 sh[7744]:  INFO [serial_main.cpp:40] setValue: bd rate: ttyS
+2023 Jun 15 07:22:40.779617 sh[7744]:  INFO [serial_main.cpp:43] setValue: bd rate: BAUD_115200
+2023 Jun 15 07:22:40.779677 sh[7744]:  INFO [serial_main.cpp:46] setValue: char size: CHAR_SIZE_8
+2023 Jun 15 07:22:40.779804 sh[7744]:  INFO [serial_main.cpp:49] setValue: flow control: FLOW_CONTROL_NONE
+2023 Jun 15 07:22:40.779904 sh[7744]:  INFO [serial_main.cpp:52] setValue: parity: PARITY_NONE
+2023 Jun 15 07:22:40.780022 sh[7744]:  INFO [serial_main.cpp:55] setValue: stopbits: STOP_BITS_1
+2023 Jun 15 07:22:40.780089 sh[7744]:  INFO [serial_main.cpp:59] setValue: persistence path: /opt/secure/persistent/rdkservicestore
+2023 Jun 15 07:22:40.780194 sh[7744]:  INFO [serial_main.cpp:152] main: Reading serial configurations Success
+2023 Jun 15 07:22:41.094714 sh[7744]:  INFO [serial_main.cpp:99] isFactoryModeon: mac is serialized.... A8:4A:63:1E:5A:DE
+2023 Jun 15 07:22:41.095502 sh[7744]:  INFO [serial_main.cpp:101] isFactoryModeon: Check for the FactoryMode flag
+2023 Jun 15 07:22:41.098244 sh[7744]:  INFO [serial_main.cpp:125] isFactoryModeon: Value from db: false
+2023 Jun 15 07:22:41.098397 sh[7744]:  INFO [serial_main.cpp:160] main: Factory mode is off.. exiting factorycomms
+2023 Jun 15 07:22:41.099378 sh[7744]:  [0m[DEBUG]enableMappingTable:[3570] Enable mapping table [0m
+2023 Jun 15 07:22:41.099486 sh[7744]:  [0m[DEBUG]enableMappingTable:[3573] File created [0m
+2023 Jun 15 07:22:41.099549 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4391] Inside mfr_partition_init[0m
+2023 Jun 15 07:22:41.099610 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4443] Initialize manufacturer details[0m
+2023 Jun 15 07:22:41.099671 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 1[0m
+2023 Jun 15 07:22:41.099732 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is WbDefaultGain[0m
+2023 Jun 15 07:22:41.099791 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 2[0m
+2023 Jun 15 07:22:41.099853 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is WbDefaultOffset[0m
+2023 Jun 15 07:22:41.099929 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 3[0m
+2023 Jun 15 07:22:41.100021 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is HDCP1.Xfilename[0m
+2023 Jun 15 07:22:41.100093 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 4[0m
+2023 Jun 15 07:22:41.100157 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is HDCP2.Xfilename[0m
+2023 Jun 15 07:22:41.100221 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 5[0m
+2023 Jun 15 07:22:41.100285 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is deviceLock[0m
+2023 Jun 15 07:22:41.100343 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 6[0m
+2023 Jun 15 07:22:41.100399 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is deviceStage[0m
+2023 Jun 15 07:22:41.100462 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 7[0m
+2023 Jun 15 07:22:41.100521 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.100578 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 8[0m
+2023 Jun 15 07:22:41.100711 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.100770 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 9[0m
+2023 Jun 15 07:22:41.100828 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.100903 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 10[0m
+2023 Jun 15 07:22:41.100962 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101018 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 11[0m
+2023 Jun 15 07:22:41.101074 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101153 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 12[0m
+2023 Jun 15 07:22:41.101212 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101270 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 13[0m
+2023 Jun 15 07:22:41.101327 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101384 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 14[0m
+2023 Jun 15 07:22:41.101441 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101499 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4446] key-value pair 15[0m
+2023 Jun 15 07:22:41.101557 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4447] Key is AAAAAAAAAA[0m
+2023 Jun 15 07:22:41.101667 sh[7744]:  [0m[DEBUG]mfr_partition_init:[4481] Initializing WB values to sd3 if not initialized before [0m
+2023 Jun 15 07:22:41.101728 sh[7744]:  [0m[DEBUG]controlUDASoftlock:[2770] write protection set successfully! for offset=0x9000000, size=0x800000[0m
+2023 Jun 15 07:22:41.101810 sh[7744]:  [0m[DEBUG]controlUDASoftlock:[2770] write protection set successfully! for offset=0x7800000, size=0x800000[0m
+2023 Jun 15 07:22:41.101869 sh[7744]:  [0m[DEBUG]controlUDASoftlock:[2770] write protection set successfully! for offset=0x7000000, size=0x1000000[0m
+2023 Jun 15 07:22:41.101928 sh[7744]:  [0m[DEBUG]mfrGetSerializedData:[897] Mac addr type=18, MAC=A8:4A:63:1E:5A:DE[0m
+2023 Jun 15 07:22:41.101991 sh[7744]:  [0m[DEBUG]getEthernetMAC:[700] EthernetMAC[A8:4A:63:1E:5A:DE] @@@@@@@@@@@ [0m

@@ -1,0 +1,36 @@
+2023 Jun 15 07:22:33.356291 iptables_init[5169]:  RFC configuration for Forward SSH is not available. Defaulting to ForwardSSH to true.
+2023 Jun 15 07:22:33.484153 iptables_init[5169]:  RFC_ENABLE_MOCASSH:
+2023 Jun 15 07:22:33.484278 iptables_init[5169]:  SSH: Forward SSH changed to enabled
+2023 Jun 15 07:22:33.500334 iptables_init[5169]:  iptables_init: Adding DEV/VBN /usr/sbin/iptables -w  rules..
+2023 Jun 15 07:22:33.500451 iptables_init[5169]:  iptables_init: Adding VBN/PROD /usr/sbin/iptables -w  rules..
+2023 Jun 15 07:22:33.884159 iptables_init[5169]:  Add the IPv4 SSH Static IP Addresses
+2023 Jun 15 07:22:33.911867 iptables_init[5169]:  Appended the IPv4 69.252.107.55 in StaticSshWhiteList
+2023 Jun 15 07:22:33.950710 iptables_init[5169]:  Appended the IPv4 96.114.220.63 in StaticSshWhiteList
+2023 Jun 15 07:22:33.979243 iptables_init[5169]:  Appended the IPv4 96.114.220.106 in StaticSshWhiteList
+2023 Jun 15 07:22:34.010002 iptables_init[5169]:  Appended the IPv4 96.114.220.109 in StaticSshWhiteList
+2023 Jun 15 07:22:34.038130 iptables_init[5169]:  Appended the IPv4 96.114.220.236 in StaticSshWhiteList
+2023 Jun 15 07:22:34.089748 iptables_init[5169]:  Appended the IPv4 96.118.159.156 in StaticSshWhiteList
+2023 Jun 15 07:22:34.138983 iptables_init[5169]:  Appended the IPv4 96.118.159.245 in StaticSshWhiteList
+2023 Jun 15 07:22:34.167107 iptables_init[5169]:  Appended the IPv4 96.118.159.252 in StaticSshWhiteList
+2023 Jun 15 07:22:34.206674 iptables_init[5169]:  Appended the IPv4 96.118.213.116 in StaticSshWhiteList
+2023 Jun 15 07:22:34.241393 iptables_init[5169]:  Appended the IPv4 96.116.59.21 in StaticSshWhiteList
+2023 Jun 15 07:22:34.272270 iptables_init[5169]:  Appended the IPv4 162.150.80.117 in StaticSshWhiteList
+2023 Jun 15 07:22:34.319955 iptables_init[5169]:  Appended the IPv4 162.150.19.128/25 in StaticSshWhiteList
+2023 Jun 15 07:22:35.121942 iptables_init[5169]:  iptables_init: Adding VBN/PROD /usr/sbin/ip6tables -w   rules..
+2023 Jun 15 07:22:35.415117 iptables_init[5169]:  Enabling ssh only from approved source IPv6s ...
+2023 Jun 15 07:22:35.415234 iptables_init[5169]:  SSH will be disabled from all other source !!!
+2023 Jun 15 07:22:35.425264 iptables_init[5169]:  Appended the IPv6 2001:558:1020:1:250:56ff:fe94:6453 in StaticSshWhiteList
+2023 Jun 15 07:22:35.449801 iptables_init[5169]:  Appended the IPv6 2001:558:1020:3:250:56ff:fe94:76ad in StaticSshWhiteList
+2023 Jun 15 07:22:35.503989 iptables_init[5169]:  Appended the IPv6 2001:558:fc0a:6:f816:3eff:fe19:9cc8 in StaticSshWhiteList
+2023 Jun 15 07:22:35.532405 iptables_init[5169]:  Appended the IPv6 2001:558:fc0a:6:f816:3eff:fe38:224b in StaticSshWhiteList
+2023 Jun 15 07:22:35.559476 iptables_init[5169]:  Appended the IPv6 2001:558:fc0a:6:f816:3eff:feb2:22bd in StaticSshWhiteList
+2023 Jun 15 07:22:35.585604 iptables_init[5169]:  Appended the IPv6 2001:558:fc0a:3:f816:3eff:fe48:ba20 in StaticSshWhiteList
+2023 Jun 15 07:22:35.597826 iptables_init[5169]:  Appended the IPv6 2001:558:fc11:2:f816:3eff:fe5e:e710 in StaticSshWhiteList
+2023 Jun 15 07:22:35.635073 iptables_init[5169]:  Appended the IPv6 2001:558:fc11:2:f816:3eff:fed2:80e8 in StaticSshWhiteList
+2023 Jun 15 07:22:35.657658 iptables_init[5169]:  Appended the IPv6 2001:558:fc11:2:f816:3eff:fef5:73a9 in StaticSshWhiteList
+2023 Jun 15 07:22:35.674853 iptables_init[5169]:  Appended the IPv6 2001:558:fc0a:6:f816:3eff:fe06:cf45 in StaticSshWhiteList
+2023 Jun 15 07:22:35.696654 iptables_init[5169]:  Appended the IPv6 2001:558:fe15:8c3f::6072:dc3f in StaticSshWhiteList
+2023 Jun 15 07:22:35.718217 iptables_init[5169]:  Appended the IPv6 2001:558:fe15:8c7e::6072:dc7e in StaticSshWhiteList
+2023 Jun 15 07:22:35.732015 iptables_init[5169]:  Appended the IPv6 2001:558:fe15:8cc5::6072:dcc5 in StaticSshWhiteList
+2023 Jun 15 07:22:35.757142 iptables_init[5169]:  Appended the IPv6 2001:558:fe15:8cfa::6072:dcfa in StaticSshWhiteList
+2023 Jun 15 07:22:35.775786 iptables_init[5169]:  Appended the IPv6 2001:558:fe15:80::a296:1384/121 in StaticSshWhiteList

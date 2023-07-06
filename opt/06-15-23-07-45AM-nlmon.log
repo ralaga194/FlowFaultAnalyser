@@ -1,0 +1,1276 @@
+2023 Jun 15 07:22:33.624045 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:33.624211 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh lo up
+2023 Jun 15 07:22:33.624266 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh lo up &
+2023 Jun 15 07:22:33.659560 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:33.659690 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:33.659740 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh eth0 up
+2023 Jun 15 07:22:33.659795 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh eth0 up &
+2023 Jun 15 07:22:33.706979 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:33.707105 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:33.707179 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:33.707223 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:33.707303 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:33.707363 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 lo 127.0.0.1 local &
+2023 Jun 15 07:22:33.745814 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:33.745937 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 lo 127.0.0.1 local &
+2023 Jun 15 07:22:33.778533 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:33.778640 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 lo 127.0.0.1 local &
+2023 Jun 15 07:22:33.794681 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:33.794783 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 lo 127.0.0.1 local &
+2023 Jun 15 07:22:33.829876 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:33.829995 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 lo 127.0.0.1 local &
+2023 Jun 15 07:22:33.860121 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = lo, addr = 127.0.0.1, flags = local
+2023 Jun 15 07:22:33.860286 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:33.860353 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:33.860408 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:33.860501 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:33.880434 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:33.880524 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:33.898781 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:33.898900 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:33.914708 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:lo, addr:127.0.0.1, flags:local
+2023 Jun 15 07:22:33.934318 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:33.934454 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:33.950424 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:33.950509 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:33.982390 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:33.982715 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:33.982852 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 lo ::1 local
+2023 Jun 15 07:22:33.982906 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 lo ::1 local &
+2023 Jun 15 07:22:34.021152 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:eth0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:22:34.032686 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 lo ::1 local
+2023 Jun 15 07:22:34.032801 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 lo ::1 local &
+2023 Jun 15 07:22:34.059335 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 lo ::1 local
+2023 Jun 15 07:22:34.059438 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 lo ::1 local &
+2023 Jun 15 07:22:34.095291 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 lo ::1 local
+2023 Jun 15 07:22:34.095388 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 lo ::1 local &
+2023 Jun 15 07:22:34.130250 "nlmon"[5218]:   Creating IPv4 flags for eth0:0
+2023 Jun 15 07:22:34.147455 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 lo ::1 local
+2023 Jun 15 07:22:34.147548 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 lo ::1 local &
+2023 Jun 15 07:22:34.164179 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = lo, addr = ::1, flags = local
+2023 Jun 15 07:22:34.167719 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:34.167825 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.167901 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.167983 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168053 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168115 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168180 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168224 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168282 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168367 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168419 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168466 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168547 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168767 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168819 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168867 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.168911 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.168987 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.169037 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.169083 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.169148 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.180870 "nlmon"[5218]:  Updating Box/ESTB IP
+2023 Jun 15 07:22:34.185632 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = eth0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:22:34.187046 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.191186 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.191327 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:34.191450 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:34.191519 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:34.191564 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh eth0 add
+2023 Jun 15 07:22:34.191612 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh eth0 add &
+2023 Jun 15 07:22:34.237293 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:lo, addr:::1, flags:local
+2023 Jun 15 07:22:34.241561 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:34.243553 "nlmon"[5218]:  Received global ipv4 address for eth0:0 interface, uptime is 7.91 milliseconds
+2023 Jun 15 07:22:34.371767 "nlmon"[5218]:  new_xcast_ip_addr_file is /tmp/XDIAL_ipv4_eth0_0_192.168.28.10
+2023 Jun 15 07:22:34.413780 "nlmon"[5218]:  head: invalid option -- '1'
+2023 Jun 15 07:22:34.413876 "nlmon"[5218]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:34.413930 "nlmon"[5218]:  Usage: head [OPTIONS] [FILE]...
+2023 Jun 15 07:22:34.852997 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:22:34.931351 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:34.931418 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh wlan0 up
+2023 Jun 15 07:22:34.931488 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh wlan0 up &
+2023 Jun 15 07:22:34.951244 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:34.988053 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:34.988164 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:34.988234 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:35.034796 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:35.034909 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:35.064188 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:35.064295 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:35.076952 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Set IP Remote Support enabled status as false, /opt/.ipremote_status file not found.
+2023 Jun 15 07:22:35.080848 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:35.080958 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:35.118225 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:35.118399 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:35.139687 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:35.139738 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:35.139781 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:35.139824 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:35.139913 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:35.139992 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:35.140037 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:35.140081 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:35.140123 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:35.145717 "nlmon"[5218]:   Creating IPv4 flags for wlan0:0
+2023 Jun 15 07:22:35.157538 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:22:35.176425 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:wlan0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:22:35.176565 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled on boot
+2023 Jun 15 07:22:35.181481 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = wlan0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:22:35.228460 "nlmon"[5218]:  Received global ipv4 address for wlan0:0 interface, uptime is 8.91 milliseconds
+2023 Jun 15 07:22:35.294889 "nlmon"[5218]:  Updating Wi-Fi IP
+2023 Jun 15 07:22:35.866892 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:35.866995 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:35.867046 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local &
+2023 Jun 15 07:22:35.881715 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:35.881818 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local &
+2023 Jun 15 07:22:35.891569 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:35.891626 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local &
+2023 Jun 15 07:22:35.907764 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:35.907895 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local &
+2023 Jun 15 07:22:35.933000 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:35.933185 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local &
+2023 Jun 15 07:22:35.954709 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:35.954798 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:35.954844 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:35.980141 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:eth0, addr:fe80::aa4a:63ff:fe1e:5ade, flags:local
+2023 Jun 15 07:22:35.990651 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = eth0, addr = fe80::aa4a:63ff:fe1e:5ade, flags = local
+2023 Jun 15 07:22:36.276874 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:36.276926 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:36.540720 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:36.540810 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:36.540860 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:36.556393 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:36.556511 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:36.581184 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:36.581312 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:36.610561 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:36.610660 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:36.631938 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 192.168.28.10 global
+2023 Jun 15 07:22:36.632038 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 192.168.28.10 global &
+2023 Jun 15 07:22:36.637481 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:36.637591 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.637824 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.637887 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.637932 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.637974 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.638017 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.638059 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.638101 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.638451 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:36.638530 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.638581 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.666403 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.666510 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.666992 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:eth0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:22:36.679050 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.679145 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.699043 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.699144 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.719783 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.719899 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.747751 "nlmon"[5218]:   Creating IPv4 flags for eth0:0
+2023 Jun 15 07:22:36.751161 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:36.751281 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.751346 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.751411 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.751456 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.751601 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.751670 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.751749 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.751800 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.751873 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:36.751932 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.751994 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.772556 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:eth0:0, addr:10.0.0.19, flags:global
+2023 Jun 15 07:22:36.783051 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = eth0:0, addr = 10.0.0.19, flags = global
+2023 Jun 15 07:22:36.783374 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.783457 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.797188 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.797302 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.812396 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.812498 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.814714 "nlmon"[5218]:  Received global ipv4 address for eth0:0 interface, uptime is 10.50 milliseconds
+2023 Jun 15 07:22:36.818695 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = eth0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:22:36.840207 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.840315 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.860030 "nlmon"[5218]:  Updating Box/ESTB IP
+2023 Jun 15 07:22:36.867909 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:36.868058 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.868106 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.868151 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.868193 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.868261 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.868306 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.868348 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.868391 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.868456 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:36.868502 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.868549 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.883325 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:eth0:0, addr:10.0.0.19, flags:global
+2023 Jun 15 07:22:36.887897 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.888008 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.907943 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.908047 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.921933 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.922042 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.952838 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.952937 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.965596 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:36.965715 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.965788 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.965865 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.965923 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.965995 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.966072 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.966136 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.966180 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.966242 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:36.966287 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:36.966351 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:36.966401 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.966451 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:36.978699 "nlmon"[5218]:   Creating IPv4 flags for eth0:0
+2023 Jun 15 07:22:36.997943 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:36.998035 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.002106 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:eth0:0, addr:10.0.0.19, flags:global
+2023 Jun 15 07:22:37.017607 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.017702 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.026106 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.026204 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.057543 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = eth0:0, addr = 10.0.0.19, flags = global
+2023 Jun 15 07:22:37.060833 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.060930 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.083906 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:37.084005 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.084059 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.084118 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.084184 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.084244 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.084297 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.084386 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.084447 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.084495 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.084551 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.084790 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:37.084841 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.084892 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.091175 "nlmon"[5218]:  Received global ipv4 address for eth0:0 interface, uptime is 10.78 milliseconds
+2023 Jun 15 07:22:37.111705 "nlmon"[5218]:  Updating Box/ESTB IP
+2023 Jun 15 07:22:37.114333 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = eth0:0, addr = 10.0.0.19, flags = global
+2023 Jun 15 07:22:37.115892 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.115990 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.116583 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:eth0:0, addr:10.0.0.19, flags:global
+2023 Jun 15 07:22:37.140259 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.140359 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.152000 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.152098 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.184531 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:37.184684 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0:0 10.0.0.19 global &
+2023 Jun 15 07:22:37.204976 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:37.205086 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.205141 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.205194 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.205239 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.205282 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.205325 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.205367 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.205410 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.205456 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:37.205505 "nlmon"[5218]:  Publishing default Route: Args msgargs = 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:37.205578 "nlmon"[5218]:  COMMAND = /lib/rdk/checkDefaultRoute.sh 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:37.205638 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/checkDefaultRoute.sh 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add &
+2023 Jun 15 07:22:37.206778 "nlmon"[5218]:  T2ERROR:getRbusParameterVal ../../../git/source/commonlib/telemetry_busmessage_sender.c:245: Unable to get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Telemetry.Enable
+2023 Jun 15 07:22:37.207019 "nlmon"[5218]:  T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:548: initRFC failed - cache the events
+2023 Jun 15 07:22:37.224559 "nlmon"[5218]:  COMMAND = /usr/bin/hwst_defaultRoute.sh 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:37.224724 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/bin/hwst_defaultRoute.sh 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add &
+2023 Jun 15 07:22:37.229628 "nlmon"[5218]:   Creating IPv4 flags for eth0:0
+2023 Jun 15 07:22:37.230878 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:eth0:0, addr:10.0.0.19, flags:global
+2023 Jun 15 07:22:37.253630 "nlmon"[5218]:  COMMAND = /lib/rdk/ipmodechange.sh 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:37.253728 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipmodechange.sh 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add &
+2023 Jun 15 07:22:37.257797 "nlmon"[5218]:  sh: /usr/bin/hwst_defaultRoute.sh: No such file or directory
+2023 Jun 15 07:22:37.262099 "nlmon"[5218]:  Input Arguments : 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add
+2023 Jun 15 07:22:37.266651 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:37.270118 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = eth0:0, addr = 10.0.0.19, flags = global
+2023 Jun 15 07:22:37.286445 "nlmon"[5218]:  Kernel IP routing table
+2023 Jun 15 07:22:37.286573 "nlmon"[5218]:  Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+2023 Jun 15 07:22:37.286623 "nlmon"[5218]:  0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+2023 Jun 15 07:22:37.286669 "nlmon"[5218]:  10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+2023 Jun 15 07:22:37.286716 "nlmon"[5218]:  192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0
+2023 Jun 15 07:22:37.313621 "nlmon"[5218]:  fe80::/64 dev eth0  metric 256
+2023 Jun 15 07:22:37.313726 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:22:37.313774 "nlmon"[5218]:  ff00::/8 dev eth0  metric 256
+2023 Jun 15 07:22:37.313823 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:22:37.313901 "nlmon"[5218]:  Route is available
+2023 Jun 15 07:22:37.313978 "nlmon"[5218]:  Creating the Route Flag /tmp/route_available
+2023 Jun 15 07:22:37.319320 "nlmon"[5218]:  Received global ipv4 address for eth0:0 interface, uptime is 11.01 milliseconds
+2023 Jun 15 07:22:37.327659 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:37.332696 "nlmon"[5218]:  Updating Box/ESTB IP
+2023 Jun 15 07:22:37.346796 "nlmon"[5218]:  T2ERROR:getRbusParameterVal ../../../git/source/commonlib/telemetry_busmessage_sender.c:245: Unable to get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Telemetry.Enable
+2023 Jun 15 07:22:37.347049 "nlmon"[5218]:  T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:548: initRFC failed - cache the events
+2023 Jun 15 07:22:37.354790 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = eth0:0, addr = 10.0.0.19, flags = global
+2023 Jun 15 07:22:37.357736 "nlmon"[5218]:  grep: /tmp/.GatewayIP_dfltroute: No such file or directory
+2023 Jun 15 07:22:37.362246 "nlmon"[5218]:  Input Arguments : 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add
+2023 Jun 15 07:22:37.440446 IARM_event_send[6916]:  IARM_event_sender  Entering 6916
+
+2023 Jun 15 07:22:37.441134 IARM_event_send[6916]:   Send IpmodeEvent
+2023 Jun 15 07:22:37.441689 IARM_event_send[6916]:  >>>>> Send IARM_BUS_NAME EVENT current Event Name =IpmodeEvent,evenstatus=ipv4
+2023 Jun 15 07:22:37.464132 IARM_event_send[6916]:  >>>>> Generate IARM_BUS_NAME EVENT current Event Name =IpmodeEvent,eventpayload=ipv4
+2023 Jun 15 07:22:37.466277 IARM_event_send[6916]:  IARM Event 0  retCode:0
+2023 Jun 15 07:22:37.481633 IARM_event_send[6916]:  IARM_event_sender closing 
+
+2023 Jun 15 07:22:37.482574 "nlmon"[5218]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = IpmodeEvent
+2023 Jun 15 07:22:37.482676 "nlmon"[5218]:  setting init done
+2023 Jun 15 07:22:37.482731 "nlmon"[5218]:  Registering IpmodeEvent
+2023 Jun 15 07:22:37.482779 "nlmon"[5218]:  term start init 1
+2023 Jun 15 07:22:37.526669 "nlmon"[5218]:  T2ERROR:getRbusParameterVal ../../../git/source/commonlib/telemetry_busmessage_sender.c:245: Unable to get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Telemetry.Enable
+2023 Jun 15 07:22:37.527396 "nlmon"[5218]:  T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:548: initRFC failed - cache the events
+2023 Jun 15 07:22:37.536846 "nlmon"[5218]:  T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:289: cacheEventToFile:289, Caching the event to File
+2023 Jun 15 07:22:38.963920 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.964046 "nlmon"[5218]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:38.964103 "nlmon"[5218]:  COMMAND = /lib/rdk/checkDefaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:38.964153 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/checkDefaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:22:38.985909 "nlmon"[5218]:  COMMAND = /usr/bin/hwst_defaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:38.985979 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/bin/hwst_defaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:22:38.987569 "nlmon"[5218]:  new_xcast_ip_addr_file is /tmp/XDIAL_ipv4_eth0_0_10.0.0.19
+2023 Jun 15 07:22:39.009419 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:22:39.013922 "nlmon"[5218]:  new_xcast_ip_addr_file is /tmp/XDIAL_ipv4_eth0_0_10.0.0.19
+2023 Jun 15 07:22:39.014038 "nlmon"[5218]:  sh: /usr/bin/hwst_defaultRoute.sh: No such file or directory
+2023 Jun 15 07:22:39.015407 "nlmon"[5218]:  COMMAND = /lib/rdk/ipmodechange.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:39.015520 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipmodechange.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:22:39.058565 "nlmon"[5218]:  head: invalid option -- '1'
+2023 Jun 15 07:22:39.058647 "nlmon"[5218]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:39.058703 "nlmon"[5218]:  Usage: head [OPTIONS] [FILE]...
+2023 Jun 15 07:22:39.058775 "nlmon"[5218]:  Kernel IP routing table
+2023 Jun 15 07:22:39.058824 "nlmon"[5218]:  Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+2023 Jun 15 07:22:39.058870 "nlmon"[5218]:  0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+2023 Jun 15 07:22:39.058919 "nlmon"[5218]:  10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+2023 Jun 15 07:22:39.058968 "nlmon"[5218]:  192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0
+2023 Jun 15 07:22:39.067331 "nlmon"[5218]:  new_xcast_ip_addr_file is /tmp/XDIAL_ipv4_eth0_0_10.0.0.19
+2023 Jun 15 07:22:39.084034 "nlmon"[5218]:  2601:9c0:57f:fd20::/64 dev eth0  metric 256  expires 0sec
+2023 Jun 15 07:22:39.084141 "nlmon"[5218]:  fe80::/64 dev eth0  metric 256
+2023 Jun 15 07:22:39.084202 "nlmon"[5218]:  default via fe80::e2db:d1ff:fed8:f099 dev eth0  metric 1024  expires 0sec
+2023 Jun 15 07:22:39.084276 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:22:39.084324 "nlmon"[5218]:  ff00::/8 dev eth0  metric 256
+2023 Jun 15 07:22:39.084370 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:22:39.087008 "nlmon"[5218]:  Route is available
+2023 Jun 15 07:22:39.087110 "nlmon"[5218]:  head: invalid option -- '1'
+2023 Jun 15 07:22:39.087158 "nlmon"[5218]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:39.087204 "nlmon"[5218]:  Usage: head [OPTIONS] [FILE]...
+2023 Jun 15 07:22:39.101721 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:39.101854 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:39.101979 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:39.131458 "nlmon"[5218]:  head: invalid option -- '1'
+2023 Jun 15 07:22:39.171949 "nlmon"[5218]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:39.172024 "nlmon"[5218]:  Usage: head [OPTIONS] [FILE]...
+2023 Jun 15 07:22:39.216150 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:22:39.543031 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:40.442140 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:40.442238 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.442290 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global &
+2023 Jun 15 07:22:40.451060 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.451121 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global &
+2023 Jun 15 07:22:40.468294 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.468402 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global &
+2023 Jun 15 07:22:40.511031 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.511142 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global &
+2023 Jun 15 07:22:40.537499 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.537643 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global &
+2023 Jun 15 07:22:40.566884 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:40.566959 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:40.567018 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:40.588172 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:eth0, addr:2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade, flags:global
+2023 Jun 15 07:22:40.617186 "nlmon"[5218]:   Creating IPv6 flags for eth0
+2023 Jun 15 07:22:40.642060 "nlmon"[5218]:  Updating Box/ESTB IP
+2023 Jun 15 07:22:40.645448 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = eth0, addr = 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade, flags = global
+2023 Jun 15 07:22:40.715839 "nlmon"[5218]:  Received global ipv6 address for eth0 interface, uptime is 14.41 milliseconds
+2023 Jun 15 07:22:40.866742 "nlmon"[5218]:  head: option requires an argument -- 'n'
+2023 Jun 15 07:22:40.866819 "nlmon"[5218]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:40.866944 "nlmon"[5218]:  Usage: head [OPTIONS] [FILE]...
+2023 Jun 15 07:22:41.598347 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:41.598413 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.598463 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:41.598511 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.598559 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:41.598607 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.598654 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:41.598702 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.598770 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:41.625529 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.625662 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 wlan0:0 192.168.28.10 global &
+2023 Jun 15 07:22:41.632859 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:41.658345 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:wlan0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:22:41.692091 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:41.939770 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = wlan0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:22:43.428853 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:43.650777 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:44.263504 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:49.728459 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:49.831711 "nlmon"[5218]:  cat: can't open '/tmp/.getDeviceDetails.lock/.lockPidFile': No such file or directory
+2023 Jun 15 07:22:54.273526 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:54.273616 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.273665 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 eth0 169.254.56.71 local &
+2023 Jun 15 07:22:54.278674 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.278770 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 eth0 169.254.56.71 local &
+2023 Jun 15 07:22:54.291075 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.291170 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 eth0 169.254.56.71 local &
+2023 Jun 15 07:22:54.313961 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.314057 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 eth0 169.254.56.71 local &
+2023 Jun 15 07:22:54.335468 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.335542 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 eth0 169.254.56.71 local &
+2023 Jun 15 07:22:54.346368 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:54.346458 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.346504 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.346549 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.346596 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.346785 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.346857 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.346959 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.347157 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.347214 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.347257 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.352875 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = eth0, addr = 169.254.56.71, flags = local
+2023 Jun 15 07:22:54.362369 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:eth0, addr:169.254.56.71, flags:local
+2023 Jun 15 07:23:31.588512 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.588578 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.592337 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.592392 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.592436 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:23:31.616967 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.617039 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:23:31.637749 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.637841 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:23:31.649160 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.649253 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:23:31.662531 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.662658 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:23:31.675320 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.677315 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.677409 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.677455 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.677496 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.677537 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.677580 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.677626 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.677675 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.677741 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.677784 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.677826 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.677867 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.677908 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.677949 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.677990 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.678030 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.678075 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.678118 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 up
+2023 Jun 15 07:23:31.678165 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 up &
+2023 Jun 15 07:23:31.694999 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.695275 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.695376 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.695635 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.695687 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.695817 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.695881 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.696031 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.696098 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.696206 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.696269 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.696414 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.696477 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.698339 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.698578 "nlmon"[5218]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.698641 "nlmon"[5218]:  COMMAND = /lib/rdk/checkDefaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.698703 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/checkDefaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete &
+2023 Jun 15 07:23:31.703626 "nlmon"[5218]:   Creating IPv4 flags for dobby0
+2023 Jun 15 07:23:31.707364 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby0, addr:100.64.11.1, flags:global
+2023 Jun 15 07:23:31.709855 "nlmon"[5218]:  COMMAND = /usr/bin/hwst_defaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.709950 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/bin/hwst_defaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete &
+2023 Jun 15 07:23:31.730835 "nlmon"[5218]:  COMMAND = /lib/rdk/ipmodechange.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.730937 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipmodechange.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete &
+2023 Jun 15 07:23:31.735393 "nlmon"[5218]:  sh: /usr/bin/hwst_defaultRoute.sh: No such file or directory
+2023 Jun 15 07:23:31.735609 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete
+2023 Jun 15 07:23:31.736187 "nlmon"[5218]:  Deleting Route Flag
+2023 Jun 15 07:23:31.739242 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby0, addr = 100.64.11.1, flags = global
+2023 Jun 15 07:23:31.746506 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.746593 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.746637 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.746681 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.746723 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.746766 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.746808 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.749488 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.749583 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.749964 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.750010 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth0 up
+2023 Jun 15 07:23:31.750060 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth0 up &
+2023 Jun 15 07:23:31.779561 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.779652 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.779706 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.779823 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.779883 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.779940 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.779993 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.780041 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.780258 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.780317 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.780398 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 add
+2023 Jun 15 07:23:31.780461 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 add &
+2023 Jun 15 07:23:31.806680 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.806769 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.806815 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth0 add
+2023 Jun 15 07:23:31.806863 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth0 add &
+2023 Jun 15 07:23:31.819086 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete
+2023 Jun 15 07:23:31.822219 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.822413 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.822488 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.822561 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.822611 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.822662 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.836177 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.836287 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.862941 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.863041 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.879290 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.879392 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.888638 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.888733 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.920968 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.921208 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.921282 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.921408 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.921476 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.921600 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.921664 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.921823 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.921886 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.921953 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.922000 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.922067 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.927816 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.927913 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.933270 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:23:31.936823 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:23:31.939312 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:23:31.941099 "nlmon"[5218]:   Creating IPv4 flags for dobby0:0
+2023 Jun 15 07:23:31.941439 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.941530 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.961138 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.961235 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.967870 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:23:31.974848 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.974963 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:23:31.988921 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.990542 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.990639 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.990685 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.990728 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.990820 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.990864 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.990912 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.990971 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.991024 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.991098 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby_tap0 up
+2023 Jun 15 07:23:31.991165 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby_tap0 up &
+2023 Jun 15 07:23:32.010181 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:veth0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:23:32.010529 "nlmon"[5218]:   Creating IPv4 flags for veth0:0
+2023 Jun 15 07:23:32.020042 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:32.020144 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:32.020191 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:32.020250 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:32.020316 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:32.020387 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:23:32.032274 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:32.032383 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:23:32.043952 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = veth0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:23:32.060080 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:32.060183 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:23:32.084343 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:32.084461 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:23:32.102246 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:32.102353 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:23:32.121668 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:23:32.123311 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:23:32.124775 "nlmon"[5218]:   Creating IPv4 flags for dobby_tap0:0
+2023 Jun 15 07:23:32.124896 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:32.125034 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:32.125103 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:32.125303 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:32.125362 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:32.125903 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:32.125992 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:32.126059 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:32.126116 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:32.145716 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby_tap0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:23:32.145862 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby_tap0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:23:33.028295 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.028445 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.028499 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:23:33.040834 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.040929 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:23:33.045889 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.045986 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:23:33.051188 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.051300 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:23:33.076477 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.076578 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:23:33.084997 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.085093 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.085169 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.085217 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.085267 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.085311 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.085356 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.085405 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:23:33.090391 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.090505 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:23:33.092806 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = dobby0, addr = 2080:d0bb:1e::6440:b01, flags = global
+2023 Jun 15 07:23:33.099635 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.099768 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:23:33.101659 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:dobby0, addr:2080:d0bb:1e::6440:b01, flags:global
+2023 Jun 15 07:23:33.106635 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.106735 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:23:33.113028 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.113143 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:23:33.128806 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.129169 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.129256 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.140975 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:veth0, addr:fe80::60f2:3fff:fe1a:47f2, flags:local
+2023 Jun 15 07:23:33.146420 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = veth0, addr = fe80::60f2:3fff:fe1a:47f2, flags = local
+2023 Jun 15 07:23:33.444510 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.444617 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.444676 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:23:33.450643 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.450734 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:23:33.455219 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.455318 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:23:33.459830 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.459932 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:23:33.464878 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.464982 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:23:33.470704 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.471069 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.471159 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.477855 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:dobby0, addr:fe80::ecb8:83ff:fe81:ae9c, flags:local
+2023 Jun 15 07:23:33.489038 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.489090 "nlmon"[5218]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.489139 "nlmon"[5218]:  COMMAND = /lib/rdk/checkDefaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.489205 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/checkDefaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:23:33.489268 "nlmon"[5218]:  COMMAND = /usr/bin/hwst_defaultRoute.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.489328 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/bin/hwst_defaultRoute.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:23:33.500565 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = dobby0, addr = fe80::ecb8:83ff:fe81:ae9c, flags = local
+2023 Jun 15 07:23:33.500723 "nlmon"[5218]:  COMMAND = /lib/rdk/ipmodechange.sh 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.500781 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipmodechange.sh 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add &
+2023 Jun 15 07:23:33.503814 "nlmon"[5218]:  sh: /usr/bin/hwst_defaultRoute.sh: No such file or directory
+2023 Jun 15 07:23:33.506600 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:23:33.514154 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.514258 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.514311 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.516367 "nlmon"[5218]:  Kernel IP routing table
+2023 Jun 15 07:23:33.516467 "nlmon"[5218]:  Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+2023 Jun 15 07:23:33.516516 "nlmon"[5218]:  0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+2023 Jun 15 07:23:33.516563 "nlmon"[5218]:  10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+2023 Jun 15 07:23:33.516627 "nlmon"[5218]:  100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+2023 Jun 15 07:23:33.516690 "nlmon"[5218]:  169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+2023 Jun 15 07:23:33.516737 "nlmon"[5218]:  192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+2023 Jun 15 07:23:33.516852 "nlmon"[5218]:  192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+2023 Jun 15 07:23:33.516899 "nlmon"[5218]:  192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+2023 Jun 15 07:23:33.516964 "nlmon"[5218]:  224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0
+2023 Jun 15 07:23:33.523890 "nlmon"[5218]:  2080:d0bb:1e::/64 dev dobby0  metric 256
+2023 Jun 15 07:23:33.524000 "nlmon"[5218]:  2601:9c0:57f:fd20::/64 dev eth0  metric 256  expires 0sec
+2023 Jun 15 07:23:33.524048 "nlmon"[5218]:  fe80::/64 dev eth0  metric 256
+2023 Jun 15 07:23:33.524101 "nlmon"[5218]:  fe80::/64 dev veth0  metric 256
+2023 Jun 15 07:23:33.524160 "nlmon"[5218]:  fe80::/64 dev dobby0  metric 256
+2023 Jun 15 07:23:33.524227 "nlmon"[5218]:  default via fe80::e2db:d1ff:fed8:f099 dev eth0  metric 1024  expires 0sec
+2023 Jun 15 07:23:33.524291 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:23:33.524345 "nlmon"[5218]:  ff00::/8 dev eth0  metric 256
+2023 Jun 15 07:23:33.524410 "nlmon"[5218]:  ff00::/8 dev dobby0  metric 256
+2023 Jun 15 07:23:33.524465 "nlmon"[5218]:  ff00::/8 dev veth0  metric 256
+2023 Jun 15 07:23:33.524533 "nlmon"[5218]:  unreachable default dev lo  metric -1  error -101
+2023 Jun 15 07:23:33.525775 "nlmon"[5218]:  Route is available
+2023 Jun 15 07:23:33.543126 "nlmon"[5218]:  Input Arguments : 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:23:33.562577 IARM_event_send[13665]:  IARM_event_sender  Entering 13665
+
+2023 Jun 15 07:23:33.563184 IARM_event_send[13665]:   Send IpmodeEvent
+2023 Jun 15 07:23:33.564046 IARM_event_send[13665]:  >>>>> Send IARM_BUS_NAME EVENT current Event Name =IpmodeEvent,evenstatus=ipv6
+2023 Jun 15 07:23:33.570607 IARM_event_send[13665]:  >>>>> Generate IARM_BUS_NAME EVENT current Event Name =IpmodeEvent,eventpayload=ipv6
+2023 Jun 15 07:23:33.571274 IARM_event_send[13665]:  IARM Event 0  retCode:0
+2023 Jun 15 07:23:34.072680 IARM_event_send[13665]:  IARM_event_sender closing 
+
+2023 Jun 15 07:23:34.073065 "nlmon"[5218]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = IpmodeEvent
+2023 Jun 15 07:23:34.073145 "nlmon"[5218]:  setting init done
+2023 Jun 15 07:23:34.073193 "nlmon"[5218]:  Registering IpmodeEvent
+2023 Jun 15 07:23:34.073239 "nlmon"[5218]:  term start init 1
+2023 Jun 15 07:23:35.412391 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.412526 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.424960 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.425023 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.425082 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.425127 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.425171 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.425215 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.452288 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.452354 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 up
+2023 Jun 15 07:23:35.452402 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 up &
+2023 Jun 15 07:23:35.468424 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.468514 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.468560 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.468604 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.468649 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.468695 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.468738 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.468781 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.468825 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 add
+2023 Jun 15 07:23:35.468873 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 add &
+2023 Jun 15 07:23:35.483744 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.484285 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.484389 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.542876 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:35.542967 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.543018 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:23:35.548517 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:23:35.564370 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.564495 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:23:35.577206 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.577313 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:23:35.584021 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.584135 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:23:35.599167 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.599307 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:23:35.605462 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:35.605818 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.605936 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.606137 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.606209 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.606377 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.606447 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.606601 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.606671 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.610912 "nlmon"[5218]:   Creating IPv4 flags for veth1:0
+2023 Jun 15 07:23:35.616587 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:veth1:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:23:35.629463 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = veth1:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:23:35.630016 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:23:37.260746 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:37.260814 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.260864 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:23:37.262313 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.262381 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:23:37.275377 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.275574 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:23:37.284053 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.284160 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:23:37.292710 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.292811 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:23:37.298070 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:37.298170 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:37.298217 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:37.299998 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = veth1, addr = fe80::74a5:10ff:fe4a:2dfb, flags = local
+2023 Jun 15 07:23:37.303638 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:veth1, addr:fe80::74a5:10ff:fe4a:2dfb, flags:local
+2023 Jun 15 07:31:49.943295 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:49.943369 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 delete
+2023 Jun 15 07:31:49.943421 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 delete &
+2023 Jun 15 07:31:49.949454 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 down
+2023 Jun 15 07:31:49.949530 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 down &
+2023 Jun 15 07:31:49.961143 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:49.961503 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.961661 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.961799 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.961869 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.961939 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:49.961992 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.962055 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:31:49.967037 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.967162 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:31:49.972061 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.972165 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:31:49.999766 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.999879 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:31:50.012788 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:50.012883 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local &
+2023 Jun 15 07:31:50.028801 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv6,  = veth1, addr = fe80::74a5:10ff:fe4a:2dfb, flags = local
+2023 Jun 15 07:31:50.030963 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:50.031066 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:50.031109 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:50.031172 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:50.031214 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:50.031255 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:50.031299 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:50.031340 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:50.031382 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:50.031429 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:31:50.046332 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:50.048137 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv6, ifc:veth1, addr:fe80::74a5:10ff:fe4a:2dfb, flags:local
+2023 Jun 15 07:31:50.049382 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:50.049477 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:31:50.067940 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:50.068036 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:31:50.089553 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:50.089676 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:31:50.099552 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:50.099651 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:31:50.115344 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:50.115701 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:50.115786 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:50.115930 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:50.115978 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link veth1
+2023 Jun 15 07:31:50.116062 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:50.116127 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link veth1
+2023 Jun 15 07:31:50.137350 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:veth1:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:31:50.142109 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:50.142422 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled
+2023 Jun 15 07:31:50.236201 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = veth1:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:31:51.329463 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.329522 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth0 delete
+2023 Jun 15 07:31:51.329570 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth0 delete &
+2023 Jun 15 07:31:51.339606 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth0 down
+2023 Jun 15 07:31:51.339712 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth0 down &
+2023 Jun 15 07:31:51.349031 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.349127 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.349175 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.349227 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:31:51.388231 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.388328 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:31:51.404003 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.404059 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:31:51.414437 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.414544 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:31:51.435646 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.435797 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local &
+2023 Jun 15 07:31:51.461168 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.461220 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.461264 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.461307 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.461352 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.461398 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.461442 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 delete
+2023 Jun 15 07:31:51.461494 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 delete &
+2023 Jun 15 07:31:51.483169 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv6,  = veth0, addr = fe80::60f2:3fff:fe1a:47f2, flags = local
+2023 Jun 15 07:31:51.501481 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv6, ifc:veth0, addr:fe80::60f2:3fff:fe1a:47f2, flags:local
+2023 Jun 15 07:31:51.506160 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.506236 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.506280 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.506322 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.506365 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link veth0
+2023 Jun 15 07:31:51.506410 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.506451 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.507717 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.507767 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.507811 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.507852 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.507900 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.507943 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby_tap0 add
+2023 Jun 15 07:31:51.507989 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby_tap0 add &
+2023 Jun 15 07:31:51.541572 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.541630 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.541674 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.541716 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.541758 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 add
+2023 Jun 15 07:31:51.541826 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 add &
+2023 Jun 15 07:31:51.569927 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.570026 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.570070 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby_tap0 delete
+2023 Jun 15 07:31:51.570120 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby_tap0 delete &
+2023 Jun 15 07:31:51.609993 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:51.610117 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby_tap0 down
+2023 Jun 15 07:31:51.610170 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby_tap0 down &
+2023 Jun 15 07:31:51.636369 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.636486 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.636532 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.636575 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.636617 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.636659 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.636701 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.636748 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.636801 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.636856 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:31:51.667059 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.667185 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:31:51.693080 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.693238 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:31:51.709093 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.709153 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:31:51.719122 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.719247 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:31:51.722555 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:51.746171 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.746274 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.746334 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link dobby_tap0
+2023 Jun 15 07:31:51.746383 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.746426 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.746470 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.746513 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link dobby_tap0
+2023 Jun 15 07:31:51.746556 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.746599 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 delete
+2023 Jun 15 07:31:51.746644 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 delete &
+2023 Jun 15 07:31:51.764429 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:51.774577 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:dobby_tap0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:31:51.778660 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 down
+2023 Jun 15 07:31:51.778796 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 down &
+2023 Jun 15 07:31:51.785533 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:51.806966 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:51.807322 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled
+2023 Jun 15 07:31:51.823746 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.823858 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.823954 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.824002 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.824046 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.824095 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:31:51.841733 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:51.866831 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.866935 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:31:51.898803 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.898919 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:31:51.928529 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.928675 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:31:51.954887 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.954990 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:31:51.976064 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:51.976174 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled
+2023 Jun 15 07:31:51.998260 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.998359 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.998409 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.998459 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.998502 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.998550 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.998603 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:51.998688 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:31:52.004664 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:52.021542 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv6, ifc:dobby0, addr:2080:d0bb:1e::6440:b01, flags:global
+2023 Jun 15 07:31:52.031188 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:31:52.033022 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:52.033127 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:31:52.040898 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:52.081939 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:52.082046 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:31:52.097714 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:52.098853 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled
+2023 Jun 15 07:31:52.108210 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:52.108318 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:31:52.113281 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = dobby_tap0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:31:52.142067 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:52.142190 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local &
+2023 Jun 15 07:31:52.157774 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:52.158139 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:52.158267 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:52.158317 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:52.158362 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:52.158418 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:31:52.161511 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv6,  = dobby0, addr = fe80::ecb8:83ff:fe81:ae9c, flags = local
+2023 Jun 15 07:31:52.193374 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv6, ifc:dobby0, addr:fe80::ecb8:83ff:fe81:ae9c, flags:local
+2023 Jun 15 07:31:52.194066 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:52.194134 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:31:52.219509 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:52.219627 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:31:52.270271 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:52.270329 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:31:52.299277 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:31:52.299377 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote feature is disabled
+2023 Jun 15 07:31:52.300868 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:52.300966 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:31:52.331845 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:52.331947 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:52.331991 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:52.332035 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:52.332101 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:52.332153 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:31:52.344624 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv6,  = dobby0, addr = 2080:d0bb:1e::6440:b01, flags = global
+2023 Jun 15 07:31:52.346978 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:52.347082 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:31:52.363676 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:dobby0, addr:100.64.11.1, flags:global
+2023 Jun 15 07:31:52.391946 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:52.392047 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:31:52.419317 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:52.419419 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:31:52.439233 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:52.439337 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:31:52.459689 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:52.459793 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:52.459843 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link dobby0
+2023 Jun 15 07:31:52.470544 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:dobby0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:31:52.580238 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = dobby0, addr = 100.64.11.1, flags = global
+2023 Jun 15 07:31:52.647835 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = dobby0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:32:59.204550 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.204652 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.208891 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.208943 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.208988 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:32:59.239201 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.239266 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:32:59.257445 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.257494 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:32:59.277989 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.278076 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:32:59.292283 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.292369 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0 100.64.11.1 global &
+2023 Jun 15 07:32:59.311380 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.311763 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.311841 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.311883 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.311920 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.311958 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.311996 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.312034 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312072 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.312111 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312148 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.312186 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312223 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.312261 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312299 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.312337 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312374 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.312427 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.312467 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 up
+2023 Jun 15 07:32:59.312511 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 up &
+2023 Jun 15 07:32:59.318664 "nlmon"[5218]:   Creating IPv4 flags for dobby0
+2023 Jun 15 07:32:59.354010 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby0, addr:100.64.11.1, flags:global
+2023 Jun 15 07:32:59.355739 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.355982 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.356056 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.356262 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.356326 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.356463 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.356522 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.356794 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.356844 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.356970 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.357019 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.358350 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.358428 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.358469 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.358508 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.358547 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.358665 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 up
+2023 Jun 15 07:32:59.358719 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 up &
+2023 Jun 15 07:32:59.364735 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby0, addr = 100.64.11.1, flags = global
+2023 Jun 15 07:32:59.377494 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.377786 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.377864 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.378334 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.378401 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.378442 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.378507 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.378789 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.378843 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.378883 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.378947 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby0 add
+2023 Jun 15 07:32:59.379018 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby0 add &
+2023 Jun 15 07:32:59.398355 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.398584 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.398728 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth1 add
+2023 Jun 15 07:32:59.398791 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth1 add &
+2023 Jun 15 07:32:59.427572 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.427759 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.427841 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.427915 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.427964 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.428031 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.440245 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.440341 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.458643 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.458730 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.479983 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.480040 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.495830 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.495919 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.513705 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.513759 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.513799 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.513839 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.513900 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.513940 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.513978 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.514714 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.514762 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.514803 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.514844 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh dobby_tap0 up
+2023 Jun 15 07:32:59.514887 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh dobby_tap0 up &
+2023 Jun 15 07:32:59.538039 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.538236 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.538290 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.538355 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.538398 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.538444 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.546663 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:32:59.563267 "nlmon"[5218]:   Creating IPv4 flags for dobby0:0
+2023 Jun 15 07:32:59.568891 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.568979 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.600730 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:32:59.601877 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.601998 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.604098 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:32:59.607422 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:32:59.627066 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.627154 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.667553 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.667649 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth1:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.704623 "nlmon"[5218]:   Creating IPv4 flags for veth1:0
+2023 Jun 15 07:32:59.705067 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.705399 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.705520 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.705623 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.705720 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.708601 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.708687 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.708728 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.708768 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.708830 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.708872 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.708919 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.720281 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.720374 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.727397 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:veth1:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:32:59.758958 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.759048 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.766045 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = veth1:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:32:59.775954 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.776046 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.813115 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.813214 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 dobby_tap0:0 192.168.28.10 global &
+2023 Jun 15 07:32:59.818787 "nlmon"[5218]:   Creating IPv4 flags for dobby_tap0:0
+2023 Jun 15 07:32:59.830627 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.832493 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.832575 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.832618 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.832661 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.832724 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.832764 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.832804 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.832843 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.840067 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:32:59.851683 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:32:59.856996 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = dobby_tap0:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:32:59.882954 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:dobby_tap0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:33:00.682790 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:00.682865 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.682915 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local &
+2023 Jun 15 07:33:00.710392 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.710481 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local &
+2023 Jun 15 07:33:00.732965 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.733058 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local &
+2023 Jun 15 07:33:00.756282 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.756377 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local &
+2023 Jun 15 07:33:00.769656 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.769757 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth1 fe80::f824:30ff:fee9:a85d local &
+2023 Jun 15 07:33:00.784695 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:00.784801 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.784856 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.784913 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.784954 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.785000 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:00.785044 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.785422 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:33:00.812713 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = veth1, addr = fe80::f824:30ff:fee9:a85d, flags = local
+2023 Jun 15 07:33:00.816802 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.816914 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:33:00.822976 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:veth1, addr:fe80::f824:30ff:fee9:a85d, flags:local
+2023 Jun 15 07:33:00.839043 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.839133 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:33:00.857123 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.857201 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:33:00.892637 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.892750 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 2080:d0bb:1e::6440:b01 global &
+2023 Jun 15 07:33:00.895866 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:00.895926 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.895988 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.897237 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.897328 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.917370 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:dobby0, addr:2080:d0bb:1e::6440:b01, flags:global
+2023 Jun 15 07:33:00.938599 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = dobby0, addr = 2080:d0bb:1e::6440:b01, flags = global
+2023 Jun 15 07:33:01.129422 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:01.129475 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.129521 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local &
+2023 Jun 15 07:33:01.140075 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.140167 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local &
+2023 Jun 15 07:33:01.152770 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.152895 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local &
+2023 Jun 15 07:33:01.169943 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.170039 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local &
+2023 Jun 15 07:33:01.186969 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.187076 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local &
+2023 Jun 15 07:33:01.216907 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = dobby0, addr = fe80::c40c:caff:fe67:9b7, flags = local
+2023 Jun 15 07:33:01.217467 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:01.217833 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:01.217913 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:01.241377 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:dobby0, addr:fe80::c40c:caff:fe67:9b7, flags:local
+2023 Jun 15 07:33:03.992772 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.992917 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.997101 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.997156 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.997847 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.997895 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.998761 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.998861 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.017402 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.017452 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth2 up
+2023 Jun 15 07:33:04.017517 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth2 up &
+2023 Jun 15 07:33:04.031275 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.034001 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.034147 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.034206 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.034260 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.034315 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.034362 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.034419 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.034466 "nlmon"[5218]:  COMMAND = /lib/rdk/networkLinkEvent.sh veth2 add
+2023 Jun 15 07:33:04.034518 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkLinkEvent.sh veth2 add &
+2023 Jun 15 07:33:04.047828 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.048128 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.048228 "nlmon"[5218]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.119517 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:04.119574 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.119630 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv4 veth2:0 192.168.28.10 global &
+2023 Jun 15 07:33:04.130357 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.130476 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv4 veth2:0 192.168.28.10 global &
+2023 Jun 15 07:33:04.147947 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.148050 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv4 veth2:0 192.168.28.10 global &
+2023 Jun 15 07:33:04.151654 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - Get IP Remote enabled status directly from /opt/secure/RFC/tr181store.ini file
+2023 Jun 15 07:33:04.165443 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.165550 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv4 veth2:0 192.168.28.10 global &
+2023 Jun 15 07:33:04.171994 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.172088 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv4 veth2:0 192.168.28.10 global &
+2023 Jun 15 07:33:04.189477 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:04.189577 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.189626 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.189669 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.189710 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.189754 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.189857 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.189909 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.190003 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.197663 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv4, ifc:veth2:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:33:04.222395 "nlmon"[5218]:   Creating IPv4 flags for veth2:0
+2023 Jun 15 07:33:04.241614 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv4,  = veth2:0, addr = 192.168.28.10, flags = global
+2023 Jun 15 07:33:04.261435 "nlmon"[5218]:  [/lib/rdk/enable_ipremote.sh]:IP Remote - RFC Enabled Status : , TR181 Enabled Status : false
+2023 Jun 15 07:33:05.580746 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:05.580911 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.580973 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local &
+2023 Jun 15 07:33:05.581798 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.581916 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local &
+2023 Jun 15 07:33:05.585220 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.585318 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local &
+2023 Jun 15 07:33:05.592205 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.592319 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local &
+2023 Jun 15 07:33:05.597479 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.597597 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local &
+2023 Jun 15 07:33:05.601178 "nlmon"[5218]:  Received address Notification, cmd = add, mode = ipv6,  = veth2, addr = fe80::40b2:d9ff:fe7e:a255, flags = local
+2023 Jun 15 07:33:05.603525 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:05.603891 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:05.603986 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:05.614417 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:add, mode:ipv6, ifc:veth2, addr:fe80::40b2:d9ff:fe7e:a255, flags:local
+2023 Jun 15 07:33:45.766000 "nlmon"[5218]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:45.766069 "nlmon"[5218]:  COMMAND = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.766118 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateIPRemoteInfo.sh delete ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:33:45.774112 "nlmon"[5218]:  COMMAND = /lib/rdk/ipv6addressChange.sh delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.774285 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/ipv6addressChange.sh delete ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:33:45.778230 "nlmon"[5218]:  COMMAND = /lib/rdk/networkInfoLogger.sh delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.778331 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/networkInfoLogger.sh delete ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:33:45.783071 "nlmon"[5218]:  COMMAND = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.783176 "nlmon"[5218]:  COMMAND After Sanitizing  = /usr/share/xdial/restartXdial_onAddressChange.sh delete ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:33:45.787948 "nlmon"[5218]:  COMMAND = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.788048 "nlmon"[5218]:  COMMAND After Sanitizing  = /lib/rdk/updateGlobalIPInfo.sh delete ipv4 veth0:0 192.168.28.10 global &
+2023 Jun 15 07:33:45.802813 "nlmon"[5218]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:45.802918 "nlmon"[5218]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:45.802963 "nlmon"[5218]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:45.803007 "nlmon"[5218]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:45.803062 "nlmon"[5218]:  Exiting processlink_rtnl function . Received Delete message for link veth0
+2023 Jun 15 07:33:45.817189 "nlmon"[5218]:  updateGlobalIPInfo.sh Arguments: cmd:delete, mode:ipv4, ifc:veth0:0, addr:192.168.28.10, flags:global
+2023 Jun 15 07:33:45.883974 "nlmon"[5218]:  Received address Notification, cmd = delete, mode = ipv4,  = veth0:0, addr = 192.168.28.10, flags = global

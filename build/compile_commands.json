@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\parser.dir\\main.cpp.obj -c C:\\Users\\ralaga194\\workspace\\projects\\comcast\\FlowFaultAnalyser\\main.cpp",
+  "file": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/main.cpp",
+  "output": "CMakeFiles/parser.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\parser.dir\\logfileParser.cpp.obj -c C:\\Users\\ralaga194\\workspace\\projects\\comcast\\FlowFaultAnalyser\\logfileParser.cpp",
+  "file": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/logfileParser.cpp",
+  "output": "CMakeFiles/parser.dir/logfileParser.cpp.obj"
+},
+{
+  "directory": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\parser.dir\\logfileUtils.cpp.obj -c C:\\Users\\ralaga194\\workspace\\projects\\comcast\\FlowFaultAnalyser\\logfileUtils.cpp",
+  "file": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/logfileUtils.cpp",
+  "output": "CMakeFiles/parser.dir/logfileUtils.cpp.obj"
+},
+{
+  "directory": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\parser.dir\\logfileConfig.cpp.obj -c C:\\Users\\ralaga194\\workspace\\projects\\comcast\\FlowFaultAnalyser\\logfileConfig.cpp",
+  "file": "C:/Users/ralaga194/workspace/projects/comcast/FlowFaultAnalyser/logfileConfig.cpp",
+  "output": "CMakeFiles/parser.dir/logfileConfig.cpp.obj"
+}
+]

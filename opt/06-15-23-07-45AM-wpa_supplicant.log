@@ -1,0 +1,293 @@
+2023 Jun 15 07:22:35.491256 sh[6018]:  /lib/rdk/prepareWpaSuppConfig.sh: line 49: wl: command not found
+2023 Jun 15 07:22:35.635937 sh[6018]:  active
+2023 Jun 15 07:22:35.817464 sh[6018]:  country=US
+2023 Jun 15 07:22:35.891471 sh[6018]:  PMF is already set in config file
+2023 Jun 15 07:22:36.262873 sh[6354]:  1686813756.262191: wpa_supplicant v2.10
+2023 Jun 15 07:22:36.263008 sh[6354]:  1686813756.262290: random: Trying to read entropy from /dev/random
+2023 Jun 15 07:22:36.263167 sh[6354]:  1686813756.262367: Successfully initialized wpa_supplicant
+2023 Jun 15 07:22:36.263231 sh[6354]:  1686813756.262437: Initializing interface 'wlan0' conf '/opt/secure/wifi/wpa_supplicant.conf' driver 'nl80211' ctrl_interface 'N/A' bridge 'N/A'
+2023 Jun 15 07:22:36.263300 sh[6354]:  1686813756.262451: Configuration file '/opt/secure/wifi/wpa_supplicant.conf' -> '/opt/secure/wifi/wpa_supplicant.conf'
+2023 Jun 15 07:22:36.263372 sh[6354]:  1686813756.262505: Reading configuration file '/opt/secure/wifi/wpa_supplicant.conf'
+2023 Jun 15 07:22:36.263459 sh[6354]:  1686813756.262600: ctrl_interface='/var/run/wpa_supplicant'
+2023 Jun 15 07:22:36.263518 sh[6354]:  1686813756.262620: update_config=1
+2023 Jun 15 07:22:36.263577 sh[6354]:  1686813756.262632: country='US'
+2023 Jun 15 07:22:36.263635 sh[6354]:  1686813756.262644: pmf=1
+2023 Jun 15 07:22:36.263710 sh[6354]:  1686813756.262658: roaming_enable=1
+2023 Jun 15 07:22:36.263769 sh[6354]:  1686813756.262672: kvr_enable=1
+2023 Jun 15 07:22:36.269522 sh[6354]:  1686813756.269380: nl80211: TDLS supported
+2023 Jun 15 07:22:36.269658 sh[6354]:  1686813756.269427: nl80211: TDLS external setup
+2023 Jun 15 07:22:36.269743 sh[6354]:  1686813756.269441: nl80211: Supported cipher 00-0f-ac:1
+2023 Jun 15 07:22:36.269805 sh[6354]:  1686813756.269453: nl80211: Supported cipher 00-0f-ac:5
+2023 Jun 15 07:22:36.269870 sh[6354]:  1686813756.269461: nl80211: Supported cipher 00-0f-ac:2
+2023 Jun 15 07:22:36.269931 sh[6354]:  1686813756.269469: nl80211: Supported cipher 00-0f-ac:4
+2023 Jun 15 07:22:36.269989 sh[6354]:  1686813756.269478: nl80211: Supported cipher 00-0f-ac:6
+2023 Jun 15 07:22:36.270146 sh[6354]:  1686813756.269487: nl80211: Supported cipher 00-0f-ac:9
+2023 Jun 15 07:22:36.270220 sh[6354]:  1686813756.269495: nl80211: Supported cipher 00-0f-ac:12
+2023 Jun 15 07:22:36.270282 sh[6354]:  1686813756.269503: nl80211: Supported cipher 00-0f-ac:7
+2023 Jun 15 07:22:36.270341 sh[6354]:  1686813756.269595: nl80211: Using driver-based off-channel TX
+2023 Jun 15 07:22:36.270401 sh[6354]:  1686813756.269622: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=1
+2023 Jun 15 07:22:36.270460 sh[6354]:  1686813756.269633: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=6
+2023 Jun 15 07:22:36.270519 sh[6354]:  1686813756.269640: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=4
+2023 Jun 15 07:22:36.270579 sh[6354]:  1686813756.269648: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=105
+2023 Jun 15 07:22:36.270639 sh[6354]:  1686813756.269656: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=64
+2023 Jun 15 07:22:36.270711 sh[6354]:  1686813756.269663: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=9
+2023 Jun 15 07:22:36.270773 sh[6354]:  1686813756.269671: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=8
+2023 Jun 15 07:22:36.270832 sh[6354]:  1686813756.269678: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=10
+2023 Jun 15 07:22:36.270892 sh[6354]:  1686813756.269686: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=11
+2023 Jun 15 07:22:36.270953 sh[6354]:  1686813756.269694: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=4354
+2023 Jun 15 07:22:36.271011 sh[6354]:  1686813756.269702: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=4608
+2023 Jun 15 07:22:36.271071 sh[6354]:  1686813756.269710: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=7
+2023 Jun 15 07:22:36.271130 sh[6354]:  1686813756.269717: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=5632
+2023 Jun 15 07:22:36.271203 sh[6354]:  1686813756.269724: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=5633
+2023 Jun 15 07:22:36.271264 sh[6354]:  1686813756.269733: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=5121
+2023 Jun 15 07:22:36.271324 sh[6354]:  1686813756.269741: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=2
+2023 Jun 15 07:22:36.271385 sh[6354]:  1686813756.269748: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=12
+2023 Jun 15 07:22:36.271467 sh[6354]:  1686813756.269757: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=103
+2023 Jun 15 07:22:36.271530 sh[6354]:  1686813756.269764: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=54
+2023 Jun 15 07:22:36.271591 sh[6354]:  1686813756.269771: nl80211: Supported vendor command: vendor_id=0x1374 subcmd=55
+2023 Jun 15 07:22:36.271651 sh[6354]:  1686813756.269779: nl80211: Supported vendor command: vendor_id=0xce7 subcmd=14
+2023 Jun 15 07:22:36.271711 sh[6354]:  1686813756.269786: nl80211: Supported vendor command: vendor_id=0x1a11 subcmd=5122
+2023 Jun 15 07:22:36.273476 sh[6354]:  1686813756.269793: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=0
+2023 Jun 15 07:22:36.273624 sh[6354]:  1686813756.269801: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=1
+2023 Jun 15 07:22:36.273691 sh[6354]:  1686813756.269809: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=2
+2023 Jun 15 07:22:36.273839 sh[6354]:  1686813756.269816: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=3
+2023 Jun 15 07:22:36.273901 sh[6354]:  1686813756.269825: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=4
+2023 Jun 15 07:22:36.273962 sh[6354]:  1686813756.269832: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=5
+2023 Jun 15 07:22:36.274022 sh[6354]:  1686813756.269841: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=6
+2023 Jun 15 07:22:36.274083 sh[6354]:  1686813756.269852: nl80211: Supported vendor event: vendor_id=0x1a11 subcmd=7
+2023 Jun 15 07:22:36.274169 sh[6354]:  1686813756.269861: nl80211: Supported vendor event: vendor_id=0x1374 subcmd=54
+2023 Jun 15 07:22:36.274231 sh[6354]:  1686813756.269870: nl80211: Supported vendor event: vendor_id=0xce7 subcmd=9
+2023 Jun 15 07:22:36.274305 sh[6354]:  1686813756.269877: nl80211: Supported vendor event: vendor_id=0xce7 subcmd=12
+2023 Jun 15 07:22:36.274414 sh[6354]:  1686813756.269884: nl80211: Supported vendor event: vendor_id=0xce7 subcmd=81
+2023 Jun 15 07:22:36.274495 sh[6354]:  1686813756.269919: nl80211: Use separate P2P group interface (driver advertised support)
+2023 Jun 15 07:22:36.274566 sh[6354]:  1686813756.269928: nl80211: Enable multi-channel concurrent (driver advertised support)
+2023 Jun 15 07:22:36.274627 sh[6354]:  1686813756.270002: nl80211: key_mgmt=0x1ff0f enc=0x154f auth=0x7 flags=0x429a98fae0 rrm_flags=0xd probe_resp_offloads=0x0 max_stations=16 max_remain_on_chan=5000 max_scan_ssids=5
+2023 Jun 15 07:22:36.274687 sh[6354]:  1686813756.270016: nl80211: interface wlan0 in phy phy0
+2023 Jun 15 07:22:36.274762 sh[6354]:  1686813756.270134: nl80211: Set mode ifindex 3 iftype 2 (STATION)
+2023 Jun 15 07:22:36.274824 sh[6354]:  1686813756.270215: nl80211: Subscribe to mgmt frames with non-AP handle 0x7f676348
+2023 Jun 15 07:22:36.274896 sh[6354]:  1686813756.270234: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0104 multicast=0
+2023 Jun 15 07:22:36.274958 sh[6354]:  1686813756.270309: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=040a multicast=0
+2023 Jun 15 07:22:36.275019 sh[6354]:  1686813756.270362: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=040b multicast=0
+2023 Jun 15 07:22:36.275086 sh[6354]:  1686813756.270413: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=040c multicast=0
+2023 Jun 15 07:22:36.275599 sh[6354]:  1686813756.270457: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=040d multicast=0
+2023 Jun 15 07:22:36.275668 sh[6354]:  1686813756.270500: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=090a multicast=0
+2023 Jun 15 07:22:36.275730 sh[6354]:  1686813756.270550: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=090b multicast=0
+2023 Jun 15 07:22:36.275795 sh[6354]:  1686813756.270593: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=090c multicast=0
+2023 Jun 15 07:22:36.275867 sh[6354]:  1686813756.270635: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=090d multicast=0
+2023 Jun 15 07:22:36.275928 sh[6354]:  1686813756.270677: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0801 multicast=0
+2023 Jun 15 07:22:36.276001 sh[6354]:  1686813756.270719: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=06 multicast=0
+2023 Jun 15 07:22:36.276063 sh[6354]:  1686813756.270762: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0a07 multicast=0
+2023 Jun 15 07:22:36.276125 sh[6354]:  1686813756.270806: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0a11 multicast=0
+2023 Jun 15 07:22:36.276208 sh[6354]:  1686813756.270850: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0a0b multicast=0
+2023 Jun 15 07:22:36.276287 sh[6354]:  1686813756.270894: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=1101 multicast=0
+2023 Jun 15 07:22:36.276349 sh[6354]:  1686813756.270939: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=1102 multicast=0
+2023 Jun 15 07:22:36.276434 sh[6354]:  1686813756.270982: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0505 multicast=0
+2023 Jun 15 07:22:36.276497 sh[6354]:  1686813756.271025: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0500 multicast=0
+2023 Jun 15 07:22:36.276575 sh[6354]:  1686813756.271067: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=0502 multicast=0
+2023 Jun 15 07:22:36.276697 sh[6354]:  1686813756.271109: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=1301 multicast=0
+2023 Jun 15 07:22:36.276767 sh[6354]:  1686813756.271179: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=1305 multicast=0
+2023 Jun 15 07:22:36.277041 sh[6354]:  1686813756.271241: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7f676348 match=7e506f9a1a multicast=0
+2023 Jun 15 07:22:36.277106 sh[6354]:  1686813756.271764: rfkill: initial event: idx=1 type=1 op=0 soft=0 hard=0
+2023 Jun 15 07:22:36.277167 sh[6354]:  1686813756.271876: netlink: Operstate: ifindex=3 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+2023 Jun 15 07:22:36.277244 sh[6354]:  1686813756.275639: Add interface wlan0 to a new radio phy0
+2023 Jun 15 07:22:36.277306 sh[6354]:  1686813756.276072: nl80211: Regulatory information - country=00
+2023 Jun 15 07:22:36.277367 sh[6354]:  1686813756.276095: nl80211: 2402-2472 @ 40 MHz 20 mBm
+2023 Jun 15 07:22:36.277429 sh[6354]:  1686813756.276109: nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+2023 Jun 15 07:22:36.277489 sh[6354]:  1686813756.276120: nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+2023 Jun 15 07:22:36.277550 sh[6354]:  1686813756.276136: nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+2023 Jun 15 07:22:36.277610 sh[6354]:  1686813756.276147: nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+2023 Jun 15 07:22:36.277761 sh[6354]:  1686813756.276160: nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+2023 Jun 15 07:22:36.277842 sh[6354]:  1686813756.276176: nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+2023 Jun 15 07:22:36.277904 sh[6354]:  1686813756.276191: nl80211: 57240-63720 @ 2160 MHz 0 mBm
+2023 Jun 15 07:22:36.277965 sh[6354]:  1686813756.276246: nl80211: Added 802.11b mode based on 802.11g information
+2023 Jun 15 07:22:36.278026 sh[6354]:  1686813756.276277: nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+2023 Jun 15 07:22:36.278088 sh[6354]:  1686813756.276306: nl80211: Mode IEEE 802.11a: 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+2023 Jun 15 07:22:36.278148 sh[6354]:  1686813756.276326: nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+2023 Jun 15 07:22:36.293074 sh[6354]:  1686813756.292950: wlan0: Own MAC address: e8:ca:c8:a4:81:a8
+2023 Jun 15 07:22:36.293235 sh[6354]:  1686813756.293053: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.293305 sh[6354]:  1686813756.293135: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.293392 sh[6354]:  1686813756.293167:    broadcast key
+2023 Jun 15 07:22:36.293489 sh[6354]:  1686813756.293312: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.293571 sh[6354]:  1686813756.293330: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.293645 sh[6354]:  1686813756.293341:    broadcast key
+2023 Jun 15 07:22:36.293721 sh[6354]:  1686813756.293412: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.293784 sh[6354]:  1686813756.293429: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.293886 sh[6354]:  1686813756.293439:    broadcast key
+2023 Jun 15 07:22:36.294005 sh[6354]:  1686813756.293499: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.294094 sh[6354]:  1686813756.293519: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.294157 sh[6354]:  1686813756.293532:    broadcast key
+2023 Jun 15 07:22:36.294221 sh[6354]:  1686813756.293596: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=4 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.294282 sh[6354]:  1686813756.293615: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.294355 sh[6354]:  1686813756.293628:    broadcast key
+2023 Jun 15 07:22:36.294419 sh[6354]:  1686813756.293697: wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=0 addr=(nil) key_idx=5 set_tx=0 seq_len=0 key_len=0 key_flag=0x10
+2023 Jun 15 07:22:36.294511 sh[6354]:  1686813756.293711: nl80211: DEL_KEY
+2023 Jun 15 07:22:36.294584 sh[6354]:  1686813756.293722:    broadcast key
+2023 Jun 15 07:22:36.294648 sh[6354]:  1686813756.293762: wlan0: RSN: flushing PMKID list in the driver
+2023 Jun 15 07:22:36.294716 sh[6354]:  1686813756.293773: nl80211: Flush PMKIDs
+2023 Jun 15 07:22:36.295281 sh[6354]:  1686813756.295061: wlan0: State: DISCONNECTED -> INACTIVE
+2023 Jun 15 07:22:36.298002 sh[6354]:  1686813756.297875: wlan0: WPS: UUID based on MAC address: d140b88c-1bc7-5abe-a46b-c6b552127bb4
+2023 Jun 15 07:22:36.307196 sh[6354]:  1686813756.307036: ENGINE: Loading builtin engines
+2023 Jun 15 07:22:36.307442 sh[6354]:  1686813756.307362: ENGINE: Loading builtin engines
+2023 Jun 15 07:22:36.307563 sh[6354]:  1686813756.307478: EAPOL: SUPP_PAE entering state DISCONNECTED
+2023 Jun 15 07:22:36.307641 sh[6354]:  1686813756.307493: EAPOL: Supplicant port status: Unauthorized
+2023 Jun 15 07:22:36.307707 sh[6354]:  1686813756.307504: nl80211: Skip set_supp_port(unauthorized) while not associated
+2023 Jun 15 07:22:36.307773 sh[6354]:  1686813756.307515: EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+2023 Jun 15 07:22:36.307845 sh[6354]:  1686813756.307523: EAPOL: SUPP_BE entering state INITIALIZE
+2023 Jun 15 07:22:36.307915 sh[6354]:  1686813756.307532: EAP: EAP entering state DISABLED
+2023 Jun 15 07:22:36.308014 sh[6354]:  1686813756.307699: wlan0: RFC for 11v is enabled, Enabling 11V BSS Transition.
+2023 Jun 15 07:22:36.308104 sh[6354]:  1686813756.307732: wlan0: Added interface wlan0
+2023 Jun 15 07:22:36.308194 sh[6354]:  1686813756.307747: wlan0: State: INACTIVE -> DISCONNECTED
+2023 Jun 15 07:22:36.308275 sh[6354]:  1686813756.307760: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+2023 Jun 15 07:22:36.308366 sh[6354]:  1686813756.307771: netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2023 Jun 15 07:22:36.308435 sh[6354]:  1686813756.307894: random: Got 20/20 bytes from /dev/random
+2023 Jun 15 07:22:36.308501 sh[6354]:  1686813756.307952: RTM_NEWLINK: ifi_index=3 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:22:36.308676 sh[6354]:  1686813756.308085: nl80211: Drv Event 36 (NL80211_CMD_REG_CHANGE) received for wlan0
+2023 Jun 15 07:22:36.308752 sh[6354]:  1686813756.308098: nl80211: Regulatory domain change
+2023 Jun 15 07:22:36.308838 sh[6354]:  1686813756.308107:  * initiator=1
+2023 Jun 15 07:22:36.308901 sh[6354]:  1686813756.308114:  * type=0
+2023 Jun 15 07:22:36.308968 sh[6354]:  1686813756.308122:  * alpha2=US
+2023 Jun 15 07:22:36.309032 sh[6354]:  1686813756.308134: wlan0: Event CHANNEL_LIST_CHANGED (27) received
+2023 Jun 15 07:22:36.309096 sh[6354]:  1686813756.308159: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=US
+2023 Jun 15 07:22:36.309212 sh[6354]:  1686813756.308174: wlan0: Updating hw mode
+2023 Jun 15 07:22:36.317456 sh[6354]:  1686813756.317298: nl80211: Regulatory information - country=US (DFS-FCC)
+2023 Jun 15 07:22:36.317640 sh[6354]:  1686813756.317357: nl80211: 2402-2472 @ 40 MHz 30 mBm
+2023 Jun 15 07:22:36.317705 sh[6354]:  1686813756.317376: nl80211: 5170-5250 @ 80 MHz 23 mBm
+2023 Jun 15 07:22:36.317768 sh[6354]:  1686813756.317388: nl80211: 5250-5330 @ 80 MHz 23 mBm (DFS)
+2023 Jun 15 07:22:36.317832 sh[6354]:  1686813756.317399: nl80211: 5490-5730 @ 160 MHz 23 mBm (DFS)
+2023 Jun 15 07:22:36.317915 sh[6354]:  1686813756.317409: nl80211: 5735-5835 @ 80 MHz 30 mBm
+2023 Jun 15 07:22:36.318017 sh[6354]:  1686813756.317420: nl80211: 57240-63720 @ 2160 MHz 40 mBm
+2023 Jun 15 07:22:36.318083 sh[6354]:  1686813756.317468: nl80211: Added 802.11b mode based on 802.11g information
+2023 Jun 15 07:22:36.318146 sh[6354]:  1686813756.317491: nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472[DISABLED] 2484[DISABLED]
+2023 Jun 15 07:22:36.318209 sh[6354]:  1686813756.317516: nl80211: Mode IEEE 802.11a: 5180 5200 5220 5240 5260[RADAR] 5280[RADAR] 5300[RADAR] 5320[RADAR] 5500[RADAR] 5520[RADAR] 5540[RADAR] 5560[RADAR] 5580[RADAR] 5600[RADAR] 5620[RADAR] 5640[RADAR] 5660[RADAR] 5680[RADAR]
+2023 Jun 15 07:22:36.318272 sh[6354]:  1686813756.317535: nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472[DISABLED] 2484[DISABLED]
+2023 Jun 15 07:22:37.309516 sh[6354]:  1686813757.308750: EAPOL: disable timer tick
+2023 Jun 15 07:22:42.031940 sh[6354]:  1686813762.030527: CTRL_IFACE monitor attached /tmp/wpa_ctrl_6466-2\x00
+2023 Jun 15 07:22:42.043248 sh[6354]:  1686813762.043034: wlan0: Control interface command 'GET roaming_controls'
+2023 Jun 15 07:22:42.043329 sh[6354]:  1686813762.043080: CTRL_IFACE GET 'roaming_controls'
+2023 Jun 15 07:22:42.049638 sh[6354]:  1686813762.043422: wlan0: Control interface command 'SAVE_CONFIG'
+2023 Jun 15 07:22:42.049929 sh[6354]:  1686813762.043468: Writing configuration file '/opt/secure/wifi/wpa_supplicant.conf.tmp'
+2023 Jun 15 07:22:42.055470 sh[6354]:  1686813762.053282: Configuration file '/opt/secure/wifi/wpa_supplicant.conf' written successfully
+2023 Jun 15 07:22:42.055561 sh[6354]:  1686813762.053316: CTRL_IFACE: SAVE_CONFIG - Configuration updated
+2023 Jun 15 07:22:42.055627 sh[6354]:  1686813762.054427: wlan0: Control interface command 'SIGNAL_MONITOR'
+2023 Jun 15 07:22:42.055718 sh[6354]:  1686813762.054498: nl80211: Signal monitor threshold=0 hysteresis=0
+2023 Jun 15 07:22:42.058824 sh[6354]:  1686813762.055106: wlan0: Control interface command 'SIGNAL_MONITOR THRESHOLD=-75 HYSTERESIS=2'
+2023 Jun 15 07:22:42.058957 sh[6354]:  1686813762.055178: nl80211: Signal monitor threshold=-75 hysteresis=2
+2023 Jun 15 07:23:31.588238 sh[6354]:  1686813811.586880: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.595399 sh[6354]:  1686813811.593594: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.598957 sh[6354]:  1686813811.596709: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599026 sh[6354]:  1686813811.596953: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599083 sh[6354]:  1686813811.596976: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599140 sh[6354]:  1686813811.596995: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599211 sh[6354]:  1686813811.597012: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599271 sh[6354]:  1686813811.597031: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599345 sh[6354]:  1686813811.597051: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.599402 sh[6354]:  1686813811.597069: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:23:31.602999 sh[6354]:  1686813811.597085: RTM_NEWLINK: ifi_index=2 ifname=eth0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.608967 sh[6354]:  1686813811.599435: RTM_NEWLINK: ifi_index=3 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:23:31.609044 sh[6354]:  1686813811.599601: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:23:31.609102 sh[6354]:  1686813811.599629: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:23:31.609189 sh[6354]:  1686813811.601118: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.609248 sh[6354]:  1686813811.604533: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.609307 sh[6354]:  1686813811.606823: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.609365 sh[6354]:  1686813811.607140: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.609424 sh[6354]:  1686813811.607286: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:23:31.609492 sh[6354]:  1686813811.607710: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:31.621027 sh[6354]:  1686813811.619941: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=0 linkmode=0 master=4 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.621133 sh[6354]:  1686813811.619988: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.621193 sh[6354]:  1686813811.620006: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.621252 sh[6354]:  1686813811.620036: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.623164 sh[6354]:  1686813811.621002: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.628975 sh[6354]:  1686813811.623264: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.629053 sh[6354]:  1686813811.623301: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=6 linkmode=0 master=4 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:31.773489 sh[6354]:  1686813811.770731: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:23:31.773571 sh[6354]:  1686813811.770773: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:23:35.413405 sh[6354]:  1686813815.412061: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:35.421856 sh[6354]:  1686813815.420638: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:35.421928 sh[6354]:  1686813815.420681: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:35.421990 sh[6354]:  1686813815.420704: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:35.422050 sh[6354]:  1686813815.420723: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:23:35.453324 sh[6354]:  1686813815.451224: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=3 linkmode=0 master=4 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+2023 Jun 15 07:23:35.453399 sh[6354]:  1686813815.451281: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=3 ifi_family=7 ifi_flags=0x11003 ([UP][LOWER_UP])
+2023 Jun 15 07:23:35.454188 sh[6354]:  1686813815.453329: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:35.454279 sh[6354]:  1686813815.453372: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:35.454346 sh[6354]:  1686813815.453442: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:35.454412 sh[6354]:  1686813815.453466: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=6 linkmode=0 master=4 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:46.631525 sh[6354]:  1686813826.627746: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:23:50.468513 sh[6354]:  1686813830.467734: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:49.944315 sh[6354]:  1686814309.937872: RTM_NEWLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.956185 sh[6354]:  1686814309.955096: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.956281 sh[6354]:  1686814309.955147: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.974412 sh[6354]:  1686814309.973655: RTM_NEWLINK: ifi_index=7 ifname=veth1 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.974493 sh[6354]:  1686814309.973701: RTM_DELLINK: ifi_index=7 ifname=veth1 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.985518 sh[6354]:  1686814309.985395: RTM_DELLINK: ifi_index=7 ifname=veth1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:49.985647 sh[6354]:  1686814309.985454: RTM_DELLINK: Interface 'veth1' removed
+2023 Jun 15 07:31:51.329174 sh[6354]:  1686814311.310651: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.344663 sh[6354]:  1686814311.344368: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.344785 sh[6354]:  1686814311.344430: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.344874 sh[6354]:  1686814311.344656: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:31:51.350161 sh[6354]:  1686814311.348176: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.350230 sh[6354]:  1686814311.348218: RTM_NEWLINK: ifi_index=6 ifname=veth0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.350288 sh[6354]:  1686814311.348237: RTM_DELLINK: ifi_index=6 ifname=veth0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.350376 sh[6354]:  1686814311.348257: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.350436 sh[6354]:  1686814311.348277: RTM_NEWLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.350496 sh[6354]:  1686814311.348296: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:31:51.363220 sh[6354]:  1686814311.357474: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:51.363399 sh[6354]:  1686814311.357629: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:51.363519 sh[6354]:  1686814311.357652: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:51.363584 sh[6354]:  1686814311.357677: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=6 linkmode=0 master=4 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:51.363689 sh[6354]:  1686814311.357707: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:31:51.363749 sh[6354]:  1686814311.357732: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 master=4 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.388438 sh[6354]:  1686814311.384013: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.388520 sh[6354]:  1686814311.387282: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.388591 sh[6354]:  1686814311.388113: RTM_NEWLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.388656 sh[6354]:  1686814311.388153: RTM_DELLINK: ifi_index=5 ifname=dobby_tap0 master=4 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.388723 sh[6354]:  1686814311.388185: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:31:51.391139 sh[6354]:  1686814311.391000: RTM_DELLINK: ifi_index=5 ifname=dobby_tap0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.391299 sh[6354]:  1686814311.391054: RTM_DELLINK: Interface 'dobby_tap0' removed
+2023 Jun 15 07:31:51.425327 sh[6354]:  1686814311.424906: RTM_NEWLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.518017 sh[6354]:  1686814311.516018: RTM_DELLINK: ifi_index=4 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:31:51.518089 sh[6354]:  1686814311.516049: RTM_DELLINK: Interface 'dobby0' removed
+2023 Jun 15 07:32:59.202777 sh[6354]:  1686814379.199123: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.210894 sh[6354]:  1686814379.209591: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224299 sh[6354]:  1686814379.214445: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224364 sh[6354]:  1686814379.214489: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224417 sh[6354]:  1686814379.214508: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224476 sh[6354]:  1686814379.214527: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224548 sh[6354]:  1686814379.214545: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 master=8 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224681 sh[6354]:  1686814379.214562: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224738 sh[6354]:  1686814379.215210: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.224791 sh[6354]:  1686814379.216798: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:32:59.224845 sh[6354]:  1686814379.216845: RTM_NEWLINK: ifi_index=2 ifname=eth0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.224898 sh[6354]:  1686814379.217733: RTM_NEWLINK: ifi_index=3 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:32:59.224951 sh[6354]:  1686814379.217843: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:32:59.225004 sh[6354]:  1686814379.217993: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:32:59.225091 sh[6354]:  1686814379.223290: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.237592 sh[6354]:  1686814379.225929: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.237728 sh[6354]:  1686814379.226517: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.237809 sh[6354]:  1686814379.226556: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.237884 sh[6354]:  1686814379.226688: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x1043 ([UP][RUNNING])
+2023 Jun 15 07:32:59.237939 sh[6354]:  1686814379.227164: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:32:59.256951 sh[6354]:  1686814379.243753: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=0 linkmode=0 master=8 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257028 sh[6354]:  1686814379.243805: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257110 sh[6354]:  1686814379.243831: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257172 sh[6354]:  1686814379.243850: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257226 sh[6354]:  1686814379.243869: RTM_NEWLINK: ifi_index=8 ifname=dobby0 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257280 sh[6354]:  1686814379.246697: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.257334 sh[6354]:  1686814379.246725: RTM_NEWLINK: ifi_index=10 ifname=veth1 operstate=6 linkmode=0 master=8 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:32:59.443825 sh[6354]:  1686814379.443671: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:32:59.448496 sh[6354]:  1686814379.448394: RTM_NEWLINK: ifi_index=9 ifname=dobby_tap0 master=8 operstate=2 ifi_family=7 ifi_flags=0x1003 ([UP])
+2023 Jun 15 07:33:03.994312 sh[6354]:  1686814383.992627: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:03.997392 sh[6354]:  1686814383.994741: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:03.997460 sh[6354]:  1686814383.995836: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:03.997718 sh[6354]:  1686814383.997404: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=2 linkmode=0 master=8 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:03.998661 sh[6354]:  1686814383.998554: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=2 ifi_family=7 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:04.016963 sh[6354]:  1686814384.010771: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=3 linkmode=0 master=8 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+2023 Jun 15 07:33:04.017041 sh[6354]:  1686814384.010824: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=3 ifi_family=7 ifi_flags=0x11003 ([UP][LOWER_UP])
+2023 Jun 15 07:33:04.017099 sh[6354]:  1686814384.011641: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:04.017156 sh[6354]:  1686814384.011677: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:04.017214 sh[6354]:  1686814384.011701: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:04.017289 sh[6354]:  1686814384.011723: RTM_NEWLINK: ifi_index=11 ifname=veth2 operstate=6 linkmode=0 master=8 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:14.436808 sh[6354]:  1686814394.435803: RTM_NEWLINK: ifi_index=10 ifname=veth1 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:19.044417 sh[6354]:  1686814399.043651: RTM_NEWLINK: ifi_index=11 ifname=veth2 master=8 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+2023 Jun 15 07:33:45.767669 sh[6354]:  1686814425.766584: RTM_DELLINK: ifi_index=6 ifname=veth0 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+2023 Jun 15 07:33:45.767797 sh[6354]:  1686814425.766633: RTM_DELLINK: Interface 'veth0' removed

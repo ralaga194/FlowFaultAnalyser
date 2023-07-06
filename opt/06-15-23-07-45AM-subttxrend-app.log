@@ -1,0 +1,834 @@
+2023 Jun 15 07:22:41.614745 startsubttx.sh[8166]:  + echo 'Creating subtec surface'
+2023 Jun 15 07:22:41.614898 startsubttx.sh[8166]:  Creating subtec surface
+2023 Jun 15 07:22:41.614973 startsubttx.sh[8166]:  + count=10
+2023 Jun 15 07:22:41.615033 startsubttx.sh[8166]:  + '[' 10 -gt 0 ']'
+2023 Jun 15 07:22:41.632027 startsubttx.sh[8166]:  ++ /usr/bin/WPEFrameworkSecurityUtility
+2023 Jun 15 07:22:41.903382 startsubttx.sh[8166]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU","success":true}'
+2023 Jun 15 07:22:41.903740 startsubttx.sh[8166]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU'
+2023 Jun 15 07:22:41.903833 startsubttx.sh[8166]:  + t=eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU
+2023 Jun 15 07:22:41.903895 startsubttx.sh[8166]:  + token='Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU'
+2023 Jun 15 07:22:41.903957 startsubttx.sh[8166]:  + echo createDisplay
+2023 Jun 15 07:22:41.904044 startsubttx.sh[8166]:  createDisplay
+2023 Jun 15 07:22:41.904124 startsubttx.sh[8166]:  + curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.createDisplay", "params": {"client":"subtec_s1", "displayName":"subtec_s1"}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:22:41.925339 startsubttx.sh[8166]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:41.928955 startsubttx.sh[8166]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:41.953848 startsubttx.sh[8166]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   209  100    77  100   132   2655   4551 --:--:-- --:--:-- --:--:--  7206
+2023 Jun 15 07:22:41.966042 startsubttx.sh[8166]:  {"jsonrpc":"2.0","id":3,"error":{"code":2,"message":"Service is not active"}}++ curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU' -d ' {"jsonrpc":"2.0", "id":3, "method":"org.rdk.RDKShell.1.getClients", "params":{ }}' http://localhost:9998/jsonrpc
+2023 Jun 15 07:22:41.991613 startsubttx.sh[8166]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:41.991976 startsubttx.sh[8166]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:42.042993 startsubttx.sh[8166]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   159  100    77  100    82   1673   1782 --:--:-- --:--:-- --:--:--  3456
+2023 Jun 15 07:22:42.043154 startsubttx.sh[8166]:  + response='{"jsonrpc":"2.0","id":3,"error":{"code":2,"message":"Service is not active"}}'
+2023 Jun 15 07:22:42.060165 startsubttx.sh[8166]:  ++ grep subtec_s1
+2023 Jun 15 07:22:42.061382 startsubttx.sh[8166]:  ++ echo '{"jsonrpc":"2.0","id":3,"error":{"code":2,"message":"Service' is not 'active"}}'
+2023 Jun 15 07:22:42.068793 startsubttx.sh[8166]:  + sub_created=
+2023 Jun 15 07:22:42.068892 startsubttx.sh[8166]:  + '[' -n '' ']'
+2023 Jun 15 07:22:42.068965 startsubttx.sh[8166]:  + echo 'Failed to create subtec surface; 10 retries remaining.'
+2023 Jun 15 07:22:42.069037 startsubttx.sh[8166]:  Failed to create subtec surface; 10 retries remaining.
+2023 Jun 15 07:22:42.069137 startsubttx.sh[8166]:  + sleep 1
+2023 Jun 15 07:22:43.077942 startsubttx.sh[8166]:  + let count=10-1
+2023 Jun 15 07:22:43.078063 startsubttx.sh[8166]:  + '[' 9 -gt 0 ']'
+2023 Jun 15 07:22:43.079331 startsubttx.sh[8166]:  ++ /usr/bin/WPEFrameworkSecurityUtility
+2023 Jun 15 07:22:43.279349 startsubttx.sh[8166]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU","success":true}'
+2023 Jun 15 07:22:43.279469 startsubttx.sh[8166]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU'
+2023 Jun 15 07:22:43.279521 startsubttx.sh[8166]:  + t=eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU
+2023 Jun 15 07:22:43.279609 startsubttx.sh[8166]:  + token='Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU'
+2023 Jun 15 07:22:43.279660 startsubttx.sh[8166]:  + echo createDisplay
+2023 Jun 15 07:22:43.279734 startsubttx.sh[8166]:  createDisplay
+2023 Jun 15 07:22:43.279808 startsubttx.sh[8166]:  + curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.createDisplay", "params": {"client":"subtec_s1", "displayName":"subtec_s1"}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:22:43.359804 startsubttx.sh[8166]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:43.360143 startsubttx.sh[8166]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:43.703607 startsubttx.sh[8166]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   182  100    50  100   132    144    382 --:--:-- --:--:-- --:--:--   527
+2023 Jun 15 07:22:43.705862 startsubttx.sh[8166]:  {"jsonrpc":"2.0","id":3,"result":{"success":true}}++ curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU' -d ' {"jsonrpc":"2.0", "id":3, "method":"org.rdk.RDKShell.1.getClients", "params":{ }}' http://localhost:9998/jsonrpc
+2023 Jun 15 07:22:43.729292 startsubttx.sh[8166]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:43.729674 startsubttx.sh[8166]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:43.759502 startsubttx.sh[8166]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   170  100    88  100    82   2444   2277 --:--:-- --:--:-- --:--:--  4857
+2023 Jun 15 07:22:43.761744 startsubttx.sh[8166]:  + response='{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1","residentapp"],"success":true}}'
+2023 Jun 15 07:22:43.778305 startsubttx.sh[8166]:  ++ grep subtec_s1
+2023 Jun 15 07:22:43.789125 startsubttx.sh[8166]:  ++ echo '{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1","residentapp"],"success":true}}'
+2023 Jun 15 07:22:43.796518 startsubttx.sh[8166]:  + sub_created='{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1","residentapp"],"success":true}}'
+2023 Jun 15 07:22:43.796683 startsubttx.sh[8166]:  + '[' -n '{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1","residentapp"],"success":true}}' ']'
+2023 Jun 15 07:22:43.797255 startsubttx.sh[8166]:  + echo 'Created subtec surface.'
+2023 Jun 15 07:22:43.797320 startsubttx.sh[8166]:  Created subtec surface.
+2023 Jun 15 07:22:43.797373 startsubttx.sh[8166]:  + break
+2023 Jun 15 07:22:43.797424 startsubttx.sh[8166]:  + '[' 9 -eq 0 ']'
+2023 Jun 15 07:22:43.797478 startsubttx.sh[8166]:  + curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.rmZ3X3csuqWWFm3W_XSisq5Mwhx2Vj6ah7M-zOFMHbU' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.setTopmost", "params": {"client":"subtec_s1", "topmost":true}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:22:43.827412 startsubttx.sh[8166]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:43.827740 startsubttx.sh[8166]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:43.841988 startsubttx.sh[8166]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   168  100    50  100   118   2777   6555 --:--:-- --:--:-- --:--:-- 10500
+2023 Jun 15 07:22:43.846307 startsubttx.sh[8166]:  {"jsonrpc":"2.0","id":3,"result":{"success":true}}
+2023 Jun 15 07:22:44.831498 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: ##############################################################################
+2023 Jun 15 07:22:44.831840 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Copyright © 2018 Liberty Global B.V. and its Licensors.
+2023 Jun 15 07:22:44.831917 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # All rights reserved.
+2023 Jun 15 07:22:44.832069 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Licensed by RDK Management, LLC under the terms of the RDK license.
+2023 Jun 15 07:22:44.832157 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:22:44.832211 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Liberty Global B.V. CONFIDENTIAL AND PROPRIETARY
+2023 Jun 15 07:22:44.832278 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:22:44.832330 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # This file (and its contents) are the intellectual property of Liberty Global B.V.
+2023 Jun 15 07:22:44.832382 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # It may not be used, copied, distributed or otherwise disclosed in whole or in
+2023 Jun 15 07:22:44.832504 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # part without the express written permission of Liberty Global B.V.
+2023 Jun 15 07:22:44.832559 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # The RDK License agreement constitutes express written consent by Liberty Global.
+2023 Jun 15 07:22:44.832693 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:22:44.832746 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # This software is the confidential and proprietary information of Liberty Global B.V.
+2023 Jun 15 07:22:44.832829 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ("Confidential Information"). You shall not disclose this source code or
+2023 Jun 15 07:22:44.832918 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # such Confidential Information and shall use it only in accordance with the
+2023 Jun 15 07:22:44.833020 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # terms of the license agreement you entered into.
+2023 Jun 15 07:22:44.833077 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.833132 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # LIBERTY GLOBAL B.V. MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE
+2023 Jun 15 07:22:44.833186 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # SUITABILITY OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT
+2023 Jun 15 07:22:44.833240 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+2023 Jun 15 07:22:44.833295 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # PARTICULAR PURPOSE, OR NON-INFRINGEMENT. LIBERTY GLOBAL B.V. SHALL NOT BE LIABLE FOR
+2023 Jun 15 07:22:44.833362 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ANY DAMAGES SUFFERED BY LICENSEE NOR SHALL THEY BE RESPONSIBLE AS A RESULT
+2023 Jun 15 07:22:44.833416 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+2023 Jun 15 07:22:44.833471 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: ##############################################################################
+2023 Jun 15 07:22:44.833524 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.833576 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # SubTtxRend-App configuration file.
+2023 Jun 15 07:22:44.833639 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.833690 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:22:44.833744 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.833800 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Application configuration
+2023 Jun 15 07:22:44.833866 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.833933 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # MAIN_CONTEXT.SOCKET_PATH = /var/run/subttx/pes_data_main
+2023 Jun 15 07:22:44.833988 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:22:44.834041 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext application window size
+2023 Jun 15 07:22:44.834096 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.1.WIDTH = 1280
+2023 Jun 15 07:22:44.834202 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.1.HEIGHT = 720
+2023 Jun 15 07:22:44.834258 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.834312 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Subtitles application window size (resizes on demand)
+2023 Jun 15 07:22:44.834377 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.2.WIDTH = 0
+2023 Jun 15 07:22:44.834432 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.2.HEIGHT = 0
+2023 Jun 15 07:22:44.834510 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.834562 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext grid width/height
+2023 Jun 15 07:22:44.834618 subttxrend-app[8797]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.GRID_W = 880
+2023 Jun 15 07:22:44.834673 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.GRID_H = 650
+2023 Jun 15 07:22:44.834728 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.834782 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext G0 charset font
+2023 Jun 15 07:22:44.834837 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #   (glyph width / height should be normally equal to 40x25 grid cell size)
+2023 Jun 15 07:22:44.834912 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #   (char width/height is specified as freetype points and used for scaling)
+2023 Jun 15 07:22:44.834967 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835021 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: RDKENV.FEATURE.TTX.FONT.G0.NAME = Teletext 43
+2023 Jun 15 07:22:44.835076 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.GLYPH_WIDTH = 22
+2023 Jun 15 07:22:44.835212 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.GLYPH_HEIGHT = 26
+2023 Jun 15 07:22:44.835270 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.CHAR_WIDTH = 34
+2023 Jun 15 07:22:44.835326 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.CHAR_HEIGHT = 24
+2023 Jun 15 07:22:44.835393 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835446 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext flash period in miliseconds
+2023 Jun 15 07:22:44.835541 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835595 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FLASH_PERIOD_MS = 1000
+2023 Jun 15 07:22:44.835651 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835703 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext default background alpha
+2023 Jun 15 07:22:44.835759 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835812 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.BG_ALPHA = 255
+2023 Jun 15 07:22:44.835867 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.835919 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Should ttx engine be reset or destroyed when decoding stops
+2023 Jun 15 07:22:44.835986 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.836039 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.RESET_ON_STOP = TRUE
+2023 Jun 15 07:22:44.836096 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:22:44.836152 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.836349 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.836513 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Teletext settings
+2023 Jun 15 07:22:44.836572 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.836708 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.836766 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.WINDOW.W = 1280
+2023 Jun 15 07:22:44.836848 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.WINDOW.H = 720
+2023 Jun 15 07:22:44.836904 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.836958 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # (grid size is 40x25, zoomed 40x13)
+2023 Jun 15 07:22:44.837013 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.GRID_CELL.W = 22
+2023 Jun 15 07:22:44.837068 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.GRID_CELL.H = 26
+2023 Jun 15 07:22:44.837123 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.837175 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: TELETEXT.FONT_G0_G2.NAME = Teletext 43
+2023 Jun 15 07:22:44.837328 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FONT_G0_G2.W = 34
+2023 Jun 15 07:22:44.837399 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FONT_G0_G2.H = 24
+2023 Jun 15 07:22:44.838192 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.838260 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FLASH_PERIOD_MS = 1000
+2023 Jun 15 07:22:44.838318 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.838373 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.BG_ALPHA = 255
+2023 Jun 15 07:22:44.838429 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.838483 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.838559 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Ttml settings
+2023 Jun 15 07:22:44.838616 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.838669 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature- enabling below option will dump all incoming ttml data (document and images) to given directory
+2023 Jun 15 07:22:44.838725 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - !!! remember to remove the files
+2023 Jun 15 07:22:44.838780 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.DUMP_DIR = /var/run/subttx/ttml_dump/
+2023 Jun 15 07:22:44.838837 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.838889 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature- dump incoming data to log/journal
+2023 Jun 15 07:22:44.838960 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.DUMP_TO_LOG = 1
+2023 Jun 15 07:22:44.839017 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.839069 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - show current mediatime one screen
+2023 Jun 15 07:22:44.839124 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.SHOW_MEDIATIME = 1
+2023 Jun 15 07:22:44.839179 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.839232 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - read ttml from file
+2023 Jun 15 07:22:44.839287 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.READ_FROM_FILE = /var/run/subttx/ttml_src/data.ttml
+2023 Jun 15 07:22:44.839757 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.840001 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - if defined ttml renderer will always use this font name regardless of ttml::fontFamily
+2023 Jun 15 07:22:44.840065 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: TTML.FORCE_FONT = Mayberry Pro
+2023 Jun 15 07:22:44.840122 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.840176 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - color ttml regions; 0x99c2f0c2 is semi-transparent lightly green
+2023 Jun 15 07:22:44.840232 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.REGIONS_FILL_COLOR = 0x99c2f0c2
+2023 Jun 15 07:22:44.840288 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:22:44.840343 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.840396 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Logger settings
+2023 Jun 15 07:22:44.840451 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:22:44.840522 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.840576 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Backend selection and configuration
+2023 Jun 15 07:22:44.840725 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # -- std (standard output) is default backend
+2023 Jun 15 07:22:44.840783 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.BACKEND = std | rdk
+2023 Jun 15 07:22:44.840839 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.BACKEND_RDK_CONFIG_FILE = /etc/debug.ini
+2023 Jun 15 07:22:44.840894 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.840995 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Message levels enabled configuration
+2023 Jun 15 07:22:44.841056 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.841110 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS_DEFAULT = FATAL ERROR WARNING INFO
+2023 Jun 15 07:22:44.841166 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS.<component> = levels
+2023 Jun 15 07:22:44.841223 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS.<component>.<element> = levels
+2023 Jun 15 07:22:44.842910 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # levels = ALL FATAL ERROR WARNING INFO DEBUG TRACE
+2023 Jun 15 07:22:44.842990 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.843048 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # To enable level and all more important levels use level name with '+'
+2023 Jun 15 07:22:44.843112 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # character at the end e.g. "INFO+" (means INFO WARNING ERROR FATAL).
+2023 Jun 15 07:22:44.843169 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:22:44.843222 subttxrend-app[8797]:  00000001 ?????: [Common:IniFile] parseAppend - Read succeeded: file=/etc/subttxrend/config.ini
+2023 Jun 15 07:22:44.843279 subttxrend-app[8797]:  00000001 INFO: [App:Application] [0xbbf93914] runAsync - started.
+2023 Jun 15 07:22:44.843335 subttxrend-app[8797]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:44.843391 subttxrend-app[8797]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:44.843448 subttxrend-app[8797]:  230615-07:22:44.832133 [mod=CORE, lvl=INFO] [tid=8797] [App::Application]  Setting logger level: App 15
+2023 Jun 15 07:22:44.843516 subttxrend-app[8797]:  230615-07:22:44.832392 [mod=CORE, lvl=INFO] [tid=8797] [App::Configuration]  Setting logger level: App 15
+2023 Jun 15 07:22:44.843574 subttxrend-app[8797]:  230615-07:22:44.832433 [mod=CORE, lvl=INFO] [tid=8797] [App::StcProvider]  Setting logger level: App 15
+2023 Jun 15 07:22:44.843631 subttxrend-app[8797]:  230615-07:22:44.832470 [mod=CORE, lvl=INFO] [tid=8797] [Common::ConfigProvider]  Setting logger level: Common 15
+2023 Jun 15 07:22:44.843688 subttxrend-app[8797]:  230615-07:22:44.832507 [mod=CORE, lvl=INFO] [tid=8797] [Common::IniFile]  Setting logger level: Common 15
+2023 Jun 15 07:22:44.843744 subttxrend-app[8797]:  230615-07:22:44.832542 [mod=CORE, lvl=INFO] [tid=8797] [Common::JsonData]  Setting logger level: Common 15
+2023 Jun 15 07:22:44.843800 subttxrend-app[8797]:  230615-07:22:44.832578 [mod=CORE, lvl=INFO] [tid=8797] [Common::LoggerManager]  Setting logger level: Common 15
+2023 Jun 15 07:22:44.843857 subttxrend-app[8797]:  230615-07:22:44.832656 [mod=CORE, lvl=INFO] [tid=8797] [Dbus::DbusHandlerSubtitles]  Setting logger level: Dbus 15
+2023 Jun 15 07:22:44.843924 subttxrend-app[8797]:  230615-07:22:44.832694 [mod=CORE, lvl=INFO] [tid=8797] [Dbus::DbusHandlerTeletext]  Setting logger level: Dbus 15
+2023 Jun 15 07:22:44.843982 subttxrend-app[8797]:  230615-07:22:44.832730 [mod=CORE, lvl=INFO] [tid=8797] [Dbus::JsonHelper]  Setting logger level: Dbus 15
+2023 Jun 15 07:22:44.844039 subttxrend-app[8797]:  230615-07:22:44.832767 [mod=CORE, lvl=INFO] [tid=8797] [DvbSub::DecoderClientGfxRenderer]  Setting logger level: DvbSub 15
+2023 Jun 15 07:22:44.847858 subttxrend-app[8797]:  230615-07:22:44.832806 [mod=CORE, lvl=INFO] [tid=8797] [DvbSub::SubtitlesRendererImpl]  Setting logger level: DvbSub 15
+2023 Jun 15 07:22:44.847939 subttxrend-app[8797]:  230615-07:22:44.832843 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::BasicAllocator]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.847997 subttxrend-app[8797]:  230615-07:22:44.832881 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Clut]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848054 subttxrend-app[8797]:  230615-07:22:44.832919 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Database]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848116 subttxrend-app[8797]:  230615-07:22:44.832957 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::DecoderImpl]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848219 subttxrend-app[8797]:  230615-07:22:44.832996 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ObjectParser]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848279 subttxrend-app[8797]:  230615-07:22:44.833034 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Parser]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848336 subttxrend-app[8797]:  230615-07:22:44.833073 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserCDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848393 subttxrend-app[8797]:  230615-07:22:44.833109 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserDDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848450 subttxrend-app[8797]:  230615-07:22:44.833145 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserEDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848509 subttxrend-app[8797]:  230615-07:22:44.833183 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserODS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848573 subttxrend-app[8797]:  230615-07:22:44.833220 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserPCS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848730 subttxrend-app[8797]:  230615-07:22:44.833256 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::ParserRCS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848808 subttxrend-app[8797]:  230615-07:22:44.833297 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::PesBuffer]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848870 subttxrend-app[8797]:  230615-07:22:44.833335 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::PixelWriter]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.848932 subttxrend-app[8797]:  230615-07:22:44.833373 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Pixmap]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.849334 subttxrend-app[8797]:  230615-07:22:44.833410 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::PixmapAllocator]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.849412 subttxrend-app[8797]:  230615-07:22:44.833447 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Presenter]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.849470 subttxrend-app[8797]:  230615-07:22:44.833483 [mod=CORE, lvl=INFO] [tid=8797] [DvbSubDecoder::Region]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:22:44.849527 subttxrend-app[8797]:  230615-07:22:44.833520 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::Base64ToPixmap]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849591 subttxrend-app[8797]:  230615-07:22:44.833556 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::Blitter]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849649 subttxrend-app[8797]:  230615-07:22:44.833592 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::EngineImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849706 subttxrend-app[8797]:  230615-07:22:44.833639 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::Factory]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849762 subttxrend-app[8797]:  230615-07:22:44.833676 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::FontStripImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849822 subttxrend-app[8797]:  230615-07:22:44.833713 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::PrerenderedFontImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849902 subttxrend-app[8797]:  230615-07:22:44.833764 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::WaylandBackend]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.849961 subttxrend-app[8797]:  230615-07:22:44.833801 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.850018 subttxrend-app[8797]:  230615-07:22:44.833838 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::WaylandBuffer]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.850075 subttxrend-app[8797]:  230615-07:22:44.833891 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::WaylandBufferManager]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.850139 subttxrend-app[8797]:  230615-07:22:44.833929 [mod=CORE, lvl=INFO] [tid=8797] [Gfx::WindowImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:22:44.850202 subttxrend-app[8797]:  230615-07:22:44.833965 [mod=CORE, lvl=INFO] [tid=8797] [GfxEngine::Epoll]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:22:44.850259 subttxrend-app[8797]:  230615-07:22:44.834002 [mod=CORE, lvl=INFO] [tid=8797] [GfxEngine::EpollDisplayHandler]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:22:44.850315 subttxrend-app[8797]:  230615-07:22:44.834040 [mod=CORE, lvl=INFO] [tid=8797] [GfxEngine::EpollDisplayLoop]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:22:44.850385 subttxrend-app[8797]:  230615-07:22:44.834076 [mod=CORE, lvl=INFO] [tid=8797] [GfxEngine::EpollEventHandler]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:22:44.850560 subttxrend-app[8797]:  230615-07:22:44.834113 [mod=CORE, lvl=INFO] [tid=8797] [GfxEngine::KeymapXkbV1]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:22:44.850628 subttxrend-app[8797]:  230615-07:22:44.834150 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::Packet]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.850696 subttxrend-app[8797]:  230615-07:22:44.834186 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketData]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.850755 subttxrend-app[8797]:  230615-07:22:44.834222 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketParser]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.850811 subttxrend-app[8797]:  230615-07:22:44.834258 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketSetCCAttributes]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.850868 subttxrend-app[8797]:  230615-07:22:44.834294 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketSubtitleSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.850948 subttxrend-app[8797]:  230615-07:22:44.834329 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketTeletextSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851010 subttxrend-app[8797]:  230615-07:22:44.834366 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851077 subttxrend-app[8797]:  230615-07:22:44.834402 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketTtmlInfo]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851144 subttxrend-app[8797]:  230615-07:22:44.834438 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketTtmlSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851201 subttxrend-app[8797]:  230615-07:22:44.834487 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketTtmlTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851258 subttxrend-app[8797]:  230615-07:22:44.834525 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketWebvttSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851323 subttxrend-app[8797]:  230615-07:22:44.834561 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::PacketWebvttTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851381 subttxrend-app[8797]:  230615-07:22:44.834597 [mod=CORE, lvl=INFO] [tid=8797] [Protocol::StreamValidator]  Setting logger level: Protocol 15
+2023 Jun 15 07:22:44.851451 subttxrend-app[8797]:  230615-07:22:44.834634 [mod=CORE, lvl=INFO] [tid=8797] [Scte::ScteController]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851535 subttxrend-app[8797]:  230615-07:22:44.834670 [mod=CORE, lvl=INFO] [tid=8797] [Scte::ScteRawBitmapDecoder]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851598 subttxrend-app[8797]:  230615-07:22:44.834707 [mod=CORE, lvl=INFO] [tid=8797] [Scte::ScteRenderer]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851774 subttxrend-app[8797]:  230615-07:22:44.834744 [mod=CORE, lvl=INFO] [tid=8797] [Scte::ScteSectionAssembler]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851836 subttxrend-app[8797]:  230615-07:22:44.834780 [mod=CORE, lvl=INFO] [tid=8797] [Scte::ScteTable]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851894 subttxrend-app[8797]:  230615-07:22:44.834816 [mod=CORE, lvl=INFO] [tid=8797] [Scte::Section]  Setting logger level: Scte 15
+2023 Jun 15 07:22:44.851951 subttxrend-app[8797]:  230615-07:22:44.834852 [mod=CORE, lvl=INFO] [tid=8797] [SockSrc::UnixSocketSource]  Setting logger level: SockSrc 15
+2023 Jun 15 07:22:44.852023 subttxrend-app[8797]:  230615-07:22:44.834888 [mod=CORE, lvl=INFO] [tid=8797] [TtmlEngine::DataDumper]  Setting logger level: TtmlEngine 15
+2023 Jun 15 07:22:44.852081 subttxrend-app[8797]:  230615-07:22:44.834927 [mod=CORE, lvl=INFO] [tid=8797] [TtmlEngine::ValueConverter]  Setting logger level: TtmlEngine 15
+2023 Jun 15 07:22:44.852138 subttxrend-app[8797]:  230615-07:22:44.834964 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::CacheImpl]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852194 subttxrend-app[8797]:  230615-07:22:44.835000 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::CharsetMapping]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852251 subttxrend-app[8797]:  230615-07:22:44.835036 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::Collector]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852307 subttxrend-app[8797]:  230615-07:22:44.835086 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::Database]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852364 subttxrend-app[8797]:  230615-07:22:44.835124 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::DecodedPage]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852420 subttxrend-app[8797]:  230615-07:22:44.835161 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::Decoder]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852488 subttxrend-app[8797]:  230615-07:22:44.835197 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::EngineImpl]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852546 subttxrend-app[8797]:  230615-07:22:44.835233 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::MetadataProcessor]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852656 subttxrend-app[8797]:  230615-07:22:44.835269 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::Parser]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852716 subttxrend-app[8797]:  230615-07:22:44.835305 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::ParserX26]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852773 subttxrend-app[8797]:  230615-07:22:44.835341 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::PesBuffer]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852925 subttxrend-app[8797]:  230615-07:22:44.835377 [mod=CORE, lvl=INFO] [tid=8797] [TtxDecoder::TopNavProcessor]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:22:44.852986 subttxrend-app[8797]:  230615-07:22:44.835415 [mod=CORE, lvl=INFO] [tid=8797] [Ttxt::GfxRenderer]  Setting logger level: Ttxt 15
+2023 Jun 15 07:22:44.853058 subttxrend-app[8797]:  230615-07:22:44.835452 [mod=CORE, lvl=INFO] [tid=8797] [Ttxt::GfxTtxGrid]  Setting logger level: Ttxt 15
+2023 Jun 15 07:22:44.853117 subttxrend-app[8797]:  230615-07:22:44.835488 [mod=CORE, lvl=INFO] [tid=8797] [Ttxt::GfxTtxGridModel]  Setting logger level: Ttxt 15
+2023 Jun 15 07:22:44.853174 subttxrend-app[8797]:  230615-07:22:44.835565 [mod=CORE, lvl=INFO] [tid=8797] [Ttxt::RendererImpl]  Setting logger level: Ttxt 15
+2023 Jun 15 07:22:44.853230 subttxrend-app[8797]:  230615-07:22:44.835604 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::LineBuilder]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853286 subttxrend-app[8797]:  230615-07:22:44.835643 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebVTTConfig]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853343 subttxrend-app[8797]:  230615-07:22:44.835680 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebVTTCue]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853399 subttxrend-app[8797]:  230615-07:22:44.835728 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebVTTDocument]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853456 subttxrend-app[8797]:  230615-07:22:44.835765 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebVTTRenderer]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853522 subttxrend-app[8797]:  230615-07:22:44.835801 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebVTTStyle]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853580 subttxrend-app[8797]:  230615-07:22:44.835838 [mod=CORE, lvl=INFO] [tid=8797] [WebvttEngine::WebvttEngineImpl]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:22:44.853636 subttxrend-app[8797]:  230615-07:22:44.835895 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Logger initialized.
+2023 Jun 15 07:22:44.853693 subttxrend-app[8797]:  230615-07:22:44.835927 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Starting application.
+2023 Jun 15 07:22:44.853750 subttxrend-app[8797]:  230615-07:22:44.835954 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Initialize graphics engine.
+2023 Jun 15 07:22:44.853806 subttxrend-app[8797]:  230615-07:22:44.836030 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] startDisplay - Connecting to display
+2023 Jun 15 07:22:44.853863 subttxrend-app[8797]:  230615-07:22:44.836261 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] startDisplay - connected to display
+2023 Jun 15 07:22:44.854029 subttxrend-app[8797]:  230615-07:22:44.836562 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=1 interface=wl_shm:1
+2023 Jun 15 07:22:44.854090 subttxrend-app[8797]:  230615-07:22:44.836654 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=1 interface=wl_shm:1
+2023 Jun 15 07:22:44.854174 subttxrend-app[8797]:  230615-07:22:44.836720 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=2 interface=wl_compositor:3
+2023 Jun 15 07:22:44.854234 subttxrend-app[8797]:  230615-07:22:44.836768 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=2 interface=wl_compositor:3
+2023 Jun 15 07:22:44.854291 subttxrend-app[8797]:  230615-07:22:44.836797 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=3 interface=wl_shell:1
+2023 Jun 15 07:22:44.854348 subttxrend-app[8797]:  230615-07:22:44.836838 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=3 interface=wl_shell:1
+2023 Jun 15 07:22:44.854404 subttxrend-app[8797]:  230615-07:22:44.836865 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=4 interface=xdg_shell:1
+2023 Jun 15 07:22:44.854461 subttxrend-app[8797]:  230615-07:22:44.836903 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=4 interface=xdg_shell:1
+2023 Jun 15 07:22:44.854530 subttxrend-app[8797]:  230615-07:22:44.836932 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=5 interface=wl_vpc:1
+2023 Jun 15 07:22:44.854588 subttxrend-app[8797]:  230615-07:22:44.836955 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=5 interface=wl_vpc:1
+2023 Jun 15 07:22:44.854645 subttxrend-app[8797]:  230615-07:22:44.836980 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=6 interface=wl_output:2
+2023 Jun 15 07:22:44.854722 subttxrend-app[8797]:  230615-07:22:44.837016 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - Output added: name=6
+2023 Jun 15 07:22:44.854780 subttxrend-app[8797]:  230615-07:22:44.837047 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=6 interface=wl_output:2
+2023 Jun 15 07:22:44.854837 subttxrend-app[8797]:  230615-07:22:44.837073 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=7 interface=wl_seat:4
+2023 Jun 15 07:22:44.854900 subttxrend-app[8797]:  230615-07:22:44.837110 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - Seat added: name=7
+2023 Jun 15 07:22:44.854978 subttxrend-app[8797]:  230615-07:22:44.837140 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=7 interface=wl_seat:4
+2023 Jun 15 07:22:44.855047 subttxrend-app[8797]:  230615-07:22:44.837165 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=8 interface=wl_sb:3
+2023 Jun 15 07:22:44.855218 subttxrend-app[8797]:  230615-07:22:44.837192 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=8 interface=wl_sb:3
+2023 Jun 15 07:22:44.855278 subttxrend-app[8797]:  230615-07:22:44.837217 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=9 interface=zwp_linux_dmabuf_v1:3
+2023 Jun 15 07:22:44.855337 subttxrend-app[8797]:  230615-07:22:44.837240 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=9 interface=zwp_linux_dmabuf_v1:3
+2023 Jun 15 07:22:44.855394 subttxrend-app[8797]:  230615-07:22:44.837266 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=10 interface=wl_simple_shell:1
+2023 Jun 15 07:22:44.855451 subttxrend-app[8797]:  230615-07:22:44.837289 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=10 interface=wl_simple_shell:1
+2023 Jun 15 07:22:44.855507 subttxrend-app[8797]:  230615-07:22:44.837315 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] global - name=11 interface=mali_buffer_sharing:5
+2023 Jun 15 07:22:44.855577 subttxrend-app[8797]:  230615-07:22:44.837349 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] interfaceAdded - name=11 interface=mali_buffer_sharing:5
+2023 Jun 15 07:22:44.855635 subttxrend-app[8797]:  230615-07:22:44.837907 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] format - Possible shmem format native=0 format=ARGB8888
+2023 Jun 15 07:22:44.855691 subttxrend-app[8797]:  230615-07:22:44.837943 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] format - Possible shmem format native=1 format=XRGB8888
+2023 Jun 15 07:22:44.855748 subttxrend-app[8797]:  230615-07:22:44.837975 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] geometry - out=0x7dcef848 x=0 y=0 pw=1920 ph=1080 sp=2 make=Westeros model=Westeros-embedded tfm=0
+2023 Jun 15 07:22:44.855805 subttxrend-app[8797]:  230615-07:22:44.838002 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] mode - out=0x7dcef848 flags=1 w=1920 h=1080 r=60000
+2023 Jun 15 07:22:44.855861 subttxrend-app[8797]:  230615-07:22:44.838024 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackendShm] currentOutputModeChanged - w=1920 h=1080
+2023 Jun 15 07:22:44.855917 subttxrend-app[8797]:  230615-07:22:44.838054 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] capabilities - seat=0x7dcef8c8 capabilities=7
+2023 Jun 15 07:22:44.855985 subttxrend-app[8797]:  230615-07:22:44.838082 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::WaylandBackend] capabilities - cannot get keyboard
+2023 Jun 15 07:22:44.856043 subttxrend-app[8797]:  230615-07:22:44.838136 [mod=GFX, lvl=INFO] [tid=8797] [GfxEngine::EpollDisplayLoop] start
+2023 Jun 15 07:22:44.856099 subttxrend-app[8797]:  230615-07:22:44.838389 [mod=GFX, lvl=INFO] [tid=8797] [GfxEngine::EpollDisplayLoop] start - started
+2023 Jun 15 07:22:44.856287 subttxrend-app[8797]:  230615-07:22:44.838425 [mod=GFX, lvl=INFO] [tid=8797] [Gfx::EngineImpl] init - Backend is running
+2023 Jun 15 07:22:44.856351 subttxrend-app[8797]:  230615-07:22:44.838508 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - window created 0x7dceb614, initializing controller
+2023 Jun 15 07:22:44.856409 subttxrend-app[8797]:  230615-07:22:44.838577 [mod=CORE, lvl=INFO] [tid=8797] [App::Controller]  Setting logger level: App 15
+2023 Jun 15 07:22:44.856467 subttxrend-app[8797]:  230615-07:22:44.838752 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Creating unix socket source with path='/var/run/subttx/pes_data_main'.
+2023 Jun 15 07:22:44.856524 subttxrend-app[8797]:  230615-07:22:44.838822 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Starting source
+2023 Jun 15 07:22:44.856774 subttxrend-app[8797]:  230615-07:22:44.838868 [mod=CORE, lvl=INFO] [tid=8797] [SockSrc::UnixSocketSource] start
+2023 Jun 15 07:22:44.856844 subttxrend-app[8797]:  230615-07:22:44.838918 [mod=CORE, lvl=INFO] [tid=8797] [SockSrc::UnixSocketSource] start starting receiver thread
+2023 Jun 15 07:22:44.856901 subttxrend-app[8797]:  230615-07:22:44.839096 [mod=CORE, lvl=INFO] [tid=8797] [SockSrc::UnixSocketSource] start started
+2023 Jun 15 07:22:44.856959 subttxrend-app[8797]:  230615-07:22:44.839132 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - Starting render thread
+2023 Jun 15 07:22:44.857015 subttxrend-app[8797]:  230615-07:22:44.839160 [mod=CORE, lvl=INFO] [tid=8797] [App::Controller] [0x7dcf1690] startAsync
+2023 Jun 15 07:22:44.857072 subttxrend-app[8797]:  230615-07:22:44.839308 [mod=CORE, lvl=INFO] [tid=8797] [App::Application] [0xbbf93914] runAsync - application started
+2023 Jun 15 07:22:44.857129 subttxrend-app[8797]:  subttxrend-app started
+2023 Jun 15 07:22:44.857185 subttxrend-app[8797]:  230615-07:22:44.839521 [mod=CORE, lvl=INFO] [tid=8985] [SockSrc::UnixSocketSource] sourceLoop start
+2023 Jun 15 07:22:44.857263 subttxrend-app[8797]:  230615-07:22:44.839570 [mod=CORE, lvl=INFO] [tid=8985] [SockSrc::UnixSocketSource] createSocket
+2023 Jun 15 07:22:44.857321 subttxrend-app[8797]:  230615-07:22:44.840136 [mod=GFX, lvl=INFO] [tid=8984] [GfxEngine::EpollDisplayLoop] threadLoop
+2023 Jun 15 07:22:44.857377 subttxrend-app[8797]:  230615-07:22:44.840189 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBackend] checkRequiredBaseInterfaces - Found compositor
+2023 Jun 15 07:22:44.857434 subttxrend-app[8797]:  230615-07:22:44.840242 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBackend] checkRequiredBaseInterfaces - Found shm
+2023 Jun 15 07:22:44.857491 subttxrend-app[8797]:  230615-07:22:44.840272 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBackendShm] checkRequiredInterfaces - Found shm
+2023 Jun 15 07:22:44.857628 subttxrend-app[8797]:  230615-07:22:44.840673 [mod=CORE, lvl=INFO] [tid=8985] [SockSrc::UnixSocketSource] createSocket socket created, buffer size=163840
+2023 Jun 15 07:22:44.857688 subttxrend-app[8797]:  230615-07:22:44.841354 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBackend] createSurface - Created surface
+2023 Jun 15 07:22:44.857760 subttxrend-app[8797]:  230615-07:22:44.841408 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBackend] createSurface - Created shell surface
+2023 Jun 15 07:22:44.857818 subttxrend-app[8797]:  230615-07:22:44.842368 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb104d844 of size 4
+2023 Jun 15 07:22:44.857875 subttxrend-app[8797]:  230615-07:22:44.842473 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb104db9c (1 x 1)
+2023 Jun 15 07:22:44.857932 subttxrend-app[8797]:  230615-07:22:44.843304 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb104dc24
+2023 Jun 15 07:22:44.857990 subttxrend-app[8797]:  230615-07:22:44.846388 [mod=CORE, lvl=INFO] [tid=8986] [App::Controller] [0x7dcf1690] processLoop starting process loop
+subtec socket exists,exiting..
+2023 Jun 15 07:23:16.840399 subttxrend-app[8797]:  230615-07:23:16.837805 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] Selecting CC Subtitles: 0
+2023 Jun 15 07:23:16.840547 subttxrend-app[8797]:  230615-07:23:16.837978 [mod=CORE, lvl=INFO] [tid=8985] [ClosedCaptions::CcController]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:23:16.840617 subttxrend-app[8797]:  230615-07:23:16.838042 [mod=CORE, lvl=INFO] [tid=8985] [ClosedCaptions::CommandParser]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:23:16.840670 subttxrend-app[8797]:  230615-07:23:16.838089 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] Controller
+2023 Jun 15 07:23:16.840722 subttxrend-app[8797]:  230615-07:23:16.838136 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController]  Setting logger level: App 15
+2023 Jun 15 07:23:16.840774 subttxrend-app[8797]:  230615-07:23:16.838179 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] CcSubController created
+2023 Jun 15 07:23:16.840863 subttxrend-app[8797]:  230615-07:23:16.838210 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init
+2023 Jun 15 07:23:16.840927 subttxrend-app[8797]:  230615-07:23:16.838258 [mod=CORE, lvl=INFO] [tid=8985] [ClosedCaptions::Renderer]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:23:16.840988 subttxrend-app[8797]:  230615-07:23:16.838318 [mod=CORE, lvl=INFO] [tid=8985] [ClosedCaptions::WindowController]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:23:16.841041 subttxrend-app[8797]:  230615-07:23:16.838365 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init - done
+2023 Jun 15 07:23:16.841098 subttxrend-app[8797]:  230615-07:23:16.838404 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select
+2023 Jun 15 07:23:16.841154 subttxrend-app[8797]:  230615-07:23:16.838433 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService: type 0, service 1000
+2023 Jun 15 07:23:16.841207 subttxrend-app[8797]:  230615-07:23:16.838456 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:16.841260 subttxrend-app[8797]:  230615-07:23:16.838476 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:16.841342 subttxrend-app[8797]:  230615-07:23:16.838497 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService - done
+2023 Jun 15 07:23:16.841397 subttxrend-app[8797]:  230615-07:23:16.838525 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start
+2023 Jun 15 07:23:16.841455 subttxrend-app[8797]:  230615-07:23:16.838628 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start - done
+2023 Jun 15 07:23:16.841513 subttxrend-app[8797]:  230615-07:23:16.838663 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select - done
+2023 Jun 15 07:23:16.841576 subttxrend-app[8797]:  230615-07:23:16.838791 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] mute (1)
+2023 Jun 15 07:23:16.842528 subttxrend-app[8797]:  230615-07:23:16.838822 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:23:16.842594 subttxrend-app[8797]:  230615-07:23:16.838844 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:23:16.842649 subttxrend-app[8797]:  230615-07:23:16.838893 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] mute (1)
+2023 Jun 15 07:23:16.842723 subttxrend-app[8797]:  230615-07:23:16.838917 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:23:16.842778 subttxrend-app[8797]:  230615-07:23:16.838938 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:23:16.842833 subttxrend-app[8797]:  230615-07:23:16.839421 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb104da04 of size 4
+2023 Jun 15 07:23:16.842888 subttxrend-app[8797]:  230615-07:23:16.839598 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb104df24 (1 x 1)
+2023 Jun 15 07:23:16.842943 subttxrend-app[8797]:  230615-07:23:16.839631 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb104d844
+2023 Jun 15 07:23:17.164412 subttxrend-app[8797]:  230615-07:23:17.163052 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] Selecting CC Subtitles: 0
+2023 Jun 15 07:23:17.164485 subttxrend-app[8797]:  230615-07:23:17.163115 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] deactivate controller
+2023 Jun 15 07:23:17.164541 subttxrend-app[8797]:  230615-07:23:17.163162 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:17.164596 subttxrend-app[8797]:  230615-07:23:17.163254 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:17.164651 subttxrend-app[8797]:  230615-07:23:17.163287 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] shutdown
+2023 Jun 15 07:23:17.164705 subttxrend-app[8797]:  230615-07:23:17.163314 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:17.164760 subttxrend-app[8797]:  230615-07:23:17.163336 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:17.164829 subttxrend-app[8797]:  230615-07:23:17.163356 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] shutdown - done
+2023 Jun 15 07:23:17.164885 subttxrend-app[8797]:  230615-07:23:17.163498 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] Controller
+2023 Jun 15 07:23:17.164939 subttxrend-app[8797]:  230615-07:23:17.164304 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] CcSubController created
+2023 Jun 15 07:23:17.164993 subttxrend-app[8797]:  230615-07:23:17.164346 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init
+2023 Jun 15 07:23:17.166027 subttxrend-app[8797]:  230615-07:23:17.164387 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init - done
+2023 Jun 15 07:23:17.166099 subttxrend-app[8797]:  230615-07:23:17.164417 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select
+2023 Jun 15 07:23:17.166187 subttxrend-app[8797]:  230615-07:23:17.164442 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService: type 0, service 1000
+2023 Jun 15 07:23:17.166244 subttxrend-app[8797]:  230615-07:23:17.164464 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:17.166301 subttxrend-app[8797]:  230615-07:23:17.164484 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:17.166357 subttxrend-app[8797]:  230615-07:23:17.164503 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService - done
+2023 Jun 15 07:23:17.166421 subttxrend-app[8797]:  230615-07:23:17.164524 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start
+2023 Jun 15 07:23:17.166486 subttxrend-app[8797]:  230615-07:23:17.164553 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start - done
+2023 Jun 15 07:23:17.166542 subttxrend-app[8797]:  230615-07:23:17.164579 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select - done
+2023 Jun 15 07:23:17.166598 subttxrend-app[8797]:  230615-07:23:17.164645 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb104de2c of size 4
+2023 Jun 15 07:23:17.166654 subttxrend-app[8797]:  230615-07:23:17.164720 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb104e0d4 (1 x 1)
+2023 Jun 15 07:23:17.166709 subttxrend-app[8797]:  230615-07:23:17.164750 [mod=GFX, lvl=INFO] [tid=8984] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb104da04
+2023 Jun 15 07:23:17.168339 subttxrend-app[8797]:  230615-07:23:17.167655 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] mute (1)
+2023 Jun 15 07:23:17.168423 subttxrend-app[8797]:  230615-07:23:17.167712 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:23:17.168491 subttxrend-app[8797]:  230615-07:23:17.167735 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:23:23.137085 subttxrend-app[8797]:  230615-07:23:23.135178 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] try to reset channel: 0
+2023 Jun 15 07:23:23.137226 subttxrend-app[8797]:  230615-07:23:23.135242 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] reseting channel: 0
+2023 Jun 15 07:23:23.137301 subttxrend-app[8797]:  230615-07:23:23.135273 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:23.137406 subttxrend-app[8797]:  230615-07:23:23.135339 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:23.137484 subttxrend-app[8797]:  230615-07:23:23.135365 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] shutdown
+2023 Jun 15 07:23:23.137565 subttxrend-app[8797]:  230615-07:23:23.135387 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:23:23.137631 subttxrend-app[8797]:  230615-07:23:23.135407 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:23:23.137697 subttxrend-app[8797]:  230615-07:23:23.135427 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] shutdown - done
+2023 Jun 15 07:31:53.526076 subttxrend-app[8797]:  230615-07:31:53.520042 [mod=CORE, lvl=INFO] [tid=8985] [App::Controller] [0x7dcf1690] Selecting CC Subtitles: 0
+2023 Jun 15 07:31:53.526223 subttxrend-app[8797]:  230615-07:31:53.520216 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] Controller
+2023 Jun 15 07:31:53.526298 subttxrend-app[8797]:  230615-07:31:53.520272 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] CcSubController created
+2023 Jun 15 07:31:53.526355 subttxrend-app[8797]:  230615-07:31:53.520306 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init
+2023 Jun 15 07:31:53.526425 subttxrend-app[8797]:  230615-07:31:53.520362 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] init - done
+2023 Jun 15 07:31:53.526483 subttxrend-app[8797]:  230615-07:31:53.520394 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select
+2023 Jun 15 07:31:53.526628 subttxrend-app[8797]:  230615-07:31:53.520419 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService: type 0, service 1000
+2023 Jun 15 07:31:53.526703 subttxrend-app[8797]:  230615-07:31:53.520441 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:31:53.526807 subttxrend-app[8797]:  230615-07:31:53.520462 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:31:53.527056 subttxrend-app[8797]:  230615-07:31:53.520482 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] setActiveService - done
+2023 Jun 15 07:31:53.527133 subttxrend-app[8797]:  230615-07:31:53.520503 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start
+2023 Jun 15 07:31:53.527242 subttxrend-app[8797]:  230615-07:31:53.520600 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] start - done
+2023 Jun 15 07:31:53.527315 subttxrend-app[8797]:  230615-07:31:53.520629 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] select - done
+2023 Jun 15 07:31:53.527374 subttxrend-app[8797]:  230615-07:31:53.520736 [mod=CORE, lvl=INFO] [tid=8985] [App::CcSubController] mute (1)
+2023 Jun 15 07:31:53.527957 subttxrend-app[8797]:  230615-07:31:53.520761 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:31:53.528042 subttxrend-app[8797]:  230615-07:31:53.520783 [mod=REND, lvl=INFO] [tid=8985] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:31:59.396827 subttxrend-app[8797]:  230615-07:31:59.394867 [mod=GFX, lvl=ERROR] [tid=8984] [GfxEngine::EpollDisplayHandler] handleEvents - error received
+2023 Jun 15 07:31:59.396951 subttxrend-app[8797]:  230615-07:31:59.394942 [mod=GFX, lvl=ERROR] [tid=8984] [GfxEngine::Epoll] wait - handler failed: 0x7dd29860
+2023 Jun 15 07:31:59.397013 subttxrend-app[8797]:  230615-07:31:59.394968 [mod=GFX, lvl=ERROR] [tid=8984] [GfxEngine::EpollDisplayLoop] threadLoop - epoll wait failed
+2023 Jun 15 07:31:59.397072 subttxrend-app[8797]:  230615-07:31:59.394995 [mod=GFX, lvl=INFO] [tid=8984] [GfxEngine::EpollDisplayLoop] threadLoop - finished
+2023 Jun 15 07:32:00.791256 startsubttx.sh[25359]:  + echo 'Creating subtec surface'
+2023 Jun 15 07:32:00.791699 startsubttx.sh[25359]:  Creating subtec surface
+2023 Jun 15 07:32:00.791846 startsubttx.sh[25359]:  + count=10
+2023 Jun 15 07:32:00.792224 startsubttx.sh[25359]:  + '[' 10 -gt 0 ']'
+2023 Jun 15 07:32:00.793389 startsubttx.sh[25359]:  ++ /usr/bin/WPEFrameworkSecurityUtility
+2023 Jun 15 07:32:00.815720 startsubttx.sh[25359]:  + t='{"success":false,"error":"error in getting token. Check if WPEFramework is running."}'
+2023 Jun 15 07:32:00.815920 startsubttx.sh[25359]:  + t='{"success":false,"error":"error in getting token. Check if WPEFramework is running."}'
+2023 Jun 15 07:32:00.815985 startsubttx.sh[25359]:  + t='error in getting token. Check if WPEFramework is running."}'
+2023 Jun 15 07:32:00.816044 startsubttx.sh[25359]:  + token='Authorization: Bearer error in getting token. Check if WPEFramework is running."}'
+2023 Jun 15 07:32:00.816105 startsubttx.sh[25359]:  + echo createDisplay
+2023 Jun 15 07:32:00.816163 startsubttx.sh[25359]:  createDisplay
+2023 Jun 15 07:32:00.816266 startsubttx.sh[25359]:  + curl -H 'Authorization: Bearer error in getting token. Check if WPEFramework is running."}' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.createDisplay", "params": {"client":"subtec_s1", "displayName":"subtec_s1"}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:32:00.824772 startsubttx.sh[25359]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:00.825081 startsubttx.sh[25359]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:00.825917 startsubttx.sh[25359]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2023 Jun 15 07:32:00.826295 startsubttx.sh[25359]:  curl: (7) Failed to connect to 127.0.0.1 port 9998: Connection refused
+2023 Jun 15 07:32:00.828726 startsubttx.sh[25359]:  ++ curl -H 'Authorization: Bearer error in getting token. Check if WPEFramework is running."}' -d ' {"jsonrpc":"2.0", "id":3, "method":"org.rdk.RDKShell.1.getClients", "params":{ }}' http://localhost:9998/jsonrpc
+2023 Jun 15 07:32:00.836294 startsubttx.sh[25359]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:00.836670 startsubttx.sh[25359]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:00.838466 startsubttx.sh[25359]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2023 Jun 15 07:32:00.838815 startsubttx.sh[25359]:  curl: (7) Failed to connect to localhost port 9998: Connection refused
+2023 Jun 15 07:32:00.840482 startsubttx.sh[25359]:  + response=
+2023 Jun 15 07:32:00.842164 startsubttx.sh[25359]:  ++ echo
+2023 Jun 15 07:32:00.842708 startsubttx.sh[25359]:  ++ grep subtec_s1
+2023 Jun 15 07:32:00.846517 startsubttx.sh[25359]:  + sub_created=
+2023 Jun 15 07:32:00.846637 startsubttx.sh[25359]:  + '[' -n '' ']'
+2023 Jun 15 07:32:00.846762 startsubttx.sh[25359]:  + echo 'Failed to create subtec surface; 10 retries remaining.'
+2023 Jun 15 07:32:00.846828 startsubttx.sh[25359]:  Failed to create subtec surface; 10 retries remaining.
+2023 Jun 15 07:32:00.846889 startsubttx.sh[25359]:  + sleep 1
+2023 Jun 15 07:32:01.857411 startsubttx.sh[25359]:  + let count=10-1
+2023 Jun 15 07:32:01.857571 startsubttx.sh[25359]:  + '[' 9 -gt 0 ']'
+2023 Jun 15 07:32:01.861322 startsubttx.sh[25359]:  ++ /usr/bin/WPEFrameworkSecurityUtility
+2023 Jun 15 07:32:02.033911 startsubttx.sh[25359]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM","success":true}'
+2023 Jun 15 07:32:02.034089 startsubttx.sh[25359]:  + t='{"token":"eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM'
+2023 Jun 15 07:32:02.034167 startsubttx.sh[25359]:  + t=eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM
+2023 Jun 15 07:32:02.034228 startsubttx.sh[25359]:  + token='Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM'
+2023 Jun 15 07:32:02.034314 startsubttx.sh[25359]:  + echo createDisplay
+2023 Jun 15 07:32:02.034375 startsubttx.sh[25359]:  createDisplay
+2023 Jun 15 07:32:02.034462 startsubttx.sh[25359]:  + curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.createDisplay", "params": {"client":"subtec_s1", "displayName":"subtec_s1"}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:32:02.047953 startsubttx.sh[25359]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:02.051002 startsubttx.sh[25359]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:02.256504 startsubttx.sh[25359]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   182  100    50  100   132    234    619 --:--:-- --:--:-- --:--:--   862
+2023 Jun 15 07:32:02.259316 startsubttx.sh[25359]:  {"jsonrpc":"2.0","id":3,"result":{"success":true}}++ curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM' -d ' {"jsonrpc":"2.0", "id":3, "method":"org.rdk.RDKShell.1.getClients", "params":{ }}' http://localhost:9998/jsonrpc
+2023 Jun 15 07:32:02.268628 startsubttx.sh[25359]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:02.269021 startsubttx.sh[25359]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:02.284446 startsubttx.sh[25359]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   156  100    74  100    82   4625   5125 --:--:-- --:--:-- --:--:-- 10400
+2023 Jun 15 07:32:02.286291 startsubttx.sh[25359]:  + response='{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1"],"success":true}}'
+2023 Jun 15 07:32:02.293911 startsubttx.sh[25359]:  ++ grep subtec_s1
+2023 Jun 15 07:32:02.298551 startsubttx.sh[25359]:  ++ echo '{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1"],"success":true}}'
+2023 Jun 15 07:32:02.303940 startsubttx.sh[25359]:  + sub_created='{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1"],"success":true}}'
+2023 Jun 15 07:32:02.304026 startsubttx.sh[25359]:  + '[' -n '{"jsonrpc":"2.0","id":3,"result":{"clients":["subtec_s1"],"success":true}}' ']'
+2023 Jun 15 07:32:02.304089 startsubttx.sh[25359]:  + echo 'Created subtec surface.'
+2023 Jun 15 07:32:02.304151 startsubttx.sh[25359]:  Created subtec surface.
+2023 Jun 15 07:32:02.304222 startsubttx.sh[25359]:  + break
+2023 Jun 15 07:32:02.304288 startsubttx.sh[25359]:  + '[' 9 -eq 0 ']'
+2023 Jun 15 07:32:02.304357 startsubttx.sh[25359]:  + curl -H 'Authorization: Bearer eyJhbGciOiIiLCJ0eXAiOiJKV1QifQ.aHR0cDovL2xvY2FsaG9zdA.nsQxhCMG7xjNDCFohpRBJyR_iVNpvZ1bVb40zn7kIJM' -d '{"jsonrpc":"2.0","id":"3","method": "org.rdk.RDKShell.1.setTopmost", "params": {"client":"subtec_s1", "topmost":true}}' http://127.0.0.1:9998/jsonrpc
+2023 Jun 15 07:32:02.318590 startsubttx.sh[25359]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:02.318718 startsubttx.sh[25359]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:02.328528 startsubttx.sh[25359]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   168  100    50  100   118   5000  11800 --:--:-- --:--:-- --:--:-- 16800
+2023 Jun 15 07:32:02.330668 startsubttx.sh[25359]:  {"jsonrpc":"2.0","id":3,"result":{"success":true}}
+2023 Jun 15 07:32:03.656548 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: ##############################################################################
+2023 Jun 15 07:32:03.656709 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Copyright © 2018 Liberty Global B.V. and its Licensors.
+2023 Jun 15 07:32:03.656790 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # All rights reserved.
+2023 Jun 15 07:32:03.656846 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Licensed by RDK Management, LLC under the terms of the RDK license.
+2023 Jun 15 07:32:03.656901 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:32:03.656957 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Liberty Global B.V. CONFIDENTIAL AND PROPRIETARY
+2023 Jun 15 07:32:03.657044 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:32:03.657097 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # This file (and its contents) are the intellectual property of Liberty Global B.V.
+2023 Jun 15 07:32:03.657151 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # It may not be used, copied, distributed or otherwise disclosed in whole or in
+2023 Jun 15 07:32:03.657204 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # part without the express written permission of Liberty Global B.V.
+2023 Jun 15 07:32:03.657256 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # The RDK License agreement constitutes express written consent by Liberty Global.
+2023 Jun 15 07:32:03.657309 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ============================================================================
+2023 Jun 15 07:32:03.657367 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # This software is the confidential and proprietary information of Liberty Global B.V.
+2023 Jun 15 07:32:03.657420 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ("Confidential Information"). You shall not disclose this source code or
+2023 Jun 15 07:32:03.657506 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # such Confidential Information and shall use it only in accordance with the
+2023 Jun 15 07:32:03.657625 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # terms of the license agreement you entered into.
+2023 Jun 15 07:32:03.657685 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.657743 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # LIBERTY GLOBAL B.V. MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE
+2023 Jun 15 07:32:03.657798 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # SUITABILITY OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT
+2023 Jun 15 07:32:03.657867 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+2023 Jun 15 07:32:03.657921 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # PARTICULAR PURPOSE, OR NON-INFRINGEMENT. LIBERTY GLOBAL B.V. SHALL NOT BE LIABLE FOR
+2023 Jun 15 07:32:03.657976 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # ANY DAMAGES SUFFERED BY LICENSEE NOR SHALL THEY BE RESPONSIBLE AS A RESULT
+2023 Jun 15 07:32:03.658029 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+2023 Jun 15 07:32:03.658083 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: ##############################################################################
+2023 Jun 15 07:32:03.658136 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.658189 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # SubTtxRend-App configuration file.
+2023 Jun 15 07:32:03.658243 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.658314 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:32:03.658372 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.658424 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # Application configuration
+2023 Jun 15 07:32:03.658478 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.658529 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # MAIN_CONTEXT.SOCKET_PATH = /var/run/subttx/pes_data_main
+2023 Jun 15 07:32:03.658582 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:32:03.658635 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext application window size
+2023 Jun 15 07:32:03.658688 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.1.WIDTH = 1280
+2023 Jun 15 07:32:03.658797 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.1.HEIGHT = 720
+2023 Jun 15 07:32:03.658870 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.658928 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Subtitles application window size (resizes on demand)
+2023 Jun 15 07:32:03.658987 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.2.WIDTH = 0
+2023 Jun 15 07:32:03.659041 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.GFX.VL.APP.2.HEIGHT = 0
+2023 Jun 15 07:32:03.659134 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.659187 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext grid width/height
+2023 Jun 15 07:32:03.659243 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.GRID_W = 880
+2023 Jun 15 07:32:03.659308 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.GRID_H = 650
+2023 Jun 15 07:32:03.659365 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.659417 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext G0 charset font
+2023 Jun 15 07:32:03.667661 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #   (glyph width / height should be normally equal to 40x25 grid cell size)
+2023 Jun 15 07:32:03.667735 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #   (char width/height is specified as freetype points and used for scaling)
+2023 Jun 15 07:32:03.667791 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.667873 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: RDKENV.FEATURE.TTX.FONT.G0.NAME = Teletext 43
+2023 Jun 15 07:32:03.667931 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.GLYPH_WIDTH = 22
+2023 Jun 15 07:32:03.668000 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.GLYPH_HEIGHT = 26
+2023 Jun 15 07:32:03.668057 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.CHAR_WIDTH = 34
+2023 Jun 15 07:32:03.668113 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FONT.G0.CHAR_HEIGHT = 24
+2023 Jun 15 07:32:03.668168 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668220 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext flash period in miliseconds
+2023 Jun 15 07:32:03.668329 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668385 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.FLASH_PERIOD_MS = 1000
+2023 Jun 15 07:32:03.668441 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668497 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Teletext default background alpha
+2023 Jun 15 07:32:03.668569 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668632 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.BG_ALPHA = 255
+2023 Jun 15 07:32:03.668688 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668743 subttxrend-app[25595]:  00000000 ?????: [Common:IniFile] parseAppend - Ini file line: # - Should ttx engine be reset or destroyed when decoding stops
+2023 Jun 15 07:32:03.668799 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.668853 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # RDKENV.FEATURE.TTX.RESET_ON_STOP = TRUE
+2023 Jun 15 07:32:03.668908 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:32:03.668963 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.669035 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.669093 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Teletext settings
+2023 Jun 15 07:32:03.669149 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.669203 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.669254 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.WINDOW.W = 1280
+2023 Jun 15 07:32:03.669310 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.WINDOW.H = 720
+2023 Jun 15 07:32:03.669365 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.669416 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # (grid size is 40x25, zoomed 40x13)
+2023 Jun 15 07:32:03.669486 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.GRID_CELL.W = 22
+2023 Jun 15 07:32:03.669555 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.GRID_CELL.H = 26
+2023 Jun 15 07:32:03.669611 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.669663 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: TELETEXT.FONT_G0_G2.NAME = Teletext 43
+2023 Jun 15 07:32:03.669774 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FONT_G0_G2.W = 34
+2023 Jun 15 07:32:03.669834 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FONT_G0_G2.H = 24
+2023 Jun 15 07:32:03.669890 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.669945 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.FLASH_PERIOD_MS = 1000
+2023 Jun 15 07:32:03.670000 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.670051 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TELETEXT.BG_ALPHA = 255
+2023 Jun 15 07:32:03.670121 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.670173 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.670225 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Ttml settings
+2023 Jun 15 07:32:03.670281 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.670333 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature- enabling below option will dump all incoming ttml data (document and images) to given directory
+2023 Jun 15 07:32:03.670389 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - !!! remember to remove the files
+2023 Jun 15 07:32:03.670447 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.DUMP_DIR = /var/run/subttx/ttml_dump/
+2023 Jun 15 07:32:03.670505 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.670557 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature- dump incoming data to log/journal
+2023 Jun 15 07:32:03.670626 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.DUMP_TO_LOG = 1
+2023 Jun 15 07:32:03.670688 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.670740 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - show current mediatime one screen
+2023 Jun 15 07:32:03.670796 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.SHOW_MEDIATIME = 1
+2023 Jun 15 07:32:03.670851 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.670903 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - read ttml from file
+2023 Jun 15 07:32:03.670960 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.READ_FROM_FILE = /var/run/subttx/ttml_src/data.ttml
+2023 Jun 15 07:32:03.671886 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.671973 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - if defined ttml renderer will always use this font name regardless of ttml::fontFamily
+2023 Jun 15 07:32:03.672033 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: TTML.FORCE_FONT = Mayberry Pro
+2023 Jun 15 07:32:03.672089 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.672141 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - debug feature - color ttml regions; 0x99c2f0c2 is semi-transparent lightly green
+2023 Jun 15 07:32:03.672197 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # TTML.REGIONS_FILL_COLOR = 0x99c2f0c2
+2023 Jun 15 07:32:03.672252 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line:
+2023 Jun 15 07:32:03.672307 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.672360 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # Logger settings
+2023 Jun 15 07:32:03.672434 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #-----------------------------------
+2023 Jun 15 07:32:03.672493 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.672556 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Backend selection and configuration
+2023 Jun 15 07:32:03.672617 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # -- std (standard output) is default backend
+2023 Jun 15 07:32:03.672673 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.BACKEND = std | rdk
+2023 Jun 15 07:32:03.672728 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.BACKEND_RDK_CONFIG_FILE = /etc/debug.ini
+2023 Jun 15 07:32:03.672783 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.672885 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # - Message levels enabled configuration
+2023 Jun 15 07:32:03.672959 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.673015 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS_DEFAULT = FATAL ERROR WARNING INFO
+2023 Jun 15 07:32:03.673072 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS.<component> = levels
+2023 Jun 15 07:32:03.673131 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # LOGGER.LEVELS.<component>.<element> = levels
+2023 Jun 15 07:32:03.673280 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # levels = ALL FATAL ERROR WARNING INFO DEBUG TRACE
+2023 Jun 15 07:32:03.673343 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.673402 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # To enable level and all more important levels use level name with '+'
+2023 Jun 15 07:32:03.673472 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: # character at the end e.g. "INFO+" (means INFO WARNING ERROR FATAL).
+2023 Jun 15 07:32:03.673533 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Ini file line: #
+2023 Jun 15 07:32:03.673598 subttxrend-app[25595]:  00000001 ?????: [Common:IniFile] parseAppend - Read succeeded: file=/etc/subttxrend/config.ini
+2023 Jun 15 07:32:03.673658 subttxrend-app[25595]:  00000001 INFO: [App:Application] [0xbbf20864] runAsync - started.
+2023 Jun 15 07:32:03.673716 subttxrend-app[25595]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:32:03.673779 subttxrend-app[25595]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:32:03.673841 subttxrend-app[25595]:  230615-07:32:03.659364 [mod=CORE, lvl=INFO] [tid=25595] [App::Application]  Setting logger level: App 15
+2023 Jun 15 07:32:03.673900 subttxrend-app[25595]:  230615-07:32:03.659649 [mod=CORE, lvl=INFO] [tid=25595] [App::Configuration]  Setting logger level: App 15
+2023 Jun 15 07:32:03.673971 subttxrend-app[25595]:  230615-07:32:03.659700 [mod=CORE, lvl=INFO] [tid=25595] [App::StcProvider]  Setting logger level: App 15
+2023 Jun 15 07:32:03.674029 subttxrend-app[25595]:  230615-07:32:03.659741 [mod=CORE, lvl=INFO] [tid=25595] [Common::ConfigProvider]  Setting logger level: Common 15
+2023 Jun 15 07:32:03.674088 subttxrend-app[25595]:  230615-07:32:03.659779 [mod=CORE, lvl=INFO] [tid=25595] [Common::IniFile]  Setting logger level: Common 15
+2023 Jun 15 07:32:03.674153 subttxrend-app[25595]:  230615-07:32:03.659818 [mod=CORE, lvl=INFO] [tid=25595] [Common::JsonData]  Setting logger level: Common 15
+2023 Jun 15 07:32:03.674211 subttxrend-app[25595]:  230615-07:32:03.659855 [mod=CORE, lvl=INFO] [tid=25595] [Common::LoggerManager]  Setting logger level: Common 15
+2023 Jun 15 07:32:03.674269 subttxrend-app[25595]:  230615-07:32:03.659893 [mod=CORE, lvl=INFO] [tid=25595] [Dbus::DbusHandlerSubtitles]  Setting logger level: Dbus 15
+2023 Jun 15 07:32:03.674330 subttxrend-app[25595]:  230615-07:32:03.659931 [mod=CORE, lvl=INFO] [tid=25595] [Dbus::DbusHandlerTeletext]  Setting logger level: Dbus 15
+2023 Jun 15 07:32:03.674391 subttxrend-app[25595]:  230615-07:32:03.659968 [mod=CORE, lvl=INFO] [tid=25595] [Dbus::JsonHelper]  Setting logger level: Dbus 15
+2023 Jun 15 07:32:03.674459 subttxrend-app[25595]:  230615-07:32:03.660006 [mod=CORE, lvl=INFO] [tid=25595] [DvbSub::DecoderClientGfxRenderer]  Setting logger level: DvbSub 15
+2023 Jun 15 07:32:03.674626 subttxrend-app[25595]:  230615-07:32:03.660043 [mod=CORE, lvl=INFO] [tid=25595] [DvbSub::SubtitlesRendererImpl]  Setting logger level: DvbSub 15
+2023 Jun 15 07:32:03.674688 subttxrend-app[25595]:  230615-07:32:03.660082 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::BasicAllocator]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.674748 subttxrend-app[25595]:  230615-07:32:03.660121 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Clut]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.674811 subttxrend-app[25595]:  230615-07:32:03.660159 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Database]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.674871 subttxrend-app[25595]:  230615-07:32:03.660197 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::DecoderImpl]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.674931 subttxrend-app[25595]:  230615-07:32:03.660235 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ObjectParser]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675005 subttxrend-app[25595]:  230615-07:32:03.660273 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Parser]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675065 subttxrend-app[25595]:  230615-07:32:03.660311 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserCDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675127 subttxrend-app[25595]:  230615-07:32:03.660349 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserDDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675184 subttxrend-app[25595]:  230615-07:32:03.660386 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserEDS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675241 subttxrend-app[25595]:  230615-07:32:03.660423 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserODS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675305 subttxrend-app[25595]:  230615-07:32:03.660460 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserPCS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675365 subttxrend-app[25595]:  230615-07:32:03.660497 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::ParserRCS]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.675433 subttxrend-app[25595]:  230615-07:32:03.660537 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::PesBuffer]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.677647 subttxrend-app[25595]:  230615-07:32:03.660576 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::PixelWriter]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.677709 subttxrend-app[25595]:  230615-07:32:03.660614 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Pixmap]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.677894 subttxrend-app[25595]:  230615-07:32:03.660651 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::PixmapAllocator]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.677958 subttxrend-app[25595]:  230615-07:32:03.660690 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Presenter]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.683635 subttxrend-app[25595]:  230615-07:32:03.660733 [mod=CORE, lvl=INFO] [tid=25595] [DvbSubDecoder::Region]  Setting logger level: DvbSubDecoder 15
+2023 Jun 15 07:32:03.683709 subttxrend-app[25595]:  230615-07:32:03.660772 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::Base64ToPixmap]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.683766 subttxrend-app[25595]:  230615-07:32:03.660809 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::Blitter]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.683849 subttxrend-app[25595]:  230615-07:32:03.660845 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::EngineImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.683910 subttxrend-app[25595]:  230615-07:32:03.660882 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::Factory]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.683967 subttxrend-app[25595]:  230615-07:32:03.660943 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::FontStripImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684025 subttxrend-app[25595]:  230615-07:32:03.660982 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::PrerenderedFontImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684082 subttxrend-app[25595]:  230615-07:32:03.661020 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::WaylandBackend]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684139 subttxrend-app[25595]:  230615-07:32:03.661058 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684196 subttxrend-app[25595]:  230615-07:32:03.661094 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::WaylandBuffer]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684252 subttxrend-app[25595]:  230615-07:32:03.661131 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::WaylandBufferManager]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684329 subttxrend-app[25595]:  230615-07:32:03.661167 [mod=CORE, lvl=INFO] [tid=25595] [Gfx::WindowImpl]  Setting logger level: Gfx 15
+2023 Jun 15 07:32:03.684392 subttxrend-app[25595]:  230615-07:32:03.661204 [mod=CORE, lvl=INFO] [tid=25595] [GfxEngine::Epoll]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:32:03.684457 subttxrend-app[25595]:  230615-07:32:03.661242 [mod=CORE, lvl=INFO] [tid=25595] [GfxEngine::EpollDisplayHandler]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:32:03.684514 subttxrend-app[25595]:  230615-07:32:03.661283 [mod=CORE, lvl=INFO] [tid=25595] [GfxEngine::EpollDisplayLoop]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:32:03.684571 subttxrend-app[25595]:  230615-07:32:03.661321 [mod=CORE, lvl=INFO] [tid=25595] [GfxEngine::EpollEventHandler]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:32:03.684744 subttxrend-app[25595]:  230615-07:32:03.661360 [mod=CORE, lvl=INFO] [tid=25595] [GfxEngine::KeymapXkbV1]  Setting logger level: GfxEngine 15
+2023 Jun 15 07:32:03.684805 subttxrend-app[25595]:  230615-07:32:03.661398 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::Packet]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.684876 subttxrend-app[25595]:  230615-07:32:03.661435 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketData]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.684934 subttxrend-app[25595]:  230615-07:32:03.661471 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketParser]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.684997 subttxrend-app[25595]:  230615-07:32:03.661508 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketSetCCAttributes]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685063 subttxrend-app[25595]:  230615-07:32:03.661545 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketSubtitleSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685121 subttxrend-app[25595]:  230615-07:32:03.661582 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketTeletextSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685182 subttxrend-app[25595]:  230615-07:32:03.661622 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685252 subttxrend-app[25595]:  230615-07:32:03.661659 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketTtmlInfo]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685313 subttxrend-app[25595]:  230615-07:32:03.661696 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketTtmlSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685384 subttxrend-app[25595]:  230615-07:32:03.661733 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketTtmlTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685443 subttxrend-app[25595]:  230615-07:32:03.661770 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketWebvttSelection]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685507 subttxrend-app[25595]:  230615-07:32:03.661806 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::PacketWebvttTimestamp]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685567 subttxrend-app[25595]:  230615-07:32:03.661843 [mod=CORE, lvl=INFO] [tid=25595] [Protocol::StreamValidator]  Setting logger level: Protocol 15
+2023 Jun 15 07:32:03.685628 subttxrend-app[25595]:  230615-07:32:03.661879 [mod=CORE, lvl=INFO] [tid=25595] [Scte::ScteController]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.685697 subttxrend-app[25595]:  230615-07:32:03.661919 [mod=CORE, lvl=INFO] [tid=25595] [Scte::ScteRawBitmapDecoder]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.685757 subttxrend-app[25595]:  230615-07:32:03.661956 [mod=CORE, lvl=INFO] [tid=25595] [Scte::ScteRenderer]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.687574 subttxrend-app[25595]:  230615-07:32:03.661995 [mod=CORE, lvl=INFO] [tid=25595] [Scte::ScteSectionAssembler]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.687648 subttxrend-app[25595]:  230615-07:32:03.662032 [mod=CORE, lvl=INFO] [tid=25595] [Scte::ScteTable]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.687723 subttxrend-app[25595]:  230615-07:32:03.662069 [mod=CORE, lvl=INFO] [tid=25595] [Scte::Section]  Setting logger level: Scte 15
+2023 Jun 15 07:32:03.687786 subttxrend-app[25595]:  230615-07:32:03.662106 [mod=CORE, lvl=INFO] [tid=25595] [SockSrc::UnixSocketSource]  Setting logger level: SockSrc 15
+2023 Jun 15 07:32:03.687855 subttxrend-app[25595]:  230615-07:32:03.662143 [mod=CORE, lvl=INFO] [tid=25595] [TtmlEngine::DataDumper]  Setting logger level: TtmlEngine 15
+2023 Jun 15 07:32:03.687913 subttxrend-app[25595]:  230615-07:32:03.662182 [mod=CORE, lvl=INFO] [tid=25595] [TtmlEngine::ValueConverter]  Setting logger level: TtmlEngine 15
+2023 Jun 15 07:32:03.687969 subttxrend-app[25595]:  230615-07:32:03.662222 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::CacheImpl]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688026 subttxrend-app[25595]:  230615-07:32:03.662259 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::CharsetMapping]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688083 subttxrend-app[25595]:  230615-07:32:03.662296 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::Collector]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688153 subttxrend-app[25595]:  230615-07:32:03.662333 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::Database]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688219 subttxrend-app[25595]:  230615-07:32:03.662370 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::DecodedPage]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688282 subttxrend-app[25595]:  230615-07:32:03.662407 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::Decoder]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688339 subttxrend-app[25595]:  230615-07:32:03.662444 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::EngineImpl]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688400 subttxrend-app[25595]:  230615-07:32:03.662483 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::MetadataProcessor]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688458 subttxrend-app[25595]:  230615-07:32:03.662521 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::Parser]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688525 subttxrend-app[25595]:  230615-07:32:03.662557 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::ParserX26]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.688596 subttxrend-app[25595]:  230615-07:32:03.662594 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::PesBuffer]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.689408 subttxrend-app[25595]:  230615-07:32:03.662631 [mod=CORE, lvl=INFO] [tid=25595] [TtxDecoder::TopNavProcessor]  Setting logger level: TtxDecoder 15
+2023 Jun 15 07:32:03.689490 subttxrend-app[25595]:  230615-07:32:03.662670 [mod=CORE, lvl=INFO] [tid=25595] [Ttxt::GfxRenderer]  Setting logger level: Ttxt 15
+2023 Jun 15 07:32:03.689562 subttxrend-app[25595]:  230615-07:32:03.662708 [mod=CORE, lvl=INFO] [tid=25595] [Ttxt::GfxTtxGrid]  Setting logger level: Ttxt 15
+2023 Jun 15 07:32:03.689620 subttxrend-app[25595]:  230615-07:32:03.662745 [mod=CORE, lvl=INFO] [tid=25595] [Ttxt::GfxTtxGridModel]  Setting logger level: Ttxt 15
+2023 Jun 15 07:32:03.689677 subttxrend-app[25595]:  230615-07:32:03.662785 [mod=CORE, lvl=INFO] [tid=25595] [Ttxt::RendererImpl]  Setting logger level: Ttxt 15
+2023 Jun 15 07:32:03.689734 subttxrend-app[25595]:  230615-07:32:03.662824 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::LineBuilder]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.689809 subttxrend-app[25595]:  230615-07:32:03.662862 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebVTTConfig]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.689866 subttxrend-app[25595]:  230615-07:32:03.662898 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebVTTCue]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.689923 subttxrend-app[25595]:  230615-07:32:03.662935 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebVTTDocument]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.689980 subttxrend-app[25595]:  230615-07:32:03.662972 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebVTTRenderer]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.690037 subttxrend-app[25595]:  230615-07:32:03.663010 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebVTTStyle]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.690094 subttxrend-app[25595]:  230615-07:32:03.663047 [mod=CORE, lvl=INFO] [tid=25595] [WebvttEngine::WebvttEngineImpl]  Setting logger level: WebvttEngine 15
+2023 Jun 15 07:32:03.690151 subttxrend-app[25595]:  230615-07:32:03.663106 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Logger initialized.
+2023 Jun 15 07:32:03.690229 subttxrend-app[25595]:  230615-07:32:03.663144 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Starting application.
+2023 Jun 15 07:32:03.690289 subttxrend-app[25595]:  230615-07:32:03.663174 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Initialize graphics engine.
+2023 Jun 15 07:32:03.690353 subttxrend-app[25595]:  230615-07:32:03.663251 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] startDisplay - Connecting to display
+2023 Jun 15 07:32:03.690411 subttxrend-app[25595]:  230615-07:32:03.676003 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] startDisplay - connected to display
+2023 Jun 15 07:32:03.691179 subttxrend-app[25595]:  230615-07:32:03.677123 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=1 interface=wl_shm:1
+2023 Jun 15 07:32:03.691254 subttxrend-app[25595]:  230615-07:32:03.677185 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=1 interface=wl_shm:1
+2023 Jun 15 07:32:03.691315 subttxrend-app[25595]:  230615-07:32:03.677255 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=2 interface=wl_compositor:3
+2023 Jun 15 07:32:03.691393 subttxrend-app[25595]:  230615-07:32:03.677309 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=2 interface=wl_compositor:3
+2023 Jun 15 07:32:03.700268 subttxrend-app[25595]:  230615-07:32:03.677339 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=3 interface=wl_shell:1
+2023 Jun 15 07:32:03.700382 subttxrend-app[25595]:  230615-07:32:03.677378 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=3 interface=wl_shell:1
+2023 Jun 15 07:32:03.700441 subttxrend-app[25595]:  230615-07:32:03.677405 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=4 interface=xdg_shell:1
+2023 Jun 15 07:32:03.700498 subttxrend-app[25595]:  230615-07:32:03.677430 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=4 interface=xdg_shell:1
+2023 Jun 15 07:32:03.700556 subttxrend-app[25595]:  230615-07:32:03.677457 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=5 interface=wl_vpc:1
+2023 Jun 15 07:32:03.700613 subttxrend-app[25595]:  230615-07:32:03.677481 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=5 interface=wl_vpc:1
+2023 Jun 15 07:32:03.700700 subttxrend-app[25595]:  230615-07:32:03.677507 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=6 interface=wl_output:2
+2023 Jun 15 07:32:03.700760 subttxrend-app[25595]:  230615-07:32:03.677545 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - Output added: name=6
+2023 Jun 15 07:32:03.700816 subttxrend-app[25595]:  230615-07:32:03.677578 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=6 interface=wl_output:2
+2023 Jun 15 07:32:03.700873 subttxrend-app[25595]:  230615-07:32:03.677609 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=7 interface=wl_seat:4
+2023 Jun 15 07:32:03.700930 subttxrend-app[25595]:  230615-07:32:03.677650 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - Seat added: name=7
+2023 Jun 15 07:32:03.701155 subttxrend-app[25595]:  230615-07:32:03.677682 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=7 interface=wl_seat:4
+2023 Jun 15 07:32:03.701236 subttxrend-app[25595]:  230615-07:32:03.677709 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=8 interface=wl_sb:3
+2023 Jun 15 07:32:03.704648 subttxrend-app[25595]:  230615-07:32:03.677733 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=8 interface=wl_sb:3
+2023 Jun 15 07:32:03.704720 subttxrend-app[25595]:  230615-07:32:03.677759 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=9 interface=zwp_linux_dmabuf_v1:3
+2023 Jun 15 07:32:03.704778 subttxrend-app[25595]:  230615-07:32:03.677784 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=9 interface=zwp_linux_dmabuf_v1:3
+2023 Jun 15 07:32:03.704835 subttxrend-app[25595]:  230615-07:32:03.677815 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=10 interface=wl_simple_shell:1
+2023 Jun 15 07:32:03.704899 subttxrend-app[25595]:  230615-07:32:03.677843 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=10 interface=wl_simple_shell:1
+2023 Jun 15 07:32:03.704963 subttxrend-app[25595]:  230615-07:32:03.677873 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] global - name=11 interface=mali_buffer_sharing:5
+2023 Jun 15 07:32:03.705020 subttxrend-app[25595]:  230615-07:32:03.677897 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] interfaceAdded - name=11 interface=mali_buffer_sharing:5
+2023 Jun 15 07:32:03.705077 subttxrend-app[25595]:  230615-07:32:03.678793 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] format - Possible shmem format native=0 format=ARGB8888
+2023 Jun 15 07:32:03.705150 subttxrend-app[25595]:  230615-07:32:03.678844 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] format - Possible shmem format native=1 format=XRGB8888
+2023 Jun 15 07:32:03.705209 subttxrend-app[25595]:  230615-07:32:03.678878 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] geometry - out=0x7df4da30 x=0 y=0 pw=1920 ph=1080 sp=2 make=Westeros model=Westeros-embedded tfm=0
+2023 Jun 15 07:32:03.705266 subttxrend-app[25595]:  230615-07:32:03.678912 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] mode - out=0x7df4da30 flags=1 w=1920 h=1080 r=60000
+2023 Jun 15 07:32:03.705323 subttxrend-app[25595]:  230615-07:32:03.678941 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackendShm] currentOutputModeChanged - w=1920 h=1080
+2023 Jun 15 07:32:03.705379 subttxrend-app[25595]:  230615-07:32:03.678974 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] capabilities - seat=0x7df4dab0 capabilities=7
+2023 Jun 15 07:32:03.705452 subttxrend-app[25595]:  230615-07:32:03.679011 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::WaylandBackend] capabilities - cannot get keyboard
+2023 Jun 15 07:32:03.705523 subttxrend-app[25595]:  230615-07:32:03.679080 [mod=GFX, lvl=INFO] [tid=25595] [GfxEngine::EpollDisplayLoop] start
+2023 Jun 15 07:32:03.705610 subttxrend-app[25595]:  230615-07:32:03.679356 [mod=GFX, lvl=INFO] [tid=25595] [GfxEngine::EpollDisplayLoop] start - started
+2023 Jun 15 07:32:03.727706 subttxrend-app[25595]:  230615-07:32:03.679491 [mod=GFX, lvl=INFO] [tid=25595] [Gfx::EngineImpl] init - Backend is running
+2023 Jun 15 07:32:03.727799 subttxrend-app[25595]:  230615-07:32:03.679599 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - window created 0x7df56c1c, initializing controller
+2023 Jun 15 07:32:03.727859 subttxrend-app[25595]:  230615-07:32:03.679676 [mod=CORE, lvl=INFO] [tid=25595] [App::Controller]  Setting logger level: App 15
+2023 Jun 15 07:32:03.727917 subttxrend-app[25595]:  230615-07:32:03.679885 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Creating unix socket source with path='/var/run/subttx/pes_data_main'.
+2023 Jun 15 07:32:03.727975 subttxrend-app[25595]:  230615-07:32:03.679970 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Starting source
+2023 Jun 15 07:32:03.728060 subttxrend-app[25595]:  230615-07:32:03.680018 [mod=CORE, lvl=INFO] [tid=25595] [SockSrc::UnixSocketSource] start
+2023 Jun 15 07:32:03.728120 subttxrend-app[25595]:  230615-07:32:03.680054 [mod=CORE, lvl=INFO] [tid=25595] [SockSrc::UnixSocketSource] start starting receiver thread
+2023 Jun 15 07:32:03.728177 subttxrend-app[25595]:  230615-07:32:03.680196 [mod=CORE, lvl=INFO] [tid=25595] [SockSrc::UnixSocketSource] start started
+2023 Jun 15 07:32:03.728234 subttxrend-app[25595]:  230615-07:32:03.680236 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - Starting render thread
+2023 Jun 15 07:32:03.728291 subttxrend-app[25595]:  230615-07:32:03.680267 [mod=CORE, lvl=INFO] [tid=25595] [App::Controller] [0x7df508a0] startAsync
+2023 Jun 15 07:32:03.728347 subttxrend-app[25595]:  230615-07:32:03.680393 [mod=CORE, lvl=INFO] [tid=25595] [App::Application] [0xbbf20864] runAsync - application started
+2023 Jun 15 07:32:03.728404 subttxrend-app[25595]:  subttxrend-app started
+2023 Jun 15 07:32:03.728461 subttxrend-app[25595]:  230615-07:32:03.690150 [mod=CORE, lvl=INFO] [tid=25831] [App::Controller] [0x7df508a0] processLoop starting process loop
+2023 Jun 15 07:32:03.728534 subttxrend-app[25595]:  230615-07:32:03.691698 [mod=GFX, lvl=INFO] [tid=25828] [GfxEngine::EpollDisplayLoop] threadLoop
+2023 Jun 15 07:32:03.728592 subttxrend-app[25595]:  230615-07:32:03.691764 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBackend] checkRequiredBaseInterfaces - Found compositor
+2023 Jun 15 07:32:03.728649 subttxrend-app[25595]:  230615-07:32:03.691795 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBackend] checkRequiredBaseInterfaces - Found shm
+2023 Jun 15 07:32:03.728706 subttxrend-app[25595]:  230615-07:32:03.691821 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBackendShm] checkRequiredInterfaces - Found shm
+2023 Jun 15 07:32:03.728763 subttxrend-app[25595]:  230615-07:32:03.691871 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBackend] createSurface - Created surface
+2023 Jun 15 07:32:03.736313 subttxrend-app[25595]:  230615-07:32:03.691912 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBackend] createSurface - Created shell surface
+2023 Jun 15 07:32:03.736403 subttxrend-app[25595]:  230615-07:32:03.692258 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb0f9e844 of size 4
+2023 Jun 15 07:32:03.736497 subttxrend-app[25595]:  230615-07:32:03.692345 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb0f9eb9c (1 x 1)
+2023 Jun 15 07:32:03.736575 subttxrend-app[25595]:  230615-07:32:03.692384 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb0f9ec24
+2023 Jun 15 07:32:03.736637 subttxrend-app[25595]:  230615-07:32:03.692769 [mod=CORE, lvl=INFO] [tid=25830] [SockSrc::UnixSocketSource] sourceLoop start
+2023 Jun 15 07:32:03.736695 subttxrend-app[25595]:  230615-07:32:03.692848 [mod=CORE, lvl=INFO] [tid=25830] [SockSrc::UnixSocketSource] createSocket
+2023 Jun 15 07:32:03.736752 subttxrend-app[25595]:  230615-07:32:03.693050 [mod=CORE, lvl=INFO] [tid=25830] [SockSrc::UnixSocketSource] createSocket socket created, buffer size=163840
+subtec socket exists,exiting..
+2023 Jun 15 07:32:10.535851 subttxrend-app[25595]:  230615-07:32:10.534467 [mod=CORE, lvl=INFO] [tid=25830] [App::Controller] [0x7df508a0] Selecting CC Subtitles: 0
+2023 Jun 15 07:32:10.535970 subttxrend-app[25595]:  230615-07:32:10.534643 [mod=CORE, lvl=INFO] [tid=25830] [ClosedCaptions::CcController]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:32:10.536033 subttxrend-app[25595]:  230615-07:32:10.534712 [mod=CORE, lvl=INFO] [tid=25830] [ClosedCaptions::CommandParser]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:32:10.536119 subttxrend-app[25595]:  230615-07:32:10.534761 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] Controller
+2023 Jun 15 07:32:10.536184 subttxrend-app[25595]:  230615-07:32:10.534808 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController]  Setting logger level: App 15
+2023 Jun 15 07:32:10.536246 subttxrend-app[25595]:  230615-07:32:10.534846 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] CcSubController created
+2023 Jun 15 07:32:10.536308 subttxrend-app[25595]:  230615-07:32:10.534879 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] init
+2023 Jun 15 07:32:10.536369 subttxrend-app[25595]:  230615-07:32:10.534927 [mod=CORE, lvl=INFO] [tid=25830] [ClosedCaptions::Renderer]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:32:10.536430 subttxrend-app[25595]:  230615-07:32:10.534989 [mod=CORE, lvl=INFO] [tid=25830] [ClosedCaptions::WindowController]  Setting logger level: ClosedCaptions 15
+2023 Jun 15 07:32:10.536491 subttxrend-app[25595]:  230615-07:32:10.535034 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] init - done
+2023 Jun 15 07:32:10.536552 subttxrend-app[25595]:  230615-07:32:10.535070 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] select
+2023 Jun 15 07:32:10.536630 subttxrend-app[25595]:  230615-07:32:10.535100 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] setActiveService: type 0, service 1000
+2023 Jun 15 07:32:10.536692 subttxrend-app[25595]:  230615-07:32:10.535123 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:10.536754 subttxrend-app[25595]:  230615-07:32:10.535143 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:10.536816 subttxrend-app[25595]:  230615-07:32:10.535164 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] setActiveService - done
+2023 Jun 15 07:32:10.537640 subttxrend-app[25595]:  230615-07:32:10.535192 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] start
+2023 Jun 15 07:32:10.537723 subttxrend-app[25595]:  230615-07:32:10.535267 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] start - done
+2023 Jun 15 07:32:10.537787 subttxrend-app[25595]:  230615-07:32:10.535296 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] select - done
+2023 Jun 15 07:32:10.537848 subttxrend-app[25595]:  230615-07:32:10.535419 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] mute (1)
+2023 Jun 15 07:32:10.537910 subttxrend-app[25595]:  230615-07:32:10.535499 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:32:10.537971 subttxrend-app[25595]:  230615-07:32:10.535523 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:32:10.538032 subttxrend-app[25595]:  230615-07:32:10.535582 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb0f9ea04 of size 4
+2023 Jun 15 07:32:10.538093 subttxrend-app[25595]:  230615-07:32:10.535642 [mod=CORE, lvl=INFO] [tid=25830] [App::Controller] [0x7df508a0] Selecting CC Subtitles: 0
+2023 Jun 15 07:32:10.538155 subttxrend-app[25595]:  230615-07:32:10.535683 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb0f9ef24 (1 x 1)
+2023 Jun 15 07:32:10.538228 subttxrend-app[25595]:  230615-07:32:10.535725 [mod=CORE, lvl=INFO] [tid=25830] [App::Controller] [0x7df508a0] deactivate controller
+2023 Jun 15 07:32:10.538291 subttxrend-app[25595]:  230615-07:32:10.535765 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb0f9e844
+2023 Jun 15 07:32:10.538352 subttxrend-app[25595]:  230615-07:32:10.535804 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:10.538413 subttxrend-app[25595]:  230615-07:32:10.535878 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:10.538474 subttxrend-app[25595]:  230615-07:32:10.535906 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] shutdown
+2023 Jun 15 07:32:10.538534 subttxrend-app[25595]:  230615-07:32:10.535929 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:10.538595 subttxrend-app[25595]:  230615-07:32:10.535950 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:10.538656 subttxrend-app[25595]:  230615-07:32:10.535973 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] shutdown - done
+2023 Jun 15 07:32:10.538728 subttxrend-app[25595]:  230615-07:32:10.536056 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] Controller
+2023 Jun 15 07:32:10.538790 subttxrend-app[25595]:  230615-07:32:10.536094 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] CcSubController created
+2023 Jun 15 07:32:10.539375 subttxrend-app[25595]:  230615-07:32:10.536118 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] init
+2023 Jun 15 07:32:10.539442 subttxrend-app[25595]:  230615-07:32:10.536151 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] init - done
+2023 Jun 15 07:32:10.539557 subttxrend-app[25595]:  230615-07:32:10.536178 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] select
+2023 Jun 15 07:32:10.539621 subttxrend-app[25595]:  230615-07:32:10.536213 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] setActiveService: type 0, service 1000
+2023 Jun 15 07:32:10.539698 subttxrend-app[25595]:  230615-07:32:10.536243 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:10.539761 subttxrend-app[25595]:  230615-07:32:10.536273 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:10.539822 subttxrend-app[25595]:  230615-07:32:10.536302 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] setActiveService - done
+2023 Jun 15 07:32:10.539885 subttxrend-app[25595]:  230615-07:32:10.536334 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] start
+2023 Jun 15 07:32:10.539946 subttxrend-app[25595]:  230615-07:32:10.536368 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] start - done
+2023 Jun 15 07:32:10.540007 subttxrend-app[25595]:  230615-07:32:10.536396 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] select - done
+2023 Jun 15 07:32:10.540068 subttxrend-app[25595]:  230615-07:32:10.536469 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] mute (1)
+2023 Jun 15 07:32:10.540129 subttxrend-app[25595]:  230615-07:32:10.536494 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:32:10.540200 subttxrend-app[25595]:  230615-07:32:10.536515 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:32:10.540262 subttxrend-app[25595]:  230615-07:32:10.536657 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createPool - allocated pool 0xb0f9ea04 of size 4
+2023 Jun 15 07:32:10.540324 subttxrend-app[25595]:  230615-07:32:10.536713 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createBuffer - created wayland buffer: 0xb0f9f094 (1 x 1)
+2023 Jun 15 07:32:10.540386 subttxrend-app[25595]:  230615-07:32:10.536741 [mod=GFX, lvl=INFO] [tid=25828] [Gfx::WaylandBufferManager] createEmptyBuffer - created empty buffer: 0xb0f9ee84
+2023 Jun 15 07:32:10.554524 subttxrend-app[25595]:  230615-07:32:10.553865 [mod=CORE, lvl=INFO] [tid=25830] [App::CcSubController] mute (1)
+2023 Jun 15 07:32:10.554784 subttxrend-app[25595]:  230615-07:32:10.553919 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute
+2023 Jun 15 07:32:10.554862 subttxrend-app[25595]:  230615-07:32:10.553945 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] mute - done
+2023 Jun 15 07:32:38.981803 subttxrend-app[25595]:  230615-07:32:38.980536 [mod=CORE, lvl=INFO] [tid=25830] [App::Controller] [0x7df508a0] try to reset channel: 0
+2023 Jun 15 07:32:38.981916 subttxrend-app[25595]:  230615-07:32:38.980595 [mod=CORE, lvl=INFO] [tid=25830] [App::Controller] [0x7df508a0] reseting channel: 0
+2023 Jun 15 07:32:38.981980 subttxrend-app[25595]:  230615-07:32:38.980628 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:38.982074 subttxrend-app[25595]:  230615-07:32:38.980694 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:38.982165 subttxrend-app[25595]:  230615-07:32:38.980719 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] shutdown
+2023 Jun 15 07:32:38.982229 subttxrend-app[25595]:  230615-07:32:38.980764 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop
+2023 Jun 15 07:32:38.982290 subttxrend-app[25595]:  230615-07:32:38.980787 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] stop - done
+2023 Jun 15 07:32:38.982352 subttxrend-app[25595]:  230615-07:32:38.980807 [mod=REND, lvl=INFO] [tid=25830] [ClosedCaptions::CcController] shutdown - done

@@ -1,0 +1,1432 @@
+Jun 15 07:22:32.445562 : udhcpc : deconfig,eth0:0,,,,DNS=,
+Jun 15 07:22:35.239362 : udhcpc : deconfig,wlan0:0,,,,DNS=,
+2023 Jun 15 07:22:35.435060 [sh]: Failed to get country code from iw, trying to fetch using wl
+2023 Jun 15 07:22:35.541403 [sh]: Country code is still empty from wl, Lets set it to default US
+2023 Jun 15 07:22:35.583066 [sh]: Setting WiFi Regulatory domain to US.
+2023 Jun 15 07:22:35.751096 [sh]: /opt/secure/wifi/wpa_supplicant.conf file exists and configurations are present
+2023 Jun 15 07:22:35.849147 [sh]: Country code is present , No need to change
+Address : fe80::aa4a:63ff:fe1e:5ade, is add ed using SLAAC(RA) for interface eth0
+Jun 15 07:22:36.169418 : udhcpc : request,eth0:0,,,,DNS=,
+Jun 15 07:22:36.381988 : udhcpc : reply,eth0:0,,,,DNS=,
+Jun 15 07:22:36.496496 : udhcpc : bound,eth0:0,10.0.0.19,255.255.255.0,10.0.0.255,DNS=75.75.75.75 75.75.76.76,
+Adding Route Flag
+Publishing ipmode change to ipv4
+2023 Jun 15 07:22:38.854052 netsrvmgr[6466]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = NET_SRV_MGR
+2023 Jun 15 07:22:38.854251 netsrvmgr[6466]:  setting init done
+2023 Jun 15 07:22:38.854371 netsrvmgr[6466]:  Registering NET_SRV_MGR
+2023 Jun 15 07:22:38.854455 netsrvmgr[6466]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:38.854526 netsrvmgr[6466]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:38.854597 netsrvmgr[6466]:  230615-07:22:38.849697 [mod=NETSRVMGR, lvl=WARN] [tid=6466] [read_ConfigProps:944] connectivity config: true 30 endpoints = http://clients3.google.com/generate_204 ; http://gstatic.com/generate_204 ; http://edge-http.microsoft.com/captiveportal/generate_204 ;  ;
+2023 Jun 15 07:22:38.854711 netsrvmgr[6466]:  230615-07:22:38.849929 [mod=NETSRVMGR, lvl=WARN] [tid=6466] [read_ConfigProps:893] stun config: server= port=0 iface= ipv6=0 bind_timeout=30 cache_timeout=0
+2023 Jun 15 07:22:38.854781 netsrvmgr[6466]:  230615-07:22:38.850620 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [setEndpoints:62] endpoint = http://clients3.google.com/generate_204
+2023 Jun 15 07:22:38.854850 netsrvmgr[6466]:  230615-07:22:38.850655 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [setEndpoints:62] endpoint = http://gstatic.com/generate_204
+2023 Jun 15 07:22:38.854909 netsrvmgr[6466]:  230615-07:22:38.850679 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [setEndpoints:62] endpoint = http://edge-http.microsoft.com/captiveportal/generate_204
+2023 Jun 15 07:22:38.854984 netsrvmgr[6466]:  230615-07:22:38.850701 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [setEndpoints:64] endpoint size = 3
+2023 Jun 15 07:22:38.865446 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:38.865561 netsrvmgr[6466]:  ARGS  = lo up
+2023 Jun 15 07:22:38.865626 netsrvmgr[6466]:  230615-07:22:38.857151 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [linkCallback:454] Arguments received = lo up
+2023 Jun 15 07:22:38.865708 netsrvmgr[6466]:  230615-07:22:38.857312 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceEnabledStatusChanged:223] interface=lo, enabled=1
+2023 Jun 15 07:22:38.865770 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:38.865853 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:38.865910 netsrvmgr[6466]:  ARGS  = eth0 up
+2023 Jun 15 07:22:38.865969 netsrvmgr[6466]:  230615-07:22:38.862989 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [linkCallback:454] Arguments received = eth0 up
+2023 Jun 15 07:22:38.866028 netsrvmgr[6466]:  230615-07:22:38.863068 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceEnabledStatusChanged:223] interface=eth0, enabled=1
+2023 Jun 15 07:22:38.904509 netsrvmgr[6466]:  ARGS  = eth0 add
+2023 Jun 15 07:22:38.904667 netsrvmgr[6466]:  230615-07:22:38.868932 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [linkCallback:454] Arguments received = eth0 add
+2023 Jun 15 07:22:38.904733 netsrvmgr[6466]:  230615-07:22:38.869019 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceConnectionStatusChanged:237] interface=eth0, connected=1
+2023 Jun 15 07:22:38.904825 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:38.904888 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:22:38.904944 netsrvmgr[6466]:  ARGS  = wlan0 up
+2023 Jun 15 07:22:38.905003 netsrvmgr[6466]:  230615-07:22:38.869304 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [linkCallback:454] Arguments received = wlan0 up
+2023 Jun 15 07:22:38.905065 netsrvmgr[6466]:  230615-07:22:38.869365 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceEnabledStatusChanged:223] interface=wlan0, enabled=1
+2023 Jun 15 07:22:38.905127 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:22:38.905185 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:38.905243 netsrvmgr[6466]:  ARGS  = add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:38.905306 netsrvmgr[6466]:  230615-07:22:38.869765 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [addressCallback:475] Arguments received = add ipv4 lo 127.0.0.1 local
+2023 Jun 15 07:22:38.905382 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:38.905445 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:38.905500 netsrvmgr[6466]:  ARGS  = add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:38.905569 netsrvmgr[6466]:  230615-07:22:38.869898 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [addressCallback:475] Arguments received = add ipv4 eth0:0 10.0.0.19 global
+2023 Jun 15 07:22:38.905635 netsrvmgr[6466]:  230615-07:22:38.869987 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceIPAddressStatusChanged:251] interface=eth0:0, ip_address=10.0.0.19, is_ipv6=0, acquired=1
+2023 Jun 15 07:22:38.905716 netsrvmgr[6466]:  230615-07:22:38.870277 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:22:38.905778 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:38.905838 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:38.905929 netsrvmgr[6466]:  ARGS  = add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:38.906019 netsrvmgr[6466]:  230615-07:22:38.870383 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [addressCallback:475] Arguments received = add ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:38.906081 netsrvmgr[6466]:  230615-07:22:38.870430 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceIPAddressStatusChanged:251] interface=wlan0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:22:38.906141 netsrvmgr[6466]:  230615-07:22:38.870625 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:22:38.906205 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:38.906275 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:38.910013 netsrvmgr[6466]:  ARGS  = add ipv6 lo ::1 local
+2023 Jun 15 07:22:38.910106 netsrvmgr[6466]:  230615-07:22:38.870710 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [addressCallback:475] Arguments received = add ipv6 lo ::1 local
+2023 Jun 15 07:22:38.910176 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:38.910236 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:38.910295 netsrvmgr[6466]:  ARGS  = add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:38.910356 netsrvmgr[6466]:  230615-07:22:38.870802 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [addressCallback:475] Arguments received = add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local
+2023 Jun 15 07:22:38.910416 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:38.910474 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.910547 netsrvmgr[6466]:  Publishing default Route: Args msgargs = 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:38.910624 netsrvmgr[6466]:  ARGS  = 2; eth0; 0.0.0.0; 10.0.0.1; 10.0.0.19; 0; add
+2023 Jun 15 07:22:38.910708 netsrvmgr[6466]:  230615-07:22:38.871142 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [defaultRouteCallback:500]  Arguments received = 2 eth0 0.0.0.0 10.0.0.1 10.0.0.19 0 add
+2023 Jun 15 07:22:38.910790 netsrvmgr[6466]:  230615-07:22:38.871529 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [getDefaultInterface:1424] default route interface = eth0 gateway = 10.0.0.1
+2023 Jun 15 07:22:38.910853 netsrvmgr[6466]:  230615-07:22:38.871566 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [eventDefaultInterfaceChanged:275] oldInterface=, newInterface=eth0
+2023 Jun 15 07:22:38.910912 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.910970 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911027 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911083 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911139 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911196 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911266 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911333 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911404 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911467 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911535 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911598 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911665 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911727 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911793 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911855 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.911911 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.911968 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.912036 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.912094 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.912150 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.912207 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.912263 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.912320 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.912376 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.912432 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.912489 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.912545 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.925211 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.925370 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.925444 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.925507 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.925564 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.925621 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.925677 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.925735 netsrvmgr[6466]:  230615-07:22:38.882675 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:22:38.925797 netsrvmgr[6466]:  no neigh with ip addr 10.0.0.1 on interface eth0
+2023 Jun 15 07:22:38.925861 netsrvmgr[6466]:  230615-07:22:38.887471 [mod=NETSRVMGR, lvl=ERROR] [tid=7189] [get_default_gateway_mac:394] default_gateway_mac is empty
+2023 Jun 15 07:22:38.925924 netsrvmgr[6466]:  230615-07:22:38.888047 [mod=WIFIHAL, lvl=INFO] [tid=6466] The radio number of entries is always 1
+2023 Jun 15 07:22:38.926002 netsrvmgr[6466]:  230615-07:22:38.888111 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [Init:352] The interface  use is 'wlan0'
+2023 Jun 15 07:22:38.926065 netsrvmgr[6466]:  230615-07:22:38.888252 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [Init:354] The 'wlan0' Mac Addr :E8:CA:C8:A4:81:A8
+2023 Jun 15 07:22:38.926127 netsrvmgr[6466]:  230615-07:22:38.888310 [mod=NETSRVMGR, lvl=ERROR] [tid=6466] [create_wpa_supplicant_conf_from_netapp_db:137] wpa_supplicant_conf_file [/opt/secure/wifi/wpa_supplicant.conf] already exists. Will not overwrite.
+2023 Jun 15 07:22:38.926188 netsrvmgr[6466]:  230615-07:22:38.888951 [mod=WIFIHAL, lvl=INFO] [tid=6466] Registering telemetry callback...
+2023 Jun 15 07:22:38.926249 netsrvmgr[6466]:  230615-07:22:38.889041 [mod=NETSRVMGR, lvl=INFO] [tid=6466] [launch_pni_controller:678] systemctl restart pni_controller.service
+2023 Jun 15 07:22:38.926309 netsrvmgr[6466]:  230615-07:22:38.891379 [mod=NETSRVMGR, lvl=ERROR] [tid=7180] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+2023 Jun 15 07:22:38.926369 netsrvmgr[6466]:  230615-07:22:38.891437 [mod=NETSRVMGR, lvl=ERROR] [tid=7180] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+2023 Jun 15 07:22:38.926443 netsrvmgr[6466]:  230615-07:22:38.892030 [mod=NETSRVMGR, lvl=ERROR] [tid=7180] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+2023 Jun 15 07:22:38.926505 netsrvmgr[6466]:  230615-07:22:38.892084 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 14555, time_now = 12591, time_earlier = 12590
+2023 Jun 15 07:22:38.928371 netsrvmgr[6466]:  230615-07:22:38.892266 [mod=NETSRVMGR, lvl=ERROR] [tid=7180] [checkResponseCode:110] response code error = <-1> internet connection state = <0>
+2023 Jun 15 07:22:38.928518 netsrvmgr[6466]:  230615-07:22:38.892319 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [sendInternetStateChangeEvent:280] Internet connection changed form -1 to 0
+2023 Jun 15 07:22:38.928584 netsrvmgr[6466]:  230615-07:22:38.892542 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [sendInternetStateChangeEvent:288] IARM_BUS_NETWORK_MANAGER_EVENT_INTERNET_CONNECTION_CHANGED event!, state = 0
+2023 Jun 15 07:22:38.941018 netsrvmgr[6466]:  dbus_connection_send_with_reply_and_block failed with error The name process.iarm.XUPnP was not provided by any .service files
+2023 Jun 15 07:22:38.941084 netsrvmgr[6466]:  IARM_Call failed for call XUPnP-GetXUPNPDeviceInfo
+2023 Jun 15 07:22:38.941155 netsrvmgr[6466]:  IARM_Bus_Call failed to invoke GetXUPNPDeviceInfo with retCode 2
+2023 Jun 15 07:22:38.941236 netsrvmgr[6466]:  IARM_Bus_Call provider returned error (2) for the method GetXUPNPDeviceInfo
+2023 Jun 15 07:22:38.941347 netsrvmgr[6466]:  230615-07:22:38.907274 [mod=NETSRVMGR, lvl=ERROR] [tid=7196] [getGatewayResults:191] [ROUTE_MODULE] IARM_BUS_XUPNP_API_GetXUPNPDeviceInfo IARM failed in the fetch
+2023 Jun 15 07:22:38.941461 netsrvmgr[6466]:  230615-07:22:38.907342 [mod=NETSRVMGR, lvl=ERROR] [tid=7196] [storeRouteDetails:242] Failure in getting gateway results.
+2023 Jun 15 07:22:38.941527 netsrvmgr[6466]:  230615-07:22:38.907385 [mod=NETSRVMGR, lvl=INFO] [tid=7196] [delRouteList:547] [ROUTE_MODULE] NO gateway data available
+2023 Jun 15 07:22:38.965165 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.965330 netsrvmgr[6466]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:38.965411 netsrvmgr[6466]:  ARGS  = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:22:38.965484 netsrvmgr[6466]:  230615-07:22:38.959596 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [defaultRouteCallback:500]  Arguments received = 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:22:38.965561 netsrvmgr[6466]:  230615-07:22:38.959728 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:22:38.965629 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.965708 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:38.965780 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:38.965853 netsrvmgr[6466]:  230615-07:22:38.960343 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:22:38.965923 netsrvmgr[6466]:  230615-07:22:38.960836 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:347] Default gateway MAC = e0:db:d1:d8:f0:99
+2023 Jun 15 07:22:38.965985 netsrvmgr[6466]:  230615-07:22:38.961006 [mod=RBUSCORE, lvl=INFO] [tid=7189] RBus Enabled
+2023 Jun 15 07:22:38.984806 netsrvmgr[6466]:  230615-07:22:38.961090 [mod=RBUS, lvl=INFO] [tid=7189] rbus_open(t2_lib_wifihal)
+2023 Jun 15 07:22:38.984910 netsrvmgr[6466]:  230615-07:22:38.961264 [mod=RBUSCORE, lvl=INFO] [tid=7189] RBus Enabled
+2023 Jun 15 07:22:38.984978 netsrvmgr[6466]:  230615-07:22:38.961324 [mod=RBUSCORE, lvl=INFO] [tid=7189] Broker address: unix:///tmp/rtrouted
+2023 Jun 15 07:22:38.985041 netsrvmgr[6466]:  230615-07:22:38.962352 [mod=RBUS, lvl=INFO] [tid=7189] rbus_open(t2_lib_wifihal) success
+2023 Jun 15 07:22:39.009295 netsrvmgr[6466]:  T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:289: cacheEventToFile:289, Caching the event to File
+Adding Route Flag
+2023 Jun 15 07:22:40.382847 [pni_controller.sh#7738]: set_interface_state: ip link set dev wlan0 up
+2023 Jun 15 07:22:40.434857 [pni_controller.sh#7738]: wpa_supplicant_enable: 1 (IARM_event_sender WiFiInterfaceStateEvent 1)
+2023 Jun 15 07:22:40.444817 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:22:40 2023
+2023 Jun 15 07:22:40.445025 netsrvmgr[6466]:  
+2023 Jun 15 07:22:40.445141 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:40.445295 netsrvmgr[6466]:  ARGS  = add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.445397 netsrvmgr[6466]:  230615-07:22:40.444993 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global
+2023 Jun 15 07:22:40.450644 netsrvmgr[6466]:  230615-07:22:40.449432 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=eth0, ip_address=2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade, is_ipv6=1, acquired=1
+2023 Jun 15 07:22:40.450787 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:40.450849 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:40.450960 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:40.545383 [pni_controller.sh#7738]: try_interface: eth0 (pni)
+2023 Jun 15 07:22:40.524366 netsrvmgr[6466]:  230615-07:22:40.517804 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [setWifiEnabled:386] WiFi state: current [0] requested [1]
+2023 Jun 15 07:22:40.524452 netsrvmgr[6466]:  230615-07:22:40.518020 [mod=WIFIHAL, lvl=INFO] [tid=6512] Initializing Generic WiFi hal.
+2023 Jun 15 07:22:40.524519 netsrvmgr[6466]:  230615-07:22:40.518052 [mod=WIFIHAL, lvl=INFO] [tid=6512] TELEMETRY_WIFI_WPA_SUPPLICANT:ENABLED
+2023 Jun 15 07:22:40.524584 netsrvmgr[6466]:  230615-07:22:40.518074 [mod=WIFIHAL, lvl=INFO] [tid=6512] Starting wpa_supplicant service
+2023 Jun 15 07:22:40.663458 [pni_controller.sh#7738]: set_interface_state: ip link set dev eth0 up
+2023 Jun 15 07:22:40.715304 [pni_controller.sh#7738]: ipv4_deconfigure_dhcpip: wlan0: systemctl stop network@wlan0.service
+Address : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade, is add ed using SLAAC(RA) for interface eth0
+2023 Jun 15 07:22:41.586609 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:41.586713 netsrvmgr[6466]:  ARGS  = delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.586788 netsrvmgr[6466]:  230615-07:22:41.522090 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 wlan0:0 192.168.28.10 global
+2023 Jun 15 07:22:41.586852 netsrvmgr[6466]:  230615-07:22:41.522164 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=wlan0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=0
+2023 Jun 15 07:22:41.586924 netsrvmgr[6466]:  230615-07:22:41.522428 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:22:41.586998 netsrvmgr[6466]:  230615-07:22:41.522509 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:22:41.587067 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:41.587128 netsrvmgr[6466]:  230615-07:22:41.522692 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:22:41.587190 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:41.587276 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:41.587345 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:41.587404 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:41.587462 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:41.587520 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:41.587578 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:41.587636 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:41.967447 [pni_controller.sh#7738]: flush_routes_and_addresses: wlan0 (ip_family -4)
+2023 Jun 15 07:22:42.025758 [pni_controller.sh#7738]: ipv6_deconfigure_interface: wlan0: sysctl -w net.ipv6.conf.wlan0.disable_ipv6=1
+2023 Jun 15 07:22:41.986954 netsrvmgr[6466]:  230615-07:22:41.985950 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 17576, time_now = 15685, time_earlier = 15677
+2023 Jun 15 07:22:41.987077 netsrvmgr[6466]:  230615-07:22:41.986506 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:41.987141 netsrvmgr[6466]:  230615-07:22:41.986585 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [sendInternetStateChangeEvent:280] Internet connection changed form 0 to 3
+2023 Jun 15 07:22:41.987205 netsrvmgr[6466]:  230615-07:22:41.986811 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [sendInternetStateChangeEvent:288] IARM_BUS_NETWORK_MANAGER_EVENT_INTERNET_CONNECTION_CHANGED event!, state = 3
+2023 Jun 15 07:22:42.066461 [pni_controller.sh#7738]: ipv6_configure_interface: eth0: sysctl -w net.ipv6.conf.eth0.disable_ipv6=0
+2023 Jun 15 07:22:42.164858 [pni_controller.sh#7738]: ipv4_configure_dhcpip: eth0: systemctl start network@eth0.service
+2023 Jun 15 07:22:42.033260 netsrvmgr[6466]:  230615-07:22:42.030127 [mod=WIFIHAL, lvl=INFO] [tid=6512] opening control path:/var/run/wpa_supplicant/wlan0
+2023 Jun 15 07:22:42.033374 netsrvmgr[6466]:  230615-07:22:42.031897 [mod=WIFIHAL, lvl=INFO] [tid=6512] Starting wpa_supplicant health monitor thread
+2023 Jun 15 07:22:42.034731 netsrvmgr[6466]:  230615-07:22:42.033506 [mod=WIFIHAL, lvl=INFO] [tid=6512] Setting Initial Roaming Configuration :- [roamingEnable=1,preassnBestThreshold=-67,preassnBestDelta=3,selfSteerOverride=0,postAssnLevelDeltaConnected=12,postAssnSelfSteerThreshold=-75,postAssnSelfSteerTimeframe=60,postAssnBackOffTime=2,postAssnLevelDeltaDisconnected=8,postAssnAPcontrolThresholdLevel=-75,postAssnAPcontrolTimeframe=60,80211kvrEnable=1]
+2023 Jun 15 07:22:42.059113 netsrvmgr[6466]:  230615-07:22:42.053542 [mod=WIFIHAL, lvl=INFO] [tid=6512] Setting Roaming mode to AP Controlled..
+2023 Jun 15 07:22:42.059200 netsrvmgr[6466]:  230615-07:22:42.053586 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnLevelDeltaConnected to 12
+2023 Jun 15 07:22:42.059263 netsrvmgr[6466]:  230615-07:22:42.053610 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnLevelDeltaDisconnected to 8
+2023 Jun 15 07:22:42.059329 netsrvmgr[6466]:  230615-07:22:42.053631 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnSelfSteerThreshold to -75
+2023 Jun 15 07:22:42.059402 netsrvmgr[6466]:  230615-07:22:42.053652 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnSelfSteerTimeframe to 60
+2023 Jun 15 07:22:42.059490 netsrvmgr[6466]:  230615-07:22:42.053677 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnBackOffTime to 2
+2023 Jun 15 07:22:42.059554 netsrvmgr[6466]:  230615-07:22:42.053698 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnAPctrlThreshold to -75
+2023 Jun 15 07:22:42.059616 netsrvmgr[6466]:  230615-07:22:42.053719 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully set postAssnAPctrlTimeframe to 60
+2023 Jun 15 07:22:42.059678 netsrvmgr[6466]:  230615-07:22:42.055844 [mod=WIFIHAL, lvl=INFO] [tid=6512] Successfully started RSSI Signal monitor.
+2023 Jun 15 07:22:42.059740 netsrvmgr[6466]:   230615-07:22:42.057208 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [Start:431] [WIFI_MODULE] Successfully wifi_init() done
+2023 Jun 15 07:22:42.059803 netsrvmgr[6466]:  230615-07:22:42.057274 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getHALVersion:332] [WIFI_MODULE] WiFi HAL Version is 2.0.0
+2023 Jun 15 07:22:42.059865 netsrvmgr[6466]:  230615-07:22:42.057301 [mod=WIFIHAL, lvl=INFO] [tid=6512] Registering connect callback...
+2023 Jun 15 07:22:42.059993 netsrvmgr[6466]:  230615-07:22:42.057327 [mod=WIFIHAL, lvl=INFO] [tid=6512] Registering disconnect callback...
+2023 Jun 15 07:22:42.060059 netsrvmgr[6466]:  230615-07:22:42.058996 [mod=WIFIHAL, lvl=ERROR] [tid=6512] No SSID in wpa_supplicant.conf
+2023 Jun 15 07:22:42.060980 netsrvmgr[6466]:  230615-07:22:42.059195 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [lastConnectedSSID:1877] [WIFI_MODULE] Error in getting last connected SSID
+2023 Jun 15 07:22:42.061055 netsrvmgr[6466]:  IARM_Bus_Call provider returned error (3) for the method mfrWifiCredentials
+2023 Jun 15 07:22:42.061119 netsrvmgr[6466]:  230615-07:22:42.060794 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [connectToMfrWifiCredentials:3274] [WIFI_MODULE] IARM failure in retrieving the stored wifi credentials
+2023 Jun 15 07:22:42.061201 netsrvmgr[6466]:  230615-07:22:42.060841 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [Start:455] [WIFI_MODULE] Failed to connect to the SSID in the MFR
+2023 Jun 15 07:22:42.061275 netsrvmgr[6466]:  230615-07:22:42.060869 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [setWifiEnabled:398] TELEMETRY_NETWORK_MANAGER_ENABLE_WIFI.
+2023 Jun 15 07:22:42.068651 netsrvmgr[6466]:  T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:289: cacheEventToFile:289, Caching the event to File
+2023 Jun 15 07:22:42.294744 [pni_controller.sh#7738]: restart_link_local_services: eth0: /lib/rdk/zcip.sh
+2023 Jun 15 07:22:42.301608 [pni_controller.sh#7738]: test_connectivity: eth0: BEGIN (timeout=2000ms, max tries=15)
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+230615-07:22:42.353866 [mod=NETSRVMGR, lvl=ERROR] [tid=8428] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+230615-07:22:42.356194 [mod=NETSRVMGR, lvl=ERROR] [tid=8428] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+230615-07:22:42.356418 [mod=NETSRVMGR, lvl=ERROR] [tid=8428] [checkCurlResponse:227] endpoint = <get_endpoints> error = 6 (Couldn't resolve host name)
+230615-07:22:42.356500 [mod=NETSRVMGR, lvl=INFO] [tid=8428] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 18036, time_now = 16055, time_earlier = 16055
+230615-07:22:42.356826 [mod=NETSRVMGR, lvl=ERROR] [tid=8428] [checkResponseCode:110] response code error = <-1> internet connection state = <0>
+2023 Jun 15 07:22:42.450282 netsrvmgr[6466]:  230615-07:22:42.449641 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [sysModeChange:1834] [WIFI_MODULE] Sys Mode Change::New mode --> 0, Old mode --> 0
+2023 Jun 15 07:22:42.750261 netsrvmgr[6466]:  230615-07:22:42.748508 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isAvailable:1366] [ROUTE_MODULE] IARM_BUS_NETSRVMGR_API_isAvailable is called
+230615-07:22:43.472361 [mod=NETSRVMGR, lvl=INFO] [tid=8428] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 19058, time_now = 17171, time_earlier = 17166
+230615-07:22:43.472964 [mod=NETSRVMGR, lvl=INFO] [tid=8428] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:43.500201 [pni_controller.sh#7738]: test_connectivity: eth0: PASS
+2023 Jun 15 07:22:43.566771 [pni_controller.sh#7738]: try_interface: eth0 end, took s
+2023 Jun 15 07:22:44.762721 netsrvmgr[6466]:  230615-07:22:44.761865 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:22:44.765392 netsrvmgr[6466]:  230615-07:22:44.765083 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1172] Before Copying name=eth0, mac=a8:4a:63:1e:5a:de, flags=0x00011043
+2023 Jun 15 07:22:44.765504 netsrvmgr[6466]:  230615-07:22:44.765148 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1177] name=eth0, mac=a8:4a:63:1e:5a:de, flags=0x00011043
+2023 Jun 15 07:22:44.765583 netsrvmgr[6466]:  230615-07:22:44.765174 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1172] Before Copying name=wlan0, mac=e8:ca:c8:a4:81:a8, flags=0x00001003
+2023 Jun 15 07:22:44.765636 netsrvmgr[6466]:  230615-07:22:44.765198 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1177] name=wlan0, mac=e8:ca:c8:a4:81:a8, flags=0x00001003
+2023 Jun 15 07:22:44.774939 netsrvmgr[6466]:  230615-07:22:44.774092 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:22:44.775067 netsrvmgr[6466]:  230615-07:22:44.774157 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:22:44.775143 netsrvmgr[6466]:  230615-07:22:44.774274 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:22:44.775197 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:22:44.775251 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:22:44.775304 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:22:44.811216 netsrvmgr[6466]:  230615-07:22:44.811071 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask ffff:ff00::
+2023 Jun 15 07:22:44.811346 netsrvmgr[6466]:  230615-07:22:44.811251 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [fe80::e2db:d1ff:fed8:f099]
+2023 Jun 15 07:22:44.811403 netsrvmgr[6466]:  230615-07:22:44.811295 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address []
+2023 Jun 15 07:22:44.811553 netsrvmgr[6466]:  230615-07:22:44.811491 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 2001:558:feed::1
+2023 Jun 15 07:22:44.811635 netsrvmgr[6466]:  230615-07:22:44.811528 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 2001:558:feed::2
+2023 Jun 15 07:22:45.059960 netsrvmgr[6466]:  230615-07:22:45.059828 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 20686, time_now = 18759, time_earlier = 18747
+2023 Jun 15 07:22:45.060484 netsrvmgr[6466]:  230615-07:22:45.060364 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:45.176068 netsrvmgr[6466]:  230615-07:22:45.170969 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:22:45.258963 netsrvmgr[6466]:  230615-07:22:45.258573 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 20870, time_now = 18957, time_earlier = 18938
+2023 Jun 15 07:22:45.259863 netsrvmgr[6466]:  230615-07:22:45.259130 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:45.259930 netsrvmgr[6466]:  230615-07:22:45.259235 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:22:45.348635 netsrvmgr[6466]:  230615-07:22:45.348471 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 20960, time_now = 19047, time_earlier = 19022
+2023 Jun 15 07:22:45.349097 netsrvmgr[6466]:  230615-07:22:45.348995 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:45.349552 netsrvmgr[6466]:  230615-07:22:45.349462 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:22:45.349654 netsrvmgr[6466]:  230615-07:22:45.349541 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getPublicIP:2019] interface value: eth0
+2023 Jun 15 07:22:45.349738 netsrvmgr[6466]:  230615-07:22:45.349574 [mod=NETSRVMGR, lvl=WARN] [tid=6512] [bind:354] stun::client::bind enter: server=stun.l.google.com port=19302 iface= ipv6=1 timeout=30 cache_timeout=0 dirty=1
+2023 Jun 15 07:22:46.691538 netsrvmgr[6466]:  230615-07:22:46.690181 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:22:46.691639 netsrvmgr[6466]:  230615-07:22:46.690414 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:22:46.691701 netsrvmgr[6466]:  230615-07:22:46.690521 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:22:46.691789 netsrvmgr[6466]:  230615-07:22:46.690561 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:22:46.691849 netsrvmgr[6466]:  230615-07:22:46.690587 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:22:48.126012 netsrvmgr[6466]:  230615-07:22:48.124890 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 23760, time_now = 21824, time_earlier = 21822
+2023 Jun 15 07:22:48.126206 netsrvmgr[6466]:  230615-07:22:48.125611 [mod=NETSRVMGR, lvl=INFO] [tid=7188] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:51.301223 netsrvmgr[6466]:  230615-07:22:51.298145 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1489] interface = [WIFI]
+2023 Jun 15 07:22:51.301340 netsrvmgr[6466]:  230615-07:22:51.298228 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1515] interface = [WIFI] enabled = [1]
+2023 Jun 15 07:22:53.105374 netsrvmgr[6466]:  230615-07:22:53.104217 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1489] interface = [ETHERNET]
+2023 Jun 15 07:22:53.105549 netsrvmgr[6466]:  230615-07:22:53.104347 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1515] interface = [ETHERNET] enabled = [1]
+2023 Jun 15 07:22:53.181496 netsrvmgr[6466]:  230615-07:22:53.179416 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:22:53.248791 netsrvmgr[6466]:  230615-07:22:53.248669 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 28878, time_now = 26948, time_earlier = 26924
+2023 Jun 15 07:22:53.249291 netsrvmgr[6466]:  230615-07:22:53.249189 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:53.249394 netsrvmgr[6466]:  230615-07:22:53.249265 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:22:54.351802 [pni_controller.sh#7738]: restart_link_local_services: eth0: systemctl restart xupnp.service
+2023 Jun 15 07:22:54.425811 [pni_controller.sh#7738]: restart_link_local_services: eth0: systemctl restart xcal-device.service
+2023 Jun 15 07:22:54.271397 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:22:54.271523 netsrvmgr[6466]:  ARGS  = add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.271621 netsrvmgr[6466]:  230615-07:22:54.265950 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 eth0 169.254.56.71 local
+2023 Jun 15 07:22:54.271694 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:22:54.271756 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.271816 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.271940 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.272005 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.272065 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.272122 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.272185 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.272242 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.315598 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:22:54.315675 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:22:54.474953 netsrvmgr[6466]:  230615-07:22:54.474120 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:22:54.555778 netsrvmgr[6466]:  230615-07:22:54.554925 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 30173, time_now = 28254, time_earlier = 28250
+2023 Jun 15 07:22:54.555894 netsrvmgr[6466]:  230615-07:22:54.555448 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:54.555957 netsrvmgr[6466]:  230615-07:22:54.555514 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:22:54.959749 netsrvmgr[6466]:  230615-07:22:54.957446 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:22:54.959843 netsrvmgr[6466]:  230615-07:22:54.957670 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:22:54.959906 netsrvmgr[6466]:  230615-07:22:54.957756 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:22:54.960005 netsrvmgr[6466]:  230615-07:22:54.957796 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:22:54.960066 netsrvmgr[6466]:  230615-07:22:54.957819 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:22:56.414335 netsrvmgr[6466]:  230615-07:22:56.413554 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:22:56.502423 netsrvmgr[6466]:  230615-07:22:56.501519 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 32113, time_now = 30200, time_earlier = 30186
+2023 Jun 15 07:22:56.502552 netsrvmgr[6466]:  230615-07:22:56.502046 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:22:56.502617 netsrvmgr[6466]:  230615-07:22:56.502118 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:22:59.169992 netsrvmgr[6466]:  230615-07:22:59.168952 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:22:59.170115 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:22:59.170176 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:22:59.170236 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:22:59.170296 netsrvmgr[6466]:  230615-07:22:59.169219 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+2023 Jun 15 07:23:03.836971 netsrvmgr[6466]:  230615-07:23:03.835032 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:03.912381 netsrvmgr[6466]:  230615-07:23:03.911253 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 39534, time_now = 37610, time_earlier = 37597
+2023 Jun 15 07:23:03.912505 netsrvmgr[6466]:  230615-07:23:03.911785 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:03.912569 netsrvmgr[6466]:  230615-07:23:03.911855 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:04.134802 netsrvmgr[6466]:  230615-07:23:04.133683 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:04.221916 netsrvmgr[6466]:  230615-07:23:04.219507 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 39833, time_now = 37918, time_earlier = 37893
+2023 Jun 15 07:23:04.222047 netsrvmgr[6466]:  230615-07:23:04.220118 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:04.222158 netsrvmgr[6466]:  230615-07:23:04.220197 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:08.897629 netsrvmgr[6466]:  230615-07:23:08.895603 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:23:08.963106 netsrvmgr[6466]:  230615-07:23:08.962956 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 44595, time_now = 42662, time_earlier = 42661
+2023 Jun 15 07:23:08.963606 netsrvmgr[6466]:  230615-07:23:08.963488 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:12.100501 netsrvmgr[6466]:  230615-07:23:12.099009 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:12.174542 netsrvmgr[6466]:  230615-07:23:12.173166 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 47798, time_now = 45872, time_earlier = 45857
+2023 Jun 15 07:23:12.174668 netsrvmgr[6466]:  230615-07:23:12.173735 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:12.174736 netsrvmgr[6466]:  230615-07:23:12.173812 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:12.324843 netsrvmgr[6466]:  230615-07:23:12.319481 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:23:12.324967 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:23:12.325026 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:23:12.325083 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:23:12.325141 netsrvmgr[6466]:  230615-07:23:12.319757 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+2023 Jun 15 07:23:14.197328 netsrvmgr[6466]:  230615-07:23:14.194440 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:14.277214 netsrvmgr[6466]:  230615-07:23:14.272820 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 49403, time_now = 47481, time_earlier = 47472
+2023 Jun 15 07:23:14.277345 netsrvmgr[6466]:  230615-07:23:14.273345 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:14.277410 netsrvmgr[6466]:  230615-07:23:14.273420 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:16.774073 netsrvmgr[6466]:  230615-07:23:16.772683 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:23:16.774212 netsrvmgr[6466]:  230615-07:23:16.772895 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:23:16.774283 netsrvmgr[6466]:  230615-07:23:16.772970 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:23:16.774336 netsrvmgr[6466]:  230615-07:23:16.773007 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:23:16.774389 netsrvmgr[6466]:  230615-07:23:16.773031 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:23:17.698395 netsrvmgr[6466]:  230615-07:23:17.697596 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:17.769571 netsrvmgr[6466]:  230615-07:23:17.769427 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 52906, time_now = 50977, time_earlier = 50967
+2023 Jun 15 07:23:17.770006 netsrvmgr[6466]:  230615-07:23:17.769922 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:17.770095 netsrvmgr[6466]:  230615-07:23:17.769987 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:22.040892 netsrvmgr[6466]:  230615-07:23:22.037743 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:22.109996 netsrvmgr[6466]:  230615-07:23:22.109047 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 57246, time_now = 55317, time_earlier = 55312
+2023 Jun 15 07:23:22.110126 netsrvmgr[6466]:  230615-07:23:22.109622 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:22.110183 netsrvmgr[6466]:  230615-07:23:22.109707 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:30.475435 netsrvmgr[6466]:  230615-07:23:30.473970 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:23:30.538477 netsrvmgr[6466]:  230615-07:23:30.537727 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 65682, time_now = 63746, time_earlier = 63744
+2023 Jun 15 07:23:30.538585 netsrvmgr[6466]:  230615-07:23:30.538173 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:30.538671 netsrvmgr[6466]:  230615-07:23:30.538232 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:23:31.587427 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.587614 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.589839 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.589915 netsrvmgr[6466]:  ARGS  = add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.589974 netsrvmgr[6466]:  230615-07:23:31.589578 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:23:31.590032 netsrvmgr[6466]:  230615-07:23:31.589655 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=100.64.11.1, is_ipv6=0, acquired=1
+2023 Jun 15 07:23:31.590118 netsrvmgr[6466]:  230615-07:23:31.589939 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:23:31.590180 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.591362 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.591580 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.597278 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.597356 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.597414 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.597467 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.597519 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.597573 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.597628 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.597705 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.597759 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.597812 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.597865 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.597921 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.597976 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.598061 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.598116 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.598171 netsrvmgr[6466]:  ARGS  = dobby0 up
+2023 Jun 15 07:23:31.606535 netsrvmgr[6466]:  230615-07:23:31.596832 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 up
+2023 Jun 15 07:23:31.606626 netsrvmgr[6466]:  230615-07:23:31.599079 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby0, enabled=1
+2023 Jun 15 07:23:31.606686 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.606743 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.606799 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.606854 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.606931 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.606992 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.607057 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.607135 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.607192 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.607246 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.607303 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.607388 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.607526 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.607592 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.607662 netsrvmgr[6466]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.607732 netsrvmgr[6466]:  ARGS  = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; delete
+2023 Jun 15 07:23:31.607799 netsrvmgr[6466]:  230615-07:23:31.606092 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [defaultRouteCallback:500]  Arguments received = 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 delete
+2023 Jun 15 07:23:31.607859 netsrvmgr[6466]:  230615-07:23:31.606359 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = 10.0.0.1
+2023 Jun 15 07:23:31.607923 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.610804 netsrvmgr[6466]:  230615-07:23:31.606508 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:23:31.610892 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.610952 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.611017 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.611090 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.611175 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.611244 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.611310 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.611370 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.611425 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.615199 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.615278 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.615338 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.621921 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.621996 netsrvmgr[6466]:  ARGS  = veth0 up
+2023 Jun 15 07:23:31.622085 netsrvmgr[6466]:  230615-07:23:31.620061 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth0 up
+2023 Jun 15 07:23:31.622147 netsrvmgr[6466]:  230615-07:23:31.620134 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth0, enabled=1
+2023 Jun 15 07:23:31.622215 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.622273 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.622329 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.622385 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.622440 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.625135 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.625210 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.625939 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.626037 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.626095 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.626153 netsrvmgr[6466]:  ARGS  = dobby0 add
+2023 Jun 15 07:23:31.626214 netsrvmgr[6466]:  230615-07:23:31.622496 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 add
+2023 Jun 15 07:23:31.626273 netsrvmgr[6466]:  230615-07:23:31.622595 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby0, connected=1
+2023 Jun 15 07:23:31.627145 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.627206 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.627262 netsrvmgr[6466]:  ARGS  = veth0 add
+2023 Jun 15 07:23:31.627323 netsrvmgr[6466]:  230615-07:23:31.622970 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth0 add
+2023 Jun 15 07:23:31.627385 netsrvmgr[6466]:  230615-07:23:31.623061 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth0, connected=1
+2023 Jun 15 07:23:31.627499 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.627564 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.627620 netsrvmgr[6466]:  Exiting processlink_rtnl function
+Deleting Route Flag
+Jun 15 07:23:31.870351 : udhcpc : deconfig,dobby0:0,,,,DNS=,
+2023 Jun 15 07:23:31.750226 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.750319 netsrvmgr[6466]:  ARGS  = add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.750416 netsrvmgr[6466]:  230615-07:23:31.745154 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.750478 netsrvmgr[6466]:  230615-07:23:31.745237 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:23:31.750540 netsrvmgr[6466]:  230615-07:23:31.745538 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:23:31.750599 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.750655 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.750715 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.750774 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.750830 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.750892 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.750969 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.751025 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.751082 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.758682 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.758801 netsrvmgr[6466]:  ARGS  = add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.758919 netsrvmgr[6466]:  230615-07:23:31.757513 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.758989 netsrvmgr[6466]:  230615-07:23:31.757602 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:23:31.759051 netsrvmgr[6466]:  230615-07:23:31.757895 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:23:31.759111 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.759168 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.759226 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.762107 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.762246 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.762338 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.762418 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.762747 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.762824 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.773838 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.773923 netsrvmgr[6466]:  ARGS  = dobby_tap0 up
+2023 Jun 15 07:23:31.773986 netsrvmgr[6466]:  230615-07:23:31.770889 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby_tap0 up
+2023 Jun 15 07:23:31.774048 netsrvmgr[6466]:  230615-07:23:31.770972 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby_tap0, enabled=1
+2023 Jun 15 07:23:31.774109 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.774194 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:31.774252 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:31.807055 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:31.807149 netsrvmgr[6466]:  ARGS  = add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.807212 netsrvmgr[6466]:  230615-07:23:31.806029 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:23:31.807273 netsrvmgr[6466]:  230615-07:23:31.806118 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby_tap0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:23:31.807333 netsrvmgr[6466]:  230615-07:23:31.806404 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:23:31.807393 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:31.807502 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.807564 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.807622 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.807679 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.807784 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.807844 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:31.807901 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:31.807957 netsrvmgr[6466]:  Exiting processroute_rtnl function
+Jun 15 07:23:31.910151 : udhcpc : deconfig,veth0:0,,,,DNS=,
+Jun 15 07:23:31.957840 : udhcpc : deconfig,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:23:33.029142 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.029239 netsrvmgr[6466]:  ARGS  = add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.029304 netsrvmgr[6466]:  230615-07:23:33.028174 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:23:33.029390 netsrvmgr[6466]:  230615-07:23:33.028248 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=2080:d0bb:1e::6440:b01, is_ipv6=1, acquired=1
+2023 Jun 15 07:23:33.029454 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.029581 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.029645 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.029704 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.029778 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.029843 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.029902 netsrvmgr[6466]:  ARGS  = add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.029964 netsrvmgr[6466]:  230615-07:23:33.029011 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:23:33.030026 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.030091 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.030150 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.444783 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:33.444864 netsrvmgr[6466]:  ARGS  = add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.444927 netsrvmgr[6466]:  230615-07:23:33.443909 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:23:33.444990 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:33.445064 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.445124 netsrvmgr[6466]:  Exiting processroute_rtnl function
+Adding Route Flag
+Publishing ipmode change to ipv6
+2023 Jun 15 07:23:33.488287 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.488395 netsrvmgr[6466]:  Publishing default Route: Args msgargs = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.488477 netsrvmgr[6466]:  ARGS  = 10; eth0; ::0; fe80::e2db:d1ff:fed8:f099; NA; 1024; add
+2023 Jun 15 07:23:33.488573 netsrvmgr[6466]:  230615-07:23:33.479691 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [defaultRouteCallback:500]  Arguments received = 10 eth0 ::0 fe80::e2db:d1ff:fed8:f099 NA 1024 add
+2023 Jun 15 07:23:33.488636 netsrvmgr[6466]:  230615-07:23:33.479816 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:23:33.488713 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.488788 netsrvmgr[6466]:  230615-07:23:33.479966 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:23:33.488850 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:33.488916 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:33.841254 netsrvmgr[6466]:  230615-07:23:33.840851 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:23:33.841374 netsrvmgr[6466]:  230615-07:23:33.840914 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:23:33.841438 netsrvmgr[6466]:  230615-07:23:33.840971 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:23:33.841500 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:23:33.841561 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:23:33.841622 netsrvmgr[6466]:  ip address is 10.0.0.19/24
+2023 Jun 15 07:23:33.862798 netsrvmgr[6466]:  230615-07:23:33.862661 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask 255.255.255.0
+2023 Jun 15 07:23:33.862968 netsrvmgr[6466]:  230615-07:23:33.862869 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [10.0.0.1]
+2023 Jun 15 07:23:33.863036 netsrvmgr[6466]:  230615-07:23:33.862900 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address [10.0.0.1]
+2023 Jun 15 07:23:33.863121 netsrvmgr[6466]:  230615-07:23:33.863058 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 75.75.75.75
+2023 Jun 15 07:23:33.863186 netsrvmgr[6466]:  230615-07:23:33.863084 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 75.75.76.76
+2023 Jun 15 07:23:34.683100 netsrvmgr[6466]:  230615-07:23:34.682378 [mod=NETSRVMGR, lvl=INFO] [tid=12953] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 69823, time_now = 67890, time_earlier = 67886
+2023 Jun 15 07:23:34.683262 netsrvmgr[6466]:  230615-07:23:34.682878 [mod=NETSRVMGR, lvl=INFO] [tid=12953] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:35.413575 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.413655 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.421368 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.421455 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.421518 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.421582 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.421662 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.421722 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.452500 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.452584 netsrvmgr[6466]:  ARGS  = veth1 up
+2023 Jun 15 07:23:35.452649 netsrvmgr[6466]:  230615-07:23:35.451851 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 up
+2023 Jun 15 07:23:35.452739 netsrvmgr[6466]:  230615-07:23:35.451943 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth1, enabled=1
+2023 Jun 15 07:23:35.452806 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.452872 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.452939 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.462391 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.462479 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.462565 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.462626 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.462684 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.462746 netsrvmgr[6466]:  ARGS  = veth1 add
+2023 Jun 15 07:23:35.462810 netsrvmgr[6466]:  230615-07:23:35.457451 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 add
+2023 Jun 15 07:23:35.462873 netsrvmgr[6466]:  230615-07:23:35.457537 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth1, connected=1
+2023 Jun 15 07:23:35.462935 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:23:35.462996 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:23:35.463055 netsrvmgr[6466]:  Exiting processlink_rtnl function
+Jun 15 07:23:35.634311 : udhcpc : deconfig,veth1:0,,,,DNS=,
+2023 Jun 15 07:23:35.539199 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:35.539318 netsrvmgr[6466]:  ARGS  = add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.539415 netsrvmgr[6466]:  230615-07:23:35.539196 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:23:35.539532 netsrvmgr[6466]:  230615-07:23:35.539276 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth1:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:23:35.539723 netsrvmgr[6466]:  230615-07:23:35.539617 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:23:35.539846 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:35.544829 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.544920 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.544981 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.545041 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.545128 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.545228 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:35.548139 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:35.548254 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:37.015333 netsrvmgr[6466]:  230615-07:23:37.014198 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:23:37.018916 netsrvmgr[6466]:  230615-07:23:37.018778 [mod=WIFIHAL, lvl=INFO] [tid=6512] The radio number of entries is always 1
+2023 Jun 15 07:23:37.260041 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:23:37.260162 netsrvmgr[6466]:  ARGS  = add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.260263 netsrvmgr[6466]:  230615-07:23:37.253986 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:23:37.260328 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:23:37.260389 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:23:37.260451 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:23:37.746319 netsrvmgr[6466]:  230615-07:23:37.745803 [mod=NETSRVMGR, lvl=INFO] [tid=12953] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 72891, time_now = 70954, time_earlier = 70950
+2023 Jun 15 07:23:37.746470 netsrvmgr[6466]:  230615-07:23:37.746238 [mod=NETSRVMGR, lvl=INFO] [tid=12953] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:23:39.026667 netsrvmgr[6466]:  230615-07:23:39.025519 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 74172, time_now = 72234, time_earlier = 72232
+2023 Jun 15 07:23:39.026814 netsrvmgr[6466]:  230615-07:23:39.025963 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:23:41.058499 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:23:41.115097 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:23:41.124118 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:23:44.822831 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:23:45.318564 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:23:40 2023
+2023 Jun 15 07:23:45.320007 netsrvmgr[6466]:  
+2023 Jun 15 07:23:45.320153 netsrvmgr[6466]:  230615-07:23:45.317058 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:23:45.320222 netsrvmgr[6466]:  230615-07:23:45.317146 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:23:45.320294 netsrvmgr[6466]:  230615-07:23:45.317216 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:23:45.320395 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:23:45.320463 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:23:45.320524 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:23:45.358677 netsrvmgr[6466]:  230615-07:23:45.358522 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask ffff:ff00::
+2023 Jun 15 07:23:45.358899 netsrvmgr[6466]:  230615-07:23:45.358730 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [fe80::e2db:d1ff:fed8:f099]
+2023 Jun 15 07:23:45.358992 netsrvmgr[6466]:  230615-07:23:45.358787 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address []
+2023 Jun 15 07:23:45.359086 netsrvmgr[6466]:  230615-07:23:45.358933 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 2001:558:feed::1
+2023 Jun 15 07:23:45.359151 netsrvmgr[6466]:  230615-07:23:45.358961 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 2001:558:feed::2
+2023 Jun 15 07:24:09.027495 netsrvmgr[6466]:  230615-07:24:09.026142 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:24:09.091718 netsrvmgr[6466]:  230615-07:24:09.091436 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 104234, time_now = 102299, time_earlier = 102296
+2023 Jun 15 07:24:09.092104 netsrvmgr[6466]:  230615-07:24:09.091974 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:24:10.331724 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:24:10.332035 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:24:10.400278 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:24:14.018457 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:24:37.092674 netsrvmgr[6466]:  230615-07:24:37.091928 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+Jun 15 07:24:39.248757 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+2023 Jun 15 07:24:39.093637 netsrvmgr[6466]:  230615-07:24:39.092160 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:24:39.159571 netsrvmgr[6466]:  230615-07:24:39.159337 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 134300, time_now = 132367, time_earlier = 132343
+2023 Jun 15 07:24:39.160076 netsrvmgr[6466]:  230615-07:24:39.159949 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:24:39.511499 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:24:39.535824 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:24:43.199114 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:24:59.623276 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:24:40 2023
+2023 Jun 15 07:24:59.623397 netsrvmgr[6466]:  
+2023 Jun 15 07:24:59.623624 netsrvmgr[6466]:  230615-07:24:59.622167 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:24:59.623694 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:24:59.623814 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:24:59.623875 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:24:59.623945 netsrvmgr[6466]:  230615-07:24:59.622450 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+Jun 15 07:25:08.340006 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:25:08.678389 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:25:08.700861 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:25:09.161277 netsrvmgr[6466]:  230615-07:25:09.160140 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:25:09.225542 netsrvmgr[6466]:  230615-07:25:09.224928 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 164368, time_now = 162433, time_earlier = 162426
+2023 Jun 15 07:25:09.225662 netsrvmgr[6466]:  230615-07:25:09.225375 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:25:12.388443 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:25:37.177420 netsrvmgr[6466]:  230615-07:25:37.176430 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+Jun 15 07:25:37.444906 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:25:37.848106 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:25:37.865177 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:25:39.227055 netsrvmgr[6466]:  230615-07:25:39.225594 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:25:39.296267 netsrvmgr[6466]:  230615-07:25:39.295832 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 194434, time_now = 192504, time_earlier = 192499
+2023 Jun 15 07:25:39.296414 netsrvmgr[6466]:  230615-07:25:39.296273 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:25:41.574217 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:26:06.447688 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:26:07.007084 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:26:07.034158 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:26:09.297875 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:25:40 2023
+2023 Jun 15 07:26:09.298008 netsrvmgr[6466]:  
+2023 Jun 15 07:26:09.298073 netsrvmgr[6466]:  230615-07:26:09.296444 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:26:09.362950 netsrvmgr[6466]:  230615-07:26:09.362354 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 224505, time_now = 222570, time_earlier = 222566
+2023 Jun 15 07:26:09.363071 netsrvmgr[6466]:  230615-07:26:09.362808 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:26:10.743613 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:26:33.391230 netsrvmgr[6466]:  230615-07:26:33.390487 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:26:33.391324 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:26:33.391385 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:26:33.391531 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:26:33.391598 netsrvmgr[6466]:  230615-07:26:33.390763 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+Jun 15 07:26:35.458720 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:26:36.176297 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:26:36.192078 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:26:37.252036 netsrvmgr[6466]:  230615-07:26:37.251164 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:26:39.363735 netsrvmgr[6466]:  230615-07:26:39.362976 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:26:39.430442 netsrvmgr[6466]:  230615-07:26:39.430259 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 254571, time_now = 252638, time_earlier = 252630
+2023 Jun 15 07:26:39.430856 netsrvmgr[6466]:  230615-07:26:39.430725 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:26:39.915257 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:26:42.534824 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:26:40 2023
+2023 Jun 15 07:26:42.534955 netsrvmgr[6466]:  
+2023 Jun 15 07:26:42.535017 netsrvmgr[6466]:  230615-07:26:42.534148 [mod=WIFIHAL, lvl=INFO] [tid=8318] wpa_supplicant heartbeat success.
+Jun 15 07:27:04.459284 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:27:05.355133 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:27:05.358278 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:27:09.080365 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:27:09.431848 netsrvmgr[6466]:  230615-07:27:09.431010 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:27:09.499827 netsrvmgr[6466]:  230615-07:27:09.499126 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 284639, time_now = 282707, time_earlier = 282692
+2023 Jun 15 07:27:09.499975 netsrvmgr[6466]:  230615-07:27:09.499647 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:27:33.465218 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:27:34.590869 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:27:34.591932 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:27:37.341900 netsrvmgr[6466]:  230615-07:27:37.341096 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+Jun 15 07:27:38.257200 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:27:39.500848 netsrvmgr[6466]:  230615-07:27:39.499862 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:27:39.565777 netsrvmgr[6466]:  230615-07:27:39.565645 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 314708, time_now = 312774, time_earlier = 312748
+2023 Jun 15 07:27:39.566230 netsrvmgr[6466]:  230615-07:27:39.566152 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:28:02.479236 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:28:03.724278 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:28:03.795567 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:28:07.446075 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:28:09.566949 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:27:40 2023
+2023 Jun 15 07:28:09.567084 netsrvmgr[6466]:  
+2023 Jun 15 07:28:09.567177 netsrvmgr[6466]:  230615-07:28:09.566331 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:28:09.635171 netsrvmgr[6466]:  230615-07:28:09.629004 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 344774, time_now = 342837, time_earlier = 342816
+2023 Jun 15 07:28:09.635266 netsrvmgr[6466]:  230615-07:28:09.629438 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:28:31.491977 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:28:32.906813 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:28:32.975084 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:28:36.618606 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:28:37.408380 netsrvmgr[6466]:  230615-07:28:37.407536 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:28:39.630478 netsrvmgr[6466]:  230615-07:28:39.629619 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:28:39.692294 netsrvmgr[6466]:  230615-07:28:39.691846 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 374838, time_now = 372900, time_earlier = 372880
+2023 Jun 15 07:28:39.692437 netsrvmgr[6466]:  230615-07:28:39.692330 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:29:00.294338 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:29:02.079039 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:29:02.168894 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:29:05.796942 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:29:09.693685 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:28:40 2023
+2023 Jun 15 07:29:09.693809 netsrvmgr[6466]:  
+2023 Jun 15 07:29:09.693876 netsrvmgr[6466]:  230615-07:29:09.692516 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:29:09.791292 netsrvmgr[6466]:  230615-07:29:09.791155 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 404901, time_now = 402999, time_earlier = 402985
+2023 Jun 15 07:29:09.791780 netsrvmgr[6466]:  230615-07:29:09.791690 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:29:29.538302 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:29:31.245233 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:29:31.349798 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:29:34.980053 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:29:37.492369 netsrvmgr[6466]:  230615-07:29:37.491597 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:29:39.794044 netsrvmgr[6466]:  230615-07:29:39.791923 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:29:39.883147 netsrvmgr[6466]:  230615-07:29:39.883003 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 435000, time_now = 433091, time_earlier = 433067
+2023 Jun 15 07:29:39.883696 netsrvmgr[6466]:  230615-07:29:39.883589 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:29:58.715976 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:30:00.412027 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:30:00.536266 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:30:04.172110 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:30:09.884521 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:29:40 2023
+2023 Jun 15 07:30:09.884658 netsrvmgr[6466]:  
+2023 Jun 15 07:30:09.884717 netsrvmgr[6466]:  230615-07:30:09.883788 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:30:09.959591 netsrvmgr[6466]:  230615-07:30:09.959241 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 465092, time_now = 463167, time_earlier = 463166
+2023 Jun 15 07:30:09.959899 netsrvmgr[6466]:  230615-07:30:09.959773 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:30:27.892889 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:30:29.585426 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:30:29.711421 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:30:33.371577 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:30:37.589399 netsrvmgr[6466]:  230615-07:30:37.588609 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:30:39.960732 netsrvmgr[6466]:  230615-07:30:39.959969 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:30:40.025001 netsrvmgr[6466]:  230615-07:30:40.024857 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 495168, time_now = 493233, time_earlier = 493231
+2023 Jun 15 07:30:40.025460 netsrvmgr[6466]:  230615-07:30:40.025349 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:30:57.050167 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:30:58.784924 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:30:58.884266 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:31:02.608894 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:31:10.026958 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:30:40 2023
+2023 Jun 15 07:31:10.027103 netsrvmgr[6466]:  
+2023 Jun 15 07:31:10.027195 netsrvmgr[6466]:  230615-07:31:10.025583 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:31:10.110911 netsrvmgr[6466]:  230615-07:31:10.107365 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 525234, time_now = 523315, time_earlier = 523311
+2023 Jun 15 07:31:10.111003 netsrvmgr[6466]:  230615-07:31:10.108708 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:31:26.215119 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:31:27.970779 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:31:28.075767 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:31:31.788147 : udhcpc : leasefail,veth1:0,,,,DNS=,
+2023 Jun 15 07:31:37.661092 netsrvmgr[6466]:  230615-07:31:37.660254 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:31:40.109659 netsrvmgr[6466]:  230615-07:31:40.108897 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:31:40.176499 netsrvmgr[6466]:  230615-07:31:40.176368 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 555317, time_now = 553384, time_earlier = 553384
+2023 Jun 15 07:31:40.176915 netsrvmgr[6466]:  230615-07:31:40.176823 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:31:42.536634 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:31:40 2023
+2023 Jun 15 07:31:42.536738 netsrvmgr[6466]:  
+2023 Jun 15 07:31:42.536830 netsrvmgr[6466]:  230615-07:31:42.535966 [mod=WIFIHAL, lvl=INFO] [tid=8318] wpa_supplicant heartbeat success.
+2023 Jun 15 07:31:49.945162 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:49.945285 netsrvmgr[6466]:  ARGS  = veth1 delete
+2023 Jun 15 07:31:49.945350 netsrvmgr[6466]:  230615-07:31:49.937012 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 delete
+2023 Jun 15 07:31:49.945411 netsrvmgr[6466]:  230615-07:31:49.937142 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth1, connected=0
+2023 Jun 15 07:31:49.945471 netsrvmgr[6466]:  ARGS  = veth1 down
+2023 Jun 15 07:31:49.945529 netsrvmgr[6466]:  230615-07:31:49.937372 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 down
+2023 Jun 15 07:31:49.945586 netsrvmgr[6466]:  230615-07:31:49.937417 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth1, enabled=0
+2023 Jun 15 07:31:49.945692 netsrvmgr[6466]:  230615-07:31:49.937631 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:49.945763 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:49.945825 netsrvmgr[6466]:  230615-07:31:49.939381 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:49.981011 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.981087 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.981149 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.981204 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.981258 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:49.981316 netsrvmgr[6466]:  ARGS  = delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.981376 netsrvmgr[6466]:  230615-07:31:49.980756 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local
+2023 Jun 15 07:31:49.981434 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:49.981550 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.981609 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.981664 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.981730 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.982452 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:49.982521 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:49.982577 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:49.982657 netsrvmgr[6466]:  ARGS  = delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:49.982720 netsrvmgr[6466]:  230615-07:31:49.981819 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:31:49.982780 netsrvmgr[6466]:  230615-07:31:49.981905 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth1:0, ip_address=192.168.28.10, is_ipv6=0, acquired=0
+2023 Jun 15 07:31:49.982838 netsrvmgr[6466]:  230615-07:31:49.982272 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:31:49.982896 netsrvmgr[6466]:  230615-07:31:49.982366 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:49.984290 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:49.984363 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:49.984446 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:49.984551 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:49.984631 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link veth1
+2023 Jun 15 07:31:49.984703 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:49.984761 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link veth1
+2023 Jun 15 07:31:49.984820 netsrvmgr[6466]:  230615-07:31:49.983211 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:51.330335 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.330437 netsrvmgr[6466]:  ARGS  = veth0 delete
+2023 Jun 15 07:31:51.330502 netsrvmgr[6466]:  230615-07:31:51.309985 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth0 delete
+2023 Jun 15 07:31:51.330566 netsrvmgr[6466]:  230615-07:31:51.310060 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth0, connected=0
+2023 Jun 15 07:31:51.330629 netsrvmgr[6466]:  ARGS  = veth0 down
+2023 Jun 15 07:31:51.330710 netsrvmgr[6466]:  230615-07:31:51.310267 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth0 down
+2023 Jun 15 07:31:51.330778 netsrvmgr[6466]:  230615-07:31:51.310312 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth0, enabled=0
+2023 Jun 15 07:31:51.330840 netsrvmgr[6466]:  230615-07:31:51.310488 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:51.330900 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.330956 netsrvmgr[6466]:  230615-07:31:51.312882 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:51.349345 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.349420 netsrvmgr[6466]:  ARGS  = delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.349484 netsrvmgr[6466]:  230615-07:31:51.348478 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local
+2023 Jun 15 07:31:51.349543 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.349600 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.349657 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.349715 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.349793 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.349851 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.349908 netsrvmgr[6466]:  ARGS  = dobby0 delete
+2023 Jun 15 07:31:51.349967 netsrvmgr[6466]:  230615-07:31:51.349192 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 delete
+2023 Jun 15 07:31:51.350040 netsrvmgr[6466]:  230615-07:31:51.349262 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby0, connected=0
+2023 Jun 15 07:31:51.350626 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.350690 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.350747 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.350803 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.350877 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link veth0
+2023 Jun 15 07:31:51.350940 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.350996 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.351052 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.351108 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.351165 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.351220 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.351276 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.351332 netsrvmgr[6466]:  ARGS  = dobby_tap0 add
+2023 Jun 15 07:31:51.351391 netsrvmgr[6466]:  230615-07:31:51.350445 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby_tap0 add
+2023 Jun 15 07:31:51.351550 netsrvmgr[6466]:  230615-07:31:51.350513 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby_tap0, connected=1
+2023 Jun 15 07:31:51.351929 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.351993 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.352051 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.352107 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.352163 netsrvmgr[6466]:  ARGS  = dobby0 add
+2023 Jun 15 07:31:51.352243 netsrvmgr[6466]:  230615-07:31:51.350954 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 add
+2023 Jun 15 07:31:51.352305 netsrvmgr[6466]:  230615-07:31:51.351002 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby0, connected=1
+2023 Jun 15 07:31:51.352365 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.352421 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.352477 netsrvmgr[6466]:  ARGS  = dobby_tap0 delete
+2023 Jun 15 07:31:51.352536 netsrvmgr[6466]:  230615-07:31:51.351255 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby_tap0 delete
+2023 Jun 15 07:31:51.352596 netsrvmgr[6466]:  230615-07:31:51.351296 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby_tap0, connected=0
+2023 Jun 15 07:31:51.352656 netsrvmgr[6466]:  ARGS  = dobby_tap0 down
+2023 Jun 15 07:31:51.365735 netsrvmgr[6466]:  230615-07:31:51.351431 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby_tap0 down
+2023 Jun 15 07:31:51.365844 netsrvmgr[6466]:  230615-07:31:51.362548 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby_tap0, enabled=0
+2023 Jun 15 07:31:51.367825 netsrvmgr[6466]:  230615-07:31:51.362837 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:51.367932 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.367997 netsrvmgr[6466]:  230615-07:31:51.362942 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:51.394712 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.394831 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.394892 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.394948 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.395005 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.395062 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.395118 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.395176 netsrvmgr[6466]:  ARGS  = delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.395238 netsrvmgr[6466]:  230615-07:31:51.393617 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.395335 netsrvmgr[6466]:  230615-07:31:51.393701 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby_tap0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=0
+2023 Jun 15 07:31:51.395396 netsrvmgr[6466]:  230615-07:31:51.393978 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:31:51.395528 netsrvmgr[6466]:  230615-07:31:51.394066 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:51.395599 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.395679 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.395737 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link dobby_tap0
+2023 Jun 15 07:31:51.395799 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.395855 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.395922 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.396014 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link dobby_tap0
+2023 Jun 15 07:31:51.400680 netsrvmgr[6466]:  230615-07:31:51.399602 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:51.424593 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.424760 netsrvmgr[6466]:  ARGS  = dobby0 delete
+2023 Jun 15 07:31:51.424861 netsrvmgr[6466]:  230615-07:31:51.424573 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 delete
+2023 Jun 15 07:31:51.424929 netsrvmgr[6466]:  230615-07:31:51.424653 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby0, connected=0
+2023 Jun 15 07:31:51.424990 netsrvmgr[6466]:  ARGS  = dobby0 down
+2023 Jun 15 07:31:51.425107 netsrvmgr[6466]:  230615-07:31:51.424853 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 down
+2023 Jun 15 07:31:51.425172 netsrvmgr[6466]:  230615-07:31:51.424895 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby0, enabled=0
+2023 Jun 15 07:31:51.425234 netsrvmgr[6466]:  230615-07:31:51.425075 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:51.425425 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:31:51.425487 netsrvmgr[6466]:  230615-07:31:51.425176 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:51.518811 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.518891 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.518952 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.519034 netsrvmgr[6466]:  ARGS  = delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.519098 netsrvmgr[6466]:  230615-07:31:51.517649 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:31:51.519161 netsrvmgr[6466]:  230615-07:31:51.517729 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=2080:d0bb:1e::6440:b01, is_ipv6=1, acquired=0
+2023 Jun 15 07:31:51.519223 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.519282 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.519340 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.519397 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.540343 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.540453 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.540514 netsrvmgr[6466]:  ARGS  = delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:51.540606 netsrvmgr[6466]:  230615-07:31:51.518491 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local
+2023 Jun 15 07:31:51.540669 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.540728 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.540787 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.541966 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.542039 netsrvmgr[6466]:  ARGS  = delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:51.542103 netsrvmgr[6466]:  230615-07:31:51.518863 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:31:51.542166 netsrvmgr[6466]:  230615-07:31:51.518920 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=100.64.11.1, is_ipv6=0, acquired=0
+2023 Jun 15 07:31:51.542227 netsrvmgr[6466]:  230615-07:31:51.519151 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:31:51.542306 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.542366 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:31:51.542425 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:31:51.542484 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:31:51.542552 netsrvmgr[6466]:  ARGS  = delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.542615 netsrvmgr[6466]:  230615-07:31:51.522607 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:31:51.542677 netsrvmgr[6466]:  230615-07:31:51.522691 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=0
+2023 Jun 15 07:31:51.542738 netsrvmgr[6466]:  230615-07:31:51.522930 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:31:51.542799 netsrvmgr[6466]:  230615-07:31:51.523027 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:31:51.542871 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:31:51.542930 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:31:51.542989 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link dobby0
+2023 Jun 15 07:31:51.543063 netsrvmgr[6466]:  230615-07:31:51.523552 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:31:53.061191 netsrvmgr[6466]:  230615-07:31:53.059329 [mod=NETSRVMGR, lvl=INFO] [tid=24165] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 568196, time_now = 566267, time_earlier = 566263
+2023 Jun 15 07:31:53.061343 netsrvmgr[6466]:  230615-07:31:53.060387 [mod=NETSRVMGR, lvl=INFO] [tid=24165] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:31:53.516149 netsrvmgr[6466]:  230615-07:31:53.515216 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:31:53.516261 netsrvmgr[6466]:  230615-07:31:53.515521 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:31:53.516325 netsrvmgr[6466]:  230615-07:31:53.515617 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:31:53.516416 netsrvmgr[6466]:  230615-07:31:53.515656 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:31:53.516489 netsrvmgr[6466]:  230615-07:31:53.515679 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:31:56.129953 netsrvmgr[6466]:  230615-07:31:56.129160 [mod=NETSRVMGR, lvl=INFO] [tid=24165] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 571269, time_now = 569337, time_earlier = 569336
+2023 Jun 15 07:31:56.130125 netsrvmgr[6466]:  230615-07:31:56.129675 [mod=NETSRVMGR, lvl=INFO] [tid=24165] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:31:56.222199 netsrvmgr[6466]:  230615-07:31:56.221691 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:31:56.222282 netsrvmgr[6466]:  230615-07:31:56.221880 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:31:56.222383 netsrvmgr[6466]:  230615-07:31:56.221950 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:31:56.222449 netsrvmgr[6466]:  230615-07:31:56.221989 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:31:56.222513 netsrvmgr[6466]:  230615-07:31:56.222013 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:31:56.584901 netsrvmgr[6466]:  230615-07:31:56.584506 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:31:56.585038 netsrvmgr[6466]:  230615-07:31:56.584574 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:31:56.585105 netsrvmgr[6466]:  230615-07:31:56.584659 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [wlan0]
+2023 Jun 15 07:31:56.585167 netsrvmgr[6466]:   Interface wlan0
+2023 Jun 15 07:31:56.585230 netsrvmgr[6466]:  interface index is 3
+2023 Jun 15 07:31:56.585292 netsrvmgr[6466]:  230615-07:31:56.584776 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getInterfaceConfig:492] No ipaddress on interface wlan0
+2023 Jun 15 07:31:56.585354 netsrvmgr[6466]:  230615-07:31:56.584805 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getIPSettings:1885] stb ipv6 ipaddress not found
+2023 Jun 15 07:31:56.597021 netsrvmgr[6466]:  230615-07:31:56.590565 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:31:56.597136 netsrvmgr[6466]:  230615-07:31:56.590634 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:31:56.597201 netsrvmgr[6466]:  230615-07:31:56.590700 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [wlan0]
+2023 Jun 15 07:31:56.597271 netsrvmgr[6466]:   Interface wlan0
+2023 Jun 15 07:31:56.597339 netsrvmgr[6466]:  interface index is 3
+2023 Jun 15 07:31:56.597400 netsrvmgr[6466]:  230615-07:31:56.590794 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getInterfaceConfig:492] No ipaddress on interface wlan0
+2023 Jun 15 07:31:56.597463 netsrvmgr[6466]:  230615-07:31:56.590824 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getIPSettings:1895] stb ipv4 ipaddress not found.
+Jun 15 07:31:57.468715 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:32:02.303742 netsrvmgr[6466]:  230615-07:32:02.302777 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isAvailable:1366] [ROUTE_MODULE] IARM_BUS_NETSRVMGR_API_isAvailable is called
+2023 Jun 15 07:32:02.507079 netsrvmgr[6466]:  230615-07:32:02.496900 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:02.573811 netsrvmgr[6466]:  230615-07:32:02.572590 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 577705, time_now = 575781, time_earlier = 575779
+2023 Jun 15 07:32:02.573890 netsrvmgr[6466]:  230615-07:32:02.573029 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:02.573953 netsrvmgr[6466]:  230615-07:32:02.573085 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:02.589331 netsrvmgr[6466]:  230615-07:32:02.578123 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:02.589419 netsrvmgr[6466]:  230615-07:32:02.578180 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:02.589491 netsrvmgr[6466]:  230615-07:32:02.578500 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkInterfaceActive:427] TELEMETRY_NETWORK_MANAGER_ETHERNET_MODE
+2023 Jun 15 07:32:02.589562 netsrvmgr[6466]:  230615-07:32:02.578608 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:32:02.589625 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:02.589687 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:02.589749 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:32:02.653503 netsrvmgr[6466]:  230615-07:32:02.652723 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask ffff:ff00::
+2023 Jun 15 07:32:02.653597 netsrvmgr[6466]:  230615-07:32:02.652883 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [fe80::e2db:d1ff:fed8:f099]
+2023 Jun 15 07:32:02.653661 netsrvmgr[6466]:  230615-07:32:02.652912 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address []
+2023 Jun 15 07:32:02.653736 netsrvmgr[6466]:  230615-07:32:02.653039 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 2001:558:feed::1
+2023 Jun 15 07:32:02.653798 netsrvmgr[6466]:  230615-07:32:02.653066 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 2001:558:feed::2
+2023 Jun 15 07:32:02.754616 netsrvmgr[6466]:  230615-07:32:02.754485 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 577863, time_now = 575963, time_earlier = 575950
+2023 Jun 15 07:32:02.755044 netsrvmgr[6466]:  230615-07:32:02.754937 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:02.755635 netsrvmgr[6466]:  230615-07:32:02.755343 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:02.755709 netsrvmgr[6466]:  230615-07:32:02.755394 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getPublicIP:2019] interface value: eth0
+2023 Jun 15 07:32:02.755772 netsrvmgr[6466]:  230615-07:32:02.755436 [mod=NETSRVMGR, lvl=WARN] [tid=6512] [bind:354] stun::client::bind enter: server=stun.l.google.com port=19302 iface= ipv6=1 timeout=30 cache_timeout=0 dirty=0
+2023 Jun 15 07:32:04.434338 netsrvmgr[6466]:  230615-07:32:04.432579 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [sysModeChange:1834] [WIFI_MODULE] Sys Mode Change::New mode --> 0, Old mode --> 0
+2023 Jun 15 07:32:04.952071 netsrvmgr[6466]:  230615-07:32:04.951246 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:04.952182 netsrvmgr[6466]:  230615-07:32:04.951435 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:32:04.952238 netsrvmgr[6466]:  230615-07:32:04.951580 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:32:04.952292 netsrvmgr[6466]:  230615-07:32:04.951620 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:32:04.952405 netsrvmgr[6466]:  230615-07:32:04.951644 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:32:09.300252 netsrvmgr[6466]:  230615-07:32:09.299112 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:09.300342 netsrvmgr[6466]:  230615-07:32:09.299293 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:32:09.300399 netsrvmgr[6466]:  230615-07:32:09.299360 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:32:09.300455 netsrvmgr[6466]:  230615-07:32:09.299397 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:32:09.300511 netsrvmgr[6466]:  230615-07:32:09.299420 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:32:09.518079 netsrvmgr[6466]:  230615-07:32:09.516372 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.518580 netsrvmgr[6466]:  230615-07:32:09.516426 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.518648 netsrvmgr[6466]:  230615-07:32:09.516483 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:32:09.518805 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:09.518865 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:09.518946 netsrvmgr[6466]:  ip address is 10.0.0.19/24
+2023 Jun 15 07:32:09.588923 netsrvmgr[6466]:  230615-07:32:09.587720 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask 255.255.255.0
+2023 Jun 15 07:32:09.588995 netsrvmgr[6466]:  230615-07:32:09.587887 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [10.0.0.1]
+2023 Jun 15 07:32:09.589121 netsrvmgr[6466]:  230615-07:32:09.587982 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address [10.0.0.1]
+2023 Jun 15 07:32:09.589182 netsrvmgr[6466]:  230615-07:32:09.588165 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 75.75.75.75
+2023 Jun 15 07:32:09.589240 netsrvmgr[6466]:  230615-07:32:09.588193 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 75.75.76.76
+2023 Jun 15 07:32:09.600766 netsrvmgr[6466]:  230615-07:32:09.600108 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.600893 netsrvmgr[6466]:  230615-07:32:09.600171 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.600952 netsrvmgr[6466]:  230615-07:32:09.600228 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:32:09.601009 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:09.601065 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:09.601120 netsrvmgr[6466]:  ip address is 10.0.0.19/24
+2023 Jun 15 07:32:09.702977 netsrvmgr[6466]:  230615-07:32:09.702182 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask 255.255.255.0
+2023 Jun 15 07:32:09.703096 netsrvmgr[6466]:  230615-07:32:09.702402 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [10.0.0.1]
+2023 Jun 15 07:32:09.703156 netsrvmgr[6466]:  230615-07:32:09.702444 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address [10.0.0.1]
+2023 Jun 15 07:32:09.703244 netsrvmgr[6466]:  230615-07:32:09.702638 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 75.75.75.75
+2023 Jun 15 07:32:09.703304 netsrvmgr[6466]:  230615-07:32:09.702669 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 75.75.76.76
+2023 Jun 15 07:32:09.712334 netsrvmgr[6466]:  230615-07:32:09.710310 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.712401 netsrvmgr[6466]:  230615-07:32:09.710366 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.712489 netsrvmgr[6466]:  230615-07:32:09.710429 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:32:09.712551 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:09.712605 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:09.712658 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:32:09.781022 netsrvmgr[6466]:  230615-07:32:09.780823 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask ffff:ff00::
+2023 Jun 15 07:32:09.781171 netsrvmgr[6466]:  230615-07:32:09.780993 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [fe80::e2db:d1ff:fed8:f099]
+2023 Jun 15 07:32:09.781237 netsrvmgr[6466]:  230615-07:32:09.781024 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address []
+2023 Jun 15 07:32:09.781319 netsrvmgr[6466]:  230615-07:32:09.781188 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 2001:558:feed::1
+2023 Jun 15 07:32:09.781383 netsrvmgr[6466]:  230615-07:32:09.781216 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 2001:558:feed::2
+2023 Jun 15 07:32:09.794492 netsrvmgr[6466]:  230615-07:32:09.793381 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.794664 netsrvmgr[6466]:  230615-07:32:09.793451 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.794735 netsrvmgr[6466]:  230615-07:32:09.793501 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [eth0]
+2023 Jun 15 07:32:09.794827 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:09.794891 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:09.794952 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:32:09.851308 netsrvmgr[6466]:  230615-07:32:09.851157 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getNetMask_IfName:786] Netmask ffff:ff00::
+2023 Jun 15 07:32:09.851404 netsrvmgr[6466]:  230615-07:32:09.851350 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1920] Default Gateway [fe80::e2db:d1ff:fed8:f099]
+2023 Jun 15 07:32:09.851544 netsrvmgr[6466]:  230615-07:32:09.851384 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1937] DHCP Server IP Address []
+2023 Jun 15 07:32:09.851767 netsrvmgr[6466]:  230615-07:32:09.851601 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1944] Primary DNS 2001:558:feed::1
+2023 Jun 15 07:32:09.852194 netsrvmgr[6466]:  230615-07:32:09.851906 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1945] Secondary DNS 2001:558:feed::2
+2023 Jun 15 07:32:09.860030 netsrvmgr[6466]:  230615-07:32:09.859326 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.860172 netsrvmgr[6466]:  230615-07:32:09.859409 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.860245 netsrvmgr[6466]:  230615-07:32:09.859563 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [wlan0]
+2023 Jun 15 07:32:09.860338 netsrvmgr[6466]:   Interface wlan0
+2023 Jun 15 07:32:09.860411 netsrvmgr[6466]:  interface index is 3
+2023 Jun 15 07:32:09.860483 netsrvmgr[6466]:  230615-07:32:09.859668 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getInterfaceConfig:492] No ipaddress on interface wlan0
+2023 Jun 15 07:32:09.860555 netsrvmgr[6466]:  230615-07:32:09.859698 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getIPSettings:1895] stb ipv4 ipaddress not found.
+2023 Jun 15 07:32:09.868839 netsrvmgr[6466]:  230615-07:32:09.867945 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [isFeatureEnabled:666] getRFCParameter for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Network.ManualIPSettings.Enable failed.
+2023 Jun 15 07:32:09.868961 netsrvmgr[6466]:  230615-07:32:09.868046 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1841] Manual IP settings RFC is disabled
+2023 Jun 15 07:32:09.869023 netsrvmgr[6466]:  230615-07:32:09.868114 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPSettings:1878] interface [wlan0]
+2023 Jun 15 07:32:09.869083 netsrvmgr[6466]:   Interface wlan0
+2023 Jun 15 07:32:09.869141 netsrvmgr[6466]:  interface index is 3
+2023 Jun 15 07:32:09.869228 netsrvmgr[6466]:  230615-07:32:09.868217 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getInterfaceConfig:492] No ipaddress on interface wlan0
+2023 Jun 15 07:32:09.869311 netsrvmgr[6466]:  230615-07:32:09.868250 [mod=NETSRVMGR, lvl=ERROR] [tid=6512] [getIPSettings:1885] stb ipv6 ipaddress not found
+2023 Jun 15 07:32:10.178271 netsrvmgr[6466]:  230615-07:32:10.177067 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:32:10.247375 netsrvmgr[6466]:  230615-07:32:10.247251 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 585385, time_now = 583455, time_earlier = 583450
+2023 Jun 15 07:32:10.248735 netsrvmgr[6466]:  230615-07:32:10.247859 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:11.147795 netsrvmgr[6466]:  230615-07:32:11.146982 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:11.213885 netsrvmgr[6466]:  230615-07:32:11.213389 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 586355, time_now = 584421, time_earlier = 584392
+2023 Jun 15 07:32:11.214030 netsrvmgr[6466]:  230615-07:32:11.213867 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:11.214148 netsrvmgr[6466]:  230615-07:32:11.213924 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:11.974188 netsrvmgr[6466]:  230615-07:32:11.973613 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:12.036328 netsrvmgr[6466]:  230615-07:32:12.036193 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 587182, time_now = 585244, time_earlier = 585221
+2023 Jun 15 07:32:12.036787 netsrvmgr[6466]:  230615-07:32:12.036636 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:12.036883 netsrvmgr[6466]:  230615-07:32:12.036776 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:12.418955 netsrvmgr[6466]:  230615-07:32:12.418257 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:32:16.139420 netsrvmgr[6466]:  230615-07:32:16.138274 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:16.139652 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:32:16.139710 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:32:16.139768 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:32:16.139826 netsrvmgr[6466]:  230615-07:32:16.138596 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+Jun 15 07:32:28.065264 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:32:37.773807 netsrvmgr[6466]:  230615-07:32:37.773021 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:32:37.944709 netsrvmgr[6466]:  230615-07:32:37.944575 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:38.010256 netsrvmgr[6466]:  230615-07:32:38.009521 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 613153, time_now = 611218, time_earlier = 611215
+2023 Jun 15 07:32:38.010374 netsrvmgr[6466]:  230615-07:32:38.009953 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:38.010437 netsrvmgr[6466]:  230615-07:32:38.010009 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:39.477656 netsrvmgr[6466]:  230615-07:32:39.476372 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by timeout
+2023 Jun 15 07:32:39.477769 netsrvmgr[6466]:  230615-07:32:39.476767 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:347] Default gateway MAC = e0:db:d1:d8:f0:99
+2023 Jun 15 07:32:39.477891 netsrvmgr[6466]:  230615-07:32:39.477515 [mod=RBUS, lvl=ERROR] [tid=7189] rbus_get by t2_lib_wifihal failed; Received error 12 from RBUS Daemon for the object Telemetry.ReportProfiles.wifihal.EventMarkerList
+2023 Jun 15 07:32:39.477962 netsrvmgr[6466]:  T2ERROR:doPopulateEventMarkerList ../../../git/source/commonlib/telemetry_busmessage_sender.c:484: rbus mode : No event list configured in profiles Telemetry.ReportProfiles.wifihal.EventMarkerList and return value 6
+2023 Jun 15 07:32:39.479958 netsrvmgr[6466]:  230615-07:32:39.479042 [mod=RBUSCORE, lvl=INFO] [tid=7189] Subscription for Telemetry.ReportProfiles.ProfilesUpdated::Telemetry.ReportProfiles.ProfilesUpdated is now active.
+2023 Jun 15 07:32:39.480055 netsrvmgr[6466]:  230615-07:32:39.479094 [mod=RBUS, lvl=INFO] [tid=7189] rbusEvent_SubscribeWithRetries: Telemetry.ReportProfiles.ProfilesUpdated subscribe retries succeeded
+2023 Jun 15 07:32:40.248170 netsrvmgr[6466]:  230615-07:32:40.248033 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:32:40.313122 netsrvmgr[6466]:  230615-07:32:40.312992 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 615456, time_now = 613521, time_earlier = 613520
+2023 Jun 15 07:32:40.313555 netsrvmgr[6466]:  230615-07:32:40.313459 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:41.328875 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:32:40 2023
+2023 Jun 15 07:32:41.329003 netsrvmgr[6466]:  
+2023 Jun 15 07:32:41.329067 netsrvmgr[6466]:  230615-07:32:41.327746 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1172] Before Copying name=eth0, mac=a8:4a:63:1e:5a:de, flags=0x00011043
+2023 Jun 15 07:32:41.329128 netsrvmgr[6466]:  230615-07:32:41.327821 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1177] name=eth0, mac=a8:4a:63:1e:5a:de, flags=0x00011043
+2023 Jun 15 07:32:41.329188 netsrvmgr[6466]:  230615-07:32:41.327852 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1172] Before Copying name=wlan0, mac=e8:ca:c8:a4:81:a8, flags=0x00001003
+2023 Jun 15 07:32:41.329249 netsrvmgr[6466]:  230615-07:32:41.327879 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1177] name=wlan0, mac=e8:ca:c8:a4:81:a8, flags=0x00001003
+2023 Jun 15 07:32:41.329341 netsrvmgr[6466]:  230615-07:32:41.327903 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1172] Before Copying name=veth0, mac=62:f2:3f:1a:47:f2, flags=0x00001002
+2023 Jun 15 07:32:41.329405 netsrvmgr[6466]:  230615-07:32:41.327928 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getInterfaceList:1177] name=veth0, mac=62:f2:3f:1a:47:f2, flags=0x00001002
+2023 Jun 15 07:32:41.710642 netsrvmgr[6466]:  230615-07:32:41.709790 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:41.710746 netsrvmgr[6466]:  230615-07:32:41.710032 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:32:41.710808 netsrvmgr[6466]:  230615-07:32:41.710104 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:32:41.710868 netsrvmgr[6466]:  230615-07:32:41.710140 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:32:41.710929 netsrvmgr[6466]:  230615-07:32:41.710164 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:32:45.605232 netsrvmgr[6466]:  230615-07:32:45.604347 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1489] interface = [WIFI]
+2023 Jun 15 07:32:45.605361 netsrvmgr[6466]:  230615-07:32:45.604451 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1515] interface = [WIFI] enabled = [1]
+2023 Jun 15 07:32:46.610184 netsrvmgr[6466]:  230615-07:32:46.607891 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:46.704528 netsrvmgr[6466]:  230615-07:32:46.704161 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 621816, time_now = 619912, time_earlier = 619888
+2023 Jun 15 07:32:46.710716 netsrvmgr[6466]:  230615-07:32:46.704758 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:46.710937 netsrvmgr[6466]:  230615-07:32:46.704852 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:46.857197 netsrvmgr[6466]:  230615-07:32:46.853328 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1489] interface = [ETHERNET]
+2023 Jun 15 07:32:46.857323 netsrvmgr[6466]:  230615-07:32:46.853441 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isInterfaceEnabled:1515] interface = [ETHERNET] enabled = [1]
+2023 Jun 15 07:32:48.123194 netsrvmgr[6466]:  230615-07:32:48.121651 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:48.203530 netsrvmgr[6466]:  230615-07:32:48.203391 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 623330, time_now = 621411, time_earlier = 621411
+2023 Jun 15 07:32:48.203961 netsrvmgr[6466]:  230615-07:32:48.203874 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:48.204056 netsrvmgr[6466]:  230615-07:32:48.203942 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:48.204676 netsrvmgr[6466]:  230615-07:32:48.204593 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:32:48.204834 netsrvmgr[6466]:  230615-07:32:48.204769 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:312] Interface Name  eth0
+2023 Jun 15 07:32:48.204931 netsrvmgr[6466]:  230615-07:32:48.204848 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [readDevFile:344] Network Type  MOCA
+2023 Jun 15 07:32:48.204998 netsrvmgr[6466]:  230615-07:32:48.204886 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1111] Current Active Interface : [MOCA].
+2023 Jun 15 07:32:48.205110 netsrvmgr[6466]:  230615-07:32:48.204910 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getActiveInterface:1112] TELEMETRY_NETWORK_MANAGER_ACTIVE_INTERFACE:MOCA
+2023 Jun 15 07:32:52.346853 netsrvmgr[6466]:  230615-07:32:52.343724 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:52.416396 netsrvmgr[6466]:  230615-07:32:52.416242 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 627552, time_now = 625624, time_earlier = 625623
+2023 Jun 15 07:32:52.416986 netsrvmgr[6466]:  230615-07:32:52.416855 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:52.417108 netsrvmgr[6466]:  230615-07:32:52.416946 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+Jun 15 07:32:58.661135 : udhcpc : leasefail,veth0:0,,,,DNS=,
+2023 Jun 15 07:32:58.394002 netsrvmgr[6466]:  230615-07:32:58.392540 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1281] test_connectivity: : BEGIN timeout = 2000ms
+2023 Jun 15 07:32:58.461197 netsrvmgr[6466]:  230615-07:32:58.460317 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 633601, time_now = 631668, time_earlier = 631667
+2023 Jun 15 07:32:58.461303 netsrvmgr[6466]:  230615-07:32:58.460847 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:32:58.461355 netsrvmgr[6466]:  230615-07:32:58.460923 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [isConnectedToInternet:1283] test_connectivity: : PASS
+2023 Jun 15 07:32:59.198783 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.198906 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.203765 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.203842 netsrvmgr[6466]:  ARGS  = add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.203920 netsrvmgr[6466]:  230615-07:32:59.200566 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby0 100.64.11.1 global
+2023 Jun 15 07:32:59.203976 netsrvmgr[6466]:  230615-07:32:59.200805 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=100.64.11.1, is_ipv6=0, acquired=1
+2023 Jun 15 07:32:59.204095 netsrvmgr[6466]:  230615-07:32:59.201098 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:32:59.204170 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.204225 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.204277 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.207416 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.208711 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.210568 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.210687 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.210747 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.210801 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.216042 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.218216 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.218271 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.218322 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.218373 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.218427 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.218480 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.223981 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.225917 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.225988 netsrvmgr[6466]:  ARGS  = dobby0 up
+2023 Jun 15 07:32:59.226045 netsrvmgr[6466]:  230615-07:32:59.218265 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 up
+2023 Jun 15 07:32:59.226127 netsrvmgr[6466]:  230615-07:32:59.218341 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby0, enabled=1
+2023 Jun 15 07:32:59.226184 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.226236 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.226286 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.226338 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.226388 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.226438 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.226490 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.226543 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.226713 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.238108 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.238175 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.238228 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.238280 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.238332 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.238386 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.258356 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.258432 netsrvmgr[6466]:  ARGS  = veth1 up
+2023 Jun 15 07:32:59.258490 netsrvmgr[6466]:  230615-07:32:59.242337 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 up
+2023 Jun 15 07:32:59.258547 netsrvmgr[6466]:  230615-07:32:59.242412 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth1, enabled=1
+2023 Jun 15 07:32:59.258654 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.258711 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.258764 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.258817 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.258890 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.258943 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.259002 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.259060 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.259113 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.259176 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.259236 netsrvmgr[6466]:  ARGS  = dobby0 add
+2023 Jun 15 07:32:59.259293 netsrvmgr[6466]:  230615-07:32:59.247965 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby0 add
+2023 Jun 15 07:32:59.259349 netsrvmgr[6466]:  230615-07:32:59.248046 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=dobby0, connected=1
+2023 Jun 15 07:32:59.259418 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.259525 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.259584 netsrvmgr[6466]:  ARGS  = veth1 add
+2023 Jun 15 07:32:59.259682 netsrvmgr[6466]:  230615-07:32:59.248544 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth1 add
+2023 Jun 15 07:32:59.259739 netsrvmgr[6466]:  230615-07:32:59.248668 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth1, connected=1
+2023 Jun 15 07:32:59.259798 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.259859 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.259916 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.385743 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.385844 netsrvmgr[6466]:  ARGS  = add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.385933 netsrvmgr[6466]:  230615-07:32:59.385728 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.385992 netsrvmgr[6466]:  230615-07:32:59.385808 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:32:59.386141 netsrvmgr[6466]:  230615-07:32:59.386072 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:32:59.386206 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.389623 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.389695 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.390894 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.390965 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.391018 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.391074 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.391129 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.391182 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.444816 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.444922 netsrvmgr[6466]:  ARGS  = dobby_tap0 up
+2023 Jun 15 07:32:59.445430 netsrvmgr[6466]:  230615-07:32:59.444212 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = dobby_tap0 up
+2023 Jun 15 07:32:59.445509 netsrvmgr[6466]:  230615-07:32:59.444287 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=dobby_tap0, enabled=1
+2023 Jun 15 07:32:59.445575 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.448278 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:32:59.448402 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:32:59.472200 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.472306 netsrvmgr[6466]:  ARGS  = add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.472369 netsrvmgr[6466]:  230615-07:32:59.469313 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 veth1:0 192.168.28.10 global
+2023 Jun 15 07:32:59.472430 netsrvmgr[6466]:  230615-07:32:59.469395 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth1:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:32:59.472488 netsrvmgr[6466]:  230615-07:32:59.469738 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:32:59.472577 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.472688 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.472744 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.472802 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.472866 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.472918 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.472974 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.473026 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.473082 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.503269 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:32:59.503375 netsrvmgr[6466]:  ARGS  = add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.503523 netsrvmgr[6466]:  230615-07:32:59.503269 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 dobby_tap0:0 192.168.28.10 global
+2023 Jun 15 07:32:59.503590 netsrvmgr[6466]:  230615-07:32:59.503350 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby_tap0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:32:59.503800 netsrvmgr[6466]:  230615-07:32:59.503733 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:32:59.503862 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:32:59.508436 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.508534 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.508596 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.508719 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.508782 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.508882 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:32:59.508946 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:32:59.509006 netsrvmgr[6466]:  Exiting processroute_rtnl function
+Jun 15 07:32:59.652365 : udhcpc : deconfig,dobby0:0,,,,DNS=,
+Jun 15 07:32:59.709466 : udhcpc : deconfig,veth1:0,,,,DNS=,
+Jun 15 07:32:59.783106 : udhcpc : deconfig,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:33:00.681395 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:00.681509 netsrvmgr[6466]:  ARGS  = add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.681572 netsrvmgr[6466]:  230615-07:33:00.676154 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 veth1 fe80::f824:30ff:fee9:a85d local
+2023 Jun 15 07:33:00.681632 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:00.681688 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.681745 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.681801 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.681855 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.772194 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:00.772308 netsrvmgr[6466]:  ARGS  = add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.772376 netsrvmgr[6466]:  230615-07:33:00.771913 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 dobby0 2080:d0bb:1e::6440:b01 global
+2023 Jun 15 07:33:00.772436 netsrvmgr[6466]:  230615-07:33:00.771987 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=dobby0, ip_address=2080:d0bb:1e::6440:b01, is_ipv6=1, acquired=1
+2023 Jun 15 07:33:00.773296 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:00.773380 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.773442 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:00.773506 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:00.773563 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:01.128930 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:01.129066 netsrvmgr[6466]:  ARGS  = add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.129140 netsrvmgr[6466]:  230615-07:33:01.124129 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local
+2023 Jun 15 07:33:01.129201 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:01.129258 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:01.129314 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:03.993585 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.993683 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.997229 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.997304 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.997539 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.997617 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:03.998308 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:03.998386 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.017634 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.017704 netsrvmgr[6466]:  ARGS  = veth2 up
+2023 Jun 15 07:33:04.017764 netsrvmgr[6466]:  230615-07:33:04.010654 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth2 up
+2023 Jun 15 07:33:04.017824 netsrvmgr[6466]:  230615-07:33:04.010751 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceEnabledStatusChanged:223] interface=veth2, enabled=1
+2023 Jun 15 07:33:04.017883 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.017954 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.018012 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.018067 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.018124 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.018181 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.018236 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.018292 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.018348 netsrvmgr[6466]:  ARGS  = veth2 add
+2023 Jun 15 07:33:04.018407 netsrvmgr[6466]:  230615-07:33:04.017240 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [linkCallback:454] Arguments received = veth2 add
+2023 Jun 15 07:33:04.018466 netsrvmgr[6466]:  230615-07:33:04.017312 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceConnectionStatusChanged:237] interface=veth2, connected=1
+2023 Jun 15 07:33:04.018525 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.024962 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:04.025047 netsrvmgr[6466]:  Exiting processlink_rtnl function
+2023 Jun 15 07:33:04.117520 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:04.117684 netsrvmgr[6466]:  ARGS  = add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.117796 netsrvmgr[6466]:  230615-07:33:04.117529 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv4 veth2:0 192.168.28.10 global
+2023 Jun 15 07:33:04.117887 netsrvmgr[6466]:  230615-07:33:04.117608 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth2:0, ip_address=192.168.28.10, is_ipv6=0, acquired=1
+2023 Jun 15 07:33:04.117986 netsrvmgr[6466]:  230615-07:33:04.117928 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:33:04.118050 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:04.118333 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.118425 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.118579 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.118657 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.118858 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.118920 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:04.119272 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:04.119345 netsrvmgr[6466]:  Exiting processroute_rtnl function
+Jun 15 07:33:04.244701 : udhcpc : deconfig,veth2:0,,,,DNS=,
+2023 Jun 15 07:33:05.576762 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:05.577035 netsrvmgr[6466]:  ARGS  = add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.577141 netsrvmgr[6466]:  230615-07:33:05.571809 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local
+2023 Jun 15 07:33:05.577204 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:05.577274 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:05.577436 netsrvmgr[6466]:  Exiting processroute_rtnl function
+Jun 15 07:33:07.822896 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:33:08.914899 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:33:09.010742 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:33:10.314472 netsrvmgr[6466]:  230615-07:33:10.313664 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:33:10.376975 netsrvmgr[6466]:  230615-07:33:10.376843 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 645522, time_now = 643585, time_earlier = 643585
+2023 Jun 15 07:33:10.377360 netsrvmgr[6466]:  230615-07:33:10.377282 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:33:13.439266 : udhcpc : leasefail,veth2:0,,,,DNS=,
+Jun 15 07:33:29.272126 : udhcpc : leasefail,veth0:0,,,,DNS=,
+Jun 15 07:33:36.927436 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:33:38.090964 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:33:38.169982 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:33:37.916803 netsrvmgr[6466]:  230615-07:33:37.916061 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:33:40.378258 netsrvmgr[6466]:  230615-07:33:40.377478 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:33:40.441732 netsrvmgr[6466]:  230615-07:33:40.441564 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 675586, time_now = 673650, time_earlier = 673649
+2023 Jun 15 07:33:40.442221 netsrvmgr[6466]:  230615-07:33:40.442117 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:33:42.626344 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:33:45.764404 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:33:40 2023
+2023 Jun 15 07:33:45.764540 netsrvmgr[6466]:  
+2023 Jun 15 07:33:45.764601 netsrvmgr[6466]:  Entering processaddr_rtnl function
+2023 Jun 15 07:33:45.764661 netsrvmgr[6466]:  ARGS  = delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.764724 netsrvmgr[6466]:  230615-07:33:45.763435 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [addressCallback:475] Arguments received = delete ipv4 veth0:0 192.168.28.10 global
+2023 Jun 15 07:33:45.764786 netsrvmgr[6466]:  230615-07:33:45.763557 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:251] interface=veth0:0, ip_address=192.168.28.10, is_ipv6=0, acquired=0
+2023 Jun 15 07:33:45.764942 netsrvmgr[6466]:  230615-07:33:45.763869 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [eventInterfaceIPAddressStatusChanged:268] Updated the DHCP Server IP Address: [10.0.0.1]
+2023 Jun 15 07:33:45.765012 netsrvmgr[6466]:  230615-07:33:45.763977 [mod=NETSRVMGR, lvl=INFO] [tid=7194] [getDefaultInterface:1424] default route interface = eth0 gateway = fe80::e2db:d1ff:fed8:f099
+2023 Jun 15 07:33:45.765075 netsrvmgr[6466]:  Exiting processaddr_rtnl function
+2023 Jun 15 07:33:45.765135 netsrvmgr[6466]:  230615-07:33:45.764152 [mod=NETSRVMGR, lvl=INFO] [tid=7189] [default_gateway_mac_logger:341] Triggered by signal
+2023 Jun 15 07:33:45.766211 netsrvmgr[6466]:  Entering processroute_rtnl function
+2023 Jun 15 07:33:45.766308 netsrvmgr[6466]:  Exiting processroute_rtnl function
+2023 Jun 15 07:33:45.766369 netsrvmgr[6466]:  Entering processlink_rtnl function
+2023 Jun 15 07:33:45.766432 netsrvmgr[6466]:  Exiting processlink_rtnl function . Received Delete message for link veth0
+2023 Jun 15 07:33:48.836027 netsrvmgr[6466]:  230615-07:33:48.835129 [mod=NETSRVMGR, lvl=INFO] [tid=31584] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 683972, time_now = 682043, time_earlier = 682034
+2023 Jun 15 07:33:48.836184 netsrvmgr[6466]:  230615-07:33:48.835994 [mod=NETSRVMGR, lvl=INFO] [tid=31584] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:33:51.898910 netsrvmgr[6466]:  230615-07:33:51.897547 [mod=NETSRVMGR, lvl=INFO] [tid=31584] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 687044, time_now = 685106, time_earlier = 685105
+2023 Jun 15 07:33:51.899031 netsrvmgr[6466]:  230615-07:33:51.898018 [mod=NETSRVMGR, lvl=INFO] [tid=31584] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:34:05.940727 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:34:07.257674 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:34:07.369434 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:34:10.443076 netsrvmgr[6466]:  230615-07:34:10.442317 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:34:10.509627 netsrvmgr[6466]:  230615-07:34:10.509038 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 705650, time_now = 703717, time_earlier = 703711
+2023 Jun 15 07:34:10.509745 netsrvmgr[6466]:  230615-07:34:10.509485 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:34:11.814030 : udhcpc : leasefail,veth2:0,,,,DNS=,
+Jun 15 07:34:34.963683 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:34:36.453846 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:34:36.578086 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:34:38.052369 netsrvmgr[6466]:  230615-07:34:38.051283 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:34:40.510474 netsrvmgr[6466]:  230615-07:34:40.509689 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:34:40.572898 netsrvmgr[6466]:  230615-07:34:40.572716 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 735718, time_now = 733781, time_earlier = 733757
+2023 Jun 15 07:34:40.573450 netsrvmgr[6466]:  230615-07:34:40.573337 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:34:41.008170 : udhcpc : leasefail,veth2:0,,,,DNS=,
+Jun 15 07:35:03.937175 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:35:05.623954 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:35:05.734600 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:35:10.167791 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:35:10.574242 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:34:40 2023
+2023 Jun 15 07:35:10.574383 netsrvmgr[6466]:  
+2023 Jun 15 07:35:10.574447 netsrvmgr[6466]:  230615-07:35:10.573523 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:35:10.657288 netsrvmgr[6466]:  230615-07:35:10.657045 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 765782, time_now = 763865, time_earlier = 763854
+2023 Jun 15 07:35:10.657637 netsrvmgr[6466]:  230615-07:35:10.657503 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:35:32.982570 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:35:34.801729 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:35:34.912113 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+2023 Jun 15 07:35:38.186493 netsrvmgr[6466]:  230615-07:35:38.185645 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+Jun 15 07:35:39.323586 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:35:40.659081 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:35:40 2023
+2023 Jun 15 07:35:40.659210 netsrvmgr[6466]:  
+2023 Jun 15 07:35:40.659302 netsrvmgr[6466]:  230615-07:35:40.657707 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:35:40.724669 netsrvmgr[6466]:  230615-07:35:40.724064 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 795866, time_now = 793932, time_earlier = 793927
+2023 Jun 15 07:35:40.724785 netsrvmgr[6466]:  230615-07:35:40.724525 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:36:01.952154 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:36:03.970813 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:36:04.082112 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:36:08.482420 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:36:10.726094 netsrvmgr[6466]:  230615-07:36:10.724697 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:36:10.859690 netsrvmgr[6466]:  230615-07:36:10.859549 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 825933, time_now = 824068, time_earlier = 824034
+2023 Jun 15 07:36:10.860168 netsrvmgr[6466]:  230615-07:36:10.860071 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:36:31.071130 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:36:33.154649 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:36:33.253629 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:36:37.639839 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:36:38.280666 netsrvmgr[6466]:  230615-07:36:38.279823 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:36:40.861667 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:36:40 2023
+2023 Jun 15 07:36:40.861798 netsrvmgr[6466]:  
+2023 Jun 15 07:36:40.861906 netsrvmgr[6466]:  230615-07:36:40.860257 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:36:40.916299 netsrvmgr[6466]:  230615-07:36:40.916092 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 856068, time_now = 854124, time_earlier = 854107
+2023 Jun 15 07:36:40.916698 netsrvmgr[6466]:  230615-07:36:40.916567 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:36:42.538407 netsrvmgr[6466]:  230615-07:36:42.537714 [mod=WIFIHAL, lvl=INFO] [tid=8318] wpa_supplicant heartbeat success.
+Jun 15 07:37:00.055578 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:37:02.339925 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:37:02.430743 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:37:06.815308 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:37:10.918131 netsrvmgr[6466]:  230615-07:37:10.916757 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:37:11.012969 netsrvmgr[6466]:  230615-07:37:11.012647 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 886125, time_now = 884221, time_earlier = 884213
+2023 Jun 15 07:37:11.013275 netsrvmgr[6466]:  230615-07:37:11.013142 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+2023 Jun 15 07:37:22.673251 netsrvmgr[6466]:  230615-07:37:22.672527 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:37:22.673430 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:37:22.673549 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:37:22.673617 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:37:22.673680 netsrvmgr[6466]:  230615-07:37:22.672838 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+2023 Jun 15 07:37:24.699424 netsrvmgr[6466]:  230615-07:37:24.698213 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:37:24.699574 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:37:24.699662 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:37:24.699725 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:37:24.699786 netsrvmgr[6466]:  230615-07:37:24.698482 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+Jun 15 07:37:30.063348 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:37:31.500920 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:37:31.609737 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:37:35.983385 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:37:38.353542 netsrvmgr[6466]:  230615-07:37:38.352662 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:37:40.050439 netsrvmgr[6466]:  230615-07:37:40.049527 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:37:40.050558 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:37:40.050620 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:37:40.050679 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:37:40.050739 netsrvmgr[6466]:  230615-07:37:40.049780 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+2023 Jun 15 07:37:41.014174 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:37:40 2023
+2023 Jun 15 07:37:41.014352 netsrvmgr[6466]:  
+2023 Jun 15 07:37:41.014421 netsrvmgr[6466]:  230615-07:37:41.013376 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:37:41.089623 netsrvmgr[6466]:  230615-07:37:41.088264 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 916222, time_now = 914296, time_earlier = 914282
+2023 Jun 15 07:37:41.089751 netsrvmgr[6466]:  230615-07:37:41.088822 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:37:58.972017 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+2023 Jun 15 07:37:59.005448 netsrvmgr[6466]:  230615-07:37:59.004562 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getIPv4RouteInterface:253] ctive interface v4 eth0
+2023 Jun 15 07:37:59.005584 netsrvmgr[6466]:   Interface eth0
+2023 Jun 15 07:37:59.005650 netsrvmgr[6466]:  interface index is 2
+2023 Jun 15 07:37:59.005737 netsrvmgr[6466]:  ip address is 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64
+2023 Jun 15 07:37:59.005901 netsrvmgr[6466]:  230615-07:37:59.004906 [mod=NETSRVMGR, lvl=INFO] [tid=6512] [getSTBip:1252] stb ipaddress : [2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade]
+Jun 15 07:38:00.691995 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:38:00.780134 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:38:05.193776 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:38:11.090818 netsrvmgr[6466]:  230615-07:38:11.089064 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:38:11.163566 netsrvmgr[6466]:  230615-07:38:11.163297 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 946297, time_now = 944371, time_earlier = 944367
+2023 Jun 15 07:38:11.164082 netsrvmgr[6466]:  230615-07:38:11.163974 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:38:28.111810 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:38:29.861539 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:38:29.960943 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:38:34.379248 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:38:38.418546 netsrvmgr[6466]:  230615-07:38:38.417767 [mod=WIFIHAL, lvl=INFO] [tid=6512] SSID entries:1
+2023 Jun 15 07:38:41.164961 netsrvmgr[6466]:  I-ARM NET-SRV-MGR: HeartBeat at Thu Jun 15 07:38:40 2023
+2023 Jun 15 07:38:41.165102 netsrvmgr[6466]:  
+2023 Jun 15 07:38:41.165165 netsrvmgr[6466]:  230615-07:38:41.164176 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:38:41.228882 netsrvmgr[6466]:  230615-07:38:41.228749 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 976372, time_now = 974437, time_earlier = 974410
+2023 Jun 15 07:38:41.229267 netsrvmgr[6466]:  230615-07:38:41.229190 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>
+Jun 15 07:38:57.282865 : udhcpc : leasefail,dobby0:0,,,,DNS=,
+Jun 15 07:38:59.024950 : udhcpc : leasefail,veth1:0,,,,DNS=,
+Jun 15 07:38:59.117827 : udhcpc : leasefail,dobby_tap0:0,,,,DNS=,
+Jun 15 07:39:03.547526 : udhcpc : leasefail,veth2:0,,,,DNS=,
+2023 Jun 15 07:39:11.231260 netsrvmgr[6466]:  230615-07:39:11.229394 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [connectivityMonitorThrd:342] connectivity monitor 30 sec timeout !
+2023 Jun 15 07:39:11.319243 netsrvmgr[6466]:  230615-07:39:11.318448 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkCurlResponse:257] endpoints count = 3 response count 3, handles = 0, deadline = 1006438, time_now = 1004526, time_earlier = 1004498
+2023 Jun 15 07:39:11.319379 netsrvmgr[6466]:  230615-07:39:11.319030 [mod=NETSRVMGR, lvl=INFO] [tid=7180] [checkResponseCode:130] Response code  = <204> internet connection state = <3>

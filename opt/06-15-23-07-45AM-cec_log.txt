@@ -1,0 +1,431 @@
+2023 Jun 15 07:22:40.199179 sh[7739]:  
+2023 Jun 15 07:22:40.199327 sh[7739]:  230615-07:22:40:198152 []Calling IARMMgr Init
+2023 Jun 15 07:22:40.199402 sh[7739]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = CECMgr
+2023 Jun 15 07:22:40.249738 sh[7739]:  setting init done
+2023 Jun 15 07:22:40.249849 sh[7739]:  Registering CECMgr
+2023 Jun 15 07:22:40.252243 sh[7739]:  
+2023 Jun 15 07:22:40.252371 sh[7739]:  230615-07:22:40:252129 []I-ARM CEC Mgr: HeartBeat at Thu Jun 15 07:22:40 2023
+2023 Jun 15 07:22:40.252433 sh[7739]:  
+2023 Jun 15 07:22:50.513380 sh[7739]:  
+2023 Jun 15 07:22:50.522880 sh[7739]:  230615-07:22:50:510600 [][_IsAvailable:532] IARM_BUS_CECMGR_API_isAvailable is called
+2023 Jun 15 07:22:50.523324 sh[7739]:  230615-07:22:50:517916 []Inside _Enable : 0, 1  >>>>>>
+2023 Jun 15 07:22:50.523391 sh[7739]:  
+2023 Jun 15 07:22:50.523449 sh[7739]:  230615-07:22:50:517981 []Inside CECIARMMgr::start
+2023 Jun 15 07:22:50.523514 sh[7739]:  HdmiCecOpen
+2023 Jun 15 07:22:50.523608 sh[7739]:  HdmiCecSetRxCallback
+2023 Jun 15 07:22:50.523670 sh[7739]:  HdmiCecSetTxCallback
+2023 Jun 15 07:22:50.523734 sh[7739]:  
+2023 Jun 15 07:22:50.523794 sh[7739]:  230615-07:22:50:518546 [CECIARMMgr]Bus::start is called
+2023 Jun 15 07:22:50.523866 sh[7739]:  HdmiCecGetPhysicalAddress
+2023 Jun 15 07:22:50.523974 sh[7739]:  HdmiCecGetPhysicalAddress: Physical address: 0
+2023 Jun 15 07:22:50.524449 sh[7739]:  
+2023 Jun 15 07:22:50.524584 sh[7739]:  230615-07:22:50:523478 [CECIARMMgr]Bus::Reader::run() started
+2023 Jun 15 07:22:50.530214 sh[7739]:  
+2023 Jun 15 07:22:50.530310 sh[7739]:  230615-07:22:50:528657 [CECIARMMgr]Bus::Writer::run() started
+2023 Jun 15 07:22:50.601849 sh[7739]:  HdmiCecAddLogicalAddress: Add logical address: 0
+2023 Jun 15 07:22:50.601938 sh[7739]:  HdmiCecAddLogicalAddress: CEC_IOC_ADD_LOGICAL_ADDR Successs !!!
+2023 Jun 15 07:22:50.673750 sh[7739]:  HdmiCecAddLogicalAddress: Add logical address: 0
+2023 Jun 15 07:22:50.673828 sh[7739]:  HdmiCecAddLogicalAddress: CEC_IOC_ADD_LOGICAL_ADDR Successs !!!
+2023 Jun 15 07:22:50.676853 sh[7739]:  
+2023 Jun 15 07:22:50.676949 sh[7739]:  230615-07:22:50:676720 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Report Physical Address :0F 84 00 00 00
+2023 Jun 15 07:22:50.831764 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:50.831874 sh[7739]:   MSG:  0xf  0x84  0x0  0x0  0x0
+2023 Jun 15 07:22:50.895365 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:50.958704 sh[7739]:   0x30  0x8c CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:51.022018 sh[7739]:   0x70  0x8c CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:51.090711 sh[7739]:   0x30  0x46 CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:51.278729 sh[7739]:   0x70  0x46
+2023 Jun 15 07:22:51.278844 sh[7739]:  230615-07:22:51:278121 [CECIARMMgr]Tuner 1 to TV : opcode: Give Ddevice Vendor ID :30 8C
+2023 Jun 15 07:22:51.278905 sh[7739]:  
+2023 Jun 15 07:22:51.278963 sh[7739]:  230615-07:22:51:278298 [CECIARMMgr]Tuner 3 to TV : opcode: Give Ddevice Vendor ID :70 8C
+2023 Jun 15 07:22:51.279030 sh[7739]:  
+2023 Jun 15 07:22:51.279208 sh[7739]:  230615-07:22:51:278414 [CECIARMMgr]Tuner 1 to TV : opcode: Give OSD Name :30 46
+2023 Jun 15 07:22:51.279275 sh[7739]:  
+2023 Jun 15 07:22:51.279332 sh[7739]:  230615-07:22:51:278525 [CECIARMMgr]Tuner 3 to TV : opcode: Give OSD Name :70 46
+2023 Jun 15 07:22:51.301451 sh[7739]:  
+2023 Jun 15 07:22:51.301526 sh[7739]:  230615-07:22:51:299047 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Device Vendor Id :0F 87 00 19 FB
+2023 Jun 15 07:22:51.452792 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:51.452909 sh[7739]:   MSG:  0xf  0x87  0x0  0x19  0xfb
+2023 Jun 15 07:22:51.454704 sh[7739]:  
+2023 Jun 15 07:22:51.454820 sh[7739]:  230615-07:22:51:454195 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Device Vendor Id :0F 87 00 19 FB
+2023 Jun 15 07:22:51.608145 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:51.608265 sh[7739]:   MSG:  0xf  0x87  0x0  0x19  0xfb
+2023 Jun 15 07:22:51.615182 sh[7739]:  
+2023 Jun 15 07:22:51.615275 sh[7739]:  230615-07:22:51:615012 [CECIARMMgr]TV to Tuner 1 : opcode: Set OSD Name :03 47 54 56 20 42 6F 78
+2023 Jun 15 07:22:51.841667 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:51.841801 sh[7739]:   MSG:  0x3  0x47  0x54  0x56  0x20  0x42  0x6f  0x78
+2023 Jun 15 07:22:51.842490 sh[7739]:  
+2023 Jun 15 07:22:51.842608 sh[7739]:  230615-07:22:51:842339 [CECIARMMgr]TV to Tuner 3 : opcode: Set OSD Name :07 47 54 56 20 42 6F 78
+2023 Jun 15 07:22:52.070861 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:52.070977 sh[7739]:   MSG:  0x7  0x47  0x54  0x56  0x20  0x42  0x6f  0x78
+2023 Jun 15 07:22:53.591718 sh[7739]:  
+2023 Jun 15 07:22:53.591841 sh[7739]:  230615-07:22:53:590998 [CECIARMMgr]TV to Tuner 1 : opcode: Give Physical Address :03 83
+2023 Jun 15 07:22:53.670922 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:53.671043 sh[7739]:   MSG:  0x3  0x83
+2023 Jun 15 07:22:53.818676 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:53.818871 sh[7739]:   0x3f  0x84  0x20  0x0  0x3
+2023 Jun 15 07:22:53.818951 sh[7739]:  230615-07:22:53:818791 [CECIARMMgr]Tuner 1 to Broadcast/Unregistered : opcode: Report Physical Address :3F 84 20 00 03
+2023 Jun 15 07:22:54.379050 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:54.379173 sh[7739]:   0x3f  0x87  0x0  0x0  0x30
+2023 Jun 15 07:22:54.379241 sh[7739]:  230615-07:22:54:373946 [CECIARMMgr]Tuner 1 to Broadcast/Unregistered : opcode: Device Vendor Id :3F 87 00 00 30
+2023 Jun 15 07:22:54.673934 sh[7739]:  
+2023 Jun 15 07:22:54.674096 sh[7739]:  230615-07:22:54:672973 [CECIARMMgr]TV to Tuner 1 : opcode: Give OSD Name :03 46
+2023 Jun 15 07:22:54.951043 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:54.951163 sh[7739]:   MSG:  0x3  0x46
+2023 Jun 15 07:22:54.991825 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:55.626920 sh[7739]:   0x30 CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:56.373262 sh[7739]:   0x70 CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:22:56.376691 sh[7739]:   0x30  0x47  0x58  0x66  0x69  0x6e  0x69  0x74  0x79  0x20  0x58  0x31
+2023 Jun 15 07:22:56.376817 sh[7739]:  230615-07:22:56:373481 [CECIARMMgr]Tuner 1 to TV : opcode: Set OSD Name :30 47 58 66 69 6E 69 74 79 20 58 31
+2023 Jun 15 07:22:56.952272 sh[7739]:  
+2023 Jun 15 07:22:56.952388 sh[7739]:  230615-07:22:56:952119 [CECIARMMgr]TV to Tuner 1 : opcode: Get CEC Version :03 9F
+2023 Jun 15 07:22:57.341342 sh[7739]:  Cec write failed err 3
+2023 Jun 15 07:22:57.341631 sh[7739]:  
+2023 Jun 15 07:22:57.341696 sh[7739]:  230615-07:22:57:341070 [CECIARMMgr]Bus::send exp caught [IO Exception..]
+2023 Jun 15 07:22:59.847307 sh[7739]:  
+2023 Jun 15 07:22:59.847523 sh[7739]:  230615-07:22:59:845822 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:22:59.930363 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:22:59.930485 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:23:00.060208 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:00.060403 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:23:00.060484 sh[7739]:  230615-07:23:00:060212 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:23:00.932708 sh[7739]:  
+2023 Jun 15 07:23:00.932836 sh[7739]:  230615-07:23:00:931766 [CECIARMMgr]TV to Tuner 3 : opcode: Give Physical Address :07 83
+2023 Jun 15 07:23:01.010877 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:01.011057 sh[7739]:   MSG:  0x7  0x83
+2023 Jun 15 07:23:01.188406 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:01.188540 sh[7739]:   0x7f  0x84  0x10  0x0  0x7
+2023 Jun 15 07:23:01.188698 sh[7739]:  230615-07:23:01:182110 [CECIARMMgr]Tuner 3 to Broadcast/Unregistered : opcode: Report Physical Address :7F 84 10 00 07
+2023 Jun 15 07:23:01.663075 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:01.663226 sh[7739]:   0x7f  0x87  0x0  0x0  0x30
+2023 Jun 15 07:23:01.663293 sh[7739]:  230615-07:23:01:660859 [CECIARMMgr]Tuner 3 to Broadcast/Unregistered : opcode: Device Vendor Id :7F 87 00 00 30
+2023 Jun 15 07:23:02.012900 sh[7739]:  
+2023 Jun 15 07:23:02.013054 sh[7739]:  230615-07:23:02:012091 [CECIARMMgr]TV to Tuner 3 : opcode: Give OSD Name :07 46
+2023 Jun 15 07:23:02.101677 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:02.101802 sh[7739]:   MSG:  0x7  0x46
+2023 Jun 15 07:23:02.672581 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:02.673153 sh[7739]:   0x70  0x47  0x58  0x66  0x69  0x6e  0x69  0x74  0x79  0x20  0x58  0x31
+2023 Jun 15 07:23:02.673234 sh[7739]:  230615-07:23:02:672538 [CECIARMMgr]Tuner 3 to TV : opcode: Set OSD Name :70 47 58 66 69 6E 69 74 79 20 58 31
+2023 Jun 15 07:23:03.605547 sh[7739]:  
+2023 Jun 15 07:23:03.605670 sh[7739]:  230615-07:23:03:603009 [CECIARMMgr]TV to Tuner 3 : opcode: Get CEC Version :07 9F
+2023 Jun 15 07:23:03.682672 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:03.682794 sh[7739]:   MSG:  0x7  0x9f
+2023 Jun 15 07:23:03.886481 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:03.886696 sh[7739]:   0x70  0x9e  0x4
+2023 Jun 15 07:23:03.886825 sh[7739]:  230615-07:23:03:886432 [CECIARMMgr]Tuner 3 to TV : opcode: CEC Version :70 9E 04
+2023 Jun 15 07:23:04.688841 sh[7739]:  
+2023 Jun 15 07:23:04.688970 sh[7739]:  230615-07:23:04:688066 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:23:04.770617 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:04.770750 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:23:04.932126 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:04.933655 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:23:04.933972 sh[7739]:  230615-07:23:04:932450 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:23:17.495620 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:18.749281 sh[7739]:   0x30 CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:18.749583 sh[7739]:   0x30  0x9f
+2023 Jun 15 07:23:18.749657 sh[7739]:  230615-07:23:18:749480 [CECIARMMgr]Tuner 1 to TV : opcode: Get CEC Version :30 9F
+2023 Jun 15 07:23:18.754622 sh[7739]:  
+2023 Jun 15 07:23:18.754752 sh[7739]:  230615-07:23:18:754390 [CECIARMMgr]TV to Tuner 1 : opcode: CEC Version :03 9E 05
+2023 Jun 15 07:23:18.857671 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:18.857813 sh[7739]:   MSG:  0x3  0x9e  0x5
+2023 Jun 15 07:23:19.274408 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:19.274484 sh[7739]:   0x30  0x8c
+2023 Jun 15 07:23:19.274542 sh[7739]:  230615-07:23:19:272945 [CECIARMMgr]Tuner 1 to TV : opcode: Give Ddevice Vendor ID :30 8C
+2023 Jun 15 07:23:19.278204 sh[7739]:  
+2023 Jun 15 07:23:19.278337 sh[7739]:  230615-07:23:19:277999 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Device Vendor Id :0F 87 00 19 FB
+2023 Jun 15 07:23:19.435028 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:19.435157 sh[7739]:   MSG:  0xf  0x87  0x0  0x19  0xfb
+2023 Jun 15 07:23:19.500227 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:23:19.500345 sh[7739]:   0x30  0x46
+2023 Jun 15 07:23:19.500410 sh[7739]:  230615-07:23:19:498243 [CECIARMMgr]Tuner 1 to TV : opcode: Give OSD Name :30 46
+2023 Jun 15 07:23:19.505496 sh[7739]:  
+2023 Jun 15 07:23:19.505609 sh[7739]:  230615-07:23:19:505327 [CECIARMMgr]TV to Tuner 1 : opcode: Set OSD Name :03 47 54 56 20 42 6F 78
+2023 Jun 15 07:23:19.731653 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:23:19.731746 sh[7739]:   MSG:  0x3  0x47  0x54  0x56  0x20  0x42  0x6f  0x78
+2023 Jun 15 07:24:03.479168 sh[7739]:  
+2023 Jun 15 07:24:03.479288 sh[7739]:  230615-07:24:03:478398 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:24:03.557293 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:24:03.557401 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:24:03.671532 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:24:03.671671 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:24:03.671738 sh[7739]:  230615-07:24:03:671489 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:24:16.083233 sh[7739]:  
+2023 Jun 15 07:24:16.083367 sh[7739]:  230615-07:24:16:082533 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:24:16.165513 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:24:16.165621 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:24:16.303349 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:24:16.303542 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:24:16.303636 sh[7739]:  230615-07:24:16:303313 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:25:14.820144 sh[7739]:  
+2023 Jun 15 07:25:14.820260 sh[7739]:  230615-07:25:14:819320 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:25:14.897245 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:25:14.897357 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:25:15.012290 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:25:15.014531 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:25:15.014684 sh[7739]:  230615-07:25:15:012448 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:25:27.453237 sh[7739]:  
+2023 Jun 15 07:25:27.453371 sh[7739]:  230615-07:25:27:452477 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:25:27.533296 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:25:27.533439 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:25:27.650063 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:25:27.650244 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:25:27.650320 sh[7739]:  230615-07:25:27:650052 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:26:26.167042 sh[7739]:  
+2023 Jun 15 07:26:26.167169 sh[7739]:  230615-07:26:26:166298 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:26:26.245199 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:26:26.245309 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:26:26.361685 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:26:26.361841 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:26:26.361908 sh[7739]:  230615-07:26:26:361652 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:26:38.782790 sh[7739]:  
+2023 Jun 15 07:26:38.782909 sh[7739]:  230615-07:26:38:782093 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:26:38.861313 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:26:38.861441 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:26:38.990441 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:26:38.990618 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:26:38.990687 sh[7739]:  230615-07:26:38:990438 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:27:37.491758 sh[7739]:  
+2023 Jun 15 07:27:37.491903 sh[7739]:  230615-07:27:37:490984 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:27:37.569212 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:27:37.569329 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:27:37.688742 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:27:37.688843 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:27:37.688914 sh[7739]:  230615-07:27:37:688665 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:27:40.743882 sh[7739]:  
+2023 Jun 15 07:27:40.743978 sh[7739]:  230615-07:27:40:743202 [CECIARMMgr]I-ARM CEC Mgr: HeartBeat at Thu Jun 15 07:27:40 2023
+2023 Jun 15 07:27:40.744038 sh[7739]:  
+2023 Jun 15 07:27:50.100552 sh[7739]:  
+2023 Jun 15 07:27:50.100653 sh[7739]:  230615-07:27:50:099829 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:27:50.181220 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:27:50.181324 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:27:50.310944 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:27:50.311098 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:27:50.311164 sh[7739]:  230615-07:27:50:310898 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:28:48.823991 sh[7739]:  
+2023 Jun 15 07:28:48.824134 sh[7739]:  230615-07:28:48:822933 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:28:48.905445 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:28:48.905572 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:28:49.010998 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:28:49.011122 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:28:49.011209 sh[7739]:  230615-07:28:49:010899 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:29:01.428024 sh[7739]:  
+2023 Jun 15 07:29:01.428155 sh[7739]:  230615-07:29:01:427211 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:29:01.505292 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:29:01.505379 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:29:01.644596 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:29:01.644961 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:29:01.645044 sh[7739]:  230615-07:29:01:644710 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:30:00.132565 sh[7739]:  
+2023 Jun 15 07:30:00.132674 sh[7739]:  230615-07:30:00:130898 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:30:00.209219 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:30:00.209375 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:30:00.329976 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:30:00.330107 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:30:00.330182 sh[7739]:  230615-07:30:00:329930 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:30:12.731584 sh[7739]:  
+2023 Jun 15 07:30:12.731684 sh[7739]:  230615-07:30:12:730814 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:30:12.809226 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:30:12.809364 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:30:12.924063 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:30:12.924196 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:30:12.924262 sh[7739]:  230615-07:30:12:924022 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:31:11.471596 sh[7739]:  
+2023 Jun 15 07:31:11.471709 sh[7739]:  230615-07:31:11:470820 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:31:11.549282 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:31:11.549374 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:31:11.672442 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:31:11.672534 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:31:11.672656 sh[7739]:  230615-07:31:11:672379 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:31:24.079609 sh[7739]:  
+2023 Jun 15 07:31:24.079704 sh[7739]:  230615-07:31:24:078856 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:31:24.161396 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:31:24.161497 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:31:24.294906 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:31:24.295032 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:31:24.295094 sh[7739]:  230615-07:31:24:294857 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:32:06.795586 sh[7739]:  
+2023 Jun 15 07:32:06.800289 sh[7739]:  230615-07:32:06:794729 [CECIARMMgr][_IsAvailable:532] IARM_BUS_CECMGR_API_isAvailable is called
+2023 Jun 15 07:32:06.800473 sh[7739]:  230615-07:32:06:799069 [CECIARMMgr]Inside _Enable : 1, 1  >>>>>>
+2023 Jun 15 07:32:06.800532 sh[7739]:  HdmiCecGetPhysicalAddress
+2023 Jun 15 07:32:06.800587 sh[7739]:  HdmiCecGetPhysicalAddress: Physical address: 0
+2023 Jun 15 07:32:06.863348 sh[7739]:  HdmiCecAddLogicalAddress: Add logical address: 0
+2023 Jun 15 07:32:06.863520 sh[7739]:  HdmiCecAddLogicalAddress: CEC_IOC_ADD_LOGICAL_ADDR Successs !!!
+2023 Jun 15 07:32:06.950430 sh[7739]:  HdmiCecAddLogicalAddress: Add logical address: 0
+2023 Jun 15 07:32:06.950495 sh[7739]:  HdmiCecAddLogicalAddress: CEC_IOC_ADD_LOGICAL_ADDR Successs !!!
+2023 Jun 15 07:32:06.950550 sh[7739]:  
+2023 Jun 15 07:32:06.950604 sh[7739]:  230615-07:32:06:942835 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Report Physical Address :0F 84 00 00 00
+2023 Jun 15 07:32:07.094518 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:07.094622 sh[7739]:   MSG:  0xf  0x84  0x0  0x0  0x0
+2023 Jun 15 07:32:07.158233 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:07.221515 sh[7739]:   0x30  0x8c CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:07.284864 sh[7739]:   0x70  0x8c CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:07.324948 sh[7739]:   0x30  0x46
+2023 Jun 15 07:32:07.325056 sh[7739]:  230615-07:32:07:324821 [CECIARMMgr]Tuner 1 to TV : opcode: Give Ddevice Vendor ID :30 8C
+2023 Jun 15 07:32:07.325142 sh[7739]:  
+2023 Jun 15 07:32:07.325200 sh[7739]:  230615-07:32:07:325041 [CECIARMMgr]Tuner 3 to TV : opcode: Give Ddevice Vendor ID :70 8C
+2023 Jun 15 07:32:07.325278 sh[7739]:  
+2023 Jun 15 07:32:07.325333 sh[7739]:  230615-07:32:07:325195 [CECIARMMgr]Tuner 1 to TV : opcode: Give OSD Name :30 46
+2023 Jun 15 07:32:07.336833 sh[7739]:  
+2023 Jun 15 07:32:07.336936 sh[7739]:  230615-07:32:07:335934 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Device Vendor Id :0F 87 00 19 FB
+2023 Jun 15 07:32:07.388554 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:07.666544 sh[7739]:   0x70  0x46 HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:07.666684 sh[7739]:   MSG:  0xf  0x87  0x0  0x19  0xfb
+2023 Jun 15 07:32:07.666744 sh[7739]:  
+2023 Jun 15 07:32:07.666802 sh[7739]:  230615-07:32:07:666359 [CECIARMMgr]Tuner 3 to TV : opcode: Give OSD Name :70 46
+2023 Jun 15 07:32:07.668599 sh[7739]:  
+2023 Jun 15 07:32:07.668697 sh[7739]:  230615-07:32:07:668421 [CECIARMMgr]TV to Broadcast/Unregistered : opcode: Device Vendor Id :0F 87 00 19 FB
+2023 Jun 15 07:32:07.828579 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:07.828695 sh[7739]:   MSG:  0xf  0x87  0x0  0x19  0xfb
+2023 Jun 15 07:32:07.888273 sh[7739]:  
+2023 Jun 15 07:32:07.888369 sh[7739]:  230615-07:32:07:887159 [CECIARMMgr]TV to Tuner 1 : opcode: Set OSD Name :03 47 54 56 20 42 6F 78
+2023 Jun 15 07:32:08.115844 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:08.115953 sh[7739]:   MSG:  0x3  0x47  0x54  0x56  0x20  0x42  0x6f  0x78
+2023 Jun 15 07:32:08.118836 sh[7739]:  
+2023 Jun 15 07:32:08.118935 sh[7739]:  230615-07:32:08:118673 [CECIARMMgr]TV to Tuner 3 : opcode: Set OSD Name :07 47 54 56 20 42 6F 78
+2023 Jun 15 07:32:08.347774 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:08.347926 sh[7739]:   MSG:  0x7  0x47  0x54  0x56  0x20  0x42  0x6f  0x78
+2023 Jun 15 07:32:09.987174 sh[7739]:  
+2023 Jun 15 07:32:09.987293 sh[7739]:  230615-07:32:09:986448 [CECIARMMgr]TV to Tuner 1 : opcode: Give Physical Address :03 83
+2023 Jun 15 07:32:10.065334 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:10.065451 sh[7739]:   MSG:  0x3  0x83
+2023 Jun 15 07:32:10.219992 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:10.220063 sh[7739]:   0x3f  0x84  0x20  0x0  0x3
+2023 Jun 15 07:32:10.220158 sh[7739]:  230615-07:32:10:215242 [CECIARMMgr]Tuner 1 to Broadcast/Unregistered : opcode: Report Physical Address :3F 84 20 00 03
+2023 Jun 15 07:32:10.626701 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:10.626850 sh[7739]:   0x3f  0x87  0x0  0x0  0x30
+2023 Jun 15 07:32:10.628890 sh[7739]:  230615-07:32:10:626677 [CECIARMMgr]Tuner 1 to Broadcast/Unregistered : opcode: Device Vendor Id :3F 87 00 00 30
+2023 Jun 15 07:32:11.067550 sh[7739]:  
+2023 Jun 15 07:32:11.067736 sh[7739]:  230615-07:32:11:066682 [CECIARMMgr]TV to Tuner 1 : opcode: Give OSD Name :03 46
+2023 Jun 15 07:32:11.145830 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:11.145948 sh[7739]:   MSG:  0x3  0x46
+2023 Jun 15 07:32:11.511416 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:11.511587 sh[7739]:   0x30  0x47  0x58  0x66  0x69  0x6e  0x69  0x74  0x79  0x20  0x58  0x31
+2023 Jun 15 07:32:11.511700 sh[7739]:  230615-07:32:11:511392 [CECIARMMgr]Tuner 1 to TV : opcode: Set OSD Name :30 47 58 66 69 6E 69 74 79 20 58 31
+2023 Jun 15 07:32:12.147314 sh[7739]:  
+2023 Jun 15 07:32:12.147427 sh[7739]:  230615-07:32:12:146537 [CECIARMMgr]TV to Tuner 1 : opcode: Get CEC Version :03 9F
+2023 Jun 15 07:32:12.229438 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:12.229572 sh[7739]:   MSG:  0x3  0x9f
+2023 Jun 15 07:32:12.667677 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:12.667827 sh[7739]:   0x30  0x9e  0x4
+2023 Jun 15 07:32:12.667913 sh[7739]:  230615-07:32:12:667582 [CECIARMMgr]Tuner 1 to TV : opcode: CEC Version :30 9E 04
+2023 Jun 15 07:32:13.231053 sh[7739]:  
+2023 Jun 15 07:32:13.231205 sh[7739]:  230615-07:32:13:230249 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:32:13.310061 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:13.310170 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:32:13.417228 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:13.417369 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:32:13.417438 sh[7739]:  230615-07:32:13:417224 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:32:14.311112 sh[7739]:  
+2023 Jun 15 07:32:14.311234 sh[7739]:  230615-07:32:14:310370 [CECIARMMgr]TV to Tuner 3 : opcode: Give Physical Address :07 83
+2023 Jun 15 07:32:14.389260 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:14.389371 sh[7739]:   MSG:  0x7  0x83
+2023 Jun 15 07:32:14.557683 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:14.561754 sh[7739]:   0x7f  0x84  0x10  0x0  0x7
+2023 Jun 15 07:32:14.561878 sh[7739]:  230615-07:32:14:557899 [CECIARMMgr]Tuner 3 to Broadcast/Unregistered : opcode: Report Physical Address :7F 84 10 00 07
+2023 Jun 15 07:32:14.851296 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:14.856411 sh[7739]:   0x7f  0x87  0x0  0x0  0x30
+2023 Jun 15 07:32:14.856526 sh[7739]:  230615-07:32:14:851561 [CECIARMMgr]Tuner 3 to Broadcast/Unregistered : opcode: Device Vendor Id :7F 87 00 00 30
+2023 Jun 15 07:32:15.391568 sh[7739]:  
+2023 Jun 15 07:32:15.391694 sh[7739]:  230615-07:32:15:390642 [CECIARMMgr]TV to Tuner 3 : opcode: Give OSD Name :07 46
+2023 Jun 15 07:32:15.469284 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:15.469414 sh[7739]:   MSG:  0x7  0x46
+2023 Jun 15 07:32:15.824568 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:15.824734 sh[7739]:   0x70  0x47  0x58  0x66  0x69  0x6e  0x69  0x74  0x79  0x20  0x58  0x31
+2023 Jun 15 07:32:15.824806 sh[7739]:  230615-07:32:15:824528 [CECIARMMgr]Tuner 3 to TV : opcode: Set OSD Name :70 47 58 66 69 6E 69 74 79 20 58 31
+2023 Jun 15 07:32:16.471594 sh[7739]:  
+2023 Jun 15 07:32:16.471713 sh[7739]:  230615-07:32:16:470834 [CECIARMMgr]TV to Tuner 3 : opcode: Get CEC Version :07 9F
+2023 Jun 15 07:32:16.549264 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:16.549381 sh[7739]:   MSG:  0x7  0x9f
+2023 Jun 15 07:32:16.666550 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:16.666681 sh[7739]:   0x70  0x9e  0x4
+2023 Jun 15 07:32:16.666768 sh[7739]:  230615-07:32:16:666410 [CECIARMMgr]Tuner 3 to TV : opcode: CEC Version :70 9E 04
+2023 Jun 15 07:32:17.551982 sh[7739]:  
+2023 Jun 15 07:32:17.552129 sh[7739]:  230615-07:32:17:551023 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:32:17.629437 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:32:17.629557 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:32:17.745683 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:32:17.746326 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:32:17.746440 sh[7739]:  230615-07:32:17:745864 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:32:40.748202 sh[7739]:  
+2023 Jun 15 07:32:40.748327 sh[7739]:  230615-07:32:40:743496 [CECIARMMgr]I-ARM CEC Mgr: HeartBeat at Thu Jun 15 07:32:40 2023
+2023 Jun 15 07:32:40.748423 sh[7739]:  
+2023 Jun 15 07:33:16.453395 sh[7739]:  
+2023 Jun 15 07:33:16.453556 sh[7739]:  230615-07:33:16:452366 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:33:16.533650 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:33:16.533756 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:33:16.645083 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:33:16.645220 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:33:16.645328 sh[7739]:  230615-07:33:16:644945 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:33:29.058988 sh[7739]:  
+2023 Jun 15 07:33:29.059122 sh[7739]:  230615-07:33:29:058293 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:33:29.137209 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:33:29.137310 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:33:29.265472 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:33:29.265608 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:33:29.265697 sh[7739]:  230615-07:33:29:265433 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:34:27.754988 sh[7739]:  
+2023 Jun 15 07:34:27.755124 sh[7739]:  230615-07:34:27:754120 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:34:27.833251 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:34:27.833361 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:34:27.950783 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:34:27.950957 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:34:27.951033 sh[7739]:  230615-07:34:27:950747 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:34:40.351404 sh[7739]:  
+2023 Jun 15 07:34:40.351568 sh[7739]:  230615-07:34:40:350689 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:34:40.429432 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:34:40.429569 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:34:40.548622 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:34:40.548803 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:34:40.548876 sh[7739]:  230615-07:34:40:548633 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:35:39.050988 sh[7739]:  
+2023 Jun 15 07:35:39.051110 sh[7739]:  230615-07:35:39:050172 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:35:39.129222 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:35:39.129329 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:35:39.238492 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:35:39.238598 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:35:39.238657 sh[7739]:  230615-07:35:39:238398 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:35:51.646526 sh[7739]:  
+2023 Jun 15 07:35:51.646641 sh[7739]:  230615-07:35:51:645829 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:35:51.725228 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:35:51.725336 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:35:51.878306 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:35:51.878497 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:35:51.878565 sh[7739]:  230615-07:35:51:878252 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:36:50.346420 sh[7739]:  
+2023 Jun 15 07:36:50.346575 sh[7739]:  230615-07:36:50:345676 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:36:50.425227 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:36:50.425336 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:36:50.587138 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:36:50.587257 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:36:50.587341 sh[7739]:  230615-07:36:50:587081 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:37:02.958917 sh[7739]:  
+2023 Jun 15 07:37:02.959032 sh[7739]:  230615-07:37:02:958178 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:37:03.037247 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:37:03.037403 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:37:03.208336 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:37:03.208506 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:37:03.208570 sh[7739]:  230615-07:37:03:208291 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:37:40.744391 sh[7739]:  
+2023 Jun 15 07:37:40.744508 sh[7739]:  230615-07:37:40:743699 [CECIARMMgr]I-ARM CEC Mgr: HeartBeat at Thu Jun 15 07:37:40 2023
+2023 Jun 15 07:37:40.744573 sh[7739]:  
+2023 Jun 15 07:38:01.634473 sh[7739]:  
+2023 Jun 15 07:38:01.634596 sh[7739]:  230615-07:38:01:633708 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:38:01.717218 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:38:01.717355 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:38:01.835032 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:38:01.835167 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:38:01.835230 sh[7739]:  230615-07:38:01:835015 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01
+2023 Jun 15 07:38:14.246424 sh[7739]:  
+2023 Jun 15 07:38:14.246536 sh[7739]:  230615-07:38:14:245696 [CECIARMMgr]TV to Tuner 3 : opcode: Give Device Power Status :07 8F
+2023 Jun 15 07:38:14.325207 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:38:14.325348 sh[7739]:   MSG:  0x7  0x8f
+2023 Jun 15 07:38:14.453545 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:38:14.453660 sh[7739]:   0x70  0x90  0x1
+2023 Jun 15 07:38:14.453720 sh[7739]:  230615-07:38:14:453428 [CECIARMMgr]Tuner 3 to TV : opcode: Report power Status :70 90 01
+2023 Jun 15 07:39:12.934445 sh[7739]:  
+2023 Jun 15 07:39:12.934590 sh[7739]:  230615-07:39:12:933711 [CECIARMMgr]TV to Tuner 1 : opcode: Give Device Power Status :03 8F
+2023 Jun 15 07:39:13.017207 sh[7739]:  HdmiCecTx: CEC Write message success
+2023 Jun 15 07:39:13.017318 sh[7739]:   MSG:  0x3  0x8f
+2023 Jun 15 07:39:13.129277 sh[7739]:  CEC_event_poll_fn: CEC message received
+2023 Jun 15 07:39:13.129413 sh[7739]:   0x30  0x90  0x1
+2023 Jun 15 07:39:13.129479 sh[7739]:  230615-07:39:13:129257 [CECIARMMgr]Tuner 1 to TV : opcode: Report power Status :30 90 01

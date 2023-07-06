@@ -1,0 +1,176 @@
+2023 Jun 15 07:22:35.381409 storageMgrMain[6031]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = rSTMgrBus
+2023 Jun 15 07:22:35.381543 storageMgrMain[6031]:  setting init done
+2023 Jun 15 07:22:35.381613 storageMgrMain[6031]:  Registering rSTMgrBus
+2023 Jun 15 07:22:35.381669 storageMgrMain[6031]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:35.381743 storageMgrMain[6031]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:35.381800 storageMgrMain[6031]:  230615-07:22:35.380519 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Loger Inited Successfully
+2023 Jun 15 07:22:35.427541 storageMgrMain[6031]:  230615-07:22:35.427352 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0
+2023 Jun 15 07:22:35.427655 storageMgrMain[6031]:  230615-07:22:35.427433 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0
+2023 Jun 15 07:22:35.427738 storageMgrMain[6031]:  230615-07:22:35.427459 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.427804 storageMgrMain[6031]:  230615-07:22:35.427481 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/mmcblk0
+2023 Jun 15 07:22:35.427936 storageMgrMain[6031]:  230615-07:22:35.427850 [mod=STORAGEMGR, lvl=INFO] [tid=6031] IS MMC TYPE : Yes
+2023 Jun 15 07:22:35.428033 storageMgrMain[6031]:  230615-07:22:35.427983 [mod=STORAGEMGR, lvl=ERROR] [tid=6031] Requested to create class for eMMC Memory with the device path = /dev/mmcblk0
+2023 Jun 15 07:22:35.429607 storageMgrMain[6031]:  230615-07:22:35.429428 [mod=STORAGEMGR, lvl=INFO] [tid=6031] rStorageMedia m_maxAdaptiveBitRateConfigured :18
+2023 Jun 15 07:22:35.430261 storageMgrMain[6031]:  230615-07:22:35.430128 [mod=STORAGEMGR, lvl=INFO] [tid=6031] rStorageMedia m_maxTSBLengthConfigured :0
+2023 Jun 15 07:22:35.568670 storageMgrMain[6031]:  230615-07:22:35.568497 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [populateDeviceDetails] m_capacity is : [7784628224]
+2023 Jun 15 07:22:35.568816 storageMgrMain[6031]:  230615-07:22:35.568744 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [populateDeviceDetails] The eMMC Card 'READ ONLY' attribute is 0.
+2023 Jun 15 07:22:35.568880 storageMgrMain[6031]:  230615-07:22:35.568782 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [populateDeviceDetails] The eMMC Card is READ-WRITE and status is 0.
+2023 Jun 15 07:22:35.743143 storageMgrMain[6031]:  Calling mount_function()
+2023 Jun 15 07:22:35.743700 storageMgrMain[6031]:  Checking SDCARD mount partitions..
+2023 Jun 15 07:22:35.779510 storageMgrMain[6031]:  SDCARd is not mounted..!!!
+2023 Jun 15 07:22:35.780503 storageMgrMain[6031]:  Checking SDCARD /tmp/data read /write access...
+2023 Jun 15 07:22:35.780688 storageMgrMain[6031]:  230615-07:22:35.780300 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [doMounteMMC:611] Executed : '', return as [0]
+2023 Jun 15 07:22:35.780753 storageMgrMain[6031]:  230615-07:22:35.780350 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [doMounteMMC:615] Successfully mounted.
+2023 Jun 15 07:22:35.780812 storageMgrMain[6031]:  230615-07:22:35.780386 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [populateDeviceDetails] SDcard Mount Successfully.
+2023 Jun 15 07:22:35.780890 storageMgrMain[6031]:  230615-07:22:35.780752 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Done with Init; Add to the hash table..
+2023 Jun 15 07:22:35.780988 storageMgrMain[6031]:  230615-07:22:35.780943 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Given pDeviceID is 150100384754463452065c16babac800
+2023 Jun 15 07:22:35.781068 storageMgrMain[6031]:  230615-07:22:35.780981 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Found the matching Device..
+2023 Jun 15 07:22:35.783277 storageMgrMain[6031]:  230615-07:22:35.781634 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [getHealth:400] eMMC LifeElapsedA = 0x02 (10% -20% device life time used)
+2023 Jun 15 07:22:35.783353 storageMgrMain[6031]:  230615-07:22:35.781686 [mod=STORAGEMGR, lvl=INFO] [tid=6031] [getHealth:414] eMMC LifeElapsedB = 0x02 (10% -20% device life time used)
+2023 Jun 15 07:22:35.783413 storageMgrMain[6031]:  230615-07:22:35.781732 [mod=STORAGEMGR, lvl=WARN] [tid=6031] Post RDK_STMGR_EVENT_STATUS_CHANGED update
+2023 Jun 15 07:22:35.783471 storageMgrMain[6031]:  230615-07:22:35.782257 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0boot0
+2023 Jun 15 07:22:35.783552 storageMgrMain[6031]:  230615-07:22:35.782292 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0boot0
+2023 Jun 15 07:22:35.783611 storageMgrMain[6031]:  230615-07:22:35.782314 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.783669 storageMgrMain[6031]:  230615-07:22:35.782336 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/mmcblk0boot0
+2023 Jun 15 07:22:35.783727 storageMgrMain[6031]:  230615-07:22:35.783126 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0boot1
+2023 Jun 15 07:22:35.783786 storageMgrMain[6031]:  230615-07:22:35.783161 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0boot1
+2023 Jun 15 07:22:35.783843 storageMgrMain[6031]:  230615-07:22:35.783185 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.783901 storageMgrMain[6031]:  230615-07:22:35.783207 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/mmcblk0boot1
+2023 Jun 15 07:22:35.784320 storageMgrMain[6031]:  230615-07:22:35.784004 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0gp0
+2023 Jun 15 07:22:35.784418 storageMgrMain[6031]:  230615-07:22:35.784047 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0gp0
+2023 Jun 15 07:22:35.784506 storageMgrMain[6031]:  230615-07:22:35.784071 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.784568 storageMgrMain[6031]:  230615-07:22:35.784092 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/mmcblk0gp0
+2023 Jun 15 07:22:35.794327 storageMgrMain[6031]:  230615-07:22:35.793671 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0rpmb
+2023 Jun 15 07:22:35.794437 storageMgrMain[6031]:  230615-07:22:35.793722 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0/mmcblk0rpmb
+2023 Jun 15 07:22:35.794515 storageMgrMain[6031]:  230615-07:22:35.793744 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.794575 storageMgrMain[6031]:  230615-07:22:35.793766 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/mmcblk0rpmb
+2023 Jun 15 07:22:35.794679 storageMgrMain[6031]:  230615-07:22:35.794535 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop0
+2023 Jun 15 07:22:35.794745 storageMgrMain[6031]:  230615-07:22:35.794577 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop0
+2023 Jun 15 07:22:35.794818 storageMgrMain[6031]:  230615-07:22:35.794599 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.794878 storageMgrMain[6031]:  230615-07:22:35.794620 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop0
+2023 Jun 15 07:22:35.795842 storageMgrMain[6031]:  230615-07:22:35.794952 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop1
+2023 Jun 15 07:22:35.795967 storageMgrMain[6031]:  230615-07:22:35.794998 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop1
+2023 Jun 15 07:22:35.796047 storageMgrMain[6031]:  230615-07:22:35.795021 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.796111 storageMgrMain[6031]:  230615-07:22:35.795042 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop1
+2023 Jun 15 07:22:35.796191 storageMgrMain[6031]:  230615-07:22:35.795350 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop2
+2023 Jun 15 07:22:35.796251 storageMgrMain[6031]:  230615-07:22:35.795375 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop2
+2023 Jun 15 07:22:35.796314 storageMgrMain[6031]:  230615-07:22:35.795398 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.796376 storageMgrMain[6031]:  230615-07:22:35.795419 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop2
+2023 Jun 15 07:22:35.796436 storageMgrMain[6031]:  230615-07:22:35.795729 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop3
+2023 Jun 15 07:22:35.796519 storageMgrMain[6031]:  230615-07:22:35.795758 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop3
+2023 Jun 15 07:22:35.796583 storageMgrMain[6031]:  230615-07:22:35.795779 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.796755 storageMgrMain[6031]:  230615-07:22:35.795804 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop3
+2023 Jun 15 07:22:35.796818 storageMgrMain[6031]:  230615-07:22:35.796160 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop4
+2023 Jun 15 07:22:35.796879 storageMgrMain[6031]:  230615-07:22:35.796189 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop4
+2023 Jun 15 07:22:35.796939 storageMgrMain[6031]:  230615-07:22:35.796211 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.796998 storageMgrMain[6031]:  230615-07:22:35.796232 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop4
+2023 Jun 15 07:22:35.797058 storageMgrMain[6031]:  230615-07:22:35.796532 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop5
+2023 Jun 15 07:22:35.797139 storageMgrMain[6031]:  230615-07:22:35.796559 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop5
+2023 Jun 15 07:22:35.809093 storageMgrMain[6031]:  230615-07:22:35.796580 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.809223 storageMgrMain[6031]:  230615-07:22:35.808842 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop5
+2023 Jun 15 07:22:35.809407 storageMgrMain[6031]:  230615-07:22:35.809324 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop6
+2023 Jun 15 07:22:35.811046 storageMgrMain[6031]:  230615-07:22:35.810922 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop6
+2023 Jun 15 07:22:35.811359 storageMgrMain[6031]:  230615-07:22:35.811187 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.811441 storageMgrMain[6031]:  230615-07:22:35.811227 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop6
+2023 Jun 15 07:22:35.811701 storageMgrMain[6031]:  230615-07:22:35.811638 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/loop7
+2023 Jun 15 07:22:35.811793 storageMgrMain[6031]:  230615-07:22:35.811675 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/loop7
+2023 Jun 15 07:22:35.811856 storageMgrMain[6031]:  230615-07:22:35.811698 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.811915 storageMgrMain[6031]:  230615-07:22:35.811719 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/loop7
+2023 Jun 15 07:22:35.812094 storageMgrMain[6031]:  230615-07:22:35.812039 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram0
+2023 Jun 15 07:22:35.812181 storageMgrMain[6031]:  230615-07:22:35.812072 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram0
+2023 Jun 15 07:22:35.812244 storageMgrMain[6031]:  230615-07:22:35.812096 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.812304 storageMgrMain[6031]:  230615-07:22:35.812116 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram0
+2023 Jun 15 07:22:35.812471 storageMgrMain[6031]:  230615-07:22:35.812417 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram1
+2023 Jun 15 07:22:35.812558 storageMgrMain[6031]:  230615-07:22:35.812449 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram1
+2023 Jun 15 07:22:35.812894 storageMgrMain[6031]:  230615-07:22:35.812471 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.812999 storageMgrMain[6031]:  230615-07:22:35.812492 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram1
+2023 Jun 15 07:22:35.813111 storageMgrMain[6031]:  230615-07:22:35.812859 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram10
+2023 Jun 15 07:22:35.813174 storageMgrMain[6031]:  230615-07:22:35.812894 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram10
+2023 Jun 15 07:22:35.813236 storageMgrMain[6031]:  230615-07:22:35.812918 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.813305 storageMgrMain[6031]:  230615-07:22:35.812947 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram10
+2023 Jun 15 07:22:35.813399 storageMgrMain[6031]:  230615-07:22:35.813298 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram11
+2023 Jun 15 07:22:35.813461 storageMgrMain[6031]:  230615-07:22:35.813328 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram11
+2023 Jun 15 07:22:35.813521 storageMgrMain[6031]:  230615-07:22:35.813349 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.813597 storageMgrMain[6031]:  230615-07:22:35.813370 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram11
+2023 Jun 15 07:22:35.813763 storageMgrMain[6031]:  230615-07:22:35.813678 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram12
+2023 Jun 15 07:22:35.813856 storageMgrMain[6031]:  230615-07:22:35.813731 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram12
+2023 Jun 15 07:22:35.813934 storageMgrMain[6031]:  230615-07:22:35.813764 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.814002 storageMgrMain[6031]:  230615-07:22:35.813785 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram12
+2023 Jun 15 07:22:35.814240 storageMgrMain[6031]:  230615-07:22:35.814131 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram13
+2023 Jun 15 07:22:35.814312 storageMgrMain[6031]:  230615-07:22:35.814168 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram13
+2023 Jun 15 07:22:35.814381 storageMgrMain[6031]:  230615-07:22:35.814191 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.814465 storageMgrMain[6031]:  230615-07:22:35.814212 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram13
+2023 Jun 15 07:22:35.814620 storageMgrMain[6031]:  230615-07:22:35.814541 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram14
+2023 Jun 15 07:22:35.814694 storageMgrMain[6031]:  230615-07:22:35.814584 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram14
+2023 Jun 15 07:22:35.814812 storageMgrMain[6031]:  230615-07:22:35.814607 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.814898 storageMgrMain[6031]:  230615-07:22:35.814627 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram14
+2023 Jun 15 07:22:35.815070 storageMgrMain[6031]:  230615-07:22:35.814993 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram15
+2023 Jun 15 07:22:35.815141 storageMgrMain[6031]:  230615-07:22:35.815041 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram15
+2023 Jun 15 07:22:35.815236 storageMgrMain[6031]:  230615-07:22:35.815064 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.816311 storageMgrMain[6031]:  230615-07:22:35.815086 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram15
+2023 Jun 15 07:22:35.816468 storageMgrMain[6031]:  230615-07:22:35.815423 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram2
+2023 Jun 15 07:22:35.816572 storageMgrMain[6031]:  230615-07:22:35.815455 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram2
+2023 Jun 15 07:22:35.816687 storageMgrMain[6031]:  230615-07:22:35.815479 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.816754 storageMgrMain[6031]:  230615-07:22:35.815499 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram2
+2023 Jun 15 07:22:35.816815 storageMgrMain[6031]:  230615-07:22:35.815867 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram3
+2023 Jun 15 07:22:35.816882 storageMgrMain[6031]:  230615-07:22:35.815903 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram3
+2023 Jun 15 07:22:35.816952 storageMgrMain[6031]:  230615-07:22:35.815931 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.817038 storageMgrMain[6031]:  230615-07:22:35.815955 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram3
+2023 Jun 15 07:22:35.817138 storageMgrMain[6031]:  230615-07:22:35.816293 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram4
+2023 Jun 15 07:22:35.817218 storageMgrMain[6031]:  230615-07:22:35.816320 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram4
+2023 Jun 15 07:22:35.817290 storageMgrMain[6031]:  230615-07:22:35.816343 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.817351 storageMgrMain[6031]:  230615-07:22:35.816363 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram4
+2023 Jun 15 07:22:35.817699 storageMgrMain[6031]:  230615-07:22:35.816746 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram5
+2023 Jun 15 07:22:35.817787 storageMgrMain[6031]:  230615-07:22:35.816775 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram5
+2023 Jun 15 07:22:35.817849 storageMgrMain[6031]:  230615-07:22:35.816795 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.817909 storageMgrMain[6031]:  230615-07:22:35.816816 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram5
+2023 Jun 15 07:22:35.817970 storageMgrMain[6031]:  230615-07:22:35.817146 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram6
+2023 Jun 15 07:22:35.818030 storageMgrMain[6031]:  230615-07:22:35.817175 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram6
+2023 Jun 15 07:22:35.818090 storageMgrMain[6031]:  230615-07:22:35.817198 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.818150 storageMgrMain[6031]:  230615-07:22:35.817219 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram6
+2023 Jun 15 07:22:35.818226 storageMgrMain[6031]:  230615-07:22:35.817576 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram7
+2023 Jun 15 07:22:35.818287 storageMgrMain[6031]:  230615-07:22:35.817615 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram7
+2023 Jun 15 07:22:35.818348 storageMgrMain[6031]:  230615-07:22:35.817638 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.818409 storageMgrMain[6031]:  230615-07:22:35.817657 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram7
+2023 Jun 15 07:22:35.818517 storageMgrMain[6031]:  230615-07:22:35.817995 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram8
+2023 Jun 15 07:22:35.818581 storageMgrMain[6031]:  230615-07:22:35.818022 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram8
+2023 Jun 15 07:22:35.818643 storageMgrMain[6031]:  230615-07:22:35.818043 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.818703 storageMgrMain[6031]:  230615-07:22:35.818062 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram8
+2023 Jun 15 07:22:35.818785 storageMgrMain[6031]:  230615-07:22:35.818403 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/ram9
+2023 Jun 15 07:22:35.818849 storageMgrMain[6031]:  230615-07:22:35.818428 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/ram9
+2023 Jun 15 07:22:35.818909 storageMgrMain[6031]:  230615-07:22:35.818449 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.818969 storageMgrMain[6031]:  230615-07:22:35.818470 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/ram9
+2023 Jun 15 07:22:35.819064 storageMgrMain[6031]:  230615-07:22:35.818759 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Sys    Path : /sys/devices/virtual/block/dm-0
+2023 Jun 15 07:22:35.819128 storageMgrMain[6031]:  230615-07:22:35.818784 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Path : /devices/virtual/block/dm-0
+2023 Jun 15 07:22:35.819189 storageMgrMain[6031]:  230615-07:22:35.818805 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Type : disk
+2023 Jun 15 07:22:35.819249 storageMgrMain[6031]:  230615-07:22:35.818825 [mod=STORAGEMGR, lvl=INFO] [tid=6031] Device Node : /dev/dm-0
+2023 Jun 15 07:22:35.819323 storageMgrMain[6031]:  230615-07:22:35.818961 [mod=STORAGEMGR, lvl=ERROR] [tid=6031] Seems like this platform does not use/support NVRAM
+2023 Jun 15 07:22:35.819384 storageMgrMain[6031]:  230615-07:22:35.818984 [mod=STORAGEMGR, lvl=ERROR] [tid=6031] This platform does not support SDCard.
+2023 Jun 15 07:22:39.517685 storageMgrMain[6031]:  230615-07:22:39.516802 [mod=STORAGEMGR, lvl=INFO] [tid=6272] udev_device_get_action() returns: add
+2023 Jun 15 07:22:39.517833 storageMgrMain[6031]:  230615-07:22:39.516887 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Sys    Path : /sys/devices/virtual/block/zram0
+2023 Jun 15 07:22:39.517935 storageMgrMain[6031]:  230615-07:22:39.516915 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Path : /devices/virtual/block/zram0
+2023 Jun 15 07:22:39.518002 storageMgrMain[6031]:  230615-07:22:39.516940 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Type : disk
+2023 Jun 15 07:22:39.518064 storageMgrMain[6031]:  230615-07:22:39.516963 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Node : /dev/zram0
+2023 Jun 15 07:22:39.518190 storageMgrMain[6031]:  230615-07:22:39.517174 [mod=STORAGEMGR, lvl=INFO] [tid=6272] ID_BUS      : (null)
+2023 Jun 15 07:22:39.518256 storageMgrMain[6031]:  230615-07:22:39.517202 [mod=STORAGEMGR, lvl=ERROR] [tid=6272] Add/Remove device Failed
+2023 Jun 15 07:22:44.519209 storageMgrMain[6031]:  230615-07:22:44.517835 [mod=STORAGEMGR, lvl=INFO] [tid=6272] udev_device_get_action() returns: add
+2023 Jun 15 07:22:44.519339 storageMgrMain[6031]:  230615-07:22:44.517953 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Sys    Path : /sys/devices/virtual/block/zram1
+2023 Jun 15 07:22:44.519407 storageMgrMain[6031]:  230615-07:22:44.517981 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Path : /devices/virtual/block/zram1
+2023 Jun 15 07:22:44.519458 storageMgrMain[6031]:  230615-07:22:44.518003 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Type : disk
+2023 Jun 15 07:22:44.519509 storageMgrMain[6031]:  230615-07:22:44.518027 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Node : /dev/zram1
+2023 Jun 15 07:22:44.519560 storageMgrMain[6031]:  230615-07:22:44.518212 [mod=STORAGEMGR, lvl=INFO] [tid=6272] ID_BUS      : (null)
+2023 Jun 15 07:22:44.519651 storageMgrMain[6031]:  230615-07:22:44.518236 [mod=STORAGEMGR, lvl=ERROR] [tid=6272] Add/Remove device Failed
+2023 Jun 15 07:22:49.519196 storageMgrMain[6031]:  230615-07:22:49.518490 [mod=STORAGEMGR, lvl=INFO] [tid=6272] udev_device_get_action() returns: add
+2023 Jun 15 07:22:49.519336 storageMgrMain[6031]:  230615-07:22:49.518569 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Sys    Path : /sys/devices/virtual/block/zram3
+2023 Jun 15 07:22:49.519457 storageMgrMain[6031]:  230615-07:22:49.518597 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Path : /devices/virtual/block/zram3
+2023 Jun 15 07:22:49.519521 storageMgrMain[6031]:  230615-07:22:49.518618 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Type : disk
+2023 Jun 15 07:22:49.519580 storageMgrMain[6031]:  230615-07:22:49.518641 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Node : /dev/zram3
+2023 Jun 15 07:22:49.519637 storageMgrMain[6031]:  230615-07:22:49.518856 [mod=STORAGEMGR, lvl=INFO] [tid=6272] ID_BUS      : (null)
+2023 Jun 15 07:22:49.519694 storageMgrMain[6031]:  230615-07:22:49.518882 [mod=STORAGEMGR, lvl=ERROR] [tid=6272] Add/Remove device Failed
+2023 Jun 15 07:22:54.520203 storageMgrMain[6031]:  230615-07:22:54.519166 [mod=STORAGEMGR, lvl=INFO] [tid=6272] udev_device_get_action() returns: add
+2023 Jun 15 07:22:54.520321 storageMgrMain[6031]:  230615-07:22:54.519237 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Sys    Path : /sys/devices/virtual/block/zram2
+2023 Jun 15 07:22:54.520382 storageMgrMain[6031]:  230615-07:22:54.519262 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Path : /devices/virtual/block/zram2
+2023 Jun 15 07:22:54.520441 storageMgrMain[6031]:  230615-07:22:54.519283 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Type : disk
+2023 Jun 15 07:22:54.520551 storageMgrMain[6031]:  230615-07:22:54.519305 [mod=STORAGEMGR, lvl=INFO] [tid=6272] Device Node : /dev/zram2
+2023 Jun 15 07:22:54.520685 storageMgrMain[6031]:  230615-07:22:54.519480 [mod=STORAGEMGR, lvl=INFO] [tid=6272] ID_BUS      : (null)
+2023 Jun 15 07:22:54.520747 storageMgrMain[6031]:  230615-07:22:54.519504 [mod=STORAGEMGR, lvl=ERROR] [tid=6272] Add/Remove device Failed

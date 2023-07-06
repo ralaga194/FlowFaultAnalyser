@@ -1,0 +1,54 @@
+2023 Jun 15 07:22:41.846550 sh[8228]:  HOMEKIT_PERSISTENT_STORAGE_PATH=/opt/persistent/rdkservices/Airplay
+2023 Jun 15 07:22:41.847326 sh[8228]:  Waiting 30 sec to activate AirplayDaemon dep plugins
+2023 Jun 15 07:23:11.883447 sh[8228]:  Now activate AirplayDaemon
+2023 Jun 15 07:23:11.883925 sh[8228]:  connectivity check.
+2023 Jun 15 07:23:12.177349 sh[8228]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"connectedToInternet":true,"success":true}}
+2023 Jun 15 07:23:12.208858 sh[8228]:  true
+2023 Jun 15 07:23:12.298304 sh[8228]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"status":"activated","success":true}}
+2023 Jun 15 07:23:12.331811 sh[8228]:  The network is up
+2023 Jun 15 07:23:14.595862 sh[8228]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:23:14.595990 sh[8228]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:23:14.829479 sh[8228]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103    0     0  100   103      0    512 --:--:-- --:--:-- --:--:--   512100   141  100    38  100   103    161    438 --:--:-- --:--:-- --:--:--   597
+2023 Jun 15 07:23:14.831587 sh[8228]:  {"jsonrpc":"2.0","id":4,"result":null}Daemon Activated..
+2023 Jun 15 07:32:00.192762 sh[25281]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:00.193599 sh[25281]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:00.193687 sh[25281]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2023 Jun 15 07:32:00.193837 sh[25281]:  curl: (7) Failed to connect to 127.0.0.1 port 9998: Connection refused
+2023 Jun 15 07:32:00.221353 sh[25281]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:00.221694 sh[25281]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:00.222448 sh[25281]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2023 Jun 15 07:32:00.222773 sh[25281]:  curl: (7) Failed to connect to 127.0.0.1 port 9998: Connection refused
+2023 Jun 15 07:32:00.224129 sh[25281]:  Process is Stopping AirPlay-Daemon.......
+2023 Jun 15 07:32:00.824310 sh[25362]:  HOMEKIT_PERSISTENT_STORAGE_PATH=/opt/persistent/rdkservices/Airplay
+2023 Jun 15 07:32:00.825385 sh[25362]:  connectivity check.
+2023 Jun 15 07:32:10.902176 sh[25362]:  The network is down
+2023 Jun 15 07:32:10.902330 sh[25362]:  connectivity check.
+2023 Jun 15 07:32:11.217305 sh[25362]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"connectedToInternet":true,"success":true}}
+2023 Jun 15 07:32:11.223915 sh[25362]:  true
+2023 Jun 15 07:32:11.257216 sh[25362]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"status":"activated","success":true}}
+2023 Jun 15 07:32:11.263605 sh[25362]:  The network is up
+2023 Jun 15 07:32:11.903772 sh[25362]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:11.904352 sh[25362]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:12.000270 sh[25362]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   141  100    38  100   103    391   1061 --:--:-- --:--:-- --:--:--  1453
+2023 Jun 15 07:32:12.001815 sh[25362]:  {"jsonrpc":"2.0","id":4,"result":null}Daemon Activated..
+2023 Jun 15 07:32:32.184810 sh[25362]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:32.185343 sh[25362]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:32.196601 sh[25362]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   152  100    50  100   102   3846   7846 --:--:-- --:--:-- --:--:-- 12666
+2023 Jun 15 07:32:32.198821 sh[25362]:  {"jsonrpc":"2.0","id":4,"result":{"success":true}}Script Exited .......
+2023 Jun 15 07:32:32.363718 sh[28054]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:32.364330 sh[28054]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:32.373271 sh[28054]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   143  100    38  100   105   3800  10500 --:--:-- --:--:-- --:--:-- 14300
+2023 Jun 15 07:32:32.525845 sh[28054]:  {"jsonrpc":"2.0","id":4,"result":null}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:32.526219 sh[28054]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:32.547658 sh[28054]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   152  100    50  100   102   2272   4636 --:--:-- --:--:-- --:--:--  7238
+2023 Jun 15 07:32:32.549574 sh[28054]:  {"jsonrpc":"2.0","id":4,"result":{"success":true}}Process is Stopping AirPlay-Daemon.......
+2023 Jun 15 07:32:37.766177 sh[28322]:  HOMEKIT_PERSISTENT_STORAGE_PATH=/opt/persistent/rdkservices/Airplay
+2023 Jun 15 07:32:37.768200 sh[28322]:  connectivity check.
+2023 Jun 15 07:32:38.012827 sh[28322]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"connectedToInternet":true,"success":true}}
+2023 Jun 15 07:32:38.019156 sh[28322]:  true
+2023 Jun 15 07:32:38.050639 sh[28322]:  {"jsonrpc":"2.0","id":4,"result":null}{"jsonrpc":"2.0","id":4,"result":{"status":"activated","success":true}}
+2023 Jun 15 07:32:38.058911 sh[28322]:  The network is up
+2023 Jun 15 07:32:38.697471 sh[28322]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:38.697819 sh[28322]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:38.807136 sh[28322]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   141  100    38  100   103    348    944 --:--:-- --:--:-- --:--:--  1293100   141  100    38  100   103    348    944 --:--:-- --:--:-- --:--:--  1281
+2023 Jun 15 07:32:38.808133 sh[28322]:  {"jsonrpc":"2.0","id":4,"result":null}Daemon Activated..

@@ -1,0 +1,52 @@
+2023 Jun 15 07:22:32.490777 sh[4799]:  LOG PATH: /opt/logs/PreviousLogs
+2023 Jun 15 07:22:32.490928 sh[4799]:  Last reboot File = /opt/logs/PreviousLogs/bak1_rebootInfo.log
+2023 Jun 15 07:22:32.784866 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Start of Reboot Reason Script
+2023 Jun 15 07:22:32.803422 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Acquired rebootInfo lock
+2023 Jun 15 07:22:32.803871 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: /tmp/Update_rebootInfo_invoked not found, proceeding...
+2023 Jun 15 07:22:32.869114 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/secure/reboot/reboot.info file not found, Assigning default values...
+2023 Jun 15 07:22:32.869288 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/logs/rebootInfo.log logfile found, Fetching source, time and other reasons
+2023 Jun 15 07:22:32.994320 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Validating reboot information received from /opt/logs/rebootInfo.log...
+2023 Jun 15 07:22:32.994437 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/logs/rebootInfo.log file not found and Value of rebootInitiatedBy= is empty
+2023 Jun 15 07:22:32.994517 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Checking for OOPS DUMP for Kernel Panic...
+2023 Jun 15 07:22:32.994593 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Using /sys/devices/platform/aml_pm/reset_reason to fetch hard reboot reason for AMLOGIC TV platforms
+2023 Jun 15 07:22:33.010810 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Checking firmware failure cases (ECM Crash, Max Reboot etc)...
+2023 Jun 15 07:22:33.044860 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Firmware failure not found...
+2023 Jun 15 07:22:33.044998 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Reboot reason present in /opt/secure/reboot/previousreboot.info file:
+2023 Jun 15 07:22:33.078040 sh[4799]:  {
+2023 Jun 15 07:22:33.078150 sh[4799]:  "timestamp":"Thu Jun 15 07:17:54 UTC 2023",
+2023 Jun 15 07:22:33.078207 sh[4799]:  "source":"SOFTWARE_REBOOT",
+2023 Jun 15 07:22:33.078264 sh[4799]:  "reason":"SOFTWARE_MASTER_RESET",
+2023 Jun 15 07:22:33.078321 sh[4799]:  "customReason":"Hardware Register - NORMAL_BOOT",
+2023 Jun 15 07:22:33.078403 sh[4799]:  "otherReason":"Reboot due to user triggered reboot command"
+2023 Jun 15 07:22:33.078462 sh[4799]:  }
+2023 Jun 15 07:22:33.078781 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Updating Reboot reason in /opt/secure/reboot/previousreboot.info file
+2023 Jun 15 07:22:33.083158 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Updated Previous Reboot Reason information
+2023 Jun 15 07:22:33.083225 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Unable to find the /opt/secure/reboot/keypress.info file
+2023 Jun 15 07:22:33.100092 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: End of Reboot Reason Script
+2023 Jun 15 07:22:33.113231 sh[4799]:  /lib/rdk/updatePreviousRebootInfo.sh: Releasing rebootInfo lock
+2023 Jun 15 07:23:13.322124 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Start of Reboot Reason Script
+2023 Jun 15 07:23:13.361230 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Acquired rebootInfo lock
+2023 Jun 15 07:23:13.361848 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: /tmp/Update_rebootInfo_invoked flag found
+2023 Jun 15 07:23:13.361930 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Checking /tmp/stt_received and /tmp/rebootInfo_Updated flag to update the reboot reason
+2023 Jun 15 07:23:13.422836 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/secure/reboot/reboot.info file not found, Assigning default values...
+2023 Jun 15 07:23:13.422961 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/logs/rebootInfo.log logfile found, Fetching source, time and other reasons
+2023 Jun 15 07:23:13.599588 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Validating reboot information received from /opt/logs/rebootInfo.log...
+2023 Jun 15 07:23:13.599763 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: /opt/logs/rebootInfo.log file not found and Value of rebootInitiatedBy= is empty
+2023 Jun 15 07:23:13.599846 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Checking for OOPS DUMP for Kernel Panic...
+2023 Jun 15 07:23:13.599922 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Using /sys/devices/platform/aml_pm/reset_reason to fetch hard reboot reason for AMLOGIC TV platforms
+2023 Jun 15 07:23:13.624933 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Checking firmware failure cases (ECM Crash, Max Reboot etc)...
+2023 Jun 15 07:23:13.669985 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Firmware failure not found...
+2023 Jun 15 07:23:13.670289 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Reboot reason present in /opt/secure/reboot/previousreboot.info file:
+2023 Jun 15 07:23:13.684291 sh[11547]:  {
+2023 Jun 15 07:23:13.684417 sh[11547]:  "timestamp":"Thu Jun 15 07:22:32 UTC 2023",
+2023 Jun 15 07:23:13.684481 sh[11547]:  "source":"SOFTWARE_REBOOT",
+2023 Jun 15 07:23:13.684548 sh[11547]:  "reason":"SOFTWARE_MASTER_RESET",
+2023 Jun 15 07:23:13.684610 sh[11547]:  "customReason":"Hardware Register - NORMAL_BOOT",
+2023 Jun 15 07:23:13.684671 sh[11547]:  "otherReason":"Reboot due to user triggered reboot command"
+2023 Jun 15 07:23:13.684732 sh[11547]:  }
+2023 Jun 15 07:23:13.685319 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Updating Reboot reason in /opt/secure/reboot/previousreboot.info file
+2023 Jun 15 07:23:13.690923 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Updated Previous Reboot Reason information
+2023 Jun 15 07:23:13.691068 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Unable to find the /opt/secure/reboot/keypress.info file
+2023 Jun 15 07:23:13.691142 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Update previous reboot info to Parodus
+2023 Jun 15 07:23:14.124653 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: End of Reboot Reason Script
+2023 Jun 15 07:23:14.138084 sh[11547]:  /lib/rdk/updatePreviousRebootInfo.sh: Releasing rebootInfo lock

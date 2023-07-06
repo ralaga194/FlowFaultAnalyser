@@ -1,0 +1,184 @@
+15.06.2023_07:23:51: /lib/rdk/swupdate_utility.sh: Starting SoftwareUpdate Utility Script...
+15.06.2023_07:23:51: /lib/rdk/swupdate_utility.sh: trigger type=1 and retry=0
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:25:24: /lib/rdk/swupdate_utility.sh: RDKFirmwareUpgrader rfc Status=false and DIRECTCDN=false
+15.06.2023_07:25:24: /lib/rdk/swupdate_utility.sh: Triggering deviceInitiatedFWDnld.sh with 3 retries
+15.06.2023_07:25:24: /lib/rdk/deviceInitiatedFWDnld.sh: Starting DeviceInitiated Firmware Download...
+15.06.2023_07:25:24: /lib/rdk/deviceInitiatedFWDnld.sh: RDKFirmwareUpgrader rfc Status=false
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: Throttle is disabled
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: IncrementalCDL is true
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: Retry count passed in first argument=0 is not used as we follow default retry count=0 for fallback mechanism
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: Image Upgrade During Bootup ..!
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: version = ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: buildtype = vbn
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: partnerId = xglobal
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: Retrieving the timezone value
+15.06.2023_07:25:25: /lib/rdk/deviceInitiatedFWDnld.sh: Reading Timezone value from /opt/output.json file...
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: Got timezone using /opt/output.json successfully, value:Universal
+Universal
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: Received STT flag
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: Check Codebig flag...
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: Retrive PDRI Version
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: PDRI Version = 
+15.06.2023_07:25:26: /lib/rdk/deviceInitiatedFWDnld.sh: Getting peripheral device firmware info
+15.06.2023_07:25:26 Fetching bundle metadata from /media/apps/etc/certs
+15.06.2023_07:25:26 /etc/certs does not exist
+15.06.2023_07:25:26 Metadata found only in /media/apps/etc/certs
+15.06.2023_07:25:26 List of bundle metadata found in CPE: /media/apps/etc/certs/ca-store-update-bundle_package.json
+15.06.2023_07:25:26 Installed bundle list: ca-store-update-bundle:0.2
+15.06.2023_07:25:26 /media/apps/rdm/manifests does not exist
+15.06.2023_07:25:26 Installed RDM Manifest Version in CPE: 
+15.06.2023_07:25:27: /lib/rdk/deviceInitiatedFWDnld.sh: Executing createJsonString in script
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   156  100    72  100    84   9000  10500 --:--:-- --:--:-- --:--:-- 22285
+15.06.2023_07:25:28: /lib/rdk/deviceInitiatedFWDnld.sh: JSONSTR: eStbMac=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&additionalFwVerInfo=&env=vbn&model=ELTE11MWR&partnerId=xglobal&targetProposition=&accountId=3120539011156101601&experience=FlexV2&serial=KA211622Z5C000105&localtime=Thu Jun 15 07:25:27 UTC 2023&dlCertBundle=ca-store-update-bundle:0.2&rdmCatalogueVersion=&timezone=Universal&activationInProgress=false&capabilities="rebootDecoupled"&capabilities="RCDL"&capabilities="supportsFullHttpUrl"
+15.06.2023_07:25:28: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event FirmwareStateEvent 1
+** Message: 03:25:28.331: IARM_event_sender  Entering 16360
+
+** Message: 03:25:28.331: >>>>> Send IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,evenstatus=1
+** Message: 03:25:28.338: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,eventstatus=1
+** Message: 03:25:28.338: >>>>> IARM SUCCESS  Event Name =FirmwareStateEvent,sysStateEvent=43
+** Message: 03:25:28.840: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:25:28: /lib/rdk/deviceInitiatedFWDnld.sh: sendXCONFRequest Codebig is disabled UseCodebig=0
+15.06.2023_07:25:28: /lib/rdk/deviceInitiatedFWDnld.sh: sendXCONFRequest Using Direct Image upgrade connection
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: Trying to communicate with XCONF server
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: Attempting --tlsv1.2 connection to XCONF server
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: CDL: firmwareDownloadServer: <ssr_indirect>
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: Fetching MTLS credential for Xconf
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: MTLS creds for Xconf fetched
+15.06.2023_07:25:29: /lib/rdk/deviceInitiatedFWDnld.sh: CURL_CMD: curl --tlsv1.2 --cert-type P12 --cert /opt/certs/devicecert_1.pk12<masked>--connect-timeout 30 -w '%{http_code} %{remote_ip} %{remote_port}\n' -d "eStbMac=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&additionalFwVerInfo=&env=vbn&model=ELTE11MWR&partnerId=xglobal&targetProposition=&accountId=3120539011156101601&experience=FlexV2&serial=KA211622Z5C000105&localtime=Thu Jun 15 07:25:27 UTC 2023&dlCertBundle=ca-store-update-bundle:0.2&rdmCatalogueVersion=&timezone=Universal&activationInProgress=false&capabilities="rebootDecoupled"&capabilities="RCDL"&capabilities="supportsFullHttpUrl"" -o "/opt/response.txt" "https://secure.xconfds.coast.xcal.tv/xconf/swu/stb" -m 10
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1665  100  1194  100   471   2562   1010 --:--:-- --:--:-- --:--:--  3565100  1665  100  1194  100   471   2556   1008 --:--:-- --:--:-- --:--:--  3557
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Curl Connected to secure.xconfds.coast.xcal.tv (2001:558:fd02:3300:a479:667e:87fd:c4c5) port 443
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Curl return code : 0, http code: 404
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: curl_ret = 0, ret=0, http_code: 404 for XCONF communication
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Received HTTPS 404 Response from Xconf Server. Retry logic not needed
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Creating /tmp/.xconfssrdownloadurl with 404 response from Xconf
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Exiting from Image Upgrade process..!
+15.06.2023_07:25:30: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event FirmwareStateEvent 3
+** Message: 03:25:30.479: IARM_event_sender  Entering 16660
+
+** Message: 03:25:30.480: >>>>> Send IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,evenstatus=3
+** Message: 03:25:30.488: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,eventstatus=3
+** Message: 03:25:30.488: >>>>> IARM SUCCESS  Event Name =FirmwareStateEvent,sysStateEvent=43
+** Message: 03:25:30.990: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:25:31: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event MaintenanceMGR 9
+** Message: 03:25:31.072: IARM_event_sender  Entering 16739
+
+** Message: 03:25:31.072: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=9
+** Message: 03:25:31.081: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=9
+** Message: 03:25:31.081: >>>>> Identified MaintenanceMGR
+** Message: 03:25:31.081: >>>>> IARM SUCCESS  Event  = 9
+** Message: 03:25:31.250: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1
+15.06.2023_07:32:55: /lib/rdk/swupdate_utility.sh: Starting SoftwareUpdate Utility Script...
+15.06.2023_07:32:55: /lib/rdk/swupdate_utility.sh: trigger type=1 and retry=0
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:34:28: /lib/rdk/swupdate_utility.sh: RDKFirmwareUpgrader rfc Status=false and DIRECTCDN=false
+15.06.2023_07:34:28: /lib/rdk/swupdate_utility.sh: Triggering deviceInitiatedFWDnld.sh with 3 retries
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: Starting DeviceInitiated Firmware Download...
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: RDKFirmwareUpgrader rfc Status=false
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: Throttle is disabled
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: IncrementalCDL is true
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: Retry count passed in first argument=0 is not used as we follow default retry count=0 for fallback mechanism
+15.06.2023_07:34:29: /lib/rdk/deviceInitiatedFWDnld.sh: Image Upgrade During Bootup ..!
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: version = ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: buildtype = vbn
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: partnerId = xglobal
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Retrieving the timezone value
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Reading Timezone value from /opt/output.json file...
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Got timezone using /opt/output.json successfully, value:Universal
+Universal
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Received STT flag
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Check Codebig flag...
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Retrive PDRI Version
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: PDRI Version = 
+15.06.2023_07:34:30: /lib/rdk/deviceInitiatedFWDnld.sh: Getting peripheral device firmware info
+15.06.2023_07:34:31 Fetching bundle metadata from /media/apps/etc/certs
+15.06.2023_07:34:31 /etc/certs does not exist
+15.06.2023_07:34:31 Metadata found only in /media/apps/etc/certs
+15.06.2023_07:34:31 List of bundle metadata found in CPE: /media/apps/etc/certs/ca-store-update-bundle_package.json
+15.06.2023_07:34:31 Installed bundle list: ca-store-update-bundle:0.2
+15.06.2023_07:34:31 /media/apps/rdm/manifests does not exist
+15.06.2023_07:34:31 Installed RDM Manifest Version in CPE: 
+15.06.2023_07:34:31: /lib/rdk/deviceInitiatedFWDnld.sh: Executing createJsonString in script
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   156  100    72  100    84   9000  10500 --:--:-- --:--:-- --:--:-- 19500
+15.06.2023_07:34:32: /lib/rdk/deviceInitiatedFWDnld.sh: JSONSTR: eStbMac=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&additionalFwVerInfo=&env=vbn&model=ELTE11MWR&partnerId=xglobal&targetProposition=&accountId=3120539011156101601&experience=FlexV2&serial=KA211622Z5C000105&localtime=Thu Jun 15 07:34:32 UTC 2023&dlCertBundle=ca-store-update-bundle:0.2&rdmCatalogueVersion=&timezone=Universal&activationInProgress=false&capabilities="rebootDecoupled"&capabilities="RCDL"&capabilities="supportsFullHttpUrl"
+15.06.2023_07:34:32: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event FirmwareStateEvent 1
+** Message: 03:34:33.024: IARM_event_sender  Entering 32500
+
+** Message: 03:34:33.025: >>>>> Send IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,evenstatus=1
+** Message: 03:34:33.031: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,eventstatus=1
+** Message: 03:34:33.032: >>>>> IARM SUCCESS  Event Name =FirmwareStateEvent,sysStateEvent=43
+** Message: 03:34:33.534: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: sendXCONFRequest Codebig is disabled UseCodebig=0
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: sendXCONFRequest Using Direct Image upgrade connection
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: Trying to communicate with XCONF server
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: Attempting --tlsv1.2 connection to XCONF server
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: CDL: firmwareDownloadServer: <ssr_indirect>
+15.06.2023_07:34:33: /lib/rdk/deviceInitiatedFWDnld.sh: Fetching MTLS credential for Xconf
+15.06.2023_07:34:34: /lib/rdk/deviceInitiatedFWDnld.sh: MTLS creds for Xconf fetched
+15.06.2023_07:34:34: /lib/rdk/deviceInitiatedFWDnld.sh: CURL_CMD: curl --tlsv1.2 --cert-type P12 --cert /opt/certs/devicecert_1.pk12<masked>--connect-timeout 30 -w '%{http_code} %{remote_ip} %{remote_port}\n' -d "eStbMac=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&additionalFwVerInfo=&env=vbn&model=ELTE11MWR&partnerId=xglobal&targetProposition=&accountId=3120539011156101601&experience=FlexV2&serial=KA211622Z5C000105&localtime=Thu Jun 15 07:34:32 UTC 2023&dlCertBundle=ca-store-update-bundle:0.2&rdmCatalogueVersion=&timezone=Universal&activationInProgress=false&capabilities="rebootDecoupled"&capabilities="RCDL"&capabilities="supportsFullHttpUrl"" -o "/opt/response.txt" "https://secure.xconfds.coast.xcal.tv/xconf/swu/stb" -m 10
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1665  100  1194  100   471   2296    905 --:--:-- --:--:-- --:--:--  3208
+15.06.2023_07:34:34: /lib/rdk/deviceInitiatedFWDnld.sh: Curl Connected to secure.xconfds.coast.xcal.tv (2001:558:fd02:3300:a479:667e:87fd:c4c5) port 443
+15.06.2023_07:34:34: /lib/rdk/deviceInitiatedFWDnld.sh: Curl return code : 0, http code: 404
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: curl_ret = 0, ret=0, http_code: 404 for XCONF communication
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: Received HTTPS 404 Response from Xconf Server. Retry logic not needed
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: Creating /tmp/.xconfssrdownloadurl with 404 response from Xconf
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: Exiting from Image Upgrade process..!
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event FirmwareStateEvent 3
+** Message: 03:34:35.322: IARM_event_sender  Entering 359
+
+** Message: 03:34:35.323: >>>>> Send IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,evenstatus=3
+** Message: 03:34:35.329: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =FirmwareStateEvent,eventstatus=3
+** Message: 03:34:35.329: >>>>> IARM SUCCESS  Event Name =FirmwareStateEvent,sysStateEvent=43
+** Message: 03:34:35.831: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = FirmwareStateEvent
+setting init done
+Registering FirmwareStateEvent
+term start init 1
+15.06.2023_07:34:35: /lib/rdk/deviceInitiatedFWDnld.sh: Sending IARM Event MaintenanceMGR 9
+** Message: 03:34:35.920: IARM_event_sender  Entering 464
+
+** Message: 03:34:35.921: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=9
+** Message: 03:34:35.927: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=9
+** Message: 03:34:35.928: >>>>> Identified MaintenanceMGR
+** Message: 03:34:35.928: >>>>> IARM SUCCESS  Event  = 9
+** Message: 03:34:36.430: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1

@@ -1,0 +1,2 @@
+2023 Jun 15 07:22:32.859670 "getDeviceDetails"[4782]:  ifconfig: wlan0: error fetching interface information: Device not found
+2023 Jun 15 07:22:47.628214 "getDeviceDetails"[4782]:  getDeviceDetails: 07:22:47 up 0 min, Breaking the loop, Got IPAddress:2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade

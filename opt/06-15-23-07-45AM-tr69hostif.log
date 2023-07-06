@@ -1,0 +1,504 @@
+2023 Jun 15 07:22:34.881101 "tr69hostif"[5635]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:34.881279 "tr69hostif"[5635]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:34.881357 "tr69hostif"[5635]:  230615-07:22:34.880225 [mod=TR69HOSTIF, lvl=NOTICE] [tid=5635] Starting tr69HostIf Service
+2023 Jun 15 07:22:34.905188 "tr69hostif"[5635]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = tr69HostIfMgr
+2023 Jun 15 07:22:34.931089 "tr69hostif"[5635]:  setting init done
+2023 Jun 15 07:22:34.931202 "tr69hostif"[5635]:  Registering tr69HostIfMgr
+2023 Jun 15 07:22:34.938631 "tr69hostif"[5635]:  Entering Initialize count 0 with thread id 2996924976
+2023 Jun 15 07:22:34.938746 "tr69hostif"[5635]:  <<<<< VDISP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:34.943261 "tr69hostif"[5635]:  <<<<< AOP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:34.944307 "tr69hostif"[5635]:  <<<<< VOP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:34.945086 "tr69hostif"[5635]:  <<<<< VID is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:34.959754 "tr69hostif"[5635]:  AudioOutputPort init: _type:2 _index:0 _handle:-1276519512
+2023 Jun 15 07:22:34.976353 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method dsGetAudioLevel
+2023 Jun 15 07:22:34.991277 "tr69hostif"[5635]:  AudioOutputPort init: _type:5 _index:0 _handle:-1276519488
+2023 Jun 15 07:22:34.993080 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:34.995276 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method dsGetStereoMode
+2023 Jun 15 07:22:35.014803 "tr69hostif"[5635]:  AudioOutputPort init: _type:3 _index:0 _handle:-1276519504
+2023 Jun 15 07:22:35.019726 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:35.049282 "tr69hostif"[5635]:  AudioOutputPort init: _type:4 _index:0 _handle:-1276519496
+2023 Jun 15 07:22:35.050813 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:35.106016 "tr69hostif"[5635]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:35.170671 "tr69hostif"[5635]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:35.269584 "tr69hostif"[5635]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:35.350105 "tr69hostif"[5635]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:35.361666 "tr69hostif"[5635]:  Exiting Initialize with thread 2996924976
+2023 Jun 15 07:22:35.383260 "tr69hostif"[5635]:  230615-07:22:35.383074 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Successfully initialize Data Model.
+2023 Jun 15 07:22:35.383894 "tr69hostif"[5635]:  230615-07:22:35.383751 [mod=PARODUSIF, lvl=INFO] [tid=5635] Notify Configuration file set /etc/notify_webpa_cfg.json
+2023 Jun 15 07:22:35.384033 "tr69hostif"[5635]:  230615-07:22:35.383890 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Initiating Connection with PARODUS success..
+2023 Jun 15 07:22:35.384123 "tr69hostif"[5635]:  230615-07:22:35.384047 [mod=RBUSCORE, lvl=INFO] [tid=5635] RBus Enabled
+2023 Jun 15 07:22:35.384190 "tr69hostif"[5635]:  230615-07:22:35.384075 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [init_rbus_dml_provider] [rbusdml] The rbus_checkStatus() is Enabled (0).
+2023 Jun 15 07:22:35.384286 "tr69hostif"[5635]:  230615-07:22:35.384141 [mod=RBUS, lvl=INFO] [tid=5635] rbus_open(tr69hostif)
+2023 Jun 15 07:22:35.384365 "tr69hostif"[5635]:  230615-07:22:35.384310 [mod=RBUSCORE, lvl=INFO] [tid=5635] RBus Enabled
+2023 Jun 15 07:22:35.384444 "tr69hostif"[5635]:  230615-07:22:35.384375 [mod=RBUSCORE, lvl=INFO] [tid=5635] Broker address: unix:///tmp/rtrouted
+2023 Jun 15 07:22:35.428512 "tr69hostif"[5635]:  230615-07:22:35.428402 [mod=PARODUSIF, lvl=INFO] [tid=6117] libparodus_init with parodus url tcp://127.0.0.1:6666 and client url tcp://127.0.0.1:6667
+2023 Jun 15 07:22:35.449936 "tr69hostif"[5635]:  230615-07:22:35.447564 [mod=RBUS, lvl=INFO] [tid=5635] rbus_open(tr69hostif) success
+2023 Jun 15 07:22:35.451722 "tr69hostif"[5635]:  230615-07:22:35.451580 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [init_rbus_dml_provider:448][rbusdml]Successfully get the complete parameter list, the Parameter counts is = 1043
+2023 Jun 15 07:22:35.485740 "tr69hostif"[5635]:  230615-07:22:35.485598 [mod=TR69HOSTIF, lvl=INFO] [tid=6114] SERVER: Started server successfully.
+2023 Jun 15 07:22:35.486243 "tr69hostif"[5635]:  230615-07:22:35.486130 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.489301 "tr69hostif"[5635]:   230615-07:22:35.489155 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.492369 "tr69hostif"[5635]:   230615-07:22:35.492214 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.603768 "tr69hostif"[5635]:   230615-07:22:35.603597 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.621280 "tr69hostif"[5635]:   230615-07:22:35.621125 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.721343 "tr69hostif"[5635]:   230615-07:22:35.721198 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.739145 "tr69hostif"[5635]:   230615-07:22:35.739030 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.787204 "tr69hostif"[5635]:   230615-07:22:35.787043 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.834234 "tr69hostif"[5635]:   230615-07:22:35.831760 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.872158 "tr69hostif"[5635]:   230615-07:22:35.871995 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.891303 "tr69hostif"[5635]:   230615-07:22:35.890378 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.924270 "tr69hostif"[5635]:   230615-07:22:35.923782 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:35.978910 "tr69hostif"[5635]:   230615-07:22:35.978756 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.061196 "tr69hostif"[5635]:   230615-07:22:36.061050 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.157292 "tr69hostif"[5635]:   230615-07:22:36.157146 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.260273 "tr69hostif"[5635]:   230615-07:22:36.260166 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap Properties File :  /opt/secure/RFC/bootstrap.ini
+2023 Jun 15 07:22:36.267987 "tr69hostif"[5635]:  230615-07:22:36.267857 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] getPartnerDeviceConfig: key Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Bootstrap.NetflixESNprefix does NOT exist generic json...add new entry
+2023 Jun 15 07:22:36.268132 "tr69hostif"[5635]:  230615-07:22:36.267950 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] getPartnerDeviceConfig: key Device.DeviceInfo.X_RDKCENTRAL-COM_Manufacturing.UIbranding does NOT exist generic json...add new entry
+2023 Jun 15 07:22:36.268450 "tr69hostif"[5635]:  230615-07:22:36.268367 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.286602 "tr69hostif"[5635]:  230615-07:22:36.286174 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.TR69ACSConnectURL_dev, , , 5--
+2023 Jun 15 07:22:36.286743 "tr69hostif"[5635]:  230615-07:22:36.286319 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.298560 "tr69hostif"[5635]:  230615-07:22:36.298454 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.TR69ACSConnectURL, , , 5--
+2023 Jun 15 07:22:36.298784 "tr69hostif"[5635]:  230615-07:22:36.298711 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.315367 "tr69hostif"[5635]:  230615-07:22:36.315202 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.TR69CertLocation, , , 5--
+2023 Jun 15 07:22:36.315496 "tr69hostif"[5635]:  230615-07:22:36.315301 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.333119 "tr69hostif"[5635]:  230615-07:22:36.331943 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DNS64Proxy.Server1, , , 5--
+2023 Jun 15 07:22:36.333255 "tr69hostif"[5635]:  230615-07:22:36.332056 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.337759 "tr69hostif"[5635]:  230615-07:22:36.337594 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DNS64Proxy.Server2, , , 5--
+2023 Jun 15 07:22:36.340895 "tr69hostif"[5635]:  230615-07:22:36.340737 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.346571 "tr69hostif"[5635]:  230615-07:22:36.345680 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DNS64Proxy.Server3, , , 5--
+2023 Jun 15 07:22:36.346697 "tr69hostif"[5635]:  230615-07:22:36.345796 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.356868 "tr69hostif"[5635]:  230615-07:22:36.356730 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DNS64Proxy.Server4, , , 5--
+2023 Jun 15 07:22:36.357141 "tr69hostif"[5635]:  230615-07:22:36.357053 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.362486 "tr69hostif"[5635]:  230615-07:22:36.362309 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.LSA.PlacementReqUrl, , , 5--
+2023 Jun 15 07:22:36.362629 "tr69hostif"[5635]:  230615-07:22:36.362394 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.370270 "tr69hostif"[5635]:  230615-07:22:36.370138 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Bootstrap config update: Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.LSA.PSNUrl, , , 5--
+2023 Jun 15 07:22:36.370421 "tr69hostif"[5635]:  230615-07:22:36.370225 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.372684 "tr69hostif"[5635]:  230615-07:22:36.372545 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.375879 "tr69hostif"[5635]:  230615-07:22:36.374967 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] Update firmware value in journal even though it is not active..
+2023 Jun 15 07:22:36.375956 "tr69hostif"[5635]:  230615-07:22:36.375021 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.379137 "tr69hostif"[5635]:  230615-07:22:36.378957 [mod=TR69HOSTIF, lvl=INFO] [tid=6116]  setJournalValue: Updating existing firmware value
+2023 Jun 15 07:22:36.382712 "tr69hostif"[5635]:  230615-07:22:36.382558 [mod=TR69HOSTIF, lvl=INFO] [tid=6116] getInstance: Start thread getAuthServicePartnerID
+2023 Jun 15 07:22:36.388998 "tr69hostif"[5635]:  dbus_connection_send_with_reply_and_block failed with error The name process.iarm.NET_SRV_MGR was not provided by any .service files
+2023 Jun 15 07:22:36.389117 "tr69hostif"[5635]:  IARM_Call failed for call NET_SRV_MGR-getSSIDProps
+2023 Jun 15 07:22:36.389179 "tr69hostif"[5635]:  IARM_Bus_Call failed to invoke getSSIDProps with retCode 2
+2023 Jun 15 07:22:36.389361 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method getSSIDProps
+2023 Jun 15 07:22:36.389474 "tr69hostif"[5635]:  230615-07:22:36.388958 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] [../../../../../git/src/hostif/profiles/wifi/Device_WiFi.cpp:get_Device_WiFi_SSIDNumberOfEntries] IARM BUS CALL failed with  : 2.
+2023 Jun 15 07:22:36.389551 "tr69hostif"[5635]:  230615-07:22:36.389092 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.390277 "tr69hostif"[5635]:   dbus_connection_send_with_reply_and_block failed with error The name process.iarm.NET_SRV_MGR was not provided by any .service files
+2023 Jun 15 07:22:36.390365 "tr69hostif"[5635]:  IARM_Call failed for call NET_SRV_MGR-getSSIDProps
+2023 Jun 15 07:22:36.390427 "tr69hostif"[5635]:  IARM_Bus_Call failed to invoke getSSIDProps with retCode 2
+2023 Jun 15 07:22:36.390487 "tr69hostif"[5635]:  IARM_Bus_Call provider returned error (2) for the method getSSIDProps
+2023 Jun 15 07:22:36.390570 "tr69hostif"[5635]:  230615-07:22:36.390261 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] [../../../../../git/src/hostif/profiles/wifi/Device_WiFi.cpp:get_Device_WiFi_RadioNumberOfEntries] IARM BUS CALL failed with  : 2.
+2023 Jun 15 07:22:36.393511 "tr69hostif"[5635]:  230615-07:22:36.392420 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:22:36.397397 "tr69hostif"[5635]:  dbus_connection_send_with_reply_and_block failed with error The name process.iarm.BTRMgrBus was not provided by any .service files
+2023 Jun 15 07:22:36.397530 "tr69hostif"[5635]:  IARM_Call failed for call BTRMgrBus-GetDiscoveredDevices
+2023 Jun 15 07:22:36.397596 "tr69hostif"[5635]:  IARM_Bus_Call_with_IPCTimeout failed to complete the method invocation GetDiscoveredDevices with retCode 2
+2023 Jun 15 07:22:36.397660 "tr69hostif"[5635]:  873	: BTRMGR_GetDiscoveredDevices - Failed; RetCode = 2
+2023 Jun 15 07:22:36.397731 "tr69hostif"[5635]:  230615-07:22:36.395423 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] [fetch_Bluetooth_DiscoveredDevicesList]xBlueTooth: Failed in BTRMGR_GetDiscoveredDevices.
+2023 Jun 15 07:22:36.399363 "tr69hostif"[5635]:  dbus_connection_send_with_reply_and_block failed with error The name process.iarm.BTRMgrBus was not provided by any .service files
+2023 Jun 15 07:22:36.399482 "tr69hostif"[5635]:  IARM_Call failed for call BTRMgrBus-GetPairedDevices
+2023 Jun 15 07:22:36.399547 "tr69hostif"[5635]:  IARM_Bus_Call_with_IPCTimeout failed to complete the method invocation GetPairedDevices with retCode 2
+2023 Jun 15 07:22:36.399649 "tr69hostif"[5635]:  969	: BTRMGR_GetPairedDevices - Failed; RetCode = 2
+2023 Jun 15 07:22:36.400078 "tr69hostif"[5635]:  230615-07:22:36.399365 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] [fetch_Bluetooth_PairedDevicesList]xBlueTooth: Failed in BTRMGR_GetPairedDevices.
+2023 Jun 15 07:22:36.402061 "tr69hostif"[5635]:  dbus_connection_send_with_reply_and_block failed with error The name process.iarm.BTRMgrBus was not provided by any .service files
+2023 Jun 15 07:22:36.403786 "tr69hostif"[5635]:  IARM_Call failed for call BTRMgrBus-GetConnectedDevices
+2023 Jun 15 07:22:36.403891 "tr69hostif"[5635]:  IARM_Bus_Call_with_IPCTimeout failed to complete the method invocation GetConnectedDevices with retCode 2
+2023 Jun 15 07:22:36.403961 "tr69hostif"[5635]:  1066	: BTRMGR_GetConnectedDevices - Failed; RetCode = 2
+2023 Jun 15 07:22:36.404027 "tr69hostif"[5635]:  230615-07:22:36.401870 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] [fetch_Bluetooth_ConnectedDevicesList]xBlueTooth: Failed in BTRMGR_GetConnectedDevices.
+2023 Jun 15 07:22:36.443782 "tr69hostif"[5635]:  230615-07:22:36.443628 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.454096 "tr69hostif"[5635]:   230615-07:22:36.453902 [mod=TR69HOSTIF, lvl=INFO] [tid=6411] Found partnerID value = xglobal
+2023 Jun 15 07:22:36.454427 "tr69hostif"[5635]:  230615-07:22:36.454329 [mod=TR69HOSTIF, lvl=INFO] [tid=6411] getAuthServicePartnerID PartnerID = xglobal get_PartnerId_From_Script returned 0
+2023 Jun 15 07:22:36.479777 "tr69hostif"[5635]:  230615-07:22:36.479626 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.511232 "tr69hostif"[5635]:   230615-07:22:36.511045 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.530212 "tr69hostif"[5635]:   230615-07:22:36.530084 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.548971 "tr69hostif"[5635]:   230615-07:22:36.548835 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:36.604768 "tr69hostif"[5635]:   230615-07:22:36.601946 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [init_rbus_dml_provider][rbusdml] Parameter not found.
+2023 Jun 15 07:22:38.000907 "tr69hostif"[5635]:   230615-07:22:37.999958 [mod=RBUS, lvl=INFO] [tid=5635] rbusSubscriptions_loadCache: file /tmp/rbus_subs_tr69hostif
+2023 Jun 15 07:22:38.834341 "tr69hostif"[5635]:  230615-07:22:38.834148 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [init_rbus_dml_provider][rbusdml] rbus_regDataElements registered successfully.
+2023 Jun 15 07:22:38.836861 "tr69hostif"[5635]:  230615-07:22:38.834739 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] tr69hostif sd notify envent  is sent  Successfully, httpServerThreadDone=1
+2023 Jun 15 07:22:38.986149 "tr69hostif"[5635]:  230615-07:22:38.975109 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_WebPA_DNSText_URL:274] The param name [ Device.X_RDK_WebPA_DNSText.URL ], and value [ fabric.xmidt.comcast.net ]
+2023 Jun 15 07:22:39.169599 "tr69hostif"[5635]:  230615-07:22:39.142981 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_WebPA_TokenServer_URL:245] The param name [ Device.X_RDK_WebPA_TokenServer.URL ], and value [ https://issuer.xmidt.comcast.net:8080/issue ]
+2023 Jun 15 07:22:39.484646 "tr69hostif"[5635]:  230615-07:22:39.484433 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Mediarite.Config: doesn't exist in data-model
+2023 Jun 15 07:22:39.495680 "tr69hostif"[5635]:  230615-07:22:39.495471 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Mediarite.ConfigB64: doesn't exist in data-model
+2023 Jun 15 07:22:39.555289 "tr69hostif"[5635]:  230615-07:22:39.553855 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Mediarite.Ac4Enabled: doesn't exist in data-model
+2023 Jun 15 07:22:39.664221 "tr69hostif"[5635]:  230615-07:22:39.661484 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_WebPA_Server_URL:216] The param name [ Device.X_RDK_WebPA_Server.URL ], and value [ https://fabric.xmidt.comcast.net:8080 ]
+2023 Jun 15 07:22:41.381344 "tr69hostif"[5635]:  230615-07:22:41.380414 [mod=PARODUSIF, lvl=INFO] [tid=6117] Init for parodus Success..!!
+2023 Jun 15 07:22:41.381497 "tr69hostif"[5635]:  230615-07:22:41.380484 [mod=PARODUSIF, lvl=INFO] [tid=6117] WebPA is now ready to process requests
+2023 Jun 15 07:22:41.381632 "tr69hostif"[5635]:  230615-07:22:41.380814 [mod=PARODUSIF, lvl=INFO] [tid=6117] Inside getnotifyparamList trying to open /etc/notify_webpa_cfg.json
+2023 Jun 15 07:22:42.550347 "tr69hostif"[5635]:  230615-07:22:42.549559 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SystemServices.FriendlyName: doesn't exist in data-model
+2023 Jun 15 07:22:44.331577 "tr69hostif"[5635]:  230615-07:22:44.330614 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:22:44.389661 "tr69hostif"[5635]:  230615-07:22:44.389412 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Found partnerID value = xglobal
+2023 Jun 15 07:22:46.098632 "tr69hostif"[5635]:  230615-07:22:46.097165 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [get_Device_DeviceInfo_ProductClass] IARM_BUS_MFRLIB_API_GetSerializedData returns params: TE with paramlen: 2.
+2023 Jun 15 07:22:46.167737 "tr69hostif"[5635]:  230615-07:22:46.167562 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:22:46.215063 "tr69hostif"[5635]:  230615-07:22:46.214888 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Found partnerID value = xglobal
+2023 Jun 15 07:22:46.337987 "tr69hostif"[5635]:  230615-07:22:46.337494 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:22:46.429371 "tr69hostif"[5635]:  230615-07:22:46.429216 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] Found partnerID value = xglobal
+2023 Jun 15 07:22:46.448320 "tr69hostif"[5635]:  230615-07:22:46.448151 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:22:46.646757 "tr69hostif"[5635]:  230615-07:22:46.646599 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:22:48.878470 "tr69hostif"[5635]:  230615-07:22:48.877738 [mod=TR69HOSTIF, lvl=INFO] [tid=7174] Device Manageble Time =1686813761
+2023 Jun 15 07:22:54.754761 "tr69hostif"[5635]:  230615-07:22:54.754055 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:22:54.917190 "tr69hostif"[5635]:  230615-07:22:54.917040 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:22:59.140031 "tr69hostif"[5635]:  230615-07:22:59.139006 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] Failed '/tmp/currently_running_image_name' due to ['No such file or directory' (2)].
+2023 Jun 15 07:22:59.145733 "tr69hostif"[5635]:  230615-07:22:59.145562 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:22:59.165672 "tr69hostif"[5635]:  230615-07:22:59.165525 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] Found partnerID value = xglobal
+2023 Jun 15 07:23:10.630133 "tr69hostif"[5635]:  230615-07:23:10.628635 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:23:10.630283 "tr69hostif"[5635]:  230615-07:23:10.628692 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:23:10.632705 "tr69hostif"[5635]:  230615-07:23:10.631446 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:23:10.632841 "tr69hostif"[5635]:  230615-07:23:10.631526 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 3 ms
+2023 Jun 15 07:23:12.319138 "tr69hostif"[5635]:  230615-07:23:12.317720 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshArgs
+2023 Jun 15 07:23:12.325597 "tr69hostif"[5635]:  230615-07:23:12.322446 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshArgs] SSH Tunnel estb ipv6 address is : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade
+2023 Jun 15 07:23:12.325707 "tr69hostif"[5635]:  230615-07:23:12.323866 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:23:12.325769 "tr69hostif"[5635]:  230615-07:23:12.323939 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 7 ms
+2023 Jun 15 07:23:14.527235 "tr69hostif"[5635]:  230615-07:23:14.523177 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshTrigger
+2023 Jun 15 07:23:14.527378 "tr69hostif"[5635]:  230615-07:23:14.523311 [mod=TR69HOSTIF, lvl=INFO] [tid=6117]  input: start
+2023 Jun 15 07:23:14.527543 "tr69hostif"[5635]:   trigger_shorts : 0 230615-07:23:14.523345 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshTrigger] Starting SSH Tunnel
+2023 Jun 15 07:23:15.087920 "tr69hostif"[5635]:  /usr/bin/ssh:
+2023 Jun 15 07:23:15.088038 "tr69hostif"[5635]:  Host 'rdkautojump179.otto.apparatus.xcal.tv' key accepted unconditionally.
+2023 Jun 15 07:23:15.088102 "tr69hostif"[5635]:  (ecdsa-sha2-nistp256 fingerprint sha1!! 87:02:8c:36:6b:22:7e:6e:fa:9f:fd:6b:fa:7b:48:e3:08:e4:37:9a)
+2023 Jun 15 07:23:15.204457 "tr69hostif"[5635]:  this system is solely for the use of authorized comcast employees
+2023 Jun 15 07:23:15.204547 "tr69hostif"[5635]:  and contractors.
+2023 Jun 15 07:23:15.204596 "tr69hostif"[5635]:  Comcast reserves the right at any time to monitor usage of this
+2023 Jun 15 07:23:15.204662 "tr69hostif"[5635]:  system to ensure compliance with this policy, all applicable
+2023 Jun 15 07:23:15.204710 "tr69hostif"[5635]:  Comcast policies that apply to electronic communications, and all
+2023 Jun 15 07:23:15.204759 "tr69hostif"[5635]:  applicable laws.
+2023 Jun 15 07:23:15.204808 "tr69hostif"[5635]:  Your use of this system constitutes your acceptance of and
+2023 Jun 15 07:23:15.204881 "tr69hostif"[5635]:  agreement to all applicable Comcast electronic communications
+2023 Jun 15 07:23:15.204932 "tr69hostif"[5635]:  policies, your consent to monitoring by Comcast, and your express
+2023 Jun 15 07:23:15.204981 "tr69hostif"[5635]:  agreement to use this system in compliance with all applicable
+2023 Jun 15 07:23:15.205030 "tr69hostif"[5635]:  laws.
+2023 Jun 15 07:23:15.205097 "tr69hostif"[5635]:  Any unauthorized use of or access to this system may result in a
+2023 Jun 15 07:23:15.205155 "tr69hostif"[5635]:  revocation of your user privileges, other disciplinary action up
+2023 Jun 15 07:23:15.205207 "tr69hostif"[5635]:  to and including termination of employment or contract, or
+2023 Jun 15 07:23:15.205257 "tr69hostif"[5635]:  referrals to law enforcement officials including the provision
+2023 Jun 15 07:23:15.205307 "tr69hostif"[5635]:  evidence of any unauthorized use or access to law enforcement.
+2023 Jun 15 07:23:15.205357 "tr69hostif"[5635]:  [Banner from the server is too long]
+2023 Jun 15 07:23:15.357105 "tr69hostif"[5635]:  230615-07:23:15.356870 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:23:15.357236 "tr69hostif"[5635]:  230615-07:23:15.356930 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 835 ms
+2023 Jun 15 07:23:15.569181 "tr69hostif"[5635]:  230615-07:23:15.568424 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:23:15.569280 "tr69hostif"[5635]:  230615-07:23:15.568472 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:23:15.570498 "tr69hostif"[5635]:  230615-07:23:15.569784 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:23:15.570595 "tr69hostif"[5635]:  230615-07:23:15.569848 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 1 ms
+2023 Jun 15 07:23:37.034472 "tr69hostif"[5635]:  230615-07:23:37.033769 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:23:37.037927 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:23:37.043363 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:23:37.048797 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:23:46.901853 "tr69hostif"[5635]:  230615-07:23:46.901060 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:23:46.918645 "tr69hostif"[5635]:  230615-07:23:46.918504 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Found partnerID value = xglobal
+2023 Jun 15 07:23:51.466233 "tr69hostif"[5635]:  230615-07:23:51.465071 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:23:51.467215 "tr69hostif"[5635]:  230615-07:23:51.467070 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:23:51.639160 "tr69hostif"[5635]:  230615-07:23:51.638510 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:24:26.854775 "tr69hostif"[5635]:  230615-07:24:26.854046 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:24:37.124687 "tr69hostif"[5635]:  230615-07:24:37.123963 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:24:37.125638 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:24:37.130927 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:24:37.136575 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:24:59.626426 "tr69hostif"[5635]:  230615-07:24:59.625771 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:24:59.645190 "tr69hostif"[5635]:  230615-07:24:59.645033 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] Found partnerID value = xglobal
+2023 Jun 15 07:24:59.647096 "tr69hostif"[5635]:  230615-07:24:59.646988 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] Failed '/tmp/currently_running_image_name' due to ['No such file or directory' (2)].
+2023 Jun 15 07:24:59.653214 "tr69hostif"[5635]:  230615-07:24:59.652690 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:24:59.652734 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getRemoteType] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:24:59.653287 "tr69hostif"[5635]:  230615-07:24:59.652777 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.RemoteType] Invalid format to send across.
+2023 Jun 15 07:24:59.653349 "tr69hostif"[5635]:  230615-07:24:59.652812 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:24:59.656192 "tr69hostif"[5635]:  230615-07:24:59.656092 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:24:59.656146 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getBatteryPercentage] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:24:59.656342 "tr69hostif"[5635]:  230615-07:24:59.656186 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.BatteryPercentage] Invalid format to send across.
+2023 Jun 15 07:24:59.656409 "tr69hostif"[5635]:  230615-07:24:59.656222 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:24:59.659293 "tr69hostif"[5635]:  230615-07:24:59.659206 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:24:59.659256 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getRemoteSwVersion] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:24:59.659398 "tr69hostif"[5635]:  230615-07:24:59.659296 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.VersionInfoSW] Invalid format to send across.
+2023 Jun 15 07:24:59.659537 "tr69hostif"[5635]:  230615-07:24:59.659332 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:25:24.717305 "tr69hostif"[5635]:  230615-07:25:24.716560 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Sysint.CIXconfUrl: doesn't exist in data-model
+2023 Jun 15 07:25:24.841212 "tr69hostif"[5635]:  230615-07:25:24.841012 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Bootstrap.TargetProposition : Parameter Not Found in /opt/secure/RFC/bootstrap.ini
+2023 Jun 15 07:25:26.124083 "tr69hostif"[5635]:  /usr/bin/ssh: Connection to webpa_user01@rdkautojump179.otto.apparatus.xcal.tv:9090 exited: Remote closed the connection
+2023 Jun 15 07:25:26.876952 "tr69hostif"[5635]:  230615-07:25:26.876771 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:25:34.667251 "tr69hostif"[5635]:  230615-07:25:34.666515 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.debug_tools-lsof.Enable: doesn't exist in data-model
+2023 Jun 15 07:25:34.708988 "tr69hostif"[5635]:  230615-07:25:34.708859 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.debug_tools-gperftools.Enable: doesn't exist in data-model
+2023 Jun 15 07:25:37.193361 "tr69hostif"[5635]:  230615-07:25:37.192630 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:25:37.194917 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:25:37.205026 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:25:37.212622 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:26:26.889826 "tr69hostif"[5635]:  230615-07:26:26.889107 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:26:31.581957 "tr69hostif"[5635]:  230615-07:26:31.580795 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:26:31.582058 "tr69hostif"[5635]:  230615-07:26:31.580835 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:26:31.582156 "tr69hostif"[5635]:  230615-07:26:31.582095 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:26:31.582241 "tr69hostif"[5635]:  230615-07:26:31.582134 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 1 ms
+2023 Jun 15 07:26:33.390040 "tr69hostif"[5635]:  230615-07:26:33.389318 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshArgs
+2023 Jun 15 07:26:33.391692 "tr69hostif"[5635]:  230615-07:26:33.391199 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshArgs] SSH Tunnel estb ipv6 address is : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade
+2023 Jun 15 07:26:33.391761 "tr69hostif"[5635]:  230615-07:26:33.391631 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:26:33.391844 "tr69hostif"[5635]:  230615-07:26:33.391669 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 3 ms
+2023 Jun 15 07:26:34.454745 "tr69hostif"[5635]:  230615-07:26:34.454107 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshTrigger
+2023 Jun 15 07:26:34.454882 "tr69hostif"[5635]:  230615-07:26:34.454207 [mod=TR69HOSTIF, lvl=INFO] [tid=6117]  input: start
+2023 Jun 15 07:26:34.454990 "tr69hostif"[5635]:   trigger_shorts : 0 230615-07:26:34.454240 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshTrigger] Starting SSH Tunnel
+2023 Jun 15 07:26:34.744995 "tr69hostif"[5635]:  /usr/bin/ssh:
+2023 Jun 15 07:26:34.745106 "tr69hostif"[5635]:  Host 'rdkautojump80.otto.apparatus.xcal.tv' key accepted unconditionally.
+2023 Jun 15 07:26:34.745172 "tr69hostif"[5635]:  (ecdsa-sha2-nistp256 fingerprint sha1!! 87:02:8c:36:6b:22:7e:6e:fa:9f:fd:6b:fa:7b:48:e3:08:e4:37:9a)
+2023 Jun 15 07:26:34.862603 "tr69hostif"[5635]:  this system is solely for the use of authorized comcast employees
+2023 Jun 15 07:26:34.862717 "tr69hostif"[5635]:  and contractors.
+2023 Jun 15 07:26:34.862782 "tr69hostif"[5635]:  Comcast reserves the right at any time to monitor usage of this
+2023 Jun 15 07:26:34.862842 "tr69hostif"[5635]:  system to ensure compliance with this policy, all applicable
+2023 Jun 15 07:26:34.862935 "tr69hostif"[5635]:  Comcast policies that apply to electronic communications, and all
+2023 Jun 15 07:26:34.862997 "tr69hostif"[5635]:  applicable laws.
+2023 Jun 15 07:26:34.863057 "tr69hostif"[5635]:  Your use of this system constitutes your acceptance of and
+2023 Jun 15 07:26:34.863117 "tr69hostif"[5635]:  agreement to all applicable Comcast electronic communications
+2023 Jun 15 07:26:34.863176 "tr69hostif"[5635]:  policies, your consent to monitoring by Comcast, and your express
+2023 Jun 15 07:26:34.863236 "tr69hostif"[5635]:  agreement to use this system in compliance with all applicable
+2023 Jun 15 07:26:34.863295 "tr69hostif"[5635]:  laws.
+2023 Jun 15 07:26:34.863355 "tr69hostif"[5635]:  Any unauthorized use of or access to this system may result in a
+2023 Jun 15 07:26:34.863414 "tr69hostif"[5635]:  revocation of your user privileges, other disciplinary action up
+2023 Jun 15 07:26:34.863526 "tr69hostif"[5635]:  to and including termination of employment or contract, or
+2023 Jun 15 07:26:34.863610 "tr69hostif"[5635]:  referrals to law enforcement officials including the provision
+2023 Jun 15 07:26:34.863670 "tr69hostif"[5635]:  evidence of any unauthorized use or access to law enforcement.
+2023 Jun 15 07:26:34.863731 "tr69hostif"[5635]:  [Banner from the server is too long]
+2023 Jun 15 07:26:35.012850 "tr69hostif"[5635]:  230615-07:26:35.012642 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:26:35.012975 "tr69hostif"[5635]:  230615-07:26:35.012708 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 560 ms
+2023 Jun 15 07:26:35.374599 "tr69hostif"[5635]:  230615-07:26:35.374488 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:26:35.374695 "tr69hostif"[5635]:  230615-07:26:35.374528 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:26:35.375815 "tr69hostif"[5635]:  230615-07:26:35.375691 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:26:35.375930 "tr69hostif"[5635]:  230615-07:26:35.375746 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 1 ms
+2023 Jun 15 07:26:37.265970 "tr69hostif"[5635]:  230615-07:26:37.265277 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:26:37.267091 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:26:37.272493 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:26:37.302265 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:27:26.925370 "tr69hostif"[5635]:  230615-07:27:26.924505 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:27:37.355200 "tr69hostif"[5635]:  230615-07:27:37.354444 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:27:37.356658 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:27:37.364540 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:27:37.370151 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:28:26.917161 "tr69hostif"[5635]:  230615-07:28:26.916437 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:28:37.433567 "tr69hostif"[5635]:  230615-07:28:37.432861 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:28:37.434501 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:28:37.439375 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:28:37.444862 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:29:26.934462 "tr69hostif"[5635]:  230615-07:29:26.933730 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:29:37.508675 "tr69hostif"[5635]:  230615-07:29:37.507886 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:29:37.509933 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:29:37.530404 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:29:37.550426 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:30:26.946754 "tr69hostif"[5635]:  230615-07:30:26.946000 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:30:37.603920 "tr69hostif"[5635]:  230615-07:30:37.602710 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:30:37.604887 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:30:37.619760 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:30:37.625019 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:31:26.963971 "tr69hostif"[5635]:  230615-07:31:26.963200 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:31:37.674514 "tr69hostif"[5635]:  230615-07:31:37.673857 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:31:37.677349 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:31:37.705005 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:31:37.710093 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:31:53.050881 "tr69hostif"[5635]:  230615-07:31:53.042463 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:31:53.051014 "tr69hostif"[5635]:  230615-07:31:53.042515 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_COMCAST-COM_FirmwareFilename
+2023 Jun 15 07:31:53.051181 "tr69hostif"[5635]:  230615-07:31:53.043290 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:31:53.051269 "tr69hostif"[5635]:  230615-07:31:53.043336 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 0 ms
+2023 Jun 15 07:31:53.305100 "tr69hostif"[5635]:  230615-07:31:53.304678 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:31:53.305165 "tr69hostif"[5635]:  230615-07:31:53.304717 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.UpTime
+2023 Jun 15 07:31:53.305342 "tr69hostif"[5635]:  230615-07:31:53.305260 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:31:53.305407 "tr69hostif"[5635]:  230615-07:31:53.305306 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 0 ms
+2023 Jun 15 07:31:53.357549 "tr69hostif"[5635]:  230615-07:31:53.357429 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:31:53.486566 "tr69hostif"[5635]:  230615-07:31:53.486410 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:32:03.579118 "tr69hostif"[5635]:  230615-07:32:03.578372 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:32:03.631633 "tr69hostif"[5635]:  230615-07:32:03.631034 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Found partnerID value = xglobal
+2023 Jun 15 07:32:04.496573 "tr69hostif"[5635]:  230615-07:32:04.496419 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SystemServices.FriendlyName: doesn't exist in data-model
+2023 Jun 15 07:32:04.677893 "tr69hostif"[5635]:  230615-07:32:04.676008 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:32:04.912675 "tr69hostif"[5635]:  230615-07:32:04.912294 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:32:16.110024 "tr69hostif"[5635]:  230615-07:32:16.109236 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:32:16.131191 "tr69hostif"[5635]:  230615-07:32:16.131012 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] Found partnerID value = xglobal
+2023 Jun 15 07:32:26.979783 "tr69hostif"[5635]:  230615-07:32:26.978887 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:32:37.716691 "tr69hostif"[5635]:  230615-07:32:37.713990 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:32:37.716865 "tr69hostif"[5635]:  230615-07:32:37.714574 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:32:37.716927 "tr69hostif"[5635]:  230615-07:32:37.715260 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:32:37.774744 "tr69hostif"[5635]:  230615-07:32:37.774625 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:32:37.775804 "tr69hostif"[5635]:  230615-07:32:37.775657 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:32:37.779972 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:32:37.806940 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:32:37.812167 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:32:41.526586 "tr69hostif"[5635]:  230615-07:32:41.525656 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:32:41.673227 "tr69hostif"[5635]:  230615-07:32:41.673061 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:32:47.942300 "tr69hostif"[5635]:  230615-07:32:47.941121 [mod=TR69HOSTIF, lvl=ERROR] [tid=5907] [hostIf_GetReqHandler()] Failed with returned Value : 9002 for [Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.AAMP_CFG.b64Config]
+2023 Jun 15 07:32:48.090430 "tr69hostif"[5635]:  230615-07:32:48.089127 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.aamp.liveOffsetDriftCorrectionInterval: doesn't exist in data-model
+2023 Jun 15 07:32:49.714736 "tr69hostif"[5635]:  230615-07:32:49.713468 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:32:49.733840 "tr69hostif"[5635]:  230615-07:32:49.733685 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Found partnerID value = xglobal
+2023 Jun 15 07:32:54.534503 "tr69hostif"[5635]:  230615-07:32:54.533544 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:32:54.554368 "tr69hostif"[5635]:  230615-07:32:54.552882 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:32:55.028301 "tr69hostif"[5635]:  230615-07:32:55.024882 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] [get_xOpsDeviceMgmtForwardSSHEnable]Unable to open file
+2023 Jun 15 07:33:26.989460 "tr69hostif"[5635]:  230615-07:33:26.988716 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:33:37.818655 "tr69hostif"[5635]:  230615-07:33:37.817623 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:33:37.818922 "tr69hostif"[5635]:  230615-07:33:37.818232 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:33:37.819008 "tr69hostif"[5635]:  230615-07:33:37.818805 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:33:37.819535 "tr69hostif"[5635]:  230615-07:33:37.819374 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:33:37.820295 "tr69hostif"[5635]:  230615-07:33:37.820192 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:33:37.820890 "tr69hostif"[5635]:  230615-07:33:37.820776 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:33:37.822374 "tr69hostif"[5635]:  230615-07:33:37.822261 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:33:37.822935 "tr69hostif"[5635]:  230615-07:33:37.822801 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:33:37.823651 "tr69hostif"[5635]:  230615-07:33:37.823559 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:33:37.926952 "tr69hostif"[5635]:  230615-07:33:37.926821 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:33:37.927177 "tr69hostif"[5635]:  230615-07:33:37.927109 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:33:37.927571 "tr69hostif"[5635]:  230615-07:33:37.927425 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:33:37.929827 "tr69hostif"[5635]:  230615-07:33:37.929729 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:33:37.933586 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:33:37.959889 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:33:37.965207 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:34:27.001386 "tr69hostif"[5635]:  230615-07:34:27.000635 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:34:29.157393 "tr69hostif"[5635]:  230615-07:34:29.156716 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Sysint.CIXconfUrl: doesn't exist in data-model
+2023 Jun 15 07:34:29.296451 "tr69hostif"[5635]:  230615-07:34:29.296300 [mod=TR69HOSTIF, lvl=INFO] [tid=5635] Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Bootstrap.TargetProposition : Parameter Not Found in /opt/secure/RFC/bootstrap.ini
+2023 Jun 15 07:34:37.978873 "tr69hostif"[5635]:  230615-07:34:37.978107 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:34:37.979058 "tr69hostif"[5635]:  230615-07:34:37.978669 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:34:37.979523 "tr69hostif"[5635]:  230615-07:34:37.979239 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:34:37.979929 "tr69hostif"[5635]:  230615-07:34:37.979824 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:34:37.980463 "tr69hostif"[5635]:  230615-07:34:37.980344 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:34:37.981103 "tr69hostif"[5635]:  230615-07:34:37.980976 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:34:37.985529 "tr69hostif"[5635]:  230615-07:34:37.985383 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:34:37.986163 "tr69hostif"[5635]:  230615-07:34:37.986049 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:34:37.986675 "tr69hostif"[5635]:  230615-07:34:37.986580 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:34:37.987295 "tr69hostif"[5635]:  230615-07:34:37.987178 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:34:37.987971 "tr69hostif"[5635]:  230615-07:34:37.987853 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:34:37.988858 "tr69hostif"[5635]:  230615-07:34:37.988381 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:34:38.085956 "tr69hostif"[5635]:  230615-07:34:38.085770 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:34:38.086704 "tr69hostif"[5635]:  230615-07:34:38.086437 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:34:38.087359 "tr69hostif"[5635]:  230615-07:34:38.087033 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:34:38.088277 "tr69hostif"[5635]:  230615-07:34:38.087685 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:34:38.090662 "tr69hostif"[5635]:  230615-07:34:38.090498 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:34:38.096139 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:34:38.110765 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:34:38.138372 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:34:38.934262 "tr69hostif"[5635]:  230615-07:34:38.934115 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.debug_tools-lsof.Enable: doesn't exist in data-model
+2023 Jun 15 07:34:38.978235 "tr69hostif"[5635]:  230615-07:34:38.978039 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.debug_tools-gperftools.Enable: doesn't exist in data-model
+2023 Jun 15 07:35:10.185726 "tr69hostif"[5635]:  230615-07:35:10.185087 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshTrigger
+2023 Jun 15 07:35:10.185865 "tr69hostif"[5635]:  230615-07:35:10.185199 [mod=TR69HOSTIF, lvl=INFO] [tid=6117]  input: stop
+2023 Jun 15 07:35:10.185933 "tr69hostif"[5635]:   trigger_shorts : 0 230615-07:35:10.185231 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshTrigger] Stop SSH Tunnel
+2023 Jun 15 07:35:10.206710 "tr69hostif"[5635]:  230615-07:35:10.206576 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:35:10.206853 "tr69hostif"[5635]:  230615-07:35:10.206644 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 22 ms
+2023 Jun 15 07:35:27.015500 "tr69hostif"[5635]:  230615-07:35:27.014701 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:35:38.142859 "tr69hostif"[5635]:  230615-07:35:38.142117 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:35:38.143033 "tr69hostif"[5635]:  230615-07:35:38.142610 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:35:38.143165 "tr69hostif"[5635]:  230615-07:35:38.143052 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:35:38.143852 "tr69hostif"[5635]:  230615-07:35:38.143755 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:35:38.144361 "tr69hostif"[5635]:  230615-07:35:38.144286 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:35:38.144841 "tr69hostif"[5635]:  230615-07:35:38.144776 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:35:38.145278 "tr69hostif"[5635]:  230615-07:35:38.145218 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:35:38.145743 "tr69hostif"[5635]:  230615-07:35:38.145684 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:35:38.146177 "tr69hostif"[5635]:  230615-07:35:38.146120 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:35:38.146650 "tr69hostif"[5635]:  230615-07:35:38.146587 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:35:38.147093 "tr69hostif"[5635]:  230615-07:35:38.147029 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:35:38.147619 "tr69hostif"[5635]:  230615-07:35:38.147550 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:35:38.207968 "tr69hostif"[5635]:  230615-07:35:38.207835 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:35:38.208171 "tr69hostif"[5635]:  230615-07:35:38.208103 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:35:38.208427 "tr69hostif"[5635]:  230615-07:35:38.208368 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:35:38.208667 "tr69hostif"[5635]:  230615-07:35:38.208612 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:35:38.209715 "tr69hostif"[5635]:  230615-07:35:38.209653 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:35:38.211406 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:35:38.216424 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:35:38.244875 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:36:27.027998 "tr69hostif"[5635]:  230615-07:36:27.027228 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:36:38.249878 "tr69hostif"[5635]:  230615-07:36:38.249172 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:36:38.250087 "tr69hostif"[5635]:  230615-07:36:38.249687 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:36:38.250283 "tr69hostif"[5635]:  230615-07:36:38.250190 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:36:38.250845 "tr69hostif"[5635]:  230615-07:36:38.250736 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:36:38.251324 "tr69hostif"[5635]:  230615-07:36:38.251242 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:36:38.251915 "tr69hostif"[5635]:  230615-07:36:38.251809 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:36:38.252415 "tr69hostif"[5635]:  230615-07:36:38.252322 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:36:38.252896 "tr69hostif"[5635]:  230615-07:36:38.252824 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:36:38.253344 "tr69hostif"[5635]:  230615-07:36:38.253283 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:36:38.253783 "tr69hostif"[5635]:  230615-07:36:38.253726 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:36:38.254237 "tr69hostif"[5635]:  230615-07:36:38.254175 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:36:38.254678 "tr69hostif"[5635]:  230615-07:36:38.254620 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:36:38.291363 "tr69hostif"[5635]:  230615-07:36:38.291224 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:36:38.291684 "tr69hostif"[5635]:  230615-07:36:38.291602 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:36:38.291925 "tr69hostif"[5635]:  230615-07:36:38.291865 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:36:38.292214 "tr69hostif"[5635]:  230615-07:36:38.292105 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:36:38.293253 "tr69hostif"[5635]:  230615-07:36:38.293181 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:36:38.295118 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:36:38.308000 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:36:38.313246 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:37:22.198713 "tr69hostif"[5635]:  230615-07:37:22.197454 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:37:22.198881 "tr69hostif"[5635]:  230615-07:37:22.197497 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:37:22.199271 "tr69hostif"[5635]:  230615-07:37:22.199042 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:22.199358 "tr69hostif"[5635]:  230615-07:37:22.199105 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 1 ms
+2023 Jun 15 07:37:22.671335 "tr69hostif"[5635]:  230615-07:37:22.670981 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:37:22.671410 "tr69hostif"[5635]:  230615-07:37:22.671024 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_COMCAST-COM_STB_IP
+2023 Jun 15 07:37:22.674188 "tr69hostif"[5635]:  230615-07:37:22.673765 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:22.674280 "tr69hostif"[5635]:  230615-07:37:22.673824 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 2 ms
+2023 Jun 15 07:37:24.698061 "tr69hostif"[5635]:  230615-07:37:24.697038 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshArgs
+2023 Jun 15 07:37:24.699906 "tr69hostif"[5635]:  230615-07:37:24.698935 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshArgs] SSH Tunnel estb ipv6 address is : 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade
+2023 Jun 15 07:37:24.699980 "tr69hostif"[5635]:  230615-07:37:24.699362 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:24.700042 "tr69hostif"[5635]:  230615-07:37:24.699396 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 3 ms
+2023 Jun 15 07:37:25.704721 "tr69hostif"[5635]:  230615-07:37:25.704089 [mod=PARODUSIF, lvl=ERROR] [tid=6117] [../../../../../git/src/hostif/parodusClient/pal/webpa_parameter.cpp:SetParamInfo:568] Not Device.X_RDKCENTRAL-COM_T2.ReportProfiles. Param.paramName: Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshTrigger
+2023 Jun 15 07:37:25.704857 "tr69hostif"[5635]:  230615-07:37:25.704199 [mod=TR69HOSTIF, lvl=INFO] [tid=6117]  input: start
+2023 Jun 15 07:37:25.704966 "tr69hostif"[5635]:   trigger_shorts : 0 230615-07:37:25.704232 [mod=TR69HOSTIF, lvl=INFO] [tid=6117] [set_xOpsReverseSshTrigger] Starting SSH Tunnel
+2023 Jun 15 07:37:25.963746 "tr69hostif"[5635]:  /usr/bin/ssh:
+2023 Jun 15 07:37:25.963867 "tr69hostif"[5635]:  Host '2001:558:fc0a:6:f816:3eff:fe5c:b9ee' key accepted unconditionally.
+2023 Jun 15 07:37:25.963929 "tr69hostif"[5635]:  (ecdsa-sha2-nistp256 fingerprint sha1!! 87:02:8c:36:6b:22:7e:6e:fa:9f:fd:6b:fa:7b:48:e3:08:e4:37:9a)
+2023 Jun 15 07:37:26.085206 "tr69hostif"[5635]:  this system is solely for the use of authorized comcast employees
+2023 Jun 15 07:37:26.085355 "tr69hostif"[5635]:  and contractors.
+2023 Jun 15 07:37:26.085419 "tr69hostif"[5635]:  Comcast reserves the right at any time to monitor usage of this
+2023 Jun 15 07:37:26.085480 "tr69hostif"[5635]:  system to ensure compliance with this policy, all applicable
+2023 Jun 15 07:37:26.085542 "tr69hostif"[5635]:  Comcast policies that apply to electronic communications, and all
+2023 Jun 15 07:37:26.085602 "tr69hostif"[5635]:  applicable laws.
+2023 Jun 15 07:37:26.085664 "tr69hostif"[5635]:  Your use of this system constitutes your acceptance of and
+2023 Jun 15 07:37:26.085724 "tr69hostif"[5635]:  agreement to all applicable Comcast electronic communications
+2023 Jun 15 07:37:26.085786 "tr69hostif"[5635]:  policies, your consent to monitoring by Comcast, and your express
+2023 Jun 15 07:37:26.085868 "tr69hostif"[5635]:  agreement to use this system in compliance with all applicable
+2023 Jun 15 07:37:26.085951 "tr69hostif"[5635]:  laws.
+2023 Jun 15 07:37:26.086055 "tr69hostif"[5635]:  Any unauthorized use of or access to this system may result in a
+2023 Jun 15 07:37:26.086119 "tr69hostif"[5635]:  revocation of your user privileges, other disciplinary action up
+2023 Jun 15 07:37:26.086181 "tr69hostif"[5635]:  to and including termination of employment or contract, or
+2023 Jun 15 07:37:26.086244 "tr69hostif"[5635]:  referrals to law enforcement officials including the provision
+2023 Jun 15 07:37:26.086325 "tr69hostif"[5635]:  evidence of any unauthorized use or access to law enforcement.
+2023 Jun 15 07:37:26.086402 "tr69hostif"[5635]:  [Banner from the server is too long]
+2023 Jun 15 07:37:26.252679 "tr69hostif"[5635]:  230615-07:37:26.252472 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:26.252802 "tr69hostif"[5635]:  230615-07:37:26.252548 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 550 ms
+2023 Jun 15 07:37:26.414241 "tr69hostif"[5635]:  230615-07:37:26.413821 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:37:26.414319 "tr69hostif"[5635]:  230615-07:37:26.413861 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.ReverseSSH.xOpsReverseSshStatus
+2023 Jun 15 07:37:26.415065 "tr69hostif"[5635]:  230615-07:37:26.414971 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:26.415176 "tr69hostif"[5635]:  230615-07:37:26.415016 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 1 ms
+2023 Jun 15 07:37:27.043718 "tr69hostif"[5635]:  230615-07:37:27.042918 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:37:38.317442 "tr69hostif"[5635]:  230615-07:37:38.316742 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:37:38.317619 "tr69hostif"[5635]:  230615-07:37:38.317218 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:37:38.317742 "tr69hostif"[5635]:  230615-07:37:38.317670 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:37:38.318232 "tr69hostif"[5635]:  230615-07:37:38.318155 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:37:38.318734 "tr69hostif"[5635]:  230615-07:37:38.318645 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:37:38.319581 "tr69hostif"[5635]:  230615-07:37:38.319127 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:37:38.320136 "tr69hostif"[5635]:  230615-07:37:38.320032 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:37:38.320655 "tr69hostif"[5635]:  230615-07:37:38.320564 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:37:38.321108 "tr69hostif"[5635]:  230615-07:37:38.321041 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:37:38.321548 "tr69hostif"[5635]:  230615-07:37:38.321488 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:37:38.322000 "tr69hostif"[5635]:  230615-07:37:38.321936 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:37:38.322442 "tr69hostif"[5635]:  230615-07:37:38.322381 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:37:38.362688 "tr69hostif"[5635]:  230615-07:37:38.362555 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:37:38.362894 "tr69hostif"[5635]:  230615-07:37:38.362827 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:37:38.363167 "tr69hostif"[5635]:  230615-07:37:38.363069 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:37:38.363383 "tr69hostif"[5635]:  230615-07:37:38.363320 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:37:38.364548 "tr69hostif"[5635]:  230615-07:37:38.364474 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:37:38.366333 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:37:38.374876 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:37:38.380104 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success
+2023 Jun 15 07:37:40.049158 "tr69hostif"[5635]:  230615-07:37:40.048297 [mod=PARODUSIF, lvl=INFO] [tid=6117] Processing GET request
+2023 Jun 15 07:37:40.049258 "tr69hostif"[5635]:  230615-07:37:40.048335 [mod=PARODUSIF, lvl=INFO] [tid=6117] Request:> paramNames[0] = Device.DeviceInfo.X_COMCAST-COM_STB_IP
+2023 Jun 15 07:37:40.051068 "tr69hostif"[5635]:  230615-07:37:40.050857 [mod=PARODUSIF, lvl=INFO] [tid=6117] Sent message successfully to parodus
+2023 Jun 15 07:37:40.051154 "tr69hostif"[5635]:  230615-07:37:40.050909 [mod=PARODUSIF, lvl=INFO] [tid=6117] Elapsed time : 2 ms
+2023 Jun 15 07:37:59.009405 "tr69hostif"[5635]:  230615-07:37:59.008512 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] [get_Device_DeviceInfo_X_RDKCENTRAL_COM_Syndication_PartnerId] Calling get_PartnerId_From_Script
+2023 Jun 15 07:37:59.026631 "tr69hostif"[5635]:  230615-07:37:59.026450 [mod=TR69HOSTIF, lvl=INFO] [tid=6140] Found partnerID value = xglobal
+2023 Jun 15 07:37:59.033347 "tr69hostif"[5635]:  230615-07:37:59.032854 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:37:59.032897 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getRemoteType] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:37:59.033423 "tr69hostif"[5635]:  230615-07:37:59.032933 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.RemoteType] Invalid format to send across.
+2023 Jun 15 07:37:59.033487 "tr69hostif"[5635]:  230615-07:37:59.032966 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:37:59.036011 "tr69hostif"[5635]:  230615-07:37:59.035920 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:37:59.035969 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getBatteryPercentage] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:37:59.036113 "tr69hostif"[5635]:  230615-07:37:59.036010 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.BatteryPercentage] Invalid format to send across.
+2023 Jun 15 07:37:59.036179 "tr69hostif"[5635]:  230615-07:37:59.036042 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:37:59.039874 "tr69hostif"[5635]:  230615-07:37:59.039726 [mod=TR69HOSTIF, lvl=WARN] [tid=6140] getRf4ceBindRemotes: WARNING - No RF4CE network_id found!230615-07:37:59.039814 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [getRemoteSwVersion] Failed to return from 'getRf4ceBindRemotes'
+2023 Jun 15 07:37:59.040009 "tr69hostif"[5635]:  230615-07:37:59.039862 [mod=TR69HOSTIF, lvl=ERROR] [tid=6140] [TR_Dml_GetHandler][rbusdml] Get Parameter [Device.Services.STBService.1.Components.X_RDKCENTRAL-COM_RF4CE.Remote.1.VersionInfoSW] Invalid format to send across.
+2023 Jun 15 07:37:59.040078 "tr69hostif"[5635]:  230615-07:37:59.039901 [mod=RBUS, lvl=WARN] [tid=6140] called CB with result [1]
+2023 Jun 15 07:38:27.057966 "tr69hostif"[5635]:  230615-07:38:27.057231 [mod=TR69HOSTIF, lvl=ERROR] [tid=5635] Invalid parameter name Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFiReset.Enable: doesn't exist in data-model
+2023 Jun 15 07:38:38.384216 "tr69hostif"[5635]:  230615-07:38:38.383532 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:38:38.384392 "tr69hostif"[5635]:  230615-07:38:38.384012 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:38:38.384532 "tr69hostif"[5635]:  230615-07:38:38.384464 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:38:38.384975 "tr69hostif"[5635]:  230615-07:38:38.384914 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:38:38.385416 "tr69hostif"[5635]:  230615-07:38:38.385355 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:38:38.385856 "tr69hostif"[5635]:  230615-07:38:38.385798 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:38:38.386303 "tr69hostif"[5635]:  230615-07:38:38.386243 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:38:38.386737 "tr69hostif"[5635]:  230615-07:38:38.386681 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:38:38.387178 "tr69hostif"[5635]:  230615-07:38:38.387119 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:38:38.387724 "tr69hostif"[5635]:  230615-07:38:38.387639 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:38:38.388204 "tr69hostif"[5635]:  230615-07:38:38.388121 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:38:38.388685 "tr69hostif"[5635]:  230615-07:38:38.388607 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:38:38.428382 "tr69hostif"[5635]:  230615-07:38:38.428245 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.4
+2023 Jun 15 07:38:38.428621 "tr69hostif"[5635]:  230615-07:38:38.428541 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.5
+2023 Jun 15 07:38:38.428879 "tr69hostif"[5635]:  230615-07:38:38.428815 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.6
+2023 Jun 15 07:38:38.429120 "tr69hostif"[5635]:  230615-07:38:38.429062 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] refreshInterfaceName: error getting interface name for Device.IP.Interface.7
+2023 Jun 15 07:38:38.430260 "tr69hostif"[5635]:  230615-07:38:38.430162 [mod=TR69HOSTIF, lvl=ERROR] [tid=6116] No instance is found with dev_id 0
+2023 Jun 15 07:38:38.432059 "tr69hostif"[5635]:  869	: BTRMGR_GetDiscoveredDevices - Success
+2023 Jun 15 07:38:38.451130 "tr69hostif"[5635]:  965	: BTRMGR_GetPairedDevices - Success
+2023 Jun 15 07:38:38.456375 "tr69hostif"[5635]:  1062	: BTRMGR_GetConnectedDevices - Success

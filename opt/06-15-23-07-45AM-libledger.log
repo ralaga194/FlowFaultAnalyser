@@ -1,0 +1,209 @@
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813761
+
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/openssl.c:827: 
+Found existing Key Store File.
+
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:191: 
+Node Address: 1H5zPqCaBcNTCz2nmYPgvRw1KPAthUrJpX
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:574: Calling get_cert()
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:607: Generated CRT is: {
+	"tokenType":	"X509",
+	"certificate":	"MIICkTCCAjegAwIBAgIUY6CYQQfM7NMQ6SzcJ/SFmlHVx90wCgYIKoZIzj0EAwIwLTErMCkGA1UEAwwiWGZpbml0eSBTdWJzY3JpYmVyIElzc3VpbmcgRUNDIElDQTAeFw0yMzA2MTIxNzU2MTdaFw0yNDA2MTExOTU2MTdaMIGvMTgwNgYKCZImiZPyLGQBAQwoMGM0NmUxYmI2NjIwOTlhODExYzgxOTk0OTA4YThlYTI3NzI2MWY3YzEeMBwGA1UEAwwVcmRrdi5jcGUtY2xudC54Y2FsLnR2MRAwDgYDVQQLDAdYZmluaXR5MRAwDgYDVQQKDAdDb21jYXN0MRUwEwYDVQQHDAxQaGlsYWRlbHBoaWExCzAJBgNVBAgMAlBBMQswCQYDVQQGEwJVUzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDIm9ZQe6O7PSZWBOPxRYQdT9eGE5gB9+TXT03Fjk9nGxNyX+tA8F4ZbHa1PHTJnQkkw30B4AS6cgddYfwER616jgbEwga4wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBTX1Mx4c1mDugxTTvirKzNJuNv8BjAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6Ly9vY3NwLnhwa2kuaW8wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMB0GA1UdDgQWBBTumZzDQ8RlkX7PxQV7nlDwCuFspTAOBgNVHQ8BAf8EBAMCBaAwCgYIKoZIzj0EAwIDSAAwRQIhAI96+ALiXA9OMd6jSSUFAQUd/94YGx+/JGdSU5LHHsiKAiAVK5h2+VRIJQf3uDyKnpeBaboyclQrYnzZWGHv4eUfhQ==",
+	"timestamp":	"1686813761298",
+	"nonce":	"LbEhW9Zcd5Sd98aQ",
+	"signature":	"MEUCIFNMeqsEpowAIvpM9kna1ZEV0TZE1Rl3Hl2vpFGaJlXnAiEAz6DOL9XKzB/9xQTQ5fLcK1O/w+E4Poo1JK/D/CFa+vM="
+}
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813761
+
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813793
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/ottdevcert_1.pk12
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813793
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813793
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813793
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:13 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:13 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /etc/ssl/certs/ottseed.p12
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813794
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /etc/ssl/certs/ottseed.p12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/openssl.c:827: 
+Found existing Key Store File.
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:191: 
+Node Address: 1M6P4bkuVsH9ChKv5aTpfQfaT2wFhAkxFv
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:574: Calling get_cert()
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /etc/ssl/certs/ottseed.p12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:607: Generated CRT is: {
+	"tokenType":	"X509",
+	"certificate":	"MIICrjCCAlSgAwIBAgIUbE1y8IyIoDt3mBfgQRm4joV2DpYwCgYIKoZIzj0EAwIwHjEcMBoGA1UEAwwTT1RUIElzc3VpbmcgRUNDIElDQTAeFw0yMzA1MTEwNTEzMThaFw0yODA1MTEwNzEzMThaMIGpMTIwMAYKCZImiZPyLGQBAQwiMUcxMTNkOTZZZzVCY0dVUVhKZXVUeUt2NEV1QkV5ejliSDEeMBwGA1UEAwwVYXBwcy1jcGUtc2VlZC54Y2FsLnR2MRAwDgYDVQQLDAdYZmluaXR5MRAwDgYDVQQKDAdDb21jYXN0MRUwEwYDVQQHDAxQaGlsYWRlbHBoaWExCzAJBgNVBAgMAlBBMQswCQYDVQQGEwJVUzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABICJ4fQBpNqRXw1rdfHOuhKHMm+uiPvTRhqf4/eT0c/W2UIDeXc1UvT+4tVrMYxoR6Fhl6bpC/blHVbgmPAuQGyjgeMwgeAwMgYDVR0RBCswKaAnBgsrBgEEAYGGdoN0AaAYDBZ4MTpjZXJ0aWZpZXI6eDUwOTpzZWVkMAwGA1UdDwQFAwMAoAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWdoKh8abiQytM+05mhdTSebQgWcwLwYIKwYBBQUHAQEEIzAhMB8GCCsGAQUFBzABhhNodHRwOi8vb2NzcC54cGtpLmlvMB0GA1UdDgQWBBRTzs4b7aDtNZZVvZ6N5hjyyLrBbTAKBggqhkjOPQQDAgNIADBFAiB9/uHvBURTzcHFtEUbYhpHENxjCd1vfPjwqWzDDV5v8AIhAJbn2URJEIdtWQ7WplB+zckj14z/D5aMK9RotdMFAUTu",
+	"timestamp":	"1686813794451",
+	"nonce":	"GJvPURb7WhhPUkzk",
+	"signature":	"MEQCIBLyY+SxG8F0wfp7y04NhW9Wb5uipwT+FACjNmwuv5rHAiAJYJt4EKGgxLKCdzOnn+2BWSFDcWBxqNJuS/eutwe/5Q=="
+}
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/ottdevcert_1.pk12
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813794
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /etc/ssl/certs/xpic.p12
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813794
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /etc/ssl/certs/xpic.p12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/openssl.c:827: 
+Found existing Key Store File.
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:191: 
+Node Address: 1CW5jQnWJZFkdhykqnffayaorTUk6pvMer
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:574: Calling get_cert()
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /etc/ssl/certs/xpic.p12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:607: Generated CRT is: {
+	"tokenType":	"X509",
+	"certificate":	"MIICtzCCAl6gAwIBAgIUVcUc0qSUoxf43cuY3xm/lAjd4OMwCgYIKoZIzj0EAwIwLTErMCkGA1UEAwwiWGZpbml0eSBTdWJzY3JpYmVyIElzc3VpbmcgRUNDIElDQTAeFw0yMzA1MTAwMzM5MDVaFw0yODA1MTAwNTM5MDVaMIGkMTIwMAYKCZImiZPyLGQBAQwiMUcxMTNkOTZZZzVCY0dVUVhKZXVUeUt2NEV1QkV5ejliSDEZMBcGA1UEAwwQY3BlLWNsbnQueGNhbC50djEQMA4GA1UECwwHWGZpbml0eTEQMA4GA1UECgwHQ29tY2FzdDEVMBMGA1UEBwwMUGhpbGFkZWxwaGlhMQswCQYDVQQIDAJQQTELMAkGA1UEBhMCVVMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQP7+GPXmhR+4t5V5OqTHRZhibe+eXnpeqvBThEeHA19b/jVAWwLZiit5i/7sQfo6JJtt/cOlrGGH+OpZBgpZMso4HjMIHgMDIGA1UdEQQrMCmgJwYLKwYBBAGBhnaDdAGgGAwWeDE6Y2VydGlmaWVyOng1MDk6c2VlZDAMBgNVHQ8EBQMDAKAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFNfUzHhzWYO6DFNO+KsrM0m42/wGMC8GCCsGAQUFBwEBBCMwITAfBggrBgEFBQcwAYYTaHR0cDovL29jc3AueHBraS5pbzAdBgNVHQ4EFgQUC9G0sihAu4PS3QNzyZeWi0mVQtcwCgYIKoZIzj0EAwIDRwAwRAIgNav+4ci6jTxiOnwR5cq8Kt2E/KuXNr9452VZmQnV41ICIG7AtYiAqBJG70b03XjxgPgt1yhjlEI+lFx8akZB2G7K",
+	"timestamp":	"1686813794660",
+	"nonce":	"O2eLKnrm9YlmInHT",
+	"signature":	"MEQCIC/b+zBvOPQx7zV8kAUmvlY2dcPiswkh7OhCS/cyxnZSAiAtKDF9xXRskFBPH9yhuq8SOAeCJB5s0iwb8wrRf0c9rg=="
+}
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813794
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:14 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:14 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813795
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813795
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813795
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/ottdevcert_1.pk12
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813795
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+
+2023-06-15 07:23:15 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134: 
+Certificate has not yet expired and already exists.  Returning.  No need to register again.
+
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/ottdevcert_1.pk12 exists. Loading x509
+2023-06-15 07:23:15 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240: 
+Ledger ID: Xfinity
+

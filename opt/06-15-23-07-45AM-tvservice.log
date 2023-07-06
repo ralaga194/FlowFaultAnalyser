@@ -1,0 +1,191 @@
+2023 Jun 15 07:22:32.347447 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 D TV [CFile]: openFile: open /dev/avin_detect
+2023 Jun 15 07:22:32.348141 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 D TV [CFile]: openFile: open /dev/hdmirx0
+2023 Jun 15 07:22:32.348227 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 E TV [CTvin]: Open /dev/vdin0 error(Invalid argument)!
+2023 Jun 15 07:22:32.348282 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 D TV [CTvin]: Open /dev/tvafe0 module fd = [6]
+2023 Jun 15 07:22:32.348343 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 D TV [CTv]: CTv: read tvconfig file path failed!
+2023 Jun 15 07:22:32.348396 tvservice[4756]:  2023-06-15 07:22:32:344 4756 4756 D TV [ConfigFile]: LoadFromFile name = /vendor/etc/tvconfig/tvconfig.conf
+2023 Jun 15 07:22:32.351457 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [tvutils]: write /sys/class/vfm/map, val:add tvpath vdin0 amlvideo2.0 deinterlace amvideo
+2023 Jun 15 07:22:32.351639 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [CTv]: CTv: EDID data load by tvserver!
+2023 Jun 15 07:22:32.351723 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [tvutils]: tvReadSysfs: value=Y ret 2
+2023 Jun 15 07:22:32.351880 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [CTv]: Got panel id =3_55_022023-06-15 07:22:32:351 4756 4756 D TV [CTv]: LoadEdidData: isDolbyVisionKoExist = 1, isDolbyVisionEnable = 1.
+2023 Jun 15 07:22:32.351940 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [CTv]: LoadEdidData: edid file path: /vendor/etc/tvconfig/hdmi
+2023 Jun 15 07:22:32.352016 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [CTv]: LoadEdidData: load dolby vision EDID!
+2023 Jun 15 07:22:32.352092 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [CTv]: LoadEdidData: Panel Id=3_55_02
+2023 Jun 15 07:22:32.352147 tvservice[4756]:  2023-06-15 07:22:32:351 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_14_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.353382 tvservice[4756]:  2023-06-15 07:22:32:353 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.353516 tvservice[4756]:  2023-06-15 07:22:32:353 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port2_14_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.353593 tvservice[4756]:  2023-06-15 07:22:32:353 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port2_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.353668 tvservice[4756]:  2023-06-15 07:22:32:353 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port3_14_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.353742 tvservice[4756]:  2023-06-15 07:22:32:353 4756 4756 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port3_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:22:32.364863 tvservice[4756]:  2023-06-15 07:22:32:364 4756 4756 D TV [CTvin]: Tvin_GetHdmiPortIdBySourceInput: source: 5, portId: 1.
+2023 Jun 15 07:22:32.364971 tvservice[4756]:  2023-06-15 07:22:32:364 4756 4756 D TV [CTvin]: Tvin_GetHdmiPortIdBySourceInput: source: 6, portId: 2.
+2023 Jun 15 07:22:32.365028 tvservice[4756]:  2023-06-15 07:22:32:364 4756 4756 D TV [CTvin]: Tvin_GetHdmiPortIdBySourceInput: source: 7, portId: 3.
+2023 Jun 15 07:22:32.365084 tvservice[4756]:  2023-06-15 07:22:32:364 4756 4756 D TV [CTvin]: Tvin_GetHdmiPortIdBySourceInput: source: 8, portId: 4.
+2023 Jun 15 07:22:32.365176 tvservice[4756]:  2023-06-15 07:22:32:364 4756 4756 D TV [CHDMIRxManager]: HdmiRxEdidVerSwitch: new all edid version: 0x1111
+2023 Jun 15 07:22:32.365235 tvservice[4756]:  2023-06-15 07:22:32:365 4756 4756 D TV [CTvDevicesPollDetect]: CTvDevicesPollDetect thread id (3011814272) done
+2023 Jun 15 07:22:32.365293 tvservice[4756]:  2023-06-15 07:22:32:365 4756 4756 D TV [CTv]: setTvObserver
+2023 Jun 15 07:22:32.373047 tvservice[4756]:  2023-06-15 07:22:32:372 4756 4788 D TV [CTvDevicesPollDetect]: ThreadLoop: hdmi = 0x6  avin[0].status = 2, avin[1].status = 0
+2023 Jun 15 07:22:32.373167 tvservice[4756]:  2023-06-15 07:22:32:372 4756 4788 D TV [CTvDevicesPollDetect]: INVALID detected
+2023 Jun 15 07:22:32.373336 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [CTv]: onSourceConnect: source = -1, connect_status= 0!
+2023 Jun 15 07:22:32.373405 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [CTv]: sendTvEvent
+2023 Jun 15 07:22:32.373492 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [TvService]: onTvEvent: eventType: 10
+2023 Jun 15 07:22:32.373551 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [TvService]: SendSignalForSourceConnectEvent
+2023 Jun 15 07:22:32.373608 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [TvService]: SendSignalForSourceConnectEvent: now has 0 tvclient.
+2023 Jun 15 07:22:32.373664 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [CTvDevicesPollDetect]: HDMI detected
+2023 Jun 15 07:22:32.373719 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [CTvDevicesPollDetect]: VDIN detected
+2023 Jun 15 07:22:32.373786 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 E TV [CTvin]: VDIN_GetSignalEventInfo error(Operation not permitted), ret = -1.
+2023 Jun 15 07:22:32.373844 tvservice[4756]:  2023-06-15 07:22:32:373 4756 4788 D TV [CTv]: Get vidn event error!
+2023 Jun 15 07:22:32.577960 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [CTvDevicesPollDetect]: AV1 detected
+2023 Jun 15 07:22:32.578044 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [CTv]: onSourceConnect: source = 1, connect_status= 0!
+2023 Jun 15 07:22:32.578107 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [CTv]: sendTvEvent
+2023 Jun 15 07:22:32.578212 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [TvService]: onTvEvent: eventType: 10
+2023 Jun 15 07:22:32.578292 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [TvService]: SendSignalForSourceConnectEvent
+2023 Jun 15 07:22:32.578365 tvservice[4756]:  2023-06-15 07:22:32:576 4756 4788 D TV [TvService]: SendSignalForSourceConnectEvent: now has 0 tvclient.
+2023 Jun 15 07:22:33.111974 tvservice[4756]:  2023-06-15 07:22:33:111 4756 4796 D TV [TvService]: onTransact: cmd is 3.
+2023 Jun 15 07:22:33.112044 tvservice[4756]:  2023-06-15 07:22:33:111 4756 4796 D TV [TvService]: SetTvServiceCallBack
+2023 Jun 15 07:22:33.123796 tvservice[4756]:  2023-06-15 07:22:33:123 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:33.123911 tvservice[4756]:  2023-06-15 07:22:33:123 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = edid
+2023 Jun 15 07:22:33.123973 tvservice[4756]:  2023-06-15 07:22:33:123 4756 4796 D TV [TvService]: ParserTvCommand: EDID cmd!
+2023 Jun 15 07:22:33.124047 tvservice[4756]:  2023-06-15 07:22:33:123 4756 4796 D TV [CTv]: SetEdidVersion: setSource: 5, setVersion: 1
+2023 Jun 15 07:22:33.124106 tvservice[4756]:  2023-06-15 07:22:33:123 4756 4796 D TV [CTv]: SetEdidVersion: same EDID version, no need set.
+2023 Jun 15 07:22:33.125269 tvservice[4756]:  2023-06-15 07:22:33:125 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:33.125348 tvservice[4756]:  2023-06-15 07:22:33:125 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = edid
+2023 Jun 15 07:22:33.125407 tvservice[4756]:  2023-06-15 07:22:33:125 4756 4796 D TV [TvService]: ParserTvCommand: EDID cmd!
+2023 Jun 15 07:22:33.125522 tvservice[4756]:  2023-06-15 07:22:33:125 4756 4796 D TV [CTv]: SetEdidVersion: setSource: 6, setVersion: 1
+2023 Jun 15 07:22:33.125583 tvservice[4756]:  2023-06-15 07:22:33:125 4756 4796 D TV [CTv]: SetEdidVersion: same EDID version, no need set.
+2023 Jun 15 07:22:33.126250 tvservice[4756]:  2023-06-15 07:22:33:126 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:33.126322 tvservice[4756]:  2023-06-15 07:22:33:126 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = edid
+2023 Jun 15 07:22:33.126401 tvservice[4756]:  2023-06-15 07:22:33:126 4756 4796 D TV [TvService]: ParserTvCommand: EDID cmd!
+2023 Jun 15 07:22:33.126461 tvservice[4756]:  2023-06-15 07:22:33:126 4756 4796 D TV [CTv]: SetEdidVersion: setSource: 7, setVersion: 1
+2023 Jun 15 07:22:33.126519 tvservice[4756]:  2023-06-15 07:22:33:126 4756 4796 D TV [CTv]: SetEdidVersion: same EDID version, no need set.
+2023 Jun 15 07:22:33.129707 tvservice[4756]:  2023-06-15 07:22:33:129 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:33.129815 tvservice[4756]:  2023-06-15 07:22:33:129 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:22:33.129879 tvservice[4756]:  2023-06-15 07:22:33:129 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:22:33.129966 tvservice[4756]:  2023-06-15 07:22:33:129 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:22:45.110674 tvservice[4756]:  2023-06-15 07:22:45:109 4756 4796 D TV [TvService]: onTransact: cmd is 3.
+2023 Jun 15 07:22:45.110782 tvservice[4756]:  2023-06-15 07:22:45:109 4756 4796 D TV [TvService]: SetTvServiceCallBack
+2023 Jun 15 07:22:45.110850 tvservice[4756]:  2023-06-15 07:22:45:109 4756 4796 D TV [TvService]: SetTvServiceCallBack: mTvServiceCallBack[0] has been register.
+2023 Jun 15 07:22:50.833911 tvservice[4756]:  2023-06-15 07:22:50:833 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:22:50.834038 tvservice[4756]:  2023-06-15 07:22:50:833 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:22:50.834107 tvservice[4756]:  2023-06-15 07:22:50:833 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:22:50.834198 tvservice[4756]:  2023-06-15 07:22:50:833 4756 4796 E TV [CTv]: Current source is not HDMI input source.
+2023 Jun 15 07:22:51.291007 tvservice[4756]:  2023-06-15 07:22:51:289 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:22:51.291082 tvservice[4756]:  2023-06-15 07:22:51:290 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:22:51.291153 tvservice[4756]:  2023-06-15 07:22:51:290 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:22:51.291217 tvservice[4756]:  2023-06-15 07:22:51:290 4756 4796 E TV [CTv]: Current source is not HDMI input source.
+2023 Jun 15 07:22:53.343062 tvservice[4756]:  2023-06-15 07:22:53:341 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:53.343191 tvservice[4756]:  2023-06-15 07:22:53:341 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:22:53.343260 tvservice[4756]:  2023-06-15 07:22:53:341 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:22:53.343345 tvservice[4756]:  2023-06-15 07:22:53:341 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:22:56.525078 tvservice[4756]:  2023-06-15 07:22:56:523 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:22:56.525191 tvservice[4756]:  2023-06-15 07:22:56:523 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:22:56.525286 tvservice[4756]:  2023-06-15 07:22:56:523 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:22:56.525364 tvservice[4756]:  2023-06-15 07:22:56:523 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:23:04.093751 tvservice[4756]:  2023-06-15 07:23:04:091 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:23:04.093960 tvservice[4756]:  2023-06-15 07:23:04:091 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:23:04.094026 tvservice[4756]:  2023-06-15 07:23:04:091 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:23:04.094086 tvservice[4756]:  2023-06-15 07:23:04:091 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:23:04.426053 tvservice[4756]:  2023-06-15 07:23:04:425 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:23:04.426126 tvservice[4756]:  2023-06-15 07:23:04:425 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:23:04.426186 tvservice[4756]:  2023-06-15 07:23:04:425 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:23:04.426247 tvservice[4756]:  2023-06-15 07:23:04:426 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:23:17.173923 tvservice[4756]:  2023-06-15 07:23:17:172 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:23:17.174039 tvservice[4756]:  2023-06-15 07:23:17:173 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:23:17.174108 tvservice[4756]:  2023-06-15 07:23:17:173 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:23:17.174177 tvservice[4756]:  2023-06-15 07:23:17:173 4756 4796 D TV [CTv]: StartTv: source = 6!
+2023 Jun 15 07:23:17.175799 tvservice[4756]:  2023-06-15 07:23:17:175 4756 4796 I TV [CTvAudio]: hw version: 300
+2023 Jun 15 07:23:17.175876 tvservice[4756]:  2023-06-15 07:23:17:175 4756 4796 I TV [CTvAudio]: hal api version: 100
+2023 Jun 15 07:23:17.175947 tvservice[4756]:  2023-06-15 07:23:17:175 4756 4796 I TV [CTvAudio]: module id: audio
+2023 Jun 15 07:23:17.176025 tvservice[4756]:  2023-06-15 07:23:17:175 4756 4796 I TV [CTvAudio]: module name: aml audio HW HAL
+2023 Jun 15 07:23:17.188202 tvservice[4756]:  2023-06-15 07:23:17:178 4756 4796 D TV [CTvAudio]: TvAudio start..
+2023 Jun 15 07:23:17.188285 tvservice[4756]:  2023-06-15 07:23:17:179 4756 4796 D TV [CTvin]: Tvin_OpenPort, source_port = 4001!
+2023 Jun 15 07:23:17.252082 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTvDevicesPollDetect]: VDIN detected
+2023 Jun 15 07:23:17.252171 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTv]: onVdinSignalChange: vdin signal status change!
+2023 Jun 15 07:23:17.252226 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTv]: onSigStatusChange
+2023 Jun 15 07:23:17.252280 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTv]: sig_fmt is 0, status is 2, isDVI is 0, hdr_info is 0x10100
+2023 Jun 15 07:23:17.252376 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CAmVideo]: SetVideoLayerStatus success.
+2023 Jun 15 07:23:17.252433 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CAmVideo]: SetVideoGlobalOutputMode success.
+2023 Jun 15 07:23:17.252487 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTvin]: Decoder don't started!
+2023 Jun 15 07:23:17.252541 tvservice[4756]:  2023-06-15 07:23:17:251 4756 4788 D TV [CTv]: signal to Unstable!
+2023 Jun 15 07:23:17.795647 tvservice[4756]:  2023-06-15 07:23:17:794 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:23:17.795713 tvservice[4756]:  2023-06-15 07:23:17:794 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:23:17.795817 tvservice[4756]:  2023-06-15 07:23:17:794 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:23:17.795875 tvservice[4756]:  2023-06-15 07:23:17:794 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:23:19.157381 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTvDevicesPollDetect]: VDIN detected
+2023 Jun 15 07:23:19.157498 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTv]: onVdinSignalChange: vdin signal status change!
+2023 Jun 15 07:23:19.157557 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTv]: onSigStatusChange
+2023 Jun 15 07:23:19.157615 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTv]: sig_fmt is 1027, status is 4, isDVI is 0, hdr_info is 0x10100
+2023 Jun 15 07:23:19.157672 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTv]: onSigToStable: mVdinWorkMode is 0
+2023 Jun 15 07:23:19.157729 tvservice[4756]:  2023-06-15 07:23:19:155 4756 4788 D TV [CTvAudio]: create mix --> speaker patch...
+2023 Jun 15 07:23:19.166053 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [CTvAudio]: success
+2023 Jun 15 07:23:19.166121 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [CTv]: sendTvEvent
+2023 Jun 15 07:23:19.166178 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [TvService]: onTvEvent: eventType: 26
+2023 Jun 15 07:23:19.166235 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [TvService]: SendSignalForDvAllmEvent
+2023 Jun 15 07:23:19.166307 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [TvService]: SendSignalForDvAllmEvent: now has 2 tvclient.
+2023 Jun 15 07:23:19.166503 tvservice[4756]:  2023-06-15 07:23:19:160 4756 4788 D TV [TvService]: send dv_allm evt(0,0,0) to client.
+2023 Jun 15 07:23:19.166562 tvservice[4756]:  2023-06-15 07:23:19:163 4756 4788 D TV [TvService]: send dv_allm evt(0,0,0) to client.
+2023 Jun 15 07:23:19.166620 tvservice[4756]:  2023-06-15 07:23:19:165 4756 4788 D TV [CTvin]: VDIN_StartDec: index = [0] port = [0x0] format = [0x403]
+2023 Jun 15 07:23:19.180574 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [CTvin]: StartDecoder succeed.
+2023 Jun 15 07:23:19.180642 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [CAmVideo]: SetVideoLayerStatus success.
+2023 Jun 15 07:23:19.180700 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [CAmVideo]: SetVideoGlobalOutputMode success.
+2023 Jun 15 07:23:19.180757 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [CTv]: sendTvEvent
+2023 Jun 15 07:23:19.180843 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [TvService]: onTvEvent: eventType: 4
+2023 Jun 15 07:23:19.180902 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [TvService]: SendSignalForSignalDetectEvent
+2023 Jun 15 07:23:19.180967 tvservice[4756]:  2023-06-15 07:23:19:166 4756 4788 D TV [TvService]: SendSignalForSignalDetectEvent: now has 2 tvclient.
+2023 Jun 15 07:23:19.187861 tvservice[4756]:  2023-06-15 07:23:19:185 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:23:19.187931 tvservice[4756]:  2023-06-15 07:23:19:185 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:23:19.187990 tvservice[4756]:  2023-06-15 07:23:19:186 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:23:22.553950 tvservice[4756]:  2023-06-15 07:23:22:552 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:23:22.554052 tvservice[4756]:  2023-06-15 07:23:22:552 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:23:22.554118 tvservice[4756]:  2023-06-15 07:23:22:552 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:23:22.554183 tvservice[4756]:  2023-06-15 07:23:22:552 4756 4796 D TV [CTv]: StopTv: source = 6!
+2023 Jun 15 07:23:22.554245 tvservice[4756]:  2023-06-15 07:23:22:552 4756 4796 D TV [CTvAudio]: destroy patch...
+2023 Jun 15 07:23:22.983991 tvservice[4756]:  2023-06-15 07:23:22:983 4756 4796 D TV [CTvAudio]: success
+2023 Jun 15 07:23:22.984158 tvservice[4756]:  2023-06-15 07:23:22:983 4756 4796 D TV [CTvAudio]: TvAudio stop..
+2023 Jun 15 07:23:22.984235 tvservice[4756]:  2023-06-15 07:23:22:983 4756 4796 D TV [CAmVideo]: SetVideoLayerStatus success.
+2023 Jun 15 07:23:22.984308 tvservice[4756]:  2023-06-15 07:23:22:983 4756 4796 D TV [CAmVideo]: SetVideoGlobalOutputMode success.
+2023 Jun 15 07:23:22.984386 tvservice[4756]:  2023-06-15 07:23:22:983 4756 4796 D TV [CTvin]: Tvin_ClosePort, source_port = 4001!
+2023 Jun 15 07:23:34.238705 tvservice[4756]:  2023-06-15 07:23:34:237 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:23:34.238835 tvservice[4756]:  2023-06-15 07:23:34:237 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:23:34.238897 tvservice[4756]:  2023-06-15 07:23:34:237 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:23:34.238957 tvservice[4756]:  2023-06-15 07:23:34:237 4756 4796 D TV [CTv]: Got panel id =3_55_022023-06-15 07:23:34:238 4756 4796 D TV [tvutils]: tvReadSysfs: value=Y ret 2
+2023 Jun 15 07:23:34.239017 tvservice[4756]:  2023-06-15 07:23:34:238 4756 4796 D TV [CTv]: GetEDIDData: isDolbyVisionKoExist = 1, dolbyVisionEnableState = 1.
+2023 Jun 15 07:23:34.239077 tvservice[4756]:  2023-06-15 07:23:34:238 4756 4796 D TV [CTv]: GetEDIDData: load dolby vision EDID!
+2023 Jun 15 07:23:34.239137 tvservice[4756]:  2023-06-15 07:23:34:238 4756 4796 D TV [CTv]: GetEDIDData: edid file name: /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin
+2023 Jun 15 07:23:34.239198 tvservice[4756]:  2023-06-15 07:23:34:238 4756 4796 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:23:34.245403 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:23:34.245474 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:23:34.245560 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:23:34.245652 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [CTv]: Got panel id =3_55_022023-06-15 07:23:34:245 4756 4796 D TV [tvutils]: tvReadSysfs: value=Y ret 2
+2023 Jun 15 07:23:34.245715 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [CTv]: GetEDIDData: isDolbyVisionKoExist = 1, dolbyVisionEnableState = 1.
+2023 Jun 15 07:23:34.245817 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [CTv]: GetEDIDData: load dolby vision EDID!
+2023 Jun 15 07:23:34.245879 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [CTv]: GetEDIDData: edid file name: /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin
+2023 Jun 15 07:23:34.245940 tvservice[4756]:  2023-06-15 07:23:34:245 4756 4796 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:32:02.419306 tvservice[4756]:  2023-06-15 07:32:02:411 4756 4796 D TV [TvService]: onTransact: cmd is 3.
+2023 Jun 15 07:32:02.419420 tvservice[4756]:  2023-06-15 07:32:02:411 4756 4796 D TV [TvService]: SetTvServiceCallBack
+2023 Jun 15 07:32:02.419591 tvservice[4756]:  2023-06-15 07:32:02:411 4756 4796 D TV [TvService]: SetTvServiceCallBack: mTvServiceCallBack[0] has been register.
+2023 Jun 15 07:32:02.419650 tvservice[4756]:  2023-06-15 07:32:02:411 4756 4796 D TV [TvService]: SetTvServiceCallBack: mTvServiceCallBack[1] has been register.
+2023 Jun 15 07:32:41.091838 tvservice[4756]:  2023-06-15 07:32:41:090 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:32:41.091950 tvservice[4756]:  2023-06-15 07:32:41:090 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:32:41.092025 tvservice[4756]:  2023-06-15 07:32:41:090 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:32:41.092110 tvservice[4756]:  2023-06-15 07:32:41:091 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:32:46.868010 tvservice[4756]:  2023-06-15 07:32:46:867 4756 4796 D TV [TvService]: onTransact: cmd is 2.
+2023 Jun 15 07:32:46.868139 tvservice[4756]:  2023-06-15 07:32:46:867 4756 4796 D TV [TvService]: ParserTvCommand: cmdType = control
+2023 Jun 15 07:32:46.868250 tvservice[4756]:  2023-06-15 07:32:46:867 4756 4796 D TV [TvService]: ParserTvCommand: control cmd!
+2023 Jun 15 07:32:46.868313 tvservice[4756]:  2023-06-15 07:32:46:867 4756 4796 D TV [CTvDevicesPollDetect]: GetSourceConnectStatus: source :AV1, status:plug out
+2023 Jun 15 07:33:02.743963 tvservice[4756]:  2023-06-15 07:33:02:742 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:33:02.744080 tvservice[4756]:  2023-06-15 07:33:02:742 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:33:02.744151 tvservice[4756]:  2023-06-15 07:33:02:742 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:33:02.744269 tvservice[4756]:  2023-06-15 07:33:02:743 4756 4796 D TV [CTv]: Got panel id =3_55_022023-06-15 07:33:02:743 4756 4796 D TV [tvutils]: tvReadSysfs: value=Y ret 2
+2023 Jun 15 07:33:02.744355 tvservice[4756]:  2023-06-15 07:33:02:743 4756 4796 D TV [CTv]: GetEDIDData: isDolbyVisionKoExist = 1, dolbyVisionEnableState = 1.
+2023 Jun 15 07:33:02.744412 tvservice[4756]:  2023-06-15 07:33:02:743 4756 4796 D TV [CTv]: GetEDIDData: load dolby vision EDID!
+2023 Jun 15 07:33:02.744484 tvservice[4756]:  2023-06-15 07:33:02:743 4756 4796 D TV [CTv]: GetEDIDData: edid file name: /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin
+2023 Jun 15 07:33:02.744540 tvservice[4756]:  2023-06-15 07:33:02:743 4756 4796 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin, offset is 0, size is 256.!
+2023 Jun 15 07:33:02.752654 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [TvService]: onTransact: cmd is 9.
+2023 Jun 15 07:33:02.752718 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [TvService]: HandleDataRequest: cmdType = pkttype
+2023 Jun 15 07:33:02.752774 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [TvService]: HandleDataRequest: PKTTYPE cmd!
+2023 Jun 15 07:33:02.752861 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [CTv]: Got panel id =3_55_022023-06-15 07:33:02:752 4756 4796 D TV [tvutils]: tvReadSysfs: value=Y ret 2
+2023 Jun 15 07:33:02.752944 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [CTv]: GetEDIDData: isDolbyVisionKoExist = 1, dolbyVisionEnableState = 1.
+2023 Jun 15 07:33:02.753001 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [CTv]: GetEDIDData: load dolby vision EDID!
+2023 Jun 15 07:33:02.753103 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [CTv]: GetEDIDData: edid file name: /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin
+2023 Jun 15 07:33:02.753162 tvservice[4756]:  2023-06-15 07:33:02:752 4756 4796 D TV [tvutils]: ReadDataFromFile: file_name is /vendor/etc/tvconfig/hdmi/3_55_02_port1_20_dv.bin, offset is 0, size is 256.!

@@ -1,0 +1,10 @@
+2023 Jun 15 07:22:39.397009 sh[7181]:  enabling zram with 4 devices of 262769152 size each
+2023 Jun 15 07:22:39.397159 sh[7181]:  zram_enabled_stats: 4,262769152
+2023 Jun 15 07:22:42.473677 sh[7181]:  Setting up swapspace version 1, size = 250.6 MiB (262766592 bytes)
+2023 Jun 15 07:22:42.473779 sh[7181]:  no label, UUID=73b071a4-3232-402a-a10d-22ac5b11e11f
+2023 Jun 15 07:22:42.531694 sh[7181]:  Setting up swapspace version 1, size = 250.6 MiB (262766592 bytes)
+2023 Jun 15 07:22:42.531795 sh[7181]:  no label, UUID=fe451187-bc83-45d2-a3d6-2d52edee5a77
+2023 Jun 15 07:22:42.574311 sh[7181]:  Setting up swapspace version 1, size = 250.6 MiB (262766592 bytes)
+2023 Jun 15 07:22:42.574369 sh[7181]:  no label, UUID=dab0befc-a4f3-4c4e-ac16-f98b90cb22d4
+2023 Jun 15 07:22:42.632041 sh[7181]:  Setting up swapspace version 1, size = 250.6 MiB (262766592 bytes)
+2023 Jun 15 07:22:42.632147 sh[7181]:  no label, UUID=ee7fdf01-cc72-42e1-820b-300a2216831a

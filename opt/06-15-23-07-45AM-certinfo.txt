@@ -1,0 +1,24 @@
+15.06.2023_07:32:26: /lib/rdk/cert-monitoring.sh: Openssl is supported.
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ############### DEVICE_XPKI_STATIC_CERT ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_STATIC_CERT start date notBefore=Feb  9 14:49:26 2023 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_STATIC_CERT end date notAfter=Feb  9 16:49:26 2028 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ############### DEVICE_XPKI_SEED_CERT ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_SEED_CERT start date notBefore=May 10 03:39:05 2023 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_SEED_CERT end date notAfter=May 10 05:39:05 2028 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ############### OTT_APPS_XPKI_STATIC_CERT ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_STATIC_CERT start date notBefore=May 11 05:18:03 2023 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_STATIC_CERT end date notAfter=May 11 07:18:03 2028 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ############### OTT_APPS_XPKI_SEED_CERT ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_SEED_CERT start date notBefore=May 11 05:13:18 2023 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_SEED_CERT end date notAfter=May 11 07:13:18 2028 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ###############  SNMP_V3_STATIC_CERT  ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh:  SNMP_V3_STATIC_CERT : /etc/ssl/certs/snmp/tls/certs//rdk-snmpv3-snmpd-xpki-v1.p12 not found
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: ############### STATE_RED_STATIC_CERT ###############
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: STATE_RED_STATIC_CERT start date notBefore=Jan  4 17:50:40 2022 GMT
+15.06.2023_07:32:27: /lib/rdk/cert-monitoring.sh: STATE_RED_STATIC_CERT end date notAfter=Dec  1 17:50:40 2036 GMT
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: ############### DEVICE_XPKI_DYNAMIC_CERT ###############
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_DYNAMIC_CERT start date notBefore=Jun 12 17:56:17 2023 GMT
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: DEVICE_XPKI_DYNAMIC_CERT end date notAfter=Jun 11 19:56:17 2024 GMT
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: ############### OTT_APPS_XPKI_DYNAMIC_CERT ###############
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_DYNAMIC_CERT start date notBefore=Apr 22 15:21:42 2023 GMT
+15.06.2023_07:32:28: /lib/rdk/cert-monitoring.sh: OTT_APPS_XPKI_DYNAMIC_CERT end date notAfter=Apr 21 17:21:42 2024 GMT

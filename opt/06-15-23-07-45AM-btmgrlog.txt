@@ -1,0 +1,273 @@
+2023 Jun 15 07:22:37.924315 btMgrBus[7039]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:37.924475 btMgrBus[7039]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:37.924585 btMgrBus[7039]:  230615-07:22:37.923565 [mod=BTRCORE, lvl=INFO] [tid=7039] 2648	: BTRCore_Init - BTRCore_Init
+2023 Jun 15 07:22:37.935695 btMgrBus[7039]:  230615-07:22:37.935523 [mod=BTRCORE, lvl=INFO] [tid=7039] 3052	: BtrCore_BTInitGetConnection - DBus Debug DBus Connection Name :1.126
+2023 Jun 15 07:22:37.936472 btMgrBus[7039]:  230615-07:22:37.936327 [mod=BTRCORE, lvl=INFO] [tid=7039] 3184	: BtrCore_BTGetAgentPath - Agent Path: /org/bluez/agent_7039
+2023 Jun 15 07:22:37.942105 btMgrBus[7039]:  230615-07:22:37.941983 [mod=BTRCORE, lvl=WARN] [tid=7039] 629	: btrCore_BTGetDefaultAdapterPath - Default Adapter Path is : /org/bluez/hci0 - 0x7d919d40
+2023 Jun 15 07:22:37.942261 btMgrBus[7039]:  230615-07:22:37.942043 [mod=BTRCORE, lvl=WARN] [tid=7039] 3551	: BtrCore_BTGetAdapterPath - Got Default Adapter Path is : /org/bluez/hci0 - 0x7d919d40
+2023 Jun 15 07:22:37.942351 btMgrBus[7039]:  230615-07:22:37.942069 [mod=BTRCORE, lvl=WARN] [tid=7039] 3577	: BtrCore_BTGetAdapterPath - Adapter Path is : /org/bluez/hci0 - 0x7d919de8
+2023 Jun 15 07:22:37.944227 btMgrBus[7039]:  230615-07:22:37.944108 [mod=BTRCORE, lvl=DEBUG] [tid=7039] 2726	: BTRCore_Init - Adapter path /org/bluez/hci0 - Adapter Address E8:CA:C8:A4:81:A9
+2023 Jun 15 07:22:37.945934 btMgrBus[7039]:  230615-07:22:37.944661 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 1816	: btrCore_RunTask - RunTask Started
+2023 Jun 15 07:22:37.946047 btMgrBus[7039]:  230615-07:22:37.944761 [mod=BTRCORE, lvl=INFO] [tid=7083] 1829	: btrCore_RunTask - g_async_queue_timeout_pop 0 9 (nil)
+2023 Jun 15 07:22:37.946104 btMgrBus[7039]:  230615-07:22:37.944789 [mod=BTRCORE, lvl=INFO] [tid=7083] 1840	: btrCore_RunTask - enBTRCoreTaskOpStart
+2023 Jun 15 07:22:37.946161 btMgrBus[7039]:  230615-07:22:37.944819 [mod=BTRCORE, lvl=INFO] [tid=7083] 1829	: btrCore_RunTask - g_async_queue_timeout_pop 3 9 (nil)
+2023 Jun 15 07:22:37.946218 btMgrBus[7039]:  230615-07:22:37.944842 [mod=BTRCORE, lvl=INFO] [tid=7083] 1858	: btrCore_RunTask - enBTRCoreTaskOpProcess
+2023 Jun 15 07:22:37.946325 btMgrBus[7039]:  230615-07:22:37.944936 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:37.946387 btMgrBus[7039]:  230615-07:22:37.945004 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=org.freedesktop.DBus -> Dest=:1.126 Path=/org/freedesktop/DBus; Interface=org.freedesktop.DBus; Member=NameAcquired
+2023 Jun 15 07:22:37.958500 btMgrBus[7039]:  230615-07:22:37.954260 [mod=BTRCORE, lvl=WARN] [tid=7039] 906	: BTRCore_LE_Init - BTRCore_LE_Init
+2023 Jun 15 07:22:37.958578 btMgrBus[7039]:  230615-07:22:37.956692 [mod=BTRCORE, lvl=DEBUG] [tid=7082] 1965	: btrCore_OutTask - OutTask Started
+2023 Jun 15 07:22:37.958663 btMgrBus[7039]:  230615-07:22:37.956791 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 0 9 (nil)
+2023 Jun 15 07:22:37.958723 btMgrBus[7039]:  230615-07:22:37.956819 [mod=BTRCORE, lvl=INFO] [tid=7082] 1989	: btrCore_OutTask - enBTRCoreTaskOpStart
+2023 Jun 15 07:22:37.958782 btMgrBus[7039]:  230615-07:22:37.956851 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:37.958844 btMgrBus[7039]:  230615-07:22:37.956874 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:37.966834 btMgrBus[7039]:  230615-07:22:37.965240 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:37.966931 btMgrBus[7039]:  230615-07:22:37.965301 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=:1.47 -> Dest=Null Path=/org/bluez/hci0; Interface=org.freedesktop.DBus.Properties; Member=PropertiesChanged
+2023 Jun 15 07:22:37.967014 btMgrBus[7039]:  230615-07:22:37.965340 [mod=BTRCORE, lvl=INFO] [tid=7083] 7662	: btrCore_BTDBusConnectionFilterCb - Property Changed! : org.bluez.Adapter1
+2023 Jun 15 07:22:37.967093 btMgrBus[7039]:  230615-07:22:37.965365 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <Class>
+2023 Jun 15 07:22:37.967180 btMgrBus[7039]:  230615-07:22:37.965390 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <UUIDs>
+2023 Jun 15 07:22:37.967263 btMgrBus[7039]:  230615-07:22:37.965449 [mod=BTRCORE, lvl=INFO] [tid=7083] 7704	: btrCore_BTDBusConnectionFilterCb - Adapter Stopped Discovering | 0
+2023 Jun 15 07:22:37.967325 btMgrBus[7039]:  230615-07:22:37.965506 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 6067	: btrCore_BTAdapterStatusUpdateCb - adapter number = 0, path = /org/bluez/hci0, discovering = 0
+2023 Jun 15 07:22:37.967412 btMgrBus[7039]:  230615-07:22:37.965595 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 3 0 0xb1e4e078
+2023 Jun 15 07:22:37.967479 btMgrBus[7039]:  230615-07:22:37.965646 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:37.967538 btMgrBus[7039]:  230615-07:22:37.965673 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:37.986191 btMgrBus[7039]:  230615-07:22:37.985732 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:37.986306 btMgrBus[7039]:  230615-07:22:37.985814 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=:1.47 -> Dest=Null Path=/org/bluez/hci0; Interface=org.freedesktop.DBus.Properties; Member=PropertiesChanged
+2023 Jun 15 07:22:37.986365 btMgrBus[7039]:  230615-07:22:37.985855 [mod=BTRCORE, lvl=INFO] [tid=7083] 7662	: btrCore_BTDBusConnectionFilterCb - Property Changed! : org.bluez.Adapter1
+2023 Jun 15 07:22:37.986425 btMgrBus[7039]:  230615-07:22:37.985880 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <UUIDs>
+2023 Jun 15 07:22:37.986485 btMgrBus[7039]:  230615-07:22:37.985977 [mod=BTRCORE, lvl=INFO] [tid=7083] 7704	: btrCore_BTDBusConnectionFilterCb - Adapter Stopped Discovering | 0
+2023 Jun 15 07:22:37.986564 btMgrBus[7039]:  230615-07:22:37.986008 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 6067	: btrCore_BTAdapterStatusUpdateCb - adapter number = 0, path = /org/bluez/hci0, discovering = 0
+2023 Jun 15 07:22:37.986635 btMgrBus[7039]:  230615-07:22:37.986104 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 3 0 0xb1e4e0b0
+2023 Jun 15 07:22:37.986734 btMgrBus[7039]:  230615-07:22:37.986155 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:37.986825 btMgrBus[7039]:  230615-07:22:37.986180 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:37.999183 btMgrBus[7039]:  230615-07:22:37.999083 [mod=BTRCORE, lvl=WARN] [tid=7039] 3656	: BtrCore_BTGetIfceNameVersion - Bluez Version - 5.48
+2023 Jun 15 07:22:37.999340 btMgrBus[7039]:  230615-07:22:37.999171 [mod=BTRCORE, lvl=INFO] [tid=7039] 3541	: BTRCore_GetVersionInfo - Ifce: Bluez Version: 5.48
+2023 Jun 15 07:22:37.999409 btMgrBus[7039]:  230615-07:22:37.999197 [mod=BTRCORE, lvl=INFO] [tid=7039] 3542	: BTRCore_GetVersionInfo - Out:  Bluez-5.48
+2023 Jun 15 07:22:37.999496 btMgrBus[7039]:  230615-07:22:37.999235 [mod=BTRMGR, lvl=INFO] [tid=7039] 3139	: BTRMGR_Init - BTR Bluetooth Version: Bluez-5.48
+2023 Jun 15 07:22:38.001070 btMgrBus[7039]:  230615-07:22:38.000417 [mod=BTRCORE, lvl=DEBUG] [tid=7039] 3512	: BtrCore_BTGetAdapterList - Adapter Path 0 is: /org/bluez/hci0
+2023 Jun 15 07:22:38.001656 btMgrBus[7039]:  230615-07:22:38.001556 [mod=BTRMGR, lvl=INFO] [tid=7039] 3144	: BTRMGR_Init - Number of Adapters found are = 1
+2023 Jun 15 07:22:38.001796 btMgrBus[7039]:  230615-07:22:38.001622 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 3159	: BTRMGR_Init - Aquired default Adapter; Path is /org/bluez/hci0
+2023 Jun 15 07:22:38.001884 btMgrBus[7039]:  230615-07:22:38.001653 [mod=BTRCORE, lvl=INFO] [tid=7039] 5943	: BTRCore_RegisterStatusCb - BT Status Callback Registered Successfully
+2023 Jun 15 07:22:38.001946 btMgrBus[7039]:  230615-07:22:38.001679 [mod=BTRCORE, lvl=INFO] [tid=7039] 5915	: BTRCore_RegisterDiscoveryCb - Device Discovery Callback Registered Successfully
+2023 Jun 15 07:22:38.002007 btMgrBus[7039]:  230615-07:22:38.001704 [mod=BTRCORE, lvl=INFO] [tid=7039] 6001	: BTRCore_RegisterConnectionIntimationCb - BT Conn In Intimation Callback Registered Successfully
+2023 Jun 15 07:22:38.002067 btMgrBus[7039]:  230615-07:22:38.001728 [mod=BTRCORE, lvl=INFO] [tid=7039] 6031	: BTRCore_RegisterConnectionAuthenticationCb - BT Conn Auth Callback Registered Successfully
+2023 Jun 15 07:22:38.002128 btMgrBus[7039]:  230615-07:22:38.001752 [mod=BTRCORE, lvl=INFO] [tid=7039] 5971	: BTRCore_RegisterMediaStatusCb - BT Media Status Callback Registered Successfully
+2023 Jun 15 07:22:38.002213 btMgrBus[7039]:  230615-07:22:38.001774 [mod=BTRMGR, lvl=INFO] [tid=7039] 3185	: BTRMGR_Init - Activate agent
+2023 Jun 15 07:22:38.008685 btMgrBus[7039]:  230615-07:22:38.008461 [mod=BTRMGR, lvl=WARN] [tid=7039] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:22:39.037734 btMgrBus[7039]:  230615-07:22:39.036180 [mod=BTRMGR, lvl=ERROR] [tid=7039] 577	: btrMgr_CheckAudioInServiceAvailability - getRFCParameter Failed :  Value is Empty
+2023 Jun 15 07:22:39.055156 btMgrBus[7039]:  230615-07:22:39.051127 [mod=BTRMGR, lvl=ERROR] [tid=7039] 609	: btrMgr_CheckHidGamePadServiceAvailability - getRFCParameter Failed :  Default Value
+2023 Jun 15 07:22:39.055287 btMgrBus[7039]:  I-ARM BTMgr Bus: BTRMgr_BeginIARMMode Thu Jun 15 07:22:39 2023
+2023 Jun 15 07:22:39.058424 btMgrBus[7039]:  230615-07:22:39.051702 [mod=BTRMGR, lvl=INFO] [tid=7039] 1936	: BTRMgr_BeginIARMMode - Entering
+2023 Jun 15 07:22:39.065595 btMgrBus[7039]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = BTRMgrBus
+2023 Jun 15 07:22:39.065702 btMgrBus[7039]:  setting init done
+2023 Jun 15 07:22:39.065773 btMgrBus[7039]:  Registering BTRMgrBus
+2023 Jun 15 07:22:39.065834 btMgrBus[7039]:  230615-07:22:39.062203 [mod=BTRMGR, lvl=INFO] [tid=7039] 1943	: BTRMgr_BeginIARMMode - IARM Interface Initializing
+2023 Jun 15 07:22:39.065908 btMgrBus[7039]:  230615-07:22:39.062529 [mod=BTRMGR, lvl=INFO] [tid=7039] 7411	: BTRMGR_RegisterEventCallback - BTRMGR_RegisterEventCallback : Success
+2023 Jun 15 07:22:39.065973 btMgrBus[7039]:  230615-07:22:39.062576 [mod=BTRMGR, lvl=INFO] [tid=7039] 2003	: BTRMgr_BeginIARMMode - IARM Interface Inited Successfully
+2023 Jun 15 07:22:39.066034 btMgrBus[7039]:  230615-07:22:39.063348 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 592	: BTRMgr_PI_GetAllProfiles - Successfully Parsed Persistent profile, Profile count = 1
+2023 Jun 15 07:22:39.066093 btMgrBus[7039]:  230615-07:22:39.063412 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 609	: BTRMgr_PI_GetAllProfiles - Parsing device details, 1 devices found for profile 0x110b
+2023 Jun 15 07:22:39.066154 btMgrBus[7039]:  230615-07:22:39.063451 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 624	: BTRMgr_PI_GetAllProfiles - Parsing device details, Device- 0, Status-0, Profile-0x110b
+2023 Jun 15 07:22:39.066923 btMgrBus[7039]:  230615-07:22:39.063482 [mod=BTRMGR, lvl=INFO] [tid=7039] 5033	: BTRMGR_StartAudioStreamingOut_StartUp - Successfully get all profiles
+2023 Jun 15 07:22:39.067020 btMgrBus[7039]:  230615-07:22:39.063522 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 5040	: BTRMGR_StartAudioStreamingOut_StartUp - Adapter matches = E8:CA:C8:A4:81:A9
+2023 Jun 15 07:22:39.067081 btMgrBus[7039]:  230615-07:22:39.063550 [mod=BTRMGR, lvl=DEBUG] [tid=7039] 5041	: BTRMGR_StartAudioStreamingOut_StartUp - Number of Profiles = 1
+2023 Jun 15 07:22:39.067141 btMgrBus[7039]:  BTRMGR_StartAudioStreamingOut_StartUp - 0
+2023 Jun 15 07:22:39.067200 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:22:39 2023
+2023 Jun 15 07:22:39.086829 btMgrBus[7039]:  230615-07:22:39.076962 [mod=BTRMGR, lvl=INFO] [tid=7289] 7430	: btrMgr_g_main_loop_Task - GMainLoop Running - 0x7d922890 - 0x7d922890
+2023 Jun 15 07:22:40.732188 btMgrBus[7039]:  230615-07:22:40.730653 [mod=BTRMGR, lvl=INFO] [tid=7296] 98	: btrMgr_GetNumberOfAdapters - Entering
+2023 Jun 15 07:22:40.733618 btMgrBus[7039]:  230615-07:22:40.733135 [mod=BTRCORE, lvl=DEBUG] [tid=7296] 3517	: BtrCore_BTGetAdapterList - Adapter Path 0 is: /org/bluez/hci0
+2023 Jun 15 07:22:40.733735 btMgrBus[7039]:  230615-07:22:40.733196 [mod=BTRCORE, lvl=DEBUG] [tid=7296] 3518	: BtrCore_BTGetAdapterList - Existing Adapter Path is: /org/bluez/hci0
+2023 Jun 15 07:22:40.734731 btMgrBus[7039]:  230615-07:22:40.734131 [mod=BTRMGR, lvl=DEBUG] [tid=7296] 3414	: BTRMGR_GetNumberOfAdapters - Available Adapters = 1
+2023 Jun 15 07:22:40.735845 btMgrBus[7039]:  230615-07:22:40.734182 [mod=BTRMGR, lvl=INFO] [tid=7296] 116	: btrMgr_GetNumberOfAdapters - Success; Number of Adapters = 1
+2023 Jun 15 07:22:41.264105 btMgrBus[7039]:  230615-07:22:41.261773 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:41.264204 btMgrBus[7039]:  230615-07:22:41.262370 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=:1.47 -> Dest=Null Path=/org/bluez/hci0; Interface=org.freedesktop.DBus.Properties; Member=PropertiesChanged
+2023 Jun 15 07:22:41.264265 btMgrBus[7039]:  230615-07:22:41.262412 [mod=BTRCORE, lvl=INFO] [tid=7083] 7662	: btrCore_BTDBusConnectionFilterCb - Property Changed! : org.bluez.Adapter1
+2023 Jun 15 07:22:41.265211 btMgrBus[7039]:  230615-07:22:41.262439 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <Class>
+2023 Jun 15 07:22:41.265321 btMgrBus[7039]:  230615-07:22:41.262471 [mod=BTRCORE, lvl=INFO] [tid=7083] 7704	: btrCore_BTDBusConnectionFilterCb - Adapter Stopped Discovering | 0
+2023 Jun 15 07:22:41.265390 btMgrBus[7039]:  230615-07:22:41.262500 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 6067	: btrCore_BTAdapterStatusUpdateCb - adapter number = 0, path = /org/bluez/hci0, discovering = 0
+2023 Jun 15 07:22:41.265482 btMgrBus[7039]:  230615-07:22:41.262591 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 3 0 0xb1e4e948
+2023 Jun 15 07:22:41.265553 btMgrBus[7039]:  230615-07:22:41.262643 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:41.267153 btMgrBus[7039]:  230615-07:22:41.262670 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:41.305635 btMgrBus[7039]:  230615-07:22:41.304035 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:41.305724 btMgrBus[7039]:  230615-07:22:41.304101 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=:1.47 -> Dest=Null Path=/org/bluez/hci0; Interface=org.freedesktop.DBus.Properties; Member=PropertiesChanged
+2023 Jun 15 07:22:41.305793 btMgrBus[7039]:  230615-07:22:41.304141 [mod=BTRCORE, lvl=INFO] [tid=7083] 7662	: btrCore_BTDBusConnectionFilterCb - Property Changed! : org.bluez.Adapter1
+2023 Jun 15 07:22:41.305855 btMgrBus[7039]:  230615-07:22:41.304169 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <Powered>
+2023 Jun 15 07:22:41.305917 btMgrBus[7039]:  230615-07:22:41.304201 [mod=BTRCORE, lvl=INFO] [tid=7083] 7704	: btrCore_BTDBusConnectionFilterCb - Adapter Stopped Discovering | 0
+2023 Jun 15 07:22:41.306002 btMgrBus[7039]:  230615-07:22:41.304229 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 6067	: btrCore_BTAdapterStatusUpdateCb - adapter number = 0, path = /org/bluez/hci0, discovering = 0
+2023 Jun 15 07:22:41.306065 btMgrBus[7039]:  230615-07:22:41.304326 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 3 0 0xb1e4e980
+2023 Jun 15 07:22:41.306126 btMgrBus[7039]:  230615-07:22:41.304376 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:41.306186 btMgrBus[7039]:  230615-07:22:41.304400 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:41.325439 btMgrBus[7039]:  230615-07:22:41.324445 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7615	: btrCore_BTDBusConnectionFilterCb - Connection Filter Activated....
+2023 Jun 15 07:22:41.325583 btMgrBus[7039]:  230615-07:22:41.324527 [mod=BTRCORE, lvl=INFO] [tid=7083] 7635	: btrCore_BTDBusConnectionFilterCb - Signal  Sender=:1.47 -> Dest=Null Path=/org/bluez/hci0; Interface=org.freedesktop.DBus.Properties; Member=PropertiesChanged
+2023 Jun 15 07:22:41.325648 btMgrBus[7039]:  230615-07:22:41.324573 [mod=BTRCORE, lvl=INFO] [tid=7083] 7662	: btrCore_BTDBusConnectionFilterCb - Property Changed! : org.bluez.Adapter1
+2023 Jun 15 07:22:41.325716 btMgrBus[7039]:  230615-07:22:41.324660 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 7675	: btrCore_BTDBusConnectionFilterCb - org.bluez.Adapter1 received event <Pairable>
+2023 Jun 15 07:22:41.325787 btMgrBus[7039]:  230615-07:22:41.324703 [mod=BTRCORE, lvl=INFO] [tid=7083] 7704	: btrCore_BTDBusConnectionFilterCb - Adapter Stopped Discovering | 0
+2023 Jun 15 07:22:41.325874 btMgrBus[7039]:  230615-07:22:41.324738 [mod=BTRCORE, lvl=DEBUG] [tid=7083] 6067	: btrCore_BTAdapterStatusUpdateCb - adapter number = 0, path = /org/bluez/hci0, discovering = 0
+2023 Jun 15 07:22:41.325936 btMgrBus[7039]:  230615-07:22:41.324868 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 3 0 0xb1e4e9a8
+2023 Jun 15 07:22:41.326008 btMgrBus[7039]:  230615-07:22:41.324972 [mod=BTRCORE, lvl=INFO] [tid=7082] 1978	: btrCore_OutTask - g_async_queue_timeout_pop 2 9 (nil)
+2023 Jun 15 07:22:41.326073 btMgrBus[7039]:  230615-07:22:41.325004 [mod=BTRCORE, lvl=INFO] [tid=7082] 2002	: btrCore_OutTask - enBTRCoreTaskOpIdle
+2023 Jun 15 07:22:49.064803 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:22:49 2023
+2023 Jun 15 07:22:53.002560 btMgrBus[7039]:  230615-07:22:53.001554 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:22:53.002861 btMgrBus[7039]:  230615-07:22:53.001801 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:22:59.065600 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:22:59 2023
+2023 Jun 15 07:23:09.065631 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:09 2023
+2023 Jun 15 07:23:19.556766 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:19 2023
+2023 Jun 15 07:23:29.556889 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:29 2023
+2023 Jun 15 07:23:37.037756 btMgrBus[7039]:  230615-07:23:37.036693 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:23:37.041555 btMgrBus[7039]:  230615-07:23:37.041403 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:23:37.046650 btMgrBus[7039]:  230615-07:23:37.046469 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:23:37.046795 btMgrBus[7039]:  230615-07:23:37.046672 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:23:39.557099 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:39 2023
+2023 Jun 15 07:23:49.557179 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:49 2023
+2023 Jun 15 07:23:59.557467 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:23:59 2023
+2023 Jun 15 07:24:09.557541 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:09 2023
+2023 Jun 15 07:24:19.557718 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:19 2023
+2023 Jun 15 07:24:29.557889 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:29 2023
+2023 Jun 15 07:24:37.125450 btMgrBus[7039]:  230615-07:24:37.124835 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:24:37.128995 btMgrBus[7039]:  230615-07:24:37.128826 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:24:37.134588 btMgrBus[7039]:  230615-07:24:37.134419 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:24:37.134759 btMgrBus[7039]:  230615-07:24:37.134592 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:24:39.558066 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:39 2023
+2023 Jun 15 07:24:49.558249 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:49 2023
+2023 Jun 15 07:24:59.558598 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:24:59 2023
+2023 Jun 15 07:25:09.558616 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:09 2023
+2023 Jun 15 07:25:19.558765 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:19 2023
+2023 Jun 15 07:25:29.559089 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:29 2023
+2023 Jun 15 07:25:37.194585 btMgrBus[7039]:  230615-07:25:37.193667 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:25:37.203024 btMgrBus[7039]:  230615-07:25:37.201945 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:25:37.209969 btMgrBus[7039]:  230615-07:25:37.209774 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:25:37.210169 btMgrBus[7039]:  230615-07:25:37.209962 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:25:39.559154 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:39 2023
+2023 Jun 15 07:25:49.559356 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:49 2023
+2023 Jun 15 07:25:59.559546 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:25:59 2023
+2023 Jun 15 07:26:09.559808 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:09 2023
+2023 Jun 15 07:26:19.559957 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:19 2023
+2023 Jun 15 07:26:29.560721 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:29 2023
+2023 Jun 15 07:26:37.266849 btMgrBus[7039]:  230615-07:26:37.266196 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:26:37.270399 btMgrBus[7039]:  230615-07:26:37.270249 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:26:37.300453 btMgrBus[7039]:  230615-07:26:37.300290 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:26:37.300610 btMgrBus[7039]:  230615-07:26:37.300445 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:26:39.560586 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:39 2023
+2023 Jun 15 07:26:49.560693 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:49 2023
+2023 Jun 15 07:26:59.560874 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:26:59 2023
+2023 Jun 15 07:27:09.561173 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:09 2023
+2023 Jun 15 07:27:19.561336 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:19 2023
+2023 Jun 15 07:27:29.561519 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:29 2023
+2023 Jun 15 07:27:37.356438 btMgrBus[7039]:  230615-07:27:37.355578 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:27:37.362767 btMgrBus[7039]:  230615-07:27:37.362388 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:27:37.368274 btMgrBus[7039]:  230615-07:27:37.368041 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:27:37.368387 btMgrBus[7039]:  230615-07:27:37.368193 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:27:39.561652 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:39 2023
+2023 Jun 15 07:27:49.561949 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:49 2023
+2023 Jun 15 07:27:59.562262 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:27:59 2023
+2023 Jun 15 07:28:09.562494 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:09 2023
+2023 Jun 15 07:28:19.562611 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:19 2023
+2023 Jun 15 07:28:29.562777 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:29 2023
+2023 Jun 15 07:28:37.434348 btMgrBus[7039]:  230615-07:28:37.433734 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:28:37.437601 btMgrBus[7039]:  230615-07:28:37.437465 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:28:37.442857 btMgrBus[7039]:  230615-07:28:37.442686 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:28:37.443163 btMgrBus[7039]:  230615-07:28:37.442846 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:28:39.562960 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:39 2023
+2023 Jun 15 07:28:49.563225 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:49 2023
+2023 Jun 15 07:28:59.563329 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:28:59 2023
+2023 Jun 15 07:29:09.563652 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:09 2023
+2023 Jun 15 07:29:19.563967 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:19 2023
+2023 Jun 15 07:29:29.563940 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:29 2023
+2023 Jun 15 07:29:37.509739 btMgrBus[7039]:  230615-07:29:37.509058 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:29:37.526309 btMgrBus[7039]:  230615-07:29:37.525821 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:29:37.547389 btMgrBus[7039]:  230615-07:29:37.546076 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:29:37.547530 btMgrBus[7039]:  230615-07:29:37.546287 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:29:39.564467 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:39 2023
+2023 Jun 15 07:29:49.564224 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:49 2023
+2023 Jun 15 07:29:59.564400 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:29:59 2023
+2023 Jun 15 07:30:09.564745 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:09 2023
+2023 Jun 15 07:30:19.564742 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:19 2023
+2023 Jun 15 07:30:29.564963 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:29 2023
+2023 Jun 15 07:30:37.604739 btMgrBus[7039]:  230615-07:30:37.603655 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:30:37.618208 btMgrBus[7039]:  230615-07:30:37.617830 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:30:37.623298 btMgrBus[7039]:  230615-07:30:37.622843 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:30:37.623404 btMgrBus[7039]:  230615-07:30:37.622997 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:30:39.565447 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:39 2023
+2023 Jun 15 07:30:49.565370 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:49 2023
+2023 Jun 15 07:30:59.566130 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:30:59 2023
+2023 Jun 15 07:31:09.566414 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:09 2023
+2023 Jun 15 07:31:19.565977 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:19 2023
+2023 Jun 15 07:31:29.566166 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:29 2023
+2023 Jun 15 07:31:37.677073 btMgrBus[7039]:  230615-07:31:37.675431 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:31:37.703192 btMgrBus[7039]:  230615-07:31:37.703043 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:31:37.708249 btMgrBus[7039]:  230615-07:31:37.708082 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:31:37.708388 btMgrBus[7039]:  230615-07:31:37.708242 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:31:39.566344 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:39 2023
+2023 Jun 15 07:31:49.566527 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:49 2023
+2023 Jun 15 07:31:59.566652 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:31:59 2023
+2023 Jun 15 07:32:09.571868 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:09 2023
+2023 Jun 15 07:32:19.570264 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:19 2023
+2023 Jun 15 07:32:29.570482 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:29 2023
+2023 Jun 15 07:32:37.779764 btMgrBus[7039]:  230615-07:32:37.778937 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:32:37.805207 btMgrBus[7039]:  230615-07:32:37.805056 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:32:37.810213 btMgrBus[7039]:  230615-07:32:37.810054 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:32:37.810422 btMgrBus[7039]:  230615-07:32:37.810209 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:32:39.572552 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:39 2023
+2023 Jun 15 07:32:46.470546 btMgrBus[7039]:  230615-07:32:46.469520 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:32:46.470667 btMgrBus[7039]:  230615-07:32:46.469737 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:32:49.570809 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:49 2023
+2023 Jun 15 07:32:59.570946 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:32:59 2023
+2023 Jun 15 07:33:09.571060 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:09 2023
+2023 Jun 15 07:33:19.571299 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:19 2023
+2023 Jun 15 07:33:29.571424 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:29 2023
+2023 Jun 15 07:33:37.933430 btMgrBus[7039]:  230615-07:33:37.932699 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:33:37.958038 btMgrBus[7039]:  230615-07:33:37.957898 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:33:37.963165 btMgrBus[7039]:  230615-07:33:37.962990 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:33:37.963310 btMgrBus[7039]:  230615-07:33:37.963154 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:33:39.572816 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:39 2023
+2023 Jun 15 07:33:49.571830 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:49 2023
+2023 Jun 15 07:33:59.572044 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:33:59 2023
+2023 Jun 15 07:34:09.572228 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:09 2023
+2023 Jun 15 07:34:19.572380 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:19 2023
+2023 Jun 15 07:34:29.572606 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:29 2023
+2023 Jun 15 07:34:38.094655 btMgrBus[7039]:  230615-07:34:38.092266 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:34:38.108366 btMgrBus[7039]:  230615-07:34:38.108208 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:34:38.136094 btMgrBus[7039]:  230615-07:34:38.135883 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:34:38.136288 btMgrBus[7039]:  230615-07:34:38.136070 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:34:39.572743 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:39 2023
+2023 Jun 15 07:34:49.572874 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:49 2023
+2023 Jun 15 07:34:59.573074 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:34:59 2023
+2023 Jun 15 07:35:09.573355 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:09 2023
+2023 Jun 15 07:35:19.573475 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:19 2023
+2023 Jun 15 07:35:29.573703 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:29 2023
+2023 Jun 15 07:35:38.211237 btMgrBus[7039]:  230615-07:35:38.210536 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:35:38.214683 btMgrBus[7039]:  230615-07:35:38.214543 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:35:38.242932 btMgrBus[7039]:  230615-07:35:38.242775 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:35:38.243094 btMgrBus[7039]:  230615-07:35:38.242928 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:35:39.573916 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:39 2023
+2023 Jun 15 07:35:49.574102 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:49 2023
+2023 Jun 15 07:35:59.574326 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:35:59 2023
+2023 Jun 15 07:36:09.574394 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:09 2023
+2023 Jun 15 07:36:19.574689 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:19 2023
+2023 Jun 15 07:36:29.574730 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:29 2023
+2023 Jun 15 07:36:38.294886 btMgrBus[7039]:  230615-07:36:38.294081 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:36:38.306046 btMgrBus[7039]:  230615-07:36:38.305647 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:36:38.311406 btMgrBus[7039]:  230615-07:36:38.311162 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:36:38.311582 btMgrBus[7039]:  230615-07:36:38.311323 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:36:39.575136 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:39 2023
+2023 Jun 15 07:36:49.575149 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:49 2023
+2023 Jun 15 07:36:59.575345 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:36:59 2023
+2023 Jun 15 07:37:09.575494 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:09 2023
+2023 Jun 15 07:37:19.575710 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:19 2023
+2023 Jun 15 07:37:29.575925 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:29 2023
+2023 Jun 15 07:37:38.366168 btMgrBus[7039]:  230615-07:37:38.365377 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:37:38.373017 btMgrBus[7039]:  230615-07:37:38.372873 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:37:38.378263 btMgrBus[7039]:  230615-07:37:38.378062 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:37:38.378418 btMgrBus[7039]:  230615-07:37:38.378224 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:37:39.576027 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:39 2023
+2023 Jun 15 07:37:49.576265 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:49 2023
+2023 Jun 15 07:37:59.576511 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:37:59 2023
+2023 Jun 15 07:38:09.579872 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:09 2023
+2023 Jun 15 07:38:19.576987 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:19 2023
+2023 Jun 15 07:38:29.577176 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:29 2023
+2023 Jun 15 07:38:38.431846 btMgrBus[7039]:  230615-07:38:38.431095 [mod=BTRMGR, lvl=WARN] [tid=7296] 4142	: BTRMGR_GetDiscoveredDevices_Internal - No Device is found yet
+2023 Jun 15 07:38:38.449288 btMgrBus[7039]:  230615-07:38:38.448996 [mod=BTRMGR, lvl=WARN] [tid=7296] 4518	: BTRMGR_GetPairedDevices - No Device is paired yet
+2023 Jun 15 07:38:38.454368 btMgrBus[7039]:  230615-07:38:38.454198 [mod=BTRMGR, lvl=WARN] [tid=7296] 4801	: BTRMGR_GetConnectedDevices - No Device in paired list
+2023 Jun 15 07:38:38.454537 btMgrBus[7039]:  230615-07:38:38.454358 [mod=BTRMGR, lvl=WARN] [tid=7296] 4845	: BTRMGR_GetConnectedDevices - No Device in scan list
+2023 Jun 15 07:38:39.577365 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:39 2023
+2023 Jun 15 07:38:49.577559 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:49 2023
+2023 Jun 15 07:38:59.577806 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:38:59 2023
+2023 Jun 15 07:39:09.577867 btMgrBus[7039]:  BTMgr Bus: HeartBeat at Thu Jun 15 07:39:09 2023

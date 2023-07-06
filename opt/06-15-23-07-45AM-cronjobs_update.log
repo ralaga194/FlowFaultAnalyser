@@ -1,0 +1,72 @@
+Thu Jun 15 07:22:32 UTC 2023:Arguments - 1st:update, 2nd:vdec-statistics.sh, 3rd:*/15 * * * * sh /lib/rdk/vdec-statistics.sh
+UPDATE
+Exiting cronjobs_update.sh
+Thu Jun 15 07:22:57 UTC 2023:Arguments - 1st:check-entry, 2nd:vm_cpu_temp-check.sh, 3rd:
+ENTRY_CHECK
+output=0
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:22:57 UTC 2023:Arguments - 1st:update, 2nd:vm_cpu_temp-check.sh, 3rd:*/15 * * * * nice -n 10 sh /lib/rdk/vm_cpu_temp-check.sh
+UPDATE
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:22:58 UTC 2023:Arguments - 1st:check-entry, 2nd:dca_utility.sh, 3rd:
+ENTRY_CHECK
+output=0
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:23:13 UTC 2023:Arguments - 1st:update, 2nd:uploadSTBLogs.sh, 3rd:29 19 * * * nice -n 19 /bin/busybox sh /lib/rdk/uploadSTBLogs.sh logs.xcal.tv 0 1 0 HTTP https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+UPDATE
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:23:14 UTC 2023:Arguments - 1st:update, 2nd:swupdate_utility.sh, 3rd:29 7 * * * /bin/sh /lib/rdk/swupdate_utility.sh 0 2 >> /opt/logs/swupdate.log 2>&1
+UPDATE
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:23:23 UTC 2023:Arguments - 1st:check-entry, 2nd:ping-telemetry.sh, 3rd:
+ENTRY_CHECK
+output=0
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:23:24 UTC 2023:Arguments - 1st:add, 2nd:ping-telemetry.sh, 3rd:0 0 * * * /bin/sh /lib/rdk/ping-telemetry.sh >> /opt/logs/ping_telemetry.log
+ADD
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:26:26 UTC 2023:Arguments - 1st:check-entry, 2nd:ping-telemetry.sh, 3rd:
+ENTRY_CHECK
+output=1
+Exiting cronjobs_update.sh
+10631
+Thu Jun 15 07:30:00 UTC 2023:Arguments - 1st:update, 2nd:vdec-statistics.sh, 3rd:*/15 * * * * sh /lib/rdk/vdec-statistics.sh
+UPDATE
+Exiting cronjobs_update.sh
+Thu Jun 15 07:32:14 UTC 2023:Arguments - 1st:check-entry, 2nd:vm_cpu_temp-check.sh, 3rd:
+ENTRY_CHECK
+output=1
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:14 UTC 2023:Arguments - 1st:remove, 2nd:vm_cpu_temp-check.sh, 3rd:
+REMOVE
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:15 UTC 2023:Arguments - 1st:update, 2nd:vm_cpu_temp-check.sh, 3rd:*/15 * * * * nice -n 10 sh /lib/rdk/vm_cpu_temp-check.sh
+UPDATE
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:16 UTC 2023:Arguments - 1st:check-entry, 2nd:dca_utility.sh, 3rd:
+ENTRY_CHECK
+output=0
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:19 UTC 2023:Arguments - 1st:update, 2nd:uploadSTBLogs.sh, 3rd:29 19 * * * nice -n 19 /bin/busybox sh /lib/rdk/uploadSTBLogs.sh logs.xcal.tv 0 1 0 HTTP https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+UPDATE
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:19 UTC 2023:Arguments - 1st:update, 2nd:swupdate_utility.sh, 3rd:29 7 * * * /bin/sh /lib/rdk/swupdate_utility.sh 0 2 >> /opt/logs/swupdate.log 2>&1
+UPDATE
+Exiting cronjobs_update.sh
+26685
+Thu Jun 15 07:32:26 UTC 2023:Arguments - 1st:check-entry, 2nd:ping-telemetry.sh, 3rd:
+ENTRY_CHECK
+output=1
+Exiting cronjobs_update.sh

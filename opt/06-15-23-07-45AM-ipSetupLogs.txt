@@ -1,0 +1,1553 @@
+15.06.2023_07:22:32: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 lo 127.0.0.1 local 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 eth0:0 192.168.28.10 global 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:110 (110.0 B)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:83 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:6160 (6.0 KiB)  TX bytes:6160 (6.0 KiB) 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 lo ::1 local 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 eth0 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ 
+15.06.2023_07:22:34 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 wlan0:0 192.168.28.10 global 
+15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1145 (1.1 KiB)  TX bytes:298 (298.0 B)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:84 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:6220 (6.0 KiB)  TX bytes:6220 (6.0 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0:0   Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1 
+15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0 
+15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ 
+15.06.2023_07:22:35 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:36 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 eth0 fe80::aa4a:63ff:fe1e:5ade local 
+15.06.2023_07:22:36 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 eth0:0 192.168.28.10 global 
+15.06.2023_07:22:36 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 eth0:0 10.0.0.19 global 
+15.06.2023_07:22:36 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 eth0:0 10.0.0.19 global 
+15.06.2023_07:22:36 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2225 (2.1 KiB)  TX bytes:1592 (1.5 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:159 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:159 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:11487 (11.2 KiB)  TX bytes:11487 (11.2 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0:0   Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 eth0:0 10.0.0.19 global 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 eth0:0 10.0.0.19 global 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2225 (2.1 KiB)  TX bytes:1592 (1.5 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:168 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:168 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:12180 (11.8 KiB)  TX bytes:12180 (11.8 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0:0   Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 eth0:0 10.0.0.19 global 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2225 (2.1 KiB)  TX bytes:1646 (1.6 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:182 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:182 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:13366 (13.0 KiB)  TX bytes:13366 (13.0 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0:0   Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0 
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:22:37 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:40 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 eth0 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade global 
+15.06.2023_07:22:40 /lib/rdk/networkInfoLogger.sh: IP Informations
+ eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:25 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:29 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:5770 (5.6 KiB)  TX bytes:4184 (4.0 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:783 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:783 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:73565 (71.8 KiB)  TX bytes:73565 (71.8 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0:0   Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1 
+15.06.2023_07:22:40 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 wlan0 
+15.06.2023_07:22:41 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:22:41 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:22:41 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:22:41 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 wlan0:0 192.168.28.10 global 
+15.06.2023_07:22:47: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:22:47: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:22:54 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 eth0 169.254.56.71 local 
+15.06.2023_07:23:02: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:23:02: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:23:18: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:23:18: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:23:31 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby0 100.64.11.1 global 
+15.06.2023_07:23:31 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:224 (224.0 B)  TX bytes:486 (486.0 B)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2093 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1290146 (1.2 MiB)  TX bytes:578400 (564.8 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7153 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7153 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15267287 (14.5 MiB)  TX bytes:15267287 (14.5 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:266 (266.0 B)  TX bytes:726 (726.0 B)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:31 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:31 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby0:0 192.168.28.10 global 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 veth0:0 192.168.28.10 global 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:224 (224.0 B)  TX bytes:1288 (1.2 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2093 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1290146 (1.2 MiB)  TX bytes:578400 (564.8 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7218 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7218 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15273916 (14.5 MiB)  TX bytes:15273916 (14.5 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:266 (266.0 B)  TX bytes:2290 (2.2 KiB)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:224 (224.0 B)  TX bytes:1288 (1.2 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2093 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1290146 (1.2 MiB)  TX bytes:578400 (564.8 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7225 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7225 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15274613 (14.5 MiB)  TX bytes:15274613 (14.5 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:266 (266.0 B)  TX bytes:2290 (2.2 KiB)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby_tap0:0 192.168.28.10 global 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:224 (224.0 B)  TX bytes:1444 (1.4 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2093 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1290146 (1.2 MiB)  TX bytes:578400 (564.8 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7237 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7237 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15275803 (14.5 MiB)  TX bytes:15275803 (14.5 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:266 (266.0 B)  TX bytes:2460 (2.4 KiB)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:32 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 dobby0 2080:d0bb:1e::6440:b01 global 
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:27 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:568 (568.0 B)  TX bytes:4536 (4.4 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2119 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2128 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1300249 (1.2 MiB)  TX bytes:596071 (582.1 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7254 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15277617 (14.5 MiB)  TX bytes:15277617 (14.5 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:45 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:666 (666.0 B)  TX bytes:7719 (7.5 KiB)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local 
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:33: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:23:33: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:23:33 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local 
+15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 veth1:0 192.168.28.10 global 
+15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::ecb8:83ff:fe81:ae9c/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:119 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:111 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11307 (11.0 KiB)  TX bytes:25606 (25.0 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr EE:B8:83:81:AE:9C  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2158 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2177 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1308652 (1.2 MiB)  TX bytes:605782 (591.5 KiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7494 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7494 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15341006 (14.6 MiB)  TX bytes:15341006 (14.6 MiB)
+
+veth0     Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet6 addr: fe80::60f2:3fff:fe1a:47f2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:118 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:140 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12863 (12.5 KiB)  TX bytes:34841 (34.0 KiB)
+
+veth0:0   Link encap:Ethernet  HWaddr 62:F2:3F:1A:47:F2  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+veth1     Link encap:Ethernet  HWaddr 76:A5:10:4A:2D:FB  
+          inet6 addr: fe80::74a5:10ff:fe4a:2dfb/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:110 (110.0 B)  TX bytes:908 (908.0 B)
+
+veth1:0   Link encap:Ethernet  HWaddr 76:A5:10:4A:2D:FB  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:23:35 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:23:37 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local 
+15.06.2023_07:23:48: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:23:48: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:24:03: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:24:03: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:24:18: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:24:18: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:24:33: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:24:33: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:24:48: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:24:48: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:25:03: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:25:03: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:25:18: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:25:18: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:25:34: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:25:34: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:25:49: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:25:49: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:26:04: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:26:04: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:26:19: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:26:19: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:26:34: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:26:34: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:26:49: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:26:49: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:27:04: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:27:04: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:27:19: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:27:19: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:27:34: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:27:34: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:27:49: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:27:49: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:28:04: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:28:04: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:28:20: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:28:20: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:28:35: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:28:35: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:28:50: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:28:50: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:29:05: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:29:05: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:29:20: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:29:20: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:29:35: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:29:35: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:29:50: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:29:50: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:30:05: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:30:05: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:30:20: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:30:20: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:30:35: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:30:35: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:30:50: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:30:50: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:31:06: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:31:06: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:31:21: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:31:21: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:31:36: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:31:36: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:31:50 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv6 veth1 fe80::74a5:10ff:fe4a:2dfb local 
+15.06.2023_07:31:50 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 veth1:0 192.168.28.10 global 
+15.06.2023_07:31:51: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:31:51: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:31:51 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv6 veth0 fe80::60f2:3fff:fe1a:47f2 local 
+15.06.2023_07:31:51 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 dobby_tap0:0 192.168.28.10 global 
+15.06.2023_07:31:52 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv6 dobby0 2080:d0bb:1e::6440:b01 global 
+15.06.2023_07:31:52 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv6 dobby0 fe80::ecb8:83ff:fe81:ae9c local 
+15.06.2023_07:31:52 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 dobby0 100.64.11.1 global 
+15.06.2023_07:31:52 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 dobby0:0 192.168.28.10 global 
+15.06.2023_07:32:06: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:32:06: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:32:21: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:32:21: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:32:36: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:32:36: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:32:51: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:32:51: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby0 100.64.11.1 global 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:96 (96.0 B)  TX bytes:650 (650.0 B)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12852 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13520 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6925867 (6.6 MiB)  TX bytes:9727253 (9.2 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:38306 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38306 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42007693 (40.0 MiB)  TX bytes:42007693 (40.0 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:110 (110.0 B)  TX bytes:904 (904.0 B)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby0:0 192.168.28.10 global 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 veth1:0 192.168.28.10 global 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:256 (256.0 B)  TX bytes:1444 (1.4 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12864 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13533 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6934648 (6.6 MiB)  TX bytes:9731009 (9.2 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:38368 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38368 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42014117 (40.0 MiB)  TX bytes:42014117 (40.0 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:298 (298.0 B)  TX bytes:2474 (2.4 KiB)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 dobby_tap0:0 192.168.28.10 global 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:256 (256.0 B)  TX bytes:1444 (1.4 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12867 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13537 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6935843 (6.6 MiB)  TX bytes:9731368 (9.2 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:38380 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38380 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42015307 (40.0 MiB)  TX bytes:42015307 (40.0 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:18 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:298 (298.0 B)  TX bytes:2528 (2.4 KiB)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:32:59 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:256 (256.0 B)  TX bytes:2070 (2.0 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12868 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13541 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6935929 (6.6 MiB)  TX bytes:9732543 (9.2 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:38396 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38396 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42017121 (40.0 MiB)  TX bytes:42017121 (40.0 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:23 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:298 (298.0 B)  TX bytes:3581 (3.4 KiB)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 veth1 fe80::f824:30ff:fee9:a85d local 
+15.06.2023_07:33:00 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 dobby0 2080:d0bb:1e::6440:b01 global 
+15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:320 (320.0 B)  TX bytes:7205 (7.0 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12897 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13590 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6943850 (6.6 MiB)  TX bytes:9774101 (9.3 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:38527 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:38527 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42048889 (40.1 MiB)  TX bytes:42048889 (40.1 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:54 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:376 (376.0 B)  TX bytes:12473 (12.1 KiB)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 dobby0 fe80::c40c:caff:fe67:9b7 local 
+15.06.2023_07:33:01 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv4 veth2:0 192.168.28.10 global 
+15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: IP Informations
+ dobby0    Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:100.64.11.1  Bcast:100.64.11.255  Mask:255.255.255.0
+          inet6 addr: fe80::c40c:caff:fe67:9b7/64 Scope:Link
+          inet6 addr: 2080:d0bb:1e::6440:b01/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:122 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:117 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11507 (11.2 KiB)  TX bytes:28782 (28.1 KiB)
+
+dobby0:0  Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+dobby_tap0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+dobby_tap0:0 Link encap:Ethernet  HWaddr C6:0C:CA:67:09:B7  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+
+eth0      Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:169.254.56.71  Bcast:169.254.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::aa4a:63ff:fe1e:5ade/64 Scope:Link
+          inet6 addr: 2601:9c0:57f:fd20:aa4a:63ff:fe1e:5ade/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:13275 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14004 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7102655 (6.7 MiB)  TX bytes:9958163 (9.4 MiB)
+          Interrupt:35 
+
+eth0:0    Link encap:Ethernet  HWaddr A8:4A:63:1E:5A:DE  
+          inet addr:10.0.0.19  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:35 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:39277 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:39277 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:42264661 (40.3 MiB)  TX bytes:42264661 (40.3 MiB)
+
+veth1     Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet6 addr: fe80::f824:30ff:fee9:a85d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:120 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:149 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12995 (12.6 KiB)  TX bytes:40116 (39.1 KiB)
+
+veth1:0   Link encap:Ethernet  HWaddr FA:24:30:E9:A8:5D  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+veth2     Link encap:Ethernet  HWaddr 42:B2:D9:7E:A2:55  
+          inet6 addr: fe80::40b2:d9ff:fe7e:a255/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:220 (220.0 B)  TX bytes:566 (566.0 B)
+
+veth2:0   Link encap:Ethernet  HWaddr 42:B2:D9:7E:A2:55  
+          inet addr:192.168.28.10  Bcast:192.168.28.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+wlan0     Link encap:Ethernet  HWaddr E8:CA:C8:A4:81:A8  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) 
+15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: Route Informations
+ Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+100.64.11.0     0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+169.254.0.0     0.0.0.0         255.255.0.0     U     0      0        0 eth0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth1
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 dobby_tap0
+192.168.28.0    0.0.0.0         255.255.255.0   U     0      0        0 veth2
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 eth0 
+15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: DNS Servers Informations15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: DNS Masq File: /etc/resolv.dnsmasq
+ nameserver 2001:558:feed::1
+nameserver 2001:558:feed::2
+search hsd.pa.crnrstn.comcast.net
+nameserver 75.75.75.75
+nameserver 75.75.76.76
+15.06.2023_07:33:04 /lib/rdk/networkInfoLogger.sh: DNS Resolve: /etc/resolv.conf
+ nameserver 127.0.0.1
+options timeout:1
+options attempts:2
+15.06.2023_07:33:05 /lib/rdk/networkInfoLogger.sh: Input Parameters : add ipv6 veth2 fe80::40b2:d9ff:fe7e:a255 local 
+15.06.2023_07:33:07: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:33:07: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:33:22: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:33:22: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:33:37: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:33:37: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:33:45 /lib/rdk/networkInfoLogger.sh: Input Parameters : delete ipv4 veth0:0 192.168.28.10 global 
+15.06.2023_07:33:52: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:33:52: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:34:07: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:34:07: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:34:22: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:34:22: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:34:37: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:34:37: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:34:52: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:34:52: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:35:07: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:35:07: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:35:22: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:35:22: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:35:37: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:35:37: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:35:52: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:35:52: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:36:08: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:36:08: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:36:23: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:36:23: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:36:38: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:36:38: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:36:53: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:36:53: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:37:08: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:37:08: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:37:23: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:37:23: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:37:38: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:37:38: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:37:53: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:37:53: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:38:08: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:38:08: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:38:23: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:38:23: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:38:38: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:38:38: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:38:54: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:38:54: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 
+15.06.2023_07:39:09: /lib/rdk/startIpGw.sh: No gateway IP going to ipsetup 
+15.06.2023_07:39:09: /lib/rdk/startIpGw.sh: Starting the ipsetup and gateway setup 

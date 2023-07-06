@@ -1,0 +1,1 @@
+[/lib/rdk/updateRF4CEmac.sh] RF4CE is not supported

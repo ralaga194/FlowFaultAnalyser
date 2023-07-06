@@ -1,0 +1,521 @@
+15.06.2023_07:22:46 Retrieving the timezone value
+15.06.2023_07:22:46 Device TimeZone: America/New_York
+15.06.2023_07:22:46 TimeZone Information after mapping : zoneValue = US/Eastern, timeZoneOffset = 0
+US/Eastern
+15.06.2023_07:22:56: /lib/rdk/DCMscript_maintaince.sh: Starting execution of DCMscript_maintaince.sh
+15.06.2023_07:22:56: /lib/rdk/DCMscript_maintaince.sh: Telemetry run for previous boot log files
+15.06.2023_07:22:57: /lib/rdk/DCMscript_maintaince.sh: xpki based mtls support = true
+15.06.2023_07:22:57 Setting URL to https://secure.xconfds.coast.xcal.tv/loguploader/getSettings from Bootstrap config LOG_CONFIG_URL:https://secure.xconfds.coast.xcal.tv
+15.06.2023_07:22:57: /lib/rdk/DCMscript_maintaince.sh: URL: https://secure.xconfds.coast.xcal.tv/loguploader/getSettings
+15.06.2023_07:22:57: /lib/rdk/DCMscript_maintaince.sh: REBOOT_FLAG: 0
+15.06.2023_07:22:58: /lib/rdk/DCMscript_maintaince.sh: CHECK_ON_REBOOT: 1
+15.06.2023_07:22:58: /lib/rdk/DCMscript_maintaince.sh: Overriding the upload url with bootstrap url
+15.06.2023_07:22:58: /lib/rdk/DCMscript_maintaince.sh:  is present, XCONF config fetch and parse will be handled by T2 implementation
+15.06.2023_07:22:59: /lib/rdk/DCMscript_maintaince.sh: Wait for config fetch complete
+15.06.2023_07:23:04 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:23:04 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:23:05 Maintenance start time: 1686814140
+15.06.2023_07:23:11: /lib/rdk/DCMscript_maintaince.sh: upload_protocol: HTTP
+15.06.2023_07:23:12: /lib/rdk/DCMscript_maintaince.sh: upload_httplink is https://ssr.ccp.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:23:12: /lib/rdk/DCMscript_maintaince.sh: RFC_mTlsLogUpload:
+15.06.2023_07:23:12: /lib/rdk/DCMscript_maintaince.sh: upload_httplink is https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+15.06.2023_07:23:12: /lib/rdk/DCMscript_maintaince.sh: The value of 'UploadOnReboot' is 'true', executing script uploadSTBLogs.sh
+15.06.2023_07:23:12: /lib/rdk/DCMscript_maintaince.sh: 'UploadSchedule:cron' is present setting cron jobs 
+Get lock for /tmp/.uploadstb.lock
+15.06.2023_07:23:13: /lib/rdk/DCMscript_maintaince.sh: Configuring cron job for swupdate_utility.sh
+15.06.2023_07:23:14 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:23:14: /lib/rdk/DCMscript_maintaince.sh: Check UseCodebig flag
+15.06.2023_07:23:14 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:23:14: /lib/rdk/DCMscript_maintaince.sh: Waiting for IP
+15.06.2023_07:23:14 Maintenance start time: 1686814140
+15.06.2023_07:23:15: /lib/rdk/uploadSTBLogs.sh: Called with 3 attempts
+15.06.2023_07:23:15: /lib/rdk/uploadSTBLogs.sh: USAGE: /lib/rdk/uploadSTBLogs.sh <TFTP Server IP> <Flag (STB delay or not)> <SCP_SERVER> <UploadOnReboot> <UploadProtocol> <UploadHttpLink> <RRD_FLAG> <RRD_UPLOADLOG_FILE>
+15.06.2023_07:23:15: /lib/rdk/uploadSTBLogs.sh: Check Codebig flag,,,
+sh: bad number
+15.06.2023_07:23:15: /lib/rdk/DCMscript_maintaince.sh:  --------- box got an ip 
+15.06.2023_07:23:16: /lib/rdk/uploadSTBLogs.sh: Build Type: vbn Log file: A84A631E5ADE_Logs_06-15-23-07-23AM.tgz UploadProtocol: HTTP UploadHttpLink: https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+15.06.2023_07:23:16: /lib/rdk/uploadSTBLogs.sh: upload_flag = true
+15.06.2023_07:23:16: /lib/rdk/uploadSTBLogs.sh: DCM log Folder does not exist . Creating now
+ls: /opt/logs/*.pcap*: No such file or directory
+15.06.2023_07:23:16: /lib/rdk/uploadSTBLogs.sh: UploadOnReboot set to true
+sh: 5: unknown operand
+sh: /opt/logs/PreviousLogs/ConnectionStats.txt: unknown operand
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   156  100    72  100    84   2322   2709 --:--:-- --:--:-- --:--:--  5200
+15.06.2023_07:23:16: /lib/rdk/uploadSTBLogs.sh: Sleeping for seven minutes
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Codebig is disabled: UseCodebig=0
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Attempting direct DCM connection
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: Attempting --tlsv1.2 connection to DCM server
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: MTLS preferred for DCM Request
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: Connect with mTLS certificate from xPKI
+15.06.2023_07:23:17: /lib/rdk/DCMscript_maintaince.sh: mTLS certificate from xPKI CURL_CMD: curl --tlsv1.2 --cert-type P12 --cert /opt/certs/devicecert_1.pk12<hidden key> -w '%{http_code} %{remote_ip} %{remote_port}\n' --connect-timeout 30 -m 10 -o  "/opt/DCMresponse.txt" 'https://secure.xconfds.coast.xcal.tv/loguploader/getSettings?estbMacAddress=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&env=vbn&model=ELTE11MWR&ecmMacAddress=&controllerId=2504&channelMapId=2345&vodId=15660&timezone=US/Eastern&partnerId=xglobal&accountId=3120539011156101601&experience=FlexV2&version=2'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  138k    0  138k    0     0   169k      0 --:--:-- --:--:-- --:--:--  169k
+15.06.2023_07:23:18: /lib/rdk/DCMscript_maintaince.sh: Curl Connected to secure.xconfds.coast.xcal.tv (2001:558:fd02:3300:8d52:525a:4457:5ff6) port 443
+15.06.2023_07:23:18: /lib/rdk/DCMscript_maintaince.sh: Curl return code with mTLS certificate from xPKI : 0, http code: 200
+15.06.2023_07:23:18: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Direct DCM connection success, return:0, httpcode:200
+15.06.2023_07:23:18: /lib/rdk/DCMscript_maintaince.sh: https request success. Processing response..
+15.06.2023_07:23:22: /lib/rdk/DCMscript_maintaince.sh: processJsonResponse returned 0
+15.06.2023_07:23:22: /lib/rdk/DCMscript_maintaince.sh: resp = 0
+15.06.2023_07:23:22: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer returned 0
+15.06.2023_07:23:23 Saving maintenance details to /opt/rdk_maintenance.conf
+start_hr="7"
+start_min="29"
+tz_mode="UTC"
+15.06.2023_07:23:39: /lib/rdk/DCMscript_maintaince.sh: Sending MAINT_DCM_COMPLETE event to MaintenanceMGR
+** Message: 03:23:39.216: IARM_event_sender  Entering 14152
+
+** Message: 03:23:39.217: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=0
+** Message: 03:23:39.226: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=0
+** Message: 03:23:39.226: >>>>> Identified MaintenanceMGR
+** Message: 03:23:39.226: >>>>> IARM SUCCESS  Event  = 0
+** Message: 03:23:39.730: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1
+15.06.2023_07:23:45 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:23:45 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:23:46 Maintenance start time: 1686814140
+15.06.2023_07:24:43 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:24:43 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:24:43 Maintenance start time: 1686814140
+15.06.2023_07:24:50 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:24:50 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:24:50 Maintenance start time: 1686814140
+15.06.2023_07:25:31 upload_protocol: HTTP
+15.06.2023_07:25:31 upload_httplink is https://ssr.ccp.xcal.tv/cgi-bin/S3.cgi
+MTLS preferred
+15.06.2023_07:25:31 xpki based mtls support = true
+Setting upload_httplink to https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi from Bootstrap config logUploadEndpointUrl:https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:25:31 upload_httplink is https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:25:31 The value of 'UploadOnReboot' is 'true', executing script uploadSTBLogs.sh
+Log upload triggered from regular execution
+15.06.2023_07:26:58 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:26:58 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:26:58 Maintenance start time: 1686814140
+15.06.2023_07:28:47: /lib/rdk/uploadSTBLogs.sh: Done sleeping
+rm: can't remove 'A84A631E5ADE_Logs_06-15-23-07-23AM.tgz': No such file or directory
+sh: /opt/logs/PreviousLogs/ConnectionStats.txt: unknown operand
+15.06.2023_07:29:01: /lib/rdk/uploadSTBLogs.sh: Processing file...reboot.log
+15.06.2023_07:29:04: /lib/rdk/uploadSTBLogs.sh: reboot_reason:  , uploadLog:true and UploadLogsOnUnscheduledReboot.Disable RFC: false
+15.06.2023_07:29:04: /lib/rdk/uploadSTBLogs.sh: Uploading Logs with DCM
+ls: /opt/logs/*-moca.pcap: No such file or directory
+06-15-23-07-28AM-CapDebug.txt
+06-15-23-07-28AM-ConnectionStats.txt
+06-15-23-07-28AM-airplay.log
+06-15-23-07-28AM-applications.log
+06-15-23-07-28AM-audiocapturemgr.log
+06-15-23-07-28AM-audioserver.log
+06-15-23-07-28AM-autoreboot.log
+06-15-23-07-28AM-bak1_CapDebug.txt
+06-15-23-07-28AM-bak1_ConnectionStats.txt
+06-15-23-07-28AM-bak1_airplay.log
+06-15-23-07-28AM-bak1_applications.log
+06-15-23-07-28AM-bak1_audiocapturemgr.log
+06-15-23-07-28AM-bak1_audioserver.log
+06-15-23-07-28AM-bak1_autoreboot.log
+06-15-23-07-28AM-bak1_bluez.log
+06-15-23-07-28AM-bak1_btmgrlog.txt
+06-15-23-07-28AM-bak1_card-provision-check.log
+06-15-23-07-28AM-bak1_caupdate.log
+06-15-23-07-28AM-bak1_cec_log.txt
+06-15-23-07-28AM-bak1_cgrmemorytest.log
+06-15-23-07-28AM-bak1_cgrpmemory.log
+06-15-23-07-28AM-bak1_container-setup.log
+06-15-23-07-28AM-bak1_core_log.txt
+06-15-23-07-28AM-bak1_cridataparser.log
+06-15-23-07-28AM-bak1_cronjobs_update.log
+06-15-23-07-28AM-bak1_crun.log
+06-15-23-07-28AM-bak1_ctrlm_log.txt
+06-15-23-07-28AM-bak1_dcmscript.log
+06-15-23-07-28AM-bak1_device_details.log
+06-15-23-07-28AM-bak1_dibbler.log
+06-15-23-07-28AM-bak1_disk_cleanup.log
+06-15-23-07-28AM-bak1_diskinfo.log
+06-15-23-07-28AM-bak1_dnsmasq.log
+06-15-23-07-28AM-bak1_dropbear.log
+06-15-23-07-28AM-bak1_ecfs.txt
+06-15-23-07-28AM-bak1_factoryComms.log
+06-15-23-07-28AM-bak1_gst-cleanup.log
+06-15-23-07-28AM-bak1_ipSetupLogs.txt
+06-15-23-07-28AM-bak1_iptables.log
+06-15-23-07-28AM-bak1_libledger.log
+06-15-23-07-28AM-bak1_lighttpd.error.log
+06-15-23-07-28AM-bak1_mediarite.log
+06-15-23-07-28AM-bak1_messages.txt
+06-15-23-07-28AM-bak1_mount_log.txt
+06-15-23-07-28AM-bak1_named.log
+06-15-23-07-28AM-bak1_netsrvmgr.log
+06-15-23-07-28AM-bak1_nlmon.log
+06-15-23-07-28AM-bak1_ntp.log
+06-15-23-07-28AM-bak1_nuanceeve.log
+06-15-23-07-28AM-bak1_parodus.log
+06-15-23-07-28AM-bak1_perfmonstatus.log
+06-15-23-07-28AM-bak1_ping_telemetry.log
+06-15-23-07-28AM-bak1_pqserver.log
+06-15-23-07-28AM-bak1_rdk_milestones.log
+06-15-23-07-28AM-bak1_rdkconfig.txt
+06-15-23-07-28AM-bak1_rdkssa.txt
+06-15-23-07-28AM-bak1_rdkssaott.txt
+06-15-23-07-28AM-bak1_rdm_status.log
+06-15-23-07-28AM-bak1_reboot.log
+06-15-23-07-28AM-bak1_rebootInfo.log
+06-15-23-07-28AM-bak1_rebootreason.log
+06-15-23-07-28AM-bak1_remote-debugger.log
+06-15-23-07-28AM-bak1_residentapp.log
+06-15-23-07-28AM-bak1_restartXdial.txt
+06-15-23-07-28AM-bak1_rf4ce_log.txt
+06-15-23-07-28AM-bak1_rfcscript.log
+06-15-23-07-28AM-bak1_rtrouted.log
+06-15-23-07-28AM-bak1_servicenumber.log
+06-15-23-07-28AM-bak1_sky-messages.log
+06-15-23-07-28AM-bak1_socprov.log
+06-15-23-07-28AM-bak1_sslendpoints.log
+06-15-23-07-28AM-bak1_ssmdataparser.log
+06-15-23-07-28AM-bak1_storagemgr.log
+06-15-23-07-28AM-bak1_subttxrend-app.log
+06-15-23-07-28AM-bak1_swupdate.log
+06-15-23-07-28AM-bak1_syslog_fallback.log
+06-15-23-07-28AM-bak1_system.log
+06-15-23-07-28AM-bak1_systimemgr.log
+06-15-23-07-28AM-bak1_telemetry2_0.txt.0
+06-15-23-07-28AM-bak1_top_log.txt
+06-15-23-07-28AM-bak1_tr69agent.log
+06-15-23-07-28AM-bak1_tr69hostif.log
+06-15-23-07-28AM-bak1_tvservice.log
+06-15-23-07-28AM-bak1_uimgr_log.txt
+06-15-23-07-28AM-bak1_usbpublish.log
+06-15-23-07-28AM-bak1_version.txt
+06-15-23-07-28AM-bak1_videodecoder.log
+06-15-23-07-28AM-bak1_webconfig.log
+06-15-23-07-28AM-bak1_wpa_supplicant.log
+06-15-23-07-28AM-bak1_wpeframework.log
+06-15-23-07-28AM-bak1_wpeframework.log.1
+06-15-23-07-28AM-bak1_xdial.log
+06-15-23-07-28AM-bluez.log
+06-15-23-07-28AM-btmgrlog.txt
+06-15-23-07-28AM-card-provision-check.log
+06-15-23-07-28AM-caupdate.log
+06-15-23-07-28AM-cec_log.txt
+06-15-23-07-28AM-certinfo.txt
+06-15-23-07-28AM-cgrmemorytest.log
+06-15-23-07-28AM-cgrpmemory.log
+06-15-23-07-28AM-container-setup.log
+06-15-23-07-28AM-core_log.txt
+06-15-23-07-28AM-cridataparser.log
+06-15-23-07-28AM-cronjobs_update.log
+06-15-23-07-28AM-crun.log
+06-15-23-07-28AM-ctrlm_log.txt
+06-15-23-07-28AM-dcmscript.log
+06-15-23-07-28AM-device_details.log
+06-15-23-07-28AM-dibbler.log
+06-15-23-07-28AM-disk_cleanup.log
+06-15-23-07-28AM-diskinfo.log
+06-15-23-07-28AM-dnsmasq.log
+06-15-23-07-28AM-dropbear.log
+06-15-23-07-28AM-ecfs.txt
+06-15-23-07-28AM-factoryComms.log
+06-15-23-07-28AM-gst-cleanup.log
+06-15-23-07-28AM-ipSetupLogs.txt
+06-15-23-07-28AM-iptables.log
+06-15-23-07-28AM-libledger.log
+06-15-23-07-28AM-lighttpd.error.log
+06-15-23-07-28AM-mediarite.log
+06-15-23-07-28AM-messages.txt
+06-15-23-07-28AM-mount_log.txt
+06-15-23-07-28AM-named.log
+06-15-23-07-28AM-netsrvmgr.log
+06-15-23-07-28AM-nlmon.log
+06-15-23-07-28AM-ntp.log
+06-15-23-07-28AM-nuanceeve.log
+06-15-23-07-28AM-parodus.log
+06-15-23-07-28AM-perfmonstatus.log
+06-15-23-07-28AM-ping_telemetry.log
+06-15-23-07-28AM-pqserver.log
+06-15-23-07-28AM-rdk_milestones.log
+06-15-23-07-28AM-rdk_shell.log
+06-15-23-07-28AM-rdkconfig.txt
+06-15-23-07-28AM-rdkssa.txt
+06-15-23-07-28AM-rdkssaott.txt
+06-15-23-07-28AM-rdm_status.log
+06-15-23-07-28AM-rebootInfo.log
+06-15-23-07-28AM-rebootreason.log
+06-15-23-07-28AM-remote-debugger.log
+06-15-23-07-28AM-residentapp.log
+06-15-23-07-28AM-restartXdial.txt
+06-15-23-07-28AM-rf4ce_log.txt
+06-15-23-07-28AM-rfcscript.log
+06-15-23-07-28AM-rtrouted.log
+06-15-23-07-28AM-servicenumber.log
+06-15-23-07-28AM-sky-messages.log
+06-15-23-07-28AM-socprov.log
+06-15-23-07-28AM-sslendpoints.log
+06-15-23-07-28AM-ssmdataparser.log
+06-15-23-07-28AM-storagemgr.log
+06-15-23-07-28AM-subttxrend-app.log
+06-15-23-07-28AM-swupdate.log
+06-15-23-07-28AM-syslog_fallback.log
+06-15-23-07-28AM-system.log
+06-15-23-07-28AM-systimemgr.log
+06-15-23-07-28AM-telemetry2_0.txt.0
+06-15-23-07-28AM-top_log.txt
+06-15-23-07-28AM-tr69agent.log
+06-15-23-07-28AM-tr69hostif.log
+06-15-23-07-28AM-tvservice.log
+06-15-23-07-28AM-uimgr_log.txt
+06-15-23-07-28AM-usbpublish.log
+06-15-23-07-28AM-version.txt
+06-15-23-07-28AM-videodecoder.log
+06-15-23-07-28AM-webconfig.log
+06-15-23-07-28AM-wpa_supplicant.log
+06-15-23-07-28AM-wpeframework.log
+06-15-23-07-28AM-wpeframework.log.1
+06-15-23-07-28AM-xdial.log
+last_reboot
+reboot.log
+Retrieving CPU instantaneous information for telemetry support
+Retrieving virtual memory information for telemetry support
+15.06.2023_07:30:05: /lib/rdk/uploadSTBLogs.sh: RFC_EncryptCloudUpload_Enable:
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: HttpLogUpload: Codebig is disabled UseCodebig=0
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: HttpLogUpload: Attempting direct log upload
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: RFC_EncryptCloudUpload_Enable:
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: Attempting --tlsv1.2 connection to SSR server
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: xpki based mtls support = true
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: Log Upload requires Mutual Authentication
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: Connect with mTLS certificate from xPKI
+15.06.2023_07:30:06: /lib/rdk/uploadSTBLogs.sh: CURL_CMD: curl --cert-type P12 --cert /opt/certs/devicecert_1.pk12<hidden key> -w '%{http_code} %{remote_ip} %{remote_port}\n' -d "filename=A84A631E5ADE_Logs_06-15-23-07-23AM.tgz"  -o "/tmp/httpresult.txt" "https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi" --connect-timeout 30 -m 10
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   447  100   400  100    47    809     95 --:--:-- --:--:-- --:--:--   903
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: Curl Connected to ssr.ccp.xcal.tv (2001:558:fd02:3400:4693:2d7f:df84:9361) port 443
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: Connect with mTLS certificate from xPKI Curl return code: 0, http code: 200
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: HttpLogUpload: Direct log upload Success: httpcode=200
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: S3 upload query success. Got new S3 url to upload log
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: Attempting --tlsv1.2 connection for Uploading Logs to S3 Amazon server
+15.06.2023_07:30:07: /lib/rdk/uploadSTBLogs.sh: CURL_CMD: curl --tlsv1.2 -w '%{http_code} %{remote_ip} %{remote_port}\n' -T "A84A631E5ADE_Logs_06-15-23-07-23AM.tgz" -o "/tmp/httpresult.txt" "https://ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com/stblogs/unencrypted/2023/6/15/7/A84A631E5ADE_Logs_06-15-23-07-23AM.tgz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3VCZ5W3TYHAPMPOQ%2F20230615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230615T073007Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=fed75403dc8c2c3859df9640623a4d36abdfdee14c5040d7e35f5faf7e8bc4e2"" --connect-timeout 60 -m 120 -v
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 2600:1fa0:814b:81f1:36e7:894a:::443...
+* Connected to ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com (2600:1fa0:814b:81f1:36e7:894a::) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [110 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [5486 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=s3.amazonaws.com
+*  start date: Apr 11 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2023 GMT
+*  subjectAltName: host "ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com" matched cert's "*.s3.dualstack.us-east-1.amazonaws.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M01
+*  SSL certificate verify ok.
+} [5 bytes data]
+> PUT /stblogs/unencrypted/2023/6/15/7/A84A631E5ADE_Logs_06-15-23-07-23AM.tgz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3VCZ5W3TYHAPMPOQ%2F20230615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230615T073007Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=fed75403dc8c2c3859df9640623a4d36abdfdee14c5040d7e35f5faf7e8bc4e2 HTTP/1.1
+> Host: ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Length: 1433399
+> Expect: 100-continue
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 100 Continue
+} [5 bytes data]
+* We are completely uploaded and fine
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< x-amz-id-2: n2i13LgofoL6mclIEYaJYJbmBDe3KBSc+dxN+hw8HFSf7nn90Eld/jRrWL/WiP9zrNWEXwxn/7Q=
+< x-amz-request-id: VR64NYB40NG0WJHF
+< Date: Thu, 15 Jun 2023 07:30:08 GMT
+< x-amz-version-id: .ZxBrP82wEGYrDqJDmoA5NPE9G8UPmIG
+< x-amz-expiration: expiry-date="Fri, 23 Jun 2023 00:00:00 GMT", rule-id="Rule for : stblogs"
+< x-amz-server-side-encryption: AES256
+< ETag: "303ab858e345d94c8e76cc36c52b4d0e"
+< Server: AmazonS3
+< Content-Length: 0
+< 
+100 1399k    0     0  100 1399k      0  2616k --:--:-- --:--:-- --:--:-- 2611k
+* Connection #0 to host ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com left intact
+15.06.2023_07:30:08: /lib/rdk/uploadSTBLogs.sh: Curl Connected to ccp-stbloglanding2.s3.dualstack.us-east-1.amazonaws.com (2600:1fa0:814b:81f1:36e7:894a::) port 443
+15.06.2023_07:30:08: /lib/rdk/uploadSTBLogs.sh: Curl return code: 0, http code: 200
+ls: /opt/logs/*.pcap*: No such file or directory
+sh: /opt/logs/PreviousLogs/06-15-23-07-28AM-ConnectionStats.txt: unknown operand
+BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+
+Usage: mv [-fin] SOURCE DEST
+or: mv [-fin] SOURCE... DIRECTORY
+/opt/logs/PreviousLogs
+15.06.2023_07:30:20: /lib/rdk/uploadSTBLogs.sh: Deleting from Previous Logs  Folder 
+** Message: 03:30:20.954: IARM_event_sender  Entering 22583
+
+** Message: 03:30:20.954: >>>>> Send IARM_BUS_NAME EVENT current Event Name =LogUploadEvent,evenstatus=0
+** Message: 03:30:20.962: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =LogUploadEvent,eventstatus=0
+** Message: 03:30:20.962: >>>>> IARM SUCCESS  Event Name =LogUploadEvent,sysStateEvent=45
+** Message: 03:30:21.464: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = LogUploadEvent
+setting init done
+Registering LogUploadEvent
+term start init 1
+** Message: 03:30:21.488: IARM_event_sender  Entering 22585
+
+** Message: 03:30:21.489: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=4
+** Message: 03:30:21.496: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=4
+** Message: 03:30:21.496: >>>>> Identified MaintenanceMGR
+** Message: 03:30:21.497: >>>>> IARM SUCCESS  Event  = 4
+15.06.2023_07:30:21 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+** Message: 03:30:21.999: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1
+15.06.2023_07:30:22 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:30:22 Calculated start time (1686814140) is in the past, bumping by 24hrs
+15.06.2023_07:30:22 Maintenance start time: 1686900539
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: Called with 3 attempts
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: USAGE: /lib/rdk/uploadSTBLogs.sh <TFTP Server IP> <Flag (STB delay or not)> <SCP_SERVER> <UploadOnReboot> <UploadProtocol> <UploadHttpLink> <RRD_FLAG> <RRD_UPLOADLOG_FILE>
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: Check Codebig flag,,,
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: Build Type: vbn Log file: A84A631E5ADE_Logs_06-15-23-07-30AM.tgz UploadProtocol: HTTP UploadHttpLink: https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: upload_flag = true
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: DCM log Folder does not exist . Creating now
+15.06.2023_07:30:22: /lib/rdk/uploadSTBLogs.sh: UploadOnReboot set to true
+15.06.2023_07:30:23: /lib/rdk/uploadSTBLogs.sh: Log directory empty, skipping log upload
+15.06.2023_07:31:14 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:31:14 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:31:14 Calculated start time (1686814140) is in the past, bumping by 24hrs
+15.06.2023_07:31:14 Maintenance start time: 1686900539
+15.06.2023_07:32:03 Retrieving the timezone value
+15.06.2023_07:32:03 Device TimeZone: America/New_York
+15.06.2023_07:32:04 TimeZone Information after mapping : zoneValue = US/Eastern, timeZoneOffset = 0
+US/Eastern
+15.06.2023_07:32:14: /lib/rdk/DCMscript_maintaince.sh: Starting execution of DCMscript_maintaince.sh
+15.06.2023_07:32:14: /lib/rdk/DCMscript_maintaince.sh: Telemetry run for previous boot log files
+15.06.2023_07:32:15: /lib/rdk/DCMscript_maintaince.sh: xpki based mtls support = true
+15.06.2023_07:32:15 Setting URL to https://secure.xconfds.coast.xcal.tv/loguploader/getSettings from Bootstrap config LOG_CONFIG_URL:https://secure.xconfds.coast.xcal.tv
+15.06.2023_07:32:15: /lib/rdk/DCMscript_maintaince.sh: URL: https://secure.xconfds.coast.xcal.tv/loguploader/getSettings
+15.06.2023_07:32:15: /lib/rdk/DCMscript_maintaince.sh: REBOOT_FLAG: 0
+15.06.2023_07:32:15: /lib/rdk/DCMscript_maintaince.sh: CHECK_ON_REBOOT: 1
+15.06.2023_07:32:15: /lib/rdk/DCMscript_maintaince.sh: Overriding the upload url with bootstrap url
+15.06.2023_07:32:18: /lib/rdk/DCMscript_maintaince.sh: upload_protocol: HTTP
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: upload_httplink is https://ssr.ccp.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: RFC_mTlsLogUpload:
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: upload_httplink is https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: The value of 'UploadOnReboot' is 'true', executing script uploadSTBLogs.sh
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: 'UploadSchedule:cron' is present setting cron jobs 
+Get lock for /tmp/.uploadstb.lock
+15.06.2023_07:32:19: /lib/rdk/uploadSTBLogs.sh: Called with 3 attempts
+15.06.2023_07:32:19: /lib/rdk/DCMscript_maintaince.sh: Configuring cron job for swupdate_utility.sh
+15.06.2023_07:32:19: /lib/rdk/uploadSTBLogs.sh: USAGE: /lib/rdk/uploadSTBLogs.sh <TFTP Server IP> <Flag (STB delay or not)> <SCP_SERVER> <UploadOnReboot> <UploadProtocol> <UploadHttpLink> <RRD_FLAG> <RRD_UPLOADLOG_FILE>
+15.06.2023_07:32:19: /lib/rdk/uploadSTBLogs.sh: Check Codebig flag,,,
+sh: bad number
+15.06.2023_07:32:20: /lib/rdk/uploadSTBLogs.sh: Build Type: vbn Log file: A84A631E5ADE_Logs_06-15-23-07-32AM.tgz UploadProtocol: HTTP UploadHttpLink: https://ssr.ccp.xcal.tv/secure/cgi-bin/S3.cgi
+15.06.2023_07:32:20: /lib/rdk/DCMscript_maintaince.sh: Check UseCodebig flag
+15.06.2023_07:32:20: /lib/rdk/uploadSTBLogs.sh: upload_flag = true
+15.06.2023_07:32:20: /lib/rdk/DCMscript_maintaince.sh: Waiting for IP
+15.06.2023_07:32:20: /lib/rdk/uploadSTBLogs.sh: DCM log Folder does not exist . Creating now
+ls: /opt/logs/*.pcap*: No such file or directory
+ls: /opt/logs/*-*-*-*-*M-*: No such file or directory
+15.06.2023_07:32:20: /lib/rdk/uploadSTBLogs.sh: UploadOnReboot set to true
+sh: 5: unknown operand
+ls: /opt/logs/PreviousLogs/*.txt: No such file or directory
+ls: /opt/logs/PreviousLogs/*.log: No such file or directory
+15.06.2023_07:32:20: /lib/rdk/uploadSTBLogs.sh: Log directory empty, skipping log upload
+** Message: 07:32:20.545: IARM_event_sender  Entering 27254
+
+** Message: 07:32:20.546: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=4
+** Message: 07:32:20.552: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=4
+** Message: 07:32:20.553: >>>>> Identified MaintenanceMGR
+** Message: 07:32:20.553: >>>>> IARM SUCCESS  Event  = 4
+** Message: 07:32:21.056: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1
+15.06.2023_07:32:21: /lib/rdk/DCMscript_maintaince.sh:  --------- box got an ip 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   156  100    72  100    84   9000  10500 --:--:-- --:--:-- --:--:-- 19500
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Codebig is disabled: UseCodebig=0
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Attempting direct DCM connection
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: Attempting --tlsv1.2 connection to DCM server
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: MTLS preferred for DCM Request
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: Connect with mTLS certificate from xPKI
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: mTLS certificate from xPKI CURL_CMD: curl --tlsv1.2 --cert-type P12 --cert /opt/certs/devicecert_1.pk12<hidden key> -w '%{http_code} %{remote_ip} %{remote_port}\n' --connect-timeout 30 -m 10 -o  "/opt/DCMresponse.txt" 'https://secure.xconfds.coast.xcal.tv/loguploader/getSettings?estbMacAddress=A8:4A:63:1E:5A:DE&firmwareVersion=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB&env=vbn&model=ELTE11MWR&ecmMacAddress=&controllerId=2504&channelMapId=2345&vodId=15660&timezone=US/Eastern&partnerId=xglobal&accountId=3120539011156101601&experience=FlexV2&version=2'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  112k    0  112k    0     0   462k      0 --:--:-- --:--:-- --:--:--  460k100  138k    0  138k    0     0   535k      0 --:--:-- --:--:-- --:--:--  533k
+15.06.2023_07:32:22: /lib/rdk/DCMscript_maintaince.sh: Curl Connected to secure.xconfds.coast.xcal.tv (2001:558:fd01:5000:6c9:2fa:f82:c517) port 443
+15.06.2023_07:32:23: /lib/rdk/DCMscript_maintaince.sh: Curl return code with mTLS certificate from xPKI : 0, http code: 200
+15.06.2023_07:32:23: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer: Direct DCM connection success, return:0, httpcode:200
+15.06.2023_07:32:23: /lib/rdk/DCMscript_maintaince.sh: https request success. Processing response..
+15.06.2023_07:32:25: /lib/rdk/DCMscript_maintaince.sh: processJsonResponse returned 0
+15.06.2023_07:32:25: /lib/rdk/DCMscript_maintaince.sh: resp = 0
+15.06.2023_07:32:25: /lib/rdk/DCMscript_maintaince.sh: sendHttpRequestToServer returned 0
+15.06.2023_07:32:26 Saving maintenance details to /opt/rdk_maintenance.conf
+start_hr="7"
+start_min="29"
+tz_mode="UTC"
+15.06.2023_07:32:41: /lib/rdk/DCMscript_maintaince.sh: Sending MAINT_DCM_COMPLETE event to MaintenanceMGR
+** Message: 07:32:41.686: IARM_event_sender  Entering 28590
+
+** Message: 07:32:41.686: >>>>> Send IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,evenstatus=0
+** Message: 07:32:41.693: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =MaintenanceMGR,eventstatus=0
+** Message: 07:32:41.694: >>>>> Identified MaintenanceMGR
+** Message: 07:32:41.694: >>>>> IARM SUCCESS  Event  = 0
+** Message: 07:32:42.196: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = MaintenanceMGR
+setting init done
+Registering MaintenanceMGR
+term start init 1
+15.06.2023_07:32:56 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:32:56 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:32:57 Calculated start time (1686814140) is in the past, bumping by 24hrs
+15.06.2023_07:32:57 Maintenance start time: 1686900539
+15.06.2023_07:34:36 upload_protocol: HTTP
+15.06.2023_07:34:36 upload_httplink is https://ssr.ccp.xcal.tv/cgi-bin/S3.cgi
+MTLS preferred
+15.06.2023_07:34:36 xpki based mtls support = true
+Setting upload_httplink to https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi from Bootstrap config logUploadEndpointUrl:https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:34:36 upload_httplink is https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:34:36 The value of 'UploadOnReboot' is 'true', executing script uploadSTBLogs.sh
+Log upload triggered from regular execution
+15.06.2023_07:34:36: /lib/rdk/uploadSTBLogs.sh: Called with 3 attempts
+15.06.2023_07:34:36: /lib/rdk/uploadSTBLogs.sh: USAGE: /lib/rdk/uploadSTBLogs.sh <TFTP Server IP> <Flag (STB delay or not)> <SCP_SERVER> <UploadOnReboot> <UploadProtocol> <UploadHttpLink> <RRD_FLAG> <RRD_UPLOADLOG_FILE>
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: Check Codebig flag,,,
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: Build Type: vbn Log file: A84A631E5ADE_Logs_06-15-23-07-34AM.tgz UploadProtocol: HTTP UploadHttpLink: https://secure.ssr.coast.xcal.tv/cgi-bin/S3.cgi
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: upload_flag = true
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: DCM log Folder does not exist . Creating now
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: UploadOnReboot set to true
+15.06.2023_07:34:37: /lib/rdk/uploadSTBLogs.sh: Log directory empty, skipping log upload
+15.06.2023_07:34:38 Start time got from persistent file : 7:29 tz_mode: UTC timezone: US/Eastern
+15.06.2023_07:34:38 timeZoneOffset: 0 , start_time_hr: 7, start_time_min: 29, start_time_sec: 0
+15.06.2023_07:34:38 Calculated start time (1686814140) is in the past, bumping by 24hrs
+15.06.2023_07:34:38 Maintenance start time: 1686900539

@@ -1,0 +1,37 @@
+2023-06-15 07:22:51 Copying Netflix Playready files
+2023 Jun 15 07:22:51.888958 sh[8160]:  /lib/rdk/residentApp.sh: line 32: /etc/default/westeros-env: Read-only file system
+2023 Jun 15 07:22:51.900933 sh[8160]:  cp: can't stat '/usr/share/playready/*': No such file or directory
+2023 Jun 15 07:22:51.917250 sh[8160]:  cp: can't stat '/usr/share/playready/*': No such file or directory
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   132  100    38  100    94   3800   9400 --:--:-- --:--:-- --:--:-- 14666
+{"jsonrpc":"2.0","id":4,"result":null}
+2023-06-15 07:22:54 launch status: Jun 15 07:22:49 element-teone /usr/bin/WPEFramework[7946]: [Thu, 15 Jun 2023 07:22:49 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://platco.thor.local:50050/dist/thor/index.html?sad=http%3A%2F%2Fplatco.fui.local%3A50051%2Findex.html", "loaded":true, "httpstatus":200 }
+2023-06-15 07:22:54 launch status log: 2023 Jun 15 07:22:49.606533 /usr/bin/WPEFramework[7946]:  [Thu, 15 Jun 2023 07:22:49 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://platco.thor.local:50050/dist/thor/index.html?sad=http%3A%2F%2Fplatco.fui.local%3A50051%2Findex.html", "loaded":true, "httpstatus":200 }
+2023-06-15 07:22:54 no retry needed
+2023-06-15 07:22:55 launch factory mode status: 
+2023-06-15 07:22:55 launch factory mode status log: 
+2023-06-15 07:22:55 mac address: A8:4A:63:1E:5A:DE
+2023 Jun 15 07:22:55.210989 sh[8160]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:55.211557 sh[8160]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:55.229685 sh[8160]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   200  100    50  100   150   2631   7894 --:--:-- --:--:-- --:--:-- 11764
+2023-06-15 07:32:10 Copying Netflix Playready files
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   132  100    38  100    94   3166   7833 --:--:-- --:--:-- --:--:-- 12000
+{"jsonrpc":"2.0","id":4,"result":null}
+2023 Jun 15 07:32:10.968994 sh[25357]:  /lib/rdk/residentApp.sh: line 32: /etc/default/westeros-env: Read-only file system
+2023 Jun 15 07:32:10.976123 sh[25357]:  cp: can't stat '/usr/share/playready/*': No such file or directory
+2023 Jun 15 07:32:10.991675 sh[25357]:  cp: can't stat '/usr/share/playready/*': No such file or directory
+2023-06-15 07:32:14 launch status: Jun 15 07:31:54 element-teone /usr/bin/WPEFramework[7946]: [Thu, 15 Jun 2023 03:31:54 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://localhost:50050/factoryui/index.html?cfg=Hisense", "loaded":true, "httpstatus":200 }
+Jun 15 07:32:05 element-teone /usr/bin/WPEFramework[25355]: [Thu, 15 Jun 2023 07:32:05 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://localhost:50050/factoryui/index.html?cfg=Hisense", "loaded":true, "httpstatus":200 }
+2023-06-15 07:32:14 launch status log: 2023 Jun 15 07:31:54.226330 /usr/bin/WPEFramework[7946]:  [Thu, 15 Jun 2023 03:31:54 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://localhost:50050/factoryui/index.html?cfg=Hisense", "loaded":true, "httpstatus":200 }
+2023 Jun 15 07:32:05.724504 /usr/bin/WPEFramework[25355]:  [Thu, 15 Jun 2023 07:32:05 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://localhost:50050/factoryui/index.html?cfg=Hisense", "loaded":true, "httpstatus":200 }
+2023 Jun 15 07:22:49.606533 /usr/bin/WPEFramework[7946]:  [Thu, 15 Jun 2023 07:22:49 ]:[WebKitBrowser.cpp:308]: Information: LoadFinished: { "url": "http://platco.thor.local:50050/dist/thor/index.html?sad=http%3A%2F%2Fplatco.fui.local%3A50051%2Findex.html", "loaded":true, "httpstatus":200 }
+2023-06-15 07:32:14 no retry needed
+2023-06-15 07:32:15 launch factory mode status: 
+2023-06-15 07:32:15 launch factory mode status log: 
+2023-06-15 07:32:15 mac address: A8:4A:63:1E:5A:DE
+2023 Jun 15 07:32:15.418189 sh[25357]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:32:15.418605 sh[25357]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:32:15.437137 sh[25357]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   200  100    50  100   150   2000   6000 --:--:-- --:--:-- --:--:--  8333

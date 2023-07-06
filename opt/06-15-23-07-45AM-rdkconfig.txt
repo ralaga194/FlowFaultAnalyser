@@ -1,0 +1,17 @@
+233	: certInfoGet - Entering certInfoGet
+239	: certInfoGet - Entering DEVICE_CERT
+168	: chooseCert - Choosing Dynamic certificate: /opt/certs/devicecert_1.pk12
+42	: cert_memAlloc - Entering cert_memAlloc()
+54	: cert_memAlloc - certinfo->certPath : [/opt/certs/devicecert_1.pk12] certinfo->certPathLen : [29]
+60	: decryptCred - Entering decryptCred
+90	: decryptCred - Credential is decrypted successfully
+102	: decryptCred - credLen is 9
+107	: cert_CheckValidity - Entering cert_CheckValidity
+132	: cert_CheckValidity - Calling rdkssaCACheckValidity
+134	: cert_CheckValidity - rdkssaCACheckValidity status : [0]
+183	: chooseCert - /opt/certs/devicecert_1.pk12 is VALID
+227	: chooseCert - chooseCert status is 0
+241	: certInfoGet - DEVICE_CERT retStatus is [0]
+255	: certInfoGet - certInfoGet status : [0]
+143	: certInfoFree - Entering cert_memFree
+158	: certInfoFree - Exiting cert_memFree

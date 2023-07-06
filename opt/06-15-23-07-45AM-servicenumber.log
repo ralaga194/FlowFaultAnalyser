@@ -1,0 +1,24 @@
+Parent Process INFO
+1 : /sbin/init
+9121 : sh/lib/rdk/DCMscript_maintaince.shstblogger.ccp.xcal.tvhttps://xconf.xcal.tv/loguploader/getSettingslogs.xcal.tv01
+15.06.2023_07:23:16: accountId is valid and value retrieved from tr181 param.
+Parent Process INFO
+1 : /sbin/init
+14155 : /bin/busyboxsh/lib/rdk/RFCbase.sh
+15.06.2023_07:23:46: accountId is valid and value retrieved from tr181 param.
+Parent Process INFO
+14787 : /bin/sh/lib/rdk/swupdate_utility.sh
+15929 : sh/lib/rdk/deviceInitiatedFWDnld.sh01
+15.06.2023_07:25:27: accountId is valid and value retrieved from tr181 param.
+Parent Process INFO
+1 : /sbin/init
+25708 : sh/lib/rdk/DCMscript_maintaince.shstblogger.ccp.xcal.tvhttps://xconf.xcal.tv/loguploader/getSettingslogs.xcal.tv01
+15.06.2023_07:32:21: accountId is valid and value retrieved from tr181 param.
+Parent Process INFO
+1 : /sbin/init
+28595 : /bin/busyboxsh/lib/rdk/RFCbase.sh
+15.06.2023_07:32:49: accountId is valid and value retrieved from tr181 param.
+Parent Process INFO
+29218 : /bin/sh/lib/rdk/swupdate_utility.sh
+32153 : sh/lib/rdk/deviceInitiatedFWDnld.sh01
+15.06.2023_07:34:32: accountId is valid and value retrieved from tr181 param.

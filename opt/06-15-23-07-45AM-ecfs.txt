@@ -1,0 +1,9 @@
+2023 Jun 15 07:22:29.496712 "ecfsmount"[2628]:  Entered ecfs_init
+2023 Jun 15 07:22:29.514983 "ecfsmount"[2628]:  cpc directory not mounted
+2023 Jun 15 07:22:29.540525 "ecfsmount"[2628]:  Exiting ecfs_init
+2023 Jun 15 07:22:29.604228 "ecfsmount"[2652]:  Entered ecfs_mount
+2023 Jun 15 07:22:29.966778 "ecfsmount"[2652]:  1af2ca62215cea59a0cdf1e0fcd2a13bfc3c8047e18d02cf08b31ddf51632fe8 /tmp/fwGS.bin
+2023 Jun 15 07:22:30.790647 "ecfsmount"[2652]:  preapre_opt_tree : Mounting /opt/secure
+2023 Jun 15 07:22:30.880346 "ecfsmount"[2652]:  Mounted cpc directory successfully
+2023 Jun 15 07:22:30.961559 "ecfsmount"[2652]:  Exiting ecfs_mount
+2023 Jun 15 07:22:31.161960 "ecfsmount"[4282]:  ecfs init completed

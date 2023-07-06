@@ -1,0 +1,119 @@
+/lib/rdk/launchSocProv.sh: line 42: [: =: unary operator expected
+Thunder is REACHABLE with SECURITY ENABLED
+Current conditions: BOOTUP flag is not set; REPROVISION is false; RUN_MARKER is true
+Launching socprovisioning
+2023-06-15 03:32:57.EDT: WBS-Info : current stack size in bytes 9033682306555969535, -4286578688
+2023-06-15 03:32:57.EDT: WBS-Info : Unable to set stacksize 9033682306555969535. It's less than the current stack size or greater than max stack size
+2023-06-15 03:32:57.EDT: WBS-Info : Attached to shared memory
+2023-06-15 03:32:57.EDT: WBS-Info : Mutex init done 0xb3f8d000
+2023-06-15 03:32:57.EDT: WBS-Info : Authservise is enabled
+2023-06-15 03:32:57.EDT: WBS-Warn : ../git/src/settings.cpp[146]: instance: Loading /etc/socprov.conf
+2023-06-15 03:32:57.EDT: WBS-Info : Applying RFC Settings
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/settings.cpp[534]: applyTr181Settings: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.disableCredentialsPrefetchCaching Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/settings.cpp[535]: applyTr181Settings: Falling back to the value specified in the Settings: disableCredentialsPrefetchCaching=false
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/settings.cpp[553]: applyTr181Settings: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.backoffIntervalMax Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/settings.cpp[554]: applyTr181Settings: Falling back to the value specified in the Settings: backoffIntervalMax=1346269
+
+2023-06-15 03:32:57.EDT: WBS-Info : Built: Jun 15 2023, 00:24:42
+2023-06-15 03:32:57.EDT: WBS-Info : Started with configuration:
+2023-06-15 03:32:57.EDT: WBS-Info : vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+2023-06-15 03:32:57.EDT: WBS-Info : auth/tlsV1_2Usage: force
+2023-06-15 03:32:57.EDT: WBS-Info : auth/urlThunder: http://127.0.0.1:9998/jsonrpc
+2023-06-15 03:32:57.EDT: WBS-Info : http/retryNumber: 0
+2023-06-15 03:32:57.EDT: WBS-Info : http/retryTimeout: 1
+2023-06-15 03:32:57.EDT: WBS-Info : http/timeout: 30
+2023-06-15 03:32:57.EDT: WBS-Info : log/level: Info
+2023-06-15 03:32:57.EDT: WBS-Info : log/path: -
+2023-06-15 03:32:57.EDT: WBS-Info : rt/backoffInfo: 
+2023-06-15 03:32:57.EDT: WBS-Info : rt/backoffIntervalMax: 1346269
+2023-06-15 03:32:57.EDT: WBS-Info : rt/bootup: false
+2023-06-15 03:32:57.EDT: WBS-Info : rt/cachedPartnerId: xglobal
+2023-06-15 03:32:57.EDT: WBS-Info : rt/cleanup: false
+2023-06-15 03:32:57.EDT: WBS-Info : rt/deviceStatus: 2
+2023-06-15 03:32:57.EDT: WBS-Info : rt/disableCredentialsPrefetchCaching: false
+2023-06-15 03:32:57.EDT: WBS-Info : rt/refreshTime: 1686914173
+2023-06-15 03:32:57.EDT: WBS-Info : rt/skip: false
+2023-06-15 03:32:57.EDT: WBS-Info : rt/skipLegacy: false
+2023-06-15 03:32:57.EDT: WBS-Info : storage/adobeDrmCacheFolder: /opt/.adobe
+2023-06-15 03:32:57.EDT: WBS-Info : storage/adobePersistentDataFolder: /opt/persistent/adobe
+2023-06-15 03:32:57.EDT: WBS-Info : storage/deleteCacheOnNewCerts: true
+2023-06-15 03:32:57.EDT: WBS-Info : storage/drmFolder: /opt/drm
+2023-06-15 03:32:57.EDT: WBS-Info : storage/drmFolderBackup: /opt/drm.backup
+2023-06-15 03:32:57.EDT: WBS-Info : storage/drmPrefetchFolder: /opt/drm.prefetch
+2023-06-15 03:32:57.EDT: WBS-Info : storage/drmPrefetchFolderBackup: /opt/drm.prefetch.backup
+2023-06-15 03:32:57.EDT: WBS-Info : storage/enabled: true
+2023-06-15 03:32:57.EDT: WBS-Info : storage/skipDirsOnCleanup: /opt/drm/crypto:/opt/drm/netflix:/opt/drm/playready
+2023-06-15 03:32:57.EDT: WBS-Info : storage/storageCurrentPackageVersionFilePath: /opt/drm/currentPackageVersion.txt
+2023-06-15 03:32:57.EDT: WBS-Info : ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/utils.cpp[302]: getFKPSUrl: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.URL1 Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/utils.cpp[308]: getFKPSUrl: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.URL2 Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Info : Status info requested, communication enabled via /tmp/socprovisioning-fifo
+2023-06-15 03:32:57.EDT: WBS-Info : 
+2023-06-15 03:32:57.EDT: WBS-Info : PROVIDING STATUS REPORT
+2023-06-15 03:32:57.EDT: WBS-Info : RT Controller init with provision option 2
+2023-06-15 03:32:57.EDT: WBS-Warn : ../git/src/rtcontroller.cpp[333]: init: Runtime information won't be collected
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/rtcontroller.cpp[160]: getFKPSUrls: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.Activation Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/rtcontroller.cpp[161]: getFKPSUrls: falling back to the hardcoded activation url : https://fkpsbroker-activation-prod.cs.xcal.tv
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/rtcontroller.cpp[171]: getFKPSUrls: getParam for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.SocProvisioning.Renewal Failed :  Value is empty
+
+2023-06-15 03:32:57.EDT: WBS-Error: ../git/src/rtcontroller.cpp[172]: getFKPSUrls: falling back to the hardcoded renewal url : https://fkpsbroker-renewal-prod.cs.xcal.tv
+
+2023-06-15 03:32:57.EDT: WBS-Info : device id: 001e080110002ac6
+
+2023-06-15 03:32:57.EDT: WBS-Info : platform: SEC_API_2_ADAPTER
+
+2023-06-15 03:32:57.EDT: WBS-Info : version: 2.3.2.26
+
+2023-06-15 03:32:57.EDT: WBS-Info : app_dir: /opt/drm/
+
+2023-06-15 03:32:57.EDT: WBS-Info : global_dir: /opt/drm/
+
+2023-06-15 03:32:57.EDT: WBS-Info : Built against: OpenSSL 1.1.1l  24 Aug 2021
+
+2023-06-15 03:32:57.EDT: WBS-Info : Running against: OpenSSL 1.1.1l  24 Aug 2021
+
+2023-06-15 03:32:57.EDT: WBS-Info : specification_major: 3, specification_minor: 1, specification_revision: 1, implementation_revision: 3
+
+2023-06-15 03:32:57.EDT: WBS-Info : Built against: OpenSSL 1.1.1l  24 Aug 2021
+
+2023-06-15 03:32:57.EDT: WBS-Info : Running against: OpenSSL 1.1.1l  24 Aug 2021
+
+2023-06-15 03:32:57.EDT: WBS-Warn : ../git/src/deviceinfo.cpp[617]: getConnectivity: Using Thunder for connectivity check
+2023-06-15 03:32:58.EDT: WBS-Info : org.rdk.Network already started (not by us)
+2023-06-15 03:32:58.EDT: WBS-Info : Boot-up flag is NOT SET
+2023-06-15 03:32:58.EDT: WBS-Info : Forced  flag is NOT SET
+2023-06-15 03:32:58.EDT: WBS-Info : WiFi: SUPPORTED
+2023-06-15 03:32:58.EDT: WBS-Info : Session deadline: Thu Jun 15 03:42:57 2023
+2023-06-15 03:32:58.EDT: WBS-Info : Backoff adjusted: NO
+2023-06-15 03:32:58.EDT: WBS-Info : Backoff expiration: Wed Dec 31 19:00:01 1969
+2023-06-15 03:32:58.EDT: WBS-Info : Device connectivity status: WPE_INET_CONNECTED. Internet is available.
+2023-06-15 03:32:58.EDT: WBS-Info : Thunder security: ENABLED
+2023-06-15 03:32:58.EDT: WBS-Info : Cached partnerId: xglobal
+2023-06-15 03:32:58.EDT: WBS-Info : Actual partnerId: 
+2023-06-15 03:32:58.EDT: WBS-Warn : ../git/src/rtcontroller.cpp[398]: init: mp_rti is not set, not setting the runtime information
+2023-06-15 03:32:58.EDT: WBS-Info : ******* Health checking credentials *******
+2023-06-15 03:32:58.EDT: WBS-Info : RT-healthcheckCredentials called
+2023-06-15 03:32:58.EDT: WBS-Info : Health check returned status 1: RT_GOOD_ACTIVE_PREFETCH_CREDS. Active device and NOT NEW prefetch creds are valid
+2023-06-15 03:32:58.EDT: WBS-Info : Health check returned refreshTime(unused): 1686914173 (Fri Jun 16 07:16:13 2023)
+2023-06-15 03:32:58.EDT: WBS-Info : RT Controller returned 1 (RT_GOOD_ACTIVE_PREFETCH_CREDS. Active device and NOT NEW prefetch creds are valid)
+2023-06-15 03:32:58.EDT: WBS-Info : Status provided
+2023-06-15 03:32:58.EDT: WBS-Info : Sending runtime information (final)
+2023-06-15 03:32:58.EDT: WBS-Warn : ../git/src/socprovapp.cpp[1040]: doExit: {"healthCheckResult": 1, "final": true}
+2023-06-15 03:32:58.EDT: WBS-Info : com.comcast.DeviceProvisioning already started (not by us)
+2023-06-15 03:32:58.EDT: WBS-Warn : ../git/src/deviceinfo.cpp[353]: syncRuntimeInformation: Runtime information: {"healthCheckResult": 1, "final": true}
+2023-06-15 03:32:58.EDT: WBS-Info : Disconnecting from IARM_BUS
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD
+2023-06-15 03:32:58.EDT: WBS-Info : ==================== FINISHED ====================
+2023-06-15 03:32:58.EDT: WBS-Info : with code: 0
+Done with running /usr/bin/socprovisioning; exit code 0 after 1 attempt(s)

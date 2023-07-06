@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp logfileParser.cpp -std=c++14 -O2 -o parser
+	g++ main.cpp logfileParser.cpp logfileUtils.cpp -std=c++14 -O2 -o parser.exe

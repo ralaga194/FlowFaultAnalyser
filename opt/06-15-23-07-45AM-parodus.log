@@ -1,0 +1,337 @@
+2023 Jun 15 07:22:40.067625 "parodus"[6991]:  Thu Jun 15 07:22:40 UTC 2023 authservice returned Partner-id as "xglobal"
+2023 Jun 15 07:22:40.247294 "parodus"[6991]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:40.247460 "parodus"[6991]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:40.252765 "parodus"[6991]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   146  100    85  100    61  17000  12200 --:--:-- --:--:-- --:--:-- 29200
+2023 Jun 15 07:22:40.336220 "parodus"[6991]:    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023 Jun 15 07:22:40.336332 "parodus"[6991]:                                   Dload  Upload   Total   Spent    Left  Speed
+2023 Jun 15 07:22:40.336429 "parodus"[6991]:    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   163  100    89  100    74  12714  10571 --:--:-- --:--:-- --:--:-- 23285
+2023 Jun 15 07:22:40.379836 "parodus"[6991]:  Starting parodus with arguments  --hw-mac=A84A631E5ADE --webpa-ping-time=180 --webpa-interface-used= --webpa-url=https://fabric.xmidt.comcast.net:8080 --partner-id=*,xglobal --webpa-backoff-max=9 --ssl-cert-path=/etc/ssl/certs/ca-certificates.crt  --acquire-jwt=1 --dns-txt-url=fabric.xmidt.comcast.net --jwt-public-key-file=/etc/ssl/certs/webpa-rs256.pem --jwt-algo=RS256 --crud-config-file=/opt/parodus_cfg.json  --hw-manufacturer=Element --fw-name=ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB --hw-model=ELTE11MWR --hw-serial-number=KA211622Z5C000105 --boot-time=1686813745 --hw-last-reboot-reason="SOFTWARE_MASTER_RESET" --client-cert-path=/tmp/adzvfchig-res.mch --token-server-url=https://issuer.xmidt.comcast.net:8080/issue
+2023 Jun 15 07:22:40.500071 "parodus"[6991]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:40.500222 "parodus"[6991]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:40.500300 "parodus"[6991]:  230615-07:22:40.499794 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: RAND_MAX is 2147483647 (0x7fffffff)
+2023 Jun 15 07:22:40.502823 "parodus"[6991]:  230615-07:22:40.502622 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ********** Starting component: Parodus **********
+2023 Jun 15 07:22:40.524812 "parodus"[6991]:   230615-07:22:40.521044 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: NonRoot feature is enabled
+2023 Jun 15 07:22:40.535355 "parodus"[6991]:  230615-07:22:40.535229 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: rbusEvent_Subscribe was successful
+2023 Jun 15 07:22:40.547565 "parodus"[6991]:  230615-07:22:40.547314 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Register xmidt sendData method Device.X_RDK_Xmidt.SendData success
+2023 Jun 15 07:22:40.547734 "parodus"[6991]:  230615-07:22:40.547521 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: processXmidtData thread created Successfully
+2023 Jun 15 07:22:40.547802 "parodus"[6991]:  230615-07:22:40.547557 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Setting default values to parodusCfg
+2023 Jun 15 07:22:40.547875 "parodus"[6991]:  230615-07:22:40.547603 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS:  cfg->webpa_protocol is PARODUS-2.0-2.0.0-94-g118e8ee
+2023 Jun 15 07:22:40.547939 "parodus"[6991]:  230615-07:22:40.547630 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Default cloud_status is offline
+2023 Jun 15 07:22:40.548002 "parodus"[6991]:  230615-07:22:40.547655 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Parsing parodus command line arguments..
+2023 Jun 15 07:22:40.548087 "parodus"[6991]:  230615-07:22:40.547697 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: hw_mac is a84a631e5ade
+2023 Jun 15 07:22:40.548193 "parodus"[6991]:  230615-07:22:40.547726 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: webpa_ping_timeout is 180
+2023 Jun 15 07:22:40.548256 "parodus"[6991]:  230615-07:22:40.547750 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: webpa_interface_used is
+2023 Jun 15 07:22:40.548316 "parodus"[6991]:  230615-07:22:40.547783 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: webpa_url is https://fabric.xmidt.comcast.net:8080
+2023 Jun 15 07:22:40.548375 "parodus"[6991]:  230615-07:22:40.547808 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: partner_id is *,xglobal
+2023 Jun 15 07:22:40.548435 "parodus"[6991]:  230615-07:22:40.547835 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: webpa_backoff_max is 9
+2023 Jun 15 07:22:40.548496 "parodus"[6991]:  230615-07:22:40.547862 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: cert_path is /etc/ssl/certs/ca-certificates.crt
+2023 Jun 15 07:22:40.548556 "parodus"[6991]:  230615-07:22:40.547933 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: acquire jwt option is 1
+2023 Jun 15 07:22:40.548706 "parodus"[6991]:  230615-07:22:40.547965 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: parodus dns-txt-url is fabric.xmidt.comcast.net
+2023 Jun 15 07:22:40.551086 "parodus"[6991]:  230615-07:22:40.550945 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: 451 bytes read
+2023 Jun 15 07:22:40.551399 "parodus"[6991]:  230615-07:22:40.551249 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: jwt_key is -----BEGIN PUBLIC KEY-----
+2023 Jun 15 07:22:40.551660 "parodus"[6991]:  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkZeQUMqDkMu/dQgTcycJ
+2023 Jun 15 07:22:40.551742 "parodus"[6991]:  /rrgqfKQkoYFTMO7GnK87/OWiftHmtDJYPgktlcHheOPfkGln5ay1WJSitmtWNaH
+2023 Jun 15 07:22:40.551802 "parodus"[6991]:  +RvBFK/ZsXpIuGm7R6wdSc7e6g9fTaSAfNX/+a8VxHUo58AinXxcq4LnHbuaGjEz
+2023 Jun 15 07:22:40.551912 "parodus"[6991]:  jw77TLuZGyUuHiany8O8tc+DbnYKvRquScsccI6z/QwZKFtXUjJZ91hJ97zC8o7N
+2023 Jun 15 07:22:40.551996 "parodus"[6991]:  Ae7n/Jg+Bs0uz9c1/bf/Jqbu6OidFbCr2FN42UupuAZ8DiPp2fWD5Q9qmp1ADk+V
+2023 Jun 15 07:22:40.552057 "parodus"[6991]:  +TeZPxTCq/WB4dzSCd5v/FvFmO8tH6Ptkltij4pke7Dsi80TVRlcMDXAWxSFXOQV
+2023 Jun 15 07:22:40.552116 "parodus"[6991]:  qwIDAQAB
+2023 Jun 15 07:22:40.552176 "parodus"[6991]:  -----END PUBLIC KEY-----
+2023 Jun 15 07:22:40.552325 "parodus"[6991]:  230615-07:22:40.551372 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: jwt_algo is 1024
+2023 Jun 15 07:22:40.552416 "parodus"[6991]:  230615-07:22:40.551409 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: crud_config_file is /opt/parodus_cfg.json
+2023 Jun 15 07:22:40.552479 "parodus"[6991]:  230615-07:22:40.551434 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: hw_manufacturer is Element
+2023 Jun 15 07:22:40.552540 "parodus"[6991]:  230615-07:22:40.551457 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: fw_name is ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB
+2023 Jun 15 07:22:40.552699 "parodus"[6991]:  230615-07:22:40.551481 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: hw-model is ELTE11MWR
+2023 Jun 15 07:22:40.552780 "parodus"[6991]:  230615-07:22:40.551504 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: hw_serial_number is KA211622Z5C000105
+2023 Jun 15 07:22:40.552843 "parodus"[6991]:  230615-07:22:40.551529 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: boot_time is 1686813745
+2023 Jun 15 07:22:40.552963 "parodus"[6991]:  230615-07:22:40.551552 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: hw_last_reboot_reason is "SOFTWARE_MASTER_RESET"
+2023 Jun 15 07:22:40.553026 "parodus"[6991]:  230615-07:22:40.551578 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: client_cert_path is /tmp/adzvfchig-res.mch
+2023 Jun 15 07:22:40.553089 "parodus"[6991]:  230615-07:22:40.551601 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: token_server_url is https://issuer.xmidt.comcast.net:8080/issue
+2023 Jun 15 07:22:40.553150 "parodus"[6991]:  230615-07:22:40.551708 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Received reboot_reason as:"SOFTWARE_MASTER_RESET"
+2023 Jun 15 07:22:40.553215 "parodus"[6991]:  230615-07:22:40.551737 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Received reconnect_reason as:webpa_process_starts
+2023 Jun 15 07:22:40.553349 "parodus"[6991]:  230615-07:22:40.551771 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: User-Agent: PARODUS-2.0-2.0.0-94-g118e8ee (ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB; ELTE11MWR/Element;)
+2023 Jun 15 07:22:40.553426 "parodus"[6991]:  230615-07:22:40.551860 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: X-WebPA-Convey Header: [329]{"hw-model":"ELTE11MWR","hw-serial-number":"KA211622Z5C000105","hw-manufacturer":"Element","fw-name":"ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB","boot-time":1686813745,"webpa-protocol":"PARODUS-2.0-2.0.0-94-g118e8ee","hw-last-reboot-reason":"\"SOFTWARE_MASTER_RESET\"","webpa-last-reconnect-reason":"webpa_process_starts"}
+2023 Jun 15 07:22:40.553495 "parodus"[6991]:  230615-07:22:40.551982 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Device_id mac:a84a631e5ade
+2023 Jun 15 07:22:40.553704 "parodus"[6991]:  230615-07:22:40.552008 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: full url: https://fabric.xmidt.comcast.net:8080
+2023 Jun 15 07:22:40.553798 "parodus"[6991]:  230615-07:22:40.552034 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server address copied from url
+2023 Jun 15 07:22:40.553867 "parodus"[6991]:  230615-07:22:40.552065 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server fabric.xmidt.comcast.net, port 8080, http_match 0
+2023 Jun 15 07:22:40.553928 "parodus"[6991]:  230615-07:22:40.552088 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: default server_Address fabric.xmidt.comcast.net
+2023 Jun 15 07:22:40.554082 "parodus"[6991]:  230615-07:22:40.552110 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: default port 8080
+2023 Jun 15 07:22:40.554146 "parodus"[6991]:  230615-07:22:40.552161 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: dns_txt_record_id a84a631e5ade.fabric.xmidt.comcast.net
+2023 Jun 15 07:22:40.554208 "parodus"[6991]:  230615-07:22:40.552206 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: nsbuf (1) 0x7eea7a38
+2023 Jun 15 07:22:40.554270 "parodus"[6991]:  230615-07:22:40.552354 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: nquery: domain : a84a631e5ade.fabric.xmidt.comcast.net
+2023 Jun 15 07:22:40.554330 "parodus"[6991]:  230615-07:22:40.553249 [mod=PARODUS, lvl=INFO] [tid=7878] PARODUS: subscribeAsyncHandler event Webconfig.Upstream, error 0 - ok
+2023 Jun 15 07:22:40.566691 "parodus"[6991]:  230615-07:22:40.566147 [mod=PARODUS, lvl=INFO] [tid=7886] PARODUS: Initial cloud connection is not established, Xmidt wait till connection up
+2023 Jun 15 07:22:40.609987 "parodus"[6991]:  230615-07:22:40.607187 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: nquery: nsbuf (1) 0x7eea7a38
+2023 Jun 15 07:22:40.610074 "parodus"[6991]:  230615-07:22:40.607248 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: nsbuf (2) 0x7eea7a38
+2023 Jun 15 07:22:40.610159 "parodus"[6991]:  230615-07:22:40.607278 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ns_initparse, msglen 655, nsbuf 0x7eea7a38
+2023 Jun 15 07:22:40.610253 "parodus"[6991]:  230615-07:22:40.607321 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ns_msg_count
+2023 Jun 15 07:22:40.610323 "parodus"[6991]:  230615-07:22:40.607354 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: query_dns: ns_msg_count : 3
+2023 Jun 15 07:22:40.610387 "parodus"[6991]:  230615-07:22:40.607416 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: query_dns JWT: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDY3NDU2MDAsImlzcyI6IlNIQTI1NjpqZGNSeXNGdW5XVUFUODUyaHVRb0lNOUdONmsyczVjN2lUTVRNZ3VqUEFrIiwiZW5kcG9pbnQiOiJodHRwczovL2ZhYnJpYy54bWlkdC5jb21jYXN0Lm5ldDo4MDgwLyJ9.FAacmWz73WsTLheFodYUIf3foWzDr5YcoTow5MIcji4JsRqtDgLCNk3BHdk7u3LCFWgL5PKq62CO5CDwWnz3sKF2ev0ItKpxpWa6uQcGky5tcjEPZ4ASjtCy98ae1DvCHw5ISEfPgWn-d9MKBObUUTfOADIWiPMRuuzlTA4ixXj5vCrvopxZPhe9HiaVE-i5Ii-SQFY0uVivZfI1qf5Z5c6kx9-zGK_gRsx8897Q_yJsvE9pE2ZHWIAaqx5wU8JUfUN64V1Yq37FjJJMmiqHcCHsdS9yp7230615-07:22:40.608083 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: JWT endpoint: https://fabric.xmidt.comcast.net:8080/
+2023 Jun 15 07:22:40.610451 "parodus"[6991]:  230615-07:22:40.608166 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Exp: 1706745600 Feb  1 00:00:00 2024, Current: 1686813760 Jun 15 07:22:40 2023
+2023 Jun 15 07:22:40.610511 "parodus"[6991]:  230615-07:22:40.608198 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: full url: https://fabric.xmidt.comcast.net:8080/
+2023 Jun 15 07:22:40.610588 "parodus"[6991]:  230615-07:22:40.608228 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server address copied from url
+2023 Jun 15 07:22:40.610650 "parodus"[6991]:  230615-07:22:40.608258 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server fabric.xmidt.comcast.net, port 8080, http_match 0
+2023 Jun 15 07:22:40.610710 "parodus"[6991]:  230615-07:22:40.608286 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: JWT is_http strncmp: 0
+2023 Jun 15 07:22:40.610772 "parodus"[6991]:  230615-07:22:40.608319 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: JWT claims: {
+2023 Jun 15 07:22:40.610832 "parodus"[6991]:  	"endpoint":	"https://fabric.xmidt.comcast.net:8080/"
+2023 Jun 15 07:22:40.610893 "parodus"[6991]:  }
+2023 Jun 15 07:22:40.610955 "parodus"[6991]:  230615-07:22:40.608351 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: JWT ON: jwt_server_url stored as fabric.xmidt.comcast.net
+2023 Jun 15 07:22:40.611073 "parodus"[6991]:  230615-07:22:40.608530 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: uuid_header formed X-Midt-Uuid: f667238b-bcd7-4c0f-9c88-8340f5815d1c
+2023 Jun 15 07:22:40.611157 "parodus"[6991]:  230615-07:22:40.608563 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: partnerid_header formed X-Midt-Partner-Id: *,xglobal
+2023 Jun 15 07:22:40.611237 "parodus"[6991]:  230615-07:22:40.608665 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: curl Ip resolve option set as default mode
+2023 Jun 15 07:22:40.905765 "parodus"[6991]:  230615-07:22:40.897051 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: themis curl response 0 http_code 200
+2023 Jun 15 07:22:40.905874 "parodus"[6991]:  230615-07:22:40.897152 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: curl response Time: 0.3 seconds
+2023 Jun 15 07:22:40.905938 "parodus"[6991]:  230615-07:22:40.897220 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: cURL success
+2023 Jun 15 07:22:40.905998 "parodus"[6991]:  230615-07:22:40.898308 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: cfg->webpa_auth_token created successfully
+2023 Jun 15 07:22:40.906061 "parodus"[6991]:  230615-07:22:40.898513 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Connecting in Ipv6 mode
+2023 Jun 15 07:22:40.923188 "parodus"[6991]:  230615-07:22:40.914037 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:71e7:95b9:3fa6:7355
+2023 Jun 15 07:22:40.923277 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923341 "parodus"[6991]:  230615-07:22:40.914114 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:3f5e:bc13:c054:a160
+2023 Jun 15 07:22:40.923413 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923477 "parodus"[6991]:  230615-07:22:40.914167 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:b1c5:43b2:9927:6787
+2023 Jun 15 07:22:40.923539 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923595 "parodus"[6991]:  230615-07:22:40.914219 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:af70:527a:1e8d:647f
+2023 Jun 15 07:22:40.923660 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923728 "parodus"[6991]:  230615-07:22:40.914265 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:fac8:4ea1:1606:d8c9
+2023 Jun 15 07:22:40.923813 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923871 "parodus"[6991]:  230615-07:22:40.914309 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:73e3:773c:8174:4ecf
+2023 Jun 15 07:22:40.923932 "parodus"[6991]:   
+2023 Jun 15 07:22:40.923991 "parodus"[6991]:  230615-07:22:40.914353 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:d0b4:81c8:d207:b7b3
+2023 Jun 15 07:22:40.924053 "parodus"[6991]:   
+2023 Jun 15 07:22:40.924116 "parodus"[6991]:  230615-07:22:40.914452 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of fabric.xmidt.comcast.net is 2001:558:fd08:1d00:919a:382:126b:ed53
+2023 Jun 15 07:22:40.924177 "parodus"[6991]:   
+2023 Jun 15 07:22:40.924251 "parodus"[6991]:  230615-07:22:40.914572 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:382 Create socket with non blocking-mode
+2023 Jun 15 07:22:40.955405 "parodus"[6991]:  230615-07:22:40.945968 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:263 Result of wait after connect EINPROGRESS = 0
+2023 Jun 15 07:22:40.955597 "parodus"[6991]:   
+2023 Jun 15 07:22:40.984024 "parodus"[6991]:  230615-07:22:40.983546 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:881 Enabling certificate peer verification
+2023 Jun 15 07:22:40.984660 "parodus"[6991]:  230615-07:22:40.984390 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1069 connecting to remote TLS site fabric.xmidt.comcast.net:8080
+2023 Jun 15 07:22:41.033729 "parodus"[6991]:  230615-07:22:41.033582 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1140 Client TLS handshake finished, configuring I/O handlers
+2023 Jun 15 07:22:41.034442 "parodus"[6991]:  230615-07:22:41.033944 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1162 Hostname validation SUCCESS, done as part of client
+2023 Jun 15 07:22:41.034523 "parodus"[6991]:   
+2023 Jun 15 07:22:41.034600 "parodus"[6991]:  230615-07:22:41.033996 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1191 TLS I/O handlers configured
+2023 Jun 15 07:22:41.069564 "parodus"[6991]:  230615-07:22:41.068674 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:3214 websocket server denied connection with: 307 Temporary Redirect
+2023 Jun 15 07:22:41.069714 "parodus"[6991]:   
+2023 Jun 15 07:22:41.069838 "parodus"[6991]:  230615-07:22:41.069152 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:3060 Received uncomplete listener handshake reply ((nil) 0 1)
+2023 Jun 15 07:22:41.069946 "parodus"[6991]:  230615-07:22:41.069389 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:5376 nopoll_conn_wait_for_status_until_connection_ready() response: message: Redirect:https://talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net:8080/api/v2/device
+2023 Jun 15 07:22:41.070015 "parodus"[6991]:  230615-07:22:41.069424 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Received temporary redirection response message Redirect:https://talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net:8080/api/v2/device
+2023 Jun 15 07:22:41.070091 "parodus"[6991]:  230615-07:22:41.069452 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: full url: https://talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net:8080/api/v2/device
+2023 Jun 15 07:22:41.070184 "parodus"[6991]:  230615-07:22:41.069476 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server address copied from url
+2023 Jun 15 07:22:41.070251 "parodus"[6991]:  230615-07:22:41.069502 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: server talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net, port 8080, http_match 0
+2023 Jun 15 07:22:41.070315 "parodus"[6991]:  230615-07:22:41.069561 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_ctx.c:338 Unregistered connection id 2
+2023 Jun 15 07:22:41.073244 "parodus"[6991]:  230615-07:22:41.073072 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: cloud_status set as offline after connection close
+2023 Jun 15 07:22:41.073433 "parodus"[6991]:  230615-07:22:41.073265 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Connecting in Ipv6 mode
+2023 Jun 15 07:22:41.089663 "parodus"[6991]:  230615-07:22:41.089522 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:352 IPv6 address of talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net is 2001:558:fd08:1d00:3a1:f24c:dfa2:fad9
+2023 Jun 15 07:22:41.089823 "parodus"[6991]:   
+2023 Jun 15 07:22:41.089927 "parodus"[6991]:  230615-07:22:41.089646 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:382 Create socket with non blocking-mode
+2023 Jun 15 07:22:41.124836 "parodus"[6991]:  230615-07:22:41.121768 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:263 Result of wait after connect EINPROGRESS = 0
+2023 Jun 15 07:22:41.125180 "parodus"[6991]:   
+2023 Jun 15 07:22:41.170671 "parodus"[6991]:  230615-07:22:41.170511 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:881 Enabling certificate peer verification
+2023 Jun 15 07:22:41.170825 "parodus"[6991]:  230615-07:22:41.170632 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1069 connecting to remote TLS site talaria-prod-useast1-0z6z8y3u01j7rn16-006.xmidt.comcast.net:8080
+2023 Jun 15 07:22:41.214117 "parodus"[6991]:  230615-07:22:41.213761 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1140 Client TLS handshake finished, configuring I/O handlers
+2023 Jun 15 07:22:41.214274 "parodus"[6991]:  230615-07:22:41.214001 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1162 Hostname validation SUCCESS, done as part of client
+2023 Jun 15 07:22:41.214338 "parodus"[6991]:   
+2023 Jun 15 07:22:41.214412 "parodus"[6991]:  230615-07:22:41.214040 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:1191 TLS I/O handlers configured
+2023 Jun 15 07:22:41.272307 "parodus"[6991]:  230615-07:22:41.269658 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: ../../git/src/nopoll_conn.c:5393 *****End nopoll_conn_wait_for_status_until_connection_ready ****
+2023 Jun 15 07:22:41.272402 "parodus"[6991]:  230615-07:22:41.269716 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Connected to server over SSL
+2023 Jun 15 07:22:41.272870 "parodus"[6991]:  230615-07:22:41.269784 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: connect_time-diff-boot_time=15
+2023 Jun 15 07:22:41.273035 "parodus"[6991]:  230615-07:22:41.269864 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: cloud_status set as online after successful connection
+2023 Jun 15 07:22:41.273100 "parodus"[6991]:  230615-07:22:41.269937 [mod=PARODUS, lvl=INFO] [tid=7886] PARODUS: Received cloud status signal proceed to event processing
+2023 Jun 15 07:22:41.273164 "parodus"[6991]:  230615-07:22:41.270333 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: libseshat disabled, Hence proceeding without registration
+2023 Jun 15 07:22:41.275186 "parodus"[6991]:  230615-07:22:41.273016 [mod=PARODUS, lvl=INFO] [tid=8097] PARODUS: No clients are registered, waiting ..
+2023 Jun 15 07:22:41.291028 "parodus"[6991]:  230615-07:22:41.286679 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: nanomsg server gone into the listening mode...
+2023 Jun 15 07:22:41.384971 "parodus"[6991]:  230615-07:22:41.382846 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:22:41.385102 "parodus"[6991]:  230615-07:22:41.383029 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:
+2023 Jun 15 07:22:41.385167 "parodus"[6991]:   Nanomsg client Registration for Upstream
+2023 Jun 15 07:22:41.385233 "parodus"[6991]:  230615-07:22:41.383619 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Adding first client to list
+2023 Jun 15 07:22:41.385296 "parodus"[6991]:  230615-07:22:41.383665 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: client service config is added to list with url: tcp://127.0.0.1:6667
+2023 Jun 15 07:22:41.385359 "parodus"[6991]:  230615-07:22:41.383688 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sending auth status to reg client
+2023 Jun 15 07:22:41.385422 "parodus"[6991]:  230615-07:22:41.383719 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Client config Registered successfully. Sending Acknowledgement...
+2023 Jun 15 07:22:41.385508 "parodus"[6991]:   230615-07:22:41.383746 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending ack:new_node->sock 1 service:config
+2023 Jun 15 07:22:46.279539 "parodus"[6991]:  230615-07:22:46.278539 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS:  Received upstream event data: dest 'event:rootdoc-report/mac:a84a631e5ade/status'
+2023 Jun 15 07:22:46.279648 "parodus"[6991]:  230615-07:22:46.278652 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS: Sending response to server
+2023 Jun 15 07:22:46.279719 "parodus"[6991]:  230615-07:22:46.278838 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS: sendMessage length 685
+2023 Jun 15 07:22:46.975954 "parodus"[6991]:  230615-07:22:46.975648 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS:  Received upstream event data: dest 'event:rootdoc-report/mac:a84a631e5ade/status'
+2023 Jun 15 07:22:46.976042 "parodus"[6991]:  230615-07:22:46.975789 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS: Sending response to server
+2023 Jun 15 07:22:46.976100 "parodus"[6991]:  230615-07:22:46.975820 [mod=PARODUS, lvl=INFO] [tid=7877] PARODUS: sendMessage length 685
+2023 Jun 15 07:23:10.627956 "parodus"[6991]:  230615-07:23:10.627504 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:23:10.628085 "parodus"[6991]:  230615-07:23:10.627611 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:23:10.628199 "parodus"[6991]:  230615-07:23:10.627796 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:23:10.628265 "parodus"[6991]:  230615-07:23:10.627844 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :Carw61oVFI0IhmowUenAxQ
+2023 Jun 15 07:23:10.628347 "parodus"[6991]:  230615-07:23:10.628179 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:23:10.633028 "parodus"[6991]:  230615-07:23:10.631799 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:23:10.633105 "parodus"[6991]:  230615-07:23:10.632082 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-asa-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: Carw61oVFI0IhmowUenAxQ
+2023 Jun 15 07:23:10.633169 "parodus"[6991]:  230615-07:23:10.632129 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:23:10.633272 "parodus"[6991]:  230615-07:23:10.632163 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 784
+2023 Jun 15 07:23:12.315978 "parodus"[6991]:  230615-07:23:12.315597 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:23:12.316153 "parodus"[6991]:  230615-07:23:12.315710 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:23:12.316219 "parodus"[6991]:  230615-07:23:12.315746 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:23:12.316279 "parodus"[6991]:  230615-07:23:12.315772 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :h1-si1D7BXvdqbZq3sWw5Q
+2023 Jun 15 07:23:12.316371 "parodus"[6991]:  230615-07:23:12.316092 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:23:12.325260 "parodus"[6991]:  230615-07:23:12.324185 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:23:12.325366 "parodus"[6991]:  230615-07:23:12.324339 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-asa-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: h1-si1D7BXvdqbZq3sWw5Q
+2023 Jun 15 07:23:12.325438 "parodus"[6991]:  230615-07:23:12.324374 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:23:12.325498 "parodus"[6991]:  230615-07:23:12.324401 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 731
+15.06.2023_07:23:13 /lib/rdk/updateRebootInfoToParodus.sh: Start Execution
+15.06.2023_07:23:14 /lib/rdk/updateRebootInfoToParodus.sh: PreviousRebootInfo:Thu Jun 15 07:23:13 UTC 2023,SOFTWARE_MASTER_RESET,Hardware Register - NORMAL_BOOT,SOFTWARE_REBOOT
+15.06.2023_07:23:14 /lib/rdk/updateRebootInfoToParodus.sh: End Execution
+2023 Jun 15 07:23:14.521716 "parodus"[6991]:  230615-07:23:14.520791 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:23:14.521858 "parodus"[6991]:  230615-07:23:14.520899 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:23:14.521934 "parodus"[6991]:  230615-07:23:14.520941 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:23:14.522020 "parodus"[6991]:  230615-07:23:14.520974 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :RoTYEyWS-HMz4kbodsLIpg
+2023 Jun 15 07:23:14.522092 "parodus"[6991]:  230615-07:23:14.521302 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:23:15.357333 "parodus"[6991]:  230615-07:23:15.356950 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:23:15.357443 "parodus"[6991]:  230615-07:23:15.357044 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-asa-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: RoTYEyWS-HMz4kbodsLIpg
+2023 Jun 15 07:23:15.357509 "parodus"[6991]:  230615-07:23:15.357078 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:23:15.357560 "parodus"[6991]:  230615-07:23:15.357105 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 734
+2023 Jun 15 07:23:15.568209 "parodus"[6991]:  230615-07:23:15.567367 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:23:15.568307 "parodus"[6991]:  230615-07:23:15.567535 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:23:15.568399 "parodus"[6991]:  230615-07:23:15.567581 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:23:15.568454 "parodus"[6991]:  230615-07:23:15.567608 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :HYlBsrWL93zG2eVqKhW_8g
+2023 Jun 15 07:23:15.568506 "parodus"[6991]:  230615-07:23:15.567877 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:23:15.570797 "parodus"[6991]:  230615-07:23:15.569982 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:23:15.570885 "parodus"[6991]:  230615-07:23:15.570087 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-asa-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: HYlBsrWL93zG2eVqKhW_8g
+2023 Jun 15 07:23:15.570938 "parodus"[6991]:  230615-07:23:15.570118 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:23:15.570990 "parodus"[6991]:  230615-07:23:15.570144 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 782
+2023 Jun 15 07:23:26.759055 "parodus"[6991]:  230615-07:23:26.758480 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:24:11.758404 "parodus"[6991]:  230615-07:24:11.757921 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:24:56.757613 "parodus"[6991]:  230615-07:24:56.757062 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:25:41.758694 "parodus"[6991]:  230615-07:25:41.758215 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:26:26.758463 "parodus"[6991]:  230615-07:26:26.757994 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:26:31.580949 "parodus"[6991]:  230615-07:26:31.580208 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:26:31.581072 "parodus"[6991]:  230615-07:26:31.580304 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:26:31.581133 "parodus"[6991]:  230615-07:26:31.580335 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:26:31.581193 "parodus"[6991]:  230615-07:26:31.580360 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :xm-mx7uSlBzVronLbOCjeA
+2023 Jun 15 07:26:31.581276 "parodus"[6991]:  230615-07:26:31.580593 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:26:31.582435 "parodus"[6991]:  230615-07:26:31.582316 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:26:31.582539 "parodus"[6991]:  230615-07:26:31.582417 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-hob-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: xm-mx7uSlBzVronLbOCjeA
+2023 Jun 15 07:26:31.582623 "parodus"[6991]:  230615-07:26:31.582451 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:26:31.582684 "parodus"[6991]:  230615-07:26:31.582478 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 784
+2023 Jun 15 07:26:33.388863 "parodus"[6991]:  230615-07:26:33.388150 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:26:33.389022 "parodus"[6991]:  230615-07:26:33.388234 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:26:33.389085 "parodus"[6991]:  230615-07:26:33.388265 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:26:33.389145 "parodus"[6991]:  230615-07:26:33.388290 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :9-pko11lvHyx5n0k2ZSkxg
+2023 Jun 15 07:26:33.389206 "parodus"[6991]:  230615-07:26:33.388532 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:26:33.392002 "parodus"[6991]:  230615-07:26:33.391749 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:26:33.392072 "parodus"[6991]:  230615-07:26:33.391848 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-hob-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: 9-pko11lvHyx5n0k2ZSkxg
+2023 Jun 15 07:26:33.392132 "parodus"[6991]:  230615-07:26:33.391881 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:26:33.392191 "parodus"[6991]:  230615-07:26:33.391907 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 731
+2023 Jun 15 07:26:34.453673 "parodus"[6991]:  230615-07:26:34.452839 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:26:34.453798 "parodus"[6991]:  230615-07:26:34.452927 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:26:34.453859 "parodus"[6991]:  230615-07:26:34.452995 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:26:34.453984 "parodus"[6991]:  230615-07:26:34.453037 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :sm26Xfi1q-reTqRMZzu5yA
+2023 Jun 15 07:26:34.454064 "parodus"[6991]:  230615-07:26:34.453336 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:26:35.013104 "parodus"[6991]:  230615-07:26:35.012890 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:26:35.013178 "parodus"[6991]:  230615-07:26:35.012995 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-hob-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: sm26Xfi1q-reTqRMZzu5yA
+2023 Jun 15 07:26:35.013240 "parodus"[6991]:  230615-07:26:35.013027 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:26:35.013318 "parodus"[6991]:  230615-07:26:35.013053 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 734
+2023 Jun 15 07:26:35.374101 "parodus"[6991]:  230615-07:26:35.373795 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:26:35.374230 "parodus"[6991]:  230615-07:26:35.373872 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:26:35.374297 "parodus"[6991]:  230615-07:26:35.373940 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:26:35.374361 "parodus"[6991]:  230615-07:26:35.373990 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :vQOW6mq0kRbUn2gT6J8NfA
+2023 Jun 15 07:26:35.374495 "parodus"[6991]:  230615-07:26:35.374378 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:26:35.376037 "parodus"[6991]:  230615-07:26:35.375760 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:26:35.376113 "parodus"[6991]:  230615-07:26:35.375879 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-hob-0z9z1y1u01j271q7-003.webpa.comcast.net' transaction_uuid: vQOW6mq0kRbUn2gT6J8NfA
+2023 Jun 15 07:26:35.376176 "parodus"[6991]:  230615-07:26:35.375911 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:26:35.376261 "parodus"[6991]:  230615-07:26:35.375938 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 782
+2023 Jun 15 07:27:11.758653 "parodus"[6991]:  230615-07:27:11.758097 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:27:56.758177 "parodus"[6991]:  230615-07:27:56.757651 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:28:41.769146 "parodus"[6991]:  230615-07:28:41.768638 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:29:26.757401 "parodus"[6991]:  230615-07:29:26.757023 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:30:11.756071 "parodus"[6991]:  230615-07:30:11.755565 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:30:56.756316 "parodus"[6991]:  230615-07:30:56.755825 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:31:41.755912 "parodus"[6991]:  230615-07:31:41.755525 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:31:53.042374 "parodus"[6991]:  230615-07:31:53.041549 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:31:53.042474 "parodus"[6991]:  230615-07:31:53.041672 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:31:53.042556 "parodus"[6991]:  230615-07:31:53.041721 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:31:53.042613 "parodus"[6991]:  230615-07:31:53.041759 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :xVb2RgSKhqBLJAPLGuTwhg
+2023 Jun 15 07:31:53.042669 "parodus"[6991]:  230615-07:31:53.042102 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:31:53.051490 "parodus"[6991]:  230615-07:31:53.043610 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:31:53.051571 "parodus"[6991]:  230615-07:31:53.043757 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-001.webpa.comcast.net' transaction_uuid: xVb2RgSKhqBLJAPLGuTwhg
+2023 Jun 15 07:31:53.051631 "parodus"[6991]:  230615-07:31:53.043810 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:31:53.051694 "parodus"[6991]:  230615-07:31:53.043839 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 803
+2023 Jun 15 07:31:53.304613 "parodus"[6991]:  230615-07:31:53.304092 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:31:53.304727 "parodus"[6991]:  230615-07:31:53.304193 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:31:53.304825 "parodus"[6991]:  230615-07:31:53.304227 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:31:53.304887 "parodus"[6991]:  230615-07:31:53.304252 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :2DH2L7epoMfc3FPn2cu6-A
+2023 Jun 15 07:31:53.304992 "parodus"[6991]:  230615-07:31:53.304490 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:31:53.305562 "parodus"[6991]:  230615-07:31:53.305490 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:31:53.305650 "parodus"[6991]:  230615-07:31:53.305603 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-002.webpa.comcast.net' transaction_uuid: 2DH2L7epoMfc3FPn2cu6-A
+2023 Jun 15 07:31:53.305732 "parodus"[6991]:  230615-07:31:53.305635 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:31:53.305840 "parodus"[6991]:  230615-07:31:53.305663 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 723
+15.06.2023_07:32:00 /lib/rdk/updateRebootInfoToParodus.sh: Start Execution
+15.06.2023_07:32:00 /lib/rdk/updateRebootInfoToParodus.sh: Reboot Info already updated
+15.06.2023_07:32:00 /lib/rdk/updateRebootInfoToParodus.sh: End Execution
+2023 Jun 15 07:32:26.756758 "parodus"[6991]:  230615-07:32:26.756343 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:33:11.757702 "parodus"[6991]:  230615-07:33:11.757190 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:33:56.757345 "parodus"[6991]:  230615-07:33:56.756862 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:34:41.757690 "parodus"[6991]:  230615-07:34:41.757194 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:35:10.184732 "parodus"[6991]:  230615-07:35:10.183904 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:35:10.184849 "parodus"[6991]:  230615-07:35:10.183998 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:35:10.184907 "parodus"[6991]:  230615-07:35:10.184029 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:35:10.184980 "parodus"[6991]:  230615-07:35:10.184055 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :bn9jzVll4dO5HVI3xKaKyA
+2023 Jun 15 07:35:10.185038 "parodus"[6991]:  230615-07:35:10.184305 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:35:10.206941 "parodus"[6991]:  230615-07:35:10.206883 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:35:10.207026 "parodus"[6991]:  230615-07:35:10.206989 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-useast1-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: bn9jzVll4dO5HVI3xKaKyA
+2023 Jun 15 07:35:10.207136 "parodus"[6991]:  230615-07:35:10.207025 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:35:10.207198 "parodus"[6991]:  230615-07:35:10.207052 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 738
+2023 Jun 15 07:35:26.757056 "parodus"[6991]:  230615-07:35:26.756575 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:36:11.756590 "parodus"[6991]:  230615-07:36:11.756075 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:36:56.756399 "parodus"[6991]:  230615-07:36:56.755809 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:37:22.197553 "parodus"[6991]:  230615-07:37:22.196692 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:22.197681 "parodus"[6991]:  230615-07:37:22.196830 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:22.197742 "parodus"[6991]:  230615-07:37:22.196868 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:22.197868 "parodus"[6991]:  230615-07:37:22.196895 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :D0Snp8vBw2jzwW9V7RyD8g
+2023 Jun 15 07:37:22.197972 "parodus"[6991]:  230615-07:37:22.197179 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:22.199512 "parodus"[6991]:  230615-07:37:22.199142 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:22.199587 "parodus"[6991]:  230615-07:37:22.199243 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: D0Snp8vBw2jzwW9V7RyD8g
+2023 Jun 15 07:37:22.199647 "parodus"[6991]:  230615-07:37:22.199277 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:22.199707 "parodus"[6991]:  230615-07:37:22.199303 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 785
+2023 Jun 15 07:37:22.670883 "parodus"[6991]:  230615-07:37:22.670316 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:22.671004 "parodus"[6991]:  230615-07:37:22.670408 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:22.671068 "parodus"[6991]:  230615-07:37:22.670438 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:22.671132 "parodus"[6991]:  230615-07:37:22.670464 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :eNu4R9yww-pIpXB4dg_CKw
+2023 Jun 15 07:37:22.671222 "parodus"[6991]:  230615-07:37:22.670749 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:22.674376 "parodus"[6991]:  230615-07:37:22.674205 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:22.674448 "parodus"[6991]:  230615-07:37:22.674333 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: eNu4R9yww-pIpXB4dg_CKw
+2023 Jun 15 07:37:22.674530 "parodus"[6991]:  230615-07:37:22.674364 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:22.674592 "parodus"[6991]:  230615-07:37:22.674391 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 771
+2023 Jun 15 07:37:24.696588 "parodus"[6991]:  230615-07:37:24.695828 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:24.696708 "parodus"[6991]:  230615-07:37:24.695937 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:24.696769 "parodus"[6991]:  230615-07:37:24.695970 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:24.696829 "parodus"[6991]:  230615-07:37:24.695996 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :1eHbQQyqF-lPx_Wd45zUOA
+2023 Jun 15 07:37:24.696953 "parodus"[6991]:  230615-07:37:24.696255 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:24.700138 "parodus"[6991]:  230615-07:37:24.699653 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:24.700204 "parodus"[6991]:  230615-07:37:24.699761 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: 1eHbQQyqF-lPx_Wd45zUOA
+2023 Jun 15 07:37:24.700294 "parodus"[6991]:  230615-07:37:24.699793 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:24.700356 "parodus"[6991]:  230615-07:37:24.699819 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 732
+2023 Jun 15 07:37:25.703668 "parodus"[6991]:  230615-07:37:25.702823 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:25.703795 "parodus"[6991]:  230615-07:37:25.702935 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:25.703857 "parodus"[6991]:  230615-07:37:25.702968 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:25.703958 "parodus"[6991]:  230615-07:37:25.702994 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :8cpJ8kYdSPkTz9W64L298Q
+2023 Jun 15 07:37:25.704057 "parodus"[6991]:  230615-07:37:25.703281 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:26.252909 "parodus"[6991]:  230615-07:37:26.252753 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:26.252987 "parodus"[6991]:  230615-07:37:26.252870 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: 8cpJ8kYdSPkTz9W64L298Q
+2023 Jun 15 07:37:26.253072 "parodus"[6991]:  230615-07:37:26.252908 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:26.253155 "parodus"[6991]:  230615-07:37:26.252937 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 735
+2023 Jun 15 07:37:26.413765 "parodus"[6991]:  230615-07:37:26.413232 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:26.413946 "parodus"[6991]:  230615-07:37:26.413316 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:26.414015 "parodus"[6991]:  230615-07:37:26.413352 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:26.414077 "parodus"[6991]:  230615-07:37:26.413380 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :wvn4BcpjYr-2f5CxkhjyUw
+2023 Jun 15 07:37:26.414137 "parodus"[6991]:  230615-07:37:26.413639 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:26.415270 "parodus"[6991]:  230615-07:37:26.415171 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:26.415364 "parodus"[6991]:  230615-07:37:26.415280 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: wvn4BcpjYr-2f5CxkhjyUw
+2023 Jun 15 07:37:26.415427 "parodus"[6991]:  230615-07:37:26.415311 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:26.415536 "parodus"[6991]:  230615-07:37:26.415337 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 783
+2023 Jun 15 07:37:40.048179 "parodus"[6991]:  230615-07:37:40.047631 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received msg from server
+2023 Jun 15 07:37:40.048300 "parodus"[6991]:  230615-07:37:40.047714 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: msgType received:3
+2023 Jun 15 07:37:40.048362 "parodus"[6991]:  230615-07:37:40.047747 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: partner_id match found
+2023 Jun 15 07:37:40.048423 "parodus"[6991]:  230615-07:37:40.047774 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: Received downstream dest as :config and transaction_uuid :hfxYzPpoYjpwQZLaTYFORQ
+2023 Jun 15 07:37:40.048520 "parodus"[6991]:  230615-07:37:40.048009 [mod=PARODUS, lvl=INFO] [tid=8096] PARODUS: sent downstream message to reg_client 'tcp://127.0.0.1:6667'
+2023 Jun 15 07:37:40.051248 "parodus"[6991]:  230615-07:37:40.051090 [mod=PARODUS, lvl=INFO] [tid=8094] PARODUS: Upstream message received from nanomsg client
+2023 Jun 15 07:37:40.051321 "parodus"[6991]:  230615-07:37:40.051193 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS:  Received upstream data with MsgType: 3 dest: 'dns:tr1d1um-prod-ch2h-0z9z1y1u01j271q7-000.webpa.comcast.net' transaction_uuid: hfxYzPpoYjpwQZLaTYFORQ
+2023 Jun 15 07:37:40.051404 "parodus"[6991]:  230615-07:37:40.051224 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: Sending response to server
+2023 Jun 15 07:37:40.051536 "parodus"[6991]:  230615-07:37:40.051251 [mod=PARODUS, lvl=INFO] [tid=8095] PARODUS: sendMessage length 771
+2023 Jun 15 07:37:41.756789 "parodus"[6991]:  230615-07:37:41.756284 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:38:26.756629 "parodus"[6991]:  230615-07:38:26.756081 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9
+2023 Jun 15 07:39:11.755510 "parodus"[6991]:  230615-07:39:11.754909 [mod=PARODUS, lvl=INFO] [tid=7824] PARODUS: Ping received with payload mac:a84a631e5ade, opcode 9

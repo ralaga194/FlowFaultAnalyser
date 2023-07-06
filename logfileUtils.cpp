@@ -1,5 +1,5 @@
 #include "logfileUtils.h"
-
+using std::filesystem::directory_iterator;
 const char CDELIMITER = ' ';
 
 std::string adjustTimestampInMinutes(std::string current, std::string format, int offset)
@@ -53,4 +53,20 @@ int compareTimestamp(std::string refernceTime, std::string currentTime)
   double seconds = difftime(mktime(&time1), mktime(&time2));
   // std::cout << "time difference is : " << seconds << std::endl;
   return seconds;
+}
+
+std::vector<std::string> getListFiles(std::string path, std::string identifier)
+{
+  std::vector<std::string> fileslist = {};
+  for (const auto &file : directory_iterator(path))
+  {
+    std::string infile(file.path().filename().string());
+
+    if (infile.find(identifier) != std::string::npos)
+    {
+      std::cout << "found!" << '\n';
+      fileslist.push_back(file.path().string());
+    }
+  }
+  return fileslist;
 }

@@ -1,0 +1,101 @@
+2023 Jun 15 07:22:39.170418 webconfig[7227]:  Conf file /etc/debug.ini open success
+2023 Jun 15 07:22:39.170566 webconfig[7227]:  rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+2023 Jun 15 07:22:39.170682 webconfig[7227]:  230615-07:22:39.144032 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: ********** Starting component: webconfig **********
+2023 Jun 15 07:22:39.170744 webconfig[7227]:   230615-07:22:39.156126 [mod=RBUSCORE, lvl=INFO] [tid=7227] RBus Enabled
+2023 Jun 15 07:22:39.170807 webconfig[7227]:  230615-07:22:39.158323 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: webconfigRbusInit is success. ret is 0
+2023 Jun 15 07:22:39.170867 webconfig[7227]:  230615-07:22:39.158369 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: Registering parameters Device.X_RDK_WebConfig.RfcEnable, Device.X_RDK_WebConfig.ForceSync, Device.X_RDK_WebConfig.URL Device.X_RDK_WebConfig.SupplementaryServiceUrls.Telemetry
+2023 Jun 15 07:22:39.205574 webconfig[7227]:  230615-07:22:39.205247 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: WebUrl present in db json file
+2023 Jun 15 07:22:39.205703 webconfig[7227]:  230615-07:22:39.205337 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: Sup_url present in db json file
+2023 Jun 15 07:22:39.205786 webconfig[7227]:  230615-07:22:39.205364 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: Rfc present in db json file
+2023 Jun 15 07:22:39.205856 webconfig[7227]:  230615-07:22:39.205403 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: psm_get success ret 0 for parameter Device.X_RDK_WebConfig.RfcEnable and value true
+2023 Jun 15 07:22:39.206161 webconfig[7227]:  230615-07:22:39.205433 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: rbus reg status returned is 0
+2023 Jun 15 07:22:39.206233 webconfig[7227]:  230615-07:22:39.205460 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: Checked CR - System is ready, proceed with webconfig startup
+2023 Jun 15 07:22:39.206370 webconfig[7227]:  230615-07:22:39.205562 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: systemReadyTime is 1686813759
+2023 Jun 15 07:22:39.206448 webconfig[7227]:  230615-07:22:39.205593 [mod=WEBCONFIG, lvl=ERROR] [tid=7227] WEBCONFIG: Waiting for Webconfig.Upstream event subscription for 300s
+2023 Jun 15 07:22:40.550217 webconfig[7227]:  230615-07:22:40.549489 [mod=WEBCONFIG, lvl=INFO] [tid=7339] WEBCONFIG: eventSubHandler: action=subscribe eventName=Webconfig.Upstream
+2023 Jun 15 07:22:44.206933 webconfig[7227]:  230615-07:22:44.205831 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: WebConfig Rfc is enabled, starting initWebConfigMultipartTask.
+2023 Jun 15 07:22:44.207099 webconfig[7227]:  230615-07:22:44.206045 [mod=WEBCONFIG, lvl=INFO] [tid=7227] WEBCONFIG: WebConfigMultipartTask Thread created Successfully.
+2023 Jun 15 07:22:44.210192 webconfig[7227]:  telemetry:1:true
+2023 Jun 15 07:22:44.210292 webconfig[7227]:  230615-07:22:44.210053 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Webconfig Notification thread created Successfully
+2023 Jun 15 07:22:44.211266 webconfig[7227]:  230615-07:22:44.211134 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Producer added webcfgdb->name root, webcfg->version 0, success_doc_count 1
+2023 Jun 15 07:22:44.211359 webconfig[7227]:  230615-07:22:44.211213 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Starting initEventHandlingTask
+2023 Jun 15 07:22:44.211458 webconfig[7227]:  230615-07:22:44.211363 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Webconfig event handling thread created Successfully
+2023 Jun 15 07:22:44.211570 webconfig[7227]:  230615-07:22:44.211459 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: processWebcfgEvents thread created Successfully
+2023 Jun 15 07:22:44.211652 webconfig[7227]:  230615-07:22:44.211484 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Webconfig is ready to process requests. set webcfgReady to true
+2023 Jun 15 07:22:44.212285 webconfig[7227]:  230615-07:22:44.212185 [mod=WEBCONFIG, lvl=INFO] [tid=8860] WEBCONFIG: Registering RBUS event Element
+2023 Jun 15 07:22:44.213106 webconfig[7227]:  230615-07:22:44.212984 [mod=WEBCONFIG, lvl=INFO] [tid=8860] WEBCONFIG: registerWebcfgEvent success
+2023 Jun 15 07:22:44.213674 webconfig[7227]:  230615-07:22:44.213494 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: getSerialNumber
+2023 Jun 15 07:22:44.229757 webconfig[7227]:  230615-07:22:44.229589 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Failed to read token from /etc/parodus/parodus_read_file.sh. Proceeding to create new token.
+230615-07:22:44.431060 WEBCONFIG: generated uuid is cd8c29a0-be1f-4809-9c0c-46f702067ec9
+230615-07:22:44.447503 WEBCONFIG: MAC is a84a631e5ade
+230615-07:22:44.480110 WEBCONFIG: SER_NUM is KA211622Z5C000105
+230615-07:22:44.495248 WEBCONFIG: Transaction-Id is cd8c29a0-be1f-4809-9c0c-46f702067ec9
+230615-07:22:44.527710 WEBCONFIG: X-Midt-Partner-Id header is *,xglobal
+230615-07:22:44.542795 WEBCONFIG: Server Url is https://issuer.xmidt.comcast.net:8080/issue
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   822  100   822    0     0   2749      0 --:--:-- --:--:-- --:--:--  2749
+230615-07:22:45.912767 WEBCONFIG: ret = 0 http_code: 200
+230615-07:22:45.933025 WEBCONFIG: cURL success.
+230615-07:22:45.966932 WEBCONFIG: cURL success
+230615-07:22:45.983361 WEBCONFIG: File generated successfully
+230615-07:22:46.002285 WEBCONFIG: After update
+2023 Jun 15 07:22:46.079015 webconfig[7227]:  230615-07:22:46.078108 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: reboot reason is SOFTWARE_MASTER_RESET
+2023 Jun 15 07:22:46.079170 webconfig[7227]:  230615-07:22:46.078236 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: versionsList is 0
+2023 Jun 15 07:22:46.079232 webconfig[7227]:  230615-07:22:46.078263 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: version_header formed IF-NONE-MATCH:0
+2023 Jun 15 07:22:46.079292 webconfig[7227]:  230615-07:22:46.078285 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: docList fetched root
+2023 Jun 15 07:22:46.079350 webconfig[7227]:  230615-07:22:46.078309 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: schema_header formed Schema-Version: v1.0
+2023 Jun 15 07:22:46.079410 webconfig[7227]:  230615-07:22:46.078330 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: supportedVersion fetched is NULL
+2023 Jun 15 07:22:46.079484 webconfig[7227]:  230615-07:22:46.078353 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: supportedDocs_header formed X-System-Supported-Docs: 16777217
+2023 Jun 15 07:22:46.089766 webconfig[7227]:  230615-07:22:46.089154 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: bootTime_header formed X-System-Boot-Time: 1686813745
+2023 Jun 15 07:22:46.097692 webconfig[7227]:  230615-07:22:46.092895 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: FwVersion_header formed X-System-Firmware-Version: ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB
+2023 Jun 15 07:22:46.097774 webconfig[7227]:  230615-07:22:46.092949 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: status_header formed X-System-Status: Operational
+2023 Jun 15 07:22:46.097867 webconfig[7227]:  230615-07:22:46.092974 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: currentTime_header formed X-System-Current-Time: 1686813766
+2023 Jun 15 07:22:46.097927 webconfig[7227]:  230615-07:22:46.092999 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: systemReadyTime_header formed X-System-Ready-Time: 1686813759
+2023 Jun 15 07:22:46.097986 webconfig[7227]:  230615-07:22:46.093132 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: uuid_header formed Transaction-ID: 57dc8635-21f4-416f-a72e-cbbc8cf8758f
+2023 Jun 15 07:22:46.098766 webconfig[7227]:  230615-07:22:46.097725 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: productClass_header formed X-System-Product-Class: TE
+2023 Jun 15 07:22:46.108077 webconfig[7227]:  230615-07:22:46.107935 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: ModelName_header formed X-System-Model-Name: ELTE11MWR
+2023 Jun 15 07:22:46.108197 webconfig[7227]:  230615-07:22:46.108008 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: The get_global_supplementarySync() is 0
+2023 Jun 15 07:22:46.109576 webconfig[7227]:  230615-07:22:46.109339 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Webconfig root ConfigURL is https://cpe-config.xdp.comcast.net/api/v1/device/a84a631e5ade/config?group_id=root
+2023 Jun 15 07:22:46.109692 webconfig[7227]:  230615-07:22:46.109494 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: curl Ip resolve option set as default mode
+2023 Jun 15 07:22:46.271735 webconfig[7227]:  230615-07:22:46.271590 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: webConfig curl response 0 http_code 404
+2023 Jun 15 07:22:46.271854 webconfig[7227]:  230615-07:22:46.271673 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: curl response Time: 0.2 seconds
+2023 Jun 15 07:22:46.277593 webconfig[7227]:  230615-07:22:46.276073 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Action not supported. response_code:404
+2023 Jun 15 07:22:46.277730 webconfig[7227]:  230615-07:22:46.276171 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: reboot reason is SOFTWARE_MASTER_RESET
+2023 Jun 15 07:22:46.278234 webconfig[7227]:  230615-07:22:46.276253 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: versionsList is 0
+2023 Jun 15 07:22:46.278329 webconfig[7227]:  230615-07:22:46.276322 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Supplementary sync for telemetry
+2023 Jun 15 07:22:46.278394 webconfig[7227]:  230615-07:22:46.276691 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: dest is event:rootdoc-report/mac:a84a631e5ade/status
+2023 Jun 15 07:22:46.278460 webconfig[7227]:  230615-07:22:46.276740 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: stringifiedNotifyPayload is {"device_id":"mac:a84a631e5ade","http_status_code":404,"transaction_uuid":"57dc8635-21f4-416f-a72e-cbbc8cf8758f","version":"0"}
+2023 Jun 15 07:22:46.278551 webconfig[7227]:  230615-07:22:46.277014 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: Notification successfully sent to Webconfig.Upstream
+2023 Jun 15 07:22:46.332322 webconfig[7227]:  230615-07:22:46.332108 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: update webpa_auth_token in success case
+2023 Jun 15 07:22:46.332477 webconfig[7227]:  230615-07:22:46.332246 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: schema_header formed Schema-Version: v1.0
+2023 Jun 15 07:22:46.332738 webconfig[7227]:  230615-07:22:46.332281 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: supportedVersion fetched is NULL
+2023 Jun 15 07:22:46.332814 webconfig[7227]:  230615-07:22:46.332303 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: supportedDocs_header formed X-System-Supported-Docs: 16777217
+2023 Jun 15 07:22:46.332876 webconfig[7227]:  230615-07:22:46.332327 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: supplementaryDocs_header formed X-System-SupplementaryService-Sync: telemetry
+2023 Jun 15 07:22:46.332936 webconfig[7227]:  230615-07:22:46.332350 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: bootTime_header formed X-System-Boot-Time: 1686813745
+2023 Jun 15 07:22:46.332998 webconfig[7227]:  230615-07:22:46.332375 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: FwVersion_header formed X-System-Firmware-Version: ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB
+2023 Jun 15 07:22:46.333063 webconfig[7227]:  230615-07:22:46.332405 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: status_header formed X-System-Status: Operational
+2023 Jun 15 07:22:46.333129 webconfig[7227]:  230615-07:22:46.332431 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: currentTime_header formed X-System-Current-Time: 1686813766
+2023 Jun 15 07:22:46.333215 webconfig[7227]:  230615-07:22:46.332458 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: systemReadyTime_header formed X-System-Ready-Time: 1686813759
+2023 Jun 15 07:22:46.333285 webconfig[7227]:  230615-07:22:46.332530 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: uuid_header formed Transaction-ID: 98fa46d2-825e-4820-967a-480fbda4a371
+2023 Jun 15 07:22:46.333352 webconfig[7227]:  230615-07:22:46.332560 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: productClass_header formed X-System-Product-Class: TE
+2023 Jun 15 07:22:46.333456 webconfig[7227]:  230615-07:22:46.332716 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: ModelName_header formed X-System-Model-Name: ELTE11MWR
+2023 Jun 15 07:22:46.333525 webconfig[7227]:  230615-07:22:46.332745 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: telemetryVersion_header formed X-System-Telemetry-Profile-Version: 2.0
+2023 Jun 15 07:22:46.430431 webconfig[7227]:  230615-07:22:46.430189 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: PartnerID_header formed X-System-PartnerID: xglobal
+2023 Jun 15 07:22:46.432302 webconfig[7227]:  230615-07:22:46.432183 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: AccountID_header formed X-System-AccountID: 3120539011156101601
+2023 Jun 15 07:22:46.432453 webconfig[7227]:  230615-07:22:46.432262 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: DeviceWanMac_header formed X-System-Wan-Mac: a84a631e5ade
+2023 Jun 15 07:22:46.432542 webconfig[7227]:  230615-07:22:46.432290 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: The get_global_supplementarySync() is 1
+2023 Jun 15 07:22:46.433782 webconfig[7227]:  230615-07:22:46.433195 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Webconfig root ConfigURL is https://cpe-profile.xdp.comcast.net/api/v1/device/a84a631e5ade/config
+2023 Jun 15 07:22:46.433908 webconfig[7227]:  230615-07:22:46.433270 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: curl Ip resolve option set as default mode
+2023 Jun 15 07:22:46.975005 webconfig[7227]:  230615-07:22:46.970399 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: webConfig curl response 0 http_code 404
+2023 Jun 15 07:22:46.975132 webconfig[7227]:  230615-07:22:46.970496 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: curl response Time: 0.5 seconds
+2023 Jun 15 07:22:46.975195 webconfig[7227]:  230615-07:22:46.974548 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: Action not supported. response_code:404
+2023 Jun 15 07:22:46.975256 webconfig[7227]:  230615-07:22:46.974655 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: reboot reason is SOFTWARE_MASTER_RESET
+2023 Jun 15 07:22:46.975317 webconfig[7227]:  230615-07:22:46.974765 [mod=WEBCONFIG, lvl=INFO] [tid=8858] WEBCONFIG: versionsList is 0
+2023 Jun 15 07:22:46.975423 webconfig[7227]:  230615-07:22:46.974963 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: dest is event:rootdoc-report/mac:a84a631e5ade/status
+2023 Jun 15 07:22:46.975490 webconfig[7227]:  230615-07:22:46.975009 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: stringifiedNotifyPayload is {"device_id":"mac:a84a631e5ade","http_status_code":404,"transaction_uuid":"98fa46d2-825e-4820-967a-480fbda4a371","version":"0"}
+2023 Jun 15 07:22:46.975591 webconfig[7227]:  230615-07:22:46.975267 [mod=WEBCONFIG, lvl=INFO] [tid=8859] WEBCONFIG: Notification successfully sent to Webconfig.Upstream
+2023 Jun 15 07:22:59.101255 webconfig[7227]:  230615-07:22:59.096754 [mod=WEBCONFIG, lvl=INFO] [tid=7339] WEBCONFIG: Received msg telemetry,0,0,COMP_INIT from topic webconfigSignal
+2023 Jun 15 07:22:59.101374 webconfig[7227]:  230615-07:22:59.096797 [mod=WEBCONFIG, lvl=INFO] [tid=7339] WEBCONFIG: Received webconfig event signal Info telemetry,0,0,COMP_INIT
+2023 Jun 15 07:22:59.101436 webconfig[7227]:  230615-07:22:59.097049 [mod=WEBCONFIG, lvl=INFO] [tid=8861] WEBCONFIG: COMP_INIT EVENT: telemetry,0,0
+2023 Jun 15 07:22:59.101536 webconfig[7227]:  230615-07:22:59.097085 [mod=WEBCONFIG, lvl=INFO] [tid=8861] WEBCONFIG: Component initialized, check and re-send blob.

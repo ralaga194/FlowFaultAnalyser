@@ -1,0 +1,67 @@
+2023 Jun 15 07:22:39.455159 sh[7192]:  Partner ID: Xglobal
+2023 Jun 15 07:22:39.455358 sh[7192]:  Model Name: ELTE11MWR
+2023 Jun 15 07:22:39.652423 sh[7192]:  curl getExperience response:
+2023 Jun 15 07:22:39.678712 sh[7192]:  BusyBox v1.31.1 (2023-06-14 23:54:12 UTC) multi-call binary.
+2023 Jun 15 07:22:39.678833 sh[7192]:  Usage: grep [-HhnlLoqvsriwFE] [-m N] [-A/B/C N] PATTERN/-e PATTERN.../-f FILE [FILE]...
+2023 Jun 15 07:22:42.956855 sh[7192]:  curl getExperience response: {"jsonrpc":"2.0","id":3,"error":{"code":2,"message":"Service is not active"}}
+2023 Jun 15 07:22:46.313117 sh[7192]:  curl getExperience response: {"jsonrpc":"2.0","id":3,"result":{"experience":"FlexV2","success":true}}
+2023 Jun 15 07:22:46.502008 sh[7192]:  expValue : FlexV2
+2023 Jun 15 07:22:46.502118 sh[7192]:  Manufacturer: Element
+2023 Jun 15 07:22:46.505609 sh[7192]:  Friendly Name: Element_ELTE11MWR
+2023 Jun 15 07:22:46.520471 sh[7192]:  /lib/rdk/getPartnerId.sh: line 36: /tmp/gpid.txt: No such file or directory
+2023 Jun 15 07:22:46.596550 sh[7192]:  UUID: 6859a0d1-4309-4bb2-b08e-7cf631a2c989
+2023 Jun 15 07:22:46.643821 sh[7192]:  youtube:spotify:netflix
+2023 Jun 15 07:22:46.882966 sh[7192]:  rfc enabled :starting gdial-server
+2023 Jun 15 07:22:46.966210 sh[7192]:  new file name: /tmp/XDIAL_ipv4_eth0_0_10.0.0.19
+2023 Jun 15 07:22:46.997776 sh[7192]:  gdial-server args: -I eth0:0 -F Element_ELTE11MWR -R Element -M ELTE11MWR -U 6859a0d1-4309-4bb2-b08e-7cf631a2c989 -A youtube:spotify:netflix  --feature-friendlyname   --feature-wolwake
+2023 Jun 15 07:22:47.085955 sh[7192]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = xdialserver
+2023 Jun 15 07:22:47.086091 sh[7192]:  setting init done
+2023 Jun 15 07:22:47.086162 sh[7192]:  Registering xdialserver
+2023 Jun 15 07:22:47.086265 sh[7192]:  gdial_plat_dev_initialize m_powerstate :1
+2023 Jun 15 07:22:47.086340 sh[7192]:  RTDIAL: rtdial_init
+2023 Jun 15 07:22:47.086404 sh[7192]:  rtDialCastRemoteObject() const com.comcast.xdialcast
+2023 Jun 15 07:22:47.086465 sh[7192]:  Persistent uuid_str: 7ca4458e-6a81-48dd-bb48-d74f3e2102f3gdial_local_rest_http_server_callback add handler
+2023 Jun 15 07:22:47.086528 sh[7192]:  app_list to be enabled from command line youtube:spotify:netflix
+2023 Jun 15 07:22:47.086669 sh[7192]:  netflix is enabled from cmdline
+2023 Jun 15 07:22:47.086732 sh[7192]:  youtube is enabled from cmdline
+2023 Jun 15 07:22:47.086809 sh[7192]:  youtubetv is not enabled from cmdline
+2023 Jun 15 07:22:47.086869 sh[7192]:  youtubekids is not enabled from cmdline
+2023 Jun 15 07:22:47.086928 sh[7192]:  AmazonInstantVideo is not enabled from cmdline
+2023 Jun 15 07:22:47.086988 sh[7192]:  spotify is enabled from cmdline
+2023 Jun 15 07:22:47.087047 sh[7192]:  pairing is not enabled from cmdline
+2023 Jun 15 07:22:47.087105 sh[7192]:  appletv is not enabled from cmdline
+2023 Jun 15 07:22:47.087164 sh[7192]:  system is not enabled from cmdline
+2023 Jun 15 07:22:47.095060 sh[7192]:  gdial_plat_dev_get_nwstandby_mode  nwstandby_mode:0
+2023 Jun 15 07:22:47.095220 sh[7192]:  gdial_ssdp_new nwstandby_mode:0
+2023 Jun 15 07:22:47.095799 sh[7192]:  WOL Wake feature is disabledListening on http://127.0.0.1:56889/
+2023 Jun 15 07:22:47.100086 sh[7192]:  Listening on http://10.0.0.19:56889/
+2023 Jun 15 07:22:47.100242 sh[7192]:  Listening on http://10.0.0.19:56890/
+2023 Jun 15 07:22:51.612214 sh[7192]:  gdial_ssdp_networkstandbymode_handler remove WAKEUP header
+2023 Jun 15 07:23:20.411797 sh[7192]:   gdial_plat_dev_nwstandby_mode_change  new nwstandby_mode :0
+2023 Jun 15 07:23:20.411932 sh[7192]:   gdial_plat_dev_power_mode_change new power state: 2 m_sleeptime:1
+2023 Jun 15 07:23:20.412033 sh[7192]:   RTDIAL: rtDialCastRemoteObject::activationChanged status: true friendlyname: Element Xumo TV - Living room
+2023 Jun 15 07:23:20.412092 sh[7192]:  server_activation_handler status :1
+2023 Jun 15 07:23:20.412148 sh[7192]:  gdial_ssdp_set_available activation_status :1
+2023 Jun 15 07:23:20.412203 sh[7192]:   gdial_ssdp_set_friendlyname app_friendly_name :Element Xumo TV - Living room
+2023 Jun 15 07:23:20.412318 sh[7192]:   gdial_rest_server_set_property add handler
+2023 Jun 15 07:32:17.362013 sh[7192]:  RTDIAL: rtDialCastRemoteObject:: status: true  g_activation_cb :2103668725
+2023 Jun 15 07:32:17.362172 sh[7192]:  rt: WARN rtRemoteStreamSelector.cpp:177 -- Thread-9416: error dispatching message. Transport endpoint is not connected
+2023 Jun 15 07:32:17.362247 sh[7192]:  RTDIAL: rtDialCastRemoteObject::activationChanged status: false friendlyname: Living Room
+2023 Jun 15 07:32:17.362306 sh[7192]:  server_activation_handler status :0
+2023 Jun 15 07:32:17.362364 sh[7192]:  gdial_ssdp_set_available activation_status :0
+2023 Jun 15 07:32:17.362433 sh[7192]:   gdial_ssdp_set_friendlyname app_friendly_name :Living Room
+2023 Jun 15 07:32:17.362507 sh[7192]:   gdial_rest_server_set_property remove handler
+2023 Jun 15 07:32:45.736215 sh[7192]:  RTDIAL: rtDialCastRemoteObject:: status: false  g_activation_cb :2103668725
+2023 Jun 15 07:32:45.736354 sh[7192]:  gdial_ssdp_networkstandbymode_handler remove WAKEUP header
+2023 Jun 15 07:32:55.499193 sh[7192]:   gdial_plat_dev_nwstandby_mode_change  new nwstandby_mode :0
+2023 Jun 15 07:32:55.499342 sh[7192]:   RTDIAL: rtDialCastRemoteObject::activationChanged status: false friendlyname: Element Xumo TV - Living room
+2023 Jun 15 07:32:55.499406 sh[7192]:  server_activation_handler status :0
+2023 Jun 15 07:32:55.499564 sh[7192]:  gdial_ssdp_set_available activation_status :0
+2023 Jun 15 07:32:55.499627 sh[7192]:   gdial_ssdp_set_friendlyname app_friendly_name :Element Xumo TV - Living room
+2023 Jun 15 07:32:55.499703 sh[7192]:   gdial_rest_server_set_property remove handler
+2023 Jun 15 07:32:55.741173 sh[7192]:  RTDIAL: rtDialCastRemoteObject:: status: false  g_activation_cb :2103668725
+2023 Jun 15 07:32:55.741298 sh[7192]:  RTDIAL: rtDialCastRemoteObject::activationChanged status: true friendlyname: Element Xumo TV - Living room
+2023 Jun 15 07:32:55.741365 sh[7192]:  server_activation_handler status :1
+2023 Jun 15 07:32:55.741428 sh[7192]:  gdial_ssdp_set_available activation_status :1
+2023 Jun 15 07:32:55.741692 sh[7192]:   gdial_ssdp_set_friendlyname app_friendly_name :Element Xumo TV - Living room
+2023 Jun 15 07:32:55.741872 sh[7192]:   gdial_rest_server_set_property add handler

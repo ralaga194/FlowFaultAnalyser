@@ -1,0 +1,481 @@
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+15.06.2023_07:22:32: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+** Message: 07:22:32.757: IARM_event_sender  Entering 4986
+
+** Message: 07:22:32.758: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+** Message: 07:22:32.764: IARM_event_sender  Entering 4987
+
+** Message: 07:22:32.765: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+** Message: 07:22:32.775: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+** Message: 07:22:32.775: IARM Event 44  retCode:0
+** Message: 07:22:32.792: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:32.798: IARM_event_sender  Entering 4992
+
+** Message: 07:22:32.799: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+** Message: 07:22:32.808: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+** Message: 07:22:32.808: IARM Event 44  retCode:0
+** Message: 07:22:32.817: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+** Message: 07:22:32.817: IARM Event 44  retCode:0
+** Message: 07:22:32.825: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+** Message: 07:22:33.063: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+** Message: 07:22:33.128: IARM_event_sender  Entering 5143
+
+** Message: 07:22:33.129: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+** Message: 07:22:33.161: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+** Message: 07:22:33.161: IARM Event 44  retCode:0
+** Message: 07:22:33.253: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 1d6b ; ProductId = 1d6b/3/409 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 1d6b ; ProductId = 1d6b/2/409 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1
+** Message: 07:22:33.590: IARM_event_sender  Entering 5297
+
+** Message: 07:22:33.590: >>>>> Send USBDetected Event add:1d6b:1d6b/3/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2
+** Message: 07:22:33.626: IARM_event_sender  Entering 5307
+
+** Message: 07:22:33.627: >>>>> Send USBDetected Event add:1d6b:1d6b/2/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1
+** Message: 07:22:33.640: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:1d6b:1d6b/3/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2
+** Message: 07:22:33.641: IARM Event 44  retCode:0
+** Message: 07:22:33.645: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:33.658: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:1d6b:1d6b/2/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1
+** Message: 07:22:33.662: IARM Event 44  retCode:0
+** Message: 07:22:33.674: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = 1d6b/3/409 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-0:1.0
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 0e8d ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+15.06.2023_07:22:33: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = 1d6b/2/409 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-0:1.0
+** Message: 07:22:34.017: IARM_event_sender  Entering 5473
+
+** Message: 07:22:34.017: >>>>> Send USBDetected Event add:0e8d:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 067b ; ProductId = 67b/2303/400 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+** Message: 07:22:34.028: IARM_event_sender  Entering 5471
+
+** Message: 07:22:34.029: >>>>> Send USBDetected Event add:unknown:1d6b/3/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-0:1.0
+** Message: 07:22:34.051: IARM_event_sender  Entering 5485
+
+** Message: 07:22:34.051: >>>>> Send USBDetected Event add:unknown:1d6b/2/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-0:1.0
+** Message: 07:22:34.052: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:1d6b/3/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-0:1.0
+** Message: 07:22:34.052: IARM Event 44  retCode:0
+** Message: 07:22:34.068: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:34.085: IARM_event_sender  Entering 5498
+
+** Message: 07:22:34.086: >>>>> Send USBDetected Event add:067b:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+** Message: 07:22:34.114: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:0e8d:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+** Message: 07:22:34.115: IARM Event 44  retCode:0
+** Message: 07:22:34.152: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:34.173: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:1d6b/2/409:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-0:1.0
+** Message: 07:22:34.173: IARM Event 44  retCode:0
+** Message: 07:22:34.187: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:067b:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+** Message: 07:22:34.187: IARM Event 44  retCode:0
+** Message: 07:22:34.193: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0
+** Message: 07:22:34.503: IARM_event_sender  Entering 5705
+
+** Message: 07:22:34.503: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+** Message: 07:22:34.511: IARM_event_sender  Entering 5714
+
+** Message: 07:22:34.511: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+** Message: 07:22:34.527: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:34.543: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.2
+** Message: 07:22:34.543: IARM Event 44  retCode:0
+** Message: 07:22:34.543: IARM_event_sender  Entering 5721
+
+** Message: 07:22:34.543: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0
+** Message: 07:22:34.548: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.3
+** Message: 07:22:34.549: IARM Event 44  retCode:0
+** Message: 07:22:34.555: IARM_event_sender  Entering 5727
+
+** Message: 07:22:34.556: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+** Message: 07:22:34.557: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:34.579: IARM_event_sender  Entering 5726
+
+** Message: 07:22:34.579: >>>>> Send USBDetected Event add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+** Message: 07:22:34.594: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:34.606: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0
+** Message: 07:22:34.606: IARM Event 44  retCode:0
+** Message: 07:22:34.617: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:34.623: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.1
+** Message: 07:22:34.623: IARM Event 44  retCode:0
+** Message: 07:22:34.624: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0
+** Message: 07:22:34.625: IARM Event 44  retCode:0
+** Message: 07:22:34.634: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = 67b/2303/400 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:22:34.852: IARM_event_sender  Entering 5824
+
+** Message: 07:22:34.852: >>>>> Send USBDetected Event add:unknown:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:22:34.878: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+** Message: 07:22:34.884: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:22:34.884: IARM Event 44  retCode:0
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+** Message: 07:22:34.897: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-2
+15.06.2023_07:22:34: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-3
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-0
+** Message: 07:22:35.037: IARM_event_sender  Entering 5934
+
+** Message: 07:22:35.037: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-2
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-1
+** Message: 07:22:35.044: IARM_event_sender  Entering 5953
+
+** Message: 07:22:35.062: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-3
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-2
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-3
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-0
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-1
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: PARAMETERS = add
+** Message: 07:22:35.086: IARM_event_sender  Entering 5967
+
+** Message: 07:22:35.086: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-1
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: PARAMETERS = add
+** Message: 07:22:35.098: IARM_event_sender  Entering 5963
+
+** Message: 07:22:35.098: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-0
+** Message: 07:22:35.124: IARM_event_sender  Entering 5982
+
+** Message: 07:22:35.124: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-3
+** Message: 07:22:35.130: IARM_event_sender  Entering 5985
+
+** Message: 07:22:35.130: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-1
+** Message: 07:22:35.131: IARM_event_sender  Entering 5976
+
+** Message: 07:22:35.131: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-2
+** Message: 07:22:35.141: IARM_event_sender  Entering 5983
+
+** Message: 07:22:35.141: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-0
+** Message: 07:22:35.150: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-2
+** Message: 07:22:35.150: IARM Event 44  retCode:0
+** Message: 07:22:35.151: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-3
+** Message: 07:22:35.151: IARM Event 44  retCode:0
+** Message: 07:22:35.172: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:22:35.213: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:35.255: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-0
+** Message: 07:22:35.255: IARM Event 44  retCode:0
+** Message: 07:22:35.256: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/tx-1
+** Message: 07:22:35.256: IARM Event 44  retCode:0
+** Message: 07:22:35.264: IARM_event_sender  Entering 6034
+
+** Message: 07:22:35.265: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0
+** Message: 07:22:35.268: IARM_event_sender  Entering 6041
+
+** Message: 07:22:35.276: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:22:35.297: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-3
+** Message: 07:22:35.298: IARM Event 44  retCode:0
+** Message: 07:22:35.298: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-1
+** Message: 07:22:35.299: IARM Event 44  retCode:0
+** Message: 07:22:35.305: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:35.307: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:35.324: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-0
+** Message: 07:22:35.324: IARM Event 44  retCode:0
+** Message: 07:22:35.325: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/net/wlan0/queues/rx-2
+** Message: 07:22:35.325: IARM Event 44  retCode:0
+** Message: 07:22:35.335: IARM_event_sender closing 
+
+** Message: 07:22:35.335: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:35.355: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+UnRegister failed to invoke UnRegisterMember method
+term start init 1
+** Message: 07:22:35.362: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0
+** Message: 07:22:35.363: IARM Event 44  retCode:0
+** Message: 07:22:35.374: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:35.395: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:22:35.395: IARM Event 44  retCode:0
+** Message: 07:22:35.400: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:35.449: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0/rfkill2
+** Message: 07:22:35.688: IARM_event_sender  Entering 6210
+
+15.06.2023_07:22:35: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 067b ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:22:35.688: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0/rfkill2
+** Message: 07:22:35.734: IARM_event_sender  Entering 6230
+
+** Message: 07:22:35.734: >>>>> Send USBDetected Event add:067b:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:22:35.771: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3/1-3:1.0/bluetooth/hci0/rfkill2
+** Message: 07:22:35.772: IARM Event 44  retCode:0
+** Message: 07:22:35.785: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+** Message: 07:22:35.821: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:067b:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:22:35.821: IARM Event 44  retCode:0
+** Message: 07:22:35.835: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+setting init done
+Registering usbdetected
+term start init 1
+15.06.2023_07:39:24: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:39:24: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 067b ; ProductId = 67b/2303/400 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 0e8d ; ProductId = e8d/7961/100 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+** Message: 07:39:25.087: IARM_event_sender  Entering 3271
+
+** Message: 07:39:25.087: IARM_event_sender  Entering 3280
+
+** Message: 07:39:25.088: >>>>> Send USBDetected Event add:067b:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+** Message: 07:39:25.088: >>>>> Send USBDetected Event add:0e8d:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+** Message: 07:39:25.089: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:0e8d:e8d/7961/100:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-3
+** Message: 07:39:25.089: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:067b:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2
+** Message: 07:39:25.089: IARM Event 44  retCode:2
+** Message: 07:39:25.089: IARM Event 44  retCode:2
+** Message: 07:39:25.089: IARM_event_sender closing 
+
+** Message: 07:39:25.089: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+an error occurred: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+IARM_Init Error Cannot connect to the Dbus (first instance)
+IARM_Bus_Init init failed
+IARM_ASSERT Failed at [IARM_Bus_Connect @ 212]
+IARM_Bus_Connect invalid state
+IARM_ASSERT Failed at [IARM_Bus_BroadcastEvent @ 282]
+IARM_Bus_BroadcastEvent invalid state
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+an error occurred: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+IARM_Init Error Cannot connect to the Dbus (first instance)
+IARM_Bus_Init init failed
+IARM_ASSERT Failed at [IARM_Bus_Connect @ 212]
+IARM_Bus_Connect invalid state
+IARM_ASSERT Failed at [IARM_Bus_BroadcastEvent @ 282]
+IARM_Bus_BroadcastEvent invalid state
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = 67b/2303/400 ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:39:25.314: IARM_event_sender  Entering 3328
+
+** Message: 07:39:25.314: >>>>> Send USBDetected Event add:unknown:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:39:25.315: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:67b/2303/400:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0
+** Message: 07:39:25.315: IARM Event 44  retCode:2
+** Message: 07:39:25.315: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+an error occurred: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+IARM_Init Error Cannot connect to the Dbus (first instance)
+IARM_Bus_Init init failed
+IARM_ASSERT Failed at [IARM_Bus_Connect @ 212]
+IARM_Bus_Connect invalid state
+IARM_ASSERT Failed at [IARM_Bus_BroadcastEvent @ 282]
+IARM_Bus_BroadcastEvent invalid state
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = unknown ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:39:25.601: IARM_event_sender  Entering 4015
+
+** Message: 07:39:25.601: >>>>> Send USBDetected Event add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:39:25.602: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:unknown:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0
+** Message: 07:39:25.602: IARM Event 44  retCode:2
+** Message: 07:39:25.602: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+an error occurred: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+IARM_Init Error Cannot connect to the Dbus (first instance)
+IARM_Bus_Init init failed
+IARM_ASSERT Failed at [IARM_Bus_Connect @ 212]
+IARM_Bus_Connect invalid state
+IARM_ASSERT Failed at [IARM_Bus_BroadcastEvent @ 282]
+IARM_Bus_BroadcastEvent invalid state
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: PARAMETERS = add
+15.06.2023_07:39:25: /lib/rdk/usbpublish.sh: ENVIRONMENT: Vendorid = 067b ; ProductId = unknown ; USBDEVPATH= /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:39:25.868: IARM_event_sender  Entering 4136
+
+** Message: 07:39:25.869: >>>>> Send USBDetected Event add:067b:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:39:25.869: >>>>> Generate IARM_BUS_NAME EVENT current Event Name =usbdetected,eventpayload=add:067b:unknown:/devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-2/1-2:1.0/ttyUSB0/tty/ttyUSB0
+** Message: 07:39:25.869: IARM Event 44  retCode:2
+** Message: 07:39:25.870: IARM_event_sender closing 
+
+IARM_Init group name = com.comcast.rdk.iarm.bus member name = usbdetected
+an error occurred: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+IARM_Init Error Cannot connect to the Dbus (first instance)
+IARM_Bus_Init init failed
+IARM_ASSERT Failed at [IARM_Bus_Connect @ 212]
+IARM_Bus_Connect invalid state
+IARM_ASSERT Failed at [IARM_Bus_BroadcastEvent @ 282]
+IARM_Bus_BroadcastEvent invalid state
+IARM_ASSERT Failed at [IARM_Bus_Disconnect @ 243]
+IARM_Bus_Disconnect invalid state
+IARM_ASSERT Failed at [IARM_Bus_Term @ 147]
+term start init 0
+NOT INITD

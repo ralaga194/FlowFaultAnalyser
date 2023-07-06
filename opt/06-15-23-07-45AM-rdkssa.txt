@@ -1,0 +1,9 @@
+Rdkssa Daemon started listening
+230615-07:23:13.438688 Openssl is supported.
+230615-07:23:14.110521 SSA fkpskdf rfc enabled
+230615-07:23:14.214403 SSA Daemon is running
+230615-07:23:14.227832 Enabling FKPS based credentials
+230615-07:23:14.713804 xpki init ret 0
+230615-07:23:14.724175 ssa attempt 1 : /opt/certs/devicecert_1.pk12 cert creation success
+230615-07:23:15.744482 xpki cert start date notBefore=Jun 12 17:56:17 2023 GMT
+230615-07:23:15.750133 xpki cert end date notAfter=Jun 11 19:56:17 2024 GMT

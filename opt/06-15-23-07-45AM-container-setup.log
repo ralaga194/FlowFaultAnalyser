@@ -1,0 +1,17 @@
+2023-06-15 07:22:32 Netflix running in container mode
+2023-06-15 07:22:32 Valid OCI bundle found for Netflix-0, not recreating
+2023-06-15 07:22:32 setupContainerBundle() for Netflix-0 done
+2023-06-15 07:22:32 Fixing permissions for Netflix container
+2023-06-15 07:22:33 Cobalt running in container mode
+2023-06-15 07:22:33 Valid OCI bundle found for Cobalt-0, not recreating
+2023-06-15 07:22:34 setupContainerBundle() for Cobalt-0 done
+2023-06-15 07:22:34 Fixing permissions for Cobalt container
+2023-06-15 07:22:34 WPE running in container mode
+2023-06-15 07:22:35 Copying OCI bundle for HtmlApp from firmware as config.json doesn't match expected
+2023-06-15 07:22:35 setupContainerBundle() for HtmlApp done
+2023-06-15 07:22:35 Fixing permissions for HtmlApp container
+2023-06-15 07:22:35 No OCI bundle for LightningApp found in opt, copying from firmware
+2023-06-15 07:22:36 setupContainerBundle() for LightningApp done
+2023-06-15 07:22:36 Fixing permissions for LightningApp container
+2023-06-15 07:22:38 SearchAndDiscovery not running in container mode
+2023-06-15 07:22:39 Web Inspector ports opened for VBN builds

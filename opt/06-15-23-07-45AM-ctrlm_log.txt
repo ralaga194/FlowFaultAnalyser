@@ -1,0 +1,726 @@
+2023 Jun 15 07:22:40.868563 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Plugin <HdmiInput> Callsign <org.rdk.HdmiInput> API Version <2>
+2023 Jun 15 07:22:40.868751 controlMgr[7651]:  THUNDER - WARN: is_systemd_process_active: wpeframework is not active yet
+2023 Jun 15 07:22:40.868825 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Thunder is not ready, setting up thunder ready handler
+2023 Jun 15 07:22:40.868912 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Plugin <HdmiCecSink> Callsign <org.rdk.HdmiCecSink> API Version <1>
+2023 Jun 15 07:22:40.869973 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Thunder is not ready, setting up thunder ready handler
+2023 Jun 15 07:22:40.870035 controlMgr[7651]:  20230615 07:22:40:867 CTRLM : ctrlm_main: name <ctrlm-main              > version <1.755  > branch <23Q2_sprint         > commit <20ae91f986bde4835312669792b471040e508b23>
+2023 Jun 15 07:22:40.870211 controlMgr[7651]:  20230615 07:22:40:867 CTRLM : ctrlm_signals_register: Registering SIGINT...
+2023 Jun 15 07:22:40.870276 controlMgr[7651]:  20230615 07:22:40:867 CTRLM : ctrlm_signals_register: Registering SIGTERM...
+2023 Jun 15 07:22:40.870336 controlMgr[7651]:  20230615 07:22:40:867 CTRLM : ctrlm_signals_register: Registering SIGQUIT...
+2023 Jun 15 07:22:40.870393 controlMgr[7651]:  20230615 07:22:40:867 CTRLM : ctrlm_signals_register: Registering SIGPIPE...
+2023 Jun 15 07:22:40.870505 controlMgr[7651]:  20230615 07:22:40:868 CTRLM : ctrlm_main: glib     run-time version... 2.62.4
+2023 Jun 15 07:22:40.870776 controlMgr[7651]:  20230615 07:22:40:868 CTRLM : ctrlm_main: glib compile-time version... 2.62.4
+2023 Jun 15 07:22:40.870860 controlMgr[7651]:  20230615 07:22:40:868 CTRLM : ctrlm_main: Glib run-time library is compatible
+2023 Jun 15 07:22:40.870930 controlMgr[7651]:  IARM_Init group name = com.comcast.rdk.iarm.bus member name = Ctrlm
+2023 Jun 15 07:22:40.905186 controlMgr[7651]:  setting init done
+2023 Jun 15 07:22:40.905275 controlMgr[7651]:  Registering Ctrlm
+2023 Jun 15 07:22:40.905345 controlMgr[7651]:  Entering Initialize count 0 with thread id 2998559296
+2023 Jun 15 07:22:40.905427 controlMgr[7651]:  <<<<< VDISP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:40.905496 controlMgr[7651]:  <<<<< AOP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:40.905562 controlMgr[7651]:  <<<<< VOP is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:40.905643 controlMgr[7651]:  <<<<< VID is initialized in Multi-App Mode >>>>>>>>
+2023 Jun 15 07:22:40.924971 controlMgr[7651]:  AudioOutputPort init: _type:2 _index:0 _handle:-1276519512
+2023 Jun 15 07:22:40.932746 controlMgr[7651]:  IARM_Bus_Call provider returned error (2) for the method dsGetAudioLevel
+2023 Jun 15 07:22:40.936644 controlMgr[7651]:  AudioOutputPort init: _type:5 _index:0 _handle:-1276519488
+2023 Jun 15 07:22:40.940307 controlMgr[7651]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:40.954236 controlMgr[7651]:  IARM_Bus_Call provider returned error (2) for the method dsGetStereoMode
+2023 Jun 15 07:22:40.966602 controlMgr[7651]:  AudioOutputPort init: _type:3 _index:0 _handle:-1276519504
+2023 Jun 15 07:22:40.969109 controlMgr[7651]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:40.987091 controlMgr[7651]:  AudioOutputPort init: _type:4 _index:0 _handle:-1276519496
+2023 Jun 15 07:22:41.002045 controlMgr[7651]:  IARM_Bus_Call provider returned error (2) for the method dsGetEncoding
+2023 Jun 15 07:22:41.002734 controlMgr[7651]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:41.005946 controlMgr[7651]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:41.010176 controlMgr[7651]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:41.016407 controlMgr[7651]:  dsGetVideoPort..8--1276518540
+2023 Jun 15 07:22:41.022854 controlMgr[7651]:  Exiting Initialize with thread 2998559296
+2023 Jun 15 07:22:41.023044 controlMgr[7651]:  20230615 07:22:41:019 CTRLM : ctrlm_dsmgr_init: DSMgr is initialized
+2023 Jun 15 07:22:41.023136 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-voice-sdk            > version <1.9    > branch <23Q2_sprint         > commit <f6b1114c0335851c5f3a7013c9c2dd91166e5f65>
+2023 Jun 15 07:22:41.023197 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-speech-vrex          > version <1.55   > branch <23Q2_sprint         > commit <5b70153a3fb763328bc19eff354ee96540750878>
+2023 Jun 15 07:22:41.023266 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-speech-router        > version <1.136  > branch <23Q2_sprint         > commit <5b504e3c071d2e3c941a8fca54f0055e8b99b9fc>
+2023 Jun 15 07:22:41.023343 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-mq                   > version <1.7    > branch <23Q2_sprint         > commit <1b5345909eb165e4b6728306bd10a16c2508b349>
+2023 Jun 15 07:22:41.023455 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-timer                > version <1.10   > branch <23Q2_sprint         > commit <14ae2b1a6c8b8e0b6fe53fc766c05fe12a09b706>
+2023 Jun 15 07:22:41.023519 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xr-timestamp            > version <1.6    > branch <23Q2_sprint         > commit <caaa0a5ad1a29203fa8addb324074d3460a7e3f1>
+2023 Jun 15 07:22:41.023604 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xraudio                 > version <1.136  > branch <23Q2_sprint         > commit <6e3c5a9c2a0758a35ed982a27b617d931dfaf08a>
+2023 Jun 15 07:22:41.023673 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xraudio-adpcm           > version <1.11   > branch <23Q2_sprint         > commit <863936546795bcbbe7a8602935412d7d55bf4598>
+2023 Jun 15 07:22:41.023740 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <xraudio-opus            > version <1.8    > branch <23Q2_sprint         > commit <02b8c0135d90980a773d548bfef9ae3ebc40b24e>
+2023 Jun 15 07:22:41.023820 controlMgr[7651]:  20230615 07:22:41:020 CTRLM : ctrlm_main: name <ctrlm-xraudio-hal       > version <1.35   > branch <23Q2_sprint         > commit <1063c33e39e3fd6527d935c52385485e76c602d2>
+2023 Jun 15 07:22:41.023930 controlMgr[7651]:  20230615 07:22:41:020 XLOG : xlog_init_int: Initializing...
+2023 Jun 15 07:22:41.025761 controlMgr[7651]:  20230615 07:22:41:024 XLOG : xlog_config_load: Read configuration from </etc/rdkx_logger.json>
+2023 Jun 15 07:22:41.026178 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <VSDK> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026286 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRBT> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026349 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRSV> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026412 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRSR> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026473 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <RDKX> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026535 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <VMIC> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026595 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRMQ> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026657 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XLOG> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026718 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRAUDIO> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026797 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRFDC> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.026860 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRSTAMP> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.027629 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRTA> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.027703 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRTIMER> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.027767 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <CTRLM> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.027828 controlMgr[7651]:  20230615 07:22:41:025 XLOG : xlog_init_int: module <XRSM> level <XLOG_LEVEL_INFO>
+2023 Jun 15 07:22:41.027982 controlMgr[7651]:  20230615 07:22:41:027 CTRLM : ctrlm_main_iarm_call_get_power_state: power state is : <STANDBY>
+2023 Jun 15 07:22:41.028423 controlMgr[7651]:  20230615 07:22:41:027 CTRLM : ctrlm_main: load version
+2023 Jun 15 07:22:41.028546 controlMgr[7651]:  20230615 07:22:41:028 CTRLM : ctrlm_load_version: STB Name <ELTE11MWR> Image Type <DEV> Version <999.995.0.555> Branch <23Q2_sprint> Build Time <"2023-06-14 23:22:41">
+2023 Jun 15 07:22:41.029633 controlMgr[7651]:  20230615 07:22:41:028 CTRLM : ctrlm_main: create Telemetry object
+2023 Jun 15 07:22:41.029735 controlMgr[7651]:  20230615 07:22:41:028 CTRLM : ctrlm_telemetry_t: Telemetry 2.0 init
+2023 Jun 15 07:22:41.043481 controlMgr[7651]:  20230615 07:22:41:043 CTRLM : ctrlm_telemetry_t: Telemetry is enabled
+2023 Jun 15 07:22:41.043840 controlMgr[7651]:  20230615 07:22:41:043 CTRLM : ctrlm_main: create Voice object
+2023 Jun 15 07:22:41.045436 controlMgr[7651]:  20230615 07:22:41:045 CTRLM : ctrlm_voice_t: Constructor
+2023 Jun 15 07:22:41.046245 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : set_audio_mode: Audio Mode < MUTING >, Audio Timing < VSR >
+2023 Jun 15 07:22:41.046370 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : ctrlm_voice_generic_t: Constructor
+2023 Jun 15 07:22:41.046480 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : register_ipc: Thunder
+2023 Jun 15 07:22:41.046554 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : register_ipc: Registering for Voice_Status IARM call
+2023 Jun 15 07:22:41.046617 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : register_ipc: Registering for Voice_ConfigureVoice IARM call
+2023 Jun 15 07:22:41.046705 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : register_ipc: Registering for Voice_SetVoiceInit IARM call
+2023 Jun 15 07:22:41.047307 controlMgr[7651]:  20230615 07:22:41:046 CTRLM : register_ipc: Registering for Voice_SendVoiceMessage IARM call
+2023 Jun 15 07:22:41.047468 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: Registering for Voice_SessionTypes IARM call
+2023 Jun 15 07:22:41.047545 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: Registering for Voice_SessionRequest IARM call
+2023 Jun 15 07:22:41.047712 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: Registering for Voice_SessionTerminate IARM call
+2023 Jun 15 07:22:41.047782 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: Registering for Voice_SessionAudioStreamStart IARM call
+2023 Jun 15 07:22:41.047864 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: ServiceManager
+2023 Jun 15 07:22:41.047927 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : register_ipc: Registering for voice update settings
+2023 Jun 15 07:22:41.048002 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : ctrlm_main: ctrlm_rfc init
+2023 Jun 15 07:22:41.048100 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : ctrlm_main: System up for 15 seconds
+2023 Jun 15 07:22:41.048166 controlMgr[7651]:  [34m20230615 07:22:41:047 CTRLM : TELE: ctrlm_main: System first boot
+2023 Jun 15 07:22:41.048228 controlMgr[7651]:  [0m20230615 07:22:41:047 CTRLM : ctrlm_main: Setting recently booted to true
+2023 Jun 15 07:22:41.048454 controlMgr[7651]:  20230615 07:22:41:047 CTRLM : ctrlm_main: load config
+2023 Jun 15 07:22:41.048576 controlMgr[7651]:  20230615 07:22:41:048 CTRLM : ctrlm_load_config
+2023 Jun 15 07:22:41.049049 controlMgr[7651]:  [33m20230615 07:22:41:048 CTRLM : WARN: ctrlm_load_config: Configuration error. Configuration file(s) missing, using defaults
+2023 Jun 15 07:22:41.049142 controlMgr[7651]:  [0m20230615 07:22:41:048 CTRLM : ctrlm_main: load device mac
+2023 Jun 15 07:22:41.049347 controlMgr[7651]:  20230615 07:22:41:049 CTRLM : ctrlm_load_device_mac: Device Mac set to <A8:4A:63:1E:5A:DE>
+2023 Jun 15 07:22:41.049446 controlMgr[7651]:  20230615 07:22:41:049 CTRLM : ctrlm_main: create IRDB object
+2023 Jun 15 07:22:41.049510 controlMgr[7651]:  20230615 07:22:41:049 CTRLM : ctrlm_irdb_t: HDMI Support Enabled
+2023 Jun 15 07:22:41.049594 controlMgr[7651]:  20230615 07:22:41:049 CTRLM : ctrlm_irdb_t: CEC Support Enabled
+2023 Jun 15 07:22:41.050165 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Plugin <RemoteControl> Callsign <org.rdk.RemoteControl> API Version <1>
+2023 Jun 15 07:22:41.050234 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Thunder is not ready, setting up thunder ready handler
+2023 Jun 15 07:22:41.050304 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Plugin <Remote Action Mapping> Callsign <org.rdk.RemoteActionMapping> API Version <1>
+2023 Jun 15 07:22:41.050366 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Thunder is not ready, setting up thunder ready handler
+2023 Jun 15 07:22:41.050423 controlMgr[7651]:  20230615 07:22:41:049 CTRLM : ctrlm_irdb_uei_t:
+2023 Jun 15 07:22:41.063240 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : ctrlm_irdb_uei_t: Unique ID set to <A8:4A:63:1E:5A:DE>
+2023 Jun 15 07:22:41.063365 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : ctrlm_irdb_ipc_iarm_thunder_t:
+2023 Jun 15 07:22:41.063431 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRManufacturers
+2023 Jun 15 07:22:41.063574 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRModels
+2023 Jun 15 07:22:41.063640 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRCodes
+2023 Jun 15 07:22:41.063701 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRAutoLookup
+2023 Jun 15 07:22:41.063762 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRSetCode
+2023 Jun 15 07:22:41.063823 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRClear
+2023 Jun 15 07:22:41.063884 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : register_iarm_call: Registering for Main_IRInitialize
+2023 Jun 15 07:22:41.063945 controlMgr[7651]:  20230615 07:22:41:063 CTRLM : ctrlm_main: ctrlm_auth init
+2023 Jun 15 07:22:41.238641 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:882: Configuration file changed; loading settings
+2023 Jun 15 07:22:41.238802 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/property.c:840: Loading cfg file: /etc/libledger.cfg
+2023 Jun 15 07:22:41.238870 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/property.c:842: About to call: util_slurp with path: /etc/libledger.cfg
+2023 Jun 15 07:22:41.242801 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/property.c:866: Loaded Log Level value: 4 from cfg file.
+2023 Jun 15 07:22:41.246145 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023 Jun 15 07:22:41.254142 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813761
+2023 Jun 15 07:22:41.255956 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023 Jun 15 07:22:41.269527 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240:
+2023 Jun 15 07:22:41.269673 controlMgr[7651]:  Ledger ID: Xfinity
+2023 Jun 15 07:22:41.273353 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134:
+2023 Jun 15 07:22:41.273433 controlMgr[7651]:  Certificate has not yet expired and already exists.  Returning.  No need to register again.
+2023 Jun 15 07:22:41.283317 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/openssl.c:827:
+2023 Jun 15 07:22:41.283418 controlMgr[7651]:  Found existing Key Store File.
+2023 Jun 15 07:22:41.283497 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:191:
+2023 Jun 15 07:22:41.283662 controlMgr[7651]:  Node Address: 1H5zPqCaBcNTCz2nmYPgvRw1KPAthUrJpX
+2023 Jun 15 07:22:41.290852 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:574: Calling get_cert()
+2023 Jun 15 07:22:41.290939 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023 Jun 15 07:22:41.303684 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240:
+2023 Jun 15 07:22:41.303775 controlMgr[7651]:  Ledger ID: Xfinity
+2023 Jun 15 07:22:41.303862 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:607: Generated CRT is: {
+2023 Jun 15 07:22:41.303928 controlMgr[7651]:  	"tokenType":	"X509",
+2023 Jun 15 07:22:41.303994 controlMgr[7651]:  	"certificate":	"MIICkTCCAjegAwIBAgIUY6CYQQfM7NMQ6SzcJ/SFmlHVx90wCgYIKoZIzj0EAwIwLTErMCkGA1UEAwwiWGZpbml0eSBTdWJzY3JpYmVyIElzc3VpbmcgRUNDIElDQTAeFw0yMzA2MTIxNzU2MTdaFw0yNDA2MTExOTU2MTdaMIGvMTgwNgYKCZImiZPyLGQBAQwoMGM0NmUxYmI2NjIwOTlhODExYzgxOTk0OTA4YThlYTI3NzI2MWY3YzEeMBwGA1UEAwwVcmRrdi5jcGUtY2xudC54Y2FsLnR2MRAwDgYDVQQLDAdYZmluaXR5MRAwDgYDVQQKDAdDb21jYXN0MRUwEwYDVQQHDAxQaGlsYWRlbHBoaWExCzAJBgNVBAgMAlBBMQswCQYDVQQGEwJVUzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDIm9ZQe6O7PSZWBOPxRYQdT9eGE5gB9+TXT03Fjk9nGxNyX+tA8F4ZbHa1PHTJnQkkw30B4AS6cgddYfwER616jgbEwga4wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBTX1Mx4c1mDugxTTvirKzNJuNv8BjAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6Ly9vY3NwLnhwa2kuaW8wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMB0GA1UdDgQWBBTumZzDQ8RlkX7PxQV7nlDwCuFspTAOBgNVHQ8BAf8EBAMCBaAwCgYIKoZIzj0EAwIDSAAwRQIhAI96+ALiXA9OMd6jSSUFAQUd/94YGx+/JGdSU5LHHsiKAiAVK5h2+VRIJQf3uDyKnpeBaboyclQrYnzZWGHv4eUfhQ==",
+2023 Jun 15 07:22:41.304060 controlMgr[7651]:  	"timestamp":	"1686813761298",
+2023 Jun 15 07:22:41.304135 controlMgr[7651]:  	"nonce":	"LbEhW9Zcd5Sd98aQ",
+2023 Jun 15 07:22:41.304209 controlMgr[7651]:  	"signature":	"MEUCIFNMeqsEpowAIvpM9kna1ZEV0TZE1Rl3Hl2vpFGaJlXnAiEAz6DOL9XKzB/9xQTQ5fLcK1O/w+E4Poo1JK/D/CFa+vM="
+2023 Jun 15 07:22:41.304274 controlMgr[7651]:  }
+2023 Jun 15 07:22:41.304344 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1099: P12 filename is: /opt/certs/devicecert_1.pk12
+2023 Jun 15 07:22:41.315106 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:275: BEFORE raw_time1686813761
+2023 Jun 15 07:22:41.315192 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023 Jun 15 07:22:41.328481 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240:
+2023 Jun 15 07:22:41.328866 controlMgr[7651]:  Ledger ID: Xfinity
+2023 Jun 15 07:22:41.333569 controlMgr[7651]:  07:22:41 INFO  /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:1134:
+2023 Jun 15 07:22:41.333693 controlMgr[7651]:  Certificate has not yet expired and already exists.  Returning.  No need to register again.
+2023 Jun 15 07:22:41.338744 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:215: PKCS12 file /opt/certs/devicecert_1.pk12 exists. Loading x509
+2023 Jun 15 07:22:41.350530 controlMgr[7651]:  07:22:41 DEBUG /usr/src/debug/libledger/2.3.2-r0/git/src/ledger.c:240:
+2023 Jun 15 07:22:41.350672 controlMgr[7651]:  Ledger ID: Xfinity
+2023 Jun 15 07:22:41.357883 controlMgr[7651]:  {
+2023 Jun 15 07:22:41.358007 controlMgr[7651]:  	"return_code":	0,
+2023 Jun 15 07:22:41.358073 controlMgr[7651]:  	"error_code":	0,
+2023 Jun 15 07:22:41.358140 controlMgr[7651]:  	"output":	"Xfinity"
+2023 Jun 15 07:22:41.358213 controlMgr[7651]:  }
+2023 Jun 15 07:22:41.386382 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Plugin <Authservice> Callsign <org.rdk.AuthService> API Version <1>
+2023 Jun 15 07:22:41.386459 controlMgr[7651]:  THUNDER - INFO: ctrlm_thunder_plugin_t: Thunder is not ready, setting up thunder ready handler
+2023 Jun 15 07:22:41.386519 controlMgr[7651]:  20230615 07:22:41:385 CTRLM : ctrlm_auth_thunder_t: Thunder Authservice Implementation
+2023 Jun 15 07:22:41.386582 controlMgr[7651]:  20230615 07:22:41:385 CTRLM : add_event_handler: Authservice Event handler added
+2023 Jun 15 07:22:41.386644 controlMgr[7651]:  THUNDER - INFO: add_activation_handler: Activation handler added
+2023 Jun 15 07:22:41.386707 controlMgr[7651]:  20230615 07:22:41:385 CTRLM : voice_stb_data_device_certificate_set: P12 certificate </opt/certs/devicecert_1.pk12>
+2023 Jun 15 07:22:41.386790 controlMgr[7651]:  THUNDER - ERROR: get_plugin_state: Controller client is NULL!
+2023 Jun 15 07:22:41.386855 controlMgr[7651]:  [33m20230615 07:22:41:385 CTRLM : WARN: is_ready: Plugin is not activated[0m
+2023 Jun 15 07:22:41.386920 controlMgr[7651]:  [33m20230615 07:22:41:385 CTRLM : WARN: main: Authservice not ready, no reason to poll
+2023 Jun 15 07:22:41.386985 controlMgr[7651]:  [0m20230615 07:22:41:385 CTRLM : ctrlm_main: pre-init networks
+2023 Jun 15 07:22:41.387053 controlMgr[7651]:  20230615 07:22:41:385 CTRLM : ctrlm_ble_network_factory: adding new BLE network object, network_id = 21
+2023 Jun 15 07:22:41.387125 controlMgr[7651]:  20230615 07:22:41:385 CTRLM : ctrlm_obj_network_t constructor - Type (1) Id (21) Name (BLE)
+2023 Jun 15 07:22:41.388385 controlMgr[7651]:  20230615 07:22:41:387 CTRLM : ctrlm_obj_network_ble_t constructor - Type (1) Id (21) Name (BLE)
+2023 Jun 15 07:22:41.388905 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : stb_name_set: STB Name <ELTE11MWR>
+2023 Jun 15 07:22:41.389084 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : ctrlm_main: init recovery
+2023 Jun 15 07:22:41.389152 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : ctrlm_recovery_init
+2023 Jun 15 07:22:41.389277 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : ctrlm_sm_init: Created shared memory region
+2023 Jun 15 07:22:41.389345 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : ctrlm_sm_init: Shared memory open successful
+2023 Jun 15 07:22:41.389408 controlMgr[7651]:  20230615 07:22:41:388 CTRLM : ctrlm_crash_recovery_check: Checking if recovering from pre-init crash
+2023 Jun 15 07:22:41.389470 controlMgr[7651]:  [33m20230615 07:22:41:388 CTRLM : WARN: ctrlm_crash_recovery_check: Failed to initialize 0 times
+2023 Jun 15 07:22:41.389849 controlMgr[7651]:  [0m20230615 07:22:41:388 CTRLM : ctrlm_main: init database
+2023 Jun 15 07:22:41.396126 controlMgr[7651]:  20230615 07:22:41:394 CTRLM : ctrlm_network_list_get: Network id 21
+2023 Jun 15 07:22:41.396332 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_network_list_get: Network id 21
+2023 Jun 15 07:22:41.396403 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_network_list_get: Network id 21
+2023 Jun 15 07:22:41.396510 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_db_cache: 1 networks
+2023 Jun 15 07:22:41.396661 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_db_cache: 0 RF4CE networks
+2023 Jun 15 07:22:41.396728 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_db_cache: 0 IP networks
+2023 Jun 15 07:22:41.396791 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_db_cache: 1 BLE networks
+2023 Jun 15 07:22:41.396853 controlMgr[7651]:  20230615 07:22:41:395 CTRLM : ctrlm_db_cache: Checking BLE Network Id 21
+2023 Jun 15 07:22:41.397651 controlMgr[7651]:  20230615 07:22:41:396 CTRLM : ctrlm_db_integrity_check_result: healthy
+2023 Jun 15 07:22:41.398559 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_network_list_get: Network id 21
+2023 Jun 15 07:22:41.398672 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_network_list_get: Network id 21
+2023 Jun 15 07:22:41.398735 controlMgr[7651]:  [33m20230615 07:22:41:397 CTRLM : WARN: ctrlm_network_list_get: Invalid list.
+2023 Jun 15 07:22:41.398798 controlMgr[7651]:  [0m20230615 07:22:41:397 CTRLM : ctrlm_db_cache: 1 networks
+2023 Jun 15 07:22:41.398859 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_db_cache: 0 RF4CE networks
+2023 Jun 15 07:22:41.398969 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_db_cache: 0 IP networks
+2023 Jun 15 07:22:41.399034 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_db_cache: 1 BLE networks
+2023 Jun 15 07:22:41.399120 controlMgr[7651]:  20230615 07:22:41:397 CTRLM : ctrlm_db_cache: Checking BLE Network Id 21
+2023 Jun 15 07:22:41.399183 controlMgr[7651]:  20230615 07:22:41:398 CTRLM : ctrlm_db_print: --- Control Manager ---
+2023 Jun 15 07:22:41.399246 controlMgr[7651]:  20230615 07:22:41:398 CTRLM : ctrlm_db_print: Database version 1
+2023 Jun 15 07:22:41.399308 controlMgr[7651]:  20230615 07:22:41:398 CTRLM : ctrlm_db_print: Last device update session ID 0
+2023 Jun 15 07:22:41.400180 controlMgr[7651]:  20230615 07:22:41:398 CTRLM : ctrlm_db_init: Waiting for database thread initialization...
+2023 Jun 15 07:22:41.405131 controlMgr[7651]:  20230615 07:22:41:404 CTRLM : ctrlm_db_thread: Started
+2023 Jun 15 07:22:41.405246 controlMgr[7651]:  20230615 07:22:41:404 CTRLM : ctrlm_db_thread: Enter main loop
+2023 Jun 15 07:22:41.405505 controlMgr[7651]:  [33m20230615 07:22:41:405 CTRLM : WARN: ctrlm_property_read_ir_remote_usage: Not read from DB - IR Remote Usage
+2023 Jun 15 07:22:41.405580 controlMgr[7651]:  [0m20230615 07:22:41:405 CTRLM : ctrlm_property_read_ir_remote_usage: Has XR2  IR today <0> yesterday <0>
+2023 Jun 15 07:22:41.405645 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_property_read_ir_remote_usage: Has XR5  IR today <0> yesterday <0>
+2023 Jun 15 07:22:41.405707 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_property_read_ir_remote_usage: Has XR11 IR today <0> yesterday <0>
+2023 Jun 15 07:22:41.405837 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_property_read_ir_remote_usage: Has XR15 IR today <0> yesterday <0>
+2023 Jun 15 07:22:41.405903 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_property_read_ir_remote_usage: Has IR Remote:  today <0> yesterday <0>
+2023 Jun 15 07:22:41.405967 controlMgr[7651]:  [33m20230615 07:22:41:405 CTRLM : WARN: ctrlm_property_read_pairing_metrics: Not read from DB - Pairing Metrics
+2023 Jun 15 07:22:41.406030 controlMgr[7651]:  [0m20230615 07:22:41:405 CTRLM : ctrlm_property_read_pairing_metrics: num_screenbind_failures <0>, last_screenbind_error_timestamp <0ms>, last_screenbind_error_code <0>, last_screenbind_remote_type <>
+2023 Jun 15 07:22:41.406094 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_property_read_pairing_metrics: num_non_screenbind_failures <0>, last_non_screenbind_error_timestamp <0ms>, last_non_screenbind_error_code <0>, last_non_screenbind_error_binding_type <0> last_screenbind_remote_type <>
+2023 Jun 15 07:22:41.406156 controlMgr[7651]:  [34m20230615 07:22:41:405 CTRLM : TELE: ctrlm_property_read_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1675475740000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:22:41.406221 controlMgr[7651]:  [0m20230615 07:22:41:405 CTRLM : ctrlm_main: init validation
+2023 Jun 15 07:22:41.406303 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: use default configuration
+2023 Jun 15 07:22:41.406366 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: App Based Validation    <NO>
+2023 Jun 15 07:22:41.406431 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: Max Attempts            5
+2023 Jun 15 07:22:41.406493 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: Timeout Initial         30000 ms
+2023 Jun 15 07:22:41.406693 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: Timeout Subsequent      10000 ms
+2023 Jun 15 07:22:41.406779 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: Timeout Config Complete 5000 ms
+2023 Jun 15 07:22:41.406842 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_validation_load_config: Timeout Ignore Abort    1000 ms
+2023 Jun 15 07:22:41.406905 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_main: init rcu
+2023 Jun 15 07:22:41.406982 controlMgr[7651]:  20230615 07:22:41:405 CTRLM : ctrlm_rcu_init
+2023 Jun 15 07:22:41.407054 controlMgr[7651]:  20230615 07:22:41:406 CTRLM : ctrlm_rcu_init_iarm
+2023 Jun 15 07:22:41.407119 controlMgr[7651]:  20230615 07:22:41:406 CTRLM : ctrlm_main: init device update
+2023 Jun 15 07:22:41.407182 controlMgr[7651]:  20230615 07:22:41:406 CTRLM : ctrlm_device_update_init
+2023 Jun 15 07:22:41.407256 controlMgr[7651]:  20230615 07:22:41:406 CTRLM : ctrlm_device_update_init: Waiting for device update thread initialization...
+2023 Jun 15 07:22:41.422957 controlMgr[7651]:  20230615 07:22:41:412 CTRLM : ctrlm_device_update_thread: Started
+2023 Jun 15 07:22:41.423085 controlMgr[7651]:  20230615 07:22:41:412 CTRLM : ctrlm_device_update_thread: Enter main loop
+2023 Jun 15 07:22:41.423150 controlMgr[7651]:  20230615 07:22:41:413 CTRLM : ctrlm_device_update_load_config
+2023 Jun 15 07:22:41.423217 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: use default configuration
+2023 Jun 15 07:22:41.423310 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Server Update Path           </srv/device_update/>
+2023 Jun 15 07:22:41.423375 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Temp File Path               </tmp/device_update/>
+2023 Jun 15 07:22:41.423437 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Check Poll Time - Image      14400 secs
+2023 Jun 15 07:22:41.423500 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Check Poll Time - Download   120 secs
+2023 Jun 15 07:22:41.423563 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Check Poll Time - Load       120 secs
+2023 Jun 15 07:22:41.423624 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Download - Interactive       <false>
+2023 Jun 15 07:22:41.423685 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Download - Background        <true>
+2023 Jun 15 07:22:41.423761 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Download - Load Immediately  <false>
+2023 Jun 15 07:22:41.423826 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Download - Percent Increment 10
+2023 Jun 15 07:22:41.423936 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Load - Interactive           <false>
+2023 Jun 15 07:22:41.424065 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Load - Time After Inactive   5
+2023 Jun 15 07:22:41.424137 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Load - Before Hour           4
+2023 Jun 15 07:22:41.424200 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Xconf file path              /tmp/
+2023 Jun 15 07:22:41.424262 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Xconf location checks        0
+2023 Jun 15 07:22:41.424325 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XR11v2>
+2023 Jun 15 07:22:41.424482 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XR15v1>
+2023 Jun 15 07:22:41.424549 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XR15v2>
+2023 Jun 15 07:22:41.426349 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XR16v1>
+2023 Jun 15 07:22:41.426432 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XR19v1>
+2023 Jun 15 07:22:41.426519 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_load_config: Device Update Dirs           <XRAv1>
+2023 Jun 15 07:22:41.426587 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_device_update_tmp_dir_remove: </tmp/device_update/>
+2023 Jun 15 07:22:41.426651 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_rm_rf: Removing the directory </tmp/device_update/>
+2023 Jun 15 07:22:41.426716 controlMgr[7651]:  [31m20230615 07:22:41:414 CTRLM : ERROR: ctrlm_rm_rf: Failed opendir to /tmp/device_update/, opendir call error (No such file or directory)
+2023 Jun 15 07:22:41.426780 controlMgr[7651]:  [0m[33m20230615 07:22:41:414 CTRLM : WARN: ctrlm_device_update_tmp_dir_remove: Failed to remove "/tmp/device_update/" due to ctrlm_utils_rm_rf call error
+2023 Jun 15 07:22:41.426843 controlMgr[7651]:  [0m20230615 07:22:41:414 CTRLM : ctrlm_device_update_init_iarm
+2023 Jun 15 07:22:41.426959 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_main: Waiting for ctrlm main thread initialization...
+2023 Jun 15 07:22:41.427026 controlMgr[7651]:  20230615 07:22:41:414 CTRLM : ctrlm_main_thread: Started
+2023 Jun 15 07:22:41.427107 controlMgr[7651]:  20230615 07:22:41:415 CTRLM : ctrlm_main: init IR controller object
+2023 Jun 15 07:22:41.427177 controlMgr[7651]:  [33m20230615 07:22:41:415 CTRLM : WARN: get_config_value: config value for <ir.enable_key_monitor_thread> was not found
+2023 Jun 15 07:22:41.427247 controlMgr[7651]:  [0m[33m20230615 07:22:41:415 CTRLM : WARN: read_config: Failed to read from config, using IR key thread enable default: TRUE
+2023 Jun 15 07:22:41.427309 controlMgr[7651]:  [0m[33m20230615 07:22:41:415 CTRLM : WARN: get_config_value: config value for <ir.input_device_path> was not found
+2023 Jun 15 07:22:41.427373 controlMgr[7651]:  [0m[33m20230615 07:22:41:415 CTRLM : WARN: read_config: Failed to read from config, using IR input device path default: /dev/input/event0
+2023 Jun 15 07:22:41.427434 controlMgr[7651]:  [0m[33m20230615 07:22:41:415 CTRLM : WARN: get_config_value: config value for <ir.input_device_name> was not found
+2023 Jun 15 07:22:41.427497 controlMgr[7651]:  [0m[33m20230615 07:22:41:415 CTRLM : WARN: read_config: Failed to read from config, using IR input device name default:
+2023 Jun 15 07:22:41.427573 controlMgr[7651]:  [0m20230615 07:22:41:415 CTRLM : ctrlm_ir_controller_t: Starting key monitor thread...
+2023 Jun 15 07:22:41.427635 controlMgr[7651]:  20230615 07:22:41:415 CTRLM : read_db: reading blob last_key_time from table ir_controller
+2023 Jun 15 07:22:41.428462 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : read_db: Last Keypress Time read from database: 1686813500
+2023 Jun 15 07:22:41.428540 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : read_db: reading blob last_key_code from table ir_controller
+2023 Jun 15 07:22:41.428658 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : read_db: Last Keypress Code read from database: 102
+2023 Jun 15 07:22:41.428723 controlMgr[7651]:  [33m20230615 07:22:41:416 CTRLM : WARN: ------------------------------------------------------------
+2023 Jun 15 07:22:41.428787 controlMgr[7651]:  [0m20230615 07:22:41:416 CTRLM : print_status: Controller                   : INFRARED_CONTROLLER
+2023 Jun 15 07:22:41.428875 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : print_status:
+2023 Jun 15 07:22:41.428984 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : print_status: Last Key Code                : 102 (Home key)
+2023 Jun 15 07:22:41.429048 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : print_status: Last Key Time                : 2023-06-15 07:18:20
+2023 Jun 15 07:22:41.429110 controlMgr[7651]:  [33m20230615 07:22:41:416 CTRLM : WARN: ------------------------------------------------------------
+2023 Jun 15 07:22:41.429171 controlMgr[7651]:  [0m20230615 07:22:41:416 CTRLM : ctrlm_main: init networks
+2023 Jun 15 07:22:41.429234 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : network_init: Initializing BLE network
+2023 Jun 15 07:22:41.429296 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : hal_init_request: Waiting for BLE initialization...
+2023 Jun 15 07:22:41.429357 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : ctrlm_main_thread: Enter main loop
+2023 Jun 15 07:22:41.429433 controlMgr[7651]:  20230615 07:22:41:416 CTRLM : ctrlm_ir_key_monitor_thread: Enter...
+2023 Jun 15 07:22:41.429498 controlMgr[7651]:  20230615 07:22:41:417 CTRLM : ctrlm_ir_open_key_input_device: Successfully opened IR input device from PATH </dev/input/event0>
+2023 Jun 15 07:22:41.433590 controlMgr[7651]:  20230615 07:22:41:432 CTRLM : ctrlm_hal_ble_main: Network id: 21
+2023 Jun 15 07:22:41.433789 controlMgr[7651]:  20230615 07:22:41:433 CTRLM : ctrlm_hal_ble_DaemonInit: Enter...
+2023 Jun 15 07:22:41.433870 controlMgr[7651]:  20230615 07:22:41:433 CTRLM : ctrlm_hal_ble_DaemonInit: Register DBus signal handlers...
+2023 Jun 15 07:22:41.491275 controlMgr[7651]:  20230615 07:22:41:490 CTRLM : ctrlm_hal_ble_dbus_init: Successfully connected to signals (g-signal) on interface com.sky.blercu.Controller1
+2023 Jun 15 07:22:41.491494 controlMgr[7651]:  20230615 07:22:41:490 CTRLM : ctrlm_hal_ble_dbus_init: Successfully connected to signals (g-properties-changed) on interface com.sky.blercu.Controller1
+2023 Jun 15 07:22:41.497336 controlMgr[7651]:  20230615 07:22:41:497 CTRLM : ctrlm_hal_ble_DaemonInit: IsReady() returned SUCCESS, so BleRcuDaemon is ready
+2023 Jun 15 07:22:41.497426 controlMgr[7651]:  20230615 07:22:41:497 CTRLM : ctrlm_hal_ble_DaemonInit: Get list of currently connected devices, and register RCU Device interface DBus signal handlers...
+2023 Jun 15 07:22:41.497489 controlMgr[7651]:  20230615 07:22:41:497 CTRLM : ctrlm_hal_ble_req_GetDevices: Enter...
+2023 Jun 15 07:22:41.499495 controlMgr[7651]:  20230615 07:22:41:499 CTRLM : ctrlm_hal_ble_cfm_init: result SUCCESS
+2023 Jun 15 07:22:41.499590 controlMgr[7651]:  20230615 07:22:41:499 CTRLM : hal_api_set: BLE property get 0xc63b1 set 0xc6151 term 0xc67b5.
+2023 Jun 15 07:22:41.500246 controlMgr[7651]:  20230615 07:22:41:499 CTRLM : network_init: Initialized BLE network version 1.0.0.0
+2023 Jun 15 07:22:41.500353 controlMgr[7651]:  20230615 07:22:41:499 CTRLM : read_db: reading blob last_rcu_unpaired_ieee from table ble_15_global
+2023 Jun 15 07:22:41.500418 controlMgr[7651]:  [33m20230615 07:22:41:500 CTRLM : WARN: read_db: no row found for <ble_15_global, last_rcu_unpaired_ieee>
+2023 Jun 15 07:22:41.500482 controlMgr[7651]:  [0m[31m20230615 07:22:41:500 CTRLM : ERROR: read_db: failed to read from db <Unpaired IEEE Address>
+2023 Jun 15 07:22:41.500545 controlMgr[7651]:  [0m20230615 07:22:41:500 CTRLM : read_db: reading blob last_rcu_unpaired_reason from table ble_15_global
+2023 Jun 15 07:22:41.500716 controlMgr[7651]:  [33m20230615 07:22:41:500 CTRLM : WARN: read_db: no row found for <ble_15_global, last_rcu_unpaired_reason>
+2023 Jun 15 07:22:41.500786 controlMgr[7651]:  [0m[31m20230615 07:22:41:500 CTRLM : ERROR: read_db: failed to read from db <Unpair Reason>
+2023 Jun 15 07:22:41.500849 controlMgr[7651]:  [0m20230615 07:22:41:500 CTRLM : read_db: reading blob last_rcu_unpaired_time from table ble_15_global
+2023 Jun 15 07:22:41.500938 controlMgr[7651]:  [33m20230615 07:22:41:500 CTRLM : WARN: read_db: no row found for <ble_15_global, last_rcu_unpaired_time>
+2023 Jun 15 07:22:41.501005 controlMgr[7651]:  [0m[31m20230615 07:22:41:500 CTRLM : ERROR: read_db: failed to read from db <Time Unpaired>
+2023 Jun 15 07:22:41.501074 controlMgr[7651]:  [0m20230615 07:22:41:500 CTRLM : log_rcu_unpair_event: Last RCU unpairing event: MAC Address: <00:00:00:00:00:00>, time: <NEVER>, reason: <>
+2023 Jun 15 07:22:41.501170 controlMgr[7651]:  20230615 07:22:41:500 CTRLM : ctrlm_hal_ble_req_GetDevices: Enter...
+2023 Jun 15 07:22:41.510557 controlMgr[7651]:  20230615 07:22:41:509 CTRLM : hal_init_complete: ====================================================================
+2023 Jun 15 07:22:41.510788 controlMgr[7651]:  20230615 07:22:41:509 CTRLM : hal_init_complete:                         0 Bound Controllers
+2023 Jun 15 07:22:41.510854 controlMgr[7651]:  20230615 07:22:41:509 CTRLM : hal_init_complete: ====================================================================
+2023 Jun 15 07:22:41.510961 controlMgr[7651]:  20230615 07:22:41:510 CTRLM : ctrlm_hal_ble_req_StartThreads: Waiting for ctrlm_ble_key_mon thread initialization...
+2023 Jun 15 07:22:41.520365 controlMgr[7651]:  20230615 07:22:41:515 CTRLM : ctrlm_hal_ble_KeyMonitorThread: Enter main loop
+2023 Jun 15 07:22:41.520492 controlMgr[7651]:  [33m20230615 07:22:41:515 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.520557 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.520729 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.520812 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.520955 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521030 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521171 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521259 controlMgr[7651]:  [0m[33m20230615 07:22:41:516 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521320 controlMgr[7651]:  [0m[33m20230615 07:22:41:517 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521384 controlMgr[7651]:  [0m[33m20230615 07:22:41:517 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521451 controlMgr[7651]:  [0m[33m20230615 07:22:41:517 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521510 controlMgr[7651]:  [0m[33m20230615 07:22:41:517 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521568 controlMgr[7651]:  [0m[33m20230615 07:22:41:517 CTRLM : WARN: from_db: Failed to create IR RF DB Entry from DB: No DB entry for this key
+2023 Jun 15 07:22:41.521626 controlMgr[7651]:  [0m20230615 07:22:41:517 CTRLM : virtual void ctrlm_obj_network_ble_t::hal_init_complete():
+2023 Jun 15 07:22:41.521701 controlMgr[7651]:  IR RF Database:
+2023 Jun 15 07:22:41.521765 controlMgr[7651]:  	KeySlot <INPUT_SELECT> EMPTY
+2023 Jun 15 07:22:41.521827 controlMgr[7651]:  	KeySlot <TV_POWER> EMPTY
+2023 Jun 15 07:22:41.521935 controlMgr[7651]:  	KeySlot <VOL_UP> EMPTY
+2023 Jun 15 07:22:41.522000 controlMgr[7651]:  	KeySlot <VOL_DOWN> EMPTY
+2023 Jun 15 07:22:41.522062 controlMgr[7651]:  	KeySlot <MUTE> EMPTY
+2023 Jun 15 07:22:41.522124 controlMgr[7651]:  	KeySlot <TV_POWER_ON> EMPTY
+2023 Jun 15 07:22:41.522186 controlMgr[7651]:  	KeySlot <TV_POWER_OFF> EMPTY
+2023 Jun 15 07:22:41.522248 controlMgr[7651]:  	KeySlot <AVR_POWER_TOGGLE> EMPTY
+2023 Jun 15 07:22:41.522334 controlMgr[7651]:  	KeySlot <AVR_POWER_OFF> EMPTY
+2023 Jun 15 07:22:41.522398 controlMgr[7651]:  	KeySlot <AVR_POWER_ON> EMPTY
+2023 Jun 15 07:22:41.522797 controlMgr[7651]:  	KeySlot <POWER_TOGGLE> EMPTY
+2023 Jun 15 07:22:41.522875 controlMgr[7651]:  	KeySlot <POWER_OFF> EMPTY
+2023 Jun 15 07:22:41.522983 controlMgr[7651]:  	KeySlot <POWER_ON> EMPTY
+2023 Jun 15 07:22:41.523046 controlMgr[7651]:  20230615 07:22:41:517 CTRLM : xconf_configuration
+2023 Jun 15 07:22:41.523114 controlMgr[7651]:  20230615 07:22:41:517 CTRLM : control_service_values_read_from_db: Open Chime Enabled read from DB <NO>
+2023 Jun 15 07:22:41.523178 controlMgr[7651]:  20230615 07:22:41:517 CTRLM : control_service_values_read_from_db: Close Chime Enabled read from DB <YES>
+2023 Jun 15 07:22:41.523242 controlMgr[7651]:  20230615 07:22:41:517 CTRLM : control_service_values_read_from_db: Privacy Chime Enabled read from DB <YES>
+2023 Jun 15 07:22:41.523330 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : control_service_values_read_from_db: Conversational Mode read from DB <6>
+2023 Jun 15 07:22:41.523395 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : control_service_values_read_from_db: Chime Volume read from DB <1>
+2023 Jun 15 07:22:41.523548 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : control_service_values_read_from_db: IR Command Repeats read from DB <3>
+2023 Jun 15 07:22:41.530119 controlMgr[7651]:  [33m20230615 07:22:41:518 CTRLM : WARN: cs_values_set: not implemented for BLE network
+2023 Jun 15 07:22:41.530199 controlMgr[7651]:  [0m20230615 07:22:41:518 CTRLM : ctrlm_main: init voice
+2023 Jun 15 07:22:41.530272 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : voice_configure_config_file_json: Configuring voice
+2023 Jun 15 07:22:41.585281 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : config_object_set: use default configuration
+2023 Jun 15 07:22:41.585387 controlMgr[7651]:  20230615 07:22:41:518 CTRLM : voice_configure_config_file_json: Reading voice settings from Voice DB
+2023 Jun 15 07:22:41.585485 controlMgr[7651]:  [33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_device_status: Failed to load device_status_0 from db
+2023 Jun 15 07:22:41.585550 controlMgr[7651]:  [0m[33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_device_status: Failed to load device_status_1 from db
+2023 Jun 15 07:22:41.585612 controlMgr[7651]:  [0m[33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_guide_language: Failed to load guide_language from voice db
+2023 Jun 15 07:22:41.585674 controlMgr[7651]:  [0m[33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_aspect_ratio: Failed to load aspect_ratio from voice db
+2023 Jun 15 07:22:41.585743 controlMgr[7651]:  [0m[33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_utterance_duration_min: Failed to load utterance_duration_min from db
+2023 Jun 15 07:22:41.585809 controlMgr[7651]:  [0m20230615 07:22:41:518 CTRLM : voice_configure_config_file_json: Voice SM contains 0 query strings
+2023 Jun 15 07:22:41.585872 controlMgr[7651]:  [33m20230615 07:22:41:518 CTRLM : WARN: ctrlm_db_voice_read_audio_ducking_beep_enable: Failed to load audio_ducking_beep_enable from db
+2023 Jun 15 07:22:41.588533 controlMgr[7651]:  [0m[33m20230615 07:22:41:519 CTRLM : WARN: ctrlm_db_voice_read_par_voice_status: Failed to load par_voice_status from db
+2023 Jun 15 07:22:41.597138 controlMgr[7651]:  [0m20230615 07:22:41:519 CTRLM : set_audio_mode: Audio Mode < MUTING >, Audio Timing < VSR >
+2023 Jun 15 07:22:41.597231 controlMgr[7651]:  20230615 07:22:41:519 CTRLM : process_xconf: Voice XCONF Settings
+2023 Jun 15 07:22:41.597369 controlMgr[7651]:  [31m20230615 07:22:41:526 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.AudioMode failed < Value is Empty>
+2023 Jun 15 07:22:41.597454 controlMgr[7651]:  [0m[31m20230615 07:22:41:547 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.AudioTiming failed < Value is Empty>
+2023 Jun 15 07:22:41.599754 controlMgr[7651]:  [0m[31m20230615 07:22:41:592 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.AudioConfidenceThreshold failed < Value is Empty>
+2023 Jun 15 07:22:41.615866 controlMgr[7651]:  [0m[31m20230615 07:22:41:615 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.AudioDuckingType failed < Value is Empty>
+2023 Jun 15 07:22:41.671459 controlMgr[7651]:  [0m[31m20230615 07:22:41:670 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.AudioDuckingLevel failed < Value is Empty>
+2023 Jun 15 07:22:41.677567 controlMgr[7651]:  [0m[31m20230615 07:22:41:677 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.KeywordSensitivity failed < Value is Empty>
+2023 Jun 15 07:22:41.688444 controlMgr[7651]:  [0m[31m20230615 07:22:41:687 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.Voice.VSDKConfiguration failed < Value is Empty>
+2023 Jun 15 07:22:41.708002 controlMgr[7651]:  [0m[31m20230615 07:22:41:707 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PressAndRelease.EOSTimeout failed < Value is Empty>
+2023 Jun 15 07:22:41.735523 controlMgr[7651]:  [0m[31m20230615 07:22:41:733 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.PressAndRelease.EOSMethod failed < Value is Empty>
+2023 Jun 15 07:22:41.753135 controlMgr[7651]:  [0m20230615 07:22:41:751 CTRLM : ctrlm_dsmgr_mute_audio: Audio is un-muted
+2023 Jun 15 07:22:41.754183 controlMgr[7651]:  20230615 07:22:41:752 XRSR : xrsr_open: xraudio json object not found, using defaults
+2023 Jun 15 07:22:41.754261 controlMgr[7651]:  20230615 07:22:41:752 XRSR : xrsr_open: http json object not found, using defaults
+2023 Jun 15 07:22:41.754326 controlMgr[7651]:  20230615 07:22:41:752 XRSR : xrsr_open: ws json object not found, using defaults
+2023 Jun 15 07:22:41.754390 controlMgr[7651]:  20230615 07:22:41:752 XRAUDIO : xraudio_object_create: json_obj_xraudio_config is null, using defaults
+2023 Jun 15 07:22:41.754529 controlMgr[7651]:  20230615 07:22:41:752 XRAUDIO : xraudio_hal_init: using default config
+2023 Jun 15 07:22:41.754597 controlMgr[7651]:  20230615 07:22:41:752 XRSR : xrsr_capture_config_apply: delete files <NO> enable <YES> curtail <NO> file qty max <2> size max <160044>
+2023 Jun 15 07:22:41.754662 controlMgr[7651]:  20230615 07:22:41:752 XRSR : xrsr_xraudio_internal_capture_params_set: file qty max <2> file size max <160044> dir path </opt/logs>
+2023 Jun 15 07:22:41.754726 controlMgr[7651]:  20230615 07:22:41:752 XRAUDIO : xraudio_internal_capture_params_set: file qty max <2> file size max <160044> dir path </opt/logs>
+2023 Jun 15 07:22:41.755638 controlMgr[7651]:  20230615 07:22:41:753 XRSR : xrsr_threads_init: Waiting for main thread initialization...
+2023 Jun 15 07:22:41.764456 controlMgr[7651]:  20230615 07:22:41:764 XRSR : xrsr_thread_main: Enter main loop
+2023 Jun 15 07:22:41.764957 controlMgr[7651]:  20230615 07:22:41:764 XRSR : xrsr_msg_route_update: removing all routes
+2023 Jun 15 07:22:41.765244 controlMgr[7651]:  20230615 07:22:41:765 XRSR : xrsr_xraudio_device_update: input <NONE> output <NONE>
+2023 Jun 15 07:22:41.766136 controlMgr[7651]:  20230615 07:22:41:765 CTRLM : voice_sdk_update_routes: url translation from vrngs://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket to wss://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket
+2023 Jun 15 07:22:41.766317 controlMgr[7651]:  [31m20230615 07:22:41:766 CTRLM : ERROR: voice_sdk_update_routes: unsupported url <ws://xr18x-prod.vrexcore.net:8080/vrex-xr18/speech/websocket>
+2023 Jun 15 07:22:41.766387 controlMgr[7651]:  [0m[31m20230615 07:22:41:766 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 2
+2023 Jun 15 07:22:41.766453 controlMgr[7651]:  [0m[31m20230615 07:22:41:766 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 3
+2023 Jun 15 07:22:41.766518 controlMgr[7651]:  [0m20230615 07:22:41:766 CTRLM : voice_sdk_update_routes: src <RCU_PTT>
+2023 Jun 15 07:22:41.766581 controlMgr[7651]:  20230615 07:22:41:766 CTRLM : voice_sdk_update_routes: dst <0> url <wss://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket>
+2023 Jun 15 07:22:41.766669 controlMgr[7651]:  20230615 07:22:41:766 XRSR : xrsr_route: 0: src <RCU_PTT>
+2023 Jun 15 07:22:41.766763 controlMgr[7651]:  20230615 07:22:41:766 XRSR : xrsr_route: dst <wss://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket> audio format <PCM>
+2023 Jun 15 07:22:41.767522 controlMgr[7651]:  20230615 07:22:41:767 XRSR : xrsr_msg_route_update: 0: src <RCU_PTT>
+2023 Jun 15 07:22:41.768801 controlMgr[7651]:  20230615 07:22:41:768 XRSR : xrsr_url_parse: unescaped url <wss://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket>
+2023 Jun 15 07:22:41.768982 controlMgr[7651]:  20230615 07:22:41:768 XRSR : xrsr_url_parse: url <wss://vrex-next-gen-api.vrexcore.net/vrex/speech/websocket> prot <WSS> user <NULL> host <vrex-next-gen-api.vrexcore.net> port_str <443> port_int <443> path </vrex/speech/websocket>
+2023 Jun 15 07:22:41.778330 controlMgr[7651]:  20230615 07:22:41:778 XRSR : xrsr_ws_update_dst_params: debug <YES> connect <50, 2000> inactivity <10000> session <5000> ipv4 fallback <YES> backoff delay <50>
+2023 Jun 15 07:22:41.783452 controlMgr[7651]:  20230615 07:22:41:778 XRSM : SmInit: wsSM Init: St_Ws_Disconnected
+2023 Jun 15 07:22:41.783569 controlMgr[7651]:  20230615 07:22:41:778 XRSR : xrsr_ws_init: host name <xrsr_route>
+2023 Jun 15 07:22:41.783639 controlMgr[7651]:  20230615 07:22:41:779 XRSR : xrsr_xraudio_device_update: input <PTT> output <NONE>
+2023 Jun 15 07:22:41.783707 controlMgr[7651]:  20230615 07:22:41:779 XRSR : xrsr_xraudio_device_close:
+2023 Jun 15 07:22:41.783775 controlMgr[7651]:  20230615 07:22:41:779 XRSR : xrsr_xraudio_device_granted:
+2023 Jun 15 07:22:41.783845 controlMgr[7651]:  20230615 07:22:41:779 XRAUDIO : xraudio_hal_capabilities_get: input <0> capabilities <PTT>
+2023 Jun 15 07:22:41.783965 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_hal_capabilities_get: input <1> capabilities <FF>
+2023 Jun 15 07:22:41.784061 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_open: devices: <PTT> <NONE>, resources: <INVALID> <INVALID>
+2023 Jun 15 07:22:41.784133 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_audio_hal_open: hal obj (nil) user count 0
+2023 Jun 15 07:22:41.784199 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_audio_hal_open: hal open obj
+2023 Jun 15 07:22:41.784272 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_audio_hal_open: hal obj 0xb357d094
+2023 Jun 15 07:22:41.784350 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_open: input sample rate 16000 Hz 16-bit mono privacy <NO>
+2023 Jun 15 07:22:41.784434 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_input_object_create: json_obj_input is null, using defaults
+2023 Jun 15 07:22:41.784504 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_hal_capabilities_get: input <0> capabilities <PTT>
+2023 Jun 15 07:22:41.784570 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_hal_capabilities_get: input <1> capabilities <FF>
+2023 Jun 15 07:22:41.784696 controlMgr[7651]:  20230615 07:22:41:780 XRAUDIO : xraudio_input_open: sample size <2> 16-bit pcm using <timing>
+2023 Jun 15 07:22:41.790303 controlMgr[7651]:  20230615 07:22:41:790 XRAUDIO : xraudio_main_thread: internal capture dir path </opt/logs> file qty max <2> file size max <160044> curtail <NO>
+2023 Jun 15 07:22:41.791113 controlMgr[7651]:  20230615 07:22:41:790 XRAUDIO : xraudio_main_thread: input AOP adjusted by <0.000000> dB (shifted right <0> bits)
+2023 Jun 15 07:22:41.802251 controlMgr[7651]:  20230615 07:22:41:801 XRSR : xrsr_xraudio_keyword_detect_start: phrase <HEY_XFINITY> sensitivity <0.300000>
+2023 Jun 15 07:22:41.802408 controlMgr[7651]:  20230615 07:22:41:802 XRAUDIO : xraudio_input_keyword_params: keyword sensitivity <0.300000> detecting <NO>
+2023 Jun 15 07:22:41.802595 controlMgr[7651]:  20230615 07:22:41:802 XRAUDIO : xraudio_main_thread: Enter main loop
+2023 Jun 15 07:22:41.802941 controlMgr[7651]:  20230615 07:22:41:802 XRAUDIO : xraudio_in_session_group_semaphore_unlock: group <DEFAULT>
+2023 Jun 15 07:22:41.803117 controlMgr[7651]:  20230615 07:22:41:803 CTRLM : query_strings_updated
+2023 Jun 15 07:22:41.803216 controlMgr[7651]:  20230615 07:22:41:803 CTRLM : ctrlm_main: networks init complete
+2023 Jun 15 07:22:41.827070 controlMgr[7651]:  20230615 07:22:41:823 CTRLM : ctrlm_db_thread: ctrlm DB backed up successfully
+2023 Jun 15 07:22:41.827204 controlMgr[7651]:  20230615 07:22:41:823 CTRLM : ctrlm_main: init xconf device list
+2023 Jun 15 07:22:41.827271 controlMgr[7651]:  20230615 07:22:41:823 CTRLM : ctrlm_main_update_export_controller_list: No controller information for XCONF
+2023 Jun 15 07:22:41.828938 controlMgr[7651]:  [31m20230615 07:22:41:828 CTRLM : ERROR: ctrlm_tr181_call_get: RFC get Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ThreadMonitorMinidump.Enable failed < Default Value>
+2023 Jun 15 07:22:41.829086 controlMgr[7651]:  [0m20230615 07:22:41:828 CTRLM : ctrlm_thread_monitor_init: Thread Monitor Minidump is <DISABLED> (TR181 not present)
+2023 Jun 15 07:22:41.829976 controlMgr[7651]:  .20230615 07:22:41:829 CTRLM : main: Keycode mask logging iarm <OFF>.
+2023 Jun 15 07:22:41.830053 controlMgr[7651]:  20230615 07:22:41:829 CTRLM : ctrlm_main: Enter main loop
+2023 Jun 15 07:22:41.830119 controlMgr[7651]:  20230615 07:22:41:829 CTRLM : ctrlm_hal_ble_DBusOnSignalReceivedCB: BleRcuDaemon "Ready" signal received
+2023 Jun 15 07:22:41.830184 controlMgr[7651]:  20230615 07:22:41:829 CTRLM : ctrlm_start_iarm : Register iarm calls and events
+2023 Jun 15 07:22:41.836806 controlMgr[7651]:  20230615 07:22:41:835 CTRLM : ctrlm_start_iarm: Notifying systemd of successful initialization
+2023 Jun 15 07:22:41.836941 controlMgr[7651]:  20230615 07:22:41:835 CTRLM : fetch_attributes: fetching RFC attributes
+2023 Jun 15 07:22:41.837021 controlMgr[7651]:  20230615 07:22:41:835 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.vsdk>
+2023 Jun 15 07:22:41.840809 controlMgr[7651]:  [31m20230615 07:22:41:840 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.vsdk> <22,  Value is Empty>
+2023 Jun 15 07:22:41.840985 controlMgr[7651]:  [0m20230615 07:22:41:840 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.voice>
+2023 Jun 15 07:22:41.866747 controlMgr[7651]:  [31m20230615 07:22:41:866 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.voice> <22,  Value is Empty>
+2023 Jun 15 07:22:41.866954 controlMgr[7651]:  [0m20230615 07:22:41:866 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_rf4ce>
+2023 Jun 15 07:22:41.873285 controlMgr[7651]:  [31m20230615 07:22:41:871 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_rf4ce> <22,  Value is Empty>
+2023 Jun 15 07:22:41.873424 controlMgr[7651]:  [0m20230615 07:22:41:871 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_ble>
+2023 Jun 15 07:22:41.879882 controlMgr[7651]:  [31m20230615 07:22:41:879 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_ble> <22,  Value is Empty>
+2023 Jun 15 07:22:41.881094 controlMgr[7651]:  [0m20230615 07:22:41:880 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_ip>
+2023 Jun 15 07:22:41.888960 controlMgr[7651]:  [31m20230615 07:22:41:888 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.network_ip> <22,  Value is Empty>
+2023 Jun 15 07:22:41.889091 controlMgr[7651]:  [0m20230615 07:22:41:888 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.global>
+2023 Jun 15 07:22:41.904269 controlMgr[7651]:  [31m20230615 07:22:41:899 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.global> <22,  Value is Empty>
+2023 Jun 15 07:22:41.904374 controlMgr[7651]:  [0m20230615 07:22:41:899 CTRLM : fetch_attributes: fetching <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.device_update>
+2023 Jun 15 07:22:41.904451 controlMgr[7651]:  [31m20230615 07:22:41:903 CTRLM : ERROR: tr181_call: rfc call failed for <Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.ctrlm.device_update> <22,  Value is Empty>
+2023 Jun 15 07:22:42.908309 controlMgr[7651]:  [0m20230615 07:22:42:905 CTRLM : ctrlm_main_thread: Time is correct, calling functions that depend on time at boot
+2023 Jun 15 07:22:42.908414 controlMgr[7651]:  20230615 07:22:42:905 CTRLM : set_timers
+2023 Jun 15 07:22:45.965543 controlMgr[7651]:  THUNDER - INFO: is_systemd_process_active: wpeframework is active
+2023 Jun 15 07:22:46.231579 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:46.346608 controlMgr[7651]:  THUNDER - INFO: on_thunder_ready: Thunder is now ready, create plugin client for org.rdk.HdmiInput.2
+2023 Jun 15 07:22:46.551061 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:46.553473 controlMgr[7651]:  THUNDER - INFO: on_thunder_ready: Thunder is now ready, create plugin client for org.rdk.HdmiCecSink.1
+2023 Jun 15 07:22:46.764886 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:46.768368 controlMgr[7651]:  THUNDER - INFO: on_thunder_ready: Thunder is now ready, create plugin client for org.rdk.RemoteControl.1
+2023 Jun 15 07:22:46.957747 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:47.005031 controlMgr[7651]:  THUNDER - INFO: on_thunder_ready: Thunder is now ready, create plugin client for org.rdk.RemoteActionMapping.1
+2023 Jun 15 07:22:47.168497 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:47.171912 controlMgr[7651]:  THUNDER - ERROR: get_plugin_state: Thunder call failed <22>
+2023 Jun 15 07:22:47.172089 controlMgr[7651]:  THUNDER - INFO: on_thunder_ready: Thunder is now ready, create plugin client for org.rdk.AuthService.1
+2023 Jun 15 07:22:47.332063 controlMgr[7651]:  THUNDER - INFO: get_security_token: Security Token retrieved successfully
+2023 Jun 15 07:22:47.335985 controlMgr[7651]:  20230615 07:22:47:335 CTRLM : ctrlm_timeout_systemd_restart_delay: Timeout - Update systemd restart delay to 0
+2023 Jun 15 07:22:47.436768 controlMgr[7651]:  THUNDER - INFO: on_plugin_activated: Authservice activated, registering events
+2023 Jun 15 07:22:48.346520 controlMgr[7651]:  20230615 07:22:48:345 CTRLM : ctrlm_load_authservice_data: load receiver id
+2023 Jun 15 07:22:48.467420 controlMgr[7651]:  20230615 07:22:48:466 CTRLM : ctrlm_load_authservice_data: load receiver id successfully <6859a0d1-4309-4bb2-b08e-7cf631a2c989>
+2023 Jun 15 07:22:48.467490 controlMgr[7651]:  20230615 07:22:48:466 CTRLM : ctrlm_load_authservice_data: load device id
+2023 Jun 15 07:22:48.469799 controlMgr[7651]:  20230615 07:22:48:469 CTRLM : ctrlm_load_authservice_data: load device id successfully <3802459901962338005>
+2023 Jun 15 07:22:48.469956 controlMgr[7651]:  20230615 07:22:48:469 CTRLM : ctrlm_load_authservice_data: load account id
+2023 Jun 15 07:22:48.472719 controlMgr[7651]:  20230615 07:22:48:472 CTRLM : ctrlm_load_authservice_data: load account id successfully <3120539011156101601>
+2023 Jun 15 07:22:48.472833 controlMgr[7651]:  20230615 07:22:48:472 CTRLM : ctrlm_load_authservice_data: load partner id
+2023 Jun 15 07:22:48.596123 controlMgr[7651]:  20230615 07:22:48:595 CTRLM : ctrlm_load_authservice_data: load partner id successfully <xglobal>
+2023 Jun 15 07:22:48.596237 controlMgr[7651]:  20230615 07:22:48:596 CTRLM : ctrlm_load_authservice_data: load experience
+2023 Jun 15 07:22:48.599542 controlMgr[7651]:  20230615 07:22:48:599 CTRLM : ctrlm_load_authservice_data: load experience successfully <FlexV2>
+2023 Jun 15 07:22:48.599657 controlMgr[7651]:  20230615 07:22:48:599 CTRLM : ctrlm_load_authservice_data: load sat token
+2023 Jun 15 07:22:48.733554 controlMgr[7651]:  20230615 07:22:48:733 CTRLM : ctrlm_load_service_access_token: SAT Token retrieved and expires in 258930 seconds
+2023 Jun 15 07:22:48.733669 controlMgr[7651]:  20230615 07:22:48:733 CTRLM : ctrlm_load_authservice_data: load sat token successfully
+2023 Jun 15 07:22:50.140773 controlMgr[7651]:  THUNDER - INFO: on_plugin_activated: RemoteControl activated, registering events
+2023 Jun 15 07:22:50.411845 controlMgr[7651]:  20230615 07:22:50:411 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:22:50.411944 controlMgr[7651]:  20230615 07:22:50:411 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:22:50.412903 controlMgr[7651]:  20230615 07:22:50:412 CTRLM : IARM_Result_t ctrlm_main_iarm_call_write_rcu_wakeup_config(void*): Enter...
+2023 Jun 15 07:22:50.413015 controlMgr[7651]:  [31m20230615 07:22:50:412 CTRLM : ERROR: req_process_write_rcu_wakeup_config: No BLE paired and connected remotes!
+2023 Jun 15 07:22:50.619639 controlMgr[7651]:  [0mTHUNDER - INFO: on_plugin_activated: HdmiInput activated, registering events
+2023 Jun 15 07:22:50.677521 controlMgr[7651]:  THUNDER - INFO: check_device_list: {"devices":[{"id":0,"locator":"hdmiin:\/\/localhost\/deviceid\/0","connected":"true"},{"id":1,"locator":"hdmiin:\/\/localhost\/deviceid\/1","connected":"true"},{"id":2,"locator":"hdmiin:\/\/localhost\/deviceid\/2","connected":"false"}],"success":true}
+2023 Jun 15 07:22:50.677618 controlMgr[7651]:  THUNDER - INFO: _get_infoframe: Calling HDMIInput for infoframe data for port 0
+2023 Jun 15 07:22:50.836756 controlMgr[7651]:  THUNDER - ERROR: _get_infoframe: Infoframe string is empty!
+2023 Jun 15 07:22:50.836828 controlMgr[7651]:  THUNDER - INFO: _get_infoframe: Calling HDMIInput for infoframe data for port 1
+2023 Jun 15 07:22:51.298615 controlMgr[7651]:  THUNDER - ERROR: _get_infoframe: Infoframe string is empty!
+2023 Jun 15 07:22:51.298735 controlMgr[7651]:  THUNDER - INFO: _clear_infoframe: Clearing infoframe data from cache for port 2
+2023 Jun 15 07:22:51.298800 controlMgr[7651]:  THUNDER - INFO: on_plugin_activated: HdmiCecSink activated, registering events
+2023 Jun 15 07:22:51.301889 controlMgr[7651]:  THUNDER - INFO: _update_cec_devices: Calling CECSink for device data
+2023 Jun 15 07:22:52.511470 controlMgr[7651]:  20230615 07:22:52:510 CTRLM : ctrlm_event_handler_power_pre_change: Power State set to ON >
+2023 Jun 15 07:22:52.511638 controlMgr[7651]:  20230615 07:22:52:510 CTRLM : ctrlm_main_thread: enter power state ON
+2023 Jun 15 07:22:52.511737 controlMgr[7651]:  20230615 07:22:52:511 XRSR : xrsr_msg_power_mode_update: power mode <FULL>
+2023 Jun 15 07:22:52.511801 controlMgr[7651]:  20230615 07:22:52:511 XRSR : xrsr_ws_update_dst_params: debug <YES> connect <50, 2000> inactivity <10000> session <5000> ipv4 fallback <YES> backoff delay <50>
+2023 Jun 15 07:22:52.511888 controlMgr[7651]:  20230615 07:22:52:511 XRSR : xrsr_xraudio_device_close:
+2023 Jun 15 07:22:52.511950 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : main_thread_terminate: Waiting for main thread termination...
+2023 Jun 15 07:22:52.512010 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_msg_terminate:
+2023 Jun 15 07:22:52.512069 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : main_thread_terminate: Waiting for thread to exit
+2023 Jun 15 07:22:52.513882 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : main_thread_terminate: thread exited.
+2023 Jun 15 07:22:52.513979 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_audio_hal_close: hal obj 0xb357d094 user count 1
+2023 Jun 15 07:22:52.514041 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_audio_hal_close:
+2023 Jun 15 07:22:52.514101 controlMgr[7651]:  20230615 07:22:52:511 XRSR : xrsr_xraudio_device_granted:
+2023 Jun 15 07:22:52.514160 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_hal_capabilities_get: input <0> capabilities <PTT>
+2023 Jun 15 07:22:52.514220 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_hal_capabilities_get: input <1> capabilities <FF>
+2023 Jun 15 07:22:52.514280 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_open: devices: <PTT> <NONE>, resources: <INVALID> <INVALID>
+2023 Jun 15 07:22:52.514341 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_audio_hal_open: hal obj (nil) user count 0
+2023 Jun 15 07:22:52.514400 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_audio_hal_open: hal open obj
+2023 Jun 15 07:22:52.514472 controlMgr[7651]:  20230615 07:22:52:511 XRAUDIO : xraudio_audio_hal_open: hal obj 0xb357d094
+2023 Jun 15 07:22:52.514533 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_open: input sample rate 16000 Hz 16-bit mono privacy <NO>
+2023 Jun 15 07:22:52.514593 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_input_object_create: json_obj_input is null, using defaults
+2023 Jun 15 07:22:52.514653 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_hal_capabilities_get: input <0> capabilities <PTT>
+2023 Jun 15 07:22:52.514713 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_hal_capabilities_get: input <1> capabilities <FF>
+2023 Jun 15 07:22:52.514785 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_input_open: sample size <2> 16-bit pcm using <timing>
+2023 Jun 15 07:22:52.514846 controlMgr[7651]:  20230615 07:22:52:512 XRAUDIO : xraudio_main_thread: internal capture dir path </opt/logs> file qty max <2> file size max <160044> curtail <NO>
+2023 Jun 15 07:22:52.514907 controlMgr[7651]:  20230615 07:22:52:513 XRAUDIO : xraudio_main_thread: input AOP adjusted by <0.000000> dB (shifted right <0> bits)
+2023 Jun 15 07:22:52.514984 controlMgr[7651]:  20230615 07:22:52:513 XRAUDIO : xraudio_main_thread: Enter main loop
+2023 Jun 15 07:22:52.515045 controlMgr[7651]:  20230615 07:22:52:513 XRSR : xrsr_xraudio_keyword_detect_start: phrase <HEY_XFINITY> sensitivity <0.300000>
+2023 Jun 15 07:22:52.515105 controlMgr[7651]:  20230615 07:22:52:513 XRAUDIO : xraudio_in_session_group_semaphore_unlock: group <DEFAULT>
+2023 Jun 15 07:22:52.515165 controlMgr[7651]:  20230615 07:22:52:513 XRAUDIO : xraudio_input_keyword_params: keyword sensitivity <0.300000> detecting <NO>
+2023 Jun 15 07:22:53.254182 controlMgr[7651]:  20230615 07:22:53:253 CTRLM : event_handler: SAT Token Changed.. Invalidate SAT
+2023 Jun 15 07:22:53.254254 controlMgr[7651]:  20230615 07:22:53:253 CTRLM : ctrlm_main_invalidate_service_access_token: Invalidating SAT Token...
+2023 Jun 15 07:22:54.261267 controlMgr[7651]:  20230615 07:22:54:260 CTRLM : ctrlm_load_authservice_data: load sat token
+2023 Jun 15 07:22:54.309354 controlMgr[7651]:  20230615 07:22:54:309 CTRLM : ctrlm_load_service_access_token: SAT Token retrieved and expires in 259199 seconds
+2023 Jun 15 07:22:54.309473 controlMgr[7651]:  20230615 07:22:54:309 CTRLM : ctrlm_load_authservice_data: load sat token successfully
+2023 Jun 15 07:22:59.561461 controlMgr[7651]:  THUNDER - INFO: on_device_updated: CEC Device changed
+2023 Jun 15 07:22:59.561582 controlMgr[7651]:  THUNDER - INFO: _update_cec_devices: Calling CECSink for device data
+2023 Jun 15 07:23:02.199609 controlMgr[7651]:  20230615 07:23:02:194 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:23:02.199711 controlMgr[7651]:  20230615 07:23:02:194 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:23:02.199772 controlMgr[7651]:  20230615 07:23:02:196 CTRLM : initialize_irdb:
+2023 Jun 15 07:23:02.199834 controlMgr[7651]:  20230615 07:23:02:196 CTRLM : initialize_irdb: RemoteControl plugin is activated, initialize QSDK
+2023 Jun 15 07:23:02.209294 controlMgr[7651]:  20230615 07:23:02:208 CTRLM : initialize_thread: Initializing IRDB, attempt <1>
+2023 Jun 15 07:23:02.283087 controlMgr[7651]:  THUNDER - ERROR: get_plugin_state: Thunder call failed <22>
+2023 Jun 15 07:23:02.283241 controlMgr[7651]:  20230615 07:23:02:282 CTRLM : initialize_thread: RAMS is not active, we are OK
+2023 Jun 15 07:23:02.283312 controlMgr[7651]:  QS:QSP_start: Entry QSP_start, config_path: /etc/uaNPZp/cmd_auto.conf
+2023 Jun 15 07:23:02.286397 controlMgr[7651]:  20230615 07:23:02:286 CTRLM : ctrlm_irdb_uei_log: QSDK --
+2023 Jun 15 07:23:02.286473 controlMgr[7651]:  Quickset start
+2023 Jun 15 07:23:02.286536 controlMgr[7651]:  20230615 07:23:02:286 CTRLM : ctrlm_irdb_uei_log: QSDK -- Rev : v3.9.8.8b59a472_RC1 -
+2023 Jun 15 07:23:02.286623 controlMgr[7651]:    DB Rev: (null)
+2023 Jun 15 07:23:02.289588 controlMgr[7651]:  20230615 07:23:02:289 CTRLM : ctrlm_irdb_uei_log: QSDK -- discovery_get_host_device_act_type returns type:-1
+2023 Jun 15 07:23:02.289713 controlMgr[7651]:  20230615 07:23:02:289 CTRLM : ctrlm_irdb_uei_log: QSDK -- HOST IDX NOT FOUND
+2023 Jun 15 07:23:02.307174 controlMgr[7651]:  20230615 07:23:02:306 CTRLM : ctrlm_irdb_uei_log: QSDK -- qs_start takes 0 s, 16 ms
+2023 Jun 15 07:23:02.307343 controlMgr[7651]:  20230615 07:23:02:306 CTRLM : ctrlm_irdb_uei_log: QSDK -- cec_module_init failed cec_interface_open 0x35
+2023 Jun 15 07:23:02.309085 controlMgr[7651]:  20230615 07:23:02:308 CTRLM : ctrlm_irdb_uei_log: QSDK --  discovery_module_create leave finally !
+2023 Jun 15 07:23:02.309284 controlMgr[7651]:  20230615 07:23:02:308 CTRLM : ctrlm_irdb_uei_log: QSDK -- discovery_get_host_device_act_type type:0
+2023 Jun 15 07:23:02.309393 controlMgr[7651]:  20230615 07:23:02:308 CTRLM : ctrlm_irdb_uei_log: QSDK -- discovery_get_host_device_act_type returns type:0
+2023 Jun 15 07:23:02.317335 controlMgr[7651]:  20230615 07:23:02:317 CTRLM : ctrlm_irdb_uei_log: QSDK -- xml config event, no xml data in payload!
+2023 Jun 15 07:23:02.767533 controlMgr[7651]:  20230615 07:23:02:766 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP sent buf *******: {"oemId":"Comcast_Platco_TV","productId":"QS-Comcast Platco TV Remote 2020","userId":"nN8Civ03OMFAZlQtLd5jXwJoC54lw9ku7ru7PPpJSXMU1BBnmwy2iM37fleaje/S8yfGK6NIjGltS7JGfKTbzhprfKGX6NB7wE3KF5BQqT/tzzvIrIwz2eOLVj7D4nwjtZRaC35Q5KUGQL2DobllNvkdhbzFYTm7xkjqXGBDGkAtiHCO4Yq6ahD/AebMuIPQENjdrMOfzZzzoD3ijMtinZIDuJZkZvJF73YSfa299LXpijkECQh8YQqJQXZ+ejgCBqZrn64pYk6fFHwURdlPM3NqkN44e0wCqgv4GOljcAAs1sJG8JbNeDKUHTa2hDA9ePdv77r+MWfupsus+lB7Bg=="}
+2023 Jun 15 07:23:02.767652 controlMgr[7651]:  20230615 07:23:02:766 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP received buf ***: {"CreateUserResult":0,"ueiRc":"0FDB269F-2B3B-4D66-B9B6-4B3CCA3A9C12"}
+2023 Jun 15 07:23:03.176002 controlMgr[7651]:  20230615 07:23:03:175 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP sent buf *******: {"ueiRc":"0FDB269F-2B3B-4D66-B9B6-4B3CCA3A9C12","configType":""}
+2023 Jun 15 07:23:03.176130 controlMgr[7651]:  20230615 07:23:03:175 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP received buf ***: {"GetMyConfigurationDataListResult":0,"configIds":null,"configTypes":null,"configNames":null,"resultLength":0}
+2023 Jun 15 07:23:03.177925 controlMgr[7651]:  20230615 07:23:03:177 CTRLM : initialize_thread: Started QSP successfully.
+2023 Jun 15 07:23:03.546654 controlMgr[7651]:  20230615 07:23:03:546 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP sent buf *******: {"oemId":"Comcast_Platco_TV","productId":"QS-Comcast Platco TV Remote 2020","userId":"nN8Civ03OMFAZlQtLd5jXwJoC54lw9ku7ru7PPpJSXMU1BBnmwy2iM37fleaje/S8yfGK6NIjGltS7JGfKTbzhprfKGX6NB7wE3KF5BQqT/tzzvIrIwz2eOLVj7D4nwjtZRaC35Q5KUGQL2DobllNvkdhbzFYTm7xkjqXGBDGkAtiHCO4Yq6ahD/AebMuIPQENjdrMOfzZzzoD3ijMtinZIDuJZkZvJF73YSfa299LXpijkECQh8YQqJQXZ+ejgCBqZrn64pYk6fFHwURdlPM3NqkN44e0wCqgv4GOljcAAs1sJG8JbNeDKUHTa2hDA9ePdv77r+MWfupsus+lB7Bg=="}
+2023 Jun 15 07:23:03.546779 controlMgr[7651]:  20230615 07:23:03:546 CTRLM : ctrlm_irdb_uei_log: QSDK -- QS:HTTP received buf ***: {"CreateUserResult":0,"ueiRc":"0FDB269F-2B3B-4D66-B9B6-4B3CCA3A9C12"}
+2023 Jun 15 07:23:03.546925 controlMgr[7651]:  20230615 07:23:03:546 CTRLM : initialize_thread: Initialization Complete: Version v3.9.8.8b59a472_RC1
+2023 Jun 15 07:23:03.546993 controlMgr[7651]:  20230615 07:23:03:546 CTRLM : initialize_irdb: sem_timedwait() succeeded
+2023 Jun 15 07:23:03.580942 controlMgr[7651]:  20230615 07:23:03:574 CTRLM : config_value_get: enable                    - PRESENT <true>
+2023 Jun 15 07:23:03.581095 controlMgr[7651]:  20230615 07:23:03:574 CTRLM : voice_configure: Voice Control is <ENABLED>
+2023 Jun 15 07:23:03.581254 controlMgr[7651]:  [33m20230615 07:23:03:574 CTRLM : WARN: voice_device_enable: already enabled
+2023 Jun 15 07:23:03.581360 controlMgr[7651]:  [0m[33m20230615 07:23:03:574 CTRLM : WARN: voice_device_enable: already enabled
+2023 Jun 15 07:23:03.581441 controlMgr[7651]:  [0m20230615 07:23:03:575 CTRLM : config_value_get: urlAll                    - ABSENT
+2023 Jun 15 07:23:03.581510 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_value_get: urlPtt                    - PRESENT <vrngs://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:23:03.581712 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_value_get: urlHf                     - ABSENT
+2023 Jun 15 07:23:03.581795 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_value_get: prv                       - ABSENT
+2023 Jun 15 07:23:03.581896 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_object_get: ptt                       - ABSENT
+2023 Jun 15 07:23:03.581968 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_object_get: ff                        - ABSENT
+2023 Jun 15 07:23:03.582036 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : config_value_get: wwFeedback                - ABSENT
+2023 Jun 15 07:23:03.582103 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : voice_sdk_update_routes: url translation from vrngs://platco.vrex.comcast.net/vrex/speech/websocket to wss://platco.vrex.comcast.net/vrex/speech/websocket
+2023 Jun 15 07:23:03.582202 controlMgr[7651]:  [31m20230615 07:23:03:575 CTRLM : ERROR: voice_sdk_update_routes: unsupported url <ws://xr18x-prod.vrexcore.net:8080/vrex-xr18/speech/websocket>
+2023 Jun 15 07:23:03.582276 controlMgr[7651]:  [0m[31m20230615 07:23:03:575 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 2
+2023 Jun 15 07:23:03.582341 controlMgr[7651]:  [0m[31m20230615 07:23:03:575 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 3
+2023 Jun 15 07:23:03.582406 controlMgr[7651]:  [0m20230615 07:23:03:575 CTRLM : voice_sdk_update_routes: src <RCU_PTT>
+2023 Jun 15 07:23:03.582474 controlMgr[7651]:  20230615 07:23:03:575 CTRLM : voice_sdk_update_routes: dst <0> url <wss://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:23:03.582540 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_route: 0: src <RCU_PTT>
+2023 Jun 15 07:23:03.582604 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_route: dst <wss://platco.vrex.comcast.net/vrex/speech/websocket> audio format <PCM>
+2023 Jun 15 07:23:03.582671 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_msg_route_update: 0: src <RCU_PTT>
+2023 Jun 15 07:23:03.582778 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_ws_term:
+2023 Jun 15 07:23:03.585193 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_url_parse: unescaped url <wss://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:23:03.585311 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_url_parse: url <wss://platco.vrex.comcast.net/vrex/speech/websocket> prot <WSS> user <NULL> host <platco.vrex.comcast.net> port_str <443> port_int <443> path </vrex/speech/websocket>
+2023 Jun 15 07:23:03.585387 controlMgr[7651]:  20230615 07:23:03:575 XRSR : xrsr_ws_update_dst_params: debug <YES> connect <50, 2000> inactivity <10000> session <5000> ipv4 fallback <YES> backoff delay <50>
+2023 Jun 15 07:23:03.585451 controlMgr[7651]:  20230615 07:23:03:576 XRSM : SmInit: wsSM Init: St_Ws_Disconnected
+2023 Jun 15 07:23:03.585517 controlMgr[7651]:  20230615 07:23:03:576 XRSR : xrsr_ws_init: host name <xrsr_route>
+2023 Jun 15 07:23:03.585586 controlMgr[7651]:  20230615 07:23:03:576 XRSR : xrsr_xraudio_device_update: input <PTT> output <NONE>
+2023 Jun 15 07:23:03.809118 controlMgr[7651]:  20230615 07:23:03:808 CTRLM : voice_init_set: Endpoint does not support this.
+2023 Jun 15 07:23:03.809236 controlMgr[7651]:  20230615 07:23:03:808 CTRLM : voice_init_set: Endpoint does not support this.
+2023 Jun 15 07:23:03.995109 controlMgr[7651]:  20230615 07:23:03:993 CTRLM : event_handler: SAT Token Changed.. Invalidate SAT
+2023 Jun 15 07:23:03.995191 controlMgr[7651]:  20230615 07:23:03:993 CTRLM : ctrlm_main_invalidate_service_access_token: Invalidating SAT Token...
+2023 Jun 15 07:23:04.068242 controlMgr[7651]:  20230615 07:23:04:068 CTRLM : event_handler: Account ID Changed.. Set new Account ID
+2023 Jun 15 07:23:04.999867 controlMgr[7651]:  20230615 07:23:04:999 CTRLM : ctrlm_load_authservice_data: load sat token
+2023 Jun 15 07:23:05.045732 controlMgr[7651]:  20230615 07:23:05:045 CTRLM : ctrlm_load_service_access_token: SAT Token retrieved and expires in 259198 seconds
+2023 Jun 15 07:23:05.045864 controlMgr[7651]:  20230615 07:23:05:045 CTRLM : ctrlm_load_authservice_data: load sat token successfully
+2023 Jun 15 07:23:08.418681 controlMgr[7651]:  20230615 07:23:08:414 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:23:08.418780 controlMgr[7651]:  20230615 07:23:08:414 CTRLM : write_db: writing blob last_key_time to table ir_controller
+2023 Jun 15 07:23:08.419289 controlMgr[7651]:  20230615 07:23:08:418 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:23:08.419357 controlMgr[7651]:  20230615 07:23:08:418 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686813788000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:23:08.420320 controlMgr[7651]:  20230615 07:23:08:420 CTRLM : write_db: Last Keypress Time written to database: 1686813788
+2023 Jun 15 07:23:08.420454 controlMgr[7651]:  20230615 07:23:08:420 CTRLM : write_db: writing blob last_key_code to table ir_controller
+2023 Jun 15 07:23:08.426073 controlMgr[7651]:  20230615 07:23:08:425 CTRLM : write_db: Last Keypress Code written to database: 102
+2023 Jun 15 07:23:08.561239 controlMgr[7651]:  THUNDER - INFO: on_device_updated: CEC Device changed
+2023 Jun 15 07:23:08.561410 controlMgr[7651]:  THUNDER - INFO: _update_cec_devices: Calling CECSink for device data
+2023 Jun 15 07:23:08.658902 controlMgr[7651]:  20230615 07:23:08:656 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:23:19.184179 controlMgr[7651]:  THUNDER - INFO: on_device_status_change: Device status changed <STARTED>
+2023 Jun 15 07:23:19.184288 controlMgr[7651]:  THUNDER - INFO: on_device_status_change: Acquiring new infoframe data
+2023 Jun 15 07:23:19.184382 controlMgr[7651]:  THUNDER - INFO: _get_infoframe: Calling HDMIInput for infoframe data for port 1
+2023 Jun 15 07:23:23.082203 controlMgr[7651]:  THUNDER - INFO: on_device_status_change: Device status changed <STOPPED>
+2023 Jun 15 07:23:23.082316 controlMgr[7651]:  THUNDER - INFO: on_device_status_change: Purposely doing nothing when status is stopped
+2023 Jun 15 07:24:59.652940 controlMgr[7651]:  ..20230615 07:24:59:652 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:24:59.653073 controlMgr[7651]:  20230615 07:24:59:652 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:24:59.655816 controlMgr[7651]:  20230615 07:24:59:655 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:24:59.655919 controlMgr[7651]:  20230615 07:24:59:655 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:24:59.658893 controlMgr[7651]:  20230615 07:24:59:658 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:24:59.658982 controlMgr[7651]:  20230615 07:24:59:658 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:29:38.076502 controlMgr[7651]:  ....20230615 07:29:38:075 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:29:38.080152 controlMgr[7651]:  20230615 07:29:38:077 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:29:38.080240 controlMgr[7651]:  20230615 07:29:38:077 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814178000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:29:38.316472 controlMgr[7651]:  20230615 07:29:38:315 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:30:59.274639 controlMgr[7651]:  ..20230615 07:30:59:272 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:30:59.276051 controlMgr[7651]:  20230615 07:30:59:275 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:30:59.276131 controlMgr[7651]:  20230615 07:30:59:275 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814259000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:30:59.520883 controlMgr[7651]:  20230615 07:30:59:520 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:31:01.670540 controlMgr[7651]:  20230615 07:31:01:664 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:31:01.670625 controlMgr[7651]:  20230615 07:31:01:666 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:31:01.670722 controlMgr[7651]:  20230615 07:31:01:666 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814261000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:31:01.909038 controlMgr[7651]:  20230615 07:31:01:907 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:31:11.335007 controlMgr[7651]:  20230615 07:31:11:332 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:31:11.335142 controlMgr[7651]:  20230615 07:31:11:334 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:31:11.335232 controlMgr[7651]:  20230615 07:31:11:334 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814271000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:31:11.577455 controlMgr[7651]:  20230615 07:31:11:575 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:31:45.518026 controlMgr[7651]:  .20230615 07:31:45:516 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <202> (Unknown key), status = <DOWN>
+2023 Jun 15 07:31:45.704130 controlMgr[7651]:  20230615 07:31:45:703 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <202> (Unknown key), status = <UP>
+2023 Jun 15 07:31:45.949894 controlMgr[7651]:  20230615 07:31:45:949 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <2> (1 key), status = <DOWN>
+2023 Jun 15 07:31:46.136338 controlMgr[7651]:  20230615 07:31:46:135 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <2> (1 key), status = <UP>
+2023 Jun 15 07:31:46.403061 controlMgr[7651]:  20230615 07:31:46:402 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <DOWN>
+2023 Jun 15 07:31:46.594551 controlMgr[7651]:  20230615 07:31:46:592 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <UP>
+2023 Jun 15 07:31:46.857280 controlMgr[7651]:  20230615 07:31:46:856 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <7> (6 key), status = <DOWN>
+2023 Jun 15 07:31:47.049588 controlMgr[7651]:  20230615 07:31:47:048 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <7> (6 key), status = <UP>
+2023 Jun 15 07:31:47.300201 controlMgr[7651]:  20230615 07:31:47:299 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <DOWN>
+2023 Jun 15 07:31:47.489829 controlMgr[7651]:  20230615 07:31:47:487 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <UP>
+2023 Jun 15 07:32:15.986682 controlMgr[7651]:  20230615 07:32:15:984 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <202> (Unknown key), status = <DOWN>
+2023 Jun 15 07:32:16.171990 controlMgr[7651]:  20230615 07:32:16:171 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <202> (Unknown key), status = <UP>
+2023 Jun 15 07:32:21.423901 controlMgr[7651]:  20230615 07:32:21:421 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <2> (1 key), status = <DOWN>
+2023 Jun 15 07:32:21.613238 controlMgr[7651]:  20230615 07:32:21:612 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <2> (1 key), status = <UP>
+2023 Jun 15 07:32:26.827116 controlMgr[7651]:  20230615 07:32:26:825 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <DOWN>
+2023 Jun 15 07:32:27.013482 controlMgr[7651]:  20230615 07:32:27:012 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <UP>
+2023 Jun 15 07:32:32.223207 controlMgr[7651]:  20230615 07:32:32:221 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <7> (6 key), status = <DOWN>
+2023 Jun 15 07:32:32.412458 controlMgr[7651]:  20230615 07:32:32:411 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <7> (6 key), status = <UP>
+2023 Jun 15 07:32:37.656524 controlMgr[7651]:  20230615 07:32:37:654 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <DOWN>
+2023 Jun 15 07:32:37.844665 controlMgr[7651]:  20230615 07:32:37:843 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <10> (9 key), status = <UP>
+2023 Jun 15 07:32:45.109196 controlMgr[7651]:  .20230615 07:32:45:108 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:32:45.109294 controlMgr[7651]:  20230615 07:32:45:108 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:32:45.109515 controlMgr[7651]:  20230615 07:32:45:109 CTRLM : IARM_Result_t ctrlm_main_iarm_call_write_rcu_wakeup_config(void*): Enter...
+2023 Jun 15 07:32:45.109639 controlMgr[7651]:  [31m20230615 07:32:45:109 CTRLM : ERROR: req_process_write_rcu_wakeup_config: No BLE paired and connected remotes!
+2023 Jun 15 07:32:55.027968 controlMgr[7651]:  [0m20230615 07:32:55:021 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:32:55.028093 controlMgr[7651]:  20230615 07:32:55:021 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:32:55.028181 controlMgr[7651]:  20230615 07:32:55:026 CTRLM : initialize_irdb:
+2023 Jun 15 07:32:55.689386 controlMgr[7651]:  20230615 07:32:55:687 CTRLM : config_value_get: enable                    - PRESENT <true>
+2023 Jun 15 07:32:55.689508 controlMgr[7651]:  20230615 07:32:55:687 CTRLM : voice_configure: Voice Control is <ENABLED>
+2023 Jun 15 07:32:55.689608 controlMgr[7651]:  [33m20230615 07:32:55:688 CTRLM : WARN: voice_device_enable: already enabled
+2023 Jun 15 07:32:55.689675 controlMgr[7651]:  [0m[33m20230615 07:32:55:688 CTRLM : WARN: voice_device_enable: already enabled
+2023 Jun 15 07:32:55.689735 controlMgr[7651]:  [0m20230615 07:32:55:688 CTRLM : config_value_get: urlAll                    - ABSENT
+2023 Jun 15 07:32:55.689800 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_value_get: urlPtt                    - PRESENT <vrngs://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:32:55.689872 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_value_get: urlHf                     - ABSENT
+2023 Jun 15 07:32:55.689939 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_value_get: prv                       - ABSENT
+2023 Jun 15 07:32:55.690000 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_object_get: ptt                       - ABSENT
+2023 Jun 15 07:32:55.690060 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_object_get: ff                        - ABSENT
+2023 Jun 15 07:32:55.690136 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : config_value_get: wwFeedback                - ABSENT
+2023 Jun 15 07:32:55.690196 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : voice_sdk_update_routes: url translation from vrngs://platco.vrex.comcast.net/vrex/speech/websocket to wss://platco.vrex.comcast.net/vrex/speech/websocket
+2023 Jun 15 07:32:55.690256 controlMgr[7651]:  [31m20230615 07:32:55:688 CTRLM : ERROR: voice_sdk_update_routes: unsupported url <ws://xr18x-prod.vrexcore.net:8080/vrex-xr18/speech/websocket>
+2023 Jun 15 07:32:55.690316 controlMgr[7651]:  [0m[31m20230615 07:32:55:688 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 2
+2023 Jun 15 07:32:55.690375 controlMgr[7651]:  [0m[31m20230615 07:32:55:688 CTRLM : ERROR: xrsr_to_voice_device: unrecognized device type 3
+2023 Jun 15 07:32:55.690466 controlMgr[7651]:  [0m20230615 07:32:55:688 CTRLM : voice_sdk_update_routes: src <RCU_PTT>
+2023 Jun 15 07:32:55.690532 controlMgr[7651]:  20230615 07:32:55:688 CTRLM : voice_sdk_update_routes: dst <0> url <wss://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:32:55.690602 controlMgr[7651]:  20230615 07:32:55:688 XRSR : xrsr_route: 0: src <RCU_PTT>
+2023 Jun 15 07:32:55.690663 controlMgr[7651]:  20230615 07:32:55:688 XRSR : xrsr_route: dst <wss://platco.vrex.comcast.net/vrex/speech/websocket> audio format <PCM>
+2023 Jun 15 07:32:55.690723 controlMgr[7651]:  20230615 07:32:55:688 XRSR : xrsr_msg_route_update: 0: src <RCU_PTT>
+2023 Jun 15 07:32:55.690789 controlMgr[7651]:  20230615 07:32:55:688 XRSR : xrsr_ws_term:
+2023 Jun 15 07:32:55.690944 controlMgr[7651]:  20230615 07:32:55:688 XRSR : xrsr_url_parse: unescaped url <wss://platco.vrex.comcast.net/vrex/speech/websocket>
+2023 Jun 15 07:32:55.691055 controlMgr[7651]:  20230615 07:32:55:689 XRSR : xrsr_url_parse: url <wss://platco.vrex.comcast.net/vrex/speech/websocket> prot <WSS> user <NULL> host <platco.vrex.comcast.net> port_str <443> port_int <443> path </vrex/speech/websocket>
+2023 Jun 15 07:32:55.691149 controlMgr[7651]:  20230615 07:32:55:689 XRSR : xrsr_ws_update_dst_params: debug <YES> connect <50, 2000> inactivity <10000> session <5000> ipv4 fallback <YES> backoff delay <50>
+2023 Jun 15 07:32:55.691220 controlMgr[7651]:  20230615 07:32:55:689 XRSM : SmInit: wsSM Init: St_Ws_Disconnected
+2023 Jun 15 07:32:55.691283 controlMgr[7651]:  20230615 07:32:55:689 XRSR : xrsr_ws_init: host name <xrsr_route>
+2023 Jun 15 07:32:55.691344 controlMgr[7651]:  20230615 07:32:55:689 XRSR : xrsr_xraudio_device_update: input <PTT> output <NONE>
+2023 Jun 15 07:32:56.022658 controlMgr[7651]:  20230615 07:32:56:022 CTRLM : voice_init_set: Endpoint does not support this.
+2023 Jun 15 07:32:56.022815 controlMgr[7651]:  20230615 07:32:56:022 CTRLM : voice_init_set: Endpoint does not support this.
+2023 Jun 15 07:33:11.590313 controlMgr[7651]:  20230615 07:33:11:587 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:33:11.590436 controlMgr[7651]:  20230615 07:33:11:589 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:33:11.590508 controlMgr[7651]:  20230615 07:33:11:589 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814391000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:33:11.831881 controlMgr[7651]:  20230615 07:33:11:827 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:33:15.193354 controlMgr[7651]:  20230615 07:33:15:190 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:33:15.193473 controlMgr[7651]:  20230615 07:33:15:192 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:33:15.193549 controlMgr[7651]:  20230615 07:33:15:192 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814395000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:33:15.433297 controlMgr[7651]:  20230615 07:33:15:431 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:33:17.532754 controlMgr[7651]:  20230615 07:33:17:530 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:33:17.534001 controlMgr[7651]:  20230615 07:33:17:533 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:33:17.534079 controlMgr[7651]:  20230615 07:33:17:533 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814397000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:33:17.773245 controlMgr[7651]:  20230615 07:33:17:771 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:33:37.938542 controlMgr[7651]:  20230615 07:33:37:936 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:33:37.939725 controlMgr[7651]:  20230615 07:33:37:938 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:33:37.939806 controlMgr[7651]:  20230615 07:33:37:938 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814417000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:33:38.185603 controlMgr[7651]:  20230615 07:33:38:184 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:37:19.288752 controlMgr[7651]:  ....20230615 07:37:19:285 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:37:19.289696 controlMgr[7651]:  20230615 07:37:19:288 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:37:19.289763 controlMgr[7651]:  20230615 07:37:19:288 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814639000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:37:19.528151 controlMgr[7651]:  20230615 07:37:19:527 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:37:21.675149 controlMgr[7651]:  20230615 07:37:21:674 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:37:21.677017 controlMgr[7651]:  20230615 07:37:21:676 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:37:21.677093 controlMgr[7651]:  20230615 07:37:21:676 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814641000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:37:21.918634 controlMgr[7651]:  20230615 07:37:21:916 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:37:32.237146 controlMgr[7651]:  20230615 07:37:32:231 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:37:32.237261 controlMgr[7651]:  20230615 07:37:32:232 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:37:32.237322 controlMgr[7651]:  20230615 07:37:32:232 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814652000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:37:32.471743 controlMgr[7651]:  20230615 07:37:32:471 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:37:32.647715 controlMgr[7651]:  20230615 07:37:32:645 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:37:32.647792 controlMgr[7651]:  20230615 07:37:32:647 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:37:32.649694 controlMgr[7651]:  20230615 07:37:32:649 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814652000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:37:32.888663 controlMgr[7651]:  20230615 07:37:32:887 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:37:59.033123 controlMgr[7651]:  .20230615 07:37:59:032 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:37:59.033235 controlMgr[7651]:  20230615 07:37:59:032 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:37:59.035647 controlMgr[7651]:  20230615 07:37:59:035 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:37:59.035732 controlMgr[7651]:  20230615 07:37:59:035 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:37:59.039284 controlMgr[7651]:  20230615 07:37:59:039 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:37:59.039403 controlMgr[7651]:  20230615 07:37:59:039 CTRLM : ctrlm_main_iarm_call_status_get:
+2023 Jun 15 07:38:08.858961 controlMgr[7651]:  20230615 07:38:08:857 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:38:08.863913 controlMgr[7651]:  20230615 07:38:08:861 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:38:08.864075 controlMgr[7651]:  20230615 07:38:08:861 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814688000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:38:09.103658 controlMgr[7651]:  20230615 07:38:09:100 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:38:55.588293 controlMgr[7651]:  .20230615 07:38:55:585 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:38:55.588424 controlMgr[7651]:  20230615 07:38:55:587 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:38:55.588490 controlMgr[7651]:  20230615 07:38:55:587 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814735000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:38:55.829315 controlMgr[7651]:  20230615 07:38:55:827 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:38:57.984515 controlMgr[7651]:  20230615 07:38:57:981 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:38:57.984659 controlMgr[7651]:  20230615 07:38:57:983 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:38:57.984722 controlMgr[7651]:  20230615 07:38:57:983 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814737000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:38:58.228519 controlMgr[7651]:  20230615 07:38:58:227 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>
+2023 Jun 15 07:39:06.513101 controlMgr[7651]:  20230615 07:39:06:510 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <DOWN>
+2023 Jun 15 07:39:06.514126 controlMgr[7651]:  20230615 07:39:06:512 CTRLM : ctrlm_check_for_key_tag: key_tag <PLATCO>
+2023 Jun 15 07:39:06.514196 controlMgr[7651]:  20230615 07:39:06:512 CTRLM : ctrlm_update_last_key_info: controller_id <-1>, key_code <192>, key_src <1>, timestamp <1686814746000ms>, is_screen_bind_mode <0>, remote_keypad_config <5>, sourceName <PLATCO>
+2023 Jun 15 07:39:06.756370 controlMgr[7651]:  20230615 07:39:06:755 CTRLM : ctrlm_ir_key_monitor_thread: INFRARED_CONTROLLER - code = <102> (Home key), status = <UP>

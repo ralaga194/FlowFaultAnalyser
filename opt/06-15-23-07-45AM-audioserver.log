@@ -1,0 +1,729 @@
+2023 Jun 15 07:22:32.648117 audio_server[4862]:  (null)/E (4862): loaded HAL id=audio path=libaudio_hal.so hmi=(nil) handle=0x7d73e9d8
+2023 Jun 15 07:22:32.677038 audio_server[4862]:  audio_hw_primary/I (4862): alsa_depop, card 0, device 0
+2023 Jun 15 07:22:32.677125 audio_server[4862]:  audio_hw_primary/E (4862): Found Env Variable for ms12TuningDat : /vendor/etc/ms12_tuning_3_55_02.dat
+2023 Jun 15 07:22:32.677198 audio_server[4862]:  audio_hw_primary/E (4862): File ms12TuningDat : /vendor/etc/ms12_tuning_3_55_02.dat Exists
+2023 Jun 15 07:22:32.677290 audio_server[4862]:  audio_hw_primary/E (4862): [getMS12TuningPanelIdPath:211] ms12 tuning file path : /vendor/etc/ms12_tuning_3_55_02.dat
+2023 Jun 15 07:22:32.677832 audio_server[4862]:  libms12/E (4862): DAP tuning file /vendor/etc/ms12_tuning_3_55_02.dat : 2 output channels
+2023 Jun 15 07:22:32.680343 audio_server[4862]:  audio_route/E (4862): Control 'TDMOUT_A Lane0 Mute Channel' doesn't exist - skipping
+2023 Jun 15 07:22:32.680512 audio_server[4862]:  audio_route/E (4862): Control 'AMP Ch1 Switch' doesn't exist - skipping
+2023 Jun 15 07:22:32.680573 audio_server[4862]:  audio_route/E (4862): Control 'AMP Ch2 Switch' doesn't exist - skipping
+2023 Jun 15 07:22:32.686826 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.686932 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set RR volume failed
+2023 Jun 15 07:22:32.696183 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.696290 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set CH1 volume failed
+2023 Jun 15 07:22:32.696439 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.696574 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set CH2 volume failed
+2023 Jun 15 07:22:32.697055 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.697133 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set LL volume failed
+2023 Jun 15 07:22:32.697232 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.697293 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set RR volume failed
+2023 Jun 15 07:22:32.697536 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.697625 audio_server[4862]:  audio_hw_primary/E (4862): volume_set: set RR volume failed
+2023 Jun 15 07:22:32.697852 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.697934 audio_server[4862]:  audio_hw_primary/E (4862): eq_status_set: set EQ status failed
+2023 Jun 15 07:22:32.698541 audio_server[4862]:  audio_hw_primary/E (4862): eq_drc_ctl_value_set: get mixer ctl failed:
+2023 Jun 15 07:22:32.698728 audio_server[4862]:  audio_hw_primary/E (4862): drc_status_set: set MDRC status failed
+2023 Jun 15 07:22:32.699041 audio_server[4862]:  audio_hw_primary/E (4862): ext_eq_mode_set: eq mode is invalid
+2023 Jun 15 07:22:32.699142 audio_server[4862]:  audio_hw_primary/I (4862): adev_open() audio source gain: atv:1.000000, dtv:0.891251, hdmiin:0.901571, av:0.977237, media:1.273502
+2023 Jun 15 07:22:32.699263 audio_server[4862]:  audio_hw_primary/I (4862): adev_open() audio device gain: speaker:1.000000, spdif_arc:1.584892, headphone:0.630958
+2023 Jun 15 07:22:32.700390 audio_server[4862]:  audio_hw_primary/I (4862): adev_open() audio noise gate level: -1000.000000dB, attack_time = 3000ms, release_time = 50ms
+2023 Jun 15 07:22:32.700502 audio_server[4862]:  audio_hw_primary/I (4862): aml_audio_output_routing: switch from UNKNOWN to [0x0]SPEAKER
+2023 Jun 15 07:22:32.700570 audio_server[4862]:  audio_hw_primary/E (4862): aml_audio_output_routing: active_outport = UNKNOWN unsupport
+2023 Jun 15 07:22:32.700723 audio_server[4862]:  audio_route/E (4862): unable to find path 'spdif'
+2023 Jun 15 07:22:32.701640 audio_server[4862]:  (null)/E (4862): load: module=libeffectfactory.so
+2023 Jun 15 07:22:32.701739 audio_server[4862]:  libeffectfactory.so: cannot open shared object file: No such file or directory
+2023 Jun 15 07:22:32.703644 audio_server[4862]:  audio_hw_primary/I (4862): detect_dolby_lib_type, FOUND libdolbyms12 lib
+2023 Jun 15 07:22:32.704412 audio_server[4862]:  audio_hw_primary/I (4862): adev_open,in ms12 case, use new method no matter if current platform is TV or BOX
+2023 Jun 15 07:22:32.705676 audio_server[4862]:  libdolbyms12/I (4862): msf_node_avsync_init exit 0x7d795658
+2023 Jun 15 07:22:32.708227 audio_server[4862]:  aml_audio_dcv_dec/E (4862): load_ddp_decoder_lib, failed to open (libHwAudio_dcvdec.so), /usr/lib/libHwAudio_dcvdec.so: cannot open shared object file: No such file or directory
+2023 Jun 15 07:22:32.708339 audio_server[4862]:  audio_hw_primary/I (4862): adev_open() adev->dolby_lib_type = 2
+2023 Jun 15 07:22:32.708398 audio_server[4862]:  audio_hw_primary/I (4862): adev_open(), TV platform
+2023 Jun 15 07:22:32.772317 audio_server[4862]:  audio_hw_primary/I (4862): adev_open(), MS12 is not compatible with SUBMIXER currently, set useSubMix to FALSE
+2023 Jun 15 07:22:32.778595 audio_server[4862]:  AudioserverMain scheduling policy set to : 2
+2023 Jun 15 07:22:32.778781 audio_server[4862]:  audio_hw_primary parse_audio_sum, INI File -> (/vendor/etc/tvconfig/audio/AMLOGIC_SOC_t962x3_3_55_02.ini)
+2023 Jun 15 07:22:32.778842 audio_server[4862]:  audio_hw_primary parse_audio_source_gain_data, atv is (0.000000)
+2023 Jun 15 07:22:32.778900 audio_server[4862]:  audio_hw_primary parse_audio_source_gain_data, dtv is (-1.000000)
+2023 Jun 15 07:22:32.778977 audio_server[4862]:  audio_hw_primary parse_audio_source_gain_data, hdmi is (-0.900000)
+2023 Jun 15 07:22:32.779113 audio_server[4862]:  audio_hw_primary parse_audio_source_gain_data, av is ((-0.200000)
+2023 Jun 15 07:22:32.779195 audio_server[4862]:  audio_hw_primary parse_audio_source_gain_data, av is ((2.100000)
+2023 Jun 15 07:22:32.779257 audio_server[4862]:  audio_hw_primary parse_audio_post_gain_data, speaker is (0.000000)
+2023 Jun 15 07:22:32.779315 audio_server[4862]:  audio_hw_primary parse_audio_post_gain_data, spdif_arc is (4.000000)
+2023 Jun 15 07:22:32.779372 audio_server[4862]:  audio_hw_primary parse_audio_post_gain_data, headphone is (-4.000000)
+2023 Jun 15 07:22:32.779428 audio_server[4862]:  audio_hw_primary parse_audio_post_gain_data, spdif is (4.000000)
+2023 Jun 15 07:22:32.779552 audio_server[4862]:  audio_hw_primary parse_audio_post_gain_data, arc is (4.000000)
+2023 Jun 15 07:22:32.779707 audio_server[4862]:  audio_hw_primary parse_audio_ng_data, noise gate level is (-1000.000000)
+2023 Jun 15 07:22:32.779801 audio_server[4862]:  audio_hw_primary parse_audio_ng_data, noise gate attack time (3000)
+2023 Jun 15 07:22:32.779860 audio_server[4862]:  audio_hw_primary parse_audio_ng_data, noise gate release time (50)
+2023 Jun 15 07:22:32.780111 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Volume is (845)
+2023 Jun 15 07:22:32.780174 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Volume Name is (AED master volume)
+2023 Jun 15 07:22:32.780300 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, CH1 Volume is (207)
+2023 Jun 15 07:22:32.780382 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Ch1 Name is (AED Lch volume)
+2023 Jun 15 07:22:32.780440 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, CH2 Volume is  (207)
+2023 Jun 15 07:22:32.780497 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Ch2 Name is (AED Rch volume)
+2023 Jun 15 07:22:32.780575 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer LL Volume is  (262144)
+2023 Jun 15 07:22:32.780845 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer LL Volume Name is (AED Mixer Gain LL)
+2023 Jun 15 07:22:32.780908 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer RR Volume is  (262144)
+2023 Jun 15 07:22:32.780988 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer RR Volume Name is (AED Mixer Gain RR)
+2023 Jun 15 07:22:32.781047 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer DAC Volume is  (0)
+2023 Jun 15 07:22:32.781105 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, EQ is from (amlogic)
+2023 Jun 15 07:22:32.781162 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, EQ byte is (4)
+2023 Jun 15 07:22:32.781258 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, EQ table num is (2)
+2023 Jun 15 07:22:32.781340 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, EQ table name is (AED EQ Parameters)
+2023 Jun 15 07:22:32.781632 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, EQ enable name is (AED EQ enable)
+2023 Jun 15 07:22:32.781758 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, DRC is from (amlogic)
+2023 Jun 15 07:22:32.781840 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, DRC byte is (4)
+2023 Jun 15 07:22:32.781899 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, DRC table name is (AED Full-band DRC Parameters)
+2023 Jun 15 07:22:32.782015 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, DRC enable name is (AED Full-band DRC enable)
+2023 Jun 15 07:22:32.782122 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, multiband drc is disable!
+2023 Jun 15 07:22:32.782237 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, multiband DRC enable name is (AED Multi-band DRC enable)
+2023 Jun 15 07:22:32.782359 audio_server[4862]:  audio_hw_primary parse_audio_eq_data, section_name = eq_param_0:eq_table_0
+2023 Jun 15 07:22:32.782420 audio_server[4862]:  audio_hw_primary parse_audio_table_data, reg buffer data cnt = 140
+2023 Jun 15 07:22:32.782531 audio_server[4862]:  audio_hw_primary parse_audio_eq_data, section_name = eq_param_0:eq_table_1
+2023 Jun 15 07:22:32.782638 audio_server[4862]:  audio_hw_primary parse_audio_table_data, reg buffer data cnt = 140
+2023 Jun 15 07:22:32.782740 audio_server[4862]:  audio_hw_primary parse_audio_fdrc_data, section_name = drc_param_0:drc_table
+2023 Jun 15 07:22:32.782846 audio_server[4862]:  audio_hw_primary parse_audio_table_data, reg buffer data cnt = 24
+2023 Jun 15 07:22:32.782905 audio_server[4862]:  audio_hw_primary parse_audio_sum, INI File -> (/vendor/etc/tvconfig/audio/EXT_AMP_t962x3_ab301_3_55_02.ini)
+2023 Jun 15 07:22:32.782963 audio_server[4862]:  audio_hw_primary parse_AMP_num, external AMP num (1)
+2023 Jun 15 07:22:32.783020 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Volume is (340)
+2023 Jun 15 07:22:32.783098 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, Master Volume Name is (AMP Master Volume)
+2023 Jun 15 07:22:32.783784 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, CH1 Volume is (0)
+2023 Jun 15 07:22:32.783859 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, CH2 Volume is  (0)
+2023 Jun 15 07:22:32.784056 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer LL Volume is  (0)
+2023 Jun 15 07:22:32.784117 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer RR Volume is  (0)
+2023 Jun 15 07:22:32.784192 audio_server[4862]:  audio_hw_primary parse_audio_volume_status, mixer DAC Volume is  (0)
+2023 Jun 15 07:22:32.784252 audio_server[4862]:  audio_hw_primary parse_audio_eq_status, eq is disable!
+2023 Jun 15 07:22:32.784327 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, fullband drc is disable!
+2023 Jun 15 07:22:32.784405 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, DRC enable name is (AMP Set DRC Enable)
+2023 Jun 15 07:22:32.784482 audio_server[4862]:  audio_hw_primary parse_audio_drc_status, multiband drc is disable!
+2023 Jun 15 07:22:32.784647 audio_server[4862]:  ms12_hwsync_init exit[AudioServer] listening on unix:///tmp/audio_socket
+2023 Jun 15 07:22:33.019532 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: ms12_runtime=-dmx 1)
+2023 Jun 15 07:22:33.019656 audio_server[4862]:  libms12/E (4996): Found Env Variable for ms12TuningDat : /vendor/etc/ms12_tuning_3_55_02.dat
+2023 Jun 15 07:22:33.019724 audio_server[4862]:  libms12/E (4996): File ms12TuningDat : /vendor/etc/ms12_tuning_3_55_02.dat Exists
+2023 Jun 15 07:22:33.019816 audio_server[4862]:  libms12/E (4996): [getMS12TuningPanelIdPath:256] ms12 tuning file path : /vendor/etc/ms12_tuning_3_55_02.dat
+2023 Jun 15 07:22:33.019883 audio_server[4862]:  libms12/I (4996): param #0: ms12_exec
+2023 Jun 15 07:22:33.019943 audio_server[4862]:  libms12/I (4996): param #1: -im
+2023 Jun 15 07:22:33.020000 audio_server[4862]:  libms12/I (4996): param #2: /data/main48000Hz.wav
+2023 Jun 15 07:22:33.020058 audio_server[4862]:  libms12/I (4996): param #3: -od
+2023 Jun 15 07:22:33.020118 audio_server[4862]:  libms12/I (4996): param #4: /data/output.ac3
+2023 Jun 15 07:22:33.020181 audio_server[4862]:  libms12/I (4996): param #5: -b
+2023 Jun 15 07:22:33.020240 audio_server[4862]:  libms12/I (4996): param #6: 100
+2023 Jun 15 07:22:33.020310 audio_server[4862]:  libms12/I (4996): param #7: -c
+2023 Jun 15 07:22:33.020370 audio_server[4862]:  libms12/I (4996): param #8: 100
+2023 Jun 15 07:22:33.020435 audio_server[4862]:  libms12/I (4996): param #9: -chas
+2023 Jun 15 07:22:33.020499 audio_server[4862]:  libms12/I (4996): param #10: 2
+2023 Jun 15 07:22:33.020556 audio_server[4862]:  libms12/I (4996): param #11: -dap_init_mode
+2023 Jun 15 07:22:33.020664 audio_server[4862]:  libms12/I (4996): param #12: 2
+2023 Jun 15 07:22:33.020723 audio_server[4862]:  libms12/I (4996): param #13: -drc
+2023 Jun 15 07:22:33.020853 audio_server[4862]:  libms12/I (4996): param #14: 0
+2023 Jun 15 07:22:33.020920 audio_server[4862]:  libms12/I (4996): param #15: -las
+2023 Jun 15 07:22:33.021029 audio_server[4862]:  libms12/I (4996): param #16: 0
+2023 Jun 15 07:22:33.021097 audio_server[4862]:  libms12/I (4996): param #17: -legacy_ddplus_out
+2023 Jun 15 07:22:33.021158 audio_server[4862]:  libms12/I (4996): param #18: 0
+2023 Jun 15 07:22:33.021217 audio_server[4862]:  libms12/I (4996): param #19: -chmod_locking
+2023 Jun 15 07:22:33.021275 audio_server[4862]:  libms12/I (4996): param #20: 1
+2023 Jun 15 07:22:33.021333 audio_server[4862]:  libms12/I (4996): param #21: -v
+2023 Jun 15 07:22:33.021391 audio_server[4862]:  libms12/I (4996): param #22: 0
+2023 Jun 15 07:22:33.021459 audio_server[4862]:  libms12/I (4996): param #23: -w
+2023 Jun 15 07:22:33.021520 audio_server[4862]:  libms12/I (4996): param #24: 16
+2023 Jun 15 07:22:33.021579 audio_server[4862]:  libms12/I (4996): param #25: -xs
+2023 Jun 15 07:22:33.021637 audio_server[4862]:  libms12/I (4996): param #26: 1
+2023 Jun 15 07:22:33.021696 audio_server[4862]:  libms12/I (4996): param #27: -main1_mixgain
+2023 Jun 15 07:22:33.021755 audio_server[4862]:  libms12/I (4996): param #28: 0,0,0
+2023 Jun 15 07:22:33.021813 audio_server[4862]:  libms12/I (4996): param #29: -sys_apps_mixgain
+2023 Jun 15 07:22:33.021871 audio_server[4862]:  libms12/I (4996): param #30: 0,0,0
+2023 Jun 15 07:22:33.021929 audio_server[4862]:  libms12/I (4996): param #31: -chp
+2023 Jun 15 07:22:33.021998 audio_server[4862]:  libms12/I (4996): param #32: 2
+2023 Jun 15 07:22:33.022056 audio_server[4862]:  libms12/I (4996): param #33: -lp
+2023 Jun 15 07:22:33.022115 audio_server[4862]:  libms12/I (4996): param #34: 0
+2023 Jun 15 07:22:33.022173 audio_server[4862]:  libms12/I (4996): param #35: -rp
+2023 Jun 15 07:22:33.022231 audio_server[4862]:  libms12/I (4996): param #36: 0
+2023 Jun 15 07:22:33.023833 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: ms12_runtime=-dap_gains 10)
+2023 Jun 15 07:22:33.025319 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:33.025464 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:22:33.025534 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:22:33.025594 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:33.036272 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:33.036484 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 1, patchset 0xae253e28
+2023 Jun 15 07:22:33.036546 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:33.036882 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:33.037007 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:33.037098 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:33.037159 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:33.037218 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:33.037275 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:33.037338 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:33.039939 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: hal_param_arc_delay_time_ms=50)
+2023 Jun 15 07:22:33.040011 audio_server[4862]:  aml_channel_delay/I (4996): set audio output type:2 delay time: 50ms
+2023 Jun 15 07:22:33.040070 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-lang eng)
+2023 Jun 15 07:22:33.040561 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-lang2 chi)
+2023 Jun 15 07:22:33.042531 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-xu 10)
+2023 Jun 15 07:22:33.047056 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: associate_audio_mixing_enable=1)
+2023 Jun 15 07:22:33.047239 audio_server[4862]:  libms12/I (5117): dolby_ms12_set_asscociated_audio_mixing() val: 1
+2023 Jun 15 07:22:33.047301 audio_server[4862]:  libms12/I (5117): setAssociatedAudioMixing() mAssociatedAudioMixing 1
+2023 Jun 15 07:22:33.048563 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_bass_enhancer 1,30,90,8)
+2023 Jun 15 07:22:33.049187 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_dialogue_enhancer 1,6)
+2023 Jun 15 07:22:33.051790 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_graphic_eq 0,20,47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688,0,0,0,0,0,0,0,1,5,-15,1,0,1,-19,-35,0,0,-15,33,92)
+2023 Jun 15 07:22:33.051867 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_ieq 0,0,20,65,136,223,332,467,634,841,1098,1416,1812,2302,2909,3663,4598,5765,7194,8976,11186,13927,17326,117,133,188,176,141,149,175,185,185,200,236,242,228,213,182,132,110,68,-27,-240)
+2023 Jun 15 07:22:33.051930 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_mi_steering 1)
+2023 Jun 15 07:22:33.052767 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_gains 0)
+2023 Jun 15 07:22:33.053356 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_surround_decoder_enable 0)
+2023 Jun 15 07:22:33.055065 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_surround_virtualizer 0,32)
+2023 Jun 15 07:22:33.055177 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_leveler 0,0)
+2023 Jun 15 07:22:33.055926 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_leveler 1,5)
+2023 Jun 15 07:22:33.057830 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_dialogue_enhancer 1,6)
+2023 Jun 15 07:22:33.062219 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-ac4_de 6)
+2023 Jun 15 07:22:33.062336 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_leveler 0,0)
+2023 Jun 15 07:22:33.062397 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_bass_enhancer 1,30,200,16)
+2023 Jun 15 07:22:33.062455 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: ms12_runtime=-dap_surround_virtualizer 0,0)
+2023 Jun 15 07:22:33.067793 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: hdmi_format=5)
+2023 Jun 15 07:22:33.419300 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:33.419413 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:22:33.419474 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:22:33.419534 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:33.423074 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:33.423148 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 2, patchset 0xae255d68
+2023 Jun 15 07:22:33.423211 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:33.423271 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:33.423331 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:33.423480 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:33.423549 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:33.423635 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:33.423697 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:33.423849 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:33.442927 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:22:33.443066 audio_server[4862]:  audio_hw_primary/I (4996): audio speaker_disable: false
+2023 Jun 15 07:22:35.575824 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: setenv=AV_PROGRESSION,)
+2023 Jun 15 07:22:35.575979 audio_server[4862]:  audio_hw_primary/I (4996): Amlogic_HAL - adev_set_parameters: return Result::NOT_SUPPORTED (4) instead of other error code.
+2023 Jun 15 07:22:41.736266 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:41.736385 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:22:41.736451 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:22:41.736513 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:41.748391 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:41.748475 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 3, patchset 0xae257880
+2023 Jun 15 07:22:41.748545 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:41.752334 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:41.752432 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:41.752493 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:41.752552 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:41.752697 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:41.752760 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:41.752820 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:52.519224 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:52.519409 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:22:52.519487 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:22:52.519545 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:52.521160 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:52.521239 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 4, patchset 0xad8499e0
+2023 Jun 15 07:22:52.521315 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:52.521410 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:52.521470 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:52.521528 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:52.521585 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:52.521668 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:52.521727 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:52.521784 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:52.524362 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:22:52.524492 audio_server[4862]:  audio_hw_primary/I (4996): audio speaker_disable: false
+2023 Jun 15 07:22:52.748007 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:52.748219 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:22:52.748385 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:22:52.748451 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:52.748548 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:52.748651 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 5, patchset 0xae255c88
+2023 Jun 15 07:22:52.748714 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:52.748772 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:52.748830 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:52.748888 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:52.748973 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:52.749032 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:52.749095 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:52.749153 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:52.750899 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:22:52.750969 audio_server[4862]:  audio_hw_primary/I (4996): audio speaker_disable: false
+2023 Jun 15 07:22:53.318295 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:22:53.318456 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:22:53.318520 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:22:53.318659 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:22:53.322278 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:22:53.322439 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 6, patchset 0xad8499e0
+2023 Jun 15 07:22:53.322521 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:22:53.323180 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:22:53.323336 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:22:53.324734 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:22:53.324800 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:22:53.324952 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:22:53.325115 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:22:53.325176 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:22:53.326473 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:22:53.326614 audio_server[4862]:  audio_hw_primary/I (4996): audio speaker_disable: false
+2023 Jun 15 07:23:03.550737 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.550832 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:03.550892 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:03.550950 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.552726 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.552803 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 7, patchset 0xad84b4f8
+2023 Jun 15 07:23:03.552864 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.552926 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.552986 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:23:03.553045 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.553138 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.553200 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.553260 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.553319 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:03.557166 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.557237 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:03.557296 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:03.557388 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.561078 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.561182 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 8, patchset 0xad84d010
+2023 Jun 15 07:23:03.561245 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.561305 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.561450 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:23:03.561516 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.561576 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.561636 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.561695 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.561755 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:03.562283 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.562371 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:03.562430 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:03.562563 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.564974 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.565141 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 9, patchset 0xad849ae0
+2023 Jun 15 07:23:03.565212 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.565270 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.565328 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:23:03.565384 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.565441 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.565498 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.565555 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.565611 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:03.731806 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.731879 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:03.731939 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:03.731999 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.734247 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.734367 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 10, patchset 0xad84b5f8
+2023 Jun 15 07:23:03.734434 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.734492 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.734550 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:23:03.734607 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.734664 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.734721 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.734815 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.735407 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:03.744018 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.744135 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:23:03.744196 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:23:03.744257 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.747248 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.747346 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 11, patchset 0xae255c88
+2023 Jun 15 07:23:03.747461 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.747527 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.747586 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:23:03.747644 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.747727 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.747786 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.747843 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.747919 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:03.760034 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:03.760152 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:23:03.760213 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:23:03.760299 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:03.760361 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:23:03.760421 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 12, patchset 0xae2577a0
+2023 Jun 15 07:23:03.760486 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:03.760545 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:03.760665 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:23:03.760726 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:03.760784 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:03.760843 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:03.760953 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:03.761016 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:05.558254 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:05.558363 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:23:05.558424 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:23:05.558483 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:05.560171 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:23:05.560263 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 13, patchset 0xae255c88
+2023 Jun 15 07:23:05.560328 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:05.560390 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:05.560487 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:23:05.560551 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:05.561136 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:05.561244 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:05.561308 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:05.561369 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:05.565934 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:05.566037 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:23:05.566099 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:23:05.566158 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:05.572194 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:23:05.572308 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 14, patchset 0xae2577a0
+2023 Jun 15 07:23:05.572374 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:05.572434 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:05.572494 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:23:05.572552 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:05.577437 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:05.577620 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:05.577683 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:05.577743 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:05.577804 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:05.577862 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:05.577921 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:05.577981 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:23:05.581318 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:23:05.581390 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 15, patchset 0xad849ae0
+2023 Jun 15 07:23:05.581453 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:23:05.581513 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:23:05.581596 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:23:05.581656 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:23:05.581714 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:23:05.581773 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:23:05.581831 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:23:05.581890 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:23:19.165154 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=1,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:23:19.165264 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:23:19.165336 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:23:19.165390 audio_server[4862]:  audio_hw_primary/I (5117): aml_audio_input_routing: switch from [0x0]TUNER to [0x1]HDMIIN
+2023 Jun 15 07:23:19.165445 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: dev->dev patch: inport([0x1]HDMIIN), outport([0x0]SPEAKER)
+2023 Jun 15 07:23:19.165498 audio_server[4862]:  audio_format_parse/I (5117): Creat thread ID: 2892252032! audio_type_status: 0xad84d480
+2023 Jun 15 07:23:19.165590 audio_server[4862]:  audio_hw_primary/I (12355): pcm open input, ch=2, r=48000, period=256, period_count=16
+2023 Jun 15 07:23:19.165787 audio_server[4862]:  audio_hw_primary/I (12357): adev_open_output_stream_new_l(): aml TV source stream
+2023 Jun 15 07:23:19.165914 audio_server[4862]:  audio_format_parse/I (12356): Enable resample for PCM, sr = 3
+2023 Jun 15 07:23:19.182663 audio_server[4862]:  audio_hw_primary/I (12355): in_read: audio is unstable, mute channel
+2023 Jun 15 07:23:19.293036 audio_server[4862]:  audio_hw_primary/I (12357): HDMI IN unstable to stable, reset MS12
+2023 Jun 15 07:23:19.293121 audio_server[4862]:  audio_hw_primary/I (12357): +get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:19.293445 audio_server[4862]:  audio_hw_primary/I (12357): get_dolby_ms12_cleanup() dolby_ms12_set_quit_flag 1
+2023 Jun 15 07:23:19.293504 audio_server[4862]:  libms12/I (12357): aml_ms12_cleanup
+2023 Jun 15 07:23:19.293601 audio_server[4862]:  audio_hw_primary/I (12357): -get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:19.293660 audio_server[4862]:  audio_hw_primary/I (12357): ++++[usecase_change_validate_l:11927],continuous:0 dev masks:0,out masks:0,out usecase:[1]PCM_DIRECT,aml_out:0x7d7a7910
+2023 Jun 15 07:23:19.293717 audio_server[4862]:  audio_hw_primary/I (12357): ----[usecase_change_validate_l:11966], continuous:0 dev masks:0x2, out masks:0x2, out usecase:[1]PCM_DIRECT
+2023 Jun 15 07:23:19.293775 audio_server[4862]:  audio_hw_primary/I (12357): mixer_main_buffer_write mix init, mask 0x2
+2023 Jun 15 07:23:19.293832 audio_server[4862]:  audio_hw_primary/I (12357): mixer_main_buffer_write() recovery from standby, dev masks 0x2, usecase[[1]PCM_DIRECT]
+2023 Jun 15 07:23:19.293888 audio_server[4862]:  audio_hw_mixer/I (12357): aml_hw_mixer_init done
+2023 Jun 15 07:23:19.293945 audio_server[4862]:  audio_hw_primary/I (12357): mixer_main_buffer_write(), reset due to hdmi audio output format dynamic changed!
+2023 Jun 15 07:23:19.294013 audio_server[4862]:  audio_hw_primary/I (12357): get_sink_max_cap output sink dd support 0 ddp support 0 mat 2.x support 0
+2023 Jun 15 07:23:19.294072 audio_server[4862]:  audio_hw_primary/I (12357): !!!get_sink_format() Sink devices 0 Source format 0x1 digital_format(hdmi_format) 0x5 Sink Capability 0x1
+2023 Jun 15 07:23:19.294130 audio_server[4862]:  audio_hw_primary/I (12357): get_sink_format sink_format 0x1 optical_format 0x9000000,soure fmt 0x1 stream device 1
+2023 Jun 15 07:23:19.294186 audio_server[4862]:  audio_hw_primary/I (12357): +get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:19.294242 audio_server[4862]:  audio_hw_primary/I (12357): get_dolby_ms12_cleanup() dolby_ms12_set_quit_flag 1
+2023 Jun 15 07:23:19.294298 audio_server[4862]:  libms12/I (12357): aml_ms12_cleanup
+2023 Jun 15 07:23:19.294354 audio_server[4862]:  audio_hw_primary/I (12357): -get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:19.294408 audio_server[4862]:  audio_hw_primary/I (12357): +get_the_dolby_ms12_prepared()
+2023 Jun 15 07:23:19.294465 audio_server[4862]:  audio_hw_primary/I (12357):
+2023 Jun 15 07:23:19.294533 audio_server[4862]:  +get_the_dolby_ms12_prepared()
+2023 Jun 15 07:23:19.294592 audio_server[4862]:  audio_hw_primary/I (12357): +get_the_dolby_ms12_prepared() dual_decoder_support 0
+2023 Jun 15 07:23:19.294649 audio_server[4862]:  libms12/I (12357): dolby_ms12_set_asscociated_audio_mixing() val: 1
+2023 Jun 15 07:23:19.294706 audio_server[4862]:  libms12/I (12357): setAssociatedAudioMixing() mAssociatedAudioMixing 1
+2023 Jun 15 07:23:19.294762 audio_server[4862]:  libms12/I (12357): setActiveOTTSignalFlag() set mActivateOTTSignal 0
+2023 Jun 15 07:23:19.294818 audio_server[4862]:  libms12/I (12357): aml_ms12_config() config input format 0x1 channle mask 0x3 samplerate 48000 output config 0x29
+2023 Jun 15 07:23:19.295431 audio_server[4862]:  libms12/I (12357): param #0: ms12_exec
+2023 Jun 15 07:23:19.295545 audio_server[4862]:  libms12/I (12357): param #1: -im
+2023 Jun 15 07:23:19.295603 audio_server[4862]:  libms12/I (12357): param #2: /data/main48000Hz.wav
+2023 Jun 15 07:23:19.295851 audio_server[4862]:  libms12/I (12357): param #3: -is
+2023 Jun 15 07:23:19.295950 audio_server[4862]:  libms12/I (12357): param #4: /data/system48000Hz.wav
+2023 Jun 15 07:23:19.296017 audio_server[4862]:  libms12/I (12357): param #5: -ias
+2023 Jun 15 07:23:19.296077 audio_server[4862]:  libms12/I (12357): param #6: /data/app48000Hz.wav
+2023 Jun 15 07:23:19.296136 audio_server[4862]:  libms12/I (12357): param #7: -od
+2023 Jun 15 07:23:19.296194 audio_server[4862]:  libms12/I (12357): param #8: /data/output.ac3
+2023 Jun 15 07:23:19.296252 audio_server[4862]:  libms12/I (12357): param #9: -o_dap_speaker
+2023 Jun 15 07:23:19.296310 audio_server[4862]:  libms12/I (12357): param #10: /data/outputdap.wav
+2023 Jun 15 07:23:19.296368 audio_server[4862]:  libms12/I (12357): param #11: -oms
+2023 Jun 15 07:23:19.296426 audio_server[4862]:  libms12/I (12357): param #12: /data/outputdownmix.wav
+2023 Jun 15 07:23:19.296494 audio_server[4862]:  libms12/I (12357): param #13: -bs
+2023 Jun 15 07:23:19.296561 audio_server[4862]:  libms12/I (12357): param #14: 100
+2023 Jun 15 07:23:19.296620 audio_server[4862]:  libms12/I (12357): param #15: -cs
+2023 Jun 15 07:23:19.296679 audio_server[4862]:  libms12/I (12357): param #16: 100
+2023 Jun 15 07:23:19.296739 audio_server[4862]:  libms12/I (12357): param #17: -b
+2023 Jun 15 07:23:19.296797 audio_server[4862]:  libms12/I (12357): param #18: 100
+2023 Jun 15 07:23:19.296855 audio_server[4862]:  libms12/I (12357): param #19: -c
+2023 Jun 15 07:23:19.296913 audio_server[4862]:  libms12/I (12357): param #20: 100
+2023 Jun 15 07:23:19.296971 audio_server[4862]:  libms12/I (12357): param #21: -chas
+2023 Jun 15 07:23:19.297031 audio_server[4862]:  libms12/I (12357): param #22: 2
+2023 Jun 15 07:23:19.297100 audio_server[4862]:  libms12/I (12357): param #23: -dap_init_mode
+2023 Jun 15 07:23:19.297159 audio_server[4862]:  libms12/I (12357): param #24: 2
+2023 Jun 15 07:23:19.297217 audio_server[4862]:  libms12/I (12357): param #25: -drc
+2023 Jun 15 07:23:19.298897 audio_server[4862]:  libms12/I (12357): param #26: 0
+2023 Jun 15 07:23:19.298971 audio_server[4862]:  libms12/I (12357): param #27: -dmx
+2023 Jun 15 07:23:19.299036 audio_server[4862]:  libms12/I (12357): param #28: 1
+2023 Jun 15 07:23:19.299095 audio_server[4862]:  libms12/I (12357): param #29: -las
+2023 Jun 15 07:23:19.299161 audio_server[4862]:  libms12/I (12357): param #30: 0
+2023 Jun 15 07:23:19.299221 audio_server[4862]:  libms12/I (12357): param #31: -legacy_ddplus_out
+2023 Jun 15 07:23:19.299297 audio_server[4862]:  libms12/I (12357): param #32: 0
+2023 Jun 15 07:23:19.299357 audio_server[4862]:  libms12/I (12357): param #33: -chmod_locking
+2023 Jun 15 07:23:19.299416 audio_server[4862]:  libms12/I (12357): param #34: 1
+2023 Jun 15 07:23:19.299532 audio_server[4862]:  libms12/I (12357): param #35: -v
+2023 Jun 15 07:23:19.299598 audio_server[4862]:  libms12/I (12357): param #36: 0
+2023 Jun 15 07:23:19.299674 audio_server[4862]:  libms12/I (12357): param #37: -w
+2023 Jun 15 07:23:19.299739 audio_server[4862]:  libms12/I (12357): param #38: 16
+2023 Jun 15 07:23:19.299799 audio_server[4862]:  libms12/I (12357): param #39: -xs
+2023 Jun 15 07:23:19.299866 audio_server[4862]:  libms12/I (12357): param #40: 0
+2023 Jun 15 07:23:19.299941 audio_server[4862]:  libms12/I (12357): param #41: -main1_mixgain
+2023 Jun 15 07:23:19.300000 audio_server[4862]:  libms12/I (12357): param #42: 0,0,0
+2023 Jun 15 07:23:19.300068 audio_server[4862]:  libms12/I (12357): param #43: -sys_prim_mixgain
+2023 Jun 15 07:23:19.300138 audio_server[4862]:  libms12/I (12357): param #44: 0,0,0
+2023 Jun 15 07:23:19.300210 audio_server[4862]:  libms12/I (12357): param #45: -sys_apps_mixgain
+2023 Jun 15 07:23:19.300291 audio_server[4862]:  libms12/I (12357): param #46: 0,0,0
+2023 Jun 15 07:23:19.300371 audio_server[4862]:  libms12/I (12357): param #47: -sys_syss_mixgain
+2023 Jun 15 07:23:19.300443 audio_server[4862]:  libms12/I (12357): param #48: 0,0,0
+2023 Jun 15 07:23:19.300508 audio_server[4862]:  libms12/I (12357): param #49: -chp
+2023 Jun 15 07:23:19.300568 audio_server[4862]:  libms12/I (12357): param #50: 2
+2023 Jun 15 07:23:19.300626 audio_server[4862]:  libms12/I (12357): param #51: -lp
+2023 Jun 15 07:23:19.300684 audio_server[4862]:  libms12/I (12357): param #52: 0
+2023 Jun 15 07:23:19.300892 audio_server[4862]:  libms12/I (12357): param #53: -rp
+2023 Jun 15 07:23:19.300956 audio_server[4862]:  libms12/I (12357): param #54: 0
+2023 Jun 15 07:23:19.301015 audio_server[4862]:  libms12/I (12357): param #55: -dap_tuning
+2023 Jun 15 07:23:19.301073 audio_server[4862]:  libms12/I (12357): param #56: /vendor/etc/ms12_tuning_3_55_02.dat
+2023 Jun 15 07:23:19.304039 audio_server[4862]:  libms12/I (12357): param #57: -dap_gains
+2023 Jun 15 07:23:19.304130 audio_server[4862]:  libms12/I (12357): param #58: 0
+2023 Jun 15 07:23:19.304192 audio_server[4862]:  libms12/I (12357): param #59: -dap_surround_decoder_enable
+2023 Jun 15 07:23:19.304250 audio_server[4862]:  libms12/I (12357): param #60: 0
+2023 Jun 15 07:23:19.304309 audio_server[4862]:  libms12/I (12357): param #61: -dap_surround_virtualizer
+2023 Jun 15 07:23:19.304368 audio_server[4862]:  libms12/I (12357): param #62: 0,0
+2023 Jun 15 07:23:19.304427 audio_server[4862]:  libms12/I (12357): param #63: -dap_bass_enhancer
+2023 Jun 15 07:23:19.304502 audio_server[4862]:  libms12/I (12357): param #64: 1,30,200,16
+2023 Jun 15 07:23:19.304562 audio_server[4862]:  libms12/I (12357): param #65: -dap_mi_steering
+2023 Jun 15 07:23:19.304621 audio_server[4862]:  libms12/I (12357): param #66: 1
+2023 Jun 15 07:23:19.304687 audio_server[4862]:  libms12/I (12357): param #67: -dap_leveler
+2023 Jun 15 07:23:19.304748 audio_server[4862]:  libms12/I (12357): param #68: 0,0
+2023 Jun 15 07:23:19.304807 audio_server[4862]:  libms12/I (12357): param #69: -dap_dialogue_enhancer
+2023 Jun 15 07:23:19.304865 audio_server[4862]:  libms12/I (12357): param #70: 1,6
+2023 Jun 15 07:23:19.304924 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK version:Version:2.4.0.acc4e9a9
+2023 Jun 15 07:23:19.305113 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK git version:acc4e9a9768ff457df264764225082ac2901ab7f,branch linux-sky-mp-0907
+2023 Jun 15 07:23:19.305497 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK version serial:2040000acc4e9a9
+2023 Jun 15 07:23:19.305570 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK Last Changed:Date:   Mon Mar 13 13:53:07 2023 -0700
+2023 Jun 15 07:23:19.305673 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK Last Build: Wed Mar 15 10:11:16 CST 2023
+2023 Jun 15 07:23:19.305735 audio_server[4862]:  libdolbyms12/I (12357): Dolby MS12 SIDK Builer Name:Amlogic SH multi-media team
+2023 Jun 15 07:23:19.310276 audio_server[4862]:  libdolbyms12/I (12357): msf_node_avsync_reset exit
+2023 Jun 15 07:23:19.310392 audio_server[4862]:  audio_hw_primary/I (12357): usecase_device_adapter_with_ms12 usecase_device 1 output_format 0x1
+2023 Jun 15 07:23:19.310456 audio_server[4862]:  audio_hw_primary/I (12357): get_the_dolby_ms12_prepared out [dual_output_flag 1] adev [format sink 0x1 optical 0x9000000] ms12 [output-format 0x29 device 0]
+2023 Jun 15 07:23:19.310539 audio_server[4862]:  audio_hw_primary/I (12357): get_hardware_config_parameters() channels 8 format 7 period_count 4 period_size 1024 rate 48000
+2023 Jun 15 07:23:19.310667 audio_server[4862]:  audio_ms12_bypass/I (12357): aml_ms12_bypass_open exit =0x7d7c73a8
+2023 Jun 15 07:23:19.310779 audio_server[4862]:  audio_hw_primary/I (12357): -get_the_dolby_ms12_prepared()
+2023 Jun 15 07:23:19.310853 audio_server[4862]:  audio_hw_primary/I (12357): config_output() get_the_dolby_ms12_prepared succuss, ott_enable = 0, main1_dummy = 0
+2023 Jun 15 07:23:19.310915 audio_server[4862]:  audio_hw_primary/I (12357): store_stream_presentation,restore input size 0,frame 0
+2023 Jun 15 07:23:19.310974 audio_server[4862]:  audio_hw_primary/I (12357): config_output(), device: 1
+2023 Jun 15 07:23:19.311106 audio_server[4862]:  audio_hw_primary/I (12357): patch init flush done
+2023 Jun 15 07:23:19.312967 audio_server[4862]:  libdolbyms12/I (12357): System wait for input 0 (bytes) < 12288 (bytes)
+2023 Jun 15 07:23:19.318058 audio_server[4862]:  audio_hw_primary/I (12357): hw_write, aml_out 0x7d7a7910 alsa open output_format 0x1
+2023 Jun 15 07:23:19.318156 audio_server[4862]:  audio_hw_utils/I (12357): aml_tinymix_set_spdif_format tinymix AML_MIXER_ID_SPDIF_FORMAT 2,spdif mute 0, channel alloc 0
+2023 Jun 15 07:23:19.318246 audio_server[4862]:  audio_hw_primary/I (12357):
+2023 Jun 15 07:23:19.318309 audio_server[4862]:  +aml_alsa_output_open stream 0x7d7a7910, device 1, format 0x1, hal_channel_mask 0x3, hdmi_pcm_passthrough 0
+2023 Jun 15 07:23:19.318378 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_open indeed choose ms12 [config and device(0)]
+2023 Jun 15 07:23:19.318439 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_open stream device(1) differ with current device(0)!
+2023 Jun 15 07:23:19.318499 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_open pcm (nil) earc_pcm (nil)
+2023 Jun 15 07:23:19.318559 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_open, audio open card(0), device(0)
+2023 Jun 15 07:23:19.318633 audio_server[4862]:  audio_hw_primary/I (12357): ALSA open configs: channels 8 format 7 period_count 4 period_size 1024 rate 48000 start_threshold 2048
+2023 Jun 15 07:23:19.318694 audio_server[4862]:  audio_hw_primary/I (12357): ALSA open configs: threshold start 2048 stop 0
+2023 Jun 15 07:23:19.333441 audio_server[4862]:  audio_hw_primary/I (12357): -aml_alsa_output_open, audio out(0x7d7a7910) device(0) refs(1) is_normal_pcm 0, pcm handle 0x7d7c76f8 earc_pcm handle (nil)
+2023 Jun 15 07:23:19.342666 audio_server[4862]:  aml_spdif_output/I (12357): aml_audio_spdif_output ,format change from 0x0 to 0x9000000,need reinit spdif encoder and alsa
+2023 Jun 15 07:23:19.342785 audio_server[4862]:  audio_hw_primary/I (12357): get_hardware_config_parameters() channels 2 format 0 period_count 4 period_size 1024 rate 48000
+2023 Jun 15 07:23:19.342847 audio_server[4862]:  audio_hw_utils/I (12357): aml_tinymix_set_spdif_format tinymix AML_MIXER_ID_SPDIF_FORMAT 2,spdif mute 0, channel alloc 0
+2023 Jun 15 07:23:19.355012 audio_server[4862]:  aml_spdif_output/I (12357): aml_audio_spdif_output_start open  output pcm handle 0x7d8bd108,port 3
+2023 Jun 15 07:23:19.355199 audio_server[4862]:  AudioSPDIF/I (12357): SPDIFEncoder: mBurstBufferSizeBytes = 24576, littleEndian = 1
+2023 Jun 15 07:23:19.355306 audio_server[4862]:  AudioSPDIF-wrap/I (12357): init SPDIFEncoder done
+2023 Jun 15 07:23:19.355370 audio_server[4862]:  audio_hw_utils/I (12357): aml_tinymix_set_spdif_format tinymix AML_MIXER_ID_SPDIF_FORMAT 2,spdif mute 0, channel alloc 0
+2023 Jun 15 07:23:19.355428 audio_server[4862]:  AudioSPDIF/I (12357): AC3 frame rate = 48000 * 1, size = 2560, audioBlocksPerSyncFrame = 6
+2023 Jun 15 07:23:19.356887 audio_server[4862]:  AudioSPDIF-wrap/I (12357): mute the first raw data
+2023 Jun 15 07:23:19.374229 audio_server[4862]:  AudioSPDIF-wrap/I (12357): mute the first raw data
+2023 Jun 15 07:23:19.406824 audio_server[4862]:  AudioSPDIF-wrap/I (12357): mute the first raw data
+2023 Jun 15 07:23:22.556594 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_release_audio_patch: handle(16)
+2023 Jun 15 07:23:22.557016 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 16, patchset 0xad84b5f8
+2023 Jun 15 07:23:22.565118 audio_server[4862]:  audio_hw_primary/I (12357): [do_output_standby_l:8083] stream usecase:[1]PCM_DIRECT , continuous:0
+2023 Jun 15 07:23:22.565232 audio_server[4862]:  audio_hw_primary/I (12357): do_output_standby_l aml_out(0x7d7a7910)standby close
+2023 Jun 15 07:23:22.565357 audio_server[4862]:  audio_hw_primary/I (12357):
+2023 Jun 15 07:23:22.565424 audio_server[4862]:  +aml_alsa_output_close() stream 0x7d7a7910 , dual output: 1
+2023 Jun 15 07:23:22.565500 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_close stream out device(0) truely use device(0)
+2023 Jun 15 07:23:22.565611 audio_server[4862]:  audio_hw_primary/I (12357): +aml_alsa_output_close, audio out(0x7d7a7910) device(0), refs(0) is_normal_pcm 0,handle 0x7d7c76f8
+2023 Jun 15 07:23:22.565728 audio_server[4862]:  audio_hw_primary/I (12357): aml_alsa_output_close(), pcm_close audio device[0] pcm handle 0x7d7c76f8
+2023 Jun 15 07:23:22.566721 audio_server[4862]:  audio_hw_primary/I (12357): -aml_alsa_output_close()
+2023 Jun 15 07:23:22.566892 audio_server[4862]:  audio_hw_primary/I (12357): do_output_standby_l current usecase_masks 0
+2023 Jun 15 07:23:22.566954 audio_server[4862]:  audio_hw_primary/I (12357): +get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:22.567036 audio_server[4862]:  audio_hw_primary/I (12357): get_dolby_ms12_cleanup() dolby_ms12_set_quit_flag 1
+2023 Jun 15 07:23:22.569344 audio_server[4862]:  libms12/I (12357): aml_ms12_cleanup
+2023 Jun 15 07:23:22.569443 audio_server[4862]:  audio_hw_primary/I (12357): -get_dolby_ms12_cleanup()
+2023 Jun 15 07:23:22.569502 audio_server[4862]:  audio_hw_primary/I (12357): do_output_standby_l close dual output raw pcm handle 0x7d8bd108
+2023 Jun 15 07:23:22.569564 audio_server[4862]:  audio_hw_utils/I (12357): aml_tinymix_set_spdif_format tinymix AML_MIXER_ID_SPDIF_FORMAT 0,spdif mute 0, channel alloc 0
+2023 Jun 15 07:23:22.572834 audio_server[4862]:  audio_format_parse/I (12356): Exit thread loop for audio type parse!
+2023 Jun 15 07:23:22.572971 audio_server[4862]:  audio_format_parse/I (4996): Exit parse thread,thread ID: -1402715264!
+2023 Jun 15 07:23:22.772494 audio_server[4862]:  audio_hw_primary/I (4996): release_patch(), do fade out
+2023 Jun 15 07:23:22.983403 audio_server[4862]:  audio_hw_primary/I (4996): adev_release_audio_patch restore continuous_audio_mode=1
+2023 Jun 15 07:23:34.973579 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters(kv: is_netflix=1)
+2023 Jun 15 07:23:34.973825 audio_server[4862]:  audio_hw_primary/I (4996): adev_set_parameters is_netflix set to 1
+2023 Jun 15 07:32:06.866199 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:06.866468 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:06.866549 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:06.866605 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:06.868666 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:06.868762 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 17, patchset 0xad84d660
+2023 Jun 15 07:32:06.868835 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:06.868946 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:06.869009 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:06.869066 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:06.869166 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:06.869222 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:06.869277 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:06.869333 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:06.872333 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:32:06.872528 audio_server[4862]:  audio_hw_primary/I (5117): audio speaker_disable: false
+2023 Jun 15 07:32:10.234624 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:10.234727 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:10.234832 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:10.234894 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:10.237252 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:10.237360 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 18, patchset 0xad84b308
+2023 Jun 15 07:32:10.237424 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:10.237515 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:10.237620 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:10.237707 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:10.237767 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:10.237825 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:10.237883 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:10.237940 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:10.244183 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:32:10.244265 audio_server[4862]:  audio_hw_primary/I (5117): audio speaker_disable: false
+2023 Jun 15 07:32:46.725041 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:46.725221 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:46.725282 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:46.725340 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:46.725760 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:46.726011 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 19, patchset 0xad84d660
+2023 Jun 15 07:32:46.726087 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:46.726193 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:46.726290 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:46.726350 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:46.726407 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:46.726464 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:46.726520 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:46.726733 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:46.732429 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: speakerenable=1)
+2023 Jun 15 07:32:46.732514 audio_server[4862]:  audio_hw_primary/I (5117): audio speaker_disable: false
+2023 Jun 15 07:32:55.099727 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.099845 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:55.099919 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:55.099981 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.103978 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.104059 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 20, patchset 0xad84b308
+2023 Jun 15 07:32:55.104130 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.104224 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.104299 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:55.104367 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.104424 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.104532 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.104590 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.104646 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:55.115232 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.116066 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:55.116173 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:55.116250 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.123970 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.124055 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 21, patchset 0xad84d660
+2023 Jun 15 07:32:55.124117 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.124204 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.124274 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:55.124335 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.124406 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.124464 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.124521 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.124581 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:55.129030 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.129108 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:55.129170 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:55.129256 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.132053 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.132175 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 22, patchset 0xad84b308
+2023 Jun 15 07:32:55.132240 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.132330 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.132391 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:55.132452 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.132512 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.132572 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.132631 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.132690 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:55.620768 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.620842 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:55.620902 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:55.620962 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.623891 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.623965 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 23, patchset 0xad84d660
+2023 Jun 15 07:32:55.624027 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.624089 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.624149 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:32:55.624238 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.624324 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.624403 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.624465 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.624526 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:55.638100 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.638199 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:32:55.638281 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:32:55.638346 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.640280 audio_server[4862]:  audio_hw_primary/I (5117): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.640358 audio_server[4862]:  audio_hw_primary/I (5117): patch set found id 24, patchset 0xae2465f8
+2023 Jun 15 07:32:55.640452 audio_server[4862]:  audio_hw_primary/E (5117): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.640555 audio_server[4862]:  audio_hw_primary/I (5117):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.640618 audio_server[4862]:  audio_hw_primary/I (5117):  - now the sink gains are:
+2023 Jun 15 07:32:55.640678 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.640737 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.640795 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.640853 audio_server[4862]:  audio_hw_primary/I (5117): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.640911 audio_server[4862]:  audio_hw_primary/I (5117): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:55.642084 audio_server[4862]:  audio_hw_primary/I (5117): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:55.642180 audio_server[4862]:  audio_hw_primary/I (5117): exit register_audio_patch
+2023 Jun 15 07:32:55.642241 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch(), patch new handle for AF: 0xae244984
+2023 Jun 15 07:32:55.642302 audio_server[4862]:  audio_hw_primary/I (5117): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:55.644972 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:32:55.645049 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 25, patchset 0xad84b308
+2023 Jun 15 07:32:55.645146 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:55.645209 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:55.645270 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:32:55.645332 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:55.645393 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:55.645454 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:55.645514 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:55.645576 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:57.516882 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:57.516993 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:32:57.517058 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:32:57.517106 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:57.520243 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:32:57.520329 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 26, patchset 0xae2465f8
+2023 Jun 15 07:32:57.520427 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:57.520478 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:57.520626 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:32:57.520682 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:57.520735 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:57.520806 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:57.520866 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:57.520917 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:57.536033 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:57.536128 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:32:57.536180 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:32:57.536232 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:57.538913 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:32:57.539051 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 27, patchset 0xae24a378
+2023 Jun 15 07:32:57.539108 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:57.539160 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:57.539311 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:32:57.539397 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:57.540261 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:57.540708 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:57.540789 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:57.540842 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:32:57.547956 audio_server[4862]:  audio_hw_primary/I (4996): +adev_create_audio_patch num_sources [1] , num_sinks [1],src_config->type=2,sink_config->type=1,aml_dev->patch_src=11
+2023 Jun 15 07:32:57.548048 audio_server[4862]:  audio_hw_primary/I (4996): exit register_audio_patch
+2023 Jun 15 07:32:57.548099 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch(), patch new handle for AF: 0xaec44984
+2023 Jun 15 07:32:57.548149 audio_server[4862]:  audio_hw_primary/I (4996): adev_create_audio_patch: mix->device patch: outport([0x0]SPEAKER)
+2023 Jun 15 07:32:57.558927 audio_server[4862]:  audio_hw_primary/I (4996): ++adev_set_audio_port_config
+2023 Jun 15 07:32:57.559018 audio_server[4862]:  audio_hw_primary/I (4996): patch set found id 28, patchset 0xae247e20
+2023 Jun 15 07:32:57.559074 audio_server[4862]:  audio_hw_primary/E (4996): adev_set_audio_port_config: invalid out device type 0
+2023 Jun 15 07:32:57.559155 audio_server[4862]:  audio_hw_primary/I (4996):  - set sink device[0](outport[[0x0]SPEAKER]): volume_Mb[-6000], gain[0.001000]
+2023 Jun 15 07:32:57.559210 audio_server[4862]:  audio_hw_primary/I (4996):  - now the sink gains are:
+2023 Jun 15 07:32:57.559260 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_SPEAKER->gain[0.001000]
+2023 Jun 15 07:32:57.559309 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI_ARC->gain[0.000000]
+2023 Jun 15 07:32:57.559358 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HEADPHONE->gain[1.000000]
+2023 Jun 15 07:32:57.559438 audio_server[4862]:  audio_hw_primary/I (4996): 	- OUTPORT_HDMI->gain[1.000000]
+2023 Jun 15 07:32:57.559551 audio_server[4862]:  audio_hw_primary/I (4996): 	- active outport is: [0x0]SPEAKER
+2023 Jun 15 07:33:03.510121 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters(kv: is_netflix=1)
+2023 Jun 15 07:33:03.510236 audio_server[4862]:  audio_hw_primary/I (5117): adev_set_parameters is_netflix set to 1
