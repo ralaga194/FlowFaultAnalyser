@@ -38,7 +38,31 @@ LogfileConfig::LogfileConfig(std::string incfgfile) : config_file(incfgfile)
   // std::map<std::string, std::string>::iterator it = configProps.begin();
   // for (; it != configProps.end(); ++it)
   //   std::cout << it->first << " => " << it->second << '\n';
+
+  init();
   cfg.close();
+}
+
+bool LogfileConfig::init()
+{
+  std::filesystem::path output_dir{""};
+  std::string result = "";
+
+  // initialise output directory
+  if (configProps.find("Output_Dir") != configProps.end())
+  {
+    result = configProps["Output_Dir"];
+    output_dir.assign(result);
+    if (std::filesystem::exists(output_dir))
+      std::cout << " exists\n";
+    else
+    {
+      std::cout << " does not exist\n";
+      std::filesystem::create_directory(output_dir);
+    }
+  }
+  // initialise other configuration if needed
+  return true;
 }
 
 std::string LogfileConfig::getRootDir()
@@ -53,7 +77,39 @@ std::string LogfileConfig::getRootDir()
   return result;
 }
 
+std::string LogfileConfig::getOutputDir()
+{
+  std::string result = "";
+
+  if (configProps.find("Output_Dir") != configProps.end())
+  {
+    result = configProps["Output_Dir"];
+  }
+  std::cout << "Output_Dir: " << result << std::endl;
+  return result;
+}
+
 std::vector<std::string> LogfileConfig::getLookupFiles(std::string marker)
+{
+  // declare vector of string (instead of fixed array)
+  std::vector<std::string> logfiles;
+  std::string buf;
+  if (configProps.find(marker) != configProps.end())
+  {
+    std::string tokens = configProps[marker];
+    // convert the line in to stream:
+    std::istringstream iss(tokens);
+
+    // read the line, word by word
+    while (std::getline(iss, buf, ';'))
+    {
+      logfiles.push_back(buf);
+    }
+  }
+  return logfiles;
+}
+
+std::vector<std::string> LogfileConfig::getRelatedFiles(std::string marker)
 {
   // declare vector of string (instead of fixed array)
   std::vector<std::string> logfiles;

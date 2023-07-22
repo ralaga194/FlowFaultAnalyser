@@ -1,0 +1,702 @@
+[PID:20946 2023/06/15-07:29:19]: starting coredump processing
+[PID:20946 2023/06/15-07:29:19]: working dir is empty /var/lib/systemd/coredump
+[PID:20955 2023/06/15-07:29:20]: starting minidump processing
+[PID:20955 2023/06/15-07:29:25]: working dir is empty /opt/minidumps
+[PID:25174 2023/06/15-07:31:57]: starting minidump processing
+              total        used        free      shared  buff/cache   available
+Mem:        2052884     1015748      536916       21960      500220      929296
+Swap:       1026432        5164     1021268
+top - 07:31:59 up 9 min,  1 user,  load average: 4.18, 2.64, 1.49
+Tasks: 275 total,   1 running, 270 sleeping,   0 stopped,   4 zombie
+%Cpu(s): 10.4 us, 12.0 sy,  0.9 ni, 76.5 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  2052884 total,   536560 free,  1016104 used,   500220 buff/cache
+KiB Swap:  1026432 total,  1021268 free,     5164 used.   928940 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+25224 root      20   0    2504   1428   1076 R  21.1  0.1   0:00.08 top
+24317 root      20   0  393320  67720  38164 S   5.3  3.3   0:02.84 Airplay
+    1 root      20   0    5548   4552   2192 S   0.0  0.2   0:11.92 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kthreadd
+    3 root     -50   0       0      0      0 S   0.0  0.0   0:00.18 ksoftirqd/0
+    4 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+    7 root      20   0       0      0      0 S   0.0  0.0   0:01.67 rcu_preempt
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.03 rcu_sched
+    9 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
+   11 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-dr+
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/0
+   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0
+   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1
+   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/1
+   16 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/1
+   17 root     -50   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/1
+   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
+   20 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/2
+   21 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/2
+   22 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/2
+   23 root     -50   0       0      0      0 S   0.0  0.0   0:00.20 ksoftirqd/2
+   25 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
+   26 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/3
+   27 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/3
+   28 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/3
+   29 root     -50   0       0      0      0 S   0.0  0.0   0:00.23 ksoftirqd/3
+   30 root      20   0       0      0      0 S   0.0  0.0   0:00.20 kworker/3:0
+   31 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
+   32 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kdevtmpfs
+   33 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   34 root      20   0       0      0      0 S   0.0  0.0   0:00.72 kworker/u8+
+   51 root      20   0       0      0      0 S   0.0  0.0   0:03.48 kworker/u8+
+  248 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/51-ear+
+  250 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/52-ear+
+ 1393 root      20   0       0      0      0 S   0.0  0.0   0:00.00 khungtaskd
+ 1394 root      20   0       0      0      0 S   0.0  0.0   0:00.00 oom_reaper
+ 1395 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+ 1397 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kcompactd0
+ 1398 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+ 1399 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1401 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+ 1428 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+ 1434 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 devfreq_wq
+ 1440 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lcd_work_q+
+ 1468 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+ 1471 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 watchdogd
+ 1554 root      20   0       0      0      0 S   0.0  0.0   0:00.00 gp_pll
+ 1580 root     -51   0       0      0      0 S   0.0  0.0   0:00.71 irq/62-mes+
+ 1582 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/94-mes+
+ 1625 root       0 -20       0      0      0 S   0.0  0.0   0:00.74 kswapd0
+ 1626 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vmstat
+ 1699 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ecryptfs-k+
+ 1818 root      20   0       0      0      0 S   0.0  0.0   0:00.00 hwrng
+ 1822 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1823 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1824 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1825 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1826 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1827 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1828 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1829 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1830 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1831 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1832 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1833 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1834 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1835 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1836 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1837 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1871 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1874 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1877 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1880 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1883 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1885 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1889 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1892 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1913 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 eth_monite+
+ 1943 root      20   0       0      0      0 S   0.0  0.0   0:00.34 kworker/1:1
+ 1952 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 dm_bufio_c+
+ 1953 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 cfinteract+
+ 1957 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1958 root      -2 -15       0      0      0 S   0.0  0.0   0:01.57 mmcqd/0
+ 1959 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1960 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0boo+
+ 1961 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1962 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0boo+
+ 1963 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1964 root      -2 -15       0      0      0 S   0.0  0.0   0:00.03 mmcqd/0gp0
+ 1965 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1966 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0rpmb
+ 2071 root      20   0       0      0      0 S   0.0  0.0   0:00.00 null
+ 2073 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 cpu_hogplu+
+ 2088 root      20   0       0      0      0 S   0.0  0.0   0:00.02 vmalloc_ion
+ 2089 root      20   0       0      0      0 S   0.0  0.0   0:00.00 codec_mm_i+
+ 2090 root      20   0       0      0      0 S   0.0  0.0   0:00.00 secure_ion
+ 2094 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ge2d_monit+
+ 2112 root      rt   0       0      0      0 S   0.0  0.0   0:00.11 aml-ditest+
+ 2113 root      20   0       0      0      0 S   0.0  0.0   0:00.02 aml-dimem-1
+ 2132 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2133 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2134 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2135 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2178 root      20   0       0      0      0 S   0.0  0.0   0:00.02 videosync
+ 2196 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cabc workq+
+ 2221 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cec_work
+ 2248 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/39-mes+
+ 2258 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vfence_wq
+ 2259 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vfence_wq
+ 2267 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task0
+ 2268 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task1
+ 2269 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task2
+ 2270 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task3
+ 2366 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrc+
+ 2368 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 krfcommd
+ 2389 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bl_power_o+
+ 2410 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+ 2411 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 2412 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kverityd
+ 2413 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 2423 root       0 -20       0      0      0 S   0.0  0.0   0:00.03 kworker/0:+
+ 2425 root      20   0       0      0      0 S   0.0  0.0   0:04.95 kworker/u8+
+ 2426 root       0 -20       0      0      0 S   0.0  0.0   0:00.05 kworker/2:+
+ 2427 root       0 -20       0      0      0 S   0.0  0.0   0:00.04 kworker/1:+
+ 2428 root       0 -20       0      0      0 S   0.0  0.0   0:00.05 kworker/3:+
+ 2447 root      20   0   26812   6920   6400 S   0.0  0.3   0:16.51 systemd-jo+
+ 2465 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 tee_timer
+ 2474 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kauditd
+ 2479 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/1:3
+ 2481 root      20   0    1260    256    212 S   0.0  0.0   0:00.01 logbackup
+ 2496 root      20   0   10816   1044    944 S   0.0  0.1   0:00.05 tee-suppli+
+ 2501 root      20   0       0      0      0 S   0.0  0.0   0:00.06 kworker/2:2
+ 2512 root      20   0       0      0      0 S   0.0  0.0   0:00.17 kworker/2:3
+ 2528 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/66-vde+
+ 2529 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/67-vde+
+ 2530 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 vdec-core
+ 2531 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vdec-work
+ 2532 root      20   0       0      0      0 S   0.0  0.0   0:00.00 task-post-+
+ 2589 root      20   0       0      0      0 S   0.0  0.0   0:03.68 kworker/u8+
+ 2600 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 2610 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 2658 root      20   0    3220   2412   1496 S   0.0  0.1   0:00.72 systemd-ud+
+ 3264 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 output-wor+
+ 3290 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 BTMTK_RX_WQ
+ 3311 root       0 -20       0      0      0 S   0.0  0.0   0:02.87 kworker/u9+
+ 3312 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_job_+
+ 4008 root      20   0       0      0      0 S   0.0  0.0   0:00.02 v4l2_front+
+ 4350 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 4574 root      20   0       0      0      0 S   0.0  0.0   0:01.85 kworker/0:3
+ 4595 root      20   0   60804   9244   7436 S   0.0  0.5   0:12.76 syslog-ng
+ 4604 root      20   0    1388    260    216 S   0.0  0.0   0:00.00 serviceman+
+ 4616 root      20   0    2988   1388   1104 S   0.0  0.1   0:00.03 login
+ 4630 root      20   0    2076   1492   1360 S   0.0  0.1   0:00.00 startLight+
+ 4632 root      20   0    1376   1000    924 S   0.0  0.0   0:00.00 agetty
+ 4639 root      20   0    5988   2824   1092 S   0.0  0.1   0:00.49 rtrouted
+ 4641 root      20   0   29752   1120   1004 S   0.0  0.1   0:00.04 ermgr
+ 4662 message+  20   0    4252   3100   1780 S   0.0  0.2   0:02.13 dbus-daemon
+ 4685 root      20   0    5876   2816   1964 S   0.0  0.1   0:00.36 lighttpd
+ 4705 root      20   0   14744   3276   2900 S   0.0  0.2   0:00.15 IARMDaemon+
+ 4720 root      20   0    2076   1644   1412 S   0.0  0.1   0:00.19 startIpGw.+
+ 4744 nobody    20   0    2520   1892   1532 S   0.0  0.1   0:01.75 mdnsd
+ 4747 root      20   0   17852   3320   2804 S   0.0  0.2   0:00.05 shipd
+ 4756 root      20   0   63400   5180   4724 S   0.0  0.3   0:00.10 tvservice
+ 4770 root      20   0       0      0      0 S   0.0  0.0   0:00.07 kworker/3:4
+ 4780 root      20   0    1596   1112   1004 S   0.0  0.1   0:00.02 smcrouted
+ 4790 root      20   0   88560   5760   4532 S   0.0  0.3   0:00.39 DobbyDaemon
+ 4791 root      20   0   44964   3060   2488 S   0.0  0.1   0:00.14 sysMgrMain
+ 4793 root      20   0   22168   1332   1164 S   0.0  0.1   0:00.00 rbus_sessi+
+ 4849 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+ 4862 root     -21   0  140396  38660   7308 S   0.0  1.9   0:01.73 Audioserve+
+ 4868 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+ 4962 root       0 -20       0      0      0 S   0.0  0.0   0:01.56 kworker/u9+
+ 5014 root      10 -10       0      0      0 S   0.0  0.0   0:00.33 main_thread
+ 5018 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 hif_thread
+ 5020 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 rx_thread
+ 5043 root      20   0   60096   5748   3076 S   0.0  0.3   0:04.59 pqservice
+ 5054 root      20   0  188404   9136   7716 S   0.0  0.4   0:00.91 dsMgrMain
+ 5159 root      20   0   63540   6068   5292 S   0.0  0.3   0:00.21 pwrMgrMain
+ 5161 root      20   0   62824   5608   5052 S   0.0  0.3   0:00.57 audiocaptu+
+ 5168 root      20   0   54188  30748   4704 S   0.0  1.5   0:01.38 mfrMgrMain
+ 5194 root      20   0    1268    812    752 S   0.0  0.0   0:00.05 rdnssd
+ 5198 root      20   0    1352    988    844 S   0.0  0.0   0:00.07 rdnssd
+ 5200 root      20   0   23476   2780   2364 S   0.0  0.1   0:00.07 nuanceeve.+
+ 5247 root      20   0   13376   2852   2468 S   0.0  0.1   0:00.16 nlmon
+ 5264 root      20   0    2076   1644   1424 S   0.0  0.1   0:00.02 rebootSTB.+
+ 5280 root      20   0    2076   1588   1424 S   0.0  0.1   0:00.01 ipIfaceMon+
+ 5321 root      20   0    2016    412    348 S   0.0  0.0   0:00.00 sleep
+ 5496 root      20   0    5832   3696   3336 S   0.0  0.2   0:00.07 bluetoothd
+ 5635 root      20   0  122160  11548   7492 S   0.0  0.6   0:04.19 tr69hostif
+ 5755 root      20   0  125172  34844  24944 S   0.0  1.7   0:07.11 MediaRite
+ 5757 non-root  20   0   18664   4576   3968 S   0.0  0.2   0:00.12 ledmgr
+ 5766 root      20   0   24028   3052   2684 S   0.0  0.1   0:00.12 panelDataD+
+ 6031 root      20   0   36220   5348   3900 S   0.0  0.3   0:00.20 storageMgr+
+ 6354 root      20   0    6668   4460   4016 S   0.0  0.2   0:00.06 wpa_suppli+
+ 6437 root      20   0   44880   4904   4352 S   0.0  0.2   0:00.08 sysTimeMgr
+ 6466 root      20   0  127564   7520   5800 S   0.0  0.4   0:03.39 netsrvmgr
+ 6489 root      20   0    2148     76      0 S   0.0  0.0   0:00.00 udhcpc
+ 7039 root      20   0   76384  13236   7740 S   0.0  0.6   0:01.67 btMgrBus
+ 7162 root      20   0    2208   1652   1424 S   0.0  0.1   0:00.01 sh
+ 7192 root      20   0   58244   7940   7020 S   0.0  0.4   0:00.53 gdial-serv+
+ 7227 root      20   0   72604   5720   4544 S   0.0  0.3   0:00.14 webconfig
+ 7387 non-root  20   0   70828   5432   4768 S   0.0  0.3   0:00.12 irMgrMain
+ 7394 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7422 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7431 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7441 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7567 root      20   0   72656   4560   3776 S   0.0  0.2   0:00.09 remotedebu+
+ 7651 root      20   0  169516  15292  11564 S   0.0  0.7   0:00.76 controlMgr
+ 7728 root      20   0    9272    516      0 S   0.0  0.0   0:00.00 dropbear
+ 7736 root      20   0   44832   4976   4332 S   0.0  0.2   0:00.08 deepSleepM+
+ 7739 root      20   0   49756   1960   1640 S   0.0  0.1   0:00.36 CecDaemonM+
+ 7745 blercu    20   0   62680   8212   7376 S   0.0  0.4   0:00.20 BleRcuDaem+
+ 7824 non-root  20   0   99964   6596   5120 S   0.0  0.3   0:00.33 parodus
+ 7946 root      20   0  712660 117340  71244 D   0.0  5.7   1:11.51 WPEFramewo+
+ 8228 root      20   0    2208   1564   1296 S   0.0  0.1   0:00.16 sh
+ 8421 systemd+  20   0   11824   1496   1292 S   0.0  0.1   0:00.03 systemd-ti+
+ 8452 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_event
+ 8511 root      20   0    3480   1412   1180 S   0.0  0.1   0:00.18 dnsmasq
+ 8652 root      20   0       0      0      0 Z   0.0  0.0   0:04.80 ResidentApp
+ 8797 root      20   0   48956   7048   5444 S   0.0  0.3   0:00.80 subttxrend+
+ 8970 root      20   0   64416  17716  14184 S   0.0  0.9   0:00.16 TextToSpee+
+ 9395 root      20   0   48824  12072  10488 S   0.0  0.6   0:00.05 Packager
+ 9413 root      20   0   94080  19844  16148 S   0.0  1.0   0:00.34 OCDM
+ 9630 root      20   0    9272   1708   1184 S   0.0  0.1   0:00.67 dropbear
+ 9879 root      20   0       0      0      0 Z   0.0  0.0   0:04.75 SearchAndD+
+10631 root      20   0   19792   2792   1892 S   0.0  0.1   0:00.00 crond
+10842 non-root  20   0  109304   6324   4484 S   0.0  0.3   0:00.72 telemetry2+
+11860 root      20   0  176240  20324  14804 S   0.0  1.0   0:00.49 AirplayDae+
+12215 root      20   0       0      0      0 Z   0.0  0.0   0:09.40 Airplay
+14283 root      20   0    2148   1196   1120 S   0.0  0.1   0:00.02 udhcpc
+17951 root      20   0    9780   1868   1224 S   0.0  0.1   0:00.86 ssh
+19055 root      20   0       0      0      0 S   0.0  0.0   0:01.45 kworker/0:1
+19381 root      20   0       0      0      0 S   0.0  0.0   0:00.21 kworker/1:0
+19449 root      20   0       0      0      0 S   0.0  0.0   0:00.14 kworker/2:0
+19459 root      20   0       0      0      0 S   0.0  0.0   0:00.62 kdvb-ad-0-+
+19859 root      20   0       0      0      0 S   0.0  0.0   0:00.09 kworker/3:1
+20880 root       0 -20       0      0      0 S   0.0  0.0   0:00.71 kworker/u9+
+23136 root      20   0   27056   3356   2552 S   0.0  0.2   0:00.77 dropbear
+23142 root      20   0    1992   1508   1344 S   0.0  0.1   0:00.01 sh
+23146 root      20   0   18448   9176   8940 S   0.0  0.4   0:01.51 journalctl
+24007 root      20   0    2016    408    344 S   0.0  0.0   0:00.00 sleep
+24138 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+24147 root      20   0    2076   1580   1424 S   0.0  0.1   0:00.00 updateIPRe+
+24189 root      20   0    2076   1580   1424 S   0.0  0.1   0:00.00 updateIPRe+
+24345 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:2
+24357 root      20   0    2076   1560   1424 S   0.0  0.1   0:00.00 updateIPRe+
+24404 root      20   0    2016    448    388 S   0.0  0.0   0:00.00 sleep
+24459 root      20   0    2076   1496   1360 S   0.0  0.1   0:00.00 updateIPRe+
+24516 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/3:2
+24521 root      20   0  197868  29948  25456 S   0.0  1.5   0:00.29 factoryapp
+24550 root      20   0    2076   1560   1424 S   0.0  0.1   0:00.00 updateIPRe+
+24631 root      20   0    2076   1492   1356 S   0.0  0.1   0:00.00 updateIPRe+
+24718 root      20   0    2076   1432   1296 S   0.0  0.1   0:00.00 updateIPRe+
+24826 root      20   0    2076   1556   1420 S   0.0  0.1   0:00.00 updateIPRe+
+24848 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_event
+24999 root      20   0  227876  31492  25364 S   0.0  1.5   0:00.36 WPENetwork+
+25009 root      20   0  429284 108252  59452 S   0.0  5.3   0:03.21 WPEWebProc+
+25056 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_event
+25081 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/u8+
+25094 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8+
+25151 root      20   0    2016    444    380 S   0.0  0.0   0:00.00 sleep
+25158 root      20   0       0      0      0 Z   0.0  0.0   0:00.04 systemctl
+25174 root      20   0    2148   1340   1196 S   0.0  0.1   0:00.01 uploadDump+
+25190 root      20   0    2016    404    340 S   0.0  0.0   0:00.00 sleep
+25196 root      20   0    2016    416    352 S   0.0  0.0   0:00.00 sleep
+25202 root      20   0    2016    416    352 S   0.0  0.0   0:00.00 sleep
+25207 root      20   0    2016    460    396 S   0.0  0.0   0:00.00 sleep
+25214 root      20   0    2016    396    332 S   0.0  0.0   0:00.00 sleep
+25215 root      20   0    2016    436    372 S   0.0  0.0   0:00.00 sleep
+25216 root      20   0    2016    396    332 S   0.0  0.0   0:00.00 sleep
+25217 root      20   0    2016    412    348 S   0.0  0.0   0:00.00 sleep
+25218 root      20   0    2016    440    376 S   0.0  0.0   0:00.00 sleep
+25219 root      20   0    2076   1596   1424 S   0.0  0.1   0:00.00 core_shell+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+none                   1024820         4   1024816   0% /dev
+/dev/dm-0               366848    366848         0 100% /
+tmpfs                  1026440        40   1026400   0% /dev/shm
+tmpfs                  1026440     17276   1009164   2% /run
+tmpfs                  1026440         0   1026440   0% /sys/fs/cgroup
+tmpfs                  1026440     17276   1009164   2% /etc/machine-id
+tmpfs                  1026440      3968   1022472   0% /var/dolby
+tmpfs                  1026440      1176   1025264   0% /tmp
+tmpfs                  1026440      1176   1025264   0% /var/cache/bind
+tmpfs                  1026440      1176   1025264   0% /etc/collectd.conf
+tmpfs                  1026440      1176   1025264   0% /etc/systemd/timesyncd.conf
+tmpfs                  1026440      1176   1025264   0% /etc/bind/named.conf.options
+tmpfs                  1026440      1176   1025264   0% /etc/dibbler
+/dev/mmcblk0p17        2660892     27420   2481920   1% /opt
+/dev/mmcblk0p15         516040     23880    455464   5% /mnt/critical
+/dev/mmcblk0p15         516040     23880    455464   5% /opt/persistent
+/dev/mmcblk0p15         516040     23880    455464   5% /opt/panel
+/dev/mmcblk0p15         516040     23880    455464   5% /opt/www
+/dev/mmcblk0p15         516040     23880    455464   5% /opt/drm
+/dev/mmcblk0p15         516040     23880    455464   5% /opt/gp
+tmpfs                     5120         0      5120   0% /opt/oem
+tmpfs                   131072         0    131072   0% /mnt/memory
+/dev/mmcblk0p17        2660892     27420   2481920   1% /nvram
+/dev/mmcblk0p17        2660892     27420   2481920   1% /var/lib
+tmpfs                  1026440       188   1026252   0% /var/volatile
+tmpfs                  1026440       188   1026252   0% /var/spool/cron
+tmpfs                  1026440       188   1026252   0% /etc/asound.conf
+tmpfs                  1026440       188   1026252   0% /etc/hosts
+tmpfs                  1026440       188   1026252   0% /etc/hostname
+tmpfs                  1026440       188   1026252   0% /etc/resolv.conf
+tmpfs                  1026440       188   1026252   0% /www
+tmpfs                  1026440       188   1026252   0% /etc/resolv.dnsmasq
+/opt/secure            2660892     27420   2481920   1% /opt/secure
+/opt/secure            2660892     27420   2481920   1% /nvram/secure
+/opt/secure            2660892     27420   2481920   1% /var/lib/secure
+/dev/mmcblk0p16        3096336    713892   2208776  24% /data
+/dev/mmcblk0p16        3096336    713892   2208776  24% /media/apps
+2023/06/15-07:31:59 process crashed = WPEFramework
+2023/06/15-07:31:59 signal causing dump = 6
+2023/06/15-07:31:59 time of dump = 1686814318
+2023/06/15-07:31:59 WPEFramework process is not listed to upload, we are not processing the core file
+[PID:25174 2023/06/15-07:32:02]: Check Network status count 1
+[PID:25174 2023/06/15-07:32:02]: Route is Available break the loop
+[PID:25174 2023/06/15-07:32:02]: IP acquistion completed, Testing the system time is received
+[PID:25174 2023/06/15-07:32:02]: Received /tmp/stt_received flag
+[PID:25174 2023/06/15-07:32:02]: Mac address is A84A631E5ADE
+[PID:25174 2023/06/15-07:32:02]: Cleanup minidump directory /opt/secure/minidumps
+[PID:25174 2023/06/15-07:32:02]: Deleting unfinished files: 
+[PID:25174 2023/06/15-07:32:02]: Deleting non-dump files : 
+[PID:25174 2023/06/15-07:32:02]: Portal URL: crashportal.stb.r53.xcal.tv
+[PID:25174 2023/06/15-07:32:02]: buildID is ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd
+[PID:25174 2023/06/15-07:32:03]: [utils.sh] flushLogger is called
+[PID:25174 2023/06/15-07:32:03]: Process crashed = WPEFramework
+[PID:25174 2023/06/15-07:32:03]: Crashed process log file(s): wpeframework.log
+[PID:25174 2023/06/15-07:32:03]: Appname, Process_Crashed = 48d4a107, WPEFramework
+[PID:25174 2023/06/15-07:32:03]: Size of the file: -rw-------    1 root     root        954936 Jun 15 07:31 macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp
+[PID:25174 2023/06/15-07:32:03]: Adding File: ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-03_boxTE_modELTE11MWR_wpeframework.log to minidump tarball
+[PID:25174 2023/06/15-07:32:04]: macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp
+[PID:25174 2023/06/15-07:32:04]: version.txt
+[PID:25174 2023/06/15-07:32:04]: ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-02_boxTE_modELTE11MWR_messages.txt
+[PID:25174 2023/06/15-07:32:04]: ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-22-42_boxTE_modELTE11MWR_applications.log
+[PID:25174 2023/06/15-07:32:04]: tar: removing leading '/' from member names
+[PID:25174 2023/06/15-07:32:05]: opt/logs/core_log.txt
+[PID:25174 2023/06/15-07:32:05]: ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-03_boxTE_modELTE11MWR_wpeframework.log
+[PID:25174 2023/06/15-07:32:05]: Success Compressing the files macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp version.txt ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-02_boxTE_modELTE11MWR_messages.txt ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-22-42_boxTE_modELTE11MWR_applications.log /opt/logs/core_log.txt ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-03_boxTE_modELTE11MWR_wpeframework.log
+[PID:25174 2023/06/15-07:32:05]: Size of the compressed file: -rw-r--r--    1 root     root        248857 Jun 15 07:32 macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:05]: Removing ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-02_boxTE_modELTE11MWR_messages.txt
+[PID:25174 2023/06/15-07:32:05]: Removing /opt/secure/minidumps/version.txt
+[PID:25174 2023/06/15-07:32:05]: Removing ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-22-42_boxTE_modELTE11MWR_applications.log
+[PID:25174 2023/06/15-07:32:05]: Removing /opt/secure/minidumps/ffe1f7ad4edceac03c59710cb8b184fc6ff5bcdd_macA84A631E5ADE_dat2023-06-15-07-32-03_boxTE_modELTE11MWR_wpeframework.log
+[PID:25174 2023/06/15-07:32:05]: [/lib/rdk/uploadDumps.sh]: 1: minidump S3 Upload 
+[PID:25174 2023/06/15-07:32:05]: DEBUG Original File Name : macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:05]: DEBUG Value Required for Check : mac
+[PID:25174 2023/06/15-07:32:05]: uploadToS3 macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz and partnerId=
+[PID:25174 2023/06/15-07:32:05]: DEBUG minidump file timestamp (2,4) received to uploadToS3: 2023-06-15-07-31-56
+[PID:25174 2023/06/15-07:32:05]: minidump file timestamp before upload: 2023-06-15-07-32-05
+[PID:25174 2023/06/15-07:32:05]: DEBUG minidump file to be uploaded: macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:05]: DEBUG Renaming the minidump file under /opt/secure/minidumps
+[PID:25174 2023/06/15-07:32:05]: DEBUG mv /opt/secure/minidumps/macA84A631E5ADE_dat2023-06-15-07-31-56_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz /opt/secure/minidumps/macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:05]: DEBUG S3 File Name : macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:05]: [/lib/rdk/uploadDumps.sh]: S3 Amazon Signing URL: https://ssr.ccp.xcal.tv/cgi-bin/upload_dump.cgi
+[PID:25174 2023/06/15-07:32:05]: RFC_EncryptCloudUpload_Enable:
+[PID:25174 2023/06/15-07:32:05]: mTlsCrashdumpUpload:true
+[PID:25174 2023/06/15-07:32:05]: Overriding the S3 Amazon SIgning URL: https://secure.ssr.coast.xcal.tv/cgi-bin/upload_dump.cgi
+[PID:25174 2023/06/15-07:32:05]: MTLS prefered for CrashdumpUpload
+[PID:25174 2023/06/15-07:32:05]: Using Xpki cert for CrashdumpUpload
+[PID:25174 2023/06/15-07:32:05]: Curl Connected to secure.ssr.coast.xcal.tv (2001:558:fd01:5000:50da:ce19:e5e9:7ba4) port 443
+[PID:25174 2023/06/15-07:32:05]: [/lib/rdk/uploadDumps.sh]: Curl return code : 0, HTTP SIGN URL Response: 200
+[PID:25174 2023/06/15-07:32:05]: Safe params: macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz --  -- 
+[PID:25174 2023/06/15-07:32:05]: Attempting TLS1.2 connection to Amazon S3
+[PID:25174 2023/06/15-07:32:05]: URL_CMD: curl --cert-type P12 --cert /opt/certs/devicecert_1.pk12<masked> -v -fgL --tlsv1.2 -T "macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz" -w "%{http_code} %{remote_ip} %{remote_port}" "https://ccp-stbcrashes2.s3.dualstack.us-east-1.amazonaws.com/minidump/2023/6/15/7/ELTE11MWR/ELTE11MWR_VBN_23Q2_sprint_20230614232241sdy_NGBB/vbn/macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3VCZ5W3TYHAPMPOQ%2F20230615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230615T073205Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=b49376ad0ec31459dc6db20f0ed7cfc3c9204d333d4a4298852488261c778865"
+[PID:25174 2023/06/15-07:32:06]: Curl Connected to ccp-stbcrashes2.s3.dualstack.us-east-1.amazonaws.com (2600:1fa0:81af:8be1:34d8:258a::) port 443
+[PID:25174 2023/06/15-07:32:06]: Curl return code: 0 HTTP Response code: 200
+[PID:25174 2023/06/15-07:32:06]: S3 minidump Upload is successful with TLS1.2
+[PID:25174 2023/06/15-07:32:06]: Removing uploaded minidump file macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:06]: [/lib/rdk/uploadDumps.sh]: minidump uploadToS3 SUCESS: status: 0
+[PID:25174 2023/06/15-07:32:06]: Removing file macA84A631E5ADE_dat2023-06-15-07-32-05_boxTE_modELTE11MWR_WPEFramework_48d4a107-8c15-4973-a46c31a0-1212c0b1.dmp.tgz
+[PID:25174 2023/06/15-07:32:06]: WORKING_DIR is empty!!!
+[PID:25174 2023/06/15-07:32:06]: WORKING_DIR is empty!!!
+              total        used        free      shared  buff/cache   available
+Mem:        2052884      960868      586868       21964      505148      984172
+Swap:       1026432        5132     1021300
+top - 07:32:12 up 9 min,  1 user,  load average: 3.89, 2.66, 1.51
+Tasks: 255 total,   3 running, 251 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 10.9 us, 12.3 sy,  0.9 ni, 75.7 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  2052884 total,   586924 free,   960800 used,   505160 buff/cache
+KiB Swap:  1026432 total,  1021300 free,     5132 used.   984240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+26619 root      20   0    2524   1424   1076 R  21.1  0.1   0:00.07 top
+19055 root      20   0       0      0      0 S   5.3  0.0   0:01.67 kworker/0:1
+25355 root      20   0  695640  99840  59284 S   5.3  4.9   0:05.01 WPEFramewo+
+25758 root      20   0  197868  29556  25120 S   5.3  1.4   0:00.24 factoryapp
+25833 root      20   0  456056 106064  59916 S   5.3  5.2   0:03.94 WPEWebProc+
+    1 root      20   0    5548   4552   2192 S   0.0  0.2   0:12.13 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kthreadd
+    3 root     -50   0       0      0      0 S   0.0  0.0   0:00.19 ksoftirqd/0
+    4 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/0:0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+    7 root      20   0       0      0      0 S   0.0  0.0   0:01.72 rcu_preempt
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.03 rcu_sched
+    9 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
+   11 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-dr+
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/0
+   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0
+   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1
+   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/1
+   16 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/1
+   17 root     -50   0       0      0      0 S   0.0  0.0   0:00.25 ksoftirqd/1
+   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
+   20 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/2
+   21 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/2
+   22 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/2
+   23 root     -50   0       0      0      0 S   0.0  0.0   0:00.21 ksoftirqd/2
+   25 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
+   26 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/3
+   27 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 watchdog/3
+   28 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/3
+   29 root     -50   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/3
+   30 root      20   0       0      0      0 S   0.0  0.0   0:00.20 kworker/3:0
+   31 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
+   32 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kdevtmpfs
+   33 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
+   34 root      20   0       0      0      0 S   0.0  0.0   0:00.72 kworker/u8+
+   51 root      20   0       0      0      0 S   0.0  0.0   0:03.65 kworker/u8+
+  248 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/51-ear+
+  250 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/52-ear+
+ 1393 root      20   0       0      0      0 S   0.0  0.0   0:00.00 khungtaskd
+ 1394 root      20   0       0      0      0 S   0.0  0.0   0:00.00 oom_reaper
+ 1395 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
+ 1397 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kcompactd0
+ 1398 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
+ 1399 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1401 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
+ 1428 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md
+ 1434 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 devfreq_wq
+ 1440 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lcd_work_q+
+ 1468 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+ 1471 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 watchdogd
+ 1554 root      20   0       0      0      0 S   0.0  0.0   0:00.00 gp_pll
+ 1580 root     -51   0       0      0      0 S   0.0  0.0   0:00.74 irq/62-mes+
+ 1582 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/94-mes+
+ 1625 root       0 -20       0      0      0 S   0.0  0.0   0:00.74 kswapd0
+ 1626 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vmstat
+ 1699 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ecryptfs-k+
+ 1818 root      20   0       0      0      0 S   0.0  0.0   0:00.00 hwrng
+ 1822 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1823 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1824 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1825 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1826 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1827 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1828 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1829 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1830 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1831 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1832 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1833 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1834 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1835 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1836 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1837 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1871 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1874 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1877 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1880 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1883 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1885 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1889 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1892 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1913 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 eth_monite+
+ 1943 root      20   0       0      0      0 S   0.0  0.0   0:00.35 kworker/1:1
+ 1952 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 dm_bufio_c+
+ 1953 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 cfinteract+
+ 1957 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1958 root      -2 -15       0      0      0 S   0.0  0.0   0:01.64 mmcqd/0
+ 1959 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1960 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0boo+
+ 1961 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1962 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0boo+
+ 1963 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1964 root      -2 -15       0      0      0 S   0.0  0.0   0:00.03 mmcqd/0gp0
+ 1965 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 1966 root      -2 -15       0      0      0 S   0.0  0.0   0:00.00 mmcqd/0rpmb
+ 2071 root      20   0       0      0      0 S   0.0  0.0   0:00.00 null
+ 2073 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 cpu_hogplu+
+ 2088 root      20   0       0      0      0 S   0.0  0.0   0:00.02 vmalloc_ion
+ 2089 root      20   0       0      0      0 S   0.0  0.0   0:00.00 codec_mm_i+
+ 2090 root      20   0       0      0      0 S   0.0  0.0   0:00.00 secure_ion
+ 2094 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ge2d_monit+
+ 2112 root      rt   0       0      0      0 S   0.0  0.0   0:00.11 aml-ditest+
+ 2113 root      20   0       0      0      0 S   0.0  0.0   0:00.02 aml-dimem-1
+ 2132 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2133 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2134 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2135 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hdmirx
+ 2178 root      20   0       0      0      0 D   0.0  0.0   0:00.02 videosync
+ 2196 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cabc workq+
+ 2221 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cec_work
+ 2248 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/39-mes+
+ 2258 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vfence_wq
+ 2259 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vfence_wq
+ 2267 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task0
+ 2268 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task1
+ 2269 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task2
+ 2270 root       3 -17       0      0      0 S   0.0  0.0   0:00.00 cma_task3
+ 2366 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrc+
+ 2368 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 krfcommd
+ 2389 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bl_power_o+
+ 2410 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kdmflush
+ 2411 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 2412 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kverityd
+ 2413 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 2423 root       0 -20       0      0      0 S   0.0  0.0   0:00.03 kworker/0:+
+ 2425 root      20   0       0      0      0 S   0.0  0.0   0:04.95 kworker/u8+
+ 2426 root       0 -20       0      0      0 S   0.0  0.0   0:00.05 kworker/2:+
+ 2427 root       0 -20       0      0      0 S   0.0  0.0   0:00.04 kworker/1:+
+ 2428 root       0 -20       0      0      0 S   0.0  0.0   0:00.05 kworker/3:+
+ 2447 root      20   0   35008  12460  11924 S   0.0  0.6   0:17.75 systemd-jo+
+ 2465 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 tee_timer
+ 2474 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kauditd
+ 2479 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/1:3
+ 2481 root      20   0    1260    256    212 S   0.0  0.0   0:00.01 logbackup
+ 2496 root      20   0   10816   1044    944 S   0.0  0.1   0:00.05 tee-suppli+
+ 2501 root      20   0       0      0      0 S   0.0  0.0   0:00.06 kworker/2:2
+ 2512 root      20   0       0      0      0 S   0.0  0.0   0:00.19 kworker/2:3
+ 2528 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/66-vde+
+ 2529 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/67-vde+
+ 2530 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 vdec-core
+ 2531 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vdec-work
+ 2532 root      20   0       0      0      0 S   0.0  0.0   0:00.00 task-post-+
+ 2589 root      20   0       0      0      0 S   0.0  0.0   0:03.76 kworker/u8+
+ 2600 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 2610 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 2658 root      20   0    3220   2412   1496 S   0.0  0.1   0:00.74 systemd-ud+
+ 3264 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 output-wor+
+ 3290 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 BTMTK_RX_WQ
+ 3311 root       0 -20       0      0      0 S   0.0  0.0   0:02.87 kworker/u9+
+ 3312 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_job_+
+ 4008 root      20   0       0      0      0 S   0.0  0.0   0:00.02 v4l2_front+
+ 4350 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 4574 root      20   0       0      0      0 S   0.0  0.0   0:01.85 kworker/0:3
+ 4595 root      20   0   60804   5440   3632 S   0.0  0.3   0:14.23 syslog-ng
+ 4604 root      20   0    1388    260    216 S   0.0  0.0   0:00.00 serviceman+
+ 4616 root      20   0    2988   1388   1104 S   0.0  0.1   0:00.03 login
+ 4630 root      20   0    2076   1492   1360 S   0.0  0.1   0:00.00 startLight+
+ 4632 root      20   0    1376   1000    924 S   0.0  0.0   0:00.00 agetty
+ 4639 root      20   0    5988   2824   1092 S   0.0  0.1   0:00.53 rtrouted
+ 4641 root      20   0   30776   1196   1072 S   0.0  0.1   0:00.04 ermgr
+ 4662 message+  20   0    4248   3096   1780 S   0.0  0.2   0:02.33 dbus-daemon
+ 4685 root      20   0    5876   2816   1964 S   0.0  0.1   0:00.37 lighttpd
+ 4705 root      20   0   14744   3276   2900 S   0.0  0.2   0:00.16 IARMDaemon+
+ 4720 root      20   0    2076   1644   1412 S   0.0  0.1   0:00.19 startIpGw.+
+ 4744 nobody    20   0    2520   1892   1532 S   0.0  0.1   0:01.76 mdnsd
+ 4747 root      20   0   17852   3320   2804 S   0.0  0.2   0:00.05 shipd
+ 4756 root      20   0   63400   5824   5224 S   0.0  0.3   0:00.10 tvservice
+ 4770 root      20   0       0      0      0 S   0.0  0.0   0:00.07 kworker/3:4
+ 4780 root      20   0    1596   1112   1004 S   0.0  0.1   0:00.02 smcrouted
+ 4790 root      20   0   88560   5760   4532 S   0.0  0.3   0:00.40 DobbyDaemon
+ 4791 root      20   0   44964   3060   2488 S   0.0  0.1   0:00.14 sysMgrMain
+ 4793 root      20   0   22168   1332   1164 S   0.0  0.1   0:00.00 rbus_sessi+
+ 4849 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+ 4862 root     -21   0  140396  38744   7308 S   0.0  1.9   0:01.74 Audioserve+
+ 4868 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+ 4962 root       0 -20       0      0      0 S   0.0  0.0   0:01.62 kworker/u9+
+ 5014 root      10 -10       0      0      0 S   0.0  0.0   0:00.34 main_thread
+ 5018 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 hif_thread
+ 5020 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 rx_thread
+ 5043 root      20   0   78536   5748   3076 S   0.0  0.3   0:04.92 pqservice
+ 5054 root      20   0  188404   9136   7716 S   0.0  0.4   0:01.01 dsMgrMain
+ 5159 root      20   0   63540   6068   5292 S   0.0  0.3   0:00.22 pwrMgrMain
+ 5161 root      20   0   62824   5608   5052 S   0.0  0.3   0:00.58 audiocaptu+
+ 5168 root      20   0   54188  30748   4704 S   0.0  1.5   0:01.44 mfrMgrMain
+ 5194 root      20   0    1268    812    752 S   0.0  0.0   0:00.05 rdnssd
+ 5198 root      20   0    1352    988    844 S   0.0  0.0   0:00.07 rdnssd
+ 5200 root      20   0   23476   2780   2364 S   0.0  0.1   0:00.07 nuanceeve.+
+ 5247 root      20   0   13376   2852   2468 S   0.0  0.1   0:00.16 nlmon
+ 5264 root      20   0    2076   1644   1424 S   0.0  0.1   0:00.02 rebootSTB.+
+ 5280 root      20   0    2076   1588   1424 S   0.0  0.1   0:00.01 ipIfaceMon+
+ 5321 root      20   0    2016    412    348 S   0.0  0.0   0:00.00 sleep
+ 5496 root      20   0    5832   3696   3336 S   0.0  0.2   0:00.07 bluetoothd
+ 5635 root      20   0  122160  11548   7492 S   0.0  0.6   0:04.55 tr69hostif
+ 5755 root      20   0  133368  35076  25156 S   0.0  1.7   0:07.18 MediaRite
+ 5757 non-root  20   0   18664   4576   3968 S   0.0  0.2   0:00.13 ledmgr
+ 5766 root      20   0   24028   3052   2684 S   0.0  0.1   0:00.12 panelDataD+
+ 6031 root      20   0   36220   5348   3900 S   0.0  0.3   0:00.21 storageMgr+
+ 6354 root      20   0    6668   4460   4016 S   0.0  0.2   0:00.06 wpa_suppli+
+ 6437 root      20   0   44880   4904   4352 S   0.0  0.2   0:00.09 sysTimeMgr
+ 6466 root      20   0  127564   7536   5800 S   0.0  0.4   0:03.55 netsrvmgr
+ 6489 root      20   0    2148     76      0 S   0.0  0.0   0:00.00 udhcpc
+ 7039 root      20   0   76384  13236   7740 S   0.0  0.6   0:01.70 btMgrBus
+ 7162 root      20   0    2208   1652   1424 S   0.0  0.1   0:00.01 sh
+ 7192 root      20   0   58244   7964   7020 S   0.0  0.4   0:00.54 gdial-serv+
+ 7227 root      20   0   72604   5720   4544 S   0.0  0.3   0:00.15 webconfig
+ 7387 non-root  20   0   70828   5432   4768 S   0.0  0.3   0:00.12 irMgrMain
+ 7394 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7422 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7431 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7441 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
+ 7567 root      20   0   72656   4560   3776 S   0.0  0.2   0:00.09 remotedebu+
+ 7651 root      20   0  169516  15292  11564 S   0.0  0.7   0:00.77 controlMgr
+ 7728 root      20   0    9272    516      0 S   0.0  0.0   0:00.00 dropbear
+ 7736 root      20   0   44832   4976   4332 S   0.0  0.2   0:00.08 deepSleepM+
+ 7739 root      20   0   49756   1960   1640 S   0.0  0.1   0:00.38 CecDaemonM+
+ 7745 blercu    20   0   62680   8212   7376 S   0.0  0.4   0:00.20 BleRcuDaem+
+ 7824 non-root  20   0   99964   6596   5120 S   0.0  0.3   0:00.33 parodus
+ 8421 systemd+  20   0   11824   1496   1292 S   0.0  0.1   0:00.03 systemd-ti+
+ 8511 root      20   0    3480   1412   1180 S   0.0  0.1   0:00.20 dnsmasq
+ 9630 root      20   0    9272   1708   1184 S   0.0  0.1   0:00.76 dropbear
+10842 non-root  20   0  109304   6324   4484 S   0.0  0.3   0:00.74 telemetry2+
+14283 root      20   0    2148   1196   1120 S   0.0  0.1   0:00.02 udhcpc
+17951 root      20   0    9780   1868   1224 S   0.0  0.1   0:01.16 ssh
+19381 root      20   0       0      0      0 S   0.0  0.0   0:00.21 kworker/1:0
+19449 root      20   0       0      0      0 S   0.0  0.0   0:00.14 kworker/2:0
+19459 root      20   0       0      0      0 S   0.0  0.0   0:00.65 kdvb-ad-0-+
+19859 root      20   0       0      0      0 S   0.0  0.0   0:00.09 kworker/3:1
+20880 root       0 -20       0      0      0 S   0.0  0.0   0:00.76 kworker/u9+
+23136 root      20   0   27056   3356   2552 R   0.0  0.2   0:01.14 dropbear
+23142 root      20   0    1992   1508   1344 S   0.0  0.1   0:00.01 sh
+23146 root      20   0   18572   8212   7968 R   0.0  0.4   0:02.19 journalctl
+24007 root      20   0    2016    408    344 S   0.0  0.0   0:00.00 sleep
+24138 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
+24345 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:2
+24516 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/3:2
+25081 root      20   0       0      0      0 D   0.0  0.0   0:00.06 kworker/u8+
+25094 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8+
+25362 root      20   0    2208   1696   1424 S   0.0  0.1   0:00.08 sh
+25363 root      20   0    2208   1620   1360 S   0.0  0.1   0:00.02 residentAp+
+25430 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_event
+25539 root      20   0   64412  17296  13828 S   0.0  0.8   0:00.15 TextToSpee+
+25595 root      20   0   48956   7252   5656 S   0.0  0.4   0:00.79 subttxrend+
+25708 root      20   0   20084   8356   7248 S   0.0  0.4   0:00.06 sh
+25826 root      20   0  227868  31428  25356 S   0.0  1.5   0:00.40 WPENetwork+
+25918 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kbase_event
+25925 root      20   0   19708   7460   6584 S   0.0  0.4   0:00.00 sleep
+25935 root      20   0   48824  12064  10484 S   0.0  0.6   0:00.06 Packager
+25947 root      20   0  113048  21828  16788 S   0.0  1.1   0:00.51 OCDM
+26233 root      20   0    2016    448    388 S   0.0  0.0   0:00.00 sleep
+26364 root      20   0       0      0      0 Z   0.0  0.0   0:00.03 systemctl
+26476 root      20   0    2016    416    352 S   0.0  0.0   0:00.00 sleep
+26572 root      20   0  142888  18564  14604 D   0.0  0.9   0:00.21 AirplayDae+
+26582 root      20   0    2016    396    332 S   0.0  0.0   0:00.00 sleep
+26615 root      20   0    2076   1604   1420 S   0.0  0.1   0:00.01 core_shell+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+none                   1024820         4   1024816   0% /dev
+/dev/dm-0               366848    366848         0 100% /
+tmpfs                  1026440        40   1026400   0% /dev/shm
+tmpfs                  1026440     17276   1009164   2% /run
+tmpfs                  1026440         0   1026440   0% /sys/fs/cgroup
+tmpfs                  1026440     17276   1009164   2% /etc/machine-id
+tmpfs                  1026440      3968   1022472   0% /var/dolby
+tmpfs                  1026440      1148   1025292   0% /tmp
+tmpfs                  1026440      1148   1025292   0% /var/cache/bind
+tmpfs                  1026440      1148   1025292   0% /etc/collectd.conf
+tmpfs                  1026440      1148   1025292   0% /etc/systemd/timesyncd.conf
+tmpfs                  1026440      1148   1025292   0% /etc/bind/named.conf.options
+tmpfs                  1026440      1148   1025292   0% /etc/dibbler
+/dev/mmcblk0p17        2660892     27568   2481772   1% /opt
+/dev/mmcblk0p15         516040     23860    455484   5% /mnt/critical
+/dev/mmcblk0p15         516040     23860    455484   5% /opt/persistent
+/dev/mmcblk0p15         516040     23860    455484   5% /opt/panel
+/dev/mmcblk0p15         516040     23860    455484   5% /opt/www
+/dev/mmcblk0p15         516040     23860    455484   5% /opt/drm
+/dev/mmcblk0p15         516040     23860    455484   5% /opt/gp
+tmpfs                     5120         0      5120   0% /opt/oem
+tmpfs                   131072         0    131072   0% /mnt/memory
+/dev/mmcblk0p17        2660892     27568   2481772   1% /nvram
+/dev/mmcblk0p17        2660892     27568   2481772   1% /var/lib
+tmpfs                  1026440       188   1026252   0% /var/volatile
+tmpfs                  1026440       188   1026252   0% /var/spool/cron
+tmpfs                  1026440       188   1026252   0% /etc/asound.conf
+tmpfs                  1026440       188   1026252   0% /etc/hosts
+tmpfs                  1026440       188   1026252   0% /etc/hostname
+tmpfs                  1026440       188   1026252   0% /etc/resolv.conf
+tmpfs                  1026440       188   1026252   0% /www
+tmpfs                  1026440       188   1026252   0% /etc/resolv.dnsmasq
+/opt/secure            2660892     27568   2481772   1% /opt/secure
+/opt/secure            2660892     27568   2481772   1% /nvram/secure
+/opt/secure            2660892     27568   2481772   1% /var/lib/secure
+/dev/mmcblk0p16        3096336    713892   2208776  24% /data
+/dev/mmcblk0p16        3096336    713892   2208776  24% /media/apps
+2023/06/15-07:32:12 process crashed = AirplayDaemon
+2023/06/15-07:32:12 signal causing dump = 11
+2023/06/15-07:32:12 time of dump = 1686814332
+2023/06/15-07:32:12 AirplayDaemon crash and uploading the cores
+2023/06/15-07:32:12 corename = 1686814332_core.prog_AirplayDaemon.signal_11.gz
+2023/06/15-07:32:12 processing_corename = 1686814332_core_prog_AirplayDaemon.signal_11.gz.tmp
+2023/06/15-07:32:13 core-shell core started pid : 26615
+2023/06/15-07:32:18 core-shell core created pid : 26615
+[/lib/rdk/disk_threshold_check.sh]:[SECUREDUMP] Enabled. Dump location changed to /opt/secure.

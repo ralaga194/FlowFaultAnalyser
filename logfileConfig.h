@@ -7,6 +7,7 @@
 #include <map>
 #include <vector>
 #include <iomanip>
+#include <filesystem>
 
 class LogfileConfig
 {
@@ -16,9 +17,12 @@ class LogfileConfig
 public:
   LogfileConfig(std::string incfgfile);
   std::string getRootDir(void);
+  std::string getOutputDir(void);
   std::vector<std::string> getLookupFiles(std::string marker);
+  std::vector<std::string> getRelatedFiles(std::string marker);
   std::string getInspectFile(void);
   std::string getMarkerString(void);
   int getInspectionDuration(void);
+  bool init(void);
 };
 #endif /*LOGFILE_CONFIG_H*/

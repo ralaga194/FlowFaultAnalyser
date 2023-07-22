@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
   std::string configfile = "";
-  // std::cout << "Welcome to POC program..." << std::endl;
+  bool isRelatedFilesReq = false;
 
   // read configuration
   // std::cout << "arguments : " << argc << " value : " << argv[argc - 1] << std::endl;
@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
   LogfileConfig config(configfile);
 
   std::vector<std::string> lookupfiles = config.getLookupFiles("Lookup_Files");
+  std::string outputDir = config.getOutputDir();
 
   // Printing all the elements
   for (auto filename : lookupfiles)
@@ -32,6 +33,7 @@ int main(int argc, char *argv[])
     std::cout << filename << std::endl;
     std::vector<std::string> files = getListFiles(config.getRootDir(), filename);
     std::string inspectFilename = config.getInspectFile();
+
     std::cout << "------------------------------------------------------------" << std::endl;
     for (auto file : files)
     {
@@ -42,12 +44,14 @@ int main(int argc, char *argv[])
       // std::cout << "filename : " << filename << "extension: " << fext;
 
       // TODO: input file for the parser needs to be updated based on above findings
-      LogfileParser parser(file, inspectFilename + fext);
+      LogfileParser parser(file, outputDir + inspectFilename + fext);
       std::string timestamp = parser.getMarkerTimestamp(config.getMarkerString());
       if (timestamp != "")
       {
+        isRelatedFilesReq = true;
         std::string startTimestamp = adjustTimestampInMinutes(timestamp, "", config.getInspectionDuration());
         std::string fileStartTimestamp = parser.getStartTimestamp();
+
         // std::cout << "startTimestamp : " << startTimestamp << std::endl;
         // std::cout << "fileStartTimestamp : " << fileStartTimestamp << std::endl;
         if (compareTimestamp(fileStartTimestamp, startTimestamp) > 0)
@@ -64,6 +68,35 @@ int main(int argc, char *argv[])
       else
       {
         std::cout << "Marker is not found!!!" << std::endl;
+      }
+    }
+  }
+  if (isRelatedFilesReq)
+  {
+    std::vector<std::string> relatedfilesMarker = config.getRelatedFiles("Related_Files");
+    std::filesystem::path targetParent = outputDir;
+
+    for (auto marker : relatedfilesMarker)
+    {
+      std::cout << marker << std::endl;
+      std::vector<std::string> files = getListFiles(config.getRootDir(), marker);
+
+      for (auto file : files)
+      {
+        std::string filename = getFilename(file);
+        auto target = targetParent / filename;
+        // std::cout << "file - " << file << "filename: " << filename << std::endl;
+        try
+        {
+          if (!std::filesystem::exists(target))
+            std::filesystem::copy_file(file, target, std::filesystem::copy_options::overwrite_existing);
+          else
+            std::cout << target << "is already exist in output folder" << std::endl;
+        }
+        catch (std::exception &e)
+        {
+          std::cout << e.what();
+        }
       }
     }
   }

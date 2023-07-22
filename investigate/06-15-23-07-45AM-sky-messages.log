@@ -1,0 +1,36 @@
+2023 Jun 15 07:22:33.469185 sky-dropbear.sh[5246]:  Creating sky-ssh-hostkey for dropbear
+2023 Jun 15 07:22:33.661831 sky-dropbear.sh[5246]:  Generating 2048 bit rsa key, this may take a while...
+2023 Jun 15 07:22:40.020546 sky-dropbear.sh[5246]:  Public key portion is:
+2023 Jun 15 07:22:40.020759 sky-dropbear.sh[5246]:  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpdqgilXkhhi3zG3yDpsH73CUrGpZ2SsanDOK1Ox/jO3M21P/+aXBgFTnGpmPDrwK9CA3xzzMJ9wMhGJqqx3l6ZQMbIqmeAvUzcCWVkuRoOxI0a1MPblOzPNgTES5h5vlWYT0uyNJcqQ8ipABa4ktE9NENwvnjqqNX5sprs1dH57ZMog/YkKUWYQXYYBBHK3jVFyzzj5/pbKqNkuxG5pOAigFDwsYeZXHQb07VCgRcfRSA5LXGapudYq6XoVDSvbUP0z+IU8yLc+UchiREORIMdABsD0hlMmZY//j0pjRX/6GShdE06B1w810GE4/epW3kh9uhKHZX8Ze3MbV8tyc3 root@element-teone
+2023 Jun 15 07:22:40.020831 sky-dropbear.sh[5246]:  Fingerprint: sha1!! 53:19:f3:71:26:62:6e:b5:73:a9:9c:37:53:b8:32:5e:a2:1f:34:5b
+2023 Jun 15 07:22:40.082184 dropbear[7728]:  Running in background
+2023 Jun 15 07:22:40.633772 BleRcuDaemon[7745]:  invalid or missing 'manufacturer' field
+2023 Jun 15 07:22:40.667293 BleRcuDaemon[7745]:  creating new socket for HciSocket object
+2023 Jun 15 07:22:40.667939 BleRcuDaemon[7745]:  setting hci filter to [ type=0x0010 events={0x00000020, 0x40000000} ]
+2023 Jun 15 07:22:40.674379 BleRcuDaemon[7745]:  entering le scan monitor thread
+2023 Jun 15 07:22:40.696326 BleRcuDaemon[7745]:  Create HciSocket
+2023 Jun 15 07:22:40.697046 BleRcuDaemon[7745]:  creating new socket for HciSocket object
+2023 Jun 15 07:22:40.697723 BleRcuDaemon[7745]:  setting hci filter to [ type=0x0010 events={0x00000020, 0x40000000} ]
+2023 Jun 15 07:22:40.711615 BleRcuDaemon[7745]:  found bluez adapter at "/org/bluez/hci0" with address E8:CA:C8:A4:81:A9 
+2023 Jun 15 07:22:40.723028 BleRcuDaemon[7745]:  adapter is not powered, attempting to power on now
+2023 Jun 15 07:22:40.738686 BleRcuDaemon[7745]:  BleRcuDaemon started
+2023 Jun 15 07:22:40.750661 BleRcuDaemon[7745]:  entering hci monitor thread
+2023 Jun 15 07:22:40.834672 BleRcuDaemon[7745]:  failed to receive hci message (Invalid argument)
+2023 Jun 15 07:22:40.835305 BleRcuDaemon[7745]:  hci socket read failed, quitting monitor event loop
+2023 Jun 15 07:22:40.836100 BleRcuDaemon[7745]:  exiting hci monitor thread
+2023 Jun 15 07:22:40.837057 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.843673 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.847643 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.848303 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.849187 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.850288 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.852417 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.854128 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.854805 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.855539 BleRcuDaemon[7745]:  received a too small hci packet (4 bytes)
+2023 Jun 15 07:22:40.865024 BleRcuDaemon[7745]:  hci socket read failed, quitting monitor event loop
+2023 Jun 15 07:22:40.865725 BleRcuDaemon[7745]:  exiting le scan monitor thread
+2023 Jun 15 07:22:41.249744 BleRcuDaemon[7745]:  BT adapter powered on
+2023 Jun 15 07:22:41.268450 BleRcuDaemon[7745]:  disabling pairable mode
+2023 Jun 15 07:22:41.275836 BleRcuDaemon[7745]:  onStateChanged( 1 ) 
+2023 Jun 15 07:22:41.284315 BleRcuDaemon[7745]:  adapter pairable state changed to false 
