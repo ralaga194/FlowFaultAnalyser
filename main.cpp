@@ -24,31 +24,47 @@ int main(int argc, char *argv[])
   std::cout << "config file : " << configfile << std::endl;
   LogfileConfig config(configfile);
 
-  std::cout << config.getRootDir() << std::endl;
   std::vector<std::string> lookupfiles = config.getLookupFiles("Lookup_Files");
+
   // Printing all the elements
   for (auto filename : lookupfiles)
   {
     std::cout << filename << std::endl;
     std::vector<std::string> files = getListFiles(config.getRootDir(), filename);
+    std::string inspectFilename = config.getInspectFile();
+    std::cout << "------------------------------------------------------------" << std::endl;
     for (auto file : files)
     {
-      std::cout << "list of lookup files : " << file << std::endl;
+      // std::cout << "list of lookup files : " << file << std::endl;
+
+      std::string filename = getFilename(file);
+      std::string fext = getFileExtension(filename);
+      // std::cout << "filename : " << filename << "extension: " << fext;
+
+      // TODO: input file for the parser needs to be updated based on above findings
+      LogfileParser parser(file, inspectFilename + fext);
+      std::string timestamp = parser.getMarkerTimestamp(config.getMarkerString());
+      if (timestamp != "")
+      {
+        std::string startTimestamp = adjustTimestampInMinutes(timestamp, "", config.getInspectionDuration());
+        std::string fileStartTimestamp = parser.getStartTimestamp();
+        // std::cout << "startTimestamp : " << startTimestamp << std::endl;
+        // std::cout << "fileStartTimestamp : " << fileStartTimestamp << std::endl;
+        if (compareTimestamp(fileStartTimestamp, startTimestamp) > 0)
+        {
+          std::cout << " inspect logmessage start timestamp : " << fileStartTimestamp << std::endl;
+          parser.writeLogMessageForAnalysis(fileStartTimestamp, timestamp);
+        }
+        else
+        {
+          std::cout << " inspect logmessage start timestamp : " << startTimestamp << std::endl;
+          parser.writeLogMessageForAnalysis(startTimestamp, timestamp);
+        }
+      }
+      else
+      {
+        std::cout << "Marker is not found!!!" << std::endl;
+      }
     }
   }
-
-#if 0
-  LogfileParser parser("./../sample.log", "./../analysis.log");
-  std::string timestamp = parser.getMarkerTimestamp(WPE_CRASH_MARKER);
-  if (false && timestamp != "")
-  {
-    std::string startTimestamp = adjustTimestampInMinutes(timestamp, "", -1);
-    std::cout << " back track time : " << startTimestamp << std::endl;
-    parser.writeLogMessageForAnalysis(startTimestamp, timestamp);
-  }
-  else
-  {
-    std::cout << "Marker is not found!!!" << std::endl;
-  }
-#endif
 }

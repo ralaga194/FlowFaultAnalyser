@@ -17,5 +17,8 @@ public:
   LogfileConfig(std::string incfgfile);
   std::string getRootDir(void);
   std::vector<std::string> getLookupFiles(std::string marker);
+  std::string getInspectFile(void);
+  std::string getMarkerString(void);
+  int getInspectionDuration(void);
 };
 #endif /*LOGFILE_CONFIG_H*/

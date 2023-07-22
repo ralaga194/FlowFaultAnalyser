@@ -29,6 +29,22 @@ std::string adjustTimestampInMinutes(std::string current, std::string format, in
   return dateStream.str();
 }
 
+int getMilliseconds(std::string time)
+{
+  int millisec = 0;
+  std::string delimiter = ".";
+
+  size_t pos_start;
+
+  pos_start = time.find(delimiter);
+  if (pos_start != std::string::npos)
+  {
+    millisec = stoi(time.substr(pos_start + 1));
+  }
+  // std::cout << "millisec: " << millisec << std::endl;
+  return millisec;
+}
+
 int compareTimestamp(std::string refernceTime, std::string currentTime)
 {
   std::tm time1{}, time2{};
@@ -52,6 +68,12 @@ int compareTimestamp(std::string refernceTime, std::string currentTime)
   // std::cout << "time1 : " << std::put_time(&time1, "%Y %b %d %H:%M:%S") << "time2: " << std::put_time(&time2, "%Y %b %d %H:%M:%S") << std::endl;
   double seconds = difftime(mktime(&time1), mktime(&time2));
   // std::cout << "time difference is : " << seconds << std::endl;
+  if (seconds == 0)
+  {
+    int time1Millisec = getMilliseconds(refernceTime);
+    int time2Millisec = getMilliseconds(currentTime);
+    return (time1Millisec - time2Millisec);
+  }
   return seconds;
 }
 
@@ -64,9 +86,41 @@ std::vector<std::string> getListFiles(std::string path, std::string identifier)
 
     if (infile.find(identifier) != std::string::npos)
     {
-      std::cout << "found!" << '\n';
+      // std::cout << "found!" << '\n';
       fileslist.push_back(file.path().string());
     }
   }
   return fileslist;
+}
+
+std::string getFilename(std::string filenameWithPath)
+{
+  std::string filename = "";
+  std::string delimiter = "/";
+
+  size_t pos_end;
+
+  pos_end = filenameWithPath.find_last_of(delimiter);
+  if (pos_end != std::string::npos)
+  {
+    filename = filenameWithPath.substr(pos_end + 1);
+  }
+  std::cout << "filename: " << filename << std::endl;
+  return filename;
+}
+
+std::string getFileExtension(std::string filename)
+{
+  std::string fileExtension = "";
+  std::string delimiter = ".";
+
+  size_t pos_start;
+
+  pos_start = filename.find(delimiter);
+  if (pos_start != std::string::npos)
+  {
+    fileExtension = filename.substr(pos_start);
+  }
+  std::cout << "fileExtension: " << fileExtension << std::endl;
+  return fileExtension;
 }

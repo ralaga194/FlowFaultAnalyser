@@ -9,4 +9,6 @@
 std::string adjustTimestampInMinutes(std::string current, std::string format, int offset);
 int compareTimestamp(std::string refernceTime, std::string currentTime);
 std::vector<std::string> getListFiles(std::string path, std::string identifier);
+std::string getFilename(std::string filenameWithPath);
+std::string getFileExtension(std::string filename);
 #endif /*LOGFILE_UTILS_H*/

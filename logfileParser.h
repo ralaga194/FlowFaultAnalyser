@@ -25,6 +25,7 @@ public:
   std::vector<std::string> getTokens(std::string start, std::string end);
   bool writeLogMessageForAnalysis(std::string start, std::string end);
   std::string getTimestamp(std::string line);
+  std::string getStartTimestamp(void);
 };
 
 #endif /*LOGFILE_PARSER_H*/

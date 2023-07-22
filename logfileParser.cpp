@@ -51,7 +51,6 @@ std::string LogfileParser::getMarkerTimestamp(std::string marker)
       }
     }
     vec.clear();
-    std::cout << "\n";
   }
   input.close();
   return markerTimestamp;
@@ -87,6 +86,19 @@ std::string LogfileParser::getTimestamp(std::string line)
     }
   }
   vec.clear();
+  return time;
+}
+
+std::string LogfileParser::getStartTimestamp()
+{
+  std::ifstream input(input_file);
+  std::string firstLine;
+  std::string time = "";
+
+  if (std::getline(input, firstLine))
+  {
+    time = getTimestamp(firstLine);
+  }
   return time;
 }
 
