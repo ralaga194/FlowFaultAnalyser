@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
 
       for (auto file : files)
       {
-        std::string filename = getFilename(marker);
+        std::string filename = getFilename(file);
         auto target = targetParent / filename;
         // std::cout << "file - " << file << "filename: " << filename << std::endl;
         try
