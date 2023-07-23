@@ -2,6 +2,7 @@
 #include "logfileParser.h"
 #include "logfileUtils.h"
 #include "logfileConfig.h"
+#include "logfileAnalyser.h"
 
 #define WPE_CRASH_MARKER "event=\'PLUGIN_CRASHED\'"
 
@@ -64,7 +65,8 @@ int main(int argc, char *argv[])
           std::cout << " inspect logmessage start timestamp : " << startTimestamp << std::endl;
           parser.writeLogMessageForAnalysis(startTimestamp, timestamp);
         }
-      }
+        logfileAnalyse(outputDir + inspectFilename + fext);
+       }
       else
       {
         std::cout << "Marker is not found!!!" << std::endl;
@@ -83,15 +85,20 @@ int main(int argc, char *argv[])
 
       for (auto file : files)
       {
-        std::string filename = getFilename(file);
+        std::string filename = getFilename(marker);
         auto target = targetParent / filename;
         // std::cout << "file - " << file << "filename: " << filename << std::endl;
         try
         {
-          if (!std::filesystem::exists(target))
+          if (!std::filesystem::exists(target)) {
             std::filesystem::copy_file(file, target, std::filesystem::copy_options::overwrite_existing);
-          else
-            std::cout << target << "is already exist in output folder" << std::endl;
+            if (marker.compare("version") == 0)
+              printFileContents(file);
+          } else {
+            std::cout << target << "is already exist in output folder\n" << std::endl;
+            if (marker.compare("version") == 0) {
+              printFileContents(file);}
+          }
         }
         catch (std::exception &e)
         {

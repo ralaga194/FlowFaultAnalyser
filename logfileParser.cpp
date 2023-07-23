@@ -1,5 +1,6 @@
 #include "logfileParser.h"
 #include "logfileUtils.h"
+#include "logfileAnalyser.h"
 #include <sstream>
 #include <vector>
 

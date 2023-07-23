@@ -1,0 +1,143 @@
+#include "logfileAnalyser.h"
+#include "logfileParser.h"
+#include "logfileUtils.h"
+#include <sstream>
+#include <fstream>
+#include <vector>
+#include <iostream>
+#include <cstring>
+#include <filesystem>
+
+void printFileContents(const std::filesystem::path& filePath)
+{
+    std::ifstream inputFile(filePath);
+    if (inputFile.is_open()) {
+    std::cout<<"\n****************"<<std::endl;
+    std::cout<<"\nFIRMWARE VERSION\n"<<std::endl;
+    std::cout<<"****************\n"<<std::endl;
+        std::string line;
+        while (std::getline(inputFile, line)) {
+            std::cout << line << '\n';
+        }
+        inputFile.close();
+    } else {
+        std::cout << "Unable to open the file: " << filePath << std::endl;
+    }
+}
+
+/*void corelogAnlayse(std::string coreFile,std::string start, std::string end)
+{
+  std::ifstream coreLogFile(coreFile);
+  std::string line;
+  std::string time = "";
+  std::string buf;
+  int found=0;
+  
+  while (std::getline(coreLogFile, line))
+  {
+    // convert the line in to stream:
+    std::istringstream iss(line);
+    time = getTime(line);
+     if (time != "")
+    {
+       if (compareTimestamp(start, time) <= 0)
+      {
+        std::cout<<"Priya_main"<<std::endl;
+        if (compareTimestamp(end, time) > 0)
+        {
+            std::cout<<"Priya_main"<<std::endl;
+          if (found == 1)
+          {
+            std::cout << line << std::endl;
+          }
+          else {
+          while (std::getline(iss, buf, CDELIMITER))
+          {
+            if (buf.compare("Clock Frequency Info") == 0) {
+                found ++;
+             //std::cout << "*****found crash marker*****" << std::endl;
+                 std::cout << line << std::endl;
+            }
+          }
+         }
+        }
+        }
+        else
+        {
+          std::cout << "Reached end of the log messages....." << std::endl;
+          break;
+        }
+      }
+    }
+}*/
+
+void logfileAnalyse(std::string analyseFile)
+{
+    std::ifstream analysisFile(analyseFile);
+    std::cout<<"\n****************"<<std::endl;
+    std::cout<<"\nLOG ANALYSER\n"<<std::endl;
+    std::cout<<"****************\n"<<std::endl;
+    std::string line;
+    std::string buf;
+
+    while (std::getline(analysisFile, line))
+    {
+    // convert the line in to stream:
+    std::istringstream iss(line);
+
+    // read the line, word by word
+    while (std::getline(iss, buf, CDELIMITER))
+    {
+        if (buf.compare("HTML5") == 0)
+        {
+          std::cout << "*****Playback*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("virtualKeyCode") == 0)
+        {
+          std::cout << "*****Key Presses*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("virtualKeyCode") == 0)
+        {
+          std::cout << "*****Key Presses*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("ERROR") == 0)
+        {
+          std::cout << "*****Error Message*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("WARN") == 0)
+        {
+          std::cout << "*****Warnings*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("Failure") == 0)
+        {
+          std::cout << "*****Failures*****" << std::endl;
+          std::cout << line << std::endl;
+        } 
+        if (buf.compare("Got memory pressure notification") == 0)
+        {
+          std::cout << "*****Error Message*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("WebProcess is unresponsive") == 0)
+        {
+          std::cout << "*****Warnings*****" << std::endl;
+          std::cout << line << std::endl;
+        }
+        if (buf.compare("Failure") == 0)
+        {
+          std::cout << "*****Failures*****" << std::endl;
+          std::cout << line << std::endl;
+        }              
+        if (buf.compare("reason: 'MemoryExceeded'") == 0)
+        {
+          std::cout << "*****Mmeory Usage Warning*****" << std::endl;
+          std::cout << line << std::endl;            
+        }
+    }
+    }
+}
