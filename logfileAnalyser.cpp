@@ -87,9 +87,9 @@ void getFileStartTimestamp(std::string coreFile)
 //   }
 // }
 
-void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::string endTimestamp)
+void corelogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
 {
-  std::ifstream coreLogFile(coreFile);
+  std::ifstream coreLogFile(filePath);
   std::string line;
   std::string time = "";
   std::string buf;
@@ -143,8 +143,6 @@ void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::strin
     }
   }
 }
-
-
 
 int toplogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
 {
