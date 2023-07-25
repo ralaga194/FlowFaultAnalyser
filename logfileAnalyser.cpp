@@ -36,52 +36,109 @@ void getFileStartTimestamp(std::string coreFile)
 {
 }
 
-void corelogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
+// void corelogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
+// {
+//   std::ifstream coreLogFile(filePath);
+//   std::string line;
+//   std::string time = "";
+//   std::string buf;
+//   int found = 0;
+//   LogfileParser parser;
+
+//   while (std::getline(coreLogFile, line))
+//   {
+//     // convert the line in to stream:
+//     std::istringstream iss(line);
+//     time = parser.getTimestamp(line, logFormat::coreLog);
+//     std::cout << "coreLogAnalyse()-> " << time << std::endl;
+//     if (time != "")
+//     {
+//       std::cout << "coreLogAnalyse()-> " << startTimestamp << std::endl;
+//       if (compareTimestamp(startTimestamp, time) <= 0)
+//       {
+//         std::cout << "Priya_main" << std::endl;
+//         if (compareTimestamp(endTimestamp, time) > 0)
+//         {
+//           std::cout << "Priya_main" << std::endl;
+//           if (found == 1)
+//           {
+//             std::cout << line << std::endl;
+//           }
+//           else
+//           {
+//             // while (std::getline(iss, buf, CDELIMITER))
+//             // {
+//             //   if (buf.compare("Clock Frequency Info") == 0)
+//             //   {
+//             //     found++;
+//             //     // std::cout << "*****found crash marker*****" << std::endl;
+//             //     std::cout << line << std::endl;
+//             //   }
+//             // }
+//           }
+//         }
+//       }
+//       else
+//       {
+//         std::cout << "Reached end of the log messages....." << std::endl;
+//         break;
+//       }
+//     }
+//   }
+// }
+
+void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::string endTimestamp)
 {
-  std::ifstream coreLogFile(filePath);
+  std::ifstream coreLogFile(coreFile);
   std::string line;
   std::string time = "";
   std::string buf;
   int found = 0;
   LogfileParser parser;
+  bool isDisplayContinue = false;
 
   while (std::getline(coreLogFile, line))
   {
+    // ignore empty line
+    if (line.size() == 0)
+    {
+      std::cout << "Ignored empty line " << std::endl;
+      continue;
+    }
     // convert the line in to stream:
     std::istringstream iss(line);
     time = parser.getTimestamp(line, logFormat::coreLog);
-    std::cout << "coreLogAnalyse()-> " << time << std::endl;
+    // std::cout << "coreLogAnalyse()-> " << time << std::endl;
     if (time != "")
     {
-      std::cout << "coreLogAnalyse()-> " << startTimestamp << std::endl;
+      // std::cout << "coreLogAnalyse()-> " << startTimestamp << std::endl;
       if (compareTimestamp(startTimestamp, time) <= 0)
       {
-        std::cout << "Priya_main" << std::endl;
         if (compareTimestamp(endTimestamp, time) > 0)
         {
-          std::cout << "Priya_main" << std::endl;
-          if (found == 1)
-          {
-            std::cout << line << std::endl;
-          }
-          else
-          {
-            // while (std::getline(iss, buf, CDELIMITER))
-            // {
-            //   if (buf.compare("Clock Frequency Info") == 0)
-            //   {
-            //     found++;
-            //     // std::cout << "*****found crash marker*****" << std::endl;
-            //     std::cout << line << std::endl;
-            //   }
-            // }
-          }
+          std::cout << line << std::endl;
+          isDisplayContinue = true;
         }
       }
       else
       {
         std::cout << "Reached end of the log messages....." << std::endl;
+        isDisplayContinue = false;
         break;
+      }
+    }
+    else
+    {
+      if (isDisplayContinue)
+      {
+        std::size_t found = line.find("time of dump");
+        if (found != std::string::npos)
+        {
+          std::cout << "Reached end of the log messages....." << std::endl;
+          isDisplayContinue = false;
+          break;
+        }
+        std::cout << line << std::endl;
       }
     }
   }
