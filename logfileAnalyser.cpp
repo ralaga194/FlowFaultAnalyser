@@ -23,6 +23,7 @@ void printFileContents(const std::filesystem::path &filePath)
     {
       std::cout << line << '\n';
     }
+    std::cout << "********************************" << '\n';
     inputFile.close();
   }
   else
@@ -31,13 +32,13 @@ void printFileContents(const std::filesystem::path &filePath)
   }
 }
 
-std::string getFileStartTimestamp(std::string coreFile)
+void getFileStartTimestamp(std::string coreFile)
 {
 }
 
-void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::string endTimestamp)
+void corelogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
 {
-  std::ifstream coreLogFile(coreFile);
+  std::ifstream coreLogFile(filePath);
   std::string line;
   std::string time = "";
   std::string buf;
@@ -84,6 +85,18 @@ void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::strin
       }
     }
   }
+}
+
+void toplogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
+{
+  std::ifstream analysisFile(filePath);
+  std::cout << "\n****************" << std::endl;
+  std::cout << "\nCORE LOG DETAILS\n"
+            << std::endl;
+  std::cout << "****************\n"
+            << std::endl;
+  std::string line;
+  std::string buf;
 }
 
 void logfileAnalyse(std::string analyseFile)

@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
     std::vector<std::string> relatedfilesMarker = config.getRelatedFiles("Related_Files");
     std::filesystem::path targetParent = outputDir;
     LogfileParser coreLogParser;
-    std::string coreLogFile = "../investigate/06-15-23-07-45AM-core_log.txt";
+    /*std::string coreLogFile = "../investigate/06-15-23-07-45AM-core_log.txt";*/
 
     for (auto marker : relatedfilesMarker)
     {
@@ -106,12 +106,26 @@ int main(int argc, char *argv[])
           }
           if (marker.compare("version") == 0)
             printFileContents(file);
-
+          if (marker.compare("top_log") == 0) {
+            std::string startTimestamp = adjustTimestampInMinutes(mTimestamps[0], "", -3);
+            std::string fileStartTimestamp = coreLogParser.getStartTimestamp(file, logFormat::wpeLog);
+            std::cout << "\n Top_log startTimestamp : " << startTimestamp << "Top_log endTimestamp : " << mTimestamps[0] << std::endl;
+            if (compareTimestamp(fileStartTimestamp, startTimestamp) > 0)
+            {
+              std::cout << " \n inspect logmessage start timestamp : " << fileStartTimestamp << std::endl;
+              toplogAnlayse(file, fileStartTimestamp, mTimestamps[0]);
+            }
+            else
+            {
+              std::cout << " \n inspect logmessage start timestamp : " << startTimestamp << std::endl;
+              toplogAnlayse(file, startTimestamp, mTimestamps[0]);
+            }
+          }
           if (marker.compare("core_log") == 0)
           {
             std::string startTimestamp = adjustTimestampInMinutes(mTimestamps[0], "", -3);
             std::cout << "startTimestamp : " << startTimestamp << "endTimestamp : " << mTimestamps[0] << std::endl;
-            std::string fileStartTimestamp = coreLogParser.getStartTimestamp(coreLogFile, logFormat::coreLog);
+            std::string fileStartTimestamp = coreLogParser.getStartTimestamp(file, logFormat::coreLog);
 
             // std::cout << "startTimestamp : " << startTimestamp << std::endl;
             // std::cout << "fileStartTimestamp : " << fileStartTimestamp << std::endl;

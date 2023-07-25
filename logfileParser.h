@@ -5,6 +5,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <filesystem>
 
 const int MAX_LINE = 500;
 const char WPE_CDELIMITER = ' ';
@@ -34,7 +35,7 @@ public:
   bool writeLogMessageForAnalysis(std::string start, std::string end);
   std::string getTimestamp(std::string line, logFormat fmt);
   std::string getStartTimestamp(void);
-  std::string getStartTimestamp(std::string file, logFormat fmt);
+  std::string getStartTimestamp(const std::filesystem::path &filePath, logFormat fmt);
 };
 
 #endif /*LOGFILE_PARSER_H*/

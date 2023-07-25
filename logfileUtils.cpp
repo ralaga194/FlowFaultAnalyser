@@ -121,7 +121,7 @@ std::string getFilename(std::string filenameWithPath)
   {
     filename = filenameWithPath.substr(pos_end + 1);
   }
-  std::cout << "filename: " << filename << std::endl;
+  std::cout << "\nfilename: " << filename << std::endl;
   return filename;
 }
 

@@ -133,9 +133,9 @@ std::string LogfileParser::getStartTimestamp()
   return time;
 }
 
-std::string LogfileParser::getStartTimestamp(std::string file, logFormat fmt)
+std::string LogfileParser::getStartTimestamp(const std::filesystem::path &filePath, logFormat fmt)
 {
-  std::ifstream input(file);
+  std::ifstream input(filePath);
   std::string firstLine;
   std::string time = "";
 
