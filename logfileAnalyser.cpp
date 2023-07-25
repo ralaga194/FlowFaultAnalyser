@@ -87,16 +87,43 @@ void corelogAnlayse(const std::filesystem::path &filePath, std::string startTime
   }
 }
 
-void toplogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
+
+
+int toplogAnlayse(const std::filesystem::path &filePath, std::string startTimestamp, std::string endTimestamp)
 {
-  std::ifstream analysisFile(filePath);
-  std::cout << "\n****************" << std::endl;
-  std::cout << "\nCORE LOG DETAILS\n"
-            << std::endl;
-  std::cout << "****************\n"
-            << std::endl;
-  std::string line;
-  std::string buf;
+    LogfileParser parser;
+    std::time_t targetTime = convertToTimeT(startTimestamp);
+
+    std::ifstream file(filePath);
+    if (!file.is_open()) {
+        std::cerr << "Error opening file: " << std::endl;
+        return 0;
+    }
+
+    std::string line;
+    std::string nearestTimestamp="";
+    std::time_t minTimeDifference = std::numeric_limits<std::time_t>::max();
+    int occurance = 0;
+    while (std::getline(file, line)) {
+        std::time_t timestampTime = convertToTimeT(line);
+        std::time_t timeDifference = std::abs(timestampTime - targetTime);
+        if (timeDifference < minTimeDifference) {
+            minTimeDifference = timeDifference;
+            nearestTimestamp = parser.getTimestamp(line, logFormat::wpeLog);
+        }
+        if (nearestTimestamp != "" ) {
+            if (line.find("Clock Frequency Info:") != std::string::npos) {
+              if (occurance == 0)
+              std::cout << line << std::endl;
+              occurance++;
+            }
+            if (occurance == 1)
+              std::cout << line << std::endl;
+          }
+        } 
+
+    file.close();
+    return 1;
 }
 
 void logfileAnalyse(std::string analyseFile)

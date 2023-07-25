@@ -140,3 +140,11 @@ std::string getFileExtension(std::string filename)
   std::cout << "fileExtension: " << fileExtension << std::endl;
   return fileExtension;
 }
+
+// Function to convert timestamp string to time_t
+std::time_t convertToTimeT(const std::string& timestamp) {
+    std::tm tm = {};
+    std::istringstream ss(timestamp);
+    ss >> std::get_time(&tm, "%Y %b %d %H:%M:%S");
+    return std::mktime(&tm);
+}
