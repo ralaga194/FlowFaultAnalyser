@@ -8,7 +8,7 @@
 #include <filesystem>
 
 void logfileAnalyse(std::string analyseFile);
-void printFileContents(const std::filesystem::path& filePath);
-/*void corelogAnlayse(std::string coreFile,std::string start, std::string end);*/
+void printFileContents(const std::filesystem::path &filePath);
+void corelogAnlayse(std::string coreFile, std::string startTimestamp, std::string endTimestamp);
 
-#endif /*LOGFILE_UTILS_H*/ 
+#endif /*LOGFILE_UTILS_H*/

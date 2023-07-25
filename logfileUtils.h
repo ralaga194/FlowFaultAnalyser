@@ -11,4 +11,5 @@ int compareTimestamp(std::string refernceTime, std::string currentTime);
 std::vector<std::string> getListFiles(std::string path, std::string identifier);
 std::string getFilename(std::string filenameWithPath);
 std::string getFileExtension(std::string filename);
+std::string convertTimestampFormat(std::string timestamp, std::string curfmt, std::string newfmt);
 #endif /*LOGFILE_UTILS_H*/

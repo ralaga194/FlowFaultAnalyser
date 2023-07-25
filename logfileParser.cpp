@@ -37,7 +37,7 @@ std::string LogfileParser::getMarkerTimestamp(std::string marker)
     std::vector<std::string> vec;
 
     // read the line, word by word
-    while (std::getline(iss, buf, CDELIMITER))
+    while (std::getline(iss, buf, WPE_CDELIMITER))
     {
       vec.push_back(buf);
       if (buf.compare(marker) == 0)
@@ -68,7 +68,7 @@ std::vector<std::string> LogfileParser::getTokens(std::string start, std::string
   return tokens;
 }
 
-std::string LogfileParser::getTimestamp(std::string line)
+std::string LogfileParser::getTimestamp(std::string line, logFormat fmt = wpeLog)
 {
   std::string buf;
   std::vector<std::string> vec;
@@ -76,17 +76,47 @@ std::string LogfileParser::getTimestamp(std::string line)
 
   // convert the line in to stream:
   std::istringstream iss(line);
-  // read the line, word by word
-  while (std::getline(iss, buf, CDELIMITER))
+
+  switch (fmt)
   {
-    vec.push_back(buf);
-    if (vec.size() >= 4)
+  case wpeLog:
+  {
+    // read the line, word by word
+    while (std::getline(iss, buf, WPE_CDELIMITER))
     {
-      time = vec[0] + ' ' + vec[1] + ' ' + vec[2] + ' ' + vec[3];
-      break;
+      vec.push_back(buf);
+      if (vec.size() >= 4)
+      {
+        time = vec[0] + ' ' + vec[1] + ' ' + vec[2] + ' ' + vec[3];
+        break;
+      }
+    }
+    vec.clear();
+  }
+  break;
+  case coreLog:
+  {
+    // ignore the comments
+    if (line.at(0) != '[')
+    {
+      // std::cout << "Ignored line - " << line << std::endl;
+      return time;
+    }
+    // read the line, word by word
+    std::getline(iss, buf, CORE_CDELIMITER);
+    size_t pos = buf.find(" ");
+    if (pos != std::string::npos)
+    {
+      std::string extractedTime = buf.substr(pos, buf.size() - pos);
+      time = convertTimestampFormat(extractedTime, "%Y/%m/%d %H:%M:%S", "%Y %b %d %H:%M:%S");
+    }
+    else
+    {
+      std::cout << "Not able to find timestamp" << std::endl;
     }
   }
-  vec.clear();
+  break;
+  }
   return time;
 }
 
@@ -99,6 +129,23 @@ std::string LogfileParser::getStartTimestamp()
   if (std::getline(input, firstLine))
   {
     time = getTimestamp(firstLine);
+  }
+  return time;
+}
+
+std::string LogfileParser::getStartTimestamp(std::string file, logFormat fmt)
+{
+  std::ifstream input(file);
+  std::string firstLine;
+  std::string time = "";
+
+  while (std::getline(input, firstLine))
+  {
+    time = getTimestamp(firstLine, fmt);
+    if (time != "")
+    {
+      return time;
+    }
   }
   return time;
 }
@@ -153,7 +200,7 @@ bool LogfileParser::parse()
     std::vector<std::string> vec;
 
     // read the line, word by word
-    while (std::getline(iss, buf, CDELIMITER))
+    while (std::getline(iss, buf, WPE_CDELIMITER))
     {
       vec.push_back(buf);
       if (buf.compare("event=\'PLUGIN_CRASHED\'") == 0)

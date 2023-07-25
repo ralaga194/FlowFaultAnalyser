@@ -7,7 +7,14 @@
 #include <vector>
 
 const int MAX_LINE = 500;
-const char CDELIMITER = ' ';
+const char WPE_CDELIMITER = ' ';
+const char CORE_CDELIMITER = ']';
+
+enum logFormat
+{
+  wpeLog,
+  coreLog
+};
 
 class LogfileParser
 {
@@ -15,6 +22,7 @@ class LogfileParser
   std::string analysis_file;
 
 public:
+  LogfileParser(){};
   LogfileParser(std::string infile, std::string afile);
   int open();
   bool parse();
@@ -24,8 +32,9 @@ public:
   bool seek(std::string timestamp);
   std::vector<std::string> getTokens(std::string start, std::string end);
   bool writeLogMessageForAnalysis(std::string start, std::string end);
-  std::string getTimestamp(std::string line);
+  std::string getTimestamp(std::string line, logFormat fmt);
   std::string getStartTimestamp(void);
+  std::string getStartTimestamp(std::string file, logFormat fmt);
 };
 
 #endif /*LOGFILE_PARSER_H*/

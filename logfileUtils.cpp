@@ -56,13 +56,13 @@ int compareTimestamp(std::string refernceTime, std::string currentTime)
   iss1 >> std::get_time(&time1, "%Y %b %d %H:%M:%S");
   if (iss1.fail())
   {
-    throw std::runtime_error{"failed to parse time string"};
+    throw std::runtime_error{"failed to parse time iss1 string"};
   }
 
   iss2 >> std::get_time(&time2, "%Y %b %d %H:%M:%S");
   if (iss2.fail())
   {
-    throw std::runtime_error{"failed to parse time string"};
+    throw std::runtime_error{"failed to parse time iss2 string"};
   }
 
   // std::cout << "time1 : " << std::put_time(&time1, "%Y %b %d %H:%M:%S") << "time2: " << std::put_time(&time2, "%Y %b %d %H:%M:%S") << std::endl;
@@ -75,6 +75,22 @@ int compareTimestamp(std::string refernceTime, std::string currentTime)
     return (time1Millisec - time2Millisec);
   }
   return seconds;
+}
+
+std::string convertTimestampFormat(std::string timestamp, std::string curfmt, std::string newfmt)
+{
+  std::tm time{};
+  std::istringstream iss(timestamp);
+  std::stringstream newTime;
+  std::string convertedTimestamp = "";
+
+  iss >> std::get_time(&time, "%Y/%m/%d-%H:%M:%S");
+  if (!iss.fail())
+  {
+    newTime << std::put_time(&time, "%Y %b %d %H:%M:%S");
+    convertedTimestamp = newTime.str();
+  }
+  return convertedTimestamp;
 }
 
 std::vector<std::string> getListFiles(std::string path, std::string identifier)

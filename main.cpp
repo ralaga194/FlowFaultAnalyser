@@ -27,6 +27,8 @@ int main(int argc, char *argv[])
 
   std::vector<std::string> lookupfiles = config.getLookupFiles("Lookup_Files");
   std::string outputDir = config.getOutputDir();
+  std::string markerTimestamp = "";
+  std::vector<std::string> mTimestamps;
 
   // Printing all the elements
   for (auto filename : lookupfiles)
@@ -46,11 +48,11 @@ int main(int argc, char *argv[])
 
       // TODO: input file for the parser needs to be updated based on above findings
       LogfileParser parser(file, outputDir + inspectFilename + fext);
-      std::string timestamp = parser.getMarkerTimestamp(config.getMarkerString());
-      if (timestamp != "")
+      markerTimestamp = parser.getMarkerTimestamp(config.getMarkerString());
+      if (markerTimestamp != "")
       {
         isRelatedFilesReq = true;
-        std::string startTimestamp = adjustTimestampInMinutes(timestamp, "", config.getInspectionDuration());
+        std::string startTimestamp = adjustTimestampInMinutes(markerTimestamp, "", config.getInspectionDuration());
         std::string fileStartTimestamp = parser.getStartTimestamp();
 
         // std::cout << "startTimestamp : " << startTimestamp << std::endl;
@@ -58,15 +60,16 @@ int main(int argc, char *argv[])
         if (compareTimestamp(fileStartTimestamp, startTimestamp) > 0)
         {
           std::cout << " inspect logmessage start timestamp : " << fileStartTimestamp << std::endl;
-          parser.writeLogMessageForAnalysis(fileStartTimestamp, timestamp);
+          parser.writeLogMessageForAnalysis(fileStartTimestamp, markerTimestamp);
         }
         else
         {
           std::cout << " inspect logmessage start timestamp : " << startTimestamp << std::endl;
-          parser.writeLogMessageForAnalysis(startTimestamp, timestamp);
+          parser.writeLogMessageForAnalysis(startTimestamp, markerTimestamp);
         }
         logfileAnalyse(outputDir + inspectFilename + fext);
-       }
+        mTimestamps.push_back(markerTimestamp);
+      }
       else
       {
         std::cout << "Marker is not found!!!" << std::endl;
@@ -77,6 +80,8 @@ int main(int argc, char *argv[])
   {
     std::vector<std::string> relatedfilesMarker = config.getRelatedFiles("Related_Files");
     std::filesystem::path targetParent = outputDir;
+    LogfileParser coreLogParser;
+    std::string coreLogFile = "../investigate/06-15-23-07-45AM-core_log.txt";
 
     for (auto marker : relatedfilesMarker)
     {
@@ -90,14 +95,36 @@ int main(int argc, char *argv[])
         // std::cout << "file - " << file << "filename: " << filename << std::endl;
         try
         {
-          if (!std::filesystem::exists(target)) {
+          if (!std::filesystem::exists(target))
+          {
             std::filesystem::copy_file(file, target, std::filesystem::copy_options::overwrite_existing);
-            if (marker.compare("version") == 0)
-              printFileContents(file);
-          } else {
-            std::cout << target << "is already exist in output folder\n" << std::endl;
-            if (marker.compare("version") == 0) {
-              printFileContents(file);}
+          }
+          else
+          {
+            std::cout << target << "is already exist in output folder\n"
+                      << std::endl;
+          }
+          if (marker.compare("version") == 0)
+            printFileContents(file);
+
+          if (marker.compare("core_log") == 0)
+          {
+            std::string startTimestamp = adjustTimestampInMinutes(mTimestamps[0], "", -3);
+            std::cout << "startTimestamp : " << startTimestamp << "endTimestamp : " << mTimestamps[0] << std::endl;
+            std::string fileStartTimestamp = coreLogParser.getStartTimestamp(coreLogFile, logFormat::coreLog);
+
+            // std::cout << "startTimestamp : " << startTimestamp << std::endl;
+            // std::cout << "fileStartTimestamp : " << fileStartTimestamp << std::endl;
+            if (compareTimestamp(fileStartTimestamp, startTimestamp) > 0)
+            {
+              std::cout << " inspect logmessage start timestamp : " << fileStartTimestamp << std::endl;
+              corelogAnlayse(file, fileStartTimestamp, mTimestamps[0]);
+            }
+            else
+            {
+              std::cout << " inspect logmessage start timestamp : " << startTimestamp << std::endl;
+              corelogAnlayse(file, startTimestamp, mTimestamps[0]);
+            }
           }
         }
         catch (std::exception &e)
